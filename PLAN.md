@@ -105,10 +105,9 @@ xkb-geschaeftsbereichte-analysen/
 └── bcv/                                # Banque Cantonale Vaudoise (BCV) – identischer Aufbau
 ```
 
-> **Speicher-Hinweis für Git / GitHub:** Im BEKB-Referenzrepo wurden PDFs und `.md/images/` eingecheckt. Bei **4 Banken gleichzeitig** können `pdf/` + `.md/images/` schnell > 1,5–2,5 GB erreichen (GitHub Soft-Limit: 1–5 GB, Einzeldatei-Hard-Limit: 100 MB!).
-> **Verbindliche Regel für Gemini Hydrogen:**
-> 1. Einzelne PDF-Dateien > 50 MB niemals direkt in Git committen (oder PDFs optional per `.gitignore` lokal halten und über reproduzierbares `download_reports.py` + Checksummen-Manifest `pdf_manifest.sha256` dokumentieren; alternativ nur `data/`, `reports/`, `scripts/`, `*.md` und `bank_config.yaml` einchecken, falls die Gesamtgrösse von `pdf/` + `.md/images/` 500 MB übersteigt).
-> 2. **Konvertierte `.md/*.md`-Textdateien** ohne extrahierte Deko-PNGs (`write_images=False` als Default für reine Zahlenextraktion, oder `.md/images/` in `.gitignore`) sparen > 90 % Repo-Grösse ohne jeglichen Qualitätsverlust für die Daten-Pipeline!
+> **Speicher-Regel für PDFs & Markdown:** Alle Original-PDFs werden in `<bank>/pdf/` heruntergeladen, gespeichert und in `<bank>/.md/*.md` konvertiert (analog BEKB).
+> 1. Einzelne PDF-Dateien > 95 MB dürfen wegen des GitHub-100-MB-Hard-Limits nicht direkt gepusht werden (falls ein Geschäftsbericht > 95 MB gross ist, per `qpdf`/Ghostscript verlustarm komprimieren oder per Git LFS tracken).
+> 2. **Konvertierte `.md/*.md`-Textdateien** werden standardmässig ohne eingebettete Deko-PNGs (`write_images=False`) erzeugt, um das Repository kompakt und schnell klonbar zu halten.
 
 ---
 

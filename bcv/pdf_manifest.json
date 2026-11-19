@@ -1,0 +1,513 @@
+[
+  {
+    "filename": "bcv-geschaeftsbericht-2007.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2007/RapportAnnuel_BCV_2007%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 2417590,
+    "sha256": "9584f4d712c66d60bdd8192d34f1217fe3152e89069a7df6b9d5a16bb00c3dbe"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2008.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2008/RapportAnnuel_BCV_2008%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 3022161,
+    "sha256": "7650e23f8eba56c2993c6328a5dcc3a897c1e841ae88702b7a0277d745d401a5"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2009.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2009/RapportAnnuel_BCV_2009.pdf",
+    "status": "downloaded",
+    "bytes": 2263687,
+    "sha256": "db84975e6037ddb596820da2475498c8f5e88b873458838f3a4ee28f06703703"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2010.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2010/RapportAnnuel_BCV_2010.pdf",
+    "status": "downloaded",
+    "bytes": 2402926,
+    "sha256": "d90e419b7bd7311c41bbfb26d39f5c9c50230d307e6395d6fe4ca55db39c2647"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2011.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2011/RapportAnnuel_BCV_2011.pdf",
+    "status": "downloaded",
+    "bytes": 2526296,
+    "sha256": "3f3b5215c9aabd2d43015b1d9adca42d1c386831e82bc1b63f415c9aa4ce534e"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2012.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2012/RapportAnnuel_BCV_2012.pdf",
+    "status": "downloaded",
+    "bytes": 5500824,
+    "sha256": "f57a703e1196241acba9e1ac175979b52867eab5d19306ec1edfa147f020c5fc"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2013.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2013/RapportAnnuel_BCV_2013.pdf",
+    "status": "downloaded",
+    "bytes": 2862913,
+    "sha256": "1e7e5ce1b313bec68b37da4a56d31b5f8a6366160fc15ead39e1b6a246ae198d"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2014.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2014/Rapport-20annuel_2014-bd.pdf",
+    "status": "downloaded",
+    "bytes": 1527390,
+    "sha256": "60b598b2b79d2877a5b3a4215d3d61d07cd0999178250bf39d4b6aa35c0eae4c"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2015.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2015/Rapport-annuel-BCV-2015-fr.pdf",
+    "status": "downloaded",
+    "bytes": 6716039,
+    "sha256": "cac849e4d885411689fb24d7b676cca25e1e91c8519403ef7a2e9c4263dfc03a"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2016.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2016/Rapport-annuel-BCV-2016-fr.pdf",
+    "status": "downloaded",
+    "bytes": 5440698,
+    "sha256": "091029db1f6124a74252d027990e6c2010a263f0ddcefd424502b41b64dbb931"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2017.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2017/FRA%20-%20BCV_Rapport_annuel_2017.pdf",
+    "status": "downloaded",
+    "bytes": 5500436,
+    "sha256": "42dd70db1c35922b65f195c30bd980eddd4d44f146e92fceb1ff88e94f38688b"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2018.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2018/FRA-BCV_Rapport_annuel_2018.pdf",
+    "status": "downloaded",
+    "bytes": 6684932,
+    "sha256": "3f407efdc4ac076edfa38a0d9e2d950c126acdf7716b014085b00b88010bed93"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2019.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2019/FRA-BCV_Rapport_annuel_2019.pdf",
+    "status": "downloaded",
+    "bytes": 6279236,
+    "sha256": "41137ccbb5238a8daaff090b4653a6275a13659bfa96363fdb6f648822f2b07b"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2020.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2020/FR_BCV_Rapport_annuel_2020.pdf",
+    "status": "downloaded",
+    "bytes": 5704151,
+    "sha256": "2788f8fa76aa820f22f30b9a9f9d6587252e5acff02c3e505414092d099acb9a"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2021.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2021/Rapport_annuel_BCV_2021_fr.pdf",
+    "status": "downloaded",
+    "bytes": 7342573,
+    "sha256": "024cdeb403363a262489655400e6be326a462218976521d46710e8264475c675"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2022.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2022/bcv-rapport-annuel-2022-fr.pdf",
+    "status": "downloaded",
+    "bytes": 4166529,
+    "sha256": "8be5155e41928c087c6e4e440d95cbe03340c2f2bcb250ea7878c316cad29f82"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2023.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2023/Rapport-annuel-BCV-2023-fr.pdf",
+    "status": "downloaded",
+    "bytes": 5029734,
+    "sha256": "3b59cc6901c6841b2b25ec72c1d17e73d012d13ad948cbbd9baf98834e091702"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2024.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2024/Rapport-annuel-BCV-2024-fr.pdf",
+    "status": "downloaded",
+    "bytes": 3694129,
+    "sha256": "c9061f9ef915f45ef65ea250d2418d433ac5a766938b62e2dda9d52a60beee9a"
+  },
+  {
+    "filename": "bcv-geschaeftsbericht-2025.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2025/2025_rapport-annuel-bcv_fr_web.pdf",
+    "status": "downloaded",
+    "bytes": 4475909,
+    "sha256": "3cc499fdcb53f5fffaa3bd9480a1c1a46fd83d2496fa8670b560c0c5d4972908"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2009.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2009/RapportBale_2emePilier_3.pdf",
+    "status": "downloaded",
+    "bytes": 333128,
+    "sha256": "b2151a4701ba61893af1135e49077a3312cfeb82bb01d0bfa755087e5d6fe3b1"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2010.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2010/RapportBale_2emePilier_3_30062010.pdf",
+    "status": "downloaded",
+    "bytes": 316677,
+    "sha256": "16c650b8298c93122a7bf50b606163a5fbe73813eabbe9d34fac1c332fa87c08"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2011.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2011/RapportBale_2emePilier_3_30062011%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 350154,
+    "sha256": "4a050d50d2c4397eb3b6fc2fa46d9b7f11e08cda7ae22bed0bc0905e49b3856e"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2012.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2012/RapportBale_2emePilier_330062012.pdf",
+    "status": "downloaded",
+    "bytes": 320852,
+    "sha256": "8c875d96ef0020bbd5a7e0b40d964e6fc23403c53e28659e243102462ca288ad"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2013.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2013/RapportBale_2emePilier_3_30062013%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 401379,
+    "sha256": "a461d7df462fb42e55e41c5858a09edf2551d7828e3e6b6347623574dc73670e"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2014.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2014/RapportBale_3emePilier_3_30062014%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 271397,
+    "sha256": "cc7556c45277d4aad239e5a0a564c9d5a4e88a33b213d648d561ecfc3480e0ef"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2015.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2015/rapport-bale-iii-pilier-3-30062015-fr.pdf",
+    "status": "downloaded",
+    "bytes": 426643,
+    "sha256": "7565b7ab908d1e933754a0da4adcd3d93530fe24e9c3de4efb8d73301c6d76a2"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2016.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2016/rapport-bale-iii-pilier-3-30062016-fr.pdf",
+    "status": "downloaded",
+    "bytes": 308091,
+    "sha256": "522178a90b37c4b5ef486ec30e3ce1967226b47879c0bb3d0ab7103f99e092d8"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2017.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2017/rapport-bale-iii-pilier-3-30062017-fr.pdf",
+    "status": "downloaded",
+    "bytes": 448257,
+    "sha256": "553a150e18b4e0ee3b32dfcbb770ff0f6975e44125ef3af73d853bd9577b4dff"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2018.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2018/BCV_Rapport_B%C3%A2le_III-Pilier_3_au_30-06-2018_fr.pdf",
+    "status": "downloaded",
+    "bytes": 480320,
+    "sha256": "ca59a7316feb22813147b082061157b15f434430f36b164d4da8e19223d7ee47"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2019.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2019/BCV%20B%C3%A2le%20III%20-%20Pilier%203%20au%2030.06.2019-fr%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 1665901,
+    "sha256": "9d4bdcdb3b803bfc02da0694c2bcf67f74c6339d8eb1ea0887a783987756edbe"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2020.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2020/BCV%2020%2008%2019%20B%C3%A2le%20III%20-%20Pilier%203%20au%2030.6.2020.pdf",
+    "status": "downloaded",
+    "bytes": 1943506,
+    "sha256": "3ecd1830ce3c1a09d90753a9fc797f8f4227eaa6c40abfdc3b33388bb5c6b3e2"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2021.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2021/BCV-2021-2008-2017-20B-C3-A2le-20III-20--20Pilier-203-20au-2030.06.2021-fr.pdf",
+    "status": "downloaded",
+    "bytes": 1974220,
+    "sha256": "90a12c5680f411f9d53f2e8bed2624f8b95b8e5771dbb367d088b839f2880e34"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2022.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2022/BCV%2022%2008%2018%20B%C3%A2le%20III%20-%20Pilier%203%20au%2030.06.2022.pdf",
+    "status": "downloaded",
+    "bytes": 681578,
+    "sha256": "85e727466a022741ccf3d22a2212969039eada708896e806abc49f1e2d9481b2"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2023.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2023/17082023-bcv-bale-iii-pilier-3-au-30-06-2023-fr.pdf",
+    "status": "downloaded",
+    "bytes": 680056,
+    "sha256": "5ecfcb4211153df01818c46845519d58ae25dffc12c8b986fc33afc0880eaff2"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2024.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2024/BCV%2024%2008%2015%20B%C3%A2le%20III%20-%20Pilier%203%20au%2030.06.2024%20v2.0.pdf",
+    "status": "downloaded",
+    "bytes": 2165672,
+    "sha256": "9db771f7f94caebbdbfd481d02c4b882916719963372327232fb29bb1bcba460"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2025.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2025/BCV-250819-Bale-III-Final-Pilier-3-au-30062025-fr.pdf",
+    "status": "downloaded",
+    "bytes": 1698797,
+    "sha256": "11696c7b8a06747ab844a35816f91566c84f2e7584e456a54abab6d1622311a1"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-06-2026.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2026/BCV%2026%2008%2017%20B%C3%A2le%20III%20Final%20-%20Pilier%203%20au%2030.06.2026%20v1.0.pdf",
+    "status": "downloaded",
+    "bytes": 1552812,
+    "sha256": "c3cc234b002b53af9ab4ede34fc484af6edae2783e0336a0bb5c37953a1a290f"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2009.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2009/RapportBale_2emePilier_3_31122009%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 339148,
+    "sha256": "0badf31cc3576ef86d9622de351bba99fa70df6b71723399ae8a73f524909bb8"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2010.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2010/RapportBale_2emePilier_3_31122010.pdf",
+    "status": "downloaded",
+    "bytes": 373381,
+    "sha256": "249c95b7aa0ed82c6c573ca47ae0a6a23f8c1a30ece064a80620d286eca39917"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2011.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2011/RapportBale_2emePilier_3_31122011%20(2).pdf",
+    "status": "downloaded",
+    "bytes": 350393,
+    "sha256": "ef8a71735d2c90a0fb7dad3ca86a4ad13a486f8ec3b0e7a319ac3bad8ecb3fdc"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2012.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2012/RapportBale_2emePilier_3_31122012.pdf",
+    "status": "downloaded",
+    "bytes": 357055,
+    "sha256": "c9b98867e1f9d6213eb02fd19518268042322b704e27b2ad6bb2a2ebdc0a3bad"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2013.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2013/RapportBale_3emePilier_3_30122013%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 400820,
+    "sha256": "e0741dbdfee9d6b1228d20b18f01ab5bd4eb5a44fe4b7f0dc5ce18168a28cfed"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2014.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2014/rapport-bale-iii-pilier-3-31122014-fr%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 763902,
+    "sha256": "8e868a3bcadf5821335901384af8a6030a77dfcb8991fb6cb0788c05dd7c13ce"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2015.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2015/rapport-bale-iii-pilier-3-31122015-fr%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 1286581,
+    "sha256": "e63322aa28da4fbab299f6ca2c5fcfbb86066fc68d120ecd47f4413cfac297bc"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2016.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2016/rapport-bale-iii-pilier-3-31122016-fr.pdf",
+    "status": "downloaded",
+    "bytes": 1254659,
+    "sha256": "c35c0a6f146bc3fe6ca1e2bd0f4e615f2cba4034404bfea646c4f920b884539d"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2017.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2017/BCV%20B%C3%A2le%20III%20-%20Pilier%203%20au%2031.12.2017-fr.pdf",
+    "status": "downloaded",
+    "bytes": 479542,
+    "sha256": "d7a8edb938a3b533f2ebf8a448ef4ec0dfe68f37729ae35afba0a50307c6126a"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2018.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2018/BCV%20B%C3%A2le%20III%20-%20Pilier%203%20au%2031.12.2018-fr.pdf",
+    "status": "downloaded",
+    "bytes": 1669759,
+    "sha256": "b5857ca7a2cfd8f90c25c42befda106a4c8263ba73a3b0b6ac73096703d7ab7c"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2019.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2019/BCV%2020%2002%2025%20B%C3%A2le%20III%20-%20Pilier%203%20au%2031.12.2019%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 670657,
+    "sha256": "1b715f38c6d9a79ac2b88da88b7faedb9bbf8dd2b2d27613e4b883b7d3f8a060"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2020.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2020/BCV%2021%2002%2017%20B%C3%A2le%20III%20-%20Pilier%203%20au%2031.12.2020-fr%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 625455,
+    "sha256": "4695d615e69ae3a7ebf4df9615891323b0076661436769f1a33dbbeaef908def"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2021.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2021/BCV-2022-2002-2005-20B-C3-A2le-20III-20--20Pilier-203-20au-2031.12.2021-fr.pdf",
+    "status": "downloaded",
+    "bytes": 682999,
+    "sha256": "b89f7f40943234508faac3343bc620eff7e2cf5414bc814df2ce1ca3b29b72d6"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2022.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2023/09022023-bcv-bale-iii-pilier-3-au-31-12-2022-fr.pdf",
+    "status": "downloaded",
+    "bytes": 680888,
+    "sha256": "ed797252229afcd7ee34af4d64e3fed8c7443b0af78e48def011d2456a7e8a37"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2023.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2024/08022024-bcv-bale-iii-pilier-3-au-31-12-2023-fr.pdf",
+    "status": "downloaded",
+    "bytes": 2153687,
+    "sha256": "08df251e3a6dea6ff3c3c9f9013d1bac2681b936f0833c5016fbb9649c769c96"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2024.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2025/13022025-bcv-bale-iii-pilier-3-au-31-12-2024-fr.pdf",
+    "status": "downloaded",
+    "bytes": 684587,
+    "sha256": "3e72ba90a445dd3b4c7acc96f3502c4b0a11ba505cf26686508082e19bac9602"
+  },
+  {
+    "filename": "bcv-offenlegungsbericht-2025.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/bale-iii/2026/BCV-26-02-09-Bale-III-Final-Pilier-3-au-31-12-2025.pdf",
+    "status": "downloaded",
+    "bytes": 1708587,
+    "sha256": "bdc7ba4b14a92083e7df096fba43c40ec1704847574ff8075c4d8149bf9a190b"
+  },
+  {
+    "filename": "bcv-semesterbericht-2008.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2008/RapportSemestriel_lettre-actionnaires-2008%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 619201,
+    "sha256": "65a79d2e49b7ba368033c6b9644c352ec5caa63cbf1ec69c76ece374188c6ba8"
+  },
+  {
+    "filename": "bcv-semesterbericht-2009.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2009/RapportSemestriel_lettre-actionnaires-2009%20(1).pdf",
+    "status": "downloaded",
+    "bytes": 140338,
+    "sha256": "44bdd5fb5e359e32bfa9541dd2b86f3955aec3bcb0b04f9cc2dc3ce30bf25bf1"
+  },
+  {
+    "filename": "bcv-semesterbericht-2010.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2010/RapportSemestriel_lettre-actionnaires-2010.pdf",
+    "status": "downloaded",
+    "bytes": 349991,
+    "sha256": "1ad6c48418714d430ec34a79ed48b89702a130e62715a9b8d3a65470a7a98f56"
+  },
+  {
+    "filename": "bcv-semesterbericht-2011.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2011/RapportSemestriel_lettre-actionnaires-2011.pdf",
+    "status": "downloaded",
+    "bytes": 103213,
+    "sha256": "2d1ebe4c5ab9a4435df5b80bbc6582d6079f186201f01820f125944ca7b87d3c"
+  },
+  {
+    "filename": "bcv-semesterbericht-2012.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2012/RapportSemestriel_30-06-121.pdf",
+    "status": "downloaded",
+    "bytes": 156354,
+    "sha256": "96ed6841171fa66aec7235d9a11a18ba1dfd28e4a2652397c5d6be6184bf784a"
+  },
+  {
+    "filename": "bcv-semesterbericht-2013.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2013/RapportSemestriel_30-06-13.pdf",
+    "status": "downloaded",
+    "bytes": 1194458,
+    "sha256": "d6ba4344870ce74ab47323c7bc84706f0848afeb3c56695956e79073cdba4d4c"
+  },
+  {
+    "filename": "bcv-semesterbericht-2014.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2014/RapportSemestriel_2014.pdf",
+    "status": "downloaded",
+    "bytes": 301024,
+    "sha256": "2755dd526aaeb84801d3526d82c33580fde74a2012ad3ef3ac1085676f1d34d3"
+  },
+  {
+    "filename": "bcv-semesterbericht-2015.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2015/RapportSemestriel_2015.pdf",
+    "status": "downloaded",
+    "bytes": 286628,
+    "sha256": "a1768b501779781c93133c97024c80bae0d58140f0e3861bc8d942d39d0c2d57"
+  },
+  {
+    "filename": "bcv-semesterbericht-2016.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2016/20180818-Rapport_intermediaire_2016-fr.pdf",
+    "status": "downloaded",
+    "bytes": 341512,
+    "sha256": "ea2d9fd1fcf7cc1eb06c58cb25691dbf54c9a3d7be8debc1c49db9756505c305"
+  },
+  {
+    "filename": "bcv-semesterbericht-2017.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2017/Rapport_intermediaire_2017_FR.pdf",
+    "status": "downloaded",
+    "bytes": 2152920,
+    "sha256": "4ddf1e2721ace2f8e3ccdba9eb47a9095dea82fd74b256ae5cbf6adbea52326b"
+  },
+  {
+    "filename": "bcv-semesterbericht-2018.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2018/Rapport_intermediaire_2018_FR.pdf",
+    "status": "downloaded",
+    "bytes": 1526528,
+    "sha256": "d4e7eb04760ab89befadb665658c6abb17853ac298497bea4616f27fcb0f3182"
+  },
+  {
+    "filename": "bcv-semesterbericht-2019.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2019/20190822-Rapport-intermediaire-2019-fr.pdf",
+    "status": "downloaded",
+    "bytes": 589200,
+    "sha256": "cd94759d7a01eb5f179dd69f965ab3155dde19e2c8bbc78668d838a50165d11d"
+  },
+  {
+    "filename": "bcv-semesterbericht-2020.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2020/Rapport_interm%C3%A9daire_2020_FR%20(2).pdf",
+    "status": "downloaded",
+    "bytes": 460490,
+    "sha256": "6bc32a6a7d8e871e04cf95af2e495b9d4437cd1f79b1ffdcff27d6807a809c45"
+  },
+  {
+    "filename": "bcv-semesterbericht-2021.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2021/Rapport-intermediaire-2021-FR",
+    "status": "downloaded",
+    "bytes": 457737,
+    "sha256": "749bc8e0bdd5fda5bd4f62536e23f45f67106b7582722369942f3bdbeddd3173"
+  },
+  {
+    "filename": "bcv-semesterbericht-2022.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2022/FRA%20-%20BCV%20S1%202022%20-%20Rapport%20interm%C3%A9diaire.pdf",
+    "status": "downloaded",
+    "bytes": 615002,
+    "sha256": "a612fe29446edf5287b842a47798d3589a3a1e1757581f8e2a569a25f1b14301"
+  },
+  {
+    "filename": "bcv-semesterbericht-2023.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2023/rapport-intermedaire-2023-fr.pdf",
+    "status": "downloaded",
+    "bytes": 610821,
+    "sha256": "1f57e4e93d02edacb68e8063849b827dd9de4fb7040439a87200b7e20e6f36bc"
+  },
+  {
+    "filename": "bcv-semesterbericht-2024.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2024/Rapport_interm%C3%A9daire_2024_fr_web.pdf",
+    "status": "downloaded",
+    "bytes": 1713037,
+    "sha256": "4c7d58835866e7de59652b3a1a18ad68056f707c5914fd9ad486aa91c62ffa21"
+  },
+  {
+    "filename": "bcv-semesterbericht-2025.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2025/BCV_Rapport_interm%C3%A9daire_2025_fr.pdf",
+    "status": "downloaded",
+    "bytes": 1549470,
+    "sha256": "66760dba990412668623f2e75b5aeea934d5afda34695081ea266e28986fe78a"
+  },
+  {
+    "filename": "bcv-semesterbericht-2026.pdf",
+    "url": "https://www.bcv.ch/content/dam/bcv/fichiers/publications/publications-institutionnelles/rapports/ra-et-rse/rapports-annuels-et-intermediaires/2026/Rapport_interm%C3%A9daire_2026_fr.pdf",
+    "status": "downloaded",
+    "bytes": 2238851,
+    "sha256": "2ce12ce418fbe9789322bae550e8a78ac282eb3f25e480dba0e09e053e3d9c22"
+  }
+]

@@ -1,0 +1,520 @@
+[
+  {
+    "filename": "zkb-geschaeftsbericht-2014.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/gesamtausgabe_2014.pdf",
+    "status": "downloaded",
+    "bytes": 1636786,
+    "sha256": "b3a44c29b63318c589a3c8b495b41e2e009208d427f0c3c9a03b48a77a5e9454"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2015.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/geschaeftsbericht_2015.pdf",
+    "status": "downloaded",
+    "bytes": 1476466,
+    "sha256": "24f344af1e792dc6d6d4ab6ffd4fe1563aa14e9f3cc77e991bc9e0bf5b799d67"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2016.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/geschaeftsbericht_2016.pdf",
+    "status": "downloaded",
+    "bytes": 1607932,
+    "sha256": "1ad255c5b7dc3681f4448c9ee9605fdb068d3cf6d0343ed5af71bd3790d46ebd"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2017.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/geschaeftsbericht_2017.pdf",
+    "status": "downloaded",
+    "bytes": 1963119,
+    "sha256": "f2e62c957db2f691adaa06b0683a90f40d75e485a28998933cd0e2ebc3bec15e"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2018.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/geschaeftsbericht_2018.pdf",
+    "status": "downloaded",
+    "bytes": 3516228,
+    "sha256": "b7187ce31c71d31c80d5290b15b7af5cb48e737934cd105738a73a063b00118f"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2019.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/geschaeftsbericht_2019.pdf",
+    "status": "downloaded",
+    "bytes": 3629392,
+    "sha256": "f21d822bde7da751b96a86f147650505cd40e9cecbd62a8f4366a0c55e74b2bb"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2020.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/geschaeftsbericht-2020.pdf",
+    "status": "downloaded",
+    "bytes": 5964982,
+    "sha256": "b25cfca533ea0d4aff0a57c8bef6fbbe4aa2de990b363b4b3ec6e0d383bf8a50"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2021.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/geschaeftsbericht-2021.pdf",
+    "status": "downloaded",
+    "bytes": 8106525,
+    "sha256": "da6742ee2b18a4d15f87d89533d5e798282ff663cba6f08c6d77ce948aef4c31"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2022.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/geschaeftsbericht_2022.pdf",
+    "status": "downloaded",
+    "bytes": 10916719,
+    "sha256": "15a78f76451667e21a3605e21f51de419c584dc7357c858a599adfa03a0b3526"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2023.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_geschaeftsbericht_2023.pdf",
+    "status": "downloaded",
+    "bytes": 8279749,
+    "sha256": "f6cb6274cce82dafcf5a36bc9b6b04c1236c5d1f387f35e41550692291b4a67b"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2024.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_geschaeftsbericht_2024.pdf",
+    "status": "downloaded",
+    "bytes": 3126697,
+    "sha256": "e681078ab0ee01eb609f4fc5fce9e13b0fdb7aca41ada70e104cd487a7c55558"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2025-corporate-governance.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_geschaeftsbericht_2025_corporate_governance_de.pdf",
+    "status": "downloaded",
+    "bytes": 743757,
+    "sha256": "5d14ba7012c870704b6dfe40918704bb3c438757eac7f5587b35782584a6f26e"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2025-finanzbericht.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_geschaeftsbericht_2025_finanzbericht_de.pdf",
+    "status": "downloaded",
+    "bytes": 790076,
+    "sha256": "fe432cec16405bde626da86bbf936786dbbe828038b5fbde65613aa2b6863d3f"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2025-lagebericht.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_geschaeftsbericht_2025_lagebericht_de.pdf",
+    "status": "downloaded",
+    "bytes": 1738296,
+    "sha256": "ca8d8b07833f2701ea68742d187665ec757410bd09d78dbbe6a501729d5f532d"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2025-verguetungsbericht.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_geschaeftsbericht_2025_verguetungsbericht_de.pdf",
+    "status": "downloaded",
+    "bytes": 158419,
+    "sha256": "a991760839f4b667b91fec98d155d39288ee0486f918e478932523db3d4c0f3f"
+  },
+  {
+    "filename": "zkb-geschaeftsbericht-2025.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_geschaeftsbericht_2025_de.pdf",
+    "status": "downloaded",
+    "bytes": 3223064,
+    "sha256": "37e4d7f6b0f25b4da1f9be7dc25c61a81e3e543e3e02d60a11f46e7173548d0c"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2014.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_03_2014.pdf",
+    "status": "downloaded",
+    "bytes": 90507,
+    "sha256": "91d50356b65adcd549a2a7afac6f0305464ccca5c5ae57e4e02d8d119129ebdb"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2015.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_03_2015.pdf",
+    "status": "downloaded",
+    "bytes": 110127,
+    "sha256": "00657c61295db8d0dc99506d1f3b9146342efa366f2c80d3dab7470476736b19"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2016.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_03_2016.pdf",
+    "status": "downloaded",
+    "bytes": 958567,
+    "sha256": "93d5e2bf7dc11c0976fe64858dd66ba8999455b49a4d1215e568991517d59a0e"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2017.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_03_2017.pdf",
+    "status": "downloaded",
+    "bytes": 1076770,
+    "sha256": "d0cf9202e51a11bf0aa1bee8923a75dd28d63b08565bfef869c53206bec6d86d"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2019.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_03_2019.pdf",
+    "status": "downloaded",
+    "bytes": 152932,
+    "sha256": "cbcc17b213b5541f75cc50b8efe149a6fd8fc435b89b6523a2becc5e17794a3e"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2020.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_em_liq_31032020.pdf",
+    "status": "downloaded",
+    "bytes": 170724,
+    "sha256": "bc7c93269ec0e428f436412545f428ed6d8bce6f60826d1a14aaff69d810930b"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2021.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_03_2021.pdf",
+    "status": "downloaded",
+    "bytes": 221044,
+    "sha256": "3d829a1c4ddabc266765b3cfba0add7ac605dfd4810dc4a30d8aee0976c85042"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2022.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_03_2022.pdf",
+    "status": "downloaded",
+    "bytes": 207849,
+    "sha256": "e390e10e340753828ac5076ccb4d413678774b55e8cdd291f944c0986f51ff68"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2023.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_03_2023.pdf",
+    "status": "downloaded",
+    "bytes": 241735,
+    "sha256": "7fc77f71a3f9bce571da8c177a5cb330dfafb943486ca2b5666ba985b4167429"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2024.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_03_2024.pdf",
+    "status": "downloaded",
+    "bytes": 317723,
+    "sha256": "52529d27b70cfa76852481cee157e3efb10cf7352b99f98975a5bc56167cc565"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2025.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_offenlegung_2025_q1_de.pdf",
+    "status": "downloaded",
+    "bytes": 228115,
+    "sha256": "410ead7218ea2e45b7967b7f3920a0a6325900df092e6660346783a0a38994bc"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-03-2026.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_offenlegung_2026_q1_de.pdf",
+    "status": "downloaded",
+    "bytes": 227513,
+    "sha256": "ff8a78c736e3fa160ceb41d2ad3a45cb20956d6e1536994db1f6b97f1e87b140"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2015.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_juni_2015.pdf",
+    "status": "downloaded",
+    "bytes": 340406,
+    "sha256": "2cba43b8e3bf9fa5fdb8dce6a11935a41779a603e5e5b3f7f1b2c79099850204"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2016.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_06_2016.pdf",
+    "status": "downloaded",
+    "bytes": 408197,
+    "sha256": "63d92891530c7c50d79d87eac2273f880d5cc26c4de2d7838fb50f8ccc407e60"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2018.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_06_2018.pdf",
+    "status": "downloaded",
+    "bytes": 440235,
+    "sha256": "b86857158ee64b26171f71efd4d2bd80922906416e867c2e97b9fdfa18127971"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2019.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_06_2019.pdf",
+    "status": "downloaded",
+    "bytes": 372288,
+    "sha256": "00d3c160ab7ac8c1dc3849e3e9d106ab773584e97c86cf761efb099f8a706fb9"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2020.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_06_2020.pdf",
+    "status": "downloaded",
+    "bytes": 352377,
+    "sha256": "6d15a83a98f99846d8340178799cf3f6170912703d2bb126e8239917d2cefc57"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2021.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_06_2021.pdf",
+    "status": "downloaded",
+    "bytes": 459322,
+    "sha256": "efac86fb7733d2f80a0f14d1ea52c7336e5d7b692a6e8b5c57b9a846c0dbf22f"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2022.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_06_2022.pdf",
+    "status": "downloaded",
+    "bytes": 469397,
+    "sha256": "5e91f7c640463044137d9ad3a94f817e4ac284bbaf26cb66989ffd0eb140d7bf"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2023.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_06_2023.pdf",
+    "status": "downloaded",
+    "bytes": 608460,
+    "sha256": "39a9d44a55f28f9abf803779d609312c56ba287a9e4214528a654b2d9ae539a2"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2024.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_06_2024.pdf",
+    "status": "downloaded",
+    "bytes": 676579,
+    "sha256": "6e31d6e913a2b43d6599cd2fe3ad3e08f8fdf88b526b393be49fd46e287d93ea"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2025.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_offenlegung_2025_q2_de.pdf",
+    "status": "downloaded",
+    "bytes": 436871,
+    "sha256": "63f17e11b061ed2e4d3b6d5551f2c1f62b01b28a339a11c02f02a65c3d41a6e1"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-06-2026.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_offenlegung_2026_q2_de_web.pdf",
+    "status": "downloaded",
+    "bytes": 548212,
+    "sha256": "53778f16883596b65e90f6b1cab5abbab9789e0d3e3d5082e464be32adf7dfce"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-09-2015.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_september_2015.pdf",
+    "status": "downloaded",
+    "bytes": 944450,
+    "sha256": "1328f28496dd4b14ff806ca064e7d8c095ee02566c633017564a5879f80df401"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-09-2016.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_09_2016.pdf",
+    "status": "downloaded",
+    "bytes": 604062,
+    "sha256": "255d41f144daf222e568d40a2103868fc3e45a60ccafca8c8e6fdee348c49568"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-09-2018.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_09_2018.pdf",
+    "status": "downloaded",
+    "bytes": 142072,
+    "sha256": "63b31141f10718d29d580fc170075d56f8a3ff61b24713956f8c1dcf0795e14d"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-09-2019.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_09_2019.pdf",
+    "status": "downloaded",
+    "bytes": 157629,
+    "sha256": "4401c52116ef5dc31dbf0804877eae39ba115bba12f728f8435bf81a73a6c8a2"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-09-2020.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_09_2020.pdf",
+    "status": "downloaded",
+    "bytes": 219451,
+    "sha256": "c56721434f027d42035cf121650158c4dde83e49f9a4fd0cd82139b34cea4bbe"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-09-2021.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_09_2021.pdf",
+    "status": "downloaded",
+    "bytes": 227456,
+    "sha256": "73b30f18409bd7ac5328f3ee966c99cc6474733e642f6fb313268d516e3a7ca5"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-09-2022.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_09_2022.pdf",
+    "status": "downloaded",
+    "bytes": 208517,
+    "sha256": "98920928340bfd4b7cb6cfaca583c8d411b84ab421484fe52503787438588bcd"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-09-2023.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_09_2023.pdf",
+    "status": "downloaded",
+    "bytes": 304658,
+    "sha256": "862ef0c100c57473cc11367dfbe48059f51dfc9abac1d7b5e13359ff48f8dc1d"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-09-2024.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_offenlegung_q3_2024_de.pdf",
+    "status": "downloaded",
+    "bytes": 213608,
+    "sha256": "4f8f068256d5d3e128e7bc331104786bcac8b86c5a3b93a2333b6406fffb822c"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-09-2025.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_offenlegung_2025_q3_de.pdf",
+    "status": "downloaded",
+    "bytes": 235772,
+    "sha256": "84602e1ca906b4b30dccd53a3aaf50b0980cb7eef28336293591acc70809e19a"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2014.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_12_2014.pdf",
+    "status": "downloaded",
+    "bytes": 86810,
+    "sha256": "bf47c32d49b5e21494ee5e4e8ed1b11ac3ad5ee56f017a5a1b41214995ffca1a"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2016.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_12_2016.pdf",
+    "status": "downloaded",
+    "bytes": 1326988,
+    "sha256": "68a1f062d885f8b4025e22522e18dff72763ad182cfb2943a404bf3537ed60d0"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2017.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_12_2017.pdf",
+    "status": "downloaded",
+    "bytes": 711076,
+    "sha256": "ebcad3bb55c1f4443bb33e74214e68cf247edaa0f4bb0906e7a26ae0e9361637"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2018.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_31122018.pdf",
+    "status": "downloaded",
+    "bytes": 779619,
+    "sha256": "74018ef7f0429603bbaae650e3c0dd0a226c8d93049e7791da5663a9af8e754b"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2019.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegung_em_liq_31_12_2019.pdf",
+    "status": "downloaded",
+    "bytes": 816109,
+    "sha256": "c4f93fc9334009b2e12cddfb5b13a737109ec566c739ccb5d58d7ef3b18c906a"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2020.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport-12-2020.pdf",
+    "status": "downloaded",
+    "bytes": 987546,
+    "sha256": "03157b00084fe80f5a286e4c1f19ffb2ff269e249bdcb71b8e27df575670569e"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2021.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_12_2021.pdf",
+    "status": "downloaded",
+    "bytes": 1155271,
+    "sha256": "808a8e5f1dba8288f93d38af90877b4c25465223abf2f9f53a12805f86ea2d21"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2022.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_12_2022.pdf",
+    "status": "downloaded",
+    "bytes": 1276606,
+    "sha256": "3e3301eda205dc15471c9f77bf49db0cce4f587fc23bf637b63ff91fa112ad0a"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2023.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/offenlegungsreport_12_2023.pdf",
+    "status": "downloaded",
+    "bytes": 1569930,
+    "sha256": "9f4aee670abdaca75ca0302bb803318af19a8b3effb7b2b1cfa09a9760e9b3c5"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2024.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_offenlegung_2024_q4_de.pdf",
+    "status": "downloaded",
+    "bytes": 833238,
+    "sha256": "46b56999f09c023c65b5870451d1f3d17d45dbc53d009b18b29270a937b5fd15"
+  },
+  {
+    "filename": "zkb-offenlegungsbericht-2025.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/ZKB%20Offenlegung%20Q4%202025_de%20final_ok.pdf",
+    "status": "downloaded",
+    "bytes": 963386,
+    "sha256": "0b3d2c5ee4c9e0e68d8e4c3be7c6b5e7733d2d063c0325181d423a9b539e6c97"
+  },
+  {
+    "filename": "zkb-semesterbericht-2013.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/halbjahresbericht_2013.pdf",
+    "status": "downloaded",
+    "bytes": 496363,
+    "sha256": "6dad74e47068209bf95370572826b5470589dc57868eac5281823a60591eaf82"
+  },
+  {
+    "filename": "zkb-semesterbericht-2014.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/halbjahresbericht_2014.pdf",
+    "status": "downloaded",
+    "bytes": 367575,
+    "sha256": "df4caf8a27cf9565f9c5d43f57d278a160ecd0bb4608a2c9915006962d41c7a3"
+  },
+  {
+    "filename": "zkb-semesterbericht-2015.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/halbjahresbericht_2015.pdf",
+    "status": "downloaded",
+    "bytes": 257012,
+    "sha256": "cb9010007827d279e87fa8b79c74d7a8cd8fdfa96f47115ae80f1fa1e197aa44"
+  },
+  {
+    "filename": "zkb-semesterbericht-2016.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/halbjahresbericht_2016.pdf",
+    "status": "downloaded",
+    "bytes": 156249,
+    "sha256": "258544f4efd49590fce3c307826ff46f21bba9694c47711853d63b8dd5807481"
+  },
+  {
+    "filename": "zkb-semesterbericht-2017.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/halbjahresbericht_2017.pdf",
+    "status": "downloaded",
+    "bytes": 153681,
+    "sha256": "2ee3039291547882caccfd57681fc27a0072f5b4d5545511a56db8bfe4c7cf13"
+  },
+  {
+    "filename": "zkb-semesterbericht-2018.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/halbjahresbericht_2018.pdf",
+    "status": "downloaded",
+    "bytes": 497153,
+    "sha256": "b7860e7009b11266956f6f8035f7082675b8f75e8b90e2b76223025f662991c1"
+  },
+  {
+    "filename": "zkb-semesterbericht-2019.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/halbjahresbericht_2019.pdf",
+    "status": "downloaded",
+    "bytes": 156930,
+    "sha256": "b410b945f1d3e876f5d2d9890129953bff2cf43cc8103f6457e111f2b459fcfd"
+  },
+  {
+    "filename": "zkb-semesterbericht-2020.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/halbjahresbericht_2020.pdf",
+    "status": "downloaded",
+    "bytes": 676791,
+    "sha256": "060f4227178457aa3677ac28e11bef78b2d1d36ee3ad7f0ba9734f48e1e5b511"
+  },
+  {
+    "filename": "zkb-semesterbericht-2021.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_hjb_2021.pdf",
+    "status": "downloaded",
+    "bytes": 200643,
+    "sha256": "786a31774667574f424580c27c79cdaaba27f605d8cd2b018d9107dbb1d14a97"
+  },
+  {
+    "filename": "zkb-semesterbericht-2022.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/halbjahresbericht_2022.pdf",
+    "status": "downloaded",
+    "bytes": 187681,
+    "sha256": "470f00cc869bff4a57fa47ea7e7e82cca34d99c73b296f9f85dfc5e689091322"
+  },
+  {
+    "filename": "zkb-semesterbericht-2023.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/halbjahresbericht_2023.pdf",
+    "status": "downloaded",
+    "bytes": 187355,
+    "sha256": "dba2fe9ce9164abe0ff7f839fa6a3a662393261fc53c29564ec658e4a8568a06"
+  },
+  {
+    "filename": "zkb-semesterbericht-2024.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_halbjahresbericht_2024.pdf",
+    "status": "downloaded",
+    "bytes": 240994,
+    "sha256": "8006edff69efbaaf84adf5567958080c3c9c70abff77fa78d08d7018797c40b3"
+  },
+  {
+    "filename": "zkb-semesterbericht-2025.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_halbjahresbericht_2025_de.pdf",
+    "status": "downloaded",
+    "bytes": 342440,
+    "sha256": "7a846453198f975ba0d6e2f357fbcd0cb3d462f3acbac3b10d82b34b4ab9c2b8"
+  },
+  {
+    "filename": "zkb-semesterbericht-2026.pdf",
+    "url": "https://www.zkb.ch/media/zkb/dokumente/investor-relations/zkb_halbjahresbericht_2026_de_web.pdf",
+    "status": "downloaded",
+    "bytes": 292281,
+    "sha256": "38041ea4c55c63a4c839d40785d9106df0300e868b683fe08101594a09888a91"
+  }
+]
