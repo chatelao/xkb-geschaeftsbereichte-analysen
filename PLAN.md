@@ -1,458 +1,347 @@
-# Master-Umsetzungsplan: XKB Geschäftsberichte Analysen (ZKB, GEKB, VSKB, BCV, Raiffeisen, PostFinance, UBS)
+# Master-Umsetzungsplan für Gemini Hydrogen: Ausweitung der BEKB-Analysen auf alle 8 Schweizer Banken & Institutsübergreifende Auswertung
 
-> **Auftraggeber / Referenz:** Analog zu [`chatelao/bekb-geschaeftsbereichte-analysen`](https://github.com/chatelao/bekb-geschaeftsbereichte-analysen)
-> **Ausführungsmodell:** Optimiert für die schrittweise, deterministisch verifizierbare Umsetzung durch **Gemini Hydrogen** (z. B. `gemini-2.5-flash-lite` bzw. Hydrogen-Agent-Tier).
+> **Referenz-Implementierung:** [`chatelao/bekb-geschaeftsbereichte-analysen`](https://github.com/chatelao/bekb-geschaeftsbereichte-analysen)
 > **Ziel-Repository:** `chatelao/xkb-geschaeftsbereichte-analysen`
+> **Ausführungsmodell:** Optimiert für die schrittweise, deterministisch verifizierbare Umsetzung durch **Gemini Hydrogen** (`gemini-2.5-flash-lite` bzw. Hydrogen-Agent-Tier).
+> **Aktueller Stand (Voraussetzung erfüllt):** Alle Rohdaten (**458 PDFs** und **458 Markdown-Dateien** ohne Bild-Bloat) liegen bereits vollständig in den 8 Instituts-Unterverzeichnissen vor.
 
 ---
 
-## 1. Zielsetzung & Abdeckung der sieben Banken
+## 1. Gesamtkonzept in zwei Hauptschritten
 
-Dieses Repository erweitert die bewährte vierstufige **«Hydrogen-First» Map-Validate-Reduce-Pipeline** der BEKB-Analyse auf **sieben Schweizer Banken** (vier Kantonalbanken + Raiffeisen, PostFinance und UBS) – jeweils in einem eigenen Unterverzeichnis, gespeist von einer **gemeinsamen, getesteten Python-Kernbibliothek (`shared/`)** sowie abgerundet durch ein **Cross-Bank-Benchmarking (`comparison/`)** und ein **gemeinsames MkDocs-/Read-the-Docs- & GitHub-Pages-Portal**.
+Das Projekt gliedert sich in **zwei klar getrennte Ausbaustufen**:
 
-| Ordner | Kürzel | Offizieller Name | Kanton / Sitz | Rechtsform & Börse | Staatsgarantie | FINMA-Kat. | Abschluss-Scope | Berichts-Sprachen |
-| :--- | :---: | :--- | :---: | :--- | :---: | :---: | :---: | :--- |
-| [`zkb/`](./zkb/ANALYSE_STRATEGIE.md) | **ZKB** | Zürcher Kantonalbank | ZH | Öffentlich-rechtliche Anstalt (100 % Kanton ZH, **nicht kotiert**) | Voll (exkl. nachrangig) | **Kat. 2 (D-SIB / TBTF)** | **Konzern** | DE (EN) |
-| [`gekb/`](./gekb/ANALYSE_STRATEGIE.md) | **GEKB / BCGE** | Banque Cantonale de Genève | GE | Öffentlich-rechtliche AG (SIX: `BCGE`; ~72,6 % öff. Hand) | **Keine** (abgeschafft) | Kat. 3 | **Konzern** | **FR** (teils EN/DE) |
-| [`vskb/`](./vskb/ANALYSE_STRATEGIE.md) | **VSKB / WKB** | Walliser Kantonalbank (BCVs) | VS | Öffentlich-rechtliche AG (SIX: `WKB`; 70 % Kanton VS) | Voll | Kat. 3 | **Einzelabschluss** | **DE** & FR |
-| [`bcv/`](./bcv/ANALYSE_STRATEGIE.md) | **BCV** | Banque Cantonale Vaudoise | VD | Öffentlich-rechtliche AG (SIX: `BCVN`; ~66,95 % Kanton VD) | **Keine** | Kat. 3 | **Konzern** | **FR** & EN |
-| [`raiffeisen/`](./raiffeisen/ANALYSE_STRATEGIE.md) | **Raiffeisen** | Raiffeisen Gruppe Schweiz | SG | Genossenschaftsverbund (**nicht kotiert**) | **Keine** | **Kat. 2 (D-SIB / TBTF)** | **Konzern** | **DE** (FR/IT) |
-| [`postfinance/`](./postfinance/ANALYSE_STRATEGIE.md) | **PostFinance** | PostFinance AG | BE | AG (100 % Die Schweizerische Post AG, **nicht kotiert**) | **Keine** | **Kat. 2 (D-SIB / TBTF)** | **Einzelabschluss** | **DE** (FR/IT/EN) |
-| [`ubs/`](./ubs/ANALYSE_STRATEGIE.md) | **UBS** | UBS Group AG | ZH | Publikums-AG (SIX: `UBSG`, NYSE: `UBS`) | **Keine** | **Kat. 1 (G-SIB / TBTF)** | **Konzern (USD)** | **EN** (teils DE) |
-
-### Ziel-Berichtszeitraum (analog BEKB)
-- **Geschäftsberichte (`annual`):** Ideal `2003–2025` (mindestens lückenlos ab ältestem öffentlich über Website, `vskb.ch` oder Wayback Machine verfügbarem Jahrgang; Ziel: ≥ 15–23 Jahre).
-- **Semesterberichte (`semester`):** Ideal `H1-2013–H1-2026` (per 30. Juni).
-- **Offenlegungsberichte (`offenlegung`):** Ideal `FY2015–FY2025` sowie `H1-2018–H1-2026` (inkl. **Basel III final** ab `2025` / `06-2025`). Bei ZKB (D-SIB) werden Halbjahres- (`06-YYYY`) und Jahresstichtage (`YYYY`) analog extrahiert; Quartalsstichtage Q1/Q3 sind optional.
-- **Berichtssprache aller erzeugten Analysen & Grafiken:** Einheitlich **Deutsch** (Schweizer Finanzterminologie, Zahlenformat `1'234,5` bzw. `CHF 10.80`), auch wenn die Primärquellen bei GEKB/BCGE und BCV auf Französisch/Englisch vorliegen.
+1. **Schritt 1 — Instituts-Ausweitung (Phasen P0 bis P7):**
+   - Die bewährte 4-stufige **«Hydrogen-First» Map-Validate-Reduce-Pipeline** der BEKB (`chunk_reports.py` → `extract_with_hydrogen.py` → `build_dataset_and_reports.py` → `generate_charts.py`) wird **einmalig** in eine generische, unit-getestete Kernbibliothek [`shared/`](./shared/) extrahiert und über deklarative `<bank>/bank_config.yaml`-Dateien parametrisiert.
+   - **BEKB (`bekb/`)** dient in Phase 0 als **Goldstandard-Regressionstest** (100 % Nachbildung der bisherigen BEKB-Kennzahlen und 7 Berichte / 13 Grafiken aus den kopierten Rohdaten).
+   - Anschliessend wird die Pipeline in **7 vertikalen Instituts-Scheiben** (aufsteigend nach struktureller Komplexität: `vskb` → `zkb` → `bcv` → `gekb` → `raiffeisen` → `postfinance` → `ubs`) ausgerollt.
+2. **Schritt 2 — Institutsübergreifende Auswertung & Gesamtportal (Phasen P8 bis P9):**
+   - Alle 8 validierten Einzelbank-Panels werden über einen **Harmonisierungs- und Vergleichbarkeits-Layer** (`shared/compare_banks.py`) in ein einheitliches Cross-Bank-Datenmodell (`comparison/data/`) zusammengeführt (inkl. Währungsumrechnung `USD → CHF` für UBS, BFS-LIK-Inflationsbereinigung auf `real 2025 CHF` sowie expliziten Vergleichbarkeits-Flags für Konzern vs. Stammhaus, ARB vs. IFRS, FINMA-Kategorie 1/2/3, Staatsgarantie und Kreditverbot).
+   - Darauf aufbauend entstehen **5 institutsübergreifende Vergleichsberichte**, **8–10 Benchmark-Grafiken** sowie ein gemeinsames **MkDocs-/Read-the-Docs- & GitHub-Pages-Portal** mit automatisiertem Determinismus-CI/CD.
 
 ---
 
-## 2. Ziel-Repository-Struktur
+## 2. Bestandsaufnahme der 8 Institute (Rohdaten bereit)
 
-```text
-xkb-geschaeftsbereichte-analysen/
-├── PLAN.md                             # Dieser Master-Umsetzungsplan (Runbook für Hydrogen)
-├── README.md                           # Zentrale Portalseite mit 4-Banken-Scorecard & Links
-├── .gitignore                          # Ignoriert .rtd_docs/, site/, __pycache__/, .venv/
-├── .readthedocs.yaml                   # Read the Docs Build-Konfiguration (Python 3.12)
-├── mkdocs.yml                          # Gemeinsame Material-for-MkDocs-Navigation (Root + 4 Banken + Vergleich)
-├── docs/
-│   └── requirements.txt                # mkdocs, mkdocs-material, pymdown-extensions
-├── docs_assets/
-│   ├── javascripts/mathjax.js
-│   └── stylesheets/extra.css           # Einheitliches Tabellen- & Karten-Styling
-├── .github/
-│   └── workflows/docs-cicd.yml         # Determinismus-Check + mkdocs --strict + GH Pages + RTD Webhook
-├── shared/                             # Gemeinsame, unit-getestete Pipeline-Kernbibliothek
-│   ├── __init__.py
-│   ├── config.py                       # Lädt <bank>/bank_config.yaml in typsicheres BankConfig-Objekt
-│   ├── cpi_bfs.py                      # BFS LIK (Dez. 1982 = 100, 2003–2025) – Single Source of Truth
-│   ├── download_utils.py               # PDF-Downloader mit %PDF/%%EOF-Check, Retry & Wayback-CDX-Helper
-│   ├── pdf_to_md.py                    # pymupdf4llm-Konverter (<bank>/pdf/ -> <bank>/.md/)
-│   ├── chunker.py                      # Mehrsprachiger (DE/FR/EN) deterministischer Chunker (< 2.500 Tokens)
-│   ├── extractor.py                    # Stufe 2 Map-Phase (--backend gemini|local|auto, Swiss/FR/EN Parser)
-│   ├── validator_kpi.py                # Stufe 3 Normierung, t->t+1 Selbstheilung, Split-Adjustierung, KPIs
-│   ├── report_builder.py               # Stufe 4 Reduce-Phase (7 Berichte pro Bank, --backend local|gemini)
-│   ├── chart_engine.py                 # 13 standardisierte 300-DPI-Grafiken pro Bank + Vergleichscharts
-│   ├── compare_banks.py                # Cross-Bank-Panel & Benchmarking-Bericht (ZKB/GEKB/VSKB/BCV)
-│   └── prepare_docs.py                 # Erzeugt .rtd_docs/ aus Root, comparison/ und zkb|gekb|vskb|bcv
-├── tests/                              # Schnelle Unit-Tests für shared/ (pytest)
-│   ├── test_number_parser.py           # DE/FR/EN Zahlen, Klammern, Tausendertrennzeichen, Fussnoten
-│   ├── test_unit_and_split.py          # TCHF/Mio./Mrd.-Normierung & Aktiensplit-Bereinigung
-│   ├── test_self_healing.py            # Vorjahres-Kreuzvalidierung & Abweichungs-Audit
-│   └── test_kpi_and_cpi.py             # CIR, ROE, RWA-Dichte, BFS LIK Real-Bereinigung
-├── comparison/                         # Bankübergreifendes Benchmarking (Phase 5)
-│   ├── data/
-│   │   ├── xkb_comparison_annual.csv
-│   │   ├── xkb_comparison_offenlegung.csv
-│   │   └── xkb_comparison_all.json
-│   └── reports/
-│       ├── README.md
-│       ├── 01_groesse_wachstum_und_geschaeftsmodell.md
-│       ├── 02_profitabilitaet_effizienz_und_produktivitaet.md
-│       ├── 03_kapitalisierung_staatsgarantie_und_basel_iii.md
-│       ├── 04_ausschuettung_aktie_und_verguetung_real.md
-│       └── charts/                     # 6–8 Cross-Bank-Vergleichsgrafiken
-├── zkb/                                # Zürcher Kantonalbank (analog BEKB-Struktur)
-│   ├── ANALYSE_STRATEGIE.md
-│   ├── ROADMAP.md
-│   ├── README.md
-│   ├── bank_config.yaml                # Deklarative Bank-Metadaten, Anchor-Patterns, Epochen, Palette
-│   ├── download_reports.py             # Kuratierte Download-URLs (Website + vskb.ch + Wayback)
-│   ├── overrides.json                  # Dokumentierte Sonderfälle (z.B. Vergütungs-Tabellen, Einmaleffekte)
-│   ├── pdf/                            # Original-PDFs: zkb-{geschaeftsbericht|semesterbericht|offenlegungsbericht}-*.pdf
-│   ├── .md/                            # Konvertiertes Markdown + .md/images/
-│   ├── data/
-│   │   ├── chunks/                     # Stufe 1 JSON-Chunks + manifest.json
-│   │   ├── extracted/                  # Stufe 2 Roh-Extraktionen mit source_quote
-│   │   ├── zkb_panel_2003_2026.csv
-│   │   ├── zkb_panel_annual.csv
-│   │   ├── zkb_panel_semester.csv
-│   │   ├── zkb_panel_offenlegung.csv
-│   │   ├── zkb_verguetung_real_2003_2025.csv
-│   │   ├── zkb_panel_all.json
-│   │   └── validation_report.md
-│   └── reports/
-│       ├── README.md
-│       ├── 01_zinszyklen_und_ertragsarchitektur.md
-│       ├── 02_bilanzwachstum_hypotheken_und_refinanzierung.md
-│       ├── 03_aufsichtsrechtliche_resilienz_basel_iii.md
-│       ├── 04_operative_effizienz_und_transformation.md
-│       ├── 05_dotationskapital_ausschuettung_und_kanton_zuerich.md   # ZKB-spezifisch (nicht kotiert)
-│       ├── 06_unterjaehrige_dynamik_semesterberichte.md
-│       ├── 07_strategische_epochen_und_governance.md
-│       └── charts/                     # 13 Grafiken (identische Nummernlogik 01..07 wie BEKB)
-├── gekb/                               # Banque Cantonale de Genève (BCGE) – identischer Aufbau
-├── vskb/                               # Walliser Kantonalbank (WKB / BCVs) – identischer Aufbau
-└── bcv/                                # Banque Cantonale Vaudoise (BCV) – identischer Aufbau
-```
+| Phase | Ordner | Institut | Rechtsform / Ticker | Staatsgarantie | FINMA-Kat. | Scope / Standard / Währung | Sprache | Rohdaten im Repo (PDF / MD) |
+| :---: | :--- | :--- | :--- | :---: | :---: | :--- | :---: | :---: |
+| **P0 (Baseline)** | [`bekb/`](./bekb/) | **Berner Kantonalbank (BEKB)** | AG (SIX: `BEKN`) | Keine | Kat. 3 | Einzelabschluss / ARB / CHF | DE | **57 / 57** (`2003–2026`) |
+| **P1 (Pilot)** | [`vskb/`](./vskb/ANALYSE_STRATEGIE.md) | **Walliser Kantonalbank (WKB / BCVs)** | AG (SIX: `WKB`) | Voll | Kat. 3 | Einzelabschluss / ARB / CHF | DE / FR | **40 / 40** (`2007–2026`) |
+| **P2** | [`zkb/`](./zkb/ANALYSE_STRATEGIE.md) | **Zürcher Kantonalbank (ZKB)** | Anstalt (100 % Kt. ZH) | Voll | **Kat. 2 (D-SIB)** | Konzern / ARB / CHF | DE | **74 / 74** (`2013–2026`) |
+| **P3** | [`bcv/`](./bcv/ANALYSE_STRATEGIE.md) | **Banque Cantonale Vaudoise (BCV)** | AG (SIX: `BCVN`) | Keine | Kat. 3 | Konzern / ARB / CHF | FR / EN | **73 / 73** (`2007–2026`) |
+| **P4** | [`gekb/`](./gekb/ANALYSE_STRATEGIE.md) | **Banque Cantonale de Genève (BCGE)** | AG (SIX: `BCGE`) | Keine | Kat. 3 | Konzern / ARB / CHF | FR | **65 / 65** (`2003–2026`) |
+| **P5** | [`raiffeisen/`](./raiffeisen/ANALYSE_STRATEGIE.md) | **Raiffeisen Gruppe Schweiz** | Genossenschaftsverbund | Keine | **Kat. 2 (D-SIB)** | Konzern / ARB / CHF | DE | **75 / 75** (`2011–2026`) |
+| **P6** | [`postfinance/`](./postfinance/ANALYSE_STRATEGIE.md) | **PostFinance AG** | AG (100 % Post) | Keine | **Kat. 2 (D-SIB)** | Einzelabschluss / ARB / CHF | DE | **60 / 60** (`2013–2026`) |
+| **P7** | [`ubs/`](./ubs/ANALYSE_STRATEGIE.md) | **UBS Group AG** | AG (SIX: `UBSG`, NYSE: `UBS`) | Keine | **Kat. 1 (G-SIB)** | Konzern / **IFRS / USD** | EN | **14 / 14** (`2020–2025`) |
+| **Total** | **8 Institute** | **5 KB + Raiffeisen + PostFinance + UBS** | | | | | DE/FR/EN | **458 PDFs / 458 MDs** |
 
-> **Speicher-Regel für PDFs & Markdown:** Alle Original-PDFs werden in `<bank>/pdf/` heruntergeladen, gespeichert und in `<bank>/.md/*.md` konvertiert (analog BEKB).
-> 1. Einzelne PDF-Dateien > 95 MB dürfen wegen des GitHub-100-MB-Hard-Limits nicht direkt gepusht werden (falls ein Geschäftsbericht > 95 MB gross ist, per `qpdf`/Ghostscript verlustarm komprimieren oder per Git LFS tracken).
-> 2. **Konvertierte `.md/*.md`-Textdateien** werden standardmässig ohne eingebettete Deko-PNGs (`write_images=False`) erzeugt, um das Repository kompakt und schnell klonbar zu halten.
+> **Wichtig für Gemini Hydrogen:** Phase 0 (PDF-Download & `pymupdf4llm`-Konvertierung) ist für alle 8 Institute bereits abgeschlossen. Beginne direkt mit dem Aufbau der generischen Pipeline unter `shared/` und verwende die vorhandenen `<bank>/.md/*.md`-Dateien als unveränderliche Primärquelle.
 
 ---
 
-## 3. «Hydrogen-First» Architekturprinzipien (Verbindliche Leitplanken)
-
-Da der gesamte Plan durch **Gemini Hydrogen** umgesetzt wird, gelten **sechs unverrückbare Regeln** für jede Phase:
+## 3. Ziel-Architektur & Repository-Struktur
 
 ```mermaid
 flowchart LR
-    A["PDFs (<bank>/pdf/)"] --> B["Stufe 0: pymupdf4llm\n(<bank>/.md/)"]
-    B --> C["Stufe 1: shared/chunker.py\nSektions-Chunks < 2.500 Tokens"]
-    C --> D["Stufe 2: shared/extractor.py\nMAP: Striktes JSON + source_quote\n(0 Arithmetik)"]
-    D --> E["Stufe 3: shared/validator_kpi.py\nNormierung, t+1 Selbstheilung,\nSplit-Adjust, KPIs, BFS LIK"]
-    E --> F["Stufe 4: shared/report_builder.py\nREDUCE: 7 Berichte + 13 Charts"]
-    F --> G["Phase 5: shared/compare_banks.py\n& shared/prepare_docs.py\nCross-Bank + MkDocs/RTD"]
+    subgraph S1["Schritt 1: Einzelbank-Pipeline (P0–P7, 8 Institute)"]
+        A["<bank>/.md/*.md\n(458 Dateien vorhanden)"] --> B["Stufe 1: shared/chunker.py\nDE/FR/EN Chunks < 2.500 Tokens"]
+        B --> C["Stufe 2: shared/extractor.py\nMAP: JSON + source_quote\n(--backend local|gemini, 0 Arithmetik)"]
+        C --> D["Stufe 3: shared/validator_kpi.py\nNormierung, FX (USD->CHF),\nt+1 Selbstheilung, Splits, KPIs, BFS LIK"]
+        D --> E["Stufe 4: shared/report_builder.py\n& shared/chart_engine.py\n7 Berichte + 13 Charts je Bank"]
+    end
+    subgraph S2["Schritt 2: Institutsübergreifend (P8–P9)"]
+        D --> F["shared/compare_banks.py\nHarmonisiertes 8-Banken-Panel\n+ 5 Vergleichsberichte + 8–10 Charts"]
+        E --> G["shared/prepare_docs.py\nMkDocs / RTD / GH Pages\n& CI/CD Determinismus-Gate"]
+        F --> G
+    end
 ```
 
-1. **Einmal bauen, viermal konfigurieren (`shared/` + `bank_config.yaml`):** Niemals 1'500 Zeilen Python pro Bank kopieren. Alle Bank-Unterschiede (Sprache, Konzern/Stammhaus, Anker-Regex, Aktiensplits, FINMA-Zielgrössen, Farbpalette, Epochen) werden deklarativ in `<bank>/bank_config.yaml` gepflegt.
-2. **Kein Rechnen im LLM:** In Stufe 2 extrahiert Gemini Hydrogen ausschliesslich `value_current`, `value_prior_year`, `unit` und `source_quote`. Einheiten-Normierung (`TCHF`/`Mio. CHF`/`Mrd. CHF`), Aktiensplit-Bereinigung, Differenzen, CAGRs, Quoten und Inflationsbereinigung laufen **ausschliesslich deterministisch in Python**.
-3. **Konzern vs. Stammhaus strikt trennen:** Jede Bank legt in `bank_config.yaml` genau einen `reporting_scope` fest (`consolidated` für ZKB, GEKB, BCV; `standalone` für VSKB). Der Chunker muss Konzern-Tabellen (`Konzernbilanz`, `Bilan consolidé`, `Consolidated balance sheet`) explizit priorisieren und Stammhaus-Tabellen ausschliessen, damit keine Misch-Zeitreihen entstehen.
-4. **Dual-Backend (`--backend local` & `--backend gemini`):** Sowohl Stufe 2 (`extractor.py`) als auch Stufe 4 (`report_builder.py`) müssen – genau wie bei BEKB – mit `--backend local` vollständig offline und deterministisch laufen (CI-Gate: `git diff --exit-code`!) und mit `--backend gemini` (`gemini-2.5-flash-lite` via `GEMINI_API_KEY`) die Hydrogen-API ansteuern können.
-5. **Vertikale Scheiben (Bank für Bank):** Niemals alle 4 Banken gleichzeitig halbfertig beginnen. Erst `shared/` + Unit-Tests (Phase 0), dann **VSKB** als Pilotbank komplett bis zu 7 Berichten + 13 Charts (Phase 1), dann **ZKB** (Phase 2), **BCV** (Phase 3), **GEKB** (Phase 4), abschliessend **Cross-Bank & Portal** (Phase 5).
-6. **Jede Phase endet mit einem maschinellen Verifikations-Gate:** Keine nächste Phase starten, bevor alle Akzeptanztests der laufenden Phase mit Exit-Code `0` bestehen.
+```text
+xkb-geschaeftsbereichte-analysen/
+├── PLAN.md                             # Dieses Runbook für Gemini Hydrogen
+├── README.md                           # Zentrale Portalseite mit 8-Banken-Scorecard
+├── mkdocs.yml                          # Gemeinsame Material-for-MkDocs-Navigation
+├── .readthedocs.yaml                   # Read the Docs Build-Konfiguration (Python 3.12)
+├── docs/requirements.txt               # mkdocs, mkdocs-material, pymdown-extensions
+├── docs_assets/                        # mathjax.js, extra.css (analog BEKB)
+├── .github/workflows/docs-cicd.yml     # pytest + Determinismus-Check + mkdocs --strict + Pages
+├── shared/                             # Gemeinsame, unit-getestete Kernbibliothek
+│   ├── __init__.py
+│   ├── config.py                       # Typsicherer Loader für <bank>/bank_config.yaml
+│   ├── cpi_bfs.py                      # BFS LIK (Dez. 1982 = 100, 2003–2025) -> real 2025 CHF
+│   ├── fx_rates.py                     # SNB-Referenzkurse USD/CHF (Stichtag 31.12. & Jahresdurchschnitt)
+│   ├── download_utils.py               # (bereits vorhanden) PDF-Downloader + Manifest
+│   ├── pdf_to_md.py                    # (bereits vorhanden) pymupdf4llm-Konverter
+│   ├── chunker.py                      # Mehrsprachiger (DE/FR/EN) Chunker mit Scope-Filter
+│   ├── extractor.py                    # Stufe 2 Map-Phase (--backend local|gemini|auto)
+│   ├── validator_kpi.py                # Stufe 3 Normierung, FX, t+1 Selbstheilung, Splits, KPIs
+│   ├── report_builder.py               # Stufe 4 Reduce-Phase (7 Berichte pro Institut)
+│   ├── chart_engine.py                 # 13 standardisierte 300-DPI-Grafiken pro Institut
+│   ├── compare_banks.py                # Schritt 2: Cross-Bank-Panel, 5 Berichte & 8–10 Charts
+│   └── prepare_docs.py                 # Erzeugt .rtd_docs/ für alle 8 Institute + comparison/
+├── tests/                              # Unit- & Regressionstests (pytest)
+│   ├── test_number_parser.py           # DE/FR/EN Zahlen, Klammern, Fussnoten
+│   ├── test_unit_fx_and_split.py       # TCHF/Mio./Mrd., USD->CHF, Aktiensplits
+│   ├── test_self_healing.py            # t->t+1 Kreuzvalidierung & Abweichungs-Audit
+│   ├── test_kpi_and_cpi.py             # CIR, ROE, RWA-Dichte, BFS LIK Real-Bereinigung
+│   ├── test_bekb_regression.py         # Abgleich shared/ gegen BEKB-Referenzwerte
+│   └── test_comparison_layer.py        # Cross-Bank-Harmonisierung, Peer-Gruppen, Schema
+├── bekb/                               # Referenz-Baseline (57 PDFs/MDs vorhanden)
+├── vskb/                               # Pilotbank (40 PDFs/MDs vorhanden)
+├── zkb/                                # D-SIB Kantonalbank (74 PDFs/MDs vorhanden)
+├── bcv/                                # FR/EN Konzern, IRB, 1:10-Split (73 PDFs/MDs vorhanden)
+├── gekb/                               # FR Konzern, öff. Mehrebenen-Aktionariat (65 PDFs/MDs vorhanden)
+├── raiffeisen/                         # Genossenschaftsverbund D-SIB (75 PDFs/MDs vorhanden)
+├── postfinance/                        # Post-Tochter D-SIB, Kreditverbot (60 PDFs/MDs vorhanden)
+├── ubs/                                # G-SIB, IFRS in USD, CS-Integration (14 PDFs/MDs vorhanden)
+└── comparison/                         # Schritt 2: Institutsübergreifende Auswertung (Phase 8)
+    ├── data/
+    │   ├── xkb_comparison_annual.csv
+    │   ├── xkb_comparison_semester.csv
+    │   ├── xkb_comparison_offenlegung.csv
+    │   ├── xkb_comparison_verguetung_real.csv
+    │   └── xkb_comparison_all.json
+    └── reports/
+        ├── README.md
+        ├── 01_groesse_wachstum_und_geschaeftsmodell.md
+        ├── 02_profitabilitaet_effizienz_und_produktivitaet.md
+        ├── 03_kapitalisierung_regulierung_und_staatsgarantie.md
+        ├── 04_ausschuettung_eigentuemer_und_verguetung_real.md
+        ├── 05_zinswenden_saisonalitaet_und_resilienz.md
+        └── charts/                     # 8–10 Cross-Bank-Grafiken (300 DPI)
+```
 
 ---
 
-## 4. Kanonisches Datenmodell & `bank_config.yaml`-Schema
+## 4. Verbindliche «Hydrogen-First» Leitplanken
 
-### 4.1 Kanonische Kennzahlen (identisch über alle 4 Banken + BEKB)
+1. **Einmal bauen, achtmal konfigurieren (`shared/` + `bank_config.yaml`):** Keine kopierten Bank-Skripte. Alle Instituts-Unterschiede (Sprache, Scope, Rechnungslegung, Währung, Anker-Regex, Aktiensplits, FINMA-Zielgrössen, `report_05_mode`, Farbpalette, Epochen, Strukturbrüche) werden ausschliesslich deklarativ in `<bank>/bank_config.yaml` (und dokumentierte Sonderfälle in `<bank>/overrides.json`) gepflegt.
+2. **Kein Rechnen im LLM:** In Stufe 2 extrahiert Gemini Hydrogen ausschliesslich `value_current`, `value_prior_year`, `unit`, `currency` und `source_quote`. Einheiten-Normierung (`TCHF`/`Mio.`/`Mrd.`), Währungsumrechnung (`USD → CHF`), Aktiensplits, Differenzen, CAGRs, Quoten und Inflationsbereinigung laufen **ausschliesslich deterministisch in Python**.
+3. **Konzern vs. Einzelabschluss strikt trennen:** `reporting_scope` (`consolidated` vs. `standalone`) wird im Chunker hart erzwungen, damit niemals Misch-Zeitreihen aus Konzern- und Stammhauszahlen entstehen.
+4. **Dual-Backend (`--backend local` & `--backend gemini`):** Sowohl `shared/extractor.py` als auch `shared/report_builder.py` und `shared/compare_banks.py` müssen mit `--backend local` **vollständig offline und bit-deterministisch** laufen (CI-Gate: `git diff --exit-code`), während `--backend gemini` die Hydrogen-API (`gemini-2.5-flash-lite` via `GEMINI_API_KEY`) ansteuert.
+5. **Vertikale Scheiben & harte Verifikations-Gates:** Keine neue Phase starten, bevor die Verifikationskommandos der laufenden Phase mit Exit-Code `0` bestehen.
 
-| Dimension | `metric_id` | Kanonische Einheit | DE / FR / EN Kernbegriffe |
-| :--- | :--- | :---: | :--- |
-| **A. Erfolgsrechnung** | `net_interest_income` | `TCHF` | Netto-Zinserfolg / Résultat net des opérations d'intérêts / Net interest income |
-| | `commission_income` | `TCHF` | Erfolg aus Kommissions- und Dienstleistungsgeschäft / Résultat des opérations de commissions |
-| | `trading_income` | `TCHF` | Erfolg aus Handelsgeschäft / Résultat des opérations de négoce |
-| | `other_ordinary_income` | `TCHF` | Übriger ordentlicher Erfolg / Autres résultats ordinaires |
-| | `total_operating_income` | `TCHF` | Geschäftsertrag / Total des produits d'exploitation / Total income |
-| | `personnel_expenses` | `TCHF` | Personalaufwand / Charges de personnel / Personnel costs |
-| | `general_expenses` | `TCHF` | Sachaufwand / Autres charges d'exploitation / Other operating expenses |
-| | `total_operating_expenses` | `TCHF` | Geschäftsaufwand / Total des charges d'exploitation / Operating expenses |
-| | `operating_profit` | `TCHF` | Geschäftserfolg (ab 2015) bzw. Bruttogewinn / Résultat opérationnel / Operating profit |
-| | `reserves_change` | `TCHF` | Veränderung Reserven für allg. Bankrisiken / Variation des réserves pour risques bancaires généraux |
-| | `taxes` | `TCHF` | Steuern / Impôts / Taxes |
-| | `net_profit` | `TCHF` | Konzerngewinn / Jahresgewinn / Bénéfice net / Net profit |
-| **B. Bilanz & Volumen** | `total_assets` | `TCHF` | Bilanzsumme / Total de l'actif / Total assets |
-| | `mortgage_loans` | `TCHF` | Hypothekarforderungen / Créances hypothécaires / Mortgage loans |
-| | `customer_loans_other` | `TCHF` | Forderungen gegenüber Kunden / Créances sur la clientèle / Loans and advances to customers |
-| | `customer_deposits` | `TCHF` | Verpflichtungen aus Kundeneinlagen / Engagements résultant des dépôts de la clientèle |
-| | `kassenobligationen` | `TCHF` | Kassenobligationen / Obligations de caisse (falls ausgewiesen) |
-| | `pfandbriefe_bonds` | `TCHF` | Anleihen und Pfandbriefdarlehen / Emprunts et prêts des centrales d'émission de lettres de gage |
-| | `reserves_banking_risks` | `TCHF` | Reserven für allg. Bankrisiken / Réserves pour risques bancaires généraux |
-| | `shareholders_equity` | `TCHF` | Eigenkapital / Total des capitaux propres / Shareholders' equity |
-| | `assets_under_management` | `Mio. CHF` | Verwaltete Vermögen / Masse sous gestion / Assets under management (AuM) |
-| | `net_new_money` | `Mio. CHF` | Netto-Neugeld / Afflux nets de fonds / Net new money (NNM) |
-| **C. Offenlegung (Basel III)** | `rwa_total` | `TCHF` | Total RWA / Total des positions pondérées en fonction des risques (KM1 / OV1) |
-| | `cet1_capital` | `TCHF` | Hartes Kernkapital (CET1) / Fonds propres de base durs (CET1) |
-| | `tier1_capital` | `TCHF` | Kernkapital (T1) / Fonds propres de base (T1) |
-| | `total_capital` | `TCHF` | Gesamtkapital / Total des fonds propres (inkl. T2; ZKB zusätzl. `tlac_ratio_pct` / Gone Concern) |
-| | `cet1_ratio_pct` | `%` | CET1-Quote / Ratio CET1 |
-| | `total_capital_ratio_pct` | `%` | Gesamtkapitalquote / Ratio global de fonds propres |
-| | `leverage_ratio_pct` | `%` | Leverage Ratio / Ratio de levier |
-| | `lcr_pct` | `%` | Liquidity Coverage Ratio (LCR) |
-| | `nsfr_pct` | `%` | Net Stable Funding Ratio (NSFR, ab 2021) |
-| **D. Aktie, Kanton & Operatives** | `share_price_eoy` | `CHF` | Aktienkurs 31.12. / Cours de l'action (nur GEKB, VSKB, BCV; `null` bei ZKB) |
-| | `dividend_per_share` | `CHF` | Dividende pro Aktie (inkl. Nennwertrückzahlung separat flaggen; `null` bei ZKB) |
-| | `canton_share_pct` | `%` | Beteiligungsquote Kanton / öffentliche Hand |
-| | `contribution_public_mio` | `Mio. CHF` | Gesamtablieferung an öffentliche Hand (Dividende Kanton/Gem. + Steuern + Staatsgarantie-Abgeltung) |
-| | `canton_guarantee_fee_mio` | `Mio. CHF` | Abgeltung Staatsgarantie (ZKB, VSKB; `0`/entfällt bei GEKB, BCV) |
-| | `fte_count` | `FTE` | Personalbestand teilzeitbereinigt / Effectif en équivalents plein temps (EPT) |
-| | `branch_count` | `Anzahl` | Geschäftsstellen / Filialen / Succursales & agences |
+---
 
-### 4.2 Verpflichtende `bank_config.yaml`-Struktur (pro Bank)
+## 5. Kanonisches Datenmodell & `bank_config.yaml`-Schema
+
+### 5.1 Kanonisches Kennzahlen-Schema (identisch über alle 8 Institute)
+
+Alle Werte werden intern in **Originalwährung** (`value_orig`, `currency_orig`) **und** harmonisiert in **CHF** (`TCHF` bzw. `Mio. CHF`) gespeichert, damit Einzelbank-Berichte (z. B. UBS in USD *und* CHF-Vergleichswert) und Cross-Bank-Analysen (durchgehend in CHF / `real 2025 CHF`) konsistent bleiben.
+
+| Dimension | Kanonische `metric_id`s | Einheit (harmonisiert) |
+| :--- | :--- | :---: |
+| **A. Erfolgsrechnung** | `net_interest_income`, `commission_income`, `trading_income`, `other_ordinary_income`, `total_operating_income`, `personnel_expenses`, `general_expenses`, `total_operating_expenses`, `operating_profit`, `reserves_change`, `taxes`, `net_profit` | `TCHF` |
+| **B. Bilanz & Volumen** | `total_assets`, `mortgage_loans`, `customer_loans_other`, `financial_investments`, `customer_deposits`, `kassenobligationen`, `pfandbriefe_bonds`, `reserves_banking_risks`, `shareholders_equity`, `assets_under_management` (`Mio. CHF`), `net_new_money` (`Mio. CHF`) | `TCHF` / `Mio. CHF` |
+| **C. Offenlegung (Basel III)** | `rwa_total`, `cet1_capital`, `tier1_capital`, `total_capital`, `cet1_ratio_pct`, `tier1_ratio_pct`, `total_capital_ratio_pct`, `tlac_ratio_pct` *(D-SIB/G-SIB)*, `leverage_ratio_pct`, `lcr_pct`, `nsfr_pct` | `TCHF` / `%` |
+| **D. Eigentümer, Aktie & Operatives** | `share_price_eoy`, `dividend_per_share`, `payout_total_mio`, `public_share_pct`, `contribution_public_mio`, `state_guarantee_fee_mio`, `fte_count`, `branch_count`, `coop_members_count` *(Raiffeisen)* | `CHF` / `Mio. CHF` / `%` / `FTE` |
+| **E. Vergütung (real 2025 CHF)** | `vr_total_comp_tchf`, `gl_total_comp_tchf`, `ceo_total_comp_tchf`, `avg_personnel_cost_per_fte_tchf` | `TCHF` (nom. & real 2025) |
+
+> **Hinweis zu `financial_investments`:** Besonders wichtig für **PostFinance** (gesetzliches Kreditverbot → Bilanz dominiert von Finanzanlagen statt Hypotheken) und für den Geschäftsmodell-Vergleich in Schritt 2.
+
+### 5.2 Deklaratives `bank_config.yaml`-Schema (pro Institut)
 
 ```yaml
-bank_id: "vskb"                          # zkb | gekb | vskb | bcv
-short_name: "WKB (VSKB)"
-full_name: "Walliser Kantonalbank"
-canton: "Wallis"
-legal_form: "public_ag"                  # public_ag | cantonal_institution
+bank_id: "ubs"                           # bekb | vskb | zkb | bcv | gekb | raiffeisen | postfinance | ubs
+short_name: "UBS"
+full_name: "UBS Group AG"
+peer_group: "g_sib"                      # cantonal_bank | domestic_dsib | g_sib
+canton_or_hq: "Zürich"
+legal_form: "listed_ag"                  # listed_ag | cantonal_institution | cooperative_group | post_subsidiary
 listed: true
-ticker: "WKB"                            # null für ZKB
-state_guarantee: true
-finma_category: 3                        # 2 (D-SIB) für ZKB, 3 für GEKB/VSKB/BCV
-reporting_scope: "standalone"            # standalone | consolidated
-primary_languages: ["de", "fr"]
-file_prefix: "vskb"                      # Einheitliches Präfix für pdf/ und .md/
+ticker: "UBSG"                           # null bei ZKB, Raiffeisen, PostFinance
+state_guarantee: false
+has_credit_ban: false                    # true nur bei PostFinance
+finma_category: 1                        # 1 (G-SIB) | 2 (D-SIB) | 3
+reporting_scope: "consolidated"          # standalone | consolidated
+accounting_standard: "IFRS"              # ARB_RVB | IFRS
+reporting_currency: "USD"                # CHF | USD (steuert shared/fx_rates.py)
+primary_languages: ["en"]                # ["de"], ["fr", "en"], ["de", "fr"], ["en"]
+file_prefix: "ubs"
 
-capital_targets_pct:                     # Für Chart 03 (Soll-Ist-Vergleich)
-  cet1_target: 9.2                       # Bankindividuell aus aktuellem KM1/Offenlegung verifizieren!
-  total_capital_target: 13.4
-  leverage_min: 3.0                      # ZKB (D-SIB): Going-Concern TBTF-Anforderung!
+capital_targets_pct:                     # Für Bericht 03 & Chart 03 (Soll-Ist)
+  cet1_target: 14.0                      # Bankindividuell aus aktuellem KM1/Pillar 3!
+  total_capital_target: 18.0
+  tlac_target: 28.6                      # Optional für Kat. 1 & 2 (Gone Concern / TLAC)
+  leverage_min: 5.0                      # TBTF Going-Concern vs. 3.0 % für Kat. 3
   lcr_min: 100.0
   nsfr_min: 100.0
 
 share_splits: []                         # z.B. BCV: [{date: "2020-05-28", ratio: 10}]
 
-report_05_mode: "listed_share"           # "listed_share" (GEKB/VSKB/BCV) | "cantonal_endowment" (ZKB)
+report_05_mode: "listed_share"           # listed_share | cantonal_endowment | cooperative_payout | post_dividend
 report_05_slug: "05_aktie_dividenden_und_wertschoepfung"
 
-palette:                                 # Bank-Markenfarben für 13 Charts
-  primary: "#C8102E"
-  secondary: "#0F2942"
+palette:                                 # Eindeutige Markenfarben für Einzel- & Vergleichscharts
+  primary: "#E60000"
+  secondary: "#1E293B"
   accent: "#0F766E"
   muted: "#64748B"
 
-epochs:                                  # 3–4 strategische Epochen für Bericht 07 & Scorecard
-  - {label: "Epoche 1", start: 2003, end: 2014, title: "..."}
-  - {label: "Epoche 2", start: 2015, end: 2021, title: "..."}
-  - {label: "Epoche 3", start: 2022, end: 2026, title: "..."}
+plausibility_bounds_chf_mio:             # Verhindert 1'000x-Einheitenfehler deterministisch
+  total_assets_min: 800000
+  total_assets_max: 2200000
 
-structural_breaks:                       # Automatisch in validation_report.md & Reduce-Prompts zitiert
-  - {year: 2015, label: "FINMA-RVB / ARB Umstellung"}
+epochs:
+  - {label: "Epoche 1", start: 2020, end: 2022, title: "Vor-CS-Normalisierung & Zinswende"}
+  - {label: "Epoche 2", start: 2023, end: 2025, title: "Credit-Suisse-Übernahme & Integration"}
+
+structural_breaks:
+  - {year: 2023, label: "Akquisition Credit Suisse (Negative Goodwill USD 27.7 Mrd.)"}
   - {year: 2025, label: "Basel III final (ab 01.01.2025)"}
 ```
 
-### 4.3 Standard-Katalog: 7 Mehrjahresberichte & 13 Visualisierungen pro Bank
+### 5.3 Die 4 Modi für Bericht 05 & Chart 05 (Eigentümer-Wertschöpfung)
 
-Jede der vier Banken erzeugt exakt **7 Berichte** (Struktur: *1. Management Summary*, *2. Quantitative Entwicklung*, *3. Treiberanalyse & Wendepunkte*, *4. Fazit & Ausblick*) und **13 Grafiken** analog BEKB:
+Da nicht alle 8 Institute börsenkotierte Aktiengesellschaften sind, unterstützt `report_builder.py` und `chart_engine.py` vier konfigurierbare Modi für **Bericht 05**:
 
-| Nr. | Bericht | Standard-Grafiken (`<bank>/reports/charts/`) | Bank-spezifische Anpassung |
-| :---: | :--- | :--- | :--- |
-| **01** | Zinszyklen & Ertragsarchitektur | `01_erfolgsrechnung_wasserfall_2025.png`, `01_ertrag_kosten_marge_kombi.png` | ZKB: starkes Handels- & Asset-Management-Geschäft (Swisscanto); GEKB: Trade/Commodity Finance & Private Banking |
-| **02** | Bilanzwachstum, Hypotheken & Refinanzierung | `02_bilanz_gestapelte_saeulen_2025.png`, `02_bilanz_treemap_2025.png`, `02_bilanz_sankey_2025.png`, `02_bilanz_langfrist_wachstum.png` | Konzern- vs. Stammhaus-Konsistenz; Pfandbrief- & Anleihen-Refinanzierung |
-| **03** | Aufsichtsrechtliche Resilienz & Basel III | `03_soll_ist_vergleich_horizontal_2026.png`, `03_kapital_rwa_basel.png` | ZKB: D-SIB Going-/Gone-Concern & TLAC; BCV: IRB-Ansatz vs. Basel III final Output Floor |
-| **04** | Operative Effizienz & Transformation | `04_effizienz_produktivitaet.png` (+ Querverweis auf Chart 07 real) | FTE-Produktivität, CIR-Zielband, Filialnetz-Umbau |
-| **05** | Aktie, Dividende & Wertschöpfung Kanton *(ZKB: Dotationskapital, Ausschüttung & Kanton ZH)* | `05_aktie_dividende_kanton.png` *(ZKB: `05_dotationskapital_ausschuettung_kanton.png`)* | **ZKB:** Gewinnausschüttung Kanton/Gemeinden + Staatsgarantie-Abgeltung + OECD-Mindeststeuer (ab 2024); **BCV/GEKB/VSKB:** split-bereinigte Aktie, Dividende, Ausschüttungsquote & Rückfluss öff. Hand |
-| **06** | Unterjährige Dynamik (Semesterberichte) | `06_semester_saisonalitaet_reserven.png` | H1/FY-Saisonalität, H2-Reservensteuerung & Indikation H1-2026 |
-| **07** | Strategische Epochen, Governance & reale Vergütung | `07_langfrist_dashboard_epochen.png`, `07_gewinn_loehne_verguetung_real.png` | Inflationsbereinigung via `shared/cpi_bfs.py` (BFS LIK Dez. 1982 = 100, Basis real 2025 CHF) |
+| `report_05_mode` | Institute | Fokus von Bericht 05 & Chart 05 |
+| :--- | :--- | :--- |
+| `listed_share` | **BEKB, VSKB, BCV, GEKB, UBS** | Split-bereinigter Aktienkurs, Dividende je Aktie, Ausschüttungsquote, Total Return & Rückfluss an öffentliche Hand (falls KB) bzw. Aktionäre (inkl. Aktienrückkäufe bei UBS). |
+| `cantonal_endowment` | **ZKB** | Dotationskapital, ordentliche Gewinnausschüttung an Kanton & Gemeinden, Staatsgarantie-Abgeltung & OECD-Mindeststeuer (ab 2024). |
+| `cooperative_payout` | **Raiffeisen** | Genossenschaftsanteilscheine, Verzinsung der Anteilscheine, Mitgliederzahl (`coop_members_count`), Thesaurierungsquote & lokale Wertschöpfung der Raiffeisenbanken. |
+| `post_dividend` | **PostFinance** | Dividendenablieferung an die Schweizerische Post AG (indirekt Bund), Eigenkapital-Steuerung unter TBTF-Anforderungen & Einfluss der Zinswende auf die Ausschüttungsfähigkeit. |
 
 ---
 
-## 5. Schritt-für-Schritt-Umsetzungsplan für Gemini Hydrogen (Phasen P0–P5)
+## 6. Schritt 1: Detaillierter Umsetzungsplan für die Einzelbank-Ausweitung (Phasen P0–P7)
 
-> **Ausführungsanweisung für Gemini Hydrogen:** Arbeite die Phasen strikt in der Reihenfolge `P0 → P1 → P2 → P3 → P4 → P5` ab. Schliesse jede Phase erst ab, wenn alle zugehörigen **Verifikationskommandos** fehlerfrei durchlaufen, und committe nach jeder abgeschlossenen Phase auf einem Feature-Branch (oder gemäss Vorgabe).
+> **Ausführungsanweisung für Gemini Hydrogen:** Arbeite die Phasen strikt in der Reihenfolge `P0 → P1 → P2 → P3 → P4 → P5 → P6 → P7` ab. Führe am Ende jeder Phase das jeweilige Verifikations-Gate aus und committe erst bei Exit-Code `0`.
 
----
+### Phase 0: Kernbibliothek `shared/` & BEKB-Goldstandard-Regression
 
-### Phase 0: Repository-Fundament & gemeinsame `shared/`-Pipeline
-
-**Ziel:** Eine saubere, getestete, bankunabhängige Python-Kernbibliothek, damit die Phasen P1–P4 weitgehend über Konfiguration (`bank_config.yaml`) und bank-spezifische Downloader laufen.
+**Ziel:** Überführung der 5 BEKB-Referenzskripte in die generische, parametrisierbare `shared/`-Bibliothek und Nachweis, dass `bekb/` damit vollständig und deterministisch reproduziert wird.
 
 #### Atomare Aufgaben
-1. **Basisdateien im Root anlegen:**
-   - `.gitignore` (`.rtd_docs/`, `site/`, `__pycache__/`, `.venv/`, `*.pyc`, `.pytest_cache/`, `<bank>/.md/images/` falls Bild-Extraktion ausgeschaltet/ignoriert wird).
-   - `docs/requirements.txt` (`mkdocs>=1.6,<2.0`, `mkdocs-material>=9.5,<10.0`, `pymdown-extensions>=10.0`).
-   - `.readthedocs.yaml`, `docs_assets/javascripts/mathjax.js`, `docs_assets/stylesheets/extra.css` (analog BEKB-Referenz).
-2. **`shared/cpi_bfs.py` implementieren:**
-   - Offizieller BFS LIK Jahresdurchschnitt (Basis Dez. 1982 = 100) für `2003–2025` (exakt identisch zu BEKB: `2003: 150.7`, ..., `2025: 169.7`) sowie Hilfsfunktion `deflate_to_real_2025(value, year)`.
-3. **`shared/config.py` implementieren:**
-   - Lädt `<bank>/bank_config.yaml` (mit PyYAML oder stdlib-JSON-Fallback; Empfehlung: `pyyaml` als klare Abhängigkeit) und validiert Pflichtfelder (`bank_id`, `reporting_scope`, `finma_category`, `report_05_mode`, `capital_targets_pct`, `palette`, `epochs`).
-4. **`shared/download_utils.py` & `shared/pdf_to_md.py` implementieren:**
-   - PDF-Integrity-Check (`%PDF` Header + `%%EOF` Trailer + Mindestgrösse > 10 KB), automatischer Retry mit Exponential Backoff, Schreiben eines `pdf_manifest.json` (Dateiname, URL, SHA-256, Bytes, HTTP-Status).
-   - `pdf_to_md.py`: Wrapper um `pymupdf4llm.to_markdown(..., write_images=False)` als Standard (optional `--write-images`), CLI: `python3 -m shared.pdf_to_md --bank <bank>`.
-5. **`shared/chunker.py` & `shared/extractor.py` implementieren:**
-   - Chunker mit DE-, FR- und EN-Ankerlisten (konfigurierbar/erweiterbar pro Bank in `bank_config.yaml`), striktem `reporting_scope`-Filter (`Konzern`/`Consolidé` vs. `Stammhaus`/`Maison-mère`), TOC-Filter und `< 9'500` Zeichen/Chunk.
-   - Extractor mit Schweizer/Französisch/Englisch-Zahlenparser (`1'234,5`, `1 234.5`, `(12 345)`, `–12 345`), Einheiten-Erkennung (`in TCHF`, `en milliers de CHF`, `in CHF thousands`, `in Mio. CHF`, `en millions de CHF`, `en CHF millions`, `in Mrd. CHF`), Dual-Backend `--backend local|gemini|auto`, striktem JSON-Output inkl. `source_quote`.
-6. **`shared/validator_kpi.py` implementieren:**
-   - Einheiten-Normierung auf kanonisches Schema (`TCHF`, `Mio. CHF`, `%`, `CHF`, `FTE`).
-   - Vorjahres-Kreuzvalidierung & automatische Selbstheilung (`t` aus `prior_year` von `t+1`), Protokollierung aller Abweichungen > 0,5 %.
-   - Deterministische **Aktiensplit-Bereinigung** für historische Kurs- und Dividendenreihen (`share_splits` aus `bank_config.yaml`).
-   - Deterministische Berechnung aller abgeleiteten KPIs (`cir_pct`, `interest_share_pct`, `commission_share_pct`, `loan_to_deposit_pct`, `deposit_coverage_pct`, `mortgage_share_assets_pct`, `roe_pct`, `rwa_density_pct`, `income_per_fte_tchf`, `assets_per_fte_mio`, Kapital-Überschuss über FINMA-Zielgrösse).
-   - Generierung von `<bank>/data/<bank>_panel_*.csv`, `<bank>/data/<bank>_verguetung_real_*.csv`, `<bank>/data/<bank>_panel_all.json` und `<bank>/data/validation_report.md`.
-7. **`shared/report_builder.py` & `shared/chart_engine.py` implementieren:**
-   - Generiert die 7 Mehrjahresberichte (`reports/01_*.md` bis `07_*.md` + `reports/README.md`) mit Unterstützung für `report_05_mode = listed_share | cantonal_endowment` und `--backend local | gemini`.
-   - Generiert alle 13 hochauflösenden PNG-Grafiken (`300 DPI`) deterministisch aus den CSV/JSON-Panels (ohne hartcodierte Einzelbank-Zahlen!).
-8. **Unit-Test-Suite (`tests/`) schreiben:**
-   - Mindestens 20 gezielte Tests für Zahlenparser (DE/FR/EN, Negativ-Klammern, Fussnoten), Einheiten-Konvertierung, Aktiensplits (z. B. BCV 1:10), `t+1`-Selbstheilung, KPI-Formeln und BFS-LIK-Deflationierung.
+1. **Basis- & Doku-Konfiguration im Root anlegen:**
+   - `docs/requirements.txt`, `.readthedocs.yaml`, `docs_assets/javascripts/mathjax.js`, `docs_assets/stylesheets/extra.css` (analog `bekb-geschaeftsbereichte-analysen`).
+2. **Referenzdaten-Module in `shared/` anlegen:**
+   - `shared/cpi_bfs.py`: BFS LIK Jahresdurchschnitt (Basis Dez. 1982 = 100, `2003–2025`: identisch zu BEKB) + `deflate_to_real_2025(value, year)`.
+   - `shared/fx_rates.py`: Offizielle SNB-Referenzkurse `USD/CHF` (`2019–2026`, Jahresendkurs für Bilanz/RWA, Jahresdurchschnittskurs für Erfolgsrechnung/Vergütung) + Hilfsfunktion `convert_to_chf(value, currency, year, rate_type)`.
+   - `shared/config.py`: Lädt und validiert `<bank>/bank_config.yaml` (inkl. Plausibilitätsgrenzen & `report_05_mode`).
+3. **4-Stufen-Pipeline in `shared/` generalisieren:**
+   - `shared/chunker.py`: Mehrsprachige (DE/FR/EN) Sektions-Anker (Erfolgsrechnung, Bilanz, Kapital/KM1/Offenlegung, Aktie/Dividende/Eigentümer, Vergütung/Governance, Semester), TOC-Filter, strikter `reporting_scope`-Filter (`Konzern`/`Consolidé`/`Consolidated` vs. `Stammhaus`/`Einzelabschluss`), Chunks `< 9'500` Zeichen.
+   - `shared/extractor.py`: DE/FR/EN-Zahlenparser (`1'234,5`, `1 234.5`, `(12,345)`, `–12 345`), Einheiten- & Währungserkennung (`TCHF`, `Mio. CHF`, `Mrd. CHF`, `USD million`, `USD billion`, `en milliers/millions de CHF`), Dual-Backend `--backend local|gemini|auto`, strikter JSON-Output mit `source_quote`.
+   - `shared/validator_kpi.py`: Einheiten- & FX-Normierung, `t → t+1` Vorjahres-Selbstheilung mit Abweichungs-Audit (`> 0.5 %`), deterministische Aktiensplit-Bereinigung, Plausibilitäts-Korridor-Check, Berechnung aller KPIs (`cir_pct`, `roe_pct`, `roa_pct`, `interest_share_pct`, `commission_share_pct`, `loan_to_deposit_pct`, `mortgage_share_assets_pct`, `rwa_density_pct`, `income_per_fte_tchf`, `assets_per_fte_mio`, Kapital-Puffer über FINMA-Zielgrösse), Export nach `<bank>/data/<bank>_panel_*.csv`, `<bank>_verguetung_real_*.csv`, `<bank>_panel_all.json` und `validation_report.md`.
+   - `shared/report_builder.py`: Generiert die **7 Standard-Berichte** (`01_*.md` bis `07_*.md` + `reports/README.md`) mit Unterstützung aller vier `report_05_mode`-Varianten und `--backend local|gemini`.
+   - `shared/chart_engine.py`: Generiert die **13 Standard-Grafiken** (`300 DPI`) vollständig datengetrieben aus `<bank>/data/` (identische Nummernlogik `01` bis `07` wie BEKB, Bank-Farbpalette aus `bank_config.yaml`, dynamische Achsen- und Währungsbeschriftung).
+4. **BEKB-Regression (`bekb/`) einrichten:**
+   - `bekb/bank_config.yaml` (und ggf. `bekb/overrides.json` für historische Vergütungstabellen) anlegen.
+   - Pipeline `chunker → extractor --backend local → validator_kpi → report_builder --backend local → chart_engine` auf `bekb/.md/` ausführen.
+   - `tests/test_bekb_regression.py` prüft Schlüsselwerte 2003–2025/H1-2026 gegen die bekannten BEKB-Eckwerte (Abweichung `= 0.0 %`).
+5. **Unit-Test-Suite (`tests/`) schreiben:** Mindestens 25 Tests für Zahlenparser, Einheiten/FX/Splits, Selbstheilung, KPIs/CPI und BEKB-Regression.
 
 #### Verifikations-Gate Phase 0
 ```bash
 uv run --with pytest --with pyyaml --with matplotlib pytest -q tests/
-python3 -m shared.config --check-schema
+python3 -m shared.validator_kpi --bank bekb --strict-audit
+python3 -m shared.report_builder --bank bekb --backend local
+uv run --with matplotlib --with pyyaml python3 -m shared.chart_engine --bank bekb
+ls bekb/reports/0*.md | wc -l         # Erwartet: 7
+ls bekb/reports/charts/*.png | wc -l  # Erwartet: 13
 ```
-**Abnahmekriterium:** Alle Unit-Tests grün (`0 failed`), alle `shared/`-CLI-Module zeigen saubere `--help`-Ausgaben.
 
 ---
 
-### Phase 1 (Pilotbank): `vskb/` – Walliser Kantonalbank (WKB / BCVs)
+### Phasen P1 bis P7: Vertikaler Rollout über die 7 weiteren Institute
 
-**Warum VSKB zuerst?** Zweisprachig (vollständige deutsche Berichte verfügbar!), Einzelabschluss (wie BEKB), FINMA Kategorie 3 (wie BEKB), SIX-kotiert (`WKB`, 70 % Kanton Wallis), volle Staatsgarantie. Damit validiert Gemini Hydrogen die gesamte `shared/`-Pipeline End-to-End am geringsten Risikoprofil!
+Für **jedes** Institut (`<bank>`) folgt Gemini Hydrogen demselben reproduzierbaren 5-Schritte-Muster:
+1. `<bank>/bank_config.yaml` gemäss `<bank>/ANALYSE_STRATEGIE.md` anlegen.
+2. `python3 -m shared.chunker --bank <bank>` und `python3 -m shared.extractor --bank <bank> --backend local` *(optional Abgleich mit `--backend gemini`)* ausführen.
+3. `python3 -m shared.validator_kpi --bank <bank>` ausführen und `<bank>/data/validation_report.md` auditieren → Parser-Anker in `bank_config.yaml` verfeinern bzw. dokumentierte Einzelfälle in `<bank>/overrides.json` hinterlegen, bis `--strict-audit` besteht.
+4. `python3 -m shared.report_builder --bank <bank> --backend local` und `chart_engine --bank <bank>` ausführen (`7 Berichte` + `13 Grafiken`).
+5. `<bank>/README.md` aktualisieren (Executive-Scorecard + Links auf alle 7 Berichte & Grafiken).
 
-**Detail-Spezifikation:** Siehe [`vskb/ANALYSE_STRATEGIE.md`](./vskb/ANALYSE_STRATEGIE.md).
+| Phase | Institut | Spezifische Schwerpunkte & Sonderprüfungen (Audit-Checkliste) |
+| :---: | :--- | :--- |
+| **P1 (Pilot)** | **`vskb/`** (WKB) | Einzelabschluss, DE/FR, Kat. 3, volle Staatsgarantie, SIX `WKB`. Prüfen: bruchfreie Übernahme der 40 Berichte (`2007–2026`), Lücken `2008` & `2011–2013` über `t+1`-Selbstheilung schliessen/dokumentieren. |
+| **P2** | **`zkb/`** (ZKB) | Konzern, DE, Kat. 2 D-SIB, `report_05_mode: cantonal_endowment`. Prüfen: 2025-Split-PDFs korrekt als ein Geschäftsjahr `2025` zusammenführen; Swisscanto (2015), Custody-Umklassierung AuM 2024 (-55 Mrd. CHF), TLAC/Gone-Concern und OECD-Mindeststeuer (ab 2024) sauber ausweisen. |
+| **P3** | **`bcv/`** (BCV) | Konzern, FR/EN, Kat. 3, keine Staatsgarantie, SIX `BCVN`. Prüfen: FR/EN-Parser, deterministischer **1:10-Aktiensplit (Mai 2020)** auf Kurs & Dividende, Kapitalrückzahlungen aus Reserven, IRB-Ansatz vs. Basel III final Output Floor (`2025/06-2026`). |
+| **P4** | **`gekb/`** (BCGE) | Konzern, FR, Kat. 3, keine Staatsgarantie, SIX `BCGE`. Prüfen: Mehrebenen-Aktionariat (Kanton + Stadt + Gemeinden ≈ 72,6 %), Global Commodity Finance / Risikovorsorge, etwaiger Aktiensplit 2025/2026, historische Abwicklung *Fondation de valorisation* (bis 2008). |
+| **P5** | **`raiffeisen/`** | Konzern Genossenschaftsverbund, DE, Kat. 2 D-SIB, `report_05_mode: cooperative_payout`. Prüfen: Genossenschaftsanteilscheine & Mitgliederzahl, D-SIB TLAC/Bail-in-Bonds, interne Governance-Wende nach 2018 in Bericht 07, hohe Hypothekenkonzentration (~80 % Bilanzsumme). |
+| **P6** | **`postfinance/`** | Einzelabschluss, DE, Kat. 2 D-SIB, `has_credit_ban: true`, `report_05_mode: post_dividend`. Prüfen: **Bilanz-Architektur ohne Hypotheken/Kredite** (Finanzanlagen & SNB-Guthaben dominieren → Chart 02 & Bericht 02 explizit anpassen), extreme Zinswende-Sensitivität (`Negativzinsen 2015–2022` vs. `2023–2025`), D-SIB-Kapitalanforderungen & Dividende an Post AG. |
+| **P7** | **`ubs/`** (UBS) | Konzern, EN, **IFRS in USD**, Kat. 1 G-SIB, SIX `UBSG`. Prüfen: **USD→CHF-Umrechnung** via `shared/fx_rates.py` (Original-USD in Einzelbank-Tabellen, CHF-Äquivalent für Cross-Bank), **Credit-Suisse-Übernahme 2023** (Negative Goodwill von ~USD 27,7 Mrd. als Einmaleffekt in Bericht 01/04/07 explizit von operativer Profitabilität trennen!), G-SIB Going-/Gone-Concern- & TLAC-Puffer, Aktienrückkäufe. |
 
-#### Atomare Aufgaben
-1. **`vskb/bank_config.yaml` anlegen** (inkl. Markenfarben, FINMA-Kat.-3-Zielgrössen, Epochen, DE/FR-Ankern).
-2. **Archiv-Discovery & `vskb/download_reports.py` erstellen:**
-   - Quellen: `bcvs.ch/de/die-wkb/publikationen-medien/publikationen/alle-publikationen`, `vskb.ch/publikationen/jahresberichte` (z. B. `WKB_2024.pdf`, `WKB_2025.pdf`), Wayback Machine CDX API (`web.archive.org/cdx/search/cdx?url=bcvs.ch/*&filter=mimetype:application/pdf`).
-   - Ziel-Namensschema: `vskb-geschaeftsbericht-YYYY.pdf`, `vskb-semesterbericht-YYYY.pdf`, `vskb-offenlegungsbericht-[06-]YYYY.pdf`.
-   - `vskb/ROADMAP.md` mit Bestandsaufnahme (exakte Anzahl gefundener PDFs pro Kategorie & Zeitraum) erzeugen.
-3. **PDF → Markdown konvertieren:** `python3 -m shared.pdf_to_md --bank vskb`.
-4. **Stufe 1–4 ausführen & prüfen:**
-   - `python3 -m shared.chunker --bank vskb`
-   - `python3 -m shared.extractor --bank vskb --backend local` *(optional Vergleichslauf `--backend gemini`)*
-   - `python3 -m shared.validator_kpi --bank vskb`
-   - `vskb/data/validation_report.md` sichten: Fehlende Werte oder Parser-Ausreisser gezielt über bessere Regex in `vskb/bank_config.yaml` oder dokumentierte `vskb/overrides.json` (inkl. geprüfter VR/CEO/GL-Vergütungen) beheben, bis **0 Lücken** bei den Kernkennzahlen bestehen.
-   - `python3 -m shared.report_builder --bank vskb --backend local`
-   - `uv run --with matplotlib --with pyyaml python3 -m shared.chart_engine --bank vskb`
-5. **`vskb/README.md` erzeugen** (mit Kennzahlen-Tabelle, Berichtskatalog und eingebetteter Langfrist-Scorecard).
-
-#### Verifikations-Gate Phase 1
+#### Einheitliches Verifikations-Gate für jede Phase P1–P7
 ```bash
-python3 -m shared.validator_kpi --bank vskb --strict-audit
-python3 -m shared.report_builder --bank vskb --backend local
-uv run --with matplotlib --with pyyaml python3 -m shared.chart_engine --bank vskb
-ls vskb/reports/0*.md | wc -l      # Erwartet: 7
-ls vskb/reports/charts/*.png | wc -l  # Erwartet: 13
+BANK="<bank>"   # vskb | zkb | bcv | gekb | raiffeisen | postfinance | ubs
+python3 -m shared.validator_kpi --bank "$BANK" --strict-audit
+python3 -m shared.report_builder --bank "$BANK" --backend local
+uv run --with matplotlib --with pyyaml python3 -m shared.chart_engine --bank "$BANK"
+ls "$BANK"/reports/0*.md | wc -l         # Erwartet: 7
+ls "$BANK"/reports/charts/*.png | wc -l  # Erwartet: 13
 ```
 
 ---
 
-### Phase 2: `zkb/` – Zürcher Kantonalbank (ZKB)
+## 7. Schritt 2: Institutsübergreifende Auswertung & Gesamtportal (Phasen P8–P9)
 
-**Besonderheiten:** Grösste Kantonalbank der Schweiz, **Konzernrechnung**, **nicht börsenkotiert** (100 % Kanton ZH, Dotationskapital), **FINMA Kategorie 2 / D-SIB** (Going-Concern + Gone-Concern / TLAC), **Swisscanto-Übernahme (2015)**, **OECD-Mindeststeuer (ab 2024)**, **Custody-Umklassierung (2024)**.
+Sobald alle 8 Einzelbank-Panels (`bekb`, `vskb`, `zkb`, `bcv`, `gekb`, `raiffeisen`, `postfinance`, `ubs`) ihre Verifikations-Gates bestanden haben, startet **Schritt 2**.
 
-**Detail-Spezifikation:** Siehe [`zkb/ANALYSE_STRATEGIE.md`](./zkb/ANALYSE_STRATEGIE.md).
+### Phase 8: Harmonisierungs-Layer & Cross-Bank-Benchmarking (`comparison/`)
 
-#### Atomare Aufgaben
-1. **`zkb/bank_config.yaml` anlegen:**
-   - `legal_form: "cantonal_institution"`, `listed: false`, `finma_category: 2`, `reporting_scope: "consolidated"`, `report_05_mode: "cantonal_endowment"`, `report_05_slug: "05_dotationskapital_ausschuettung_und_kanton_zuerich"`.
-   - Zusätzliche ZKB-Offenlegungsmetriken aktivieren: `tlac_ratio_pct`, `gone_concern_capital`, `leverage_ratio_tbtf_pct`.
-2. **Archiv-Discovery & `zkb/download_reports.py` erstellen:**
-   - Quellen: `zkb.ch/de/lps/corporate/berichterstattung/downloads.html`, `zkb.ch/de/lps/corporate/berichterstattung/offenlegung.html`, `vskb.ch`, Kantonsrat ZH Archiv (`kantonsrat.zh.ch`), Wayback Machine CDX API (`zkb.ch/*`).
-   - **Wichtig:** ZKB veröffentlicht teils separate PDFs (Geschäftsbericht vs. Lagebericht vs. Corporate Governance vs. Finanzbericht) – sicherstellen, dass jeweils der **vollständige Geschäftsbericht** (oder gezielt Finanzbericht + Corporate Governance / Vergütung) heruntergeladen wird.
-   - `zkb/ROADMAP.md` dokumentieren.
-3. **Pipeline Stufe 0–4 ausführen (`pdf_to_md` → `chunker` → `extractor` → `validator_kpi` → `report_builder` → `chart_engine`).**
-4. **Sonderprüfungen in `zkb/data/validation_report.md`:**
-   - Verifizieren, dass durchgehend **Konzernzahlen** (nicht Stammhaus) verwendet wurden.
-   - Verifizieren, dass **Bericht 05** und **Chart 05** sauber das **Dotationskapital, die ordentliche Gewinnausschüttung an Kanton & Gemeinden, die Staatsgarantie-Abgeltung sowie die OECD-Mindeststeuer (ab 2024)** ausweisen (keine leeren Aktienkurs-Felder!).
-   - Verifizieren, dass der AuM-Strukturbruch 2023/2024 (-55,0 Mrd. CHF Umklassierung zu Custody Services) sowie die Swisscanto-Integration 2015 explizit dokumentiert sind.
-5. **`zkb/README.md` erzeugen.**
+**Ziel:** Methodisch saubere, transparente und vollständig reproduzierbare institutsübergreifende Vergleiche über alle **8 Schweizer Banken** (sowie konfigurierbare Peer-Gruppen).
 
-#### Verifikations-Gate Phase 2
-```bash
-python3 -m shared.validator_kpi --bank zkb --strict-audit
-python3 -m shared.report_builder --bank zkb --backend local
-uv run --with matplotlib --with pyyaml python3 -m shared.chart_engine --bank zkb
-ls zkb/reports/0*.md | wc -l         # Erwartet: 7
-ls zkb/reports/charts/*.png | wc -l  # Erwartet: 13
-```
+#### 8.1 Methodische Harmonisierungsregeln (`shared/compare_banks.py`)
+Um «Äpfel-mit-Birnen»-Vergleiche auszuschliessen, erzwingt `shared/compare_banks.py` folgende Regeln:
+1. **Einheitliche Währung & Preisbasis:**
+   - Alle Geldgrössen in `comparison/data/` werden in **CHF (`Mio. CHF` / `TCHF`)** und zusätzlich inflationsbereinigt in **`real 2025 CHF`** (über `shared/cpi_bfs.py`) ausgewiesen.
+   - UBS-Zahlen (`USD`) werden deterministisch über `shared/fx_rates.py` umgerechnet: **Jahresendkurs** für Bestandsgrössen (Bilanz, AuM, RWA, Kapital), **Jahresdurchschnittskurs** für Stromgrössen (Erfolgsrechnung, Vergütung).
+2. **Explizite Vergleichbarkeits-Metadaten (Pflichtspalten in jedem Vergleichs-CSV):**
+   - `peer_group`: `cantonal_bank` (BEKB, VSKB, ZKB, BCV, GEKB), `domestic_dsib` (ZKB, Raiffeisen, PostFinance), `g_sib` (UBS).
+   - `reporting_scope`: `consolidated` vs. `standalone`.
+   - `accounting_standard`: `ARB_RVB` vs. `IFRS` (mit automatischem Hinweis in Berichten bei Kennzahlen, die zwischen ARB und IFRS abweichen, z. B. Reserven für allgemeine Bankrisiken).
+   - `state_guarantee`: `true` (ZKB, VSKB) vs. `false` (übrige 6).
+   - `has_credit_ban`: `true` (PostFinance) vs. `false`.
+   - `extraordinary_flag`: Markiert Struktureffekte (z. B. UBS 2023 CS-Negative-Goodwill), sodass Durchschnittswerte sowohl **inkl.** als auch **exkl.** Einmaleffekt berechnet werden.
+3. **Gemeinsame Vergleichsfenster (Time Windows):**
+   - **Volles 8-Banken-Fenster (`2020–2025` / `H1-2026`):** Alle 8 Institute inkl. UBS lückenlos vergleichbar.
+   - **7-Banken-Inland-Fenster (`2014–2025` / `H1-2026`):** Alle 7 Inlandbanken (5 KB + Raiffeisen + PostFinance).
+   - **Langfrist-KB-Fenster (`2003–2025`):** BEKB, GEKB (sowie BCV/VSKB ab 2007).
+4. **Skalen- & Grössennormalisierung:**
+   - Da UBS (~1'500 Mrd. CHF Bilanzsumme) und ZKB/Raiffeisen (~200–310 Mrd. CHF) die kleineren Kantonalbanken (~20–65 Mrd. CHF) in absoluten Balken erdrücken, nutzt die Chart-Engine systematisch **indizierte Reihen (`2020 = 100`)**, **relative Quoten (`%`, `bps`, `pro FTE`)**, **logarithmische Skalen** oder **Small-Multiples nach Peer-Gruppe**.
 
----
-
-### Phase 3: `bcv/` – Banque Cantonale Vaudoise (BCV)
-
-**Besonderheiten:** **Französisch/Englisch**, **Konzernrechnung**, **keine Staatsgarantie**, SIX-kotiert (`BCVN`, ~66,95 % Kanton Waadt), **1:10-Aktiensplit (Mai 2020)**, **IRB-Ansatz** (F-IRB/A-IRB) bei Kreditrisiken → besonders spannend bei **Basel III final Output Floor ab 2025**, historische Restrukturierung/Turnaround nach 2002/2003.
-
-**Detail-Spezifikation:** Siehe [`bcv/ANALYSE_STRATEGIE.md`](./bcv/ANALYSE_STRATEGIE.md).
-
-#### Atomare Aufgaben
-1. **`bcv/bank_config.yaml` anlegen:**
-   - `reporting_scope: "consolidated"`, `listed: true`, `ticker: "BCVN"`, `state_guarantee: false`, `finma_category: 3`, `primary_languages: ["fr", "en"]`.
-   - `share_splits: [{date: "2020-05-28", ratio: 10}]` hinterlegen (alle Aktienkurse & Dividenden vor 2020 werden deterministisch durch 10 geteilt, um eine bruchfreie Zeitreihe zu erhalten!).
-2. **Archiv-Discovery & `bcv/download_reports.py` erstellen:**
-   - Quellen: `bcv.ch/fr/home/la-bcv/relations-investisseurs/news-et-rapports.html`, `bcv.ch/content/dam/bcv/fichiers/publications/...`, `vskb.ch`, Wayback Machine CDX API (`bcv.ch/*`).
-   - Bevorzugt einheitliche Sprachversion (FR konsistent für Geschäfts-, Semester- und Pilier-3-Berichte; EN als sauber dokumentierter Fallback).
-   - `bcv/ROADMAP.md` dokumentieren.
-3. **Pipeline Stufe 0–4 ausführen** und den mehrsprachigen FR/EN-Parser von `shared/chunker.py` & `shared/extractor.py` verifizieren.
-4. **Sonderprüfungen in `bcv/data/validation_report.md`:**
-   - Konzern-Konsistenz (`Groupe BCV`) prüfen.
-   - Split-Bereinigung (2020, Faktor 10) bei `share_price_eoy` und `dividend_per_share` prüfen (Plausibilität: kontinuierliche Dividendenreihe ohne 10x-Sprung!).
-   - IRB-Kapitaleffekt & Übergang zu *Bâle III final* (2025/06-2026) in Bericht 03 verifizieren.
-   - Ausschüttungspolitik ohne Staatsgarantie (ordentliche Dividende + Kapitalrückzahlungen aus Reserven / `remboursement de capital`) dokumentieren.
-5. **`bcv/README.md` erzeugen.**
-
-#### Verifikations-Gate Phase 3
-```bash
-python3 -m shared.validator_kpi --bank bcv --strict-audit
-python3 -m shared.report_builder --bank bcv --backend local
-uv run --with matplotlib --with pyyaml python3 -m shared.chart_engine --bank bcv
-ls bcv/reports/0*.md | wc -l         # Erwartet: 7
-ls bcv/reports/charts/*.png | wc -l  # Erwartet: 13
-```
+#### 8.2 Artefakte unter `comparison/`
+- **Harmonisierte Datensätze (`comparison/data/`):**
+  - `xkb_comparison_annual.csv` (Langformat: `bank_id, year, peer_group, ...` alle 8 Banken)
+  - `xkb_comparison_semester.csv` (Halbjahres-Panel inkl. `H1-2026`)
+  - `xkb_comparison_offenlegung.csv` (Basel-III-/TBTF-Panel inkl. `Basel III final`)
+  - `xkb_comparison_verguetung_real.csv` (VR/CEO/GL-Vergütung & Lohnkosten pro FTE in `real 2025 CHF`)
+  - `xkb_comparison_all.json` (Gesamt-JSON mit Metadaten, Peer-Aggregaten & Rankings)
+- **5 Institutsübergreifende Vergleichsberichte (`comparison/reports/`):**
+  1. `01_groesse_wachstum_und_geschaeftsmodell.md` — Bilanzsumme, CAGR (`2014–2025` & `2020–2025`), Ertrags-Mix (Zins vs. Kommission vs. Handel), Hypotheken- vs. Finanzanlagen-Fokus (PostFinance-Kontrast), AuM & NNM.
+  2. `02_profitabilitaet_effizienz_und_produktivitaet.md` — CIR vs. ROE-Positionierung, ROA, Ertrag & Gewinn pro FTE, reale Personal-/Sachkostenentwicklung (`real 2025 CHF`), Skaleneffekte nach Institutsgrösse.
+  3. `03_kapitalisierung_regulierung_und_staatsgarantie.md` — CET1, Gesamtkapital, Leverage Ratio, LCR/NSFR, FINMA-Kategorie 1 vs. 2 vs. 3 (TBTF/TLAC), Staatsgarantie-Effekt (ZKB/VSKB vs. BCV/GEKB/BEKB), Übergang zu **Basel III final (2025/2026)**.
+  4. `04_ausschuettung_eigentuemer_und_verguetung_real.md` — Ausschüttungen an Kantone/Gemeinden, Bund (via Post), Genossenschafter & Aktionäre; Total Return der 5 kotierten Institute; **realer VR/CEO/GL-Vergütungsvergleich (`real 2025 CHF`)** sowie CEO-zu-Mitarbeitenden-Verhältnis.
+  5. `05_zinswenden_saisonalitaet_und_resilienz.md` — Vergleich der Zinsmargen-Reaktion in der Negativzinsphase (`2015–2022`) vs. Zinswende (`2022–2025`) vs. Zinssenkungszyklus (`2025–H1-2026`), H1/FY-Saisonalität und Reservenpolitik.
+- **8–10 Cross-Bank-Grafiken (`comparison/reports/charts/`, 300 DPI):**
+  - `01_bilanzsumme_und_cagr_8_banken.png` (Peer-gruppierter Grössen- & Wachstumsvergleich)
+  - `02_ertragsmix_geschaeftsmodelle_2025.png` (100-%-Stacked-Bars: Zins / Kommission / Handel / Übriger)
+  - `03_cir_vs_roe_quadrant_2025.png` (Effizienz-Profitabilitäts-Scatter mit Bilanzsumme als Blasengrösse)
+  - `04_produktivitaet_ertrag_gewinn_je_fte.png` (Ertrag & Gewinn je FTE über alle 8 Institute)
+  - `05_kapitalpuffer_basel_iii_final_2026.png` (CET1 & Leverage Ratio vs. individuelle FINMA-Zielgrösse)
+  - `06_staatsgarantie_und_finma_kategorien.png` (RWA-Dichte, Kapitalquote & Refinanzierung nach Kategorie)
+  - `07_zinswende_indiziert_2015_2025.png` (Indizierte Netto-Zinserfolgs-Entwicklung `2020 = 100`)
+  - `08_verguetung_real_2025_vergleich.png` (Reale CEO-/GL-/VR-Vergütung & Lohnkosten/FTE in `real 2025 CHF`)
+  - `09_ausschuettung_und_total_return.png` (Öffentliche Ablieferungen & Total Return der 5 kotierten Banken)
 
 ---
 
-### Phase 4: `gekb/` – Banque Cantonale de Genève (BCGE)
+### Phase 9: Gemeinsames Dokumentationsportal (`mkdocs.yml`) & CI/CD
 
-**Besonderheiten:** **Französisch** (teils DE/EN), **Konzernrechnung**, **keine unbeschränkte Staatsgarantie**, SIX-kotiert (`BCGE`), öffentliches Mehrheitsaktionariat aufgeteilt auf **Kanton Genf (~44,3 %), Stadt Genf (~20,9 %) und Genfer Gemeinden (~7,4 %)** (Aktionärsbindungsvertrag), internationales Geschäftsmodell (*Global Commodity Finance*, *BCGE France*), ggf. historischer Nachgang der Sanierung / Fondation de valorisation (2000–2008) sowie **Prüfung auf Aktiensplit / Nennwertänderung (2025/2026)**!
+1. **`shared/prepare_docs.py`:** Erzeugt `.rtd_docs/` mit konsistenter Link-Umschreibung für Root-`README.md`, `PLAN.md`, `comparison/` und alle **8 Institute** (`bekb`, `vskb`, `zkb`, `bcv`, `gekb`, `raiffeisen`, `postfinance`, `ubs`) inkl. Einzel- und Gesamt-Grafikgalerie.
+2. **`mkdocs.yml`:** Material-for-MkDocs Top-Navigation mit Tabs: `Übersicht`, `Bankenvergleich (8 Institute)`, `Kantonalbanken (BEKB, ZKB, BCV, GEKB, VSKB)`, `Systemrelevante & Spezialinstitute (Raiffeisen, PostFinance, UBS)`.
+3. **Root-`README.md`:** Executive-Scorecard aller 8 Banken (`2025` / `H1-2026`) + eingebettete Cross-Bank-Hauptgrafik.
+4. **`.github/workflows/docs-cicd.yml`:**
+   - `pytest tests/` (inkl. `test_bekb_regression.py` und `test_comparison_layer.py`),
+   - Determinismus-Prüfung für alle 8 Institute + `comparison/` (`--backend local` → `git diff --exit-code`),
+   - `python3 -m shared.prepare_docs` + `mkdocs build --strict`,
+   - Automatisches Deployment auf **GitHub Pages** & optionaler **Read-the-Docs**-Webhook.
 
-**Detail-Spezifikation:** Siehe [`gekb/ANALYSE_STRATEGIE.md`](./gekb/ANALYSE_STRATEGIE.md).
-
-#### Atomare Aufgaben
-1. **`gekb/bank_config.yaml` anlegen:**
-   - `reporting_scope: "consolidated"`, `listed: true`, `ticker: "BCGE"`, `state_guarantee: false`, `finma_category: 3`, `primary_languages: ["fr", "de", "en"]`.
-   - Aktionariats-Split (Kanton + Stadt + Gemeinden ≈ 72,6 %) für die Berechnung der Gesamtablieferung an die öffentliche Hand konfigurieren.
-   - Etwaigen Aktiensplit (z. B. 1:10, falls 2025/2026 vollzogen) anhand des Geschäftsberichts 2025 / H1-2026 prüfen und in `share_splits` eintragen.
-2. **Archiv-Discovery & `gekb/download_reports.py` erstellen:**
-   - Quellen: `bcge.ch/fr/rapports-financiers`, `bcge.ch/documents/...`, `vskb.ch`, Wayback Machine CDX API (`bcge.ch/*`).
-   - `gekb/ROADMAP.md` dokumentieren.
-3. **Pipeline Stufe 0–4 ausführen.**
-4. **Sonderprüfungen in `gekb/data/validation_report.md`:**
-   - Konzern-Konsistenz (`Groupe BCGE`) prüfen.
-   - Wertberichtigungen / Risikovorsorge im *Global Commodity Finance* und Übergang nach Abwicklung der *Fondation de valorisation* (2008) dokumentieren.
-   - Split-bereinigte Aktienkurs- & Dividendenreihe verifizieren.
-5. **`gekb/README.md` erzeugen.**
-
-#### Verifikations-Gate Phase 4
-```bash
-python3 -m shared.validator_kpi --bank gekb --strict-audit
-python3 -m shared.report_builder --bank gekb --backend local
-uv run --with matplotlib --with pyyaml python3 -m shared.chart_engine --bank gekb
-ls gekb/reports/0*.md | wc -l         # Erwartet: 7
-ls gekb/reports/charts/*.png | wc -l  # Erwartet: 13
-```
-
----
-
-### Phase 5: Cross-Bank-Benchmarking (`comparison/`), MkDocs/RTD-Portal & CI/CD
-
-**Ziel:** Alle vier Banken in einer einheitlichen Vergleichsperspektive zusammenführen und das gesamte Repository vollautomatisch über GitHub Actions auf **GitHub Pages** und **Read the Docs** publizieren.
-
-#### Atomare Aufgaben
-1. **`shared/compare_banks.py` implementieren & ausführen:**
-   - Liest die validierten Panels aus `zkb/data/`, `gekb/data/`, `vskb/data/`, `bcv/data/` (optional optionaler Referenz-Anker mit BEKB-Eckwerten aus Metadaten-JSON).
-   - Exportiert `comparison/data/xkb_comparison_annual.csv`, `comparison/data/xkb_comparison_offenlegung.csv`, `comparison/data/xkb_comparison_all.json`.
-   - Erzeugt 4 fokussierte Cross-Bank-Vergleichsberichte unter `comparison/reports/`:
-     1. `01_groesse_wachstum_und_geschaeftsmodell.md` (Bilanzsumme, CAGR, Zins- vs. Kommissions- vs. Handelsanteil, AuM)
-     2. `02_profitabilitaet_effizienz_und_produktivitaet.md` (CIR, ROE, ROA, Ertrag/Gewinn je FTE, Reale Lohnkosten vs. Gewinn)
-     3. `03_kapitalisierung_staatsgarantie_und_basel_iii.md` (CET1, Gesamtkapital, Leverage Ratio, LCR/NSFR, Staatsgarantie-Effekt: ZKB/VSKB vs. BCV/GEKB, Basel-III-final-Wirkung)
-     4. `04_ausschuettung_aktie_und_verguetung_real.md` (Gesamtablieferung an öffentliche Hand je Kanton, Dividendenrendite & Total Return der 3 kotierten Banken, realer VR/CEO/GL-Vergütungsvergleich in CHF 2025)
-   - Erzeugt **6–8 Cross-Bank-Grafiken** unter `comparison/reports/charts/` (z. B. Small-Multiples, Radar-/Benchmark-Matrix, indizierte Langfrist-Entwicklung, Kapital-Puffer-Vergleich, CIR vs. ROE-Scatter, realer Vergütungsvergleich).
-2. **Gemeinsames Dokumentationsportal aufbauen:**
-   - `shared/prepare_docs.py` erstellt `.rtd_docs/` mit sauberer Link-Umschreibung für Root-`README.md`, `PLAN.md`, `comparison/` sowie alle 4 Bank-Unterverzeichnisse (`zkb/`, `gekb/`, `vskb/`, `bcv/`) inkl. Grafik-Galerie pro Bank und Gesamt-Galerie.
-   - `mkdocs.yml` mit übersichtlicher Top-Tab-Navigation:
-     - `Übersicht` (`index.md`, `PLAN.md`)
-     - `Bankenvergleich` (`comparison/`)
-     - `ZKB` (`zkb/` – Übersicht, 7 Berichte, Galerie, Strategie & Audit)
-     - `GEKB (BCGE)` (`gekb/` – Übersicht, 7 Berichte, Galerie, Strategie & Audit)
-     - `VSKB (WKB)` (`vskb/` – Übersicht, 7 Berichte, Galerie, Strategie & Audit)
-     - `BCV` (`bcv/` – Übersicht, 7 Berichte, Galerie, Strategie & Audit)
-3. **Root-`README.md` aktualisieren:**
-   - Executive-Scorecard (alle 4 Banken nebeneinander mit 2025 / H1-2026 Eckwerten), eingebettete Cross-Bank-Hauptgrafik, direkte Links zu allen 4 Banken, dem Bankenvergleich und Live-Docs.
-4. **CI/CD-Workflow `.github/workflows/docs-cicd.yml` aktivieren:**
-   - Führt `pytest tests/` aus.
-   - Führt für alle 4 Banken `validator_kpi` + `report_builder --backend local` sowie `compare_banks` aus und prüft Determinismus (`git diff --exit-code`).
-   - Führt `python3 -m shared.prepare_docs` und `mkdocs build --strict` aus.
-   - Deployed bei Push auf `main` auf **GitHub Pages** (`deploy-pages`) und triggert optional den **Read-the-Docs-Webhook**.
-
-#### Verifikations-Gate Phase 5 (Endabnahme)
+#### Endabnahme-Gate (Phase 8 & 9)
 ```bash
 uv run --with pytest --with pyyaml --with matplotlib pytest -q tests/
-for b in vskb zkb bcv gekb; do
+for b in bekb vskb zkb bcv gekb raiffeisen postfinance ubs; do
   python3 -m shared.validator_kpi --bank "$b" --strict-audit
   python3 -m shared.report_builder --bank "$b" --backend local
 done
@@ -460,19 +349,19 @@ python3 -m shared.compare_banks --backend local
 python3 -m shared.prepare_docs
 uvx --with mkdocs-material --with pymdown-extensions mkdocs build --strict
 ```
-**Abnahmekriterium:** `mkdocs build --strict` schliesst mit **0 Warnings / 0 Errors** ab; alle 4 Banken haben je 7 Berichte + 13 Grafiken (= 28 Bankberichte + 52 Bankgrafiken), zuzüglich 4 Cross-Bank-Berichten und 6–8 Vergleichsgrafiken.
+**Abnahmekriterium:** `0` Testfehler, `mkdocs build --strict` mit `0 Warnings / 0 Errors`; **56 Einzelbank-Berichte + 104 Einzelbank-Grafiken** (8 × 7 Berichte / 13 Grafiken) sowie **5 Cross-Bank-Berichte + 9 Vergleichsgrafiken**.
 
 ---
 
-## 6. Risiko- & Fallstrick-Matrix für Gemini Hydrogen
+## 8. Risiko- & Fallstrick-Matrix für Gemini Hydrogen
 
-| Risiko / Fallstrick | Betroffene Banken | Deterministische Gegenmassnahme im Plan |
+| Risiko / Fallstrick | Betroffene Institute | Deterministische Gegenmassnahme |
 | :--- | :--- | :--- |
-| **Konzern vs. Stammhaus verwechselt** | ZKB, GEKB, BCV | `reporting_scope: "consolidated"` in `bank_config.yaml`; Chunker priorisiert explizit `Konzernbilanz` / `Bilan consolidé` und filtert Stammhaus-Seiten aus. |
-| **Aktiensplits verzerren Kurs/Dividende** | BCV (1:10, 2020), ggf. GEKB/VSKB | Rohwert speichern + deterministische Split-Umrechnung in `shared/validator_kpi.py` via `share_splits`-Liste (niemals im LLM). |
-| **Keine Aktie vorhanden** | ZKB | `report_05_mode: "cantonal_endowment"` schaltet Bericht 05 & Chart 05 sauber auf Dotationskapital, Ausschüttung Kanton/Gemeinden & OECD-Mindeststeuer um. |
-| **Französische/Englische PDFs & Zahlenformate** | GEKB, BCV (teils VSKB) | Ein zentraler, unit-getesteter DE/FR/EN-Parser (`tests/test_number_parser.py`) für Leerzeichen-Tausender, Komma-Dezimalen und `en milliers / en millions de CHF`. |
-| **FINMA-Kat. 2 (D-SIB) statt Kat. 3** | ZKB | `finma_category: 2` schaltet in Bericht 03 & Chart 03 auf TBTF Going-/Gone-Concern- & TLAC-Zielgrössen statt Kat.-3-ERV-Zielgrössen. |
-| **Abweichende Einheiten (TCHF vs. Mio. vs. Mrd.)** | Alle 4 | Pflichtfeld `unit` pro Extraktion + Plausibilitäts-Korridor je Bank in `validator_kpi.py` (z. B. ZKB Bilanzsumme > 100 Mrd. CHF → erkennt 1'000x-Fehler sofort!). |
-| **Lücken in frühen Jahrgängen (2003–2010)** | Alle 4 | 3-stufiges Sourcing (Offizielle IR-Seite → `vskb.ch` → Wayback Machine CDX API) + automatische `t+1`-Vorjahres-Selbstheilung + transparente Lücken-Dokumentation in `ROADMAP.md`. |
-| **Repository-Grösse durch PDFs & PNGs** | Alle 4 | `write_images=False` beim PDF→MD-Export; PDFs > 50 MB bzw. Roh-PDF-Ordner bei Bedarf via `.gitignore` + `download_reports.py` + `pdf_manifest.json` reproduzierbar halten. |
+| **Regression gegenüber bestehender BEKB-Analyse** | BEKB | `tests/test_bekb_regression.py` in Phase 0 blockiert Änderungen, die von den BEKB-Referenzkennzahlen abweichen. |
+| **Konzern vs. Einzelabschluss vermischt** | ZKB, BCV, GEKB, Raiffeisen, UBS | `reporting_scope` in `bank_config.yaml` filtert im Chunker hart auf Konzern- bzw. Stammhaus-Tabellen. |
+| **USD-Währung & IFRS-Unterschiede** | UBS | `shared/fx_rates.py` (Jahresend- vs. Durchschnittskurs) + explizite `accounting_standard`- und `extraordinary_flag`-Spalten (CS Negative Goodwill 2023 separat ausweisen). |
+| **Kredit-/Hypothekenverbot verzerrt Bilanz-KPIs** | PostFinance | `has_credit_ban: true` aktiviert `financial_investments` in Bilanz-Analysen und verhindert Division-durch-Null bei Hypotheken-Quoten. |
+| **Fehlende Börsenkotierung / Aktie** | ZKB, Raiffeisen, PostFinance | 4 konfigurierbare `report_05_mode`-Modi (`listed_share`, `cantonal_endowment`, `cooperative_payout`, `post_dividend`). |
+| **Aktiensplits verzerren Langfristreihen** | BCV (1:10, 2020), ggf. GEKB/VSKB | Rohwert speichern + deterministische Split-Umrechnung über `share_splits` in `shared/validator_kpi.py`. |
+| **ZKB-2025-Teil-PDFs (Lagebericht / Finanzbericht / CG)** | ZKB | Chunker/Validator aggregieren alle Teil-Dateien desselben Geschäftsjahres auf `period = "2025"` mit Quellen-Nachweis pro Kennzahl. |
+| **Skalendominanz (UBS vs. Kantonalbanken)** | Cross-Bank (`comparison/`) | Indizierte Reihen (`2020 = 100`), Quoten (`%`, `pro FTE`), Peer-Gruppen und Log-Skalen statt rein absoluter Balken. |
