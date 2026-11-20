@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "stem": "bekb-geschaeftsbericht-2007",
+    "report_type": "annual",
+    "year": 2007,
+    "period": "FY2007",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-geschaeftsbericht-2007.md",
+    "total_chars": 47369,
+    "total_lines": 733
+  },
+  "backend": "local",
+  "metrics": {
+    "total_assets": {
+      "value_current": 21361.0,
+      "value_prior_year": 21077.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme|20 724|21 077|**21 361**|",
+      "chunk_name": "bilanz"
+    },
+    "assets_under_management": {
+      "value_current": 20451.0,
+      "value_prior_year": 20099.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Betreute Vermögenswerte (Depotwerte)<sup>1</sup>|18 902|20 099|**20 451**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 14939.0,
+      "value_prior_year": 14423.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden (Kundenausleihungen)|13 882|14 423|**14 939**|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 2165.0,
+      "value_prior_year": 2495.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|2 739|2 495|**2 165**|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 560.0,
+      "value_prior_year": 536.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|452|536|**560**|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 103.8,
+      "value_prior_year": 92.2,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn nach Steuern|85,0|92,2|**103,8**<br>5|",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 1457.0,
+      "value_prior_year": 1456.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Personalbestand(inklusive Lernende und Aushilfen)|1441|1456|**1457**|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 13648988.0,
+      "value_prior_year": 13219213.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|13 219 213|**13 648 988**|Rechnungsabgrenzungen|161 723|**188 602**|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1978487.0,
+      "value_prior_year": 2260868.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|2 260 868|**1 978 487**|Reserven für allgemeine Bankrisiken|535 963|**559 701**|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 27634.0,
+      "value_prior_year": 22632.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Handelsgeschäft**|22 632|**27 634**|Ausserordentlicher Ertrag|74 981|196 518|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 467196.0,
+      "value_prior_year": 447910.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Betriebsertragnetto|447 910|**467 196**|_davon Steuern auf Gewinn aus der Veräusserung einer Beteiligung_|_(12 300)_|_(38 100)_|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "dividend_per_share": {
+      "value_current": 3.5,
+      "value_prior_year": 3.8,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Dividendeje Namenaktie|3.50|3.80|**4.10**<br>6|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

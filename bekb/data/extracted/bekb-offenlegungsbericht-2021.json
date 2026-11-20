@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "bekb-offenlegungsbericht-2021",
+    "report_type": "offenlegung_fy",
+    "year": 2021,
+    "period": "FY2021",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-offenlegungsbericht-2021.md",
+    "total_chars": 71537,
+    "total_lines": 1161
+  },
+  "backend": "local",
+  "metrics": {}
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-06-2015",
+    "report_type": "offenlegung_h1",
+    "year": 2015,
+    "period": "H1-2015",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-06-2015.md",
+    "total_chars": 23180,
+    "total_lines": 361
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 4773679.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|4'773'679|381'894|4'958'101|396'648|4'765'223|381'218|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "mortgage_loans": {
+      "value_current": 65302799.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|65'302'799|5'224'224|63'543'490|5'083'479|60'784'866|4'862'789|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_capital": {
+      "value_current": 12635842.0,
+      "value_prior_year": 12007710.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total hartes Kernkapital (CET1) vor Anpassungen**|**12'635'842**|**12'007'710**|**11'169'640**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 85616094.0,
+      "value_prior_year": 83520381.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total risikogewichtete Aktiven**|**85'616'094**|**83'520'381**|**80'523'873**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 14.4,
+      "value_prior_year": 14.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**CET1-Quote**|**14.4%**|**14.0%**|**13.6%**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 16.2,
+      "value_prior_year": 15.3,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Gesamtkapitalquote**|**16.2%**|**15.3%**|**14.9%**|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+bank_id: "zkb"
+short_name: "ZKB"
+full_name: "Zürcher Kantonalbank"
+peer_group: "cantonal_bank"
+canton_or_hq: "Zürich"
+legal_form: "cantonal_institution"
+listed: false
+ticker: null
+state_guarantee: true
+has_credit_ban: false
+finma_category: 2
+reporting_scope: "consolidated"
+accounting_standard: "ARB_RVB"
+reporting_currency: "CHF"
+primary_languages: ["de"]
+file_prefix: "zkb"
+public_share_pct_default: 100.0
+
+capital_targets_pct:
+  cet1_target: 10.0
+  total_capital_target: 14.3
+  tlac_target: 18.0
+  leverage_min: 4.5
+  lcr_min: 100.0
+  nsfr_min: 100.0
+
+share_splits: []
+
+report_05_mode: "cantonal_endowment"
+report_05_slug: "05_dotationskapital_ausschuettung_und_kanton_zuerich"
+
+palette:
+  primary: "#0055A4"
+  secondary: "#0F2942"
+  accent: "#0F766E"
+  muted: "#64748B"
+
+plausibility_bounds_chf_mio:
+  total_assets_min: 120000
+  total_assets_max: 260000
+
+epochs:
+  - {label: "Epoche 1", start: 2014, end: 2019, title: "Swisscanto-Integration & D-SIB-Aufbau"}
+  - {label: "Epoche 2", start: 2020, end: 2022, title: "Pandemie-Bilanzausweitung & Negativzinsende"}
+  - {label: "Epoche 3", start: 2023, end: 2026, title: "Zinswende, Custody-Umklassierung & OECD-Steuer"}
+
+structural_breaks:
+  - {year: 2015, label: "Übernahme Swisscanto & FINMA-RVB"}
+  - {year: 2024, label: "AuM-Umklassierung Custody Services (-55 Mrd. CHF) & OECD-Mindeststeuer"}
+  - {year: 2025, label: "Inkrafttreten Basel III final per 01.01.2025"}

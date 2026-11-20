@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "stem": "zkb-geschaeftsbericht-2025-lagebericht",
+    "report_type": "annual",
+    "year": 2025,
+    "period": "FY2025",
+    "part": "lagebericht",
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-geschaeftsbericht-2025-lagebericht.md",
+    "total_chars": 257203,
+    "total_lines": 2780
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 7.1,
+      "value_prior_year": 6.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio(goingconcern) <sup>2</sup>||**7,1**|6,8||",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "total_operating_income": {
+      "value_current": 3213.0,
+      "value_prior_year": 3088.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag||**3’213**|3’088|4,0|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "operating_profit": {
+      "value_current": 1354.0,
+      "value_prior_year": 1277.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftserfolg||**1’354**|1’277|6,0|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "net_profit": {
+      "value_current": 1241.0,
+      "value_prior_year": 1120.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn||**1’241**|1’120|10,8|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "total_assets": {
+      "value_current": 206177.0,
+      "value_prior_year": 202594.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme||**206’177**|202’594|1,8|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "mortgage_loans": {
+      "value_current": 111174.0,
+      "value_prior_year": 106600.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen||**111’174**|106’600|4,3|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "customer_deposits": {
+      "value_current": 114324.0,
+      "value_prior_year": 106980.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen||**114’324**|106’980|6,9|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "fte_count": {
+      "value_current": 5809.0,
+      "value_prior_year": 5779.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalbestand teilzeitbereinigtper Stichtag|Anzahl|**5’809**|5’779|0,5|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "branch_count": {
+      "value_current": 51.0,
+      "value_prior_year": 53.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsstellen|Anzahl|**51**|53|– 3,8<sup>6</sup>|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

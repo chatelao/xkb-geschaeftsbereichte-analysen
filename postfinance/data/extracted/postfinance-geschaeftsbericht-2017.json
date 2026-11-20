@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "stem": "postfinance-geschaeftsbericht-2017",
+    "report_type": "annual",
+    "year": 2017,
+    "period": "FY2017",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-geschaeftsbericht-2017.md",
+    "total_chars": 250796,
+    "total_lines": 3212
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 12173.0,
+      "value_prior_year": 13169.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|6|13 169|12 173|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 0.0,
+      "value_prior_year": 0.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|6|0|0|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 62819.0,
+      "value_prior_year": 61742.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|8|61 742|62 819|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 121633.0,
+      "value_prior_year": 120379.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**||**120 379**|**121 633**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 113292.0,
+      "value_prior_year": 109709.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen||109 709|113 292|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 93.0,
+      "value_prior_year": 114.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen||114|93|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 136.0,
+      "value_prior_year": 311.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Gewinn||311|136|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 27.0,
+      "value_prior_year": 211.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Handelsgeschäft und der Fair-Value-Option**|27|**211**|**222**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 256.0,
+      "value_prior_year": 229.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Übriger ordentlicher Erfolg**||**256**|**229**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 1636.0,
+      "value_prior_year": 1610.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Geschäftsertrag**||**1 636**|**1 610**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": 29.0,
+      "value_prior_year": -488.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|29|– 488|– 512|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": 30.0,
+      "value_prior_year": -516.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|30|– 516|– 554|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -1004.0,
+      "value_prior_year": -1066.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Geschäftsaufwand**||**– 1 004**|**– 1 066**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 349.0,
+      "value_prior_year": 166.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Geschäftserfolg**||**349**|**166**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": 32.0,
+      "value_prior_year": -83.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Steuern|32|– 83|– 40|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 4.5,
+      "value_prior_year": 4.7,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio RVB|%|4,5|4,7|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

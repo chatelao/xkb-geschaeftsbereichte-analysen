@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-2022",
+    "report_type": "offenlegung_fy",
+    "year": 2022,
+    "period": "FY2022",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-2022.md",
+    "total_chars": 107718,
+    "total_lines": 1441
+  },
+  "backend": "local",
+  "metrics": {}
+}

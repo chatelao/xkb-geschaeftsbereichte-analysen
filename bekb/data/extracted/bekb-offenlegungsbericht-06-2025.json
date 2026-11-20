@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "stem": "bekb-offenlegungsbericht-06-2025",
+    "report_type": "offenlegung_h1",
+    "year": 2025,
+    "period": "H1-2025",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-offenlegungsbericht-06-2025.md",
+    "total_chars": 25090,
+    "total_lines": 400
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2896756.0,
+      "value_prior_year": 2875338.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|2 896 756|2 875 338|2 793 607|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2896756.0,
+      "value_prior_year": 2875338.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (Tier 1)|2 896 756|2 875 338|2 793 607|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 3240835.0,
+      "value_prior_year": 3231533.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|3<br>Gesamtkapital total|3 240 835|3 231 533|3 154 705|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 18.5,
+      "value_prior_year": 17.26,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote (%)|18,50|17,26|17,11|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 20.69,
+      "value_prior_year": 19.4,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote (%)|20,69|19,40|19,33|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.69,
+      "value_prior_year": 6.9,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14<br>Leverage Ratio, ausgedrückt als Tier 1 in % des LRD, einschliesslich der<br>Auswirkung einer vorübergehenden Ausnahme von Zentralbankguthaben|6,69|6,90|6,81|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "lcr_pct": {
+      "value_current": 144.4,
+      "value_prior_year": 150.5,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|17<br>LCR (%)|144,4|150,5|187,5|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 143.0,
+      "value_prior_year": 148.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|20<br>NSFR (%)|143,0|148,8|152,9|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

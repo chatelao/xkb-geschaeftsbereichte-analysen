@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "stem": "raiffeisen-semesterbericht-2025",
+    "report_type": "semester",
+    "year": 2025,
+    "period": "H1-2025",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-semesterbericht-2025.md",
+    "total_chars": 28447,
+    "total_lines": 382
+  },
+  "backend": "local",
+  "metrics": {
+    "commission_income": {
+      "value_current": 366.0,
+      "value_prior_year": 336.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolg aus dem Kommissions- und Dienstleistungsgeschäft|336|366|9,1|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 1897.0,
+      "value_prior_year": 1953.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag|1 953|1 897|–2,9|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 1124.0,
+      "value_prior_year": 1080.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand|1 080|1 124|4,1|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 670.0,
+      "value_prior_year": 776.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftserfolg|776|670|–13,7|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 311958.0,
+      "value_prior_year": 305611.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme|305 611|311 958|2,1|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 24306.0,
+      "value_prior_year": 23759.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total Eigenkapital (ohne Minderheitsanteile)|23 759|24 306|2,3|",
+      "chunk_name": "bilanz"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 20.9,
+      "value_prior_year": 19.7,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Going Concern CET1-Quote|19,7%|20,9%||",
+      "chunk_name": "bilanz"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.5,
+      "value_prior_year": 6.6,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Going Concern Leverage Ratio|6,6%|6,5%||",
+      "chunk_name": "bilanz"
+    },
+    "nsfr_pct": {
+      "value_current": 132.5,
+      "value_prior_year": 139.3,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Finanzierungsquote (NSFR)<sup>3</sup>|139,3%|132,5%||",
+      "chunk_name": "bilanz"
+    },
+    "net_new_money": {
+      "value_current": 7689.0,
+      "value_prior_year": 4618.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Netto-Neugeld verwaltete Kundenvermögen<br>(* Wert per 30.06.)|4 618 *|7 689|66,5|",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 12682067.0,
+      "value_prior_year": 12269108.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|12 269 108|12 682 067|412 959|3,4|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 226302103.0,
+      "value_prior_year": 220757314.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|220 757 314|226 302 103|5 544 789|2,5|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 13901337.0,
+      "value_prior_year": 12256299.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|12 256 299|13 901 337|1 645 038|13,4|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 220406061.0,
+      "value_prior_year": 214876218.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|214 876 218|220 406 061|5 529 843|2,6|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 129039.0,
+      "value_prior_year": 154281.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|154 281|129 039|–25 242|–16,4|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 36036312.0,
+      "value_prior_year": 34189967.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|34 189 967|36 036 312|1 846 345|5,4|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 250000.0,
+      "value_prior_year": 250000.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|250 000|250 000|–|–|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 554592.0,
+      "value_prior_year": 1207902.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Gewinn|1 207 902|554 592|–653 310|–54,1|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

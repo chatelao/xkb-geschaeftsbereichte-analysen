@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "stem": "bcv-geschaeftsbericht-2025",
+    "report_type": "annual",
+    "year": 2025,
+    "period": "FY2025",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-geschaeftsbericht-2025.md",
+    "total_chars": 614100,
+    "total_lines": 7813
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 6357.0,
+      "value_prior_year": 5959.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle<br>10.2|6 357|5 959|398|7|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 35577.0,
+      "value_prior_year": 34207.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires<br>10.2<br><br>|35 577<br>|34 207<br>|1 370<br>|4<br>|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 7449.0,
+      "value_prior_year": 6065.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|i<br>Immobilisations financières<br>10.5/10.7|7 449|6 065|1 384|23|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 61620.0,
+      "value_prior_year": 60629.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Actifs<br>10.20/10.21/10.22/10.24|61 620|60 629|991|2|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 38257.0,
+      "value_prior_year": 37672.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Engagements résultant des dépôts de la clientèle|38 257|37 672|584|2|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 4.0,
+      "value_prior_year": 4.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|4|4|0|7|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 666.0,
+      "value_prior_year": 666.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux<br>10.16<br>|666<br>|666<br>|0|0|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 430.0,
+      "value_prior_year": 441.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bénéfice consolidé|430|441|–11|–2|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 526.2,
+      "value_prior_year": 553.6,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Résultat net des opérations d'intérêts||526.2|553.6|–27.4|–5|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 1149.9,
+      "value_prior_year": 1155.5,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total des résultats de l'activité bancaire ordinaire||1 149.9|1 155.5|–5.6|–0|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -393.3,
+      "value_prior_year": -386.9,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Charges de personnel|12.5|–393.3|–386.9|6.4|2|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -166.2,
+      "value_prior_year": -169.8,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Autres charges d'exploitation|12.6|–166.2|–169.8|–3.6|– 2|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -559.5,
+      "value_prior_year": -556.7,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Charges d'exploitation||–559.5|–556.7|2.8|1|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 502.8,
+      "value_prior_year": 515.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Résultat opérationnel|12.12|502.8|515.0|– 12.1|– 2|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -73.9,
+      "value_prior_year": -74.9,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Impôts<br>i|12.11|–73.9|–74.9|– 1.0|– 1|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "dividend_per_share": {
+      "value_current": 4403.0,
+      "value_prior_year": 4.4,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Dividende par action (en CHF)<br>||3,70|3,80|4,30|4,40|4,403|",
+      "chunk_name": "aktie_basisdaten"
+    }
+  }
+}

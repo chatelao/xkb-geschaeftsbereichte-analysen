@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-09-2018",
+    "report_type": "offenlegung_q3",
+    "year": 2018,
+    "period": "Q3-2018",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-09-2018.md",
+    "total_chars": 5697,
+    "total_lines": 94
+  },
+  "backend": "local",
+  "metrics": {}
+}

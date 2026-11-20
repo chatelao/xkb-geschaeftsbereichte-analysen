@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "stem": "ubs-offenlegungsbericht-2023",
+    "report_type": "offenlegung_fy",
+    "year": 2023,
+    "period": "FY2023",
+    "part": null,
+    "bank_id": "ubs",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "USD",
+    "source_file": ".md/ubs-offenlegungsbericht-2023.md",
+    "total_chars": 527050,
+    "total_lines": 6108
+  },
+  "backend": "local",
+  "metrics": {
+    "rwa_total": {
+      "value_current": 546505.0,
+      "value_prior_year": 546491.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|4<br>Total risk-weighted assets(RWA)|**546,505**|546,491|556,603|321,660|319,585|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 16.9,
+      "value_prior_year": 16.54,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|7<br>Total capital ratio(%)<sup>2</sup>|**16.90**|16.54|16.55|18.09|18.40|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 1695403.0,
+      "value_prior_year": 1615817.0,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|13<br>Total Basel III leverage ratio exposure measure|**1,695,403**|1,615,817|1,677,877|1,014,446|1,028,461|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

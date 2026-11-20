@@ -1,0 +1,1514 @@
+{
+  "bank_id": "zkb",
+  "total_reports": 74,
+  "reports": [
+    {
+      "stem": "zkb-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5092,
+          "approx_tokens": 1273
+        },
+        "mehrjahresvergleich": {
+          "chars": 5979,
+          "approx_tokens": 1494
+        },
+        "aktie_basisdaten": {
+          "chars": 2941,
+          "approx_tokens": 735
+        },
+        "betreute_vermoegen": {
+          "chars": 2008,
+          "approx_tokens": 502
+        },
+        "verguetung": {
+          "chars": 7774,
+          "approx_tokens": 1943
+        },
+        "lagebericht_strategie": {
+          "chars": 7254,
+          "approx_tokens": 1813
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7390,
+          "approx_tokens": 1847
+        },
+        "erfolgsrechnung": {
+          "chars": 3239,
+          "approx_tokens": 809
+        },
+        "mehrjahresvergleich": {
+          "chars": 5995,
+          "approx_tokens": 1498
+        },
+        "aktie_basisdaten": {
+          "chars": 2024,
+          "approx_tokens": 506
+        },
+        "betreute_vermoegen": {
+          "chars": 1491,
+          "approx_tokens": 372
+        },
+        "verguetung": {
+          "chars": 9104,
+          "approx_tokens": 2276
+        },
+        "lagebericht_strategie": {
+          "chars": 7645,
+          "approx_tokens": 1911
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8084,
+          "approx_tokens": 2021
+        },
+        "erfolgsrechnung": {
+          "chars": 3574,
+          "approx_tokens": 893
+        },
+        "mehrjahresvergleich": {
+          "chars": 3437,
+          "approx_tokens": 859
+        },
+        "aktie_basisdaten": {
+          "chars": 2318,
+          "approx_tokens": 579
+        },
+        "betreute_vermoegen": {
+          "chars": 3107,
+          "approx_tokens": 776
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7248,
+          "approx_tokens": 1812
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8084,
+          "approx_tokens": 2021
+        },
+        "erfolgsrechnung": {
+          "chars": 4464,
+          "approx_tokens": 1116
+        },
+        "mehrjahresvergleich": {
+          "chars": 3931,
+          "approx_tokens": 982
+        },
+        "aktie_basisdaten": {
+          "chars": 2284,
+          "approx_tokens": 571
+        },
+        "betreute_vermoegen": {
+          "chars": 2815,
+          "approx_tokens": 703
+        },
+        "verguetung": {
+          "chars": 5707,
+          "approx_tokens": 1426
+        },
+        "lagebericht_strategie": {
+          "chars": 7013,
+          "approx_tokens": 1753
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8225,
+          "approx_tokens": 2056
+        },
+        "erfolgsrechnung": {
+          "chars": 3653,
+          "approx_tokens": 913
+        },
+        "mehrjahresvergleich": {
+          "chars": 3780,
+          "approx_tokens": 945
+        },
+        "aktie_basisdaten": {
+          "chars": 2418,
+          "approx_tokens": 604
+        },
+        "betreute_vermoegen": {
+          "chars": 2526,
+          "approx_tokens": 631
+        },
+        "verguetung": {
+          "chars": 6265,
+          "approx_tokens": 1566
+        },
+        "lagebericht_strategie": {
+          "chars": 7362,
+          "approx_tokens": 1840
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8032,
+          "approx_tokens": 2008
+        },
+        "erfolgsrechnung": {
+          "chars": 3650,
+          "approx_tokens": 912
+        },
+        "mehrjahresvergleich": {
+          "chars": 3927,
+          "approx_tokens": 981
+        },
+        "aktie_basisdaten": {
+          "chars": 2413,
+          "approx_tokens": 603
+        },
+        "betreute_vermoegen": {
+          "chars": 2853,
+          "approx_tokens": 713
+        },
+        "verguetung": {
+          "chars": 5682,
+          "approx_tokens": 1420
+        },
+        "lagebericht_strategie": {
+          "chars": 7034,
+          "approx_tokens": 1758
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8429,
+          "approx_tokens": 2107
+        },
+        "erfolgsrechnung": {
+          "chars": 4107,
+          "approx_tokens": 1026
+        },
+        "mehrjahresvergleich": {
+          "chars": 3921,
+          "approx_tokens": 980
+        },
+        "aktie_basisdaten": {
+          "chars": 2413,
+          "approx_tokens": 603
+        },
+        "betreute_vermoegen": {
+          "chars": 2826,
+          "approx_tokens": 706
+        },
+        "verguetung": {
+          "chars": 5739,
+          "approx_tokens": 1434
+        },
+        "lagebericht_strategie": {
+          "chars": 7091,
+          "approx_tokens": 1772
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9055,
+          "approx_tokens": 2263
+        },
+        "erfolgsrechnung": {
+          "chars": 4315,
+          "approx_tokens": 1078
+        },
+        "mehrjahresvergleich": {
+          "chars": 5891,
+          "approx_tokens": 1472
+        },
+        "aktie_basisdaten": {
+          "chars": 2823,
+          "approx_tokens": 705
+        },
+        "betreute_vermoegen": {
+          "chars": 2684,
+          "approx_tokens": 671
+        },
+        "verguetung": {
+          "chars": 5821,
+          "approx_tokens": 1455
+        },
+        "lagebericht_strategie": {
+          "chars": 7037,
+          "approx_tokens": 1759
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9253,
+          "approx_tokens": 2313
+        },
+        "erfolgsrechnung": {
+          "chars": 4267,
+          "approx_tokens": 1066
+        },
+        "mehrjahresvergleich": {
+          "chars": 4595,
+          "approx_tokens": 1148
+        },
+        "aktie_basisdaten": {
+          "chars": 2892,
+          "approx_tokens": 723
+        },
+        "betreute_vermoegen": {
+          "chars": 2214,
+          "approx_tokens": 553
+        },
+        "verguetung": {
+          "chars": 5802,
+          "approx_tokens": 1450
+        },
+        "lagebericht_strategie": {
+          "chars": 7244,
+          "approx_tokens": 1811
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9367,
+          "approx_tokens": 2341
+        },
+        "erfolgsrechnung": {
+          "chars": 4320,
+          "approx_tokens": 1080
+        },
+        "mehrjahresvergleich": {
+          "chars": 4826,
+          "approx_tokens": 1206
+        },
+        "aktie_basisdaten": {
+          "chars": 2897,
+          "approx_tokens": 724
+        },
+        "betreute_vermoegen": {
+          "chars": 2043,
+          "approx_tokens": 510
+        },
+        "verguetung": {
+          "chars": 9174,
+          "approx_tokens": 2293
+        },
+        "lagebericht_strategie": {
+          "chars": 7495,
+          "approx_tokens": 1873
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9275,
+          "approx_tokens": 2318
+        },
+        "erfolgsrechnung": {
+          "chars": 5131,
+          "approx_tokens": 1282
+        },
+        "mehrjahresvergleich": {
+          "chars": 4367,
+          "approx_tokens": 1091
+        },
+        "aktie_basisdaten": {
+          "chars": 2810,
+          "approx_tokens": 702
+        },
+        "betreute_vermoegen": {
+          "chars": 2286,
+          "approx_tokens": 571
+        },
+        "verguetung": {
+          "chars": 8934,
+          "approx_tokens": 2233
+        },
+        "lagebericht_strategie": {
+          "chars": 7283,
+          "approx_tokens": 1820
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2025-corporate-governance",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": "corporate-governance",
+      "chunks": {
+        "lagebericht_strategie": {
+          "chars": 7240,
+          "approx_tokens": 1810
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2025-finanzbericht",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": "finanzbericht",
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5120,
+          "approx_tokens": 1280
+        },
+        "mehrjahresvergleich": {
+          "chars": 4894,
+          "approx_tokens": 1223
+        },
+        "aktie_basisdaten": {
+          "chars": 2784,
+          "approx_tokens": 696
+        },
+        "betreute_vermoegen": {
+          "chars": 3231,
+          "approx_tokens": 807
+        },
+        "lagebericht_strategie": {
+          "chars": 7119,
+          "approx_tokens": 1779
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2025-lagebericht",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": "lagebericht",
+      "chunks": {
+        "bilanz": {
+          "chars": 3493,
+          "approx_tokens": 873
+        },
+        "mehrjahresvergleich": {
+          "chars": 3875,
+          "approx_tokens": 968
+        },
+        "betreute_vermoegen": {
+          "chars": 2029,
+          "approx_tokens": 507
+        },
+        "lagebericht_strategie": {
+          "chars": 7156,
+          "approx_tokens": 1789
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2025-verguetungsbericht",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": "verguetungsbericht",
+      "chunks": {
+        "mehrjahresvergleich": {
+          "chars": 5513,
+          "approx_tokens": 1378
+        },
+        "verguetung": {
+          "chars": 8969,
+          "approx_tokens": 2242
+        },
+        "lagebericht_strategie": {
+          "chars": 7274,
+          "approx_tokens": 1818
+        }
+      }
+    },
+    {
+      "stem": "zkb-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5133,
+          "approx_tokens": 1283
+        },
+        "mehrjahresvergleich": {
+          "chars": 4902,
+          "approx_tokens": 1225
+        },
+        "aktie_basisdaten": {
+          "chars": 2792,
+          "approx_tokens": 698
+        },
+        "betreute_vermoegen": {
+          "chars": 2029,
+          "approx_tokens": 507
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7156,
+          "approx_tokens": 1789
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2014",
+      "report_type": "offenlegung_q1",
+      "year": 2014,
+      "period": "Q1-2014",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2015",
+      "report_type": "offenlegung_q1",
+      "year": 2015,
+      "period": "Q1-2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2016",
+      "report_type": "offenlegung_q1",
+      "year": 2016,
+      "period": "Q1-2016",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2017",
+      "report_type": "offenlegung_q1",
+      "year": 2017,
+      "period": "Q1-2017",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2019",
+      "report_type": "offenlegung_q1",
+      "year": 2019,
+      "period": "Q1-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5243,
+          "approx_tokens": 1310
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2020",
+      "report_type": "offenlegung_q1",
+      "year": 2020,
+      "period": "Q1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5481,
+          "approx_tokens": 1370
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2021",
+      "report_type": "offenlegung_q1",
+      "year": 2021,
+      "period": "Q1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5745,
+          "approx_tokens": 1436
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2022",
+      "report_type": "offenlegung_q1",
+      "year": 2022,
+      "period": "Q1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5094,
+          "approx_tokens": 1273
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2023",
+      "report_type": "offenlegung_q1",
+      "year": 2023,
+      "period": "Q1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5911,
+          "approx_tokens": 1477
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2024",
+      "report_type": "offenlegung_q1",
+      "year": 2024,
+      "period": "Q1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4366,
+          "approx_tokens": 1091
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2025",
+      "report_type": "offenlegung_q1",
+      "year": 2025,
+      "period": "Q1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3558,
+          "approx_tokens": 889
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-03-2026",
+      "report_type": "offenlegung_q1",
+      "year": 2026,
+      "period": "Q1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3454,
+          "approx_tokens": 863
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2015",
+      "report_type": "offenlegung_h1",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2016",
+      "report_type": "offenlegung_h1",
+      "year": 2016,
+      "period": "H1-2016",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2018",
+      "report_type": "offenlegung_h1",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4945,
+          "approx_tokens": 1236
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2019",
+      "report_type": "offenlegung_h1",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4813,
+          "approx_tokens": 1203
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2020",
+      "report_type": "offenlegung_h1",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5568,
+          "approx_tokens": 1392
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2021",
+      "report_type": "offenlegung_h1",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5669,
+          "approx_tokens": 1417
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2022",
+      "report_type": "offenlegung_h1",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5095,
+          "approx_tokens": 1273
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2023",
+      "report_type": "offenlegung_h1",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5107,
+          "approx_tokens": 1276
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2024",
+      "report_type": "offenlegung_h1",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4551,
+          "approx_tokens": 1137
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2025",
+      "report_type": "offenlegung_h1",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3818,
+          "approx_tokens": 954
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3877,
+          "approx_tokens": 969
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-09-2015",
+      "report_type": "offenlegung_q3",
+      "year": 2015,
+      "period": "Q3-2015",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-09-2016",
+      "report_type": "offenlegung_q3",
+      "year": 2016,
+      "period": "Q3-2016",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-09-2018",
+      "report_type": "offenlegung_q3",
+      "year": 2018,
+      "period": "Q3-2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4682,
+          "approx_tokens": 1170
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-09-2019",
+      "report_type": "offenlegung_q3",
+      "year": 2019,
+      "period": "Q3-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5306,
+          "approx_tokens": 1326
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-09-2020",
+      "report_type": "offenlegung_q3",
+      "year": 2020,
+      "period": "Q3-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5582,
+          "approx_tokens": 1395
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-09-2021",
+      "report_type": "offenlegung_q3",
+      "year": 2021,
+      "period": "Q3-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5729,
+          "approx_tokens": 1432
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-09-2022",
+      "report_type": "offenlegung_q3",
+      "year": 2022,
+      "period": "Q3-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5105,
+          "approx_tokens": 1276
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-09-2023",
+      "report_type": "offenlegung_q3",
+      "year": 2023,
+      "period": "Q3-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5117,
+          "approx_tokens": 1279
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-09-2024",
+      "report_type": "offenlegung_q3",
+      "year": 2024,
+      "period": "Q3-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4678,
+          "approx_tokens": 1169
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-09-2025",
+      "report_type": "offenlegung_q3",
+      "year": 2025,
+      "period": "Q3-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3450,
+          "approx_tokens": 862
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2014",
+      "report_type": "offenlegung_fy",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2016",
+      "report_type": "offenlegung_fy",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2017",
+      "report_type": "offenlegung_fy",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5170,
+          "approx_tokens": 1292
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2018",
+      "report_type": "offenlegung_fy",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5877,
+          "approx_tokens": 1469
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2019",
+      "report_type": "offenlegung_fy",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5467,
+          "approx_tokens": 1366
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5779,
+          "approx_tokens": 1444
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4965,
+          "approx_tokens": 1241
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5917,
+          "approx_tokens": 1479
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4375,
+          "approx_tokens": 1093
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 5087,
+          "approx_tokens": 1271
+        }
+      }
+    },
+    {
+      "stem": "zkb-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3679,
+          "approx_tokens": 919
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2013",
+      "report_type": "semester",
+      "year": 2013,
+      "period": "H1-2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6600,
+          "approx_tokens": 1650
+        },
+        "erfolgsrechnung": {
+          "chars": 6884,
+          "approx_tokens": 1721
+        },
+        "lagebericht_strategie": {
+          "chars": 5504,
+          "approx_tokens": 1376
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2014",
+      "report_type": "semester",
+      "year": 2014,
+      "period": "H1-2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4710,
+          "approx_tokens": 1177
+        },
+        "erfolgsrechnung": {
+          "chars": 5398,
+          "approx_tokens": 1349
+        },
+        "lagebericht_strategie": {
+          "chars": 5499,
+          "approx_tokens": 1374
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2015",
+      "report_type": "semester",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5008,
+          "approx_tokens": 1252
+        },
+        "erfolgsrechnung": {
+          "chars": 5946,
+          "approx_tokens": 1486
+        },
+        "lagebericht_strategie": {
+          "chars": 5693,
+          "approx_tokens": 1423
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2016",
+      "report_type": "semester",
+      "year": 2016,
+      "period": "H1-2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4943,
+          "approx_tokens": 1235
+        },
+        "erfolgsrechnung": {
+          "chars": 4259,
+          "approx_tokens": 1064
+        },
+        "lagebericht_strategie": {
+          "chars": 5558,
+          "approx_tokens": 1389
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2017",
+      "report_type": "semester",
+      "year": 2017,
+      "period": "H1-2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4884,
+          "approx_tokens": 1221
+        },
+        "erfolgsrechnung": {
+          "chars": 4407,
+          "approx_tokens": 1101
+        },
+        "lagebericht_strategie": {
+          "chars": 5527,
+          "approx_tokens": 1381
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2018",
+      "report_type": "semester",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5023,
+          "approx_tokens": 1255
+        },
+        "erfolgsrechnung": {
+          "chars": 5519,
+          "approx_tokens": 1379
+        },
+        "lagebericht_strategie": {
+          "chars": 5537,
+          "approx_tokens": 1384
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2019",
+      "report_type": "semester",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5357,
+          "approx_tokens": 1339
+        },
+        "erfolgsrechnung": {
+          "chars": 7034,
+          "approx_tokens": 1758
+        },
+        "lagebericht_strategie": {
+          "chars": 5664,
+          "approx_tokens": 1416
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2020",
+      "report_type": "semester",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5883,
+          "approx_tokens": 1470
+        },
+        "erfolgsrechnung": {
+          "chars": 8181,
+          "approx_tokens": 2045
+        },
+        "lagebericht_strategie": {
+          "chars": 6081,
+          "approx_tokens": 1520
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2021",
+      "report_type": "semester",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5907,
+          "approx_tokens": 1476
+        },
+        "erfolgsrechnung": {
+          "chars": 5903,
+          "approx_tokens": 1475
+        },
+        "lagebericht_strategie": {
+          "chars": 5525,
+          "approx_tokens": 1381
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6353,
+          "approx_tokens": 1588
+        },
+        "erfolgsrechnung": {
+          "chars": 7743,
+          "approx_tokens": 1935
+        },
+        "lagebericht_strategie": {
+          "chars": 5648,
+          "approx_tokens": 1412
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6845,
+          "approx_tokens": 1711
+        },
+        "erfolgsrechnung": {
+          "chars": 7908,
+          "approx_tokens": 1977
+        },
+        "lagebericht_strategie": {
+          "chars": 5697,
+          "approx_tokens": 1424
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5879,
+          "approx_tokens": 1469
+        },
+        "erfolgsrechnung": {
+          "chars": 5368,
+          "approx_tokens": 1342
+        },
+        "lagebericht_strategie": {
+          "chars": 5665,
+          "approx_tokens": 1416
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5862,
+          "approx_tokens": 1465
+        },
+        "erfolgsrechnung": {
+          "chars": 6596,
+          "approx_tokens": 1649
+        },
+        "lagebericht_strategie": {
+          "chars": 6387,
+          "approx_tokens": 1596
+        }
+      }
+    },
+    {
+      "stem": "zkb-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5168,
+          "approx_tokens": 1292
+        },
+        "erfolgsrechnung": {
+          "chars": 5089,
+          "approx_tokens": 1272
+        },
+        "lagebericht_strategie": {
+          "chars": 5540,
+          "approx_tokens": 1385
+        }
+      }
+    }
+  ]
+}

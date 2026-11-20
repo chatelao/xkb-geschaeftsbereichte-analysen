@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "stem": "ubs-geschaeftsbericht-2020",
+    "report_type": "annual",
+    "year": 2020,
+    "period": "FY2020",
+    "part": null,
+    "bank_id": "ubs",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "USD",
+    "source_file": ".md/ubs-geschaeftsbericht-2020.md",
+    "total_chars": 1808237,
+    "total_lines": 17837
+  },
+  "backend": "local",
+  "metrics": {
+    "total_operating_income": {
+      "value_current": 32390.0,
+      "value_prior_year": 28889.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Operatingincome|**32,390**|28,889|30,213|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 24235.0,
+      "value_prior_year": 23312.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Operatingexpenses|**24,235**|23,312|24,222|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 6557.0,
+      "value_prior_year": 4304.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Netprofit /(loss)attributable to shareholders|**6,557**|4,304|4,516|",
+      "chunk_name": "bilanz"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 3.4,
+      "value_prior_year": 3.2,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|Return on leverage ratio denominator, gross(%)<sup>4</sup>|**3.4**|3.2|3.3|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 1125765.0,
+      "value_prior_year": 972194.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Total assets|**1,125,765**|972,194|958,500|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 59445.0,
+      "value_prior_year": 54501.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Equityattributable to shareholders|**59,445**|54,501|52,896|",
+      "chunk_name": "bilanz"
+    },
+    "assets_under_management": {
+      "value_current": 4187.0,
+      "value_prior_year": 3607.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Invested assets(USD billion)<sup>8</sup>|**4,187**|3,607|3,101|",
+      "chunk_name": "bilanz"
+    },
+    "share_price_eoy": {
+      "value_current": 14.08,
+      "value_prior_year": 12.63,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Share price (USD)<sup>5</sup>|**14.08**|12.63|12|",
+      "chunk_name": "aktie_basisdaten"
+    }
+  }
+}

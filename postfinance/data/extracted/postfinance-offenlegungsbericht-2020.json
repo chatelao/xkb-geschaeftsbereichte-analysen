@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-2020",
+    "report_type": "offenlegung_fy",
+    "year": 2020,
+    "period": "FY2020",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-2020.md",
+    "total_chars": 108711,
+    "total_lines": 1366
+  },
+  "backend": "local",
+  "metrics": {}
+}

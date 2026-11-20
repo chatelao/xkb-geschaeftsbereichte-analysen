@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-06-2024",
+    "report_type": "offenlegung_h1",
+    "year": 2024,
+    "period": "H1-2024",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-06-2024.md",
+    "total_chars": 250639,
+    "total_lines": 3221
+  },
+  "backend": "local",
+  "metrics": {}
+}

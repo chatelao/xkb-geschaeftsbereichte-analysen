@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-06-2017",
+    "report_type": "offenlegung_h1",
+    "year": 2017,
+    "period": "H1-2017",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-06-2017.md",
+    "total_chars": 31094,
+    "total_lines": 601
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_ratio_pct": {
+      "value_current": 17.13,
+      "value_prior_year": 17.08,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote (hartes Kernkapital in % der risikogewichteten Positionen)|auf Basis Mindesteigenmittel (8%)|17,13%|17,08%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_capital": {
+      "value_current": 9.2,
+      "value_prior_year": 9.2,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Eigenmittelzielgrösse hartes Kernkapital (CET1)||9,20%|9,20%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 122007.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Gesamtengagement für die Leverage Ratio**|**122 007**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 5651.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total risikogewichtete Positionen ohne Ratings|5 651|",
+      "chunk_name": "ov1_rwa"
+    }
+  }
+}

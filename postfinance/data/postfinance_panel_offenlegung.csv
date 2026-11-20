@@ -1,0 +1,46 @@
+bank_id,year,period,report_type,report_file,currency_orig,mortgage_loans_mio,cet1_capital_mio,customer_loans_other_mio,rwa_total_mio,cet1_ratio_pct,financial_investments_mio,sort_date,regime,matched_total_assets_mio,rwa_density_pct,cet1_excess_over_target_pp,self_healed_fields,leverage_ratio_pct,total_assets_mio,total_capital_ratio_pct,total_cap_excess_over_target_pp,total_capital_mio,tier1_capital_mio,lcr_pct,nsfr_pct
+postfinance,2013,FY2013,offenlegung_fy,.md/postfinance-offenlegungsbericht-2013.md,CHF,1.0,4.882,7295.0,6.289,20.4,10349.0,2013-12-31,Basel III,118273.0,0.01,10.4,,,,,,,,,
+postfinance,2014,H1-2014,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2014.md,CHF,,5.007,,4.33,21.7,,2014-06-30,Basel III,120446.0,0.0,11.7,,,,,,,,,
+postfinance,2014,FY2014,offenlegung_fy,.md/postfinance-offenlegungsbericht-2014.md,CHF,0.0,5.107,8047.0,4.743,20.1,4937.0,2014-12-31,Basel III,120446.0,0.0,10.1,,,,,,,,,
+postfinance,2015,H1-2015,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2015.md,CHF,,0.009,,4277.0,19.6,,2015-06-30,Basel III,120269.0,3.56,9.6,,116900.0,,,,,,,
+postfinance,2015,FY2015,offenlegung_fy,.md/postfinance-offenlegungsbericht-2015.md,CHF,,0.009,,4528.0,19.5,,2015-12-31,Basel III,120269.0,3.76,9.5,,115505.0,,,,,,,
+postfinance,2016,H1-2016,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2016.md,CHF,,0.009,,5234.0,19.5,,2016-06-30,Basel III,115689.0,4.52,9.5,,122112.0,,,,,,,
+postfinance,2016,FY2016,offenlegung_fy,.md/postfinance-offenlegungsbericht-2016.md,CHF,,0.009,,5650.0,19.49,,2016-12-31,Basel III,115689.0,4.88,9.49,,120680.0,,,,,,,
+postfinance,2017,Q1-2017,offenlegung_q1,.md/postfinance-offenlegungsbericht-03-2017.md,CHF,,5532.0,,,17.8,,2017-03-31,Basel III,121633.0,,7.8,,120680.0,120379.0,17.8,3.5,,,,
+postfinance,2017,H1-2017,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2017.md,CHF,,0.009,,5651.0,17.13,,2017-06-30,Basel III,121633.0,4.65,7.13,,122007.0,,,,,,,
+postfinance,2017,Q3-2017,offenlegung_q3,.md/postfinance-offenlegungsbericht-09-2017.md,CHF,,5.482,,,17.13,,2017-09-30,Basel III,121633.0,,7.13,,120680.0,120.379,17.13,2.83,,,,
+postfinance,2017,FY2017,offenlegung_fy,.md/postfinance-offenlegungsbericht-2017.md,CHF,,,,,,,2017-12-31,Basel III,121633.0,,,,35.0,,,,,,,
+postfinance,2018,Q1-2018,offenlegung_q1,.md/postfinance-offenlegungsbericht-03-2018.md,CHF,,,,,,,2018-03-31,Basel III,119055.0,,,,,,,,,,,
+postfinance,2018,H1-2018,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2018.md,CHF,,,,,,,2018-06-30,Basel III,119055.0,,,,,,,,,,,
+postfinance,2018,Q3-2018,offenlegung_q3,.md/postfinance-offenlegungsbericht-09-2018.md,CHF,,,,,,,2018-09-30,Basel III,119055.0,,,,,,,,,,,
+postfinance,2018,FY2018,offenlegung_fy,.md/postfinance-offenlegungsbericht-2018.md,CHF,,,,,,,2018-12-31,Basel III,119055.0,,,,,,,,,,,
+postfinance,2019,Q1-2019,offenlegung_q1,.md/postfinance-offenlegungsbericht-03-2019.md,CHF,,5999.0,,,18.04,,2019-03-31,Basel III,125574.0,,8.04,,5.11,,18.5,4.2,6151.0,6135.0,182.0,
+postfinance,2019,H1-2019,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2019.md,CHF,,,,,,,2019-06-30,Basel III,125574.0,,,,11.0,,,,,,,
+postfinance,2019,Q3-2019,offenlegung_q3,.md/postfinance-offenlegungsbericht-09-2019.md,CHF,,6032.0,,,18.69,,2019-09-30,Basel III,125574.0,,8.69,,5.29,,19.37,5.07,6252.0,6235.0,197.0,
+postfinance,2019,FY2019,offenlegung_fy,.md/postfinance-offenlegungsbericht-2019.md,CHF,,,,,,,2019-12-31,Basel III,125574.0,,,,,,,,,,,
+postfinance,2020,Q1-2020,offenlegung_q1,.md/postfinance-offenlegungsbericht-03-2020.md,CHF,,6101.0,,,17.91,,2020-03-31,Basel III,117189.0,,7.91,,128095.0,,18.56,4.26,6320.0,6304.0,185.0,
+postfinance,2020,H1-2020,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2020.md,CHF,,6.101,,,18.07,,2020-06-30,Basel III,117189.0,,8.07,,11.0,,18.75,4.45,6.331,6.304,,
+postfinance,2020,Q3-2020,offenlegung_q3,.md/postfinance-offenlegungsbericht-09-2020.md,CHF,,6101.0,,,18.26,,2020-09-30,Basel III,117189.0,,8.26,,136803.0,,18.95,4.65,6331.0,6304.0,191.0,
+postfinance,2020,FY2020,offenlegung_fy,.md/postfinance-offenlegungsbericht-2020.md,CHF,,,,,,,2020-12-31,Basel III,117189.0,,,,,,,,,,,
+postfinance,2021,Q1-2021,offenlegung_q1,.md/postfinance-offenlegungsbericht-03-2021.md,CHF,,6093.0,,,18.3,,2021-03-31,Basel III,121667.0,,8.3,,125816.0,,19.03,4.73,6335.0,6296.0,,
+postfinance,2021,H1-2021,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2021.md,CHF,,6.093,,,18.5,,2021-06-30,Basel III,121667.0,,8.5,,11.0,,19.23,4.93,6.334,6.296,,
+postfinance,2021,Q3-2021,offenlegung_q3,.md/postfinance-offenlegungsbericht-09-2021.md,CHF,,6093.0,,,18.96,,2021-09-30,Basel III,121667.0,,8.96,,126127.0,,19.7,5.4,6331.0,6296.0,,166.0
+postfinance,2021,FY2021,offenlegung_fy,.md/postfinance-offenlegungsbericht-2021.md,CHF,,,,,,,2021-12-31,Basel III,121667.0,,,,,,,,,,,
+postfinance,2022,Q1-2022,offenlegung_q1,.md/postfinance-offenlegungsbericht-03-2022.md,CHF,,6094.0,,,19.31,,2022-03-31,Basel III,114380.0,,9.31,,122628.0,,20.04,5.74,6324.0,6297.0,,161.0
+postfinance,2022,H1-2022,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2022.md,CHF,,,,,,,2022-06-30,Basel III,114380.0,,,,11.0,,,,,,,16.0
+postfinance,2022,Q3-2022,offenlegung_q3,.md/postfinance-offenlegungsbericht-09-2022.md,CHF,,6094.0,,,20.41,,2022-09-30,Basel III,114380.0,,10.41,,115980.0,,21.35,7.05,6373.0,6347.0,,165.0
+postfinance,2022,FY2022,offenlegung_fy,.md/postfinance-offenlegungsbericht-2022.md,CHF,,,,,,,2022-12-31,Basel III,114380.0,,,,,,,,,,,
+postfinance,2023,Q1-2023,offenlegung_q1,.md/postfinance-offenlegungsbericht-03-2023.md,CHF,,6095.0,,,20.07,,2023-03-31,Basel III,102257.0,,10.07,,118390.0,,20.99,6.69,6372.0,6348.0,,182.0
+postfinance,2023,H1-2023,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2023.md,CHF,,,,,,,2023-06-30,Basel III,102257.0,,,,11.0,,,,,,,16.0
+postfinance,2023,Q3-2023,offenlegung_q3,.md/postfinance-offenlegungsbericht-09-2023.md,CHF,,6095.0,,,20.28,,2023-09-30,Basel III,102257.0,,10.28,,113415.0,,21.83,7.53,6560.0,6537.0,,186.0
+postfinance,2023,FY2023,offenlegung_fy,.md/postfinance-offenlegungsbericht-2023.md,CHF,,,,,,,2023-12-31,Basel III,102257.0,,,,,,,,,,,
+postfinance,2024,Q1-2024,offenlegung_q1,.md/postfinance-offenlegungsbericht-03-2024.md,CHF,,6145.0,,,20.08,,2024-03-31,Basel III,102257.0,,10.08,,109904.0,,21.59,7.29,6606.0,6587.0,,
+postfinance,2024,H1-2024,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2024.md,CHF,,6145.0,,,20.13,,2024-06-30,Basel III,102257.0,,10.13,,,,21.64,7.34,6606.0,6587.0,,
+postfinance,2024,Q3-2024,offenlegung_q3,.md/postfinance-offenlegungsbericht-09-2024.md,CHF,,6164.0,,,20.84,,2024-09-30,Basel III,102257.0,,10.84,,103771.0,,22.41,8.11,6629.0,6606.0,,
+postfinance,2024,FY2024,offenlegung_fy,.md/postfinance-offenlegungsbericht-2024.md,CHF,,6165.0,,,20.84,,2024-12-31,Basel III,102257.0,,10.84,,,,22.4,8.1,6626.0,6607.0,,
+postfinance,2025,Q1-2025,offenlegung_q1,.md/postfinance-offenlegungsbericht-03-2025.md,CHF,,,,,,,2025-03-31,Basel III final,104836.0,,,,,,,,,,,
+postfinance,2025,H1-2025,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2025.md,CHF,,,,,,,2025-06-30,Basel III final,104836.0,,,,,,,,,,,
+postfinance,2025,Q3-2025,offenlegung_q3,.md/postfinance-offenlegungsbericht-09-2025.md,CHF,,,,,,,2025-09-30,Basel III final,104836.0,,,,,,,,,,,
+postfinance,2025,FY2025,offenlegung_fy,.md/postfinance-offenlegungsbericht-2025.md,CHF,,,,,,,2025-12-31,Basel III final,104836.0,,,,,,,,,,,
+postfinance,2026,Q1-2026,offenlegung_q1,.md/postfinance-offenlegungsbericht-03-2026.md,CHF,,6.358,,,24.84,,2026-03-31,Basel III final,,,14.84,,,,27.53,13.23,7.047,7.026,,
+postfinance,2026,H1-2026,offenlegung_h1,.md/postfinance-offenlegungsbericht-06-2026.md,CHF,,,,,,,2026-06-30,Basel III final,,,,,,,,,,,,

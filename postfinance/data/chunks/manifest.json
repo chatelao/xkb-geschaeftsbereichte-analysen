@@ -1,0 +1,1114 @@
+{
+  "bank_id": "postfinance",
+  "total_reports": 60,
+  "reports": [
+    {
+      "stem": "postfinance-geschaeftsbericht-2013",
+      "report_type": "annual",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8859,
+          "approx_tokens": 2214
+        },
+        "erfolgsrechnung": {
+          "chars": 3438,
+          "approx_tokens": 859
+        },
+        "mehrjahresvergleich": {
+          "chars": 3618,
+          "approx_tokens": 904
+        },
+        "lagebericht_strategie": {
+          "chars": 7009,
+          "approx_tokens": 1752
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8553,
+          "approx_tokens": 2138
+        },
+        "erfolgsrechnung": {
+          "chars": 3655,
+          "approx_tokens": 913
+        },
+        "mehrjahresvergleich": {
+          "chars": 4879,
+          "approx_tokens": 1219
+        },
+        "lagebericht_strategie": {
+          "chars": 7270,
+          "approx_tokens": 1817
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3823,
+          "approx_tokens": 955
+        },
+        "mehrjahresvergleich": {
+          "chars": 5445,
+          "approx_tokens": 1361
+        },
+        "lagebericht_strategie": {
+          "chars": 8035,
+          "approx_tokens": 2008
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3476,
+          "approx_tokens": 869
+        },
+        "mehrjahresvergleich": {
+          "chars": 4214,
+          "approx_tokens": 1053
+        },
+        "betreute_vermoegen": {
+          "chars": 3070,
+          "approx_tokens": 767
+        },
+        "lagebericht_strategie": {
+          "chars": 7171,
+          "approx_tokens": 1792
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3905,
+          "approx_tokens": 976
+        },
+        "mehrjahresvergleich": {
+          "chars": 4020,
+          "approx_tokens": 1005
+        },
+        "betreute_vermoegen": {
+          "chars": 2374,
+          "approx_tokens": 593
+        },
+        "verguetung": {
+          "chars": 2384,
+          "approx_tokens": 596
+        },
+        "lagebericht_strategie": {
+          "chars": 7738,
+          "approx_tokens": 1934
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3888,
+          "approx_tokens": 972
+        },
+        "mehrjahresvergleich": {
+          "chars": 4235,
+          "approx_tokens": 1058
+        },
+        "betreute_vermoegen": {
+          "chars": 2359,
+          "approx_tokens": 589
+        },
+        "verguetung": {
+          "chars": 2236,
+          "approx_tokens": 559
+        },
+        "lagebericht_strategie": {
+          "chars": 7622,
+          "approx_tokens": 1905
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3854,
+          "approx_tokens": 963
+        },
+        "mehrjahresvergleich": {
+          "chars": 2880,
+          "approx_tokens": 720
+        },
+        "betreute_vermoegen": {
+          "chars": 2022,
+          "approx_tokens": 505
+        },
+        "verguetung": {
+          "chars": 2414,
+          "approx_tokens": 603
+        },
+        "lagebericht_strategie": {
+          "chars": 7199,
+          "approx_tokens": 1799
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3566,
+          "approx_tokens": 891
+        },
+        "mehrjahresvergleich": {
+          "chars": 3021,
+          "approx_tokens": 755
+        },
+        "betreute_vermoegen": {
+          "chars": 2084,
+          "approx_tokens": 521
+        },
+        "verguetung": {
+          "chars": 7328,
+          "approx_tokens": 1832
+        },
+        "lagebericht_strategie": {
+          "chars": 7867,
+          "approx_tokens": 1966
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8159,
+          "approx_tokens": 2039
+        },
+        "erfolgsrechnung": {
+          "chars": 3716,
+          "approx_tokens": 929
+        },
+        "mehrjahresvergleich": {
+          "chars": 6660,
+          "approx_tokens": 1665
+        },
+        "betreute_vermoegen": {
+          "chars": 2395,
+          "approx_tokens": 598
+        },
+        "verguetung": {
+          "chars": 7516,
+          "approx_tokens": 1879
+        },
+        "lagebericht_strategie": {
+          "chars": 7640,
+          "approx_tokens": 1910
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8175,
+          "approx_tokens": 2043
+        },
+        "erfolgsrechnung": {
+          "chars": 3879,
+          "approx_tokens": 969
+        },
+        "mehrjahresvergleich": {
+          "chars": 9197,
+          "approx_tokens": 2299
+        },
+        "betreute_vermoegen": {
+          "chars": 2263,
+          "approx_tokens": 565
+        },
+        "verguetung": {
+          "chars": 2408,
+          "approx_tokens": 602
+        },
+        "lagebericht_strategie": {
+          "chars": 7640,
+          "approx_tokens": 1910
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8162,
+          "approx_tokens": 2040
+        },
+        "erfolgsrechnung": {
+          "chars": 3712,
+          "approx_tokens": 928
+        },
+        "mehrjahresvergleich": {
+          "chars": 7464,
+          "approx_tokens": 1866
+        },
+        "betreute_vermoegen": {
+          "chars": 2326,
+          "approx_tokens": 581
+        },
+        "lagebericht_strategie": {
+          "chars": 7348,
+          "approx_tokens": 1837
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8361,
+          "approx_tokens": 2090
+        },
+        "erfolgsrechnung": {
+          "chars": 3590,
+          "approx_tokens": 897
+        },
+        "mehrjahresvergleich": {
+          "chars": 7764,
+          "approx_tokens": 1941
+        },
+        "betreute_vermoegen": {
+          "chars": 2587,
+          "approx_tokens": 646
+        },
+        "lagebericht_strategie": {
+          "chars": 7071,
+          "approx_tokens": 1767
+        }
+      }
+    },
+    {
+      "stem": "postfinance-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7675,
+          "approx_tokens": 1918
+        },
+        "erfolgsrechnung": {
+          "chars": 5318,
+          "approx_tokens": 1329
+        },
+        "mehrjahresvergleich": {
+          "chars": 5071,
+          "approx_tokens": 1267
+        },
+        "betreute_vermoegen": {
+          "chars": 2068,
+          "approx_tokens": 517
+        },
+        "lagebericht_strategie": {
+          "chars": 7016,
+          "approx_tokens": 1754
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-03-2017",
+      "report_type": "offenlegung_q1",
+      "year": 2017,
+      "period": "Q1-2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 7739,
+          "approx_tokens": 1934
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-03-2018",
+      "report_type": "offenlegung_q1",
+      "year": 2018,
+      "period": "Q1-2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 3438,
+          "approx_tokens": 859
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-03-2019",
+      "report_type": "offenlegung_q1",
+      "year": 2019,
+      "period": "Q1-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 7877,
+          "approx_tokens": 1969
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-03-2020",
+      "report_type": "offenlegung_q1",
+      "year": 2020,
+      "period": "Q1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-03-2021",
+      "report_type": "offenlegung_q1",
+      "year": 2021,
+      "period": "Q1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-03-2022",
+      "report_type": "offenlegung_q1",
+      "year": 2022,
+      "period": "Q1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-03-2023",
+      "report_type": "offenlegung_q1",
+      "year": 2023,
+      "period": "Q1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-03-2024",
+      "report_type": "offenlegung_q1",
+      "year": 2024,
+      "period": "Q1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-03-2025",
+      "report_type": "offenlegung_q1",
+      "year": 2025,
+      "period": "Q1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-03-2026",
+      "report_type": "offenlegung_q1",
+      "year": 2026,
+      "period": "Q1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2014",
+      "report_type": "offenlegung_h1",
+      "year": 2014,
+      "period": "H1-2014",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 6699,
+          "approx_tokens": 1674
+        },
+        "ov1_rwa": {
+          "chars": 1409,
+          "approx_tokens": 352
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2015",
+      "report_type": "offenlegung_h1",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 2056,
+          "approx_tokens": 514
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2016",
+      "report_type": "offenlegung_h1",
+      "year": 2016,
+      "period": "H1-2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 2064,
+          "approx_tokens": 516
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2017",
+      "report_type": "offenlegung_h1",
+      "year": 2017,
+      "period": "H1-2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 1989,
+          "approx_tokens": 497
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2018",
+      "report_type": "offenlegung_h1",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3701,
+          "approx_tokens": 925
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2019",
+      "report_type": "offenlegung_h1",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3055,
+          "approx_tokens": 763
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2020",
+      "report_type": "offenlegung_h1",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 2773,
+          "approx_tokens": 693
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2021",
+      "report_type": "offenlegung_h1",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 2780,
+          "approx_tokens": 695
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2022",
+      "report_type": "offenlegung_h1",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 2814,
+          "approx_tokens": 703
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2023",
+      "report_type": "offenlegung_h1",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 2829,
+          "approx_tokens": 707
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2024",
+      "report_type": "offenlegung_h1",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 2928,
+          "approx_tokens": 732
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2025",
+      "report_type": "offenlegung_h1",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-09-2017",
+      "report_type": "offenlegung_q3",
+      "year": 2017,
+      "period": "Q3-2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 8762,
+          "approx_tokens": 2190
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-09-2018",
+      "report_type": "offenlegung_q3",
+      "year": 2018,
+      "period": "Q3-2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 3438,
+          "approx_tokens": 859
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-09-2019",
+      "report_type": "offenlegung_q3",
+      "year": 2019,
+      "period": "Q3-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 8027,
+          "approx_tokens": 2006
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-09-2020",
+      "report_type": "offenlegung_q3",
+      "year": 2020,
+      "period": "Q3-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-09-2021",
+      "report_type": "offenlegung_q3",
+      "year": 2021,
+      "period": "Q3-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-09-2022",
+      "report_type": "offenlegung_q3",
+      "year": 2022,
+      "period": "Q3-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-09-2023",
+      "report_type": "offenlegung_q3",
+      "year": 2023,
+      "period": "Q3-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-09-2024",
+      "report_type": "offenlegung_q3",
+      "year": 2024,
+      "period": "Q3-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-09-2025",
+      "report_type": "offenlegung_q3",
+      "year": 2025,
+      "period": "Q3-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2013",
+      "report_type": "offenlegung_fy",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9238,
+          "approx_tokens": 2309
+        },
+        "ov1_rwa": {
+          "chars": 1154,
+          "approx_tokens": 288
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2014",
+      "report_type": "offenlegung_fy",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9467,
+          "approx_tokens": 2366
+        },
+        "ov1_rwa": {
+          "chars": 1385,
+          "approx_tokens": 346
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2015",
+      "report_type": "offenlegung_fy",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 2130,
+          "approx_tokens": 532
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2016",
+      "report_type": "offenlegung_fy",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 2067,
+          "approx_tokens": 516
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2017",
+      "report_type": "offenlegung_fy",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3737,
+          "approx_tokens": 934
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2018",
+      "report_type": "offenlegung_fy",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3289,
+          "approx_tokens": 822
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2019",
+      "report_type": "offenlegung_fy",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 2997,
+          "approx_tokens": 749
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3140,
+          "approx_tokens": 785
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3489,
+          "approx_tokens": 872
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3496,
+          "approx_tokens": 874
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3474,
+          "approx_tokens": 868
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3497,
+          "approx_tokens": 874
+        }
+      }
+    },
+    {
+      "stem": "postfinance-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "postfinance-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2030,
+          "approx_tokens": 507
+        },
+        "erfolgsrechnung": {
+          "chars": 1733,
+          "approx_tokens": 433
+        },
+        "lagebericht_strategie": {
+          "chars": 6308,
+          "approx_tokens": 1577
+        }
+      }
+    },
+    {
+      "stem": "postfinance-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4458,
+          "approx_tokens": 1114
+        },
+        "erfolgsrechnung": {
+          "chars": 1727,
+          "approx_tokens": 431
+        },
+        "lagebericht_strategie": {
+          "chars": 5592,
+          "approx_tokens": 1398
+        }
+      }
+    }
+  ]
+}

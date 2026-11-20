@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "stem": "vskb-geschaeftsbericht-2007",
+    "report_type": "annual",
+    "year": 2007,
+    "period": "FY2007",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-geschaeftsbericht-2007.md",
+    "total_chars": 337408,
+    "total_lines": 3505
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 1705598812.22,
+      "value_prior_year": 1739958334.17,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**• **Forderungen gegenüber Kunden|3.1|1'705'598'812.22|1'739'958'334.17|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 5138620921.0,
+      "value_prior_year": 4889966536.81,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**• **Hypothekarforderungen|3.1, 3.6|5'138'620'921.00|4'889'966'536.81|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 274010545.65,
+      "value_prior_year": 272381556.85,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**• **Finanzanlagen|3.2, 3.3, 3.6|274'010'545.65|272'381'556.85|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 8179407528.82,
+      "value_prior_year": 8223352824.91,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**TOTAL AKTIVEN**||**8'179'407'528.82**|**8'223'352'824.91**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 2744269760.22,
+      "value_prior_year": 2978052918.65,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**• **Verpflichtungen gegenüber Kunden in Spar- und Anlageform||2'744'269'760.22|2'978'052'918.65|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 204550000.0,
+      "value_prior_year": 167827000.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**• **Kassenobligationen||204'550'000.00|167'827'000.00|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 901000000.0,
+      "value_prior_year": 1044055872.2,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**• **Anleihen und Pfandbriefdarlehen|3.8|901'000'000.00|1'044'055'872.20|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 143514605.91,
+      "value_prior_year": 111468041.68,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**• **Reserven für allgemeine Bankrisiken|3.9|143'514'605.91|111'468'041.68|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 41138877.51,
+      "value_prior_year": 36340217.54,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**• **Jahresgewinn||41'138'877.51|36'340'217.54|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": -85945.0,
+      "value_prior_year": -80970.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|•Geschäftsaufwand|**-85'945**|-80'970|-80'464|-81'155|-78'416|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 104119.0,
+      "value_prior_year": 100065.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|•Bruttogewinn|**104'119**|100'065|87'029|76'219|72'552|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

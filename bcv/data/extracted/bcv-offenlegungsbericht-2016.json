@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-2016",
+    "report_type": "offenlegung_fy",
+    "year": 2016,
+    "period": "FY2016",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-2016.md",
+    "total_chars": 173148,
+    "total_lines": 2547
+  },
+  "backend": "local",
+  "metrics": {}
+}

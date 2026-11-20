@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "stem": "gekb-geschaeftsbericht-2007",
+    "report_type": "annual",
+    "year": 2007,
+    "period": "FY2007",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-geschaeftsbericht-2007.md",
+    "total_chars": 293624,
+    "total_lines": 3718
+  },
+  "backend": "local",
+  "metrics": {
+    "net_profit": {
+      "value_current": 77100.0,
+      "value_prior_year": 61092.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice net|77’100|61’092|+16’008|_+_26.2%|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 111861.0,
+      "value_prior_year": 118054.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice brut|111’861|118’054|-6’193|-5.2%|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 12498462.0,
+      "value_prior_year": 12571009.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total du bilan|12’498’462|12’571’009|-72’547|-0.6%|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 6393374.0,
+      "value_prior_year": 6189319.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires|6’393’374|6’189’319|+204’055|+3.3%|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 209932.0,
+      "value_prior_year": 204951.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges d’exploitation|209’932|204’951|+4’981|+2.4%|",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 3912022.0,
+      "value_prior_year": 4172210.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle|5.12|3’912’022|4’172’210|-260’188|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 409411.0,
+      "value_prior_year": 380547.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|5.3|409’411|380’547|28’864|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 4438333.0,
+      "value_prior_year": 4609930.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Engagements envers la clientèle sous forme d’épargne et de placements|5.12|4’438’333|4’609’930|-171’597|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 106339.0,
+      "value_prior_year": 74806.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|5.12|106’339|74’806|31’533|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 85100.0,
+      "value_prior_year": 60000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux|5.11|85’100|60’000|25’100|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 888.0,
+      "value_prior_year": 814.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Fondspropres|888|814|705|654|622|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "net_interest_income": {
+      "value_current": 201.0,
+      "value_prior_year": 192.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat des opérations d’intérêts|201|192|183|179|171|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 6.0,
+      "value_prior_year": 19.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Autres résultats ordinaires|6|19|10|9|14|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 322.0,
+      "value_prior_year": 323.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total des produits d’exploitation|322|323|295|278|276|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

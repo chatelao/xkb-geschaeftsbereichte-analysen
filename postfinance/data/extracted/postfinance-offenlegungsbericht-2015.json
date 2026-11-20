@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-2015",
+    "report_type": "offenlegung_fy",
+    "year": 2015,
+    "period": "FY2015",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-2015.md",
+    "total_chars": 30965,
+    "total_lines": 621
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_ratio_pct": {
+      "value_current": 19.5,
+      "value_prior_year": 20.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote (hartes Kernkapital in % der risikogewichteten Positionen)|auf Basis Mindesteigenmittel (8%)|19,5%|20,1%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_capital": {
+      "value_current": 9.2,
+      "value_prior_year": 9.2,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Eigenmittelzielgrösse<sup>1</sup>hartes Kernkapital (CET1)||9,2%|9,2%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 115505.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Gesamtengagement für die Leverage Ratio**|**115 505**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 4528.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total risikogewichtete Positionen ohne Ratings|4 528|",
+      "chunk_name": "ov1_rwa"
+    }
+  }
+}

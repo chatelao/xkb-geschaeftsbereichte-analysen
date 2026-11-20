@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-03-2016",
+    "report_type": "offenlegung_q1",
+    "year": 2016,
+    "period": "Q1-2016",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-03-2016.md",
+    "total_chars": 75253,
+    "total_lines": 1209
+  },
+  "backend": "local",
+  "metrics": {}
+}

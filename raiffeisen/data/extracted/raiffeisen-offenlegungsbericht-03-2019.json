@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-03-2019",
+    "report_type": "offenlegung_q1",
+    "year": 2019,
+    "period": "Q1-2019",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-03-2019.md",
+    "total_chars": 10347,
+    "total_lines": 201
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 239641.0,
+      "value_prior_year": 239641.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Gesamtengagement (Nenner der Leverage Ratio, LRD)|239'641||239'641||",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-09-2016",
+    "report_type": "offenlegung_q3",
+    "year": 2016,
+    "period": "Q3-2016",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-09-2016.md",
+    "total_chars": 75428,
+    "total_lines": 1185
+  },
+  "chunks": {}
+}

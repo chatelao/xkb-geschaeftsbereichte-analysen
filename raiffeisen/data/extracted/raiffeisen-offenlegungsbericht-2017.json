@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-2017",
+    "report_type": "offenlegung_fy",
+    "year": 2017,
+    "period": "FY2017",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-2017.md",
+    "total_chars": 6403,
+    "total_lines": 94
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 10.08,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|davon hartes Kernkapital (CET1)|10,08|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

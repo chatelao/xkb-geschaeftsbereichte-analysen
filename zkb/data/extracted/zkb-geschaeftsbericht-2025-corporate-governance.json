@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-geschaeftsbericht-2025-corporate-governance",
+    "report_type": "annual",
+    "year": 2025,
+    "period": "FY2025",
+    "part": "corporate-governance",
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-geschaeftsbericht-2025-corporate-governance.md",
+    "total_chars": 77254,
+    "total_lines": 959
+  },
+  "backend": "local",
+  "metrics": {}
+}

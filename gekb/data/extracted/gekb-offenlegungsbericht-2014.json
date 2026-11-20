@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-2014",
+    "report_type": "offenlegung_fy",
+    "year": 2014,
+    "period": "FY2014",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-2014.md",
+    "total_chars": 30441,
+    "total_lines": 475
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 1227914.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|= Fonds propres de base durs, avant ajustements|1'227'914|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

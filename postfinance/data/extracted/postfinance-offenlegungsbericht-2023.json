@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-2023",
+    "report_type": "offenlegung_fy",
+    "year": 2023,
+    "period": "FY2023",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-2023.md",
+    "total_chars": 112613,
+    "total_lines": 1421
+  },
+  "backend": "local",
+  "metrics": {}
+}

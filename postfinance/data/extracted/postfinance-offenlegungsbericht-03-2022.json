@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-03-2022",
+    "report_type": "offenlegung_q1",
+    "year": 2022,
+    "period": "Q1-2022",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-03-2022.md",
+    "total_chars": 10099,
+    "total_lines": 147
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 122628.0,
+      "value_prior_year": 122628.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Gesamtengagement (Nenner der Leverage Ratio, LRD)|122 628||122 628||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_capital": {
+      "value_current": 6094.0,
+      "value_prior_year": 6094.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|6 094|6 094|6 093|6 093|6 093|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 6297.0,
+      "value_prior_year": 6297.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (T1)|6 297|6 297|6 296|6 296|6 296|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 6324.0,
+      "value_prior_year": 6324.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|3<br>Gesamtkapital total (T1 + T2)<sup>1</sup>|6 324|6 324|6 331|6 334|6 335|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 19.31,
+      "value_prior_year": 19.68,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote|19,31%|19,68%|18,96%|18,50%|18,30%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 20.04,
+      "value_prior_year": 20.42,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote|20,04%|20,42%|19,70%|19,23%|19,03%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 161.0,
+      "value_prior_year": 170.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|20<br>Finanzierungsquote, NSFR|161%|170%|166%|n / a|n / a|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

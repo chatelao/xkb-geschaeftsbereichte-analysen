@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-2017",
+    "report_type": "offenlegung_fy",
+    "year": 2017,
+    "period": "FY2017",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-2017.md",
+    "total_chars": 186734,
+    "total_lines": 2570
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 47886.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**8**<br>**Engagement total soumis au ratio de levier**|**47'886**|**47'339**|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

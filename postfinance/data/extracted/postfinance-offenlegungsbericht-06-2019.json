@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-06-2019",
+    "report_type": "offenlegung_h1",
+    "year": 2019,
+    "period": "H1-2019",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-06-2019.md",
+    "total_chars": 66396,
+    "total_lines": 976
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 11.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio|11|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

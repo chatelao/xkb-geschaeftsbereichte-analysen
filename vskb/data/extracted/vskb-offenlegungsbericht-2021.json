@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "vskb-offenlegungsbericht-2021",
+    "report_type": "offenlegung_fy",
+    "year": 2021,
+    "period": "FY2021",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-offenlegungsbericht-2021.md",
+    "total_chars": 90096,
+    "total_lines": 1284
+  },
+  "backend": "local",
+  "metrics": {}
+}

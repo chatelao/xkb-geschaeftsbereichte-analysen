@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "stem": "bekb-offenlegungsbericht-2016",
+    "report_type": "offenlegung_fy",
+    "year": 2016,
+    "period": "FY2016",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-offenlegungsbericht-2016.md",
+    "total_chars": 26305,
+    "total_lines": 476
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_ratio_pct": {
+      "value_current": 19.81,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|61<br>CET1-Quote(Ziffer 29,in % der risikogewichteten Positionen)|19,81%|19,81%||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 29572913.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|8  Gesamtengagement für die Leverage Ratio(Summe der Zeilen 1–7)|29 572 913|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

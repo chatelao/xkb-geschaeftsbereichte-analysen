@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "stem": "bekb-geschaeftsbericht-2009",
+    "report_type": "annual",
+    "year": 2009,
+    "period": "FY2009",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-geschaeftsbericht-2009.md",
+    "total_chars": 454651,
+    "total_lines": 6511
+  },
+  "backend": "local",
+  "metrics": {
+    "total_assets": {
+      "value_current": 24036.0,
+      "value_prior_year": 22730.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme|21 361|22 730|24 036|",
+      "chunk_name": "bilanz"
+    },
+    "assets_under_management": {
+      "value_current": 20291.0,
+      "value_prior_year": 18731.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Betreute Vermögenswerte (Depotwerte)<sup>1)</sup>|20 451|18 731|20 291|",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 15865.0,
+      "value_prior_year": 14993.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden<br>ohne OeRK|14 316|14 993|15 865|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 1628.0,
+      "value_prior_year": 1899.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|2 165|1 899|1 628|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 611.0,
+      "value_prior_year": 560.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|560|560|611|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 118.0,
+      "value_prior_year": 112.7,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn nach Steuern|103,8<sup>7)</sup>|112,7|118,0|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 68.5,
+      "value_prior_year": 64.8,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen gegenüber Kunden in Spar­ und Anlageform|64,8|68,5|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 3.6,
+      "value_prior_year": 4.9,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|4,9|3,6|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 14930191.0,
+      "value_prior_year": 14168075.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|14 168 075|14 930 191|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 3541329.0,
+      "value_prior_year": 2990623.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|2 990 623|3 541 329|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 25425.0,
+      "value_prior_year": 37789.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Handelsgeschäft**|**37 789**|**25 425**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 497751.0,
+      "value_prior_year": 471337.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Betriebsertrag netto|471 337|497 751|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -146809.0,
+      "value_prior_year": -140769.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|(140 769)|(146 809)|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -95458.0,
+      "value_prior_year": -93828.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|(93 828)|(95 458)|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -242266.0,
+      "value_prior_year": -234597.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Geschäftsaufwand**|**(234 597)**|**(242 266)**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 255485.0,
+      "value_prior_year": 236739.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Bruttogewinn|236 739|255 485|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -37450.0,
+      "value_prior_year": -27600.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Steuern|(27 600)|(37 450)|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

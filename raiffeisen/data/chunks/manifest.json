@@ -1,0 +1,1401 @@
+{
+  "bank_id": "raiffeisen",
+  "total_reports": 75,
+  "reports": [
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2011",
+      "report_type": "annual",
+      "year": 2011,
+      "period": "FY2011",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7520,
+          "approx_tokens": 1880
+        },
+        "erfolgsrechnung": {
+          "chars": 4066,
+          "approx_tokens": 1016
+        },
+        "mehrjahresvergleich": {
+          "chars": 3149,
+          "approx_tokens": 787
+        },
+        "lagebericht_strategie": {
+          "chars": 7413,
+          "approx_tokens": 1853
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2012",
+      "report_type": "annual",
+      "year": 2012,
+      "period": "FY2012",
+      "part": null,
+      "chunks": {
+        "lagebericht_strategie": {
+          "chars": 7278,
+          "approx_tokens": 1819
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2013",
+      "report_type": "annual",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4979,
+          "approx_tokens": 1244
+        },
+        "mehrjahresvergleich": {
+          "chars": 5050,
+          "approx_tokens": 1262
+        },
+        "lagebericht_strategie": {
+          "chars": 7063,
+          "approx_tokens": 1765
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4909,
+          "approx_tokens": 1227
+        },
+        "mehrjahresvergleich": {
+          "chars": 5944,
+          "approx_tokens": 1486
+        },
+        "lagebericht_strategie": {
+          "chars": 7006,
+          "approx_tokens": 1751
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8891,
+          "approx_tokens": 2222
+        },
+        "erfolgsrechnung": {
+          "chars": 5259,
+          "approx_tokens": 1314
+        },
+        "mehrjahresvergleich": {
+          "chars": 7588,
+          "approx_tokens": 1897
+        },
+        "lagebericht_strategie": {
+          "chars": 7360,
+          "approx_tokens": 1840
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8672,
+          "approx_tokens": 2168
+        },
+        "erfolgsrechnung": {
+          "chars": 4874,
+          "approx_tokens": 1218
+        },
+        "mehrjahresvergleich": {
+          "chars": 6626,
+          "approx_tokens": 1656
+        },
+        "lagebericht_strategie": {
+          "chars": 7290,
+          "approx_tokens": 1822
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8717,
+          "approx_tokens": 2179
+        },
+        "erfolgsrechnung": {
+          "chars": 4899,
+          "approx_tokens": 1224
+        },
+        "mehrjahresvergleich": {
+          "chars": 6072,
+          "approx_tokens": 1518
+        },
+        "lagebericht_strategie": {
+          "chars": 7174,
+          "approx_tokens": 1793
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8243,
+          "approx_tokens": 2060
+        },
+        "erfolgsrechnung": {
+          "chars": 4766,
+          "approx_tokens": 1191
+        },
+        "mehrjahresvergleich": {
+          "chars": 5029,
+          "approx_tokens": 1257
+        },
+        "lagebericht_strategie": {
+          "chars": 7151,
+          "approx_tokens": 1787
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8221,
+          "approx_tokens": 2055
+        },
+        "erfolgsrechnung": {
+          "chars": 4767,
+          "approx_tokens": 1191
+        },
+        "mehrjahresvergleich": {
+          "chars": 5667,
+          "approx_tokens": 1416
+        },
+        "lagebericht_strategie": {
+          "chars": 7197,
+          "approx_tokens": 1799
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 6645,
+          "approx_tokens": 1661
+        },
+        "mehrjahresvergleich": {
+          "chars": 4330,
+          "approx_tokens": 1082
+        },
+        "betreute_vermoegen": {
+          "chars": 2457,
+          "approx_tokens": 614
+        },
+        "lagebericht_strategie": {
+          "chars": 7729,
+          "approx_tokens": 1932
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4542,
+          "approx_tokens": 1135
+        },
+        "mehrjahresvergleich": {
+          "chars": 4626,
+          "approx_tokens": 1156
+        },
+        "aktie_basisdaten": {
+          "chars": 5949,
+          "approx_tokens": 1487
+        },
+        "betreute_vermoegen": {
+          "chars": 2758,
+          "approx_tokens": 689
+        },
+        "lagebericht_strategie": {
+          "chars": 7277,
+          "approx_tokens": 1819
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 2714,
+          "approx_tokens": 678
+        },
+        "mehrjahresvergleich": {
+          "chars": 4581,
+          "approx_tokens": 1145
+        },
+        "betreute_vermoegen": {
+          "chars": 1652,
+          "approx_tokens": 413
+        },
+        "lagebericht_strategie": {
+          "chars": 7332,
+          "approx_tokens": 1833
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 2544,
+          "approx_tokens": 636
+        },
+        "mehrjahresvergleich": {
+          "chars": 4514,
+          "approx_tokens": 1128
+        },
+        "betreute_vermoegen": {
+          "chars": 1477,
+          "approx_tokens": 369
+        },
+        "lagebericht_strategie": {
+          "chars": 7117,
+          "approx_tokens": 1779
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4362,
+          "approx_tokens": 1090
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "betreute_vermoegen": {
+          "chars": 2201,
+          "approx_tokens": 550
+        },
+        "verguetung": {
+          "chars": 4586,
+          "approx_tokens": 1146
+        },
+        "lagebericht_strategie": {
+          "chars": 7465,
+          "approx_tokens": 1866
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4877,
+          "approx_tokens": 1219
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "betreute_vermoegen": {
+          "chars": 2407,
+          "approx_tokens": 601
+        },
+        "lagebericht_strategie": {
+          "chars": 7178,
+          "approx_tokens": 1794
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2016",
+      "report_type": "offenlegung_q1",
+      "year": 2016,
+      "period": "Q1-2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2017",
+      "report_type": "offenlegung_q1",
+      "year": 2017,
+      "period": "Q1-2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 6772,
+          "approx_tokens": 1693
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2018",
+      "report_type": "offenlegung_q1",
+      "year": 2018,
+      "period": "Q1-2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2019",
+      "report_type": "offenlegung_q1",
+      "year": 2019,
+      "period": "Q1-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9344,
+          "approx_tokens": 2336
+        },
+        "ov1_rwa": {
+          "chars": 2828,
+          "approx_tokens": 707
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2020",
+      "report_type": "offenlegung_q1",
+      "year": 2020,
+      "period": "Q1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3441,
+          "approx_tokens": 860
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2021",
+      "report_type": "offenlegung_q1",
+      "year": 2021,
+      "period": "Q1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3769,
+          "approx_tokens": 942
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2022",
+      "report_type": "offenlegung_q1",
+      "year": 2022,
+      "period": "Q1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3902,
+          "approx_tokens": 975
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2023",
+      "report_type": "offenlegung_q1",
+      "year": 2023,
+      "period": "Q1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3904,
+          "approx_tokens": 976
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2024",
+      "report_type": "offenlegung_q1",
+      "year": 2024,
+      "period": "Q1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3838,
+          "approx_tokens": 959
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2025",
+      "report_type": "offenlegung_q1",
+      "year": 2025,
+      "period": "Q1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4006,
+          "approx_tokens": 1001
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-03-2026",
+      "report_type": "offenlegung_q1",
+      "year": 2026,
+      "period": "Q1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3847,
+          "approx_tokens": 961
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2015",
+      "report_type": "offenlegung_h1",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3519,
+          "approx_tokens": 879
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2016",
+      "report_type": "offenlegung_h1",
+      "year": 2016,
+      "period": "H1-2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2017",
+      "report_type": "offenlegung_h1",
+      "year": 2017,
+      "period": "H1-2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 7356,
+          "approx_tokens": 1839
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2018",
+      "report_type": "offenlegung_h1",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2019",
+      "report_type": "offenlegung_h1",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3188,
+          "approx_tokens": 797
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2020",
+      "report_type": "offenlegung_h1",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3434,
+          "approx_tokens": 858
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2021",
+      "report_type": "offenlegung_h1",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3702,
+          "approx_tokens": 925
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2022",
+      "report_type": "offenlegung_h1",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2023",
+      "report_type": "offenlegung_h1",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2024",
+      "report_type": "offenlegung_h1",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2025",
+      "report_type": "offenlegung_h1",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3881,
+          "approx_tokens": 970
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3877,
+          "approx_tokens": 969
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2015",
+      "report_type": "offenlegung_q3",
+      "year": 2015,
+      "period": "Q3-2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2016",
+      "report_type": "offenlegung_q3",
+      "year": 2016,
+      "period": "Q3-2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2017",
+      "report_type": "offenlegung_q3",
+      "year": 2017,
+      "period": "Q3-2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 7376,
+          "approx_tokens": 1844
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2018",
+      "report_type": "offenlegung_q3",
+      "year": 2018,
+      "period": "Q3-2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2019",
+      "report_type": "offenlegung_q3",
+      "year": 2019,
+      "period": "Q3-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4325,
+          "approx_tokens": 1081
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2020",
+      "report_type": "offenlegung_q3",
+      "year": 2020,
+      "period": "Q3-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3439,
+          "approx_tokens": 859
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2021",
+      "report_type": "offenlegung_q3",
+      "year": 2021,
+      "period": "Q3-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3507,
+          "approx_tokens": 876
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2022",
+      "report_type": "offenlegung_q3",
+      "year": 2022,
+      "period": "Q3-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3840,
+          "approx_tokens": 960
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2023",
+      "report_type": "offenlegung_q3",
+      "year": 2023,
+      "period": "Q3-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3570,
+          "approx_tokens": 892
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2024",
+      "report_type": "offenlegung_q3",
+      "year": 2024,
+      "period": "Q3-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3838,
+          "approx_tokens": 959
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-09-2025",
+      "report_type": "offenlegung_q3",
+      "year": 2025,
+      "period": "Q3-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3857,
+          "approx_tokens": 964
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2015",
+      "report_type": "offenlegung_fy",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3529,
+          "approx_tokens": 882
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2016",
+      "report_type": "offenlegung_fy",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2017",
+      "report_type": "offenlegung_fy",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 7182,
+          "approx_tokens": 1795
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2018",
+      "report_type": "offenlegung_fy",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3260,
+          "approx_tokens": 815
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2019",
+      "report_type": "offenlegung_fy",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4586,
+          "approx_tokens": 1146
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3921,
+          "approx_tokens": 980
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2012",
+      "report_type": "semester",
+      "year": 2012,
+      "period": "H1-2012",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7369,
+          "approx_tokens": 1842
+        },
+        "erfolgsrechnung": {
+          "chars": 2787,
+          "approx_tokens": 696
+        },
+        "lagebericht_strategie": {
+          "chars": 3574,
+          "approx_tokens": 893
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2013",
+      "report_type": "semester",
+      "year": 2013,
+      "period": "H1-2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7775,
+          "approx_tokens": 1943
+        },
+        "erfolgsrechnung": {
+          "chars": 3102,
+          "approx_tokens": 775
+        },
+        "lagebericht_strategie": {
+          "chars": 4525,
+          "approx_tokens": 1131
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2014",
+      "report_type": "semester",
+      "year": 2014,
+      "period": "H1-2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8042,
+          "approx_tokens": 2010
+        },
+        "erfolgsrechnung": {
+          "chars": 2816,
+          "approx_tokens": 704
+        },
+        "lagebericht_strategie": {
+          "chars": 5164,
+          "approx_tokens": 1291
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2015",
+      "report_type": "semester",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7913,
+          "approx_tokens": 1978
+        },
+        "erfolgsrechnung": {
+          "chars": 2935,
+          "approx_tokens": 733
+        },
+        "lagebericht_strategie": {
+          "chars": 4598,
+          "approx_tokens": 1149
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2016",
+      "report_type": "semester",
+      "year": 2016,
+      "period": "H1-2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8046,
+          "approx_tokens": 2011
+        },
+        "erfolgsrechnung": {
+          "chars": 5023,
+          "approx_tokens": 1255
+        },
+        "lagebericht_strategie": {
+          "chars": 5526,
+          "approx_tokens": 1381
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2017",
+      "report_type": "semester",
+      "year": 2017,
+      "period": "H1-2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6502,
+          "approx_tokens": 1625
+        },
+        "erfolgsrechnung": {
+          "chars": 4332,
+          "approx_tokens": 1083
+        },
+        "lagebericht_strategie": {
+          "chars": 5581,
+          "approx_tokens": 1395
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2018",
+      "report_type": "semester",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7400,
+          "approx_tokens": 1850
+        },
+        "erfolgsrechnung": {
+          "chars": 4826,
+          "approx_tokens": 1206
+        },
+        "lagebericht_strategie": {
+          "chars": 5724,
+          "approx_tokens": 1431
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2019",
+      "report_type": "semester",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5174,
+          "approx_tokens": 1293
+        },
+        "erfolgsrechnung": {
+          "chars": 4559,
+          "approx_tokens": 1139
+        },
+        "lagebericht_strategie": {
+          "chars": 5855,
+          "approx_tokens": 1463
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2020",
+      "report_type": "semester",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5201,
+          "approx_tokens": 1300
+        },
+        "erfolgsrechnung": {
+          "chars": 5206,
+          "approx_tokens": 1301
+        },
+        "lagebericht_strategie": {
+          "chars": 5768,
+          "approx_tokens": 1442
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2021",
+      "report_type": "semester",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6705,
+          "approx_tokens": 1676
+        },
+        "erfolgsrechnung": {
+          "chars": 8694,
+          "approx_tokens": 2173
+        },
+        "lagebericht_strategie": {
+          "chars": 5778,
+          "approx_tokens": 1444
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6519,
+          "approx_tokens": 1629
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 6430,
+          "approx_tokens": 1607
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6468,
+          "approx_tokens": 1617
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 6115,
+          "approx_tokens": 1528
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6472,
+          "approx_tokens": 1618
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 6283,
+          "approx_tokens": 1570
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6782,
+          "approx_tokens": 1695
+        },
+        "erfolgsrechnung": {
+          "chars": 9140,
+          "approx_tokens": 2285
+        },
+        "lagebericht_strategie": {
+          "chars": 6750,
+          "approx_tokens": 1687
+        }
+      }
+    },
+    {
+      "stem": "raiffeisen-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6727,
+          "approx_tokens": 1681
+        },
+        "erfolgsrechnung": {
+          "chars": 6876,
+          "approx_tokens": 1719
+        },
+        "lagebericht_strategie": {
+          "chars": 5941,
+          "approx_tokens": 1485
+        }
+      }
+    }
+  ]
+}

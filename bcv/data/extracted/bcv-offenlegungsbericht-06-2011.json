@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-06-2011",
+    "report_type": "offenlegung_h1",
+    "year": 2011,
+    "period": "H1-2011",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-06-2011.md",
+    "total_chars": 131409,
+    "total_lines": 1911
+  },
+  "backend": "local",
+  "metrics": {}
+}

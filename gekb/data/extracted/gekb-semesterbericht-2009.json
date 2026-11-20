@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "stem": "gekb-semesterbericht-2009",
+    "report_type": "semester",
+    "year": 2009,
+    "period": "H1-2009",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-semesterbericht-2009.md",
+    "total_chars": 17214,
+    "total_lines": 242
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 7148706.0,
+      "value_prior_year": 6791969.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires|7’148’706|6’791’969|356’737|5.3%|",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 2955725.0,
+      "value_prior_year": 3224928.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle|2’955’725|3’224’928|-269’203|-8.3%|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 14051500.0,
+      "value_prior_year": 13690322.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total du bilan|14’051’500|13’690’322|361’178|2.6%|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 106577.0,
+      "value_prior_year": 106169.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges d’exploitation|106’577|106’169|408|0.4%|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 57053.0,
+      "value_prior_year": 53602.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice brut|57’053|53’602|3’451|6.4%|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 37754.0,
+      "value_prior_year": 39662.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice net|37’754|39’662|-1’908|-4.8%|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 732800.0,
+      "value_prior_year": 621425.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|732’800|621’425|111’375|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 5359104.0,
+      "value_prior_year": 4997441.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Engagements envers la clientèle sous forme d’épargne et de placements|5’359’104|4’997’441|361’663|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 135324.0,
+      "value_prior_year": 156646.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|135’324|156’646|-21’322|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 75000.0,
+      "value_prior_year": 75000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux|75’000|75’000|–|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 163630.0,
+      "value_prior_year": 159771.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total desproduits d’exploitation**|**163’630**|**159’771**|**3’859**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -62811.0,
+      "value_prior_year": -58879.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges de personnel|-62’811|-58’879|-3’932|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -43766.0,
+      "value_prior_year": -47290.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Autres charges d’exploitation|-43’766|-47’290|3’524|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -8849.0,
+      "value_prior_year": -4739.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Impôts|-8’849|-4’739|-4’110|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

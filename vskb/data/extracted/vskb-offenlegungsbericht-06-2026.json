@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "vskb-offenlegungsbericht-06-2026",
+    "report_type": "offenlegung_h1",
+    "year": 2026,
+    "period": "H1-2026",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-offenlegungsbericht-06-2026.md",
+    "total_chars": 18355,
+    "total_lines": 323
+  },
+  "backend": "local",
+  "metrics": {}
+}

@@ -1,0 +1,53 @@
+bank_id: "gekb"
+short_name: "BCGE (GEKB)"
+full_name: "Banque Cantonale de Genève"
+peer_group: "cantonal_bank"
+canton_or_hq: "Genf"
+legal_form: "listed_ag"
+listed: true
+ticker: "BCGE"
+state_guarantee: false
+has_credit_ban: false
+finma_category: 3
+reporting_scope: "consolidated"
+accounting_standard: "ARB_RVB"
+reporting_currency: "CHF"
+primary_languages: ["fr", "de", "en"]
+file_prefix: "gekb"
+public_share_pct_default: 72.6
+
+capital_targets_pct:
+  cet1_target: 9.2
+  total_capital_target: 13.4
+  leverage_min: 3.0
+  lcr_min: 100.0
+  nsfr_min: 100.0
+
+share_splits: []
+
+report_05_mode: "listed_share"
+report_05_slug: "05_aktie_dividenden_und_wertschoepfung"
+
+palette:
+  primary: "#B91C1C"
+  secondary: "#1E293B"
+  accent: "#0F766E"
+  muted: "#64748B"
+
+plausibility_bounds_chf_mio:
+  total_assets_min: 10000
+  total_assets_max: 45000
+
+epochs:
+  - {label: "Epoche 1", start: 2003, end: 2011, title: "Nachgang Sanierung & Fondation de valorisation"}
+  - {label: "Epoche 2", start: 2012, end: 2021, title: "Internationalisierung & Eigenkapitalaufbau"}
+  - {label: "Epoche 3", start: 2022, end: 2026, title: "Zinswende, Commodity Finance & Basel III final"}
+
+structural_breaks:
+  - {year: 2008, label: "Abwicklung Fondation de valorisation"}
+  - {year: 2015, label: "Umstellung auf FINMA-RVB"}
+  - {year: 2025, label: "Inkrafttreten Basel III final per 01.01.2025"}
+
+chunk_anchors:
+  erfolgsrechnung:
+    - "Total des\\s*produits\\s*d['’]exploitation|R[ée]sultat (?:net )?des op[ée]rations d['’]int[ée]r[êe]ts"

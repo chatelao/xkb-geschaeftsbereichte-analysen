@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-2025",
+    "report_type": "offenlegung_fy",
+    "year": 2025,
+    "period": "FY2025",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-2025.md",
+    "total_chars": 231042,
+    "total_lines": 3487
+  },
+  "backend": "local",
+  "metrics": {}
+}

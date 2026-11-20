@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-06-2021",
+    "report_type": "offenlegung_h1",
+    "year": 2021,
+    "period": "H1-2021",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-06-2021.md",
+    "total_chars": 17619,
+    "total_lines": 241
+  },
+  "backend": "local",
+  "metrics": {}
+}

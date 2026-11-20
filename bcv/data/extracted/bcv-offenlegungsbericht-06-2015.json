@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-06-2015",
+    "report_type": "offenlegung_h1",
+    "year": 2015,
+    "period": "H1-2015",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-06-2015.md",
+    "total_chars": 174006,
+    "total_lines": 2533
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2872.0,
+      "value_prior_year": 2874.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Fonds propres de base durs (CET1)**<sup>**1)**</sup>|**2’872**|**2’874**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2894.0,
+      "value_prior_year": 2893.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total des fonds propres**<sup>**1)**</sup>|**2’894**|**2’893**|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

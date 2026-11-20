@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "stem": "ubs-offenlegungsbericht-06-2023",
+    "report_type": "offenlegung_h1",
+    "year": 2023,
+    "period": "H1-2023",
+    "part": null,
+    "bank_id": "ubs",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "USD",
+    "source_file": ".md/ubs-offenlegungsbericht-06-2023.md",
+    "total_chars": 347340,
+    "total_lines": 4097
+  },
+  "backend": "local",
+  "metrics": {
+    "rwa_total": {
+      "value_current": 556603.0,
+      "value_prior_year": 321660.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|4<br>Total risk-weighted assets(RWA)|**556,603**|321,660|319,585|310,615|315,685|",
+      "chunk_name": "ov1_rwa"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 16.76,
+      "value_prior_year": 18.09,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|7<br>Total capital ratio(%)<sup>1</sup>|**16.76**|18.09|18.40|19.27|19.13|",
+      "chunk_name": "ov1_rwa"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 1677877.0,
+      "value_prior_year": 1014446.0,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|13<br>Total Basel III leverage ratio exposure measure|**1,677,877**|1,014,446|1,028,461|989,787|1,025,422|",
+      "chunk_name": "ov1_rwa"
+    },
+    "lcr_pct": {
+      "value_current": 175.24,
+      "value_prior_year": 161.93,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|17<br>LCR (%)|**175.24**|161.93|163.72|162.68|160.85|",
+      "chunk_name": "ov1_rwa"
+    },
+    "nsfr_pct": {
+      "value_current": 117.64,
+      "value_prior_year": 117.69,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|20<br>NSFR (%)|**117.64**|117.69|119.84|120.38|120.94|",
+      "chunk_name": "ov1_rwa"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "stem": "zkb-geschaeftsbericht-2023",
+    "report_type": "annual",
+    "year": 2023,
+    "period": "FY2023",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-geschaeftsbericht-2023.md",
+    "total_chars": 679076,
+    "total_lines": 8419
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 100874.0,
+      "value_prior_year": 96838.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|2|**100’874**|96’838|4’036|4,2|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 5577.0,
+      "value_prior_year": 7490.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|5|**5’577**|7’490|– 1’913|– 25,5|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 201259.0,
+      "value_prior_year": 199791.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**||**201’259**|**199’791**|**1’469**|**0,7**|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 288.0,
+      "value_prior_year": 196.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|15|**288**|196|92|46,8|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 379.0,
+      "value_prior_year": 154.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|16|**379**|154|225|146,3|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 1238.0,
+      "value_prior_year": 1059.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn|21|**1’238**|1’059|180|17,0|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": null,
+      "value_prior_year": 6784.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|**–**|**1’871**|6’784|–|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 2425.0,
+      "value_prior_year": 9163.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total Eigenkapitalper 31.12.2021|2’425|9’163|154|942|– 9|12’674|",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 5539.0,
+      "value_prior_year": 5249.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalbestand teilzeitbereinigtper Stichtag||**5’539**|5’249|5’145|5’180|5’145|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "branch_count": {
+      "value_current": 53.0,
+      "value_prior_year": 53.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsstellen<sup>9</sup>||**53**|53|57|60|66|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

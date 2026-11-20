@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-06-2014",
+    "report_type": "offenlegung_h1",
+    "year": 2014,
+    "period": "H1-2014",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-06-2014.md",
+    "total_chars": 19447,
+    "total_lines": 453
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 5007.0,
+      "value_prior_year": 4882.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Hartes Kernkapital (CET1)**|**5 007**|**4 882**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 21.7,
+      "value_prior_year": 20.4,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote (hartes Kernkapital in % der risikogewichteten Positionen)|auf Basis Mindesteigenmittel (8%)|21,7%|20,4%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 4330.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total risikogewichtete Positionen ohne Ratings|4 330|",
+      "chunk_name": "ov1_rwa"
+    }
+  }
+}

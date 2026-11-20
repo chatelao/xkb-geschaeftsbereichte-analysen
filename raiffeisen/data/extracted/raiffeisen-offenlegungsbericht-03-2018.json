@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-03-2018",
+    "report_type": "offenlegung_q1",
+    "year": 2018,
+    "period": "Q1-2018",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-03-2018.md",
+    "total_chars": 10814,
+    "total_lines": 180
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 10.06,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|davon hartes Kernkapital (CET1)|10,06|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

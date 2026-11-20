@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-06-2019",
+    "report_type": "offenlegung_h1",
+    "year": 2019,
+    "period": "H1-2019",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-06-2019.md",
+    "total_chars": 155132,
+    "total_lines": 2178
+  },
+  "backend": "local",
+  "metrics": {}
+}

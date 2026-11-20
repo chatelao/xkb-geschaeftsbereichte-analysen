@@ -1,0 +1,21 @@
+bank_id,year,period,report_type,report_file,currency_orig,cet1_ratio_pct,leverage_ratio_pct,sort_date,regime,matched_total_assets_mio,rwa_density_pct,cet1_excess_over_target_pp,self_healed_fields,customer_deposits_mio,reserves_banking_risks_mio,financial_investments_mio,pfandbriefe_bonds_mio,mortgage_loans_mio,total_assets_mio,kassenobligationen_mio,tier1_capital_mio,total_capital_mio,cet1_capital_mio,total_capital_ratio_pct,total_cap_excess_over_target_pp,nsfr_pct,lcr_pct
+bekb,2015,FY2015,offenlegung_fy,.md/bekb-offenlegungsbericht-2015.md,CHF,19.47,29183982.0,2015-12-31,Basel III,28034.674,,10.21,,,,,,,,,,,,,,,
+bekb,2016,FY2016,offenlegung_fy,.md/bekb-offenlegungsbericht-2016.md,CHF,19.81,29572913.0,2016-12-31,Basel III,28404.656,,10.55,,,,,,,,,,,,,,,
+bekb,2017,FY2017,offenlegung_fy,.md/bekb-offenlegungsbericht-2017.md,CHF,19.93,,2017-12-31,Basel III,29298.088,,10.67,,,,,,,,,,,,,,,
+bekb,2018,H1-2018,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2018.md,CHF,18.62,,2018-06-30,Basel III,30589.219,,9.36,,21832.024,610.796,1999.184,4195.0,21220.985,30317.693,54.314,,,,,,,
+bekb,2018,FY2018,offenlegung_fy,.md/bekb-offenlegungsbericht-2018.md,CHF,18.6,7.82,2018-12-31,Basel III,30589.219,,9.34,,,,,,,,,2488.978,2488.978,2488.978,18.6,5.14,,
+bekb,2019,H1-2019,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2019.md,CHF,18.69,7.48,2019-06-30,Basel III,32929.829,,9.43,,,,,,,,,2497.829,2497.829,2497.829,18.69,5.23,,
+bekb,2019,FY2019,offenlegung_fy,.md/bekb-offenlegungsbericht-2019.md,CHF,19.46,7.48,2019-12-31,Basel III,32929.829,,10.2,,,,,,,,,2540.534,2540.534,2540.534,19.46,6.0,,
+bekb,2020,H1-2020,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2020.md,CHF,18.94,7.95,2020-06-30,Basel III,36421.744,,9.68,,,,,,,,,2540.0,2540.0,2540.0,18.94,5.48,,
+bekb,2020,FY2020,offenlegung_fy,.md/bekb-offenlegungsbericht-2020.md,CHF,,,2020-12-31,Basel III,36421.744,,,,,,,,,,,,,,,,,
+bekb,2021,H1-2021,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2021.md,CHF,,,2021-06-30,Basel III,38993.62,,,,,,,,,,,,,,,,,
+bekb,2021,FY2021,offenlegung_fy,.md/bekb-offenlegungsbericht-2021.md,CHF,,,2021-12-31,Basel III,38993.62,,,,,,,,,,,,,,,,,
+bekb,2022,H1-2022,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2022.md,CHF,,,2022-06-30,Basel III,39757.263,,,,,,,,,,,,,,,,,
+bekb,2022,FY2022,offenlegung_fy,.md/bekb-offenlegungsbericht-2022.md,CHF,,,2022-12-31,Basel III,39757.263,,,,,,,,,,,,,,,,,
+bekb,2023,H1-2023,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2023.md,CHF,,,2023-06-30,Basel III,40053.489,,,,,,,,,,,,,,,,,
+bekb,2023,FY2023,offenlegung_fy,.md/bekb-offenlegungsbericht-2023.md,CHF,,,2023-12-31,Basel III,40053.489,,,,,,,,,,,,,,,,,
+bekb,2024,H1-2024,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2024.md,CHF,17.11,6.81,2024-06-30,Basel III,40499.255,,7.85,,,,,,,,,2793.607,3154.705,2793.607,19.33,5.87,152.9,
+bekb,2024,FY2024,offenlegung_fy,.md/bekb-offenlegungsbericht-2024.md,CHF,17.26,6.9,2024-12-31,Basel III,40499.255,,8.0,,,,,,,,,2875.338,3231.533,2875.338,19.4,5.94,148.8,
+bekb,2025,H1-2025,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2025.md,CHF,18.5,6.69,2025-06-30,Basel III final,42976.997,,9.24,,,,,,,,,2896.756,3240.835,2896.756,20.69,7.23,143.0,144.4
+bekb,2025,FY2025,offenlegung_fy,.md/bekb-offenlegungsbericht-2025.md,CHF,18.28,,2025-12-31,Basel III final,42976.997,,9.02,,,,,,,,,2954.48,3294.883,2954.48,20.39,6.93,143.3,141.9
+bekb,2026,H1-2026,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2026.md,CHF,,,2026-06-30,Basel III final,,,,,,,,,,,,,,,,,,

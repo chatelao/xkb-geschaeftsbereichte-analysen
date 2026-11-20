@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "stem": "gekb-geschaeftsbericht-2005",
+    "report_type": "annual",
+    "year": 2005,
+    "period": "FY2005",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-geschaeftsbericht-2005.md",
+    "total_chars": 340713,
+    "total_lines": 5112
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 4804703.0,
+      "value_prior_year": 5401726.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|<br>Créances sur la clientèle|5.13|4’804’703|5’401’726|–597’023|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 6191039.0,
+      "value_prior_year": 5984063.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires<br>|5.13<br>|6’191’039<br>|5’984’063<br>|206’976<br>|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 278374.0,
+      "value_prior_year": 240218.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|5.4|278’374|240’218|38’156|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 12783086.0,
+      "value_prior_year": 13891715.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total de l’actif**||**12’783’086**|**13’891’715**|**–1’108’629**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 4862215.0,
+      "value_prior_year": 4846294.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Engagements envers la clientèle sous forme d’épargne et de placements|5.13|4’862’215|4’846’294|15’921|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 67728.0,
+      "value_prior_year": 79027.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|5.13|67’728|79’027|–11’299|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 10000.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux<br>|5.12|10’000<br>’|–<br>’|10’000|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 654158.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total des capitaux propres au 1**<sup>**er **</sup>**janvier 2005**|**654’158**|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 183.0,
+      "value_prior_year": 179.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat des opérations d’intérêts|**183**|179|171|173|161|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 10.0,
+      "value_prior_year": 9.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Autres résultats ordinaires|**10**|9|14|7|15|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 295.0,
+      "value_prior_year": 278.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total des produits d’exploitation|**295**|278|276|260|259|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": 195.0,
+      "value_prior_year": 199.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges d’exploitation|**195**|199|200|190|191|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 101.0,
+      "value_prior_year": 79.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice brut|**101**|79|76|70|68|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "net_profit": {
+      "value_current": 6.5,
+      "value_prior_year": 4.9,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice net sur fonds propres (ROE)|**6.5**|4.9|1.2|–4.5|–4.8|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

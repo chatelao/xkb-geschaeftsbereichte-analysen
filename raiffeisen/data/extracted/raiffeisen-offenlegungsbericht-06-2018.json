@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-06-2018",
+    "report_type": "offenlegung_h1",
+    "year": 2018,
+    "period": "H1-2018",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-06-2018.md",
+    "total_chars": 60630,
+    "total_lines": 1097
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 176262.0,
+      "value_prior_year": 172622.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|176'262||172'622||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "financial_investments": {
+      "value_current": 7499.0,
+      "value_prior_year": 7593.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|7'499||7'593||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_assets": {
+      "value_current": 229450.0,
+      "value_prior_year": 227728.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total Aktiven|229'450||227'728||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "customer_deposits": {
+      "value_current": 165563.0,
+      "value_prior_year": 164085.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|165'563||164'085||",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-2022",
+    "report_type": "offenlegung_fy",
+    "year": 2022,
+    "period": "FY2022",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-2022.md",
+    "total_chars": 113539,
+    "total_lines": 1397
+  },
+  "backend": "local",
+  "metrics": {}
+}

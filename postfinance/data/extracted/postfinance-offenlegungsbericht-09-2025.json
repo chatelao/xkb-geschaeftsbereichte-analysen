@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-09-2025",
+    "report_type": "offenlegung_q3",
+    "year": 2025,
+    "period": "Q3-2025",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-09-2025.md",
+    "total_chars": 13799,
+    "total_lines": 160
+  },
+  "backend": "local",
+  "metrics": {}
+}

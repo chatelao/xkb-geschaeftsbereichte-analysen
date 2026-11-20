@@ -1,0 +1,1471 @@
+{
+  "bank_id": "bcv",
+  "total_reports": 73,
+  "reports": [
+    {
+      "stem": "bcv-geschaeftsbericht-2007",
+      "report_type": "annual",
+      "year": 2007,
+      "period": "FY2007",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5445,
+          "approx_tokens": 1361
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "betreute_vermoegen": {
+          "chars": 2122,
+          "approx_tokens": 530
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7282,
+          "approx_tokens": 1820
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2008",
+      "report_type": "annual",
+      "year": 2008,
+      "period": "FY2008",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5304,
+          "approx_tokens": 1326
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "betreute_vermoegen": {
+          "chars": 2155,
+          "approx_tokens": 538
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7024,
+          "approx_tokens": 1756
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2009",
+      "report_type": "annual",
+      "year": 2009,
+      "period": "FY2009",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5295,
+          "approx_tokens": 1323
+        },
+        "betreute_vermoegen": {
+          "chars": 2093,
+          "approx_tokens": 523
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7116,
+          "approx_tokens": 1779
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2010",
+      "report_type": "annual",
+      "year": 2010,
+      "period": "FY2010",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4669,
+          "approx_tokens": 1167
+        },
+        "mehrjahresvergleich": {
+          "chars": 8400,
+          "approx_tokens": 2100
+        },
+        "betreute_vermoegen": {
+          "chars": 2733,
+          "approx_tokens": 683
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7369,
+          "approx_tokens": 1842
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2011",
+      "report_type": "annual",
+      "year": 2011,
+      "period": "FY2011",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9092,
+          "approx_tokens": 2273
+        },
+        "erfolgsrechnung": {
+          "chars": 4423,
+          "approx_tokens": 1105
+        },
+        "mehrjahresvergleich": {
+          "chars": 7287,
+          "approx_tokens": 1821
+        },
+        "aktie_basisdaten": {
+          "chars": 2826,
+          "approx_tokens": 706
+        },
+        "betreute_vermoegen": {
+          "chars": 2834,
+          "approx_tokens": 708
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7039,
+          "approx_tokens": 1759
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2012",
+      "report_type": "annual",
+      "year": 2012,
+      "period": "FY2012",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9139,
+          "approx_tokens": 2284
+        },
+        "erfolgsrechnung": {
+          "chars": 4609,
+          "approx_tokens": 1152
+        },
+        "mehrjahresvergleich": {
+          "chars": 6556,
+          "approx_tokens": 1639
+        },
+        "aktie_basisdaten": {
+          "chars": 2883,
+          "approx_tokens": 720
+        },
+        "betreute_vermoegen": {
+          "chars": 1798,
+          "approx_tokens": 449
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7037,
+          "approx_tokens": 1759
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2013",
+      "report_type": "annual",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9055,
+          "approx_tokens": 2263
+        },
+        "erfolgsrechnung": {
+          "chars": 4808,
+          "approx_tokens": 1202
+        },
+        "mehrjahresvergleich": {
+          "chars": 6190,
+          "approx_tokens": 1547
+        },
+        "aktie_basisdaten": {
+          "chars": 2895,
+          "approx_tokens": 723
+        },
+        "betreute_vermoegen": {
+          "chars": 2898,
+          "approx_tokens": 724
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7237,
+          "approx_tokens": 1809
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8820,
+          "approx_tokens": 2205
+        },
+        "erfolgsrechnung": {
+          "chars": 4722,
+          "approx_tokens": 1180
+        },
+        "mehrjahresvergleich": {
+          "chars": 6244,
+          "approx_tokens": 1561
+        },
+        "aktie_basisdaten": {
+          "chars": 2794,
+          "approx_tokens": 698
+        },
+        "betreute_vermoegen": {
+          "chars": 2810,
+          "approx_tokens": 702
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7065,
+          "approx_tokens": 1766
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9478,
+          "approx_tokens": 2369
+        },
+        "erfolgsrechnung": {
+          "chars": 5048,
+          "approx_tokens": 1262
+        },
+        "mehrjahresvergleich": {
+          "chars": 7496,
+          "approx_tokens": 1874
+        },
+        "aktie_basisdaten": {
+          "chars": 2598,
+          "approx_tokens": 649
+        },
+        "betreute_vermoegen": {
+          "chars": 2294,
+          "approx_tokens": 573
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7064,
+          "approx_tokens": 1766
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5042,
+          "approx_tokens": 1260
+        },
+        "mehrjahresvergleich": {
+          "chars": 7701,
+          "approx_tokens": 1925
+        },
+        "aktie_basisdaten": {
+          "chars": 2598,
+          "approx_tokens": 649
+        },
+        "betreute_vermoegen": {
+          "chars": 2230,
+          "approx_tokens": 557
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7153,
+          "approx_tokens": 1788
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9443,
+          "approx_tokens": 2360
+        },
+        "erfolgsrechnung": {
+          "chars": 5110,
+          "approx_tokens": 1277
+        },
+        "mehrjahresvergleich": {
+          "chars": 7018,
+          "approx_tokens": 1754
+        },
+        "aktie_basisdaten": {
+          "chars": 2631,
+          "approx_tokens": 657
+        },
+        "betreute_vermoegen": {
+          "chars": 2231,
+          "approx_tokens": 557
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7294,
+          "approx_tokens": 1823
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5128,
+          "approx_tokens": 1282
+        },
+        "mehrjahresvergleich": {
+          "chars": 6491,
+          "approx_tokens": 1622
+        },
+        "aktie_basisdaten": {
+          "chars": 3423,
+          "approx_tokens": 855
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7082,
+          "approx_tokens": 1770
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5122,
+          "approx_tokens": 1280
+        },
+        "mehrjahresvergleich": {
+          "chars": 6867,
+          "approx_tokens": 1716
+        },
+        "aktie_basisdaten": {
+          "chars": 2731,
+          "approx_tokens": 682
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7218,
+          "approx_tokens": 1804
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5156,
+          "approx_tokens": 1289
+        },
+        "mehrjahresvergleich": {
+          "chars": 5876,
+          "approx_tokens": 1469
+        },
+        "aktie_basisdaten": {
+          "chars": 4076,
+          "approx_tokens": 1019
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7442,
+          "approx_tokens": 1860
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5145,
+          "approx_tokens": 1286
+        },
+        "mehrjahresvergleich": {
+          "chars": 6832,
+          "approx_tokens": 1708
+        },
+        "aktie_basisdaten": {
+          "chars": 4962,
+          "approx_tokens": 1240
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7584,
+          "approx_tokens": 1896
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5172,
+          "approx_tokens": 1293
+        },
+        "mehrjahresvergleich": {
+          "chars": 7858,
+          "approx_tokens": 1964
+        },
+        "aktie_basisdaten": {
+          "chars": 4737,
+          "approx_tokens": 1184
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7524,
+          "approx_tokens": 1881
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5118,
+          "approx_tokens": 1279
+        },
+        "mehrjahresvergleich": {
+          "chars": 7843,
+          "approx_tokens": 1960
+        },
+        "aktie_basisdaten": {
+          "chars": 4819,
+          "approx_tokens": 1204
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7296,
+          "approx_tokens": 1824
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5100,
+          "approx_tokens": 1275
+        },
+        "mehrjahresvergleich": {
+          "chars": 7710,
+          "approx_tokens": 1927
+        },
+        "aktie_basisdaten": {
+          "chars": 4884,
+          "approx_tokens": 1221
+        },
+        "verguetung": {
+          "chars": 6490,
+          "approx_tokens": 1622
+        },
+        "lagebericht_strategie": {
+          "chars": 7181,
+          "approx_tokens": 1795
+        }
+      }
+    },
+    {
+      "stem": "bcv-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5139,
+          "approx_tokens": 1284
+        },
+        "mehrjahresvergleich": {
+          "chars": 6645,
+          "approx_tokens": 1661
+        },
+        "aktie_basisdaten": {
+          "chars": 4805,
+          "approx_tokens": 1201
+        },
+        "verguetung": {
+          "chars": 6678,
+          "approx_tokens": 1669
+        },
+        "lagebericht_strategie": {
+          "chars": 7183,
+          "approx_tokens": 1795
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2009",
+      "report_type": "offenlegung_h1",
+      "year": 2009,
+      "period": "H1-2009",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2010",
+      "report_type": "offenlegung_h1",
+      "year": 2010,
+      "period": "H1-2010",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2011",
+      "report_type": "offenlegung_h1",
+      "year": 2011,
+      "period": "H1-2011",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2012",
+      "report_type": "offenlegung_h1",
+      "year": 2012,
+      "period": "H1-2012",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2013",
+      "report_type": "offenlegung_h1",
+      "year": 2013,
+      "period": "H1-2013",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2014",
+      "report_type": "offenlegung_h1",
+      "year": 2014,
+      "period": "H1-2014",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 5680,
+          "approx_tokens": 1420
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2015",
+      "report_type": "offenlegung_h1",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2016",
+      "report_type": "offenlegung_h1",
+      "year": 2016,
+      "period": "H1-2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2017",
+      "report_type": "offenlegung_h1",
+      "year": 2017,
+      "period": "H1-2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2018",
+      "report_type": "offenlegung_h1",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2019",
+      "report_type": "offenlegung_h1",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2020",
+      "report_type": "offenlegung_h1",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2021",
+      "report_type": "offenlegung_h1",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2022",
+      "report_type": "offenlegung_h1",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2023",
+      "report_type": "offenlegung_h1",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2024",
+      "report_type": "offenlegung_h1",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2025",
+      "report_type": "offenlegung_h1",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2009",
+      "report_type": "offenlegung_fy",
+      "year": 2009,
+      "period": "FY2009",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2010",
+      "report_type": "offenlegung_fy",
+      "year": 2010,
+      "period": "FY2010",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2011",
+      "report_type": "offenlegung_fy",
+      "year": 2011,
+      "period": "FY2011",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2012",
+      "report_type": "offenlegung_fy",
+      "year": 2012,
+      "period": "FY2012",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2013",
+      "report_type": "offenlegung_fy",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 5896,
+          "approx_tokens": 1474
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2014",
+      "report_type": "offenlegung_fy",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 5862,
+          "approx_tokens": 1465
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2015",
+      "report_type": "offenlegung_fy",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2016",
+      "report_type": "offenlegung_fy",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2017",
+      "report_type": "offenlegung_fy",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2018",
+      "report_type": "offenlegung_fy",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2019",
+      "report_type": "offenlegung_fy",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2008",
+      "report_type": "semester",
+      "year": 2008,
+      "period": "H1-2008",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2792,
+          "approx_tokens": 698
+        },
+        "erfolgsrechnung": {
+          "chars": 4086,
+          "approx_tokens": 1021
+        },
+        "lagebericht_strategie": {
+          "chars": 5529,
+          "approx_tokens": 1382
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2009",
+      "report_type": "semester",
+      "year": 2009,
+      "period": "H1-2009",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2503,
+          "approx_tokens": 625
+        },
+        "erfolgsrechnung": {
+          "chars": 3961,
+          "approx_tokens": 990
+        },
+        "lagebericht_strategie": {
+          "chars": 5500,
+          "approx_tokens": 1375
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2010",
+      "report_type": "semester",
+      "year": 2010,
+      "period": "H1-2010",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2516,
+          "approx_tokens": 629
+        },
+        "erfolgsrechnung": {
+          "chars": 4100,
+          "approx_tokens": 1025
+        },
+        "lagebericht_strategie": {
+          "chars": 5953,
+          "approx_tokens": 1488
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2011",
+      "report_type": "semester",
+      "year": 2011,
+      "period": "H1-2011",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2489,
+          "approx_tokens": 622
+        },
+        "erfolgsrechnung": {
+          "chars": 3509,
+          "approx_tokens": 877
+        },
+        "lagebericht_strategie": {
+          "chars": 5592,
+          "approx_tokens": 1398
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2012",
+      "report_type": "semester",
+      "year": 2012,
+      "period": "H1-2012",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2312,
+          "approx_tokens": 578
+        },
+        "erfolgsrechnung": {
+          "chars": 4190,
+          "approx_tokens": 1047
+        },
+        "lagebericht_strategie": {
+          "chars": 5540,
+          "approx_tokens": 1385
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2013",
+      "report_type": "semester",
+      "year": 2013,
+      "period": "H1-2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2474,
+          "approx_tokens": 618
+        },
+        "erfolgsrechnung": {
+          "chars": 5417,
+          "approx_tokens": 1354
+        },
+        "lagebericht_strategie": {
+          "chars": 6510,
+          "approx_tokens": 1627
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2014",
+      "report_type": "semester",
+      "year": 2014,
+      "period": "H1-2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2501,
+          "approx_tokens": 625
+        },
+        "erfolgsrechnung": {
+          "chars": 5434,
+          "approx_tokens": 1358
+        },
+        "lagebericht_strategie": {
+          "chars": 5882,
+          "approx_tokens": 1470
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2015",
+      "report_type": "semester",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5438,
+          "approx_tokens": 1359
+        },
+        "erfolgsrechnung": {
+          "chars": 5345,
+          "approx_tokens": 1336
+        },
+        "lagebericht_strategie": {
+          "chars": 5558,
+          "approx_tokens": 1389
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2016",
+      "report_type": "semester",
+      "year": 2016,
+      "period": "H1-2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6338,
+          "approx_tokens": 1584
+        },
+        "erfolgsrechnung": {
+          "chars": 5860,
+          "approx_tokens": 1465
+        },
+        "lagebericht_strategie": {
+          "chars": 5611,
+          "approx_tokens": 1402
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2017",
+      "report_type": "semester",
+      "year": 2017,
+      "period": "H1-2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6923,
+          "approx_tokens": 1730
+        },
+        "erfolgsrechnung": {
+          "chars": 5340,
+          "approx_tokens": 1335
+        },
+        "lagebericht_strategie": {
+          "chars": 5524,
+          "approx_tokens": 1381
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2018",
+      "report_type": "semester",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6871,
+          "approx_tokens": 1717
+        },
+        "erfolgsrechnung": {
+          "chars": 5355,
+          "approx_tokens": 1338
+        },
+        "lagebericht_strategie": {
+          "chars": 5597,
+          "approx_tokens": 1399
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2019",
+      "report_type": "semester",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7050,
+          "approx_tokens": 1762
+        },
+        "erfolgsrechnung": {
+          "chars": 5543,
+          "approx_tokens": 1385
+        },
+        "lagebericht_strategie": {
+          "chars": 5860,
+          "approx_tokens": 1465
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2020",
+      "report_type": "semester",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6717,
+          "approx_tokens": 1679
+        },
+        "erfolgsrechnung": {
+          "chars": 6858,
+          "approx_tokens": 1714
+        },
+        "lagebericht_strategie": {
+          "chars": 5650,
+          "approx_tokens": 1412
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2021",
+      "report_type": "semester",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6716,
+          "approx_tokens": 1679
+        },
+        "erfolgsrechnung": {
+          "chars": 6007,
+          "approx_tokens": 1501
+        },
+        "lagebericht_strategie": {
+          "chars": 5787,
+          "approx_tokens": 1446
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6788,
+          "approx_tokens": 1697
+        },
+        "erfolgsrechnung": {
+          "chars": 6226,
+          "approx_tokens": 1556
+        },
+        "lagebericht_strategie": {
+          "chars": 5766,
+          "approx_tokens": 1441
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7141,
+          "approx_tokens": 1785
+        },
+        "erfolgsrechnung": {
+          "chars": 6192,
+          "approx_tokens": 1548
+        },
+        "lagebericht_strategie": {
+          "chars": 6143,
+          "approx_tokens": 1535
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7428,
+          "approx_tokens": 1857
+        },
+        "erfolgsrechnung": {
+          "chars": 5641,
+          "approx_tokens": 1410
+        },
+        "lagebericht_strategie": {
+          "chars": 5633,
+          "approx_tokens": 1408
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7534,
+          "approx_tokens": 1883
+        },
+        "erfolgsrechnung": {
+          "chars": 5766,
+          "approx_tokens": 1441
+        },
+        "lagebericht_strategie": {
+          "chars": 5896,
+          "approx_tokens": 1474
+        }
+      }
+    },
+    {
+      "stem": "bcv-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7641,
+          "approx_tokens": 1910
+        },
+        "erfolgsrechnung": {
+          "chars": 5804,
+          "approx_tokens": 1451
+        },
+        "lagebericht_strategie": {
+          "chars": 5517,
+          "approx_tokens": 1379
+        }
+      }
+    }
+  ]
+}

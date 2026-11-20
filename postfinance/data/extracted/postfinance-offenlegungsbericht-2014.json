@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-2014",
+    "report_type": "offenlegung_fy",
+    "year": 2014,
+    "period": "FY2014",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-2014.md",
+    "total_chars": 19733,
+    "total_lines": 470
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 5107.0,
+      "value_prior_year": 4882.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Hartes Kernkapital (CET1)**|**5 107**|**4 882**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 20.1,
+      "value_prior_year": 20.4,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote (hartes Kernkapital in % der risikogewichteten Positionen)|auf Basis Mindesteigenmittel (8%)|20,1%|20,4%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "customer_loans_other": {
+      "value_current": 8047.0,
+      "value_prior_year": 2608.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|||8 047|2 608|484|||11 139|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "mortgage_loans": {
+      "value_current": 0.0,
+      "value_prior_year": 0.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|||||0|||0|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "financial_investments": {
+      "value_current": 4937.0,
+      "value_prior_year": 14652.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen / Schuldtitel|4 937|14 652|12 000|26 060|302|1 245||59 196|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 4743.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total risikogewichtete Positionen ohne Ratings|4 743|",
+      "chunk_name": "ov1_rwa"
+    }
+  }
+}

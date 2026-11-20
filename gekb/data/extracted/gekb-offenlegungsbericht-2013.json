@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-2013",
+    "report_type": "offenlegung_fy",
+    "year": 2013,
+    "period": "FY2013",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-2013.md",
+    "total_chars": 21679,
+    "total_lines": 386
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 1159450.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|= Fonds propres de base durs, avant ajustements|1'159'450|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 11.6,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Ratio CET1(chiffre 29, en % des positions pondérées par le risque)|11.60%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

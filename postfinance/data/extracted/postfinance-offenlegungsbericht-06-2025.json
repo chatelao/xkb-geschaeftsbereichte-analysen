@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-06-2025",
+    "report_type": "offenlegung_h1",
+    "year": 2025,
+    "period": "H1-2025",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-06-2025.md",
+    "total_chars": 64842,
+    "total_lines": 1041
+  },
+  "backend": "local",
+  "metrics": {}
+}

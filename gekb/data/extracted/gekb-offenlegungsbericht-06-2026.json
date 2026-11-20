@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-06-2026",
+    "report_type": "offenlegung_h1",
+    "year": 2026,
+    "period": "H1-2026",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-06-2026.md",
+    "total_chars": 34072,
+    "total_lines": 459
+  },
+  "backend": "local",
+  "metrics": {}
+}

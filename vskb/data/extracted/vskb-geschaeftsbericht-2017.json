@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "stem": "vskb-geschaeftsbericht-2017",
+    "report_type": "annual",
+    "year": 2017,
+    "period": "FY2017",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-geschaeftsbericht-2017.md",
+    "total_chars": 365898,
+    "total_lines": 5070
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 9442071739.2,
+      "value_prior_year": 8951709811.34,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Hypothekarforderungen|9,2|9’442’071’739,20|8’951’709’811,34|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 290051278.75,
+      "value_prior_year": 337483471.4,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Finanzanlagen|9,5|290’051’278,75|337’483’471,40|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 15566414792.7,
+      "value_prior_year": 14633172349.3,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**||**15’566’414’792,70**|**14’633’172’349,30**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 9502779098.49,
+      "value_prior_year": 9296986682.08,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Verpflichtungen aus Kundeneinlagen||9’502’779’098,49|9’296’986’682,08|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 41126000.0,
+      "value_prior_year": 51514000.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Kassenobligationen||41’126’000,00|51’514’000,00|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 2885000000.0,
+      "value_prior_year": 2479000000.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Anleihen und Pfandbriefdarlehen|9,15|2’885’000’000,00|2’479’000’000,00|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 494400287.15,
+      "value_prior_year": 459400287.15,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Reserven für allgemeine Bankrisiken|9,16|494’400’287,15|459’400’287,15|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 64049175.59,
+      "value_prior_year": 57530531.39,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Gewinn(Periodenerfolg)||64’049’175,59|57’530’531,39|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 39433.0,
+      "value_prior_year": 34663.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|• Erfolg aus dem Kommissions- und Dienstleistungsgeschäft|39’433|34’663|13,76%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "trading_income": {
+      "value_current": 28706.0,
+      "value_prior_year": 23772.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|• Erfolg aus dem Handelsgeschäft und der Fair-Value-Option|28’706|23’772|20,76%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 8757.0,
+      "value_prior_year": 5060.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|• Übriger ordentlicher Erfolg|8’757|5’060|73,07%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -114288.0,
+      "value_prior_year": -118405.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|• Geschäftsaufwand<sup>1</sup>|-114’288|-118’405|-3,48%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 112552.0,
+      "value_prior_year": 100278.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|• Geschäftserfolg|112’552|100’278|12,24%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.9,
+      "value_prior_year": 8.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratios|7,9%|8,0%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "lcr_pct": {
+      "value_current": 132.2,
+      "value_prior_year": 115.6,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Liquidity Coverage Ratios (LCR)|132,20%|115,60%|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

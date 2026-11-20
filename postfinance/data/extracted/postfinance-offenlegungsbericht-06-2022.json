@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-06-2022",
+    "report_type": "offenlegung_h1",
+    "year": 2022,
+    "period": "H1-2022",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-06-2022.md",
+    "total_chars": 51133,
+    "total_lines": 851
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 11.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio|11|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 16.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|LIQ2: Informationen zur Finanzierungsquote(NSFR)|16|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

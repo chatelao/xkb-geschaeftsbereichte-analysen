@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-2023",
+    "report_type": "offenlegung_fy",
+    "year": 2023,
+    "period": "FY2023",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-2023.md",
+    "total_chars": 250151,
+    "total_lines": 3210
+  },
+  "backend": "local",
+  "metrics": {}
+}

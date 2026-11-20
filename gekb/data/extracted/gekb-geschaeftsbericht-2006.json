@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "stem": "gekb-geschaeftsbericht-2006",
+    "report_type": "annual",
+    "year": 2006,
+    "period": "FY2006",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-geschaeftsbericht-2006.md",
+    "total_chars": 307808,
+    "total_lines": 4148
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 4172210.0,
+      "value_prior_year": 4804703.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle|5.12|4’172’210|4’804’703|–632’493|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 6189319.0,
+      "value_prior_year": 6191039.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires|5.12|6’189’319|6’191’039|–1’720|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 380547.0,
+      "value_prior_year": 278374.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|5.3|380’547|278’374|102’173|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 12571009.0,
+      "value_prior_year": 12783086.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total de l’actif**||**12’571’009**|**12’783’086**|**–212’077**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 4609930.0,
+      "value_prior_year": 4862215.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Engagements envers la clientèle sous forme d’épargne et de placements|5.12|4’609’930|4’862’215|–252’285|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 74806.0,
+      "value_prior_year": 67728.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|5.12|74’806|67’728|7’078|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 60000.0,
+      "value_prior_year": 10000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux|5.11|60’000|10’000|50’000|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 61092.0,
+      "value_prior_year": 45794.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|<br>Bénéfice de l’exercice||61’092|45’794|15’298|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 705206.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total des capitaux propres au 1**<sup>**er **</sup>**janvier 2006**|**705’206**|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 192.0,
+      "value_prior_year": 183.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat des opérations d’intérêts|**192**|183|179|171|173|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 19.0,
+      "value_prior_year": 10.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Autres résultats ordinaires|**19**|10|9|14|7|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 323.0,
+      "value_prior_year": 295.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total des produits d’exploitation|**323**|295|278|276|260|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": 205.0,
+      "value_prior_year": 195.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges d’exploitation|**205**|195|199|200|190|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 118.0,
+      "value_prior_year": 101.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice brut|**118**|101|79|76|70|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

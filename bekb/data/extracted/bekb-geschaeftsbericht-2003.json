@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "stem": "bekb-geschaeftsbericht-2003",
+    "report_type": "annual",
+    "year": 2003,
+    "period": "FY2003",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-geschaeftsbericht-2003.md",
+    "total_chars": 30408,
+    "total_lines": 597
+  },
+  "backend": "local",
+  "metrics": {
+    "total_assets": {
+      "value_current": 20117.0,
+      "value_prior_year": 19325.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme|17 888|19 325|**20 117**|",
+      "chunk_name": "bilanz"
+    },
+    "assets_under_management": {
+      "value_current": 18100.0,
+      "value_prior_year": 16414.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Betreute Vermögenswerte|16 682|16 414|**18 100**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 1352.0,
+      "value_prior_year": 1520.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|1 623|1 520|**1 352**|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 12004.0,
+      "value_prior_year": 11375.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|10 992|11 375|**12 004**|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 3012.0,
+      "value_prior_year": 3000.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|3 043|3 000|**3 012**|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 71.1,
+      "value_prior_year": 68.6,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn nach Steuern|62,5|68,6|**71,1**|",
+      "chunk_name": "bilanz"
+    },
+    "dividend_per_share": {
+      "value_current": 3.0,
+      "value_prior_year": 2.9,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Dividendeje Namenaktie|2.70|2.90|**3.00**<br>1|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

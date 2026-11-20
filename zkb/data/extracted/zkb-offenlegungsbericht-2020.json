@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-2020",
+    "report_type": "offenlegung_fy",
+    "year": 2020,
+    "period": "FY2020",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-2020.md",
+    "total_chars": 313012,
+    "total_lines": 3620
+  },
+  "backend": "local",
+  "metrics": {}
+}

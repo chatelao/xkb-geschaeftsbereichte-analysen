@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-06-2022",
+    "report_type": "offenlegung_h1",
+    "year": 2022,
+    "period": "H1-2022",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-06-2022.md",
+    "total_chars": 130021,
+    "total_lines": 2157
+  },
+  "backend": "local",
+  "metrics": {}
+}

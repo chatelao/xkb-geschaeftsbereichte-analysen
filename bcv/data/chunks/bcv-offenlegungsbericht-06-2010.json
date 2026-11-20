@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-06-2010",
+    "report_type": "offenlegung_h1",
+    "year": 2010,
+    "period": "H1-2010",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-06-2010.md",
+    "total_chars": 127892,
+    "total_lines": 1848
+  },
+  "chunks": {}
+}

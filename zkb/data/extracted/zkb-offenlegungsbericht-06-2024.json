@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-06-2024",
+    "report_type": "offenlegung_h1",
+    "year": 2024,
+    "period": "H1-2024",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-06-2024.md",
+    "total_chars": 274621,
+    "total_lines": 3716
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 229724.0,
+      "value_prior_year": 229724.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Gesamtengagement (Nenner der Leverage Ratio, LRD)**|**229'724**||**229'724**||",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

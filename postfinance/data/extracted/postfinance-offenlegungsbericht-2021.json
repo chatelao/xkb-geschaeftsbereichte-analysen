@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-2021",
+    "report_type": "offenlegung_fy",
+    "year": 2021,
+    "period": "FY2021",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-2021.md",
+    "total_chars": 112836,
+    "total_lines": 1398
+  },
+  "backend": "local",
+  "metrics": {}
+}

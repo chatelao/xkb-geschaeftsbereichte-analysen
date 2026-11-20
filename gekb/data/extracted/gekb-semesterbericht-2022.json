@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "stem": "gekb-semesterbericht-2022",
+    "report_type": "semester",
+    "year": 2022,
+    "period": "H1-2022",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-semesterbericht-2022.md",
+    "total_chars": 23244,
+    "total_lines": 398
+  },
+  "backend": "local",
+  "metrics": {
+    "total_operating_expenses": {
+      "value_current": 129002.0,
+      "value_prior_year": 125353.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges d’exploitation|129'002|125'353|3'649|2.9%|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 93738.0,
+      "value_prior_year": 77258.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat opérationnel|93’738|77'258|16'480|21.3%|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 29133240.0,
+      "value_prior_year": 28293691.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total du bilan|29'133'240|28'293'691|839'549|3.0%|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 12616793.0,
+      "value_prior_year": 12665892.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires|12'616'793|12'665'892|-49'099|-0.4%|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 1869097.0,
+      "value_prior_year": 1827222.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Fonds propres|1'869'097|1'827'222|41'875|2.3%|",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 6123665.0,
+      "value_prior_year": 5689608.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle|6'123'665|5'689'608|434'057|7.6|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 2051482.0,
+      "value_prior_year": 2124776.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|2'051'482|2'124'776|-73'294|-3.4|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 18991335.0,
+      "value_prior_year": 18233404.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Engagements résultant des dépôts de la clientèle|18'991'335|18'233'404|757'931|4.2|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 783.0,
+      "value_prior_year": 803.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|783|803|-20|-2.5|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 4618750.0,
+      "value_prior_year": 4597245.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Emprunts et prêts des centrales d'émission des lettres de gage|4'618'750|4'597'245|21'505|0.5|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 250000.0,
+      "value_prior_year": 250000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux|250'000|250'000|-|-|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 132952.0,
+      "value_prior_year": 103857.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Sous-total résultat net des opérations d'intérêts**|**132'952**|**103'857**|**29'095**|**28.0**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 69072.0,
+      "value_prior_year": 65814.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Sous-total résultat des opérations de commissions et des prestations de service**|**69'072**|**65'814**|**3'258**|**5.0**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 10028.0,
+      "value_prior_year": 18654.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Sous-total autres résultats ordinaires**|**10'028**|**18'654**|**-8'626**|**-46.2**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 231178.0,
+      "value_prior_year": 205342.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total des produits d'exploitation**|**231'178**|**205'342**|**25'836**|**12.6**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -79557.0,
+      "value_prior_year": -76147.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges de personnel|-79'557|-76'147|-3'410|4.5|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -49445.0,
+      "value_prior_year": -49206.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Autres charges d'exploitation|-49'445|-49'206|-239|0.5|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -15337.0,
+      "value_prior_year": -12926.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Impôts|-15'337|-12'926|-2'411|18.7|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

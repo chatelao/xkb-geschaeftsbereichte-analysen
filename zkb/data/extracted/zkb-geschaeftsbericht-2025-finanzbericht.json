@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "stem": "zkb-geschaeftsbericht-2025-finanzbericht",
+    "report_type": "annual",
+    "year": 2025,
+    "period": "FY2025",
+    "part": "finanzbericht",
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-geschaeftsbericht-2025-finanzbericht.md",
+    "total_chars": 307507,
+    "total_lines": 4150
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 111174.0,
+      "value_prior_year": 106600.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen<br>|2|**111’174**|106’600|4’574|4,3|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 7737.0,
+      "value_prior_year": 5206.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|5|**7’737**|5’206|2’530|48,6|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 206177.0,
+      "value_prior_year": 202594.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**||**206’177**|**202’594**|**3’583**|**1,8**|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 208.0,
+      "value_prior_year": 260.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|15|**208**|260|– 52|– 19,9|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 379.0,
+      "value_prior_year": 379.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|16|**379**|379|–|–|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 1241.0,
+      "value_prior_year": 1120.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn|21|**1’241**|1’120|121|10,8|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 2425.0,
+      "value_prior_year": 10241.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total Eigenkapitalper 31.12.2023|2’425|10’241|379|1’238|– 16|14’268|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 1082.0,
+      "value_prior_year": 1024.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg aus dem Kommissions-**<br>**und Dienstleistungsgeschäft**|**1’082**|**1’024**|**58**|**5,7**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 3213.0,
+      "value_prior_year": 3088.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Geschäftsertrag**|**3’213**|**3’088**|**125**|**4,0**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -1249.0,
+      "value_prior_year": -1223.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand<br>34|**– 1’249**|– 1’223|– 26|2,1|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -541.0,
+      "value_prior_year": -508.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand<br>35|**– 541**|– 508|– 33|6,5|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -1790.0,
+      "value_prior_year": -1731.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Geschäftsaufwand**|**– 1’790**|**– 1’731**|**– 59**|**3,4**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 1354.0,
+      "value_prior_year": 1277.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Geschäftserfolg**|**1’354**|**1’277**|**77**|**6,0**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "fte_count": {
+      "value_current": 5809.0,
+      "value_prior_year": 5779.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Personalbestand teilzeitbereinigtper Stichtag||5’809|5’779|5’539|5’249|5’145|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "branch_count": {
+      "value_current": 51.0,
+      "value_prior_year": 53.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftsstellen||51|53<sup>6</sup>|53<sup>6</sup>|53<sup>6</sup>|57<sup>6</sup>|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

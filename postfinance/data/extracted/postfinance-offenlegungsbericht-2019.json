@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-2019",
+    "report_type": "offenlegung_fy",
+    "year": 2019,
+    "period": "FY2019",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-2019.md",
+    "total_chars": 108394,
+    "total_lines": 1385
+  },
+  "backend": "local",
+  "metrics": {}
+}

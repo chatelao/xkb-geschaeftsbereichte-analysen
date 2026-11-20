@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-2018",
+    "report_type": "offenlegung_fy",
+    "year": 2018,
+    "period": "FY2018",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-2018.md",
+    "total_chars": 96513,
+    "total_lines": 1366
+  },
+  "backend": "local",
+  "metrics": {}
+}

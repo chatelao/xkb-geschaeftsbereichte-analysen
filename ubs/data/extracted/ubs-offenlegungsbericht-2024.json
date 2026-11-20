@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "stem": "ubs-offenlegungsbericht-2024",
+    "report_type": "offenlegung_fy",
+    "year": 2024,
+    "period": "FY2024",
+    "part": null,
+    "bank_id": "ubs",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "USD",
+    "source_file": ".md/ubs-offenlegungsbericht-2024.md",
+    "total_chars": 472569,
+    "total_lines": 5451
+  },
+  "backend": "local",
+  "metrics": {
+    "rwa_total": {
+      "value_current": 498538.0,
+      "value_prior_year": 519363.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|4<br>Total risk-weighted assets(RWA)|**498,538**|519,363|511,376|526,437|546,505|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 17.6,
+      "value_prior_year": 17.53,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|7<br>Total capital ratio(%)|**17.60**|17.53|17.95|17.66|16.81|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 1519477.0,
+      "value_prior_year": 1608341.0,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|13<br>Total Basel III leverage ratio exposure measure|**1,519,477**|1,608,341|1,564,201|1,599,646|1,695,403|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-06-2020",
+    "report_type": "offenlegung_h1",
+    "year": 2020,
+    "period": "H1-2020",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-06-2020.md",
+    "total_chars": 149285,
+    "total_lines": 2069
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 43.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|12.2 Anhang 3: Ungewichtete Eigenmittelanforderungen auf Basis Leverage Ratio (Konzern und<br>Stammhaus)|43|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

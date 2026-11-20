@@ -1,0 +1,1343 @@
+{
+  "bank_id": "bekb",
+  "total_reports": 57,
+  "reports": [
+    {
+      "stem": "bekb-geschaeftsbericht-2003",
+      "report_type": "annual",
+      "year": 2003,
+      "period": "FY2003",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2648,
+          "approx_tokens": 662
+        },
+        "mehrjahresvergleich": {
+          "chars": 2809,
+          "approx_tokens": 702
+        },
+        "aktie_basisdaten": {
+          "chars": 2011,
+          "approx_tokens": 502
+        },
+        "betreute_vermoegen": {
+          "chars": 1817,
+          "approx_tokens": 454
+        },
+        "lagebericht_strategie": {
+          "chars": 7475,
+          "approx_tokens": 1868
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2004",
+      "report_type": "annual",
+      "year": 2004,
+      "period": "FY2004",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3191,
+          "approx_tokens": 797
+        },
+        "mehrjahresvergleich": {
+          "chars": 3610,
+          "approx_tokens": 902
+        },
+        "aktie_basisdaten": {
+          "chars": 2279,
+          "approx_tokens": 569
+        },
+        "betreute_vermoegen": {
+          "chars": 1583,
+          "approx_tokens": 395
+        },
+        "lagebericht_strategie": {
+          "chars": 7199,
+          "approx_tokens": 1799
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2005",
+      "report_type": "annual",
+      "year": 2005,
+      "period": "FY2005",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3600,
+          "approx_tokens": 900
+        },
+        "mehrjahresvergleich": {
+          "chars": 3118,
+          "approx_tokens": 779
+        },
+        "aktie_basisdaten": {
+          "chars": 2684,
+          "approx_tokens": 671
+        },
+        "lagebericht_strategie": {
+          "chars": 7614,
+          "approx_tokens": 1903
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2006",
+      "report_type": "annual",
+      "year": 2006,
+      "period": "FY2006",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4844,
+          "approx_tokens": 1211
+        },
+        "mehrjahresvergleich": {
+          "chars": 3358,
+          "approx_tokens": 839
+        },
+        "betreute_vermoegen": {
+          "chars": 1700,
+          "approx_tokens": 425
+        },
+        "lagebericht_strategie": {
+          "chars": 7155,
+          "approx_tokens": 1788
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2007",
+      "report_type": "annual",
+      "year": 2007,
+      "period": "FY2007",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6837,
+          "approx_tokens": 1709
+        },
+        "erfolgsrechnung": {
+          "chars": 3794,
+          "approx_tokens": 948
+        },
+        "mehrjahresvergleich": {
+          "chars": 3178,
+          "approx_tokens": 794
+        },
+        "aktie_basisdaten": {
+          "chars": 1776,
+          "approx_tokens": 444
+        },
+        "betreute_vermoegen": {
+          "chars": 1636,
+          "approx_tokens": 409
+        },
+        "lagebericht_strategie": {
+          "chars": 7173,
+          "approx_tokens": 1793
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2008",
+      "report_type": "annual",
+      "year": 2008,
+      "period": "FY2008",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7892,
+          "approx_tokens": 1973
+        },
+        "erfolgsrechnung": {
+          "chars": 3243,
+          "approx_tokens": 810
+        },
+        "mehrjahresvergleich": {
+          "chars": 3975,
+          "approx_tokens": 993
+        },
+        "aktie_basisdaten": {
+          "chars": 3286,
+          "approx_tokens": 821
+        },
+        "betreute_vermoegen": {
+          "chars": 1359,
+          "approx_tokens": 339
+        },
+        "lagebericht_strategie": {
+          "chars": 7282,
+          "approx_tokens": 1820
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2009",
+      "report_type": "annual",
+      "year": 2009,
+      "period": "FY2009",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 2945,
+          "approx_tokens": 736
+        },
+        "mehrjahresvergleich": {
+          "chars": 3953,
+          "approx_tokens": 988
+        },
+        "aktie_basisdaten": {
+          "chars": 2721,
+          "approx_tokens": 680
+        },
+        "betreute_vermoegen": {
+          "chars": 1349,
+          "approx_tokens": 337
+        },
+        "verguetung": {
+          "chars": 3151,
+          "approx_tokens": 787
+        },
+        "lagebericht_strategie": {
+          "chars": 7237,
+          "approx_tokens": 1809
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2010",
+      "report_type": "annual",
+      "year": 2010,
+      "period": "FY2010",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 2968,
+          "approx_tokens": 742
+        },
+        "mehrjahresvergleich": {
+          "chars": 4296,
+          "approx_tokens": 1074
+        },
+        "aktie_basisdaten": {
+          "chars": 2105,
+          "approx_tokens": 526
+        },
+        "betreute_vermoegen": {
+          "chars": 1846,
+          "approx_tokens": 461
+        },
+        "verguetung": {
+          "chars": 5150,
+          "approx_tokens": 1287
+        },
+        "lagebericht_strategie": {
+          "chars": 7353,
+          "approx_tokens": 1838
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2011",
+      "report_type": "annual",
+      "year": 2011,
+      "period": "FY2011",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7253,
+          "approx_tokens": 1813
+        },
+        "erfolgsrechnung": {
+          "chars": 3493,
+          "approx_tokens": 873
+        },
+        "mehrjahresvergleich": {
+          "chars": 3621,
+          "approx_tokens": 905
+        },
+        "aktie_basisdaten": {
+          "chars": 2465,
+          "approx_tokens": 616
+        },
+        "betreute_vermoegen": {
+          "chars": 1279,
+          "approx_tokens": 319
+        },
+        "verguetung": {
+          "chars": 2334,
+          "approx_tokens": 583
+        },
+        "lagebericht_strategie": {
+          "chars": 7392,
+          "approx_tokens": 1848
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2012",
+      "report_type": "annual",
+      "year": 2012,
+      "period": "FY2012",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7872,
+          "approx_tokens": 1968
+        },
+        "erfolgsrechnung": {
+          "chars": 3870,
+          "approx_tokens": 967
+        },
+        "mehrjahresvergleich": {
+          "chars": 3745,
+          "approx_tokens": 936
+        },
+        "aktie_basisdaten": {
+          "chars": 4522,
+          "approx_tokens": 1130
+        },
+        "betreute_vermoegen": {
+          "chars": 1658,
+          "approx_tokens": 414
+        },
+        "lagebericht_strategie": {
+          "chars": 7003,
+          "approx_tokens": 1750
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2013",
+      "report_type": "annual",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8863,
+          "approx_tokens": 2215
+        },
+        "erfolgsrechnung": {
+          "chars": 3737,
+          "approx_tokens": 934
+        },
+        "mehrjahresvergleich": {
+          "chars": 3698,
+          "approx_tokens": 924
+        },
+        "aktie_basisdaten": {
+          "chars": 1981,
+          "approx_tokens": 495
+        },
+        "betreute_vermoegen": {
+          "chars": 2342,
+          "approx_tokens": 585
+        },
+        "lagebericht_strategie": {
+          "chars": 7706,
+          "approx_tokens": 1926
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8039,
+          "approx_tokens": 2009
+        },
+        "erfolgsrechnung": {
+          "chars": 3712,
+          "approx_tokens": 928
+        },
+        "mehrjahresvergleich": {
+          "chars": 3497,
+          "approx_tokens": 874
+        },
+        "aktie_basisdaten": {
+          "chars": 1820,
+          "approx_tokens": 455
+        },
+        "betreute_vermoegen": {
+          "chars": 2548,
+          "approx_tokens": 637
+        },
+        "lagebericht_strategie": {
+          "chars": 7252,
+          "approx_tokens": 1813
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8930,
+          "approx_tokens": 2232
+        },
+        "erfolgsrechnung": {
+          "chars": 3954,
+          "approx_tokens": 988
+        },
+        "mehrjahresvergleich": {
+          "chars": 3232,
+          "approx_tokens": 808
+        },
+        "aktie_basisdaten": {
+          "chars": 1889,
+          "approx_tokens": 472
+        },
+        "betreute_vermoegen": {
+          "chars": 2354,
+          "approx_tokens": 588
+        },
+        "lagebericht_strategie": {
+          "chars": 7186,
+          "approx_tokens": 1796
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9126,
+          "approx_tokens": 2281
+        },
+        "erfolgsrechnung": {
+          "chars": 4139,
+          "approx_tokens": 1034
+        },
+        "mehrjahresvergleich": {
+          "chars": 3347,
+          "approx_tokens": 836
+        },
+        "aktie_basisdaten": {
+          "chars": 1658,
+          "approx_tokens": 414
+        },
+        "betreute_vermoegen": {
+          "chars": 2383,
+          "approx_tokens": 595
+        },
+        "lagebericht_strategie": {
+          "chars": 7203,
+          "approx_tokens": 1800
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9288,
+          "approx_tokens": 2322
+        },
+        "erfolgsrechnung": {
+          "chars": 4141,
+          "approx_tokens": 1035
+        },
+        "mehrjahresvergleich": {
+          "chars": 3266,
+          "approx_tokens": 816
+        },
+        "aktie_basisdaten": {
+          "chars": 1606,
+          "approx_tokens": 401
+        },
+        "betreute_vermoegen": {
+          "chars": 1884,
+          "approx_tokens": 471
+        },
+        "lagebericht_strategie": {
+          "chars": 7285,
+          "approx_tokens": 1821
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9116,
+          "approx_tokens": 2279
+        },
+        "erfolgsrechnung": {
+          "chars": 4258,
+          "approx_tokens": 1064
+        },
+        "mehrjahresvergleich": {
+          "chars": 3373,
+          "approx_tokens": 843
+        },
+        "aktie_basisdaten": {
+          "chars": 1914,
+          "approx_tokens": 478
+        },
+        "betreute_vermoegen": {
+          "chars": 1853,
+          "approx_tokens": 463
+        },
+        "lagebericht_strategie": {
+          "chars": 7011,
+          "approx_tokens": 1752
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4730,
+          "approx_tokens": 1182
+        },
+        "mehrjahresvergleich": {
+          "chars": 3434,
+          "approx_tokens": 858
+        },
+        "aktie_basisdaten": {
+          "chars": 3507,
+          "approx_tokens": 876
+        },
+        "betreute_vermoegen": {
+          "chars": 1903,
+          "approx_tokens": 475
+        },
+        "verguetung": {
+          "chars": 7301,
+          "approx_tokens": 1825
+        },
+        "lagebericht_strategie": {
+          "chars": 7205,
+          "approx_tokens": 1801
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4688,
+          "approx_tokens": 1172
+        },
+        "mehrjahresvergleich": {
+          "chars": 3378,
+          "approx_tokens": 844
+        },
+        "aktie_basisdaten": {
+          "chars": 1485,
+          "approx_tokens": 371
+        },
+        "betreute_vermoegen": {
+          "chars": 1892,
+          "approx_tokens": 473
+        },
+        "verguetung": {
+          "chars": 3667,
+          "approx_tokens": 916
+        },
+        "lagebericht_strategie": {
+          "chars": 7204,
+          "approx_tokens": 1801
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4327,
+          "approx_tokens": 1081
+        },
+        "mehrjahresvergleich": {
+          "chars": 4869,
+          "approx_tokens": 1217
+        },
+        "aktie_basisdaten": {
+          "chars": 3011,
+          "approx_tokens": 752
+        },
+        "betreute_vermoegen": {
+          "chars": 2340,
+          "approx_tokens": 585
+        },
+        "verguetung": {
+          "chars": 7098,
+          "approx_tokens": 1774
+        },
+        "lagebericht_strategie": {
+          "chars": 7423,
+          "approx_tokens": 1855
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4464,
+          "approx_tokens": 1116
+        },
+        "mehrjahresvergleich": {
+          "chars": 5808,
+          "approx_tokens": 1452
+        },
+        "aktie_basisdaten": {
+          "chars": 3009,
+          "approx_tokens": 752
+        },
+        "betreute_vermoegen": {
+          "chars": 2342,
+          "approx_tokens": 585
+        },
+        "verguetung": {
+          "chars": 6746,
+          "approx_tokens": 1686
+        },
+        "lagebericht_strategie": {
+          "chars": 7316,
+          "approx_tokens": 1829
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4504,
+          "approx_tokens": 1126
+        },
+        "mehrjahresvergleich": {
+          "chars": 1951,
+          "approx_tokens": 487
+        },
+        "aktie_basisdaten": {
+          "chars": 2535,
+          "approx_tokens": 633
+        },
+        "betreute_vermoegen": {
+          "chars": 2330,
+          "approx_tokens": 582
+        },
+        "verguetung": {
+          "chars": 8745,
+          "approx_tokens": 2186
+        },
+        "lagebericht_strategie": {
+          "chars": 7245,
+          "approx_tokens": 1811
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4378,
+          "approx_tokens": 1094
+        },
+        "mehrjahresvergleich": {
+          "chars": 5001,
+          "approx_tokens": 1250
+        },
+        "aktie_basisdaten": {
+          "chars": 2743,
+          "approx_tokens": 685
+        },
+        "betreute_vermoegen": {
+          "chars": 2087,
+          "approx_tokens": 521
+        },
+        "verguetung": {
+          "chars": 8829,
+          "approx_tokens": 2207
+        },
+        "lagebericht_strategie": {
+          "chars": 7239,
+          "approx_tokens": 1809
+        }
+      }
+    },
+    {
+      "stem": "bekb-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9011,
+          "approx_tokens": 2252
+        },
+        "erfolgsrechnung": {
+          "chars": 4296,
+          "approx_tokens": 1074
+        },
+        "mehrjahresvergleich": {
+          "chars": 4817,
+          "approx_tokens": 1204
+        },
+        "aktie_basisdaten": {
+          "chars": 3167,
+          "approx_tokens": 791
+        },
+        "betreute_vermoegen": {
+          "chars": 2032,
+          "approx_tokens": 508
+        },
+        "verguetung": {
+          "chars": 9337,
+          "approx_tokens": 2334
+        },
+        "lagebericht_strategie": {
+          "chars": 7293,
+          "approx_tokens": 1823
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-06-2018",
+      "report_type": "offenlegung_h1",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-06-2019",
+      "report_type": "offenlegung_h1",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9141,
+          "approx_tokens": 2285
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-06-2020",
+      "report_type": "offenlegung_h1",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9263,
+          "approx_tokens": 2315
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-06-2021",
+      "report_type": "offenlegung_h1",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9404,
+          "approx_tokens": 2351
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-06-2022",
+      "report_type": "offenlegung_h1",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-06-2023",
+      "report_type": "offenlegung_h1",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-06-2024",
+      "report_type": "offenlegung_h1",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-06-2025",
+      "report_type": "offenlegung_h1",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2015",
+      "report_type": "offenlegung_fy",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2016",
+      "report_type": "offenlegung_fy",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2017",
+      "report_type": "offenlegung_fy",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2018",
+      "report_type": "offenlegung_fy",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2019",
+      "report_type": "offenlegung_fy",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2013",
+      "report_type": "semester",
+      "year": 2013,
+      "period": "H1-2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3003,
+          "approx_tokens": 750
+        },
+        "erfolgsrechnung": {
+          "chars": 4602,
+          "approx_tokens": 1150
+        },
+        "lagebericht_strategie": {
+          "chars": 5516,
+          "approx_tokens": 1379
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2014",
+      "report_type": "semester",
+      "year": 2014,
+      "period": "H1-2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2540,
+          "approx_tokens": 635
+        },
+        "erfolgsrechnung": {
+          "chars": 4472,
+          "approx_tokens": 1118
+        },
+        "lagebericht_strategie": {
+          "chars": 5504,
+          "approx_tokens": 1376
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2015",
+      "report_type": "semester",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2390,
+          "approx_tokens": 597
+        },
+        "erfolgsrechnung": {
+          "chars": 4227,
+          "approx_tokens": 1056
+        },
+        "lagebericht_strategie": {
+          "chars": 5523,
+          "approx_tokens": 1380
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2016",
+      "report_type": "semester",
+      "year": 2016,
+      "period": "H1-2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5085,
+          "approx_tokens": 1271
+        },
+        "erfolgsrechnung": {
+          "chars": 3651,
+          "approx_tokens": 912
+        },
+        "lagebericht_strategie": {
+          "chars": 5581,
+          "approx_tokens": 1395
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2017",
+      "report_type": "semester",
+      "year": 2017,
+      "period": "H1-2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4625,
+          "approx_tokens": 1156
+        },
+        "erfolgsrechnung": {
+          "chars": 3775,
+          "approx_tokens": 943
+        },
+        "lagebericht_strategie": {
+          "chars": 5909,
+          "approx_tokens": 1477
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2018",
+      "report_type": "semester",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2400,
+          "approx_tokens": 600
+        },
+        "erfolgsrechnung": {
+          "chars": 4025,
+          "approx_tokens": 1006
+        },
+        "lagebericht_strategie": {
+          "chars": 5662,
+          "approx_tokens": 1415
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2019",
+      "report_type": "semester",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2165,
+          "approx_tokens": 541
+        },
+        "erfolgsrechnung": {
+          "chars": 3910,
+          "approx_tokens": 977
+        },
+        "lagebericht_strategie": {
+          "chars": 5405,
+          "approx_tokens": 1351
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2020",
+      "report_type": "semester",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5116,
+          "approx_tokens": 1279
+        },
+        "erfolgsrechnung": {
+          "chars": 4311,
+          "approx_tokens": 1077
+        },
+        "lagebericht_strategie": {
+          "chars": 5850,
+          "approx_tokens": 1462
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2021",
+      "report_type": "semester",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5269,
+          "approx_tokens": 1317
+        },
+        "erfolgsrechnung": {
+          "chars": 4482,
+          "approx_tokens": 1120
+        },
+        "lagebericht_strategie": {
+          "chars": 5574,
+          "approx_tokens": 1393
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5258,
+          "approx_tokens": 1314
+        },
+        "erfolgsrechnung": {
+          "chars": 4119,
+          "approx_tokens": 1029
+        },
+        "lagebericht_strategie": {
+          "chars": 5516,
+          "approx_tokens": 1379
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5251,
+          "approx_tokens": 1312
+        },
+        "erfolgsrechnung": {
+          "chars": 4449,
+          "approx_tokens": 1112
+        },
+        "lagebericht_strategie": {
+          "chars": 5531,
+          "approx_tokens": 1382
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5140,
+          "approx_tokens": 1285
+        },
+        "erfolgsrechnung": {
+          "chars": 4255,
+          "approx_tokens": 1063
+        },
+        "lagebericht_strategie": {
+          "chars": 5519,
+          "approx_tokens": 1379
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5343,
+          "approx_tokens": 1335
+        },
+        "erfolgsrechnung": {
+          "chars": 3958,
+          "approx_tokens": 989
+        },
+        "lagebericht_strategie": {
+          "chars": 5591,
+          "approx_tokens": 1397
+        }
+      }
+    },
+    {
+      "stem": "bekb-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5287,
+          "approx_tokens": 1321
+        },
+        "erfolgsrechnung": {
+          "chars": 4233,
+          "approx_tokens": 1058
+        },
+        "lagebericht_strategie": {
+          "chars": 5509,
+          "approx_tokens": 1377
+        }
+      }
+    }
+  ]
+}

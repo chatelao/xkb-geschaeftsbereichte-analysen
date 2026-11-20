@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "stem": "gekb-geschaeftsbericht-2011",
+    "report_type": "annual",
+    "year": 2011,
+    "period": "FY2011",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-geschaeftsbericht-2011.md",
+    "total_chars": 341686,
+    "total_lines": 3945
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 4099269.0,
+      "value_prior_year": 3536565.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle|5.12|4’099’269|3’536’565|562’704|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 8765073.0,
+      "value_prior_year": 7999694.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires|5.12|8’765’073|7’999’694|765’379|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1207881.0,
+      "value_prior_year": 1206686.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|5.03|1’207’881|1’206’686|1’195|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 15870964.0,
+      "value_prior_year": 14257187.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total de l’actif**||**15’870’964**|**14’257’187**|**1’613’777**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 5438429.0,
+      "value_prior_year": 5430064.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Engagements envers la clientèle sous forme d’épargne et de placements|5.12|5’438’429|5’430’064|8’365|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 43216.0,
+      "value_prior_year": 69330.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|5.12|43’216|69’330|-26’114|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 60000.0,
+      "value_prior_year": 60000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux|5.11|60’000|60’000|–|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 63119.0,
+      "value_prior_year": 56442.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice de l’exercice||63’119|56’442|6’677|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 965942.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total des capitaux propres au 1**<sup>**er**</sup>**janvier 2011**|**965’942**|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 197.0,
+      "value_prior_year": 197.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat des opérations d’intérêts|197|197|188|213|201|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 11.0,
+      "value_prior_year": 7.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Autres résultats ordinaires|11|7|28|-4|6|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 337.0,
+      "value_prior_year": 334.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total des produits d’exploitation|337|334|333|319|322|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": 219.0,
+      "value_prior_year": 213.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges d’exploitation<br>i|219|213|218|218|210|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 118.0,
+      "value_prior_year": 121.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice brut|118|121|115|101|112|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-03-2026",
+    "report_type": "offenlegung_q1",
+    "year": 2026,
+    "period": "Q1-2026",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-03-2026.md",
+    "total_chars": 33185,
+    "total_lines": 584
+  },
+  "backend": "local",
+  "metrics": {}
+}

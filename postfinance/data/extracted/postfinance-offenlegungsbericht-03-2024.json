@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-03-2024",
+    "report_type": "offenlegung_q1",
+    "year": 2024,
+    "period": "Q1-2024",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-03-2024.md",
+    "total_chars": 11620,
+    "total_lines": 147
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 109904.0,
+      "value_prior_year": 109904.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Gesamtengagement (Nenner der Leverage Ratio, LRD)|109 904||109 904||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_capital": {
+      "value_current": 6145.0,
+      "value_prior_year": 6095.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|6 145|6 095|6 095|6 095|6 095|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 6587.0,
+      "value_prior_year": 6537.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (T1)|6 587|6 537|6 537|6 537|6 348|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 6606.0,
+      "value_prior_year": 6556.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|3<br>Gesamtkapital total (T1 + T2)<sup>1</sup>|6 606|6 556|6 560|6 560|6 372|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 20.08,
+      "value_prior_year": 20.68,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote|20,08%|20,68%|20,28%|20,07%|20,07%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 21.59,
+      "value_prior_year": 22.25,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote|21,59%|22,25%|21,83%|21,61%|20,99%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

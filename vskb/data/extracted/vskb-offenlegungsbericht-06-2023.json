@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "vskb-offenlegungsbericht-06-2023",
+    "report_type": "offenlegung_h1",
+    "year": 2023,
+    "period": "H1-2023",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-offenlegungsbericht-06-2023.md",
+    "total_chars": 18065,
+    "total_lines": 283
+  },
+  "backend": "local",
+  "metrics": {}
+}

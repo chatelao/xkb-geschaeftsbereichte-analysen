@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "stem": "postfinance-geschaeftsbericht-2013",
+    "report_type": "annual",
+    "year": 2013,
+    "period": "FY2013",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-geschaeftsbericht-2013.md",
+    "total_chars": 213261,
+    "total_lines": 3257
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 8485.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|5|9 894|8 485|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 1.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|5|1|1|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 56108.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|6, 20|54 454|56 108|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 118273.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**||**117** **018**|**118** **273**|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 195.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen||161|195|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 0.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn|0|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 158.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Kommissions- und Dienstleistungsgeschäft**||**158**|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 21.0,
+      "value_prior_year": 158.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Handelsgeschäft**|21|**158**|",
+      "chunk_name": "bilanz"
+    },
+    "other_ordinary_income": {
+      "value_current": 225.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Übriger ordentlicher Erfolg**||**225**|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 1475.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Geschäftsertrag**||**1 475**|",
+      "chunk_name": "bilanz"
+    },
+    "personnel_expenses": {
+      "value_current": 22.0,
+      "value_prior_year": -471.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|22|– 471|",
+      "chunk_name": "bilanz"
+    },
+    "general_expenses": {
+      "value_current": 23.0,
+      "value_prior_year": -470.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|23|– 470|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": -941.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Geschäftsaufwand**||**– 941**|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 534.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Bruttogewinn**||**534**|",
+      "chunk_name": "bilanz"
+    },
+    "taxes": {
+      "value_current": 25.0,
+      "value_prior_year": -79.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Steuern|25|– 79|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-2020",
+    "report_type": "offenlegung_fy",
+    "year": 2020,
+    "period": "FY2020",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-2020.md",
+    "total_chars": 213940,
+    "total_lines": 2884
+  },
+  "backend": "local",
+  "metrics": {}
+}

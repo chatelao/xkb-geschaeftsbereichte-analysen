@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-2019",
+    "report_type": "offenlegung_fy",
+    "year": 2019,
+    "period": "FY2019",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-2019.md",
+    "total_chars": 187846,
+    "total_lines": 2657
+  },
+  "backend": "local",
+  "metrics": {}
+}

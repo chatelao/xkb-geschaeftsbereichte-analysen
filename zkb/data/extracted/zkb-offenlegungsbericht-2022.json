@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-2022",
+    "report_type": "offenlegung_fy",
+    "year": 2022,
+    "period": "FY2022",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-2022.md",
+    "total_chars": 399506,
+    "total_lines": 4173
+  },
+  "backend": "local",
+  "metrics": {}
+}

@@ -1,0 +1,5 @@
+bank_id,year,period,report_type,report_file,currency_orig,leverage_ratio_pct,total_capital_ratio_pct,rwa_total_mio,rwa_total_mio_orig,nsfr_pct,lcr_pct,sort_date,regime,matched_total_assets_mio,rwa_density_pct,total_cap_excess_over_target_pp,self_healed_fields
+ubs,2023,H1-2023,offenlegung_h1,.md/ubs-offenlegungsbericht-06-2023.md,USD,1677877.0,16.76,468.326,556.603,117.64,175.24,2023-06-30,Basel III,972671.862,0.05,-1.24,
+ubs,2023,FY2023,offenlegung_fy,.md/ubs-offenlegungsbericht-2023.md,USD,1695403.0,16.9,459829.307,546505.0,,,2023-12-31,Basel III,972671.862,47.27,-1.1,
+ubs,2024,FY2024,offenlegung_fy,.md/ubs-offenlegungsbericht-2024.md,USD,1519477.0,17.6,451.775,498.538,,,2024-12-31,Basel III,1420975.972,0.03,-0.4,
+ubs,2025,H1-2025,offenlegung_h1,.md/ubs-offenlegungsbericht-06-2025.md,USD,1658089.0,18.18,444969.0,504500.0,122.44,182.31,2025-06-30,Basel III final,1426346.586,31.2,0.18,

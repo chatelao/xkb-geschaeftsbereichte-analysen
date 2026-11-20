@@ -1,0 +1,5 @@
+bank_id,year,period,report_type,report_file,currency_orig,total_operating_income_mio,total_operating_income_mio_orig,leverage_ratio_pct,total_assets_mio,total_assets_mio_orig,shareholders_equity_mio,shareholders_equity_mio_orig,assets_under_management_mio,assets_under_management_mio_orig,total_operating_expenses_mio,total_operating_expenses_mio_orig,net_profit_mio,net_profit_mio_orig,self_healed_fields
+ubs,2022,H1-2022,semester,.md/ubs-semesterbericht-2022.md,USD,8.513,8.917,3.4,1029.147,1113.193,52.553,56.845,3616.644,3912.0,6.01,6.295,2.013,2.108,
+ubs,2023,H1-2023,semester,.md/ubs-semesterbericht-2023.md,USD,8.573,9.54,2.8,922441965.2,1096318000.0,44824743.6,53274000.0,4652.942,5530.0,7.626,8.486,25.947,28.875,
+ubs,2024,H1-2024,semester,.md/ubs-semesterbericht-2024.md,USD,10.481,11.904,3.0,1414.556,1560.976,75.834,83.683,5322.113,5873.0,9.104,10.34,1.0,1.136,
+ubs,2025,H1-2025,semester,.md/ubs-semesterbericht-2025.md,USD,10.671,12.112,3.0,1472.932,1669.991,78.742,89.277,5837.076,6618.0,8.595,9.756,2.11,2.395,

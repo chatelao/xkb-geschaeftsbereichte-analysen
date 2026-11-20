@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-03-2021",
+    "report_type": "offenlegung_q1",
+    "year": 2021,
+    "period": "Q1-2021",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-03-2021.md",
+    "total_chars": 25177,
+    "total_lines": 407
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 17961.0,
+      "value_prior_year": 17883.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|17'961|17'883|17'085|16'959|16'920|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 19045.0,
+      "value_prior_year": 18776.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (T1)|19'045|18'776|17'485|17'934|17'895|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 19710.0,
+      "value_prior_year": 19151.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3<br>Gesamtkapital total|19'710|19'151|17'485|18'073|18'037|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 18.8,
+      "value_prior_year": 19.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote (%)|18,8%|19,1%|18,0%|17,0%|17,2%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 20.7,
+      "value_prior_year": 20.5,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote (%)|20,7%|20,5%|18,4%|18,1%|18,3%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.8,
+      "value_prior_year": 7.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14<br>Basel III Leverage Ratio (Kernkapital in % des Gesamtengagements)|6,8%|7,1%|6,3%|6,6%|7,0%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+name: Docs & Determinism CI/CD
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  verify-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest pyyaml matplotlib
+          pip install -r docs/requirements.txt
+      - name: Run unit & regression tests
+        run: pytest -q tests/
+      - name: Verify deterministic pipeline across all 8 banks & cross-bank
+        run: |
+          for b in bekb vskb zkb bcv gekb raiffeisen postfinance ubs; do
+            python -m shared.validator_kpi --bank "$b" --strict-audit
+            python -m shared.report_builder --bank "$b" --backend local
+          done
+          python -m shared.compare_banks --backend local
+      - name: Build MkDocs strict
+        run: |
+          python -m shared.prepare_docs
+          mkdocs build --strict
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy-pages:
+    needs: verify-and-build
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-09-2016",
+    "report_type": "offenlegung_q3",
+    "year": 2016,
+    "period": "Q3-2016",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-09-2016.md",
+    "total_chars": 10645,
+    "total_lines": 153
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 3.125,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|_davon hartes Kernkapital (CET1)_|3.125|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 14.6,
+      "value_prior_year": 14.6,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Quote des harten Kernkapitals (CET1-Quote)**||**14.6%**|**14.6%**|**14.8%**|**15.0%**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 16.3,
+      "value_prior_year": 16.4,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Total Gesamtkapitalquote**||**16.4%**|**16.3%**|**16.5%**|**16.7%**|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

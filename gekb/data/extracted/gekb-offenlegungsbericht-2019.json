@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-2019",
+    "report_type": "offenlegung_fy",
+    "year": 2019,
+    "period": "FY2019",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-2019.md",
+    "total_chars": 99746,
+    "total_lines": 1290
+  },
+  "backend": "local",
+  "metrics": {}
+}

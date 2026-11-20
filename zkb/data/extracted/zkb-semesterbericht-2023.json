@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "stem": "zkb-semesterbericht-2023",
+    "report_type": "semester",
+    "year": 2023,
+    "period": "H1-2023",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-semesterbericht-2023.md",
+    "total_chars": 33879,
+    "total_lines": 486
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 98863.0,
+      "value_prior_year": 96838.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|**98’863**|96’838|2’025|2,1|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 5906.0,
+      "value_prior_year": 7490.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|**5’906**|7’490|– 1’583|– 21,1|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 202862.0,
+      "value_prior_year": 199791.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**|**202’862**|**199’791**|**3’072**|**1,5**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 104441.0,
+      "value_prior_year": 103351.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|**104’441**|103’351|1’091|1,1|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 243.0,
+      "value_prior_year": 196.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|**243**|196|47|23,8|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 304.0,
+      "value_prior_year": 154.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|**304**|154|150|97,5|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 677.0,
+      "value_prior_year": 1059.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn|**677**|1’059|– 382|– 36,0|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "vskb-offenlegungsbericht-2024",
+    "report_type": "offenlegung_fy",
+    "year": 2024,
+    "period": "FY2024",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-offenlegungsbericht-2024.md",
+    "total_chars": 58835,
+    "total_lines": 1115
+  },
+  "backend": "local",
+  "metrics": {}
+}

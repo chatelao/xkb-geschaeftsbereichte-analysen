@@ -1,0 +1,16 @@
+{
+  "banks": [
+    "bekb",
+    "vskb",
+    "zkb",
+    "bcv",
+    "gekb",
+    "raiffeisen",
+    "postfinance",
+    "ubs"
+  ],
+  "annual_rows": 126,
+  "semester_rows": 98,
+  "offenlegung_rows": 230,
+  "verguetung_rows": 126
+}

@@ -1,0 +1,139 @@
+site_name: XKB Geschäftsberichte Analysen (8 Schweizer Banken)
+site_description: >-
+  Strukturierte Längsschnitt-, Bilanz-, Risiko- und Effizienzanalysen für BEKB, VSKB, ZKB, BCV,
+  GEKB, Raiffeisen, PostFinance und UBS inklusive institutsübergreifendem Benchmarking.
+site_author: chatelao
+repo_url: https://github.com/chatelao/xkb-geschaeftsbereichte-analysen
+repo_name: chatelao/xkb-geschaeftsbereichte-analysen
+
+docs_dir: .rtd_docs
+site_dir: site
+
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Übersicht:
+      - Startseite: index.md
+      - Master-Umsetzungsplan: PLAN.md
+  - Bankenvergleich (8 Institute):
+      - Übersicht: comparison/reports/README.md
+      - "01 · Grösse & Geschäftsmodell": comparison/reports/01_groesse_wachstum_und_geschaeftsmodell.md
+      - "02 · Profitabilität & Effizienz": comparison/reports/02_profitabilitaet_effizienz_und_produktivitaet.md
+      - "03 · Kapitalisierung & Basel III": comparison/reports/03_kapitalisierung_regulierung_und_staatsgarantie.md
+      - "04 · Ausschüttung & Vergütung real": comparison/reports/04_ausschuettung_eigentuemer_und_verguetung_real.md
+      - "05 · Zinswenden & Resilienz": comparison/reports/05_zinswenden_saisonalitaet_und_resilienz.md
+  - BEKB:
+      - Übersicht: bekb/reports/README.md
+      - "01 · Zinszyklen & Ertrag": bekb/reports/01_zinszyklen_und_ertragsarchitektur.md
+      - "02 · Bilanz & Hypotheken": bekb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+      - "03 · Basel III": bekb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+      - "04 · Effizienz": bekb/reports/04_operative_effizienz_und_transformation.md
+      - "05 · Aktie & Wertschöpfung": bekb/reports/05_aktie_dividenden_und_wertschoepfung.md
+      - "06 · Semesterdynamik": bekb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+      - "07 · Epochen & Vergütung real": bekb/reports/07_strategische_epochen_und_governance.md
+      - Audit: bekb/validation_report.md
+  - VSKB (WKB):
+      - Übersicht: vskb/reports/README.md
+      - "01 · Zinszyklen & Ertrag": vskb/reports/01_zinszyklen_und_ertragsarchitektur.md
+      - "02 · Bilanz & Hypotheken": vskb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+      - "03 · Basel III": vskb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+      - "04 · Effizienz": vskb/reports/04_operative_effizienz_und_transformation.md
+      - "05 · Aktie & Wertschöpfung": vskb/reports/05_aktie_dividenden_und_wertschoepfung.md
+      - "06 · Semesterdynamik": vskb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+      - "07 · Epochen & Vergütung real": vskb/reports/07_strategische_epochen_und_governance.md
+      - Audit: vskb/validation_report.md
+  - ZKB:
+      - Übersicht: zkb/reports/README.md
+      - "01 · Zinszyklen & Ertrag": zkb/reports/01_zinszyklen_und_ertragsarchitektur.md
+      - "02 · Bilanz & Hypotheken": zkb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+      - "03 · Basel III & TLAC": zkb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+      - "04 · Effizienz": zkb/reports/04_operative_effizienz_und_transformation.md
+      - "05 · Dotationskapital & Kanton": zkb/reports/05_dotationskapital_ausschuettung_und_kanton_zuerich.md
+      - "06 · Semesterdynamik": zkb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+      - "07 · Epochen & Vergütung real": zkb/reports/07_strategische_epochen_und_governance.md
+      - Audit: zkb/validation_report.md
+  - BCV:
+      - Übersicht: bcv/reports/README.md
+      - "01 · Zinszyklen & Ertrag": bcv/reports/01_zinszyklen_und_ertragsarchitektur.md
+      - "02 · Bilanz & Hypotheken": bcv/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+      - "03 · Basel III & IRB": bcv/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+      - "04 · Effizienz": bcv/reports/04_operative_effizienz_und_transformation.md
+      - "05 · Aktie & Wertschöpfung": bcv/reports/05_aktie_dividenden_und_wertschoepfung.md
+      - "06 · Semesterdynamik": bcv/reports/06_unterjaehrige_dynamik_semesterberichte.md
+      - "07 · Epochen & Vergütung real": bcv/reports/07_strategische_epochen_und_governance.md
+      - Audit: bcv/validation_report.md
+  - GEKB (BCGE):
+      - Übersicht: gekb/reports/README.md
+      - "01 · Zinszyklen & Ertrag": gekb/reports/01_zinszyklen_und_ertragsarchitektur.md
+      - "02 · Bilanz & Hypotheken": gekb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+      - "03 · Basel III": gekb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+      - "04 · Effizienz": gekb/reports/04_operative_effizienz_und_transformation.md
+      - "05 · Aktie & Wertschöpfung": gekb/reports/05_aktie_dividenden_und_wertschoepfung.md
+      - "06 · Semesterdynamik": gekb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+      - "07 · Epochen & Vergütung real": gekb/reports/07_strategische_epochen_und_governance.md
+      - Audit: gekb/validation_report.md
+  - Raiffeisen:
+      - Übersicht: raiffeisen/reports/README.md
+      - "01 · Zinszyklen & Ertrag": raiffeisen/reports/01_zinszyklen_und_ertragsarchitektur.md
+      - "02 · Bilanz & Hypotheken": raiffeisen/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+      - "03 · Basel III & D-SIB": raiffeisen/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+      - "04 · Effizienz": raiffeisen/reports/04_operative_effizienz_und_transformation.md
+      - "05 · Genossenschaftskapital": raiffeisen/reports/05_genossenschaftskapital_mitglieder_und_ausschuettung.md
+      - "06 · Semesterdynamik": raiffeisen/reports/06_unterjaehrige_dynamik_semesterberichte.md
+      - "07 · Epochen & Vergütung real": raiffeisen/reports/07_strategische_epochen_und_governance.md
+      - Audit: raiffeisen/validation_report.md
+  - PostFinance:
+      - Übersicht: postfinance/reports/README.md
+      - "01 · Zinszyklen & Ertrag": postfinance/reports/01_zinszyklen_und_ertragsarchitektur.md
+      - "02 · Bilanz & Finanzanlagen": postfinance/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+      - "03 · Basel III & D-SIB": postfinance/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+      - "04 · Effizienz": postfinance/reports/04_operative_effizienz_und_transformation.md
+      - "05 · Dividende an Post AG": postfinance/reports/05_dividendenablieferung_post_ag_und_eigentuemerwert.md
+      - "06 · Semesterdynamik": postfinance/reports/06_unterjaehrige_dynamik_semesterberichte.md
+      - "07 · Epochen & Vergütung real": postfinance/reports/07_strategische_epochen_und_governance.md
+      - Audit: postfinance/validation_report.md
+  - UBS:
+      - Übersicht: ubs/reports/README.md
+      - "01 · Zinszyklen & Ertrag": ubs/reports/01_zinszyklen_und_ertragsarchitektur.md
+      - "02 · Bilanz & Refinanzierung": ubs/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+      - "03 · Basel III & G-SIB": ubs/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+      - "04 · Effizienz": ubs/reports/04_operative_effizienz_und_transformation.md
+      - "05 · Aktie & Rückkäufe": ubs/reports/05_aktie_dividenden_und_wertschoepfung.md
+      - "06 · Semesterdynamik": ubs/reports/06_unterjaehrige_dynamik_semesterberichte.md
+      - "07 · Epochen & Vergütung real": ubs/reports/07_strategische_epochen_und_governance.md
+      - Audit: ubs/validation_report.md

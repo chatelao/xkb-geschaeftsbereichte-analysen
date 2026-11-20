@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-09-2015",
+    "report_type": "offenlegung_q3",
+    "year": 2015,
+    "period": "Q3-2015",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-09-2015.md",
+    "total_chars": 74708,
+    "total_lines": 1191
+  },
+  "chunks": {}
+}

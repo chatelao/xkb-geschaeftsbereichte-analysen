@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-2010",
+    "report_type": "offenlegung_fy",
+    "year": 2010,
+    "period": "FY2010",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-2010.md",
+    "total_chars": 27515,
+    "total_lines": 396
+  },
+  "backend": "local",
+  "metrics": {}
+}

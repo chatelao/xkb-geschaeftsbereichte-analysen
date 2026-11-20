@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "stem": "bekb-geschaeftsbericht-2005",
+    "report_type": "annual",
+    "year": 2005,
+    "period": "FY2005",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-geschaeftsbericht-2005.md",
+    "total_chars": 329732,
+    "total_lines": 4096
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 13882.0,
+      "value_prior_year": 14051.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle<br>(prêts à la clientèle)|13 356|14 051|13 882|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 63.1,
+      "value_prior_year": 62.6,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Engagements envers la clientèle sous forme d’épargne et de placements|62,6|63,1|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 2.2,
+      "value_prior_year": 2.4,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|2,4|2,2|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 12835009.0,
+      "value_prior_year": 12465554.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires||12 465 554|12 835 009|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 2856623.0,
+      "value_prior_year": 2816582.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières||2 816 582|2 856 623|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 273246.0,
+      "value_prior_year": 268711.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Sous-total résultant des opérations d’intérêts**|**268 711**|**273 246**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 85699.0,
+      "value_prior_year": 77992.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Sous-total résultant des opérations de commissions**<br>**et des prestations de service**|**77 992**|**85 699**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "trading_income": {
+      "value_current": 22621.0,
+      "value_prior_year": 19845.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Résultat des opérations de négoce**|**19 845**|**22 621**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 437861.0,
+      "value_prior_year": 408749.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Produit d’exploitation net|408 749|437 861|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -138463.0,
+      "value_prior_year": -134519.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Charges de personnel|(134 519)|(138 463)|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -80039.0,
+      "value_prior_year": -77735.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Autres charges d’exploitation|(77 735)|(80 039)|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -218502.0,
+      "value_prior_year": -212254.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Sous-total charges d’exploitation**|**(212 254)**|**(218 502)**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 219360.0,
+      "value_prior_year": 196494.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Bénéfice brut|196 494|219 360|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -36200.0,
+      "value_prior_year": -29100.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Impôts|(29 100)|(36 200)|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "net_profit": {
+      "value_current": 85007.0,
+      "value_prior_year": 74747.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Bénéfice de l’exercice|74 747|85 007|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "dividend_per_share": {
+      "value_current": 3.5,
+      "value_prior_year": 3.1,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Dividende par action nominative|3.00|3.10|3.50 <sup>4)</sup>|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "fte_count": {
+      "value_current": 1441.0,
+      "value_prior_year": 1433.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Effectif du personnel|1 448|1 433|1 441|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "reserves_banking_risks": {
+      "value_current": 0.0,
+      "value_prior_year": 0.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux|0|0|",
+      "chunk_name": "aktie_basisdaten"
+    }
+  }
+}

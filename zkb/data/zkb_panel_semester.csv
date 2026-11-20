@@ -1,0 +1,15 @@
+bank_id,year,period,report_type,report_file,currency_orig,net_profit_mio,total_assets_mio,net_new_money_mio,branch_count,operating_profit_mio,financial_investments_mio,trading_income_mio,fte_count,total_operating_expenses_mio,mortgage_loans_mio,kassenobligationen_mio,self_healed_fields,taxes_mio,lcr_pct,customer_loans_other_mio,customer_deposits_mio,total_operating_income_mio,leverage_ratio_pct,personnel_expenses_mio,general_expenses_mio,reserves_banking_risks_mio,commission_income_mio
+zkb,2013,H1-2013,semester,.md/zkb-semesterbericht-2013.md,CHF,394.0,149.818,790.0,99.0,0.455,3468.0,0.202,4931.0,0.631,68660.0,550.0,,,,,,,,,,,
+zkb,2014,H1-2014,semester,.md/zkb-semesterbericht-2014.md,CHF,336.0,154.824,-1497.0,97.0,0.388,4139.0,0.153,4844.0,0.602,70347.0,416.0,,0.0,,,,,,,,,
+zkb,2015,H1-2015,semester,.md/zkb-semesterbericht-2015.md,CHF,393.0,161.819,2525.0,97.0,0.42,3933.0,0.213,5184.0,0.681,72370.0,312.0,,0.007,124.0,16459.0,46031.0,,,,,,
+zkb,2016,H1-2016,semester,.md/zkb-semesterbericht-2016.md,CHF,,151.611,,90.0,0.395,4291.0,0.183,5172.0,-0.684,75.399,273.0,,-0.004,115.6,7341.0,77.762,1.149,7.1,-469.0,-215.0,,
+zkb,2017,H1-2017,semester,.md/zkb-semesterbericht-2017.md,CHF,,158.378,,84.0,0.417,4539.0,0.187,5115.0,-0.706,78.207,209.0,,-0.005,132.0,7436.0,81.454,1.185,6.9,-501.0,-205.0,,
+zkb,2018,H1-2018,semester,.md/zkb-semesterbericht-2018.md,CHF,,-0.1,,,4.5,4918.0,,0.5,-0.0,1.5,180.0,,-1.3,,,1.7,2.2,,,,,
+zkb,2019,H1-2019,semester,.md/zkb-semesterbericht-2019.md,CHF,418.0,170612.0,,67.0,0.419,4537.0,,5135.0,-0.683,82144.0,157.0,,-0.002,,,86515.0,1.165,6.6,,,200.0,
+zkb,2020,H1-2020,semester,.md/zkb-semesterbericht-2020.md,CHF,537.0,179521.0,,62.0,0.469,5040.0,,5161.0,-0.773,85710.0,166.0,,-0.004,,,87757.0,1.31,6.2,,,154.0,
+zkb,2021,H1-2021,semester,.md/zkb-semesterbericht-2021.md,CHF,487.0,190907.0,,59.0,0.492,4966.0,,5140.0,-0.737,89714.0,147.0,,-0.005,,,92132.0,1.268,6.0,,,154.0,
+zkb,2022,H1-2022,semester,.md/zkb-semesterbericht-2022.md,CHF,541.0,197969.0,,55.0,0.537,5014.0,,5140.0,-0.765,94130.0,173.0,,-0.004,,,97057.0,1.344,6.0,,,154.0,
+zkb,2023,H1-2023,semester,.md/zkb-semesterbericht-2023.md,CHF,677.0,202862.0,,,,5906.0,,,,98863.0,243.0,,,,,104441.0,,,,,304.0,
+zkb,2024,H1-2024,semester,.md/zkb-semesterbericht-2024.md,CHF,601.0,202568.0,,53.0,,5182.0,,5652.0,,103112.0,267.0,,-0.088,,12547.0,102325.0,,,-0.612,-0.248,379.0,
+zkb,2025,H1-2025,semester,.md/zkb-semesterbericht-2025.md,CHF,0.668,199.811,,51.0,0.698,5621.0,,5750.0,,109.106,233.0,,,,,109.033,1.6,7.1,,,379.0,
+zkb,2026,H1-2026,semester,.md/zkb-semesterbericht-2026.md,CHF,0.679,210.823,10498.0,51.0,0.783,9823.0,244.0,5886.0,-898.0,113.382,200.0,,-105.0,,,115.082,1.697,7.1,-643.0,-255.0,379.0,598.0

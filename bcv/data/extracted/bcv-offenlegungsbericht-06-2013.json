@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-06-2013",
+    "report_type": "offenlegung_h1",
+    "year": 2013,
+    "period": "H1-2013",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-06-2013.md",
+    "total_chars": 155958,
+    "total_lines": 2303
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2943.0,
+      "value_prior_year": 2908.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Fonds propres de base durs (CET1)**|**2’943**|**2’908**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2966.0,
+      "value_prior_year": 2908.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total des fonds propres**|**2’966**|**2’908**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 17.8,
+      "value_prior_year": 18.4,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Ratio CET1|17.8%|18.4%|||17.8%|14.4%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

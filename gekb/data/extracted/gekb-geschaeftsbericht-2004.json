@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "stem": "gekb-geschaeftsbericht-2004",
+    "report_type": "annual",
+    "year": 2004,
+    "period": "FY2004",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-geschaeftsbericht-2004.md",
+    "total_chars": 361104,
+    "total_lines": 5491
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 5401726.0,
+      "value_prior_year": 6001368.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|<br>Créances sur la clientèle|6.13|5’401’726|6’001’368|–599’642|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 5984063.0,
+      "value_prior_year": 6019955.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires|6.13|5’984’063|6’019’955|–35’892|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 240218.0,
+      "value_prior_year": 92414.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|6.4|240’218|92’414|147’804|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 13891715.0,
+      "value_prior_year": 14561305.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total de l’actif**||**13’891’715**|**14’561’305**|**–669’590**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 4846294.0,
+      "value_prior_year": 5021802.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Engagements envers la clientèle sous forme dépargne et de placements|6.13|4846294|5021802|–175508|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 79027.0,
+      "value_prior_year": 141268.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|6.13|79’027|141’268|–62’241|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 626055.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total des capitaux propres au 1**<sup>**er **</sup>**janvier 2004**|**626’055**|",
+      "chunk_name": "bilanz"
+    },
+    "other_ordinary_income": {
+      "value_current": 9.0,
+      "value_prior_year": 14.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Autres résultats ordinaires|**9**|14|7|15|13|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 278.0,
+      "value_prior_year": 276.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total des produits d’exploitation|**278**|276|260|259|283|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": 199.0,
+      "value_prior_year": 200.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges d’exploitation|**199**|200|190|191|196|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 79.0,
+      "value_prior_year": 76.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice brut|**79**|76|70|68|88|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "net_profit": {
+      "value_current": 9.0,
+      "value_prior_year": 2.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat net|**9**|2|–8|–9|–44|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

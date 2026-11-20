@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "stem": "zkb-semesterbericht-2013",
+    "report_type": "semester",
+    "year": 2013,
+    "period": "H1-2013",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-semesterbericht-2013.md",
+    "total_chars": 22888,
+    "total_lines": 400
+  },
+  "backend": "local",
+  "metrics": {
+    "trading_income": {
+      "value_current": 202.0,
+      "value_prior_year": 225.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Erfolg aus dem Handelsgeschäft||**202**|225|151|–10,0|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 631.0,
+      "value_prior_year": 610.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand||**631**|651 ¹|610|–3,1|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 455.0,
+      "value_prior_year": 401.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bruttogewinn||**455**|452 ¹|401|0,7|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 149818.0,
+      "value_prior_year": 150694.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme||**149’818**|150’694|133’999|–0,6|",
+      "chunk_name": "bilanz"
+    },
+    "net_new_money": {
+      "value_current": 790.0,
+      "value_prior_year": 785.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Netto-Neugeld-Zufluss/-Abfluss (NNM)||**790**|785<sup>4</sup>|2’389<sup>4</sup>||",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 4931.0,
+      "value_prior_year": 5068.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalbestand teilzeitbereinigt per Stichtag||**4’931**|5’068|5’101|–2,7|",
+      "chunk_name": "bilanz"
+    },
+    "branch_count": {
+      "value_current": 99.0,
+      "value_prior_year": 99.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsstellen<sup>5</sup>||**99**|99|102||",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 68660.0,
+      "value_prior_year": 67371.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|68’660|67’371|1’289|1,9|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 3468.0,
+      "value_prior_year": 3659.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|3’468|3’659|–191|–5,2|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 550.0,
+      "value_prior_year": 642.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|550|642|–91|–14,2|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 394.0,
+      "value_prior_year": 594.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn|394|594|–200|–33,7|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

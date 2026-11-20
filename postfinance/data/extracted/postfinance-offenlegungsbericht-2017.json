@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-2017",
+    "report_type": "offenlegung_fy",
+    "year": 2017,
+    "period": "FY2017",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-2017.md",
+    "total_chars": 90671,
+    "total_lines": 1300
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 35.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio|35|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

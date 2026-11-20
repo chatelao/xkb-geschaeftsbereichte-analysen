@@ -3,3 +3,4 @@ __pycache__/
 .venv/
 .rtd_docs/
 site/
+.pytest_cache/

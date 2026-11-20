@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "stem": "ubs-semesterbericht-2022",
+    "report_type": "semester",
+    "year": 2022,
+    "period": "H1-2022",
+    "part": null,
+    "bank_id": "ubs",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "USD",
+    "source_file": ".md/ubs-semesterbericht-2022.md",
+    "total_chars": 370618,
+    "total_lines": 4160
+  },
+  "backend": "local",
+  "metrics": {
+    "total_operating_income": {
+      "value_current": 8917.0,
+      "value_prior_year": 9382.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Total revenues|**8,917**|9,382|8,705|8,897|18,299|17,574|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": 6295.0,
+      "value_prior_year": 6634.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Operatingexpenses|**6,295**|6,634|7,003|6,384|12,929|12,790|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "net_profit": {
+      "value_current": 2108.0,
+      "value_prior_year": 2136.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Netprofit /(loss)attributable to shareholders|**2,108**|2,136|1,348|2,006|4,244|3,830|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 3.4,
+      "value_prior_year": 3.5,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|Return on leverage ratio denominator, gross(%)|**3.4**|3.5|3.3|3.4|3.5|3.4|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_assets": {
+      "value_current": 1113193.0,
+      "value_prior_year": 1139922.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Total assets|**1,113,193**|1,139,922|1,117,182|1,086,519|1,113,193|1,086,519|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "shareholders_equity": {
+      "value_current": 56845.0,
+      "value_prior_year": 58855.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Equityattributable to shareholders|**56,845**|58,855|60,662|58,765|56,845|58,765|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "assets_under_management": {
+      "value_current": 3912.0,
+      "value_prior_year": 4380.0,
+      "unit": null,
+      "currency": "USD",
+      "source_quote": "|Invested assets(USD bn)<sup>5</sup>|**3,912**|4,380|4,596|4,485|3,912|4,485|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

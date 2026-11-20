@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-2017",
+    "report_type": "offenlegung_fy",
+    "year": 2017,
+    "period": "FY2017",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-2017.md",
+    "total_chars": 240299,
+    "total_lines": 2887
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 79087.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|79'087||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "financial_investments": {
+      "value_current": 4740.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|4'740||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_assets": {
+      "value_current": 163881.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**|**163'881**||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "customer_deposits": {
+      "value_current": 81381.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|81'381||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "kassenobligationen": {
+      "value_current": 191.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|191||",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "bekb-offenlegungsbericht-2023",
+    "report_type": "offenlegung_fy",
+    "year": 2023,
+    "period": "FY2023",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-offenlegungsbericht-2023.md",
+    "total_chars": 73482,
+    "total_lines": 1203
+  },
+  "backend": "local",
+  "metrics": {}
+}

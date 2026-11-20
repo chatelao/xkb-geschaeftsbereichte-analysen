@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-09-2023",
+    "report_type": "offenlegung_q3",
+    "year": 2023,
+    "period": "Q3-2023",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-09-2023.md",
+    "total_chars": 115283,
+    "total_lines": 1354
+  },
+  "backend": "local",
+  "metrics": {}
+}

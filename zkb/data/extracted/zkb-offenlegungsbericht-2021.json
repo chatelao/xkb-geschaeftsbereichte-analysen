@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-2021",
+    "report_type": "offenlegung_fy",
+    "year": 2021,
+    "period": "FY2021",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-2021.md",
+    "total_chars": 387635,
+    "total_lines": 4092
+  },
+  "backend": "local",
+  "metrics": {}
+}

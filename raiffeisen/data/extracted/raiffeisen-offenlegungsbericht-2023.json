@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-2023",
+    "report_type": "offenlegung_fy",
+    "year": 2023,
+    "period": "FY2023",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-2023.md",
+    "total_chars": 240950,
+    "total_lines": 3435
+  },
+  "backend": "local",
+  "metrics": {}
+}

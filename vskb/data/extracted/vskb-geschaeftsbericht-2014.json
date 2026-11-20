@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "stem": "vskb-geschaeftsbericht-2014",
+    "report_type": "annual",
+    "year": 2014,
+    "period": "FY2014",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-geschaeftsbericht-2014.md",
+    "total_chars": 346640,
+    "total_lines": 4200
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 8029430114.17,
+      "value_prior_year": 7749874902.44,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Hypothekarforderungen|3.1,3.6|8’029’430’114.17|7’749’874’902.44|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 398928689.25,
+      "value_prior_year": 325623098.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Finanzanlagen|3.2,3.3,3.6|398’928’689.25|325’623’098.00|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 13178038835.04,
+      "value_prior_year": 12759000147.44,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**||**13’178’038’835.04**|**12’759’000’147.44**|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 83197000.0,
+      "value_prior_year": 93508000.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Kassenobligationen||83’197’000.00|93’508’000.00|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 1581000000.0,
+      "value_prior_year": 1340000000.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Anleihen und Pfandbriefdarlehen|3.8|1’581’000’000.00|1’340’000’000.00|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 379400287.15,
+      "value_prior_year": 331400287.15,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Reserven für allgemeine Bankrisiken|3.9|379’400’287.15|331’400’287.15|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 56328556.81,
+      "value_prior_year": 56014506.29,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|•Jahresgewinn||56’328’556.81|56’014’506.29|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": -95306.0,
+      "value_prior_year": -92668.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|•Geschäftsaufwand|-95’306|-92’668|-95’048<sup>1</sup>|-92’515<sup>1</sup>|-93’249|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 137908.0,
+      "value_prior_year": 146174.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|•Bruttogewinn|137’908|146’174|133’877<sup>1</sup>|127’139<sup>1</sup>|120’765|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

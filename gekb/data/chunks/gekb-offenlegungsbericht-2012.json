@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-2012",
+    "report_type": "offenlegung_fy",
+    "year": 2012,
+    "period": "FY2012",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-2012.md",
+    "total_chars": 20070,
+    "total_lines": 357
+  },
+  "chunks": {}
+}

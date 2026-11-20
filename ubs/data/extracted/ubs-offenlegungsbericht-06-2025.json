@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "stem": "ubs-offenlegungsbericht-06-2025",
+    "report_type": "offenlegung_h1",
+    "year": 2025,
+    "period": "H1-2025",
+    "part": null,
+    "bank_id": "ubs",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "USD",
+    "source_file": ".md/ubs-offenlegungsbericht-06-2025.md",
+    "total_chars": 291644,
+    "total_lines": 3274
+  },
+  "backend": "local",
+  "metrics": {
+    "rwa_total": {
+      "value_current": 504500.0,
+      "value_prior_year": 483276.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|4<br>Total risk-weighted assets(RWA)|**504,500**|483,276|498,538|519,363|511,376|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 18.18,
+      "value_prior_year": 18.18,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|7<br>Total capital ratio(%)|**18.18**|18.18|17.60|17.53|17.95|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 1658089.0,
+      "value_prior_year": 1561583.0,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|13<br>Total Basel III leverage ratio exposure measure|**1,658,089**|1,561,583|1,519,477|1,608,341|1,564,201|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "lcr_pct": {
+      "value_current": 182.31,
+      "value_prior_year": 180.96,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|17<br>LCR (%)|**182.31**|180.96|188.37|199.25|211.99|",
+      "chunk_name": "ov1_rwa"
+    },
+    "nsfr_pct": {
+      "value_current": 122.44,
+      "value_prior_year": 124.21,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|20<br>NSFR (%)|**122.44**|124.21|125.54|126.87|128.05|",
+      "chunk_name": "ov1_rwa"
+    }
+  }
+}

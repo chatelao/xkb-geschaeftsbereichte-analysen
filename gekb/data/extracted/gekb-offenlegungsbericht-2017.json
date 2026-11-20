@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-2017",
+    "report_type": "offenlegung_fy",
+    "year": 2017,
+    "period": "FY2017",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-2017.md",
+    "total_chars": 47058,
+    "total_lines": 676
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 0.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Ajustements relatifs aux actifs fiduciaires, portés au bilan conformément aux prescriptions<br>comptables mais nonpris en compte dans la mesure du ratio de levier(Cm 15 Circ.-FINMA 15/3)|0|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

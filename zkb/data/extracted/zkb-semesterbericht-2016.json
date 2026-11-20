@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "stem": "zkb-semesterbericht-2016",
+    "report_type": "semester",
+    "year": 2016,
+    "period": "H1-2016",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-semesterbericht-2016.md",
+    "total_chars": 27213,
+    "total_lines": 483
+  },
+  "backend": "local",
+  "metrics": {
+    "trading_income": {
+      "value_current": 183.0,
+      "value_prior_year": 180.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Erfolg aus dem Handelsgeschäft und der Fair­Value­Option||183|180|1,6|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 1149.0,
+      "value_prior_year": 1099.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag||1’149|1’099|4,6|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": -684.0,
+      "value_prior_year": -676.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand||–684|–676|1,1|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 395.0,
+      "value_prior_year": 366.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftserfolg||395|366|8,0|",
+      "chunk_name": "bilanz"
+    },
+    "taxes": {
+      "value_current": -4.0,
+      "value_prior_year": -7.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Steuern||–4|–7|–38,5|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 151611.0,
+      "value_prior_year": 154410.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme||151’611|154’410|–1,8|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 75399.0,
+      "value_prior_year": 73623.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen||75’399|73’623|2,4|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 77762.0,
+      "value_prior_year": 80820.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen||77’762|80’820|–3,8|",
+      "chunk_name": "bilanz"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.1,
+      "value_prior_year": 6.4,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio <sup>2</sup>||7,1|6,4||",
+      "chunk_name": "bilanz"
+    },
+    "lcr_pct": {
+      "value_current": 115.6,
+      "value_prior_year": 124.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Liquidity Coverage Ratio (LCR) <sup>3</sup>||115,6|124,0||",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 5172.0,
+      "value_prior_year": 5179.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalbestand teilzeitbereinigt per Stichtag||5’172|5’179|–0,1|",
+      "chunk_name": "bilanz"
+    },
+    "branch_count": {
+      "value_current": 90.0,
+      "value_prior_year": 91.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsstellen <sup>5</sup>||90|91||",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 7341.0,
+      "value_prior_year": 7673.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|7’341|7’673|–333|–4,3|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 4291.0,
+      "value_prior_year": 4320.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|4’291|4’320|–29|–0,7|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 273.0,
+      "value_prior_year": 269.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|273|269|4|1,6|",
+      "chunk_name": "bilanz"
+    },
+    "personnel_expenses": {
+      "value_current": -469.0,
+      "value_prior_year": -470.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|–469|–470|1|–0,1|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -215.0,
+      "value_prior_year": -207.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|–215|–207|–8|4,0|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

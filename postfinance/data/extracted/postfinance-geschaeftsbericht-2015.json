@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "stem": "postfinance-geschaeftsbericht-2015",
+    "report_type": "annual",
+    "year": 2015,
+    "period": "FY2015",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-geschaeftsbericht-2015.md",
+    "total_chars": 246358,
+    "total_lines": 3364
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 10704.0,
+      "value_prior_year": null,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|6|10 993|10 704|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 0.0,
+      "value_prior_year": null,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|6|0|0|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 59055.0,
+      "value_prior_year": null,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|8|57 395|59 055|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 120269.0,
+      "value_prior_year": null,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**||**115 689**|**120 269**|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 155.0,
+      "value_prior_year": null,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen||134|155|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 167.0,
+      "value_prior_year": null,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Gewinn||221|167|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 25.0,
+      "value_prior_year": 188.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Handelsgeschäft und der Fair-Value-Option**|25|**188**|**166**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 183.0,
+      "value_prior_year": 200.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Übriger ordentlicher Erfolg**||**183**|**200**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 1535.0,
+      "value_prior_year": 1419.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Geschäftsertrag**||**1 535**|**1 419**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": 27.0,
+      "value_prior_year": -473.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|27|– 473|– 458|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": 28.0,
+      "value_prior_year": -518.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|28|– 518|– 509|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -991.0,
+      "value_prior_year": -967.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Geschäftsaufwand**||**– 991**|**– 967**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 276.0,
+      "value_prior_year": 203.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Geschäftserfolg**||**276**|**203**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": 30.0,
+      "value_prior_year": -59.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Steuern|30|– 59|– 43|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 4.6,
+      "value_prior_year": 4.3,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio RVB|%|4,6|4,3|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

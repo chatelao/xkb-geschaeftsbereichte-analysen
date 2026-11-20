@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "stem": "zkb-geschaeftsbericht-2015",
+    "report_type": "annual",
+    "year": 2015,
+    "period": "FY2015",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-geschaeftsbericht-2015.md",
+    "total_chars": 472713,
+    "total_lines": 6210
+  },
+  "backend": "local",
+  "metrics": {
+    "trading_income": {
+      "value_current": 328.0,
+      "value_prior_year": 233.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolg aus dem Handelsgeschäft und der Fair-Value-Option||328|233|40,5|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 2204.0,
+      "value_prior_year": 1929.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag||2’204|1’929|14,3|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": -1374.0,
+      "value_prior_year": -1191.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand||–1’374|–1’191|15,3|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 664.0,
+      "value_prior_year": 607.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftserfolg||664|607|9,3|",
+      "chunk_name": "bilanz"
+    },
+    "taxes": {
+      "value_current": -8.0,
+      "value_prior_year": -0.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Steuern||–8|–0|–|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 722.0,
+      "value_prior_year": 647.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn||722|647|11,5|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 154410.0,
+      "value_prior_year": 145872.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme||154’410|145’872|5,9|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 73623.0,
+      "value_prior_year": 71349.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen||73’623|71’349|3,2|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 80820.0,
+      "value_prior_year": 79969.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen||80’820|79’969|1,1|",
+      "chunk_name": "bilanz"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.0,
+      "value_prior_year": 5.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio||7,0|5,8||",
+      "chunk_name": "bilanz"
+    },
+    "lcr_pct": {
+      "value_current": 128.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Liquidity Coverage Ratio (LCR)<sup>2</sup>||128|–||",
+      "chunk_name": "bilanz"
+    },
+    "net_new_money": {
+      "value_current": -2502.0,
+      "value_prior_year": 927.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Netto-Neugeld-Zufluss/-Abfluss (NNM)<sup>3</sup>||–2’502|927||",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 5179.0,
+      "value_prior_year": 4844.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Personalbestand teilzeitbereinigt per Stichtag||5’179|4’844|6,9|",
+      "chunk_name": "bilanz"
+    },
+    "branch_count": {
+      "value_current": 91.0,
+      "value_prior_year": 97.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftsstellen<sup>4</sup>||91|97||",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 7673.0,
+      "value_prior_year": 7483.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|2|7’673|7’483|190|2,5|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 4320.0,
+      "value_prior_year": 4210.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|5|4’320|4’210|110|2,6|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 269.0,
+      "value_prior_year": 381.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|15|269|381|–112|–29,4|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 1925.0,
+      "value_prior_year": 6919.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Eigenkapital per 31. Dezember 2014**|1’925|6’919|647|–4|9’487|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

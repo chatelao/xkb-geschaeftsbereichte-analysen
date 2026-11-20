@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "stem": "gekb-geschaeftsbericht-2014",
+    "report_type": "annual",
+    "year": 2014,
+    "period": "FY2014",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-geschaeftsbericht-2014.md",
+    "total_chars": 356349,
+    "total_lines": 4394
+  },
+  "backend": "local",
+  "metrics": {
+    "total_assets": {
+      "value_current": 17493768.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total du bilan|17’493’768|16’619’020|16’472’650|5.3%|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 9503574.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires|9’503’574|9’319’134|9’070’985|2.0%|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 1235521.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Fonds propres|1’235’521|1’162’984|1’085’752|6.2%|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 206769.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges d’exploitation|206’769|203’696|208’352|1.5%|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 153273.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice brut|153’273|131’071|137’408|16.9%|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 76155.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice net|76’155|72’961|67’008|4.4%|",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 4047512.0,
+      "value_prior_year": 3836225.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle|5.12|4’047’512|3’836’225|211’287|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1722694.0,
+      "value_prior_year": 1276955.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|5.03|1’722’694|1’276’955|445’739|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 4920346.0,
+      "value_prior_year": 5100089.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Engagements envers la clientèle sous forme d’épargne et de placements|5.12|4’920’346|5’100’089|-179’743|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 11837.0,
+      "value_prior_year": 15232.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|5.12|11’837|15’232|-3’395|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 120000.0,
+      "value_prior_year": 105000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux|5.11|120’000|105’000|15’000|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 206.0,
+      "value_prior_year": 201.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat des opérations d’intérêts|206|201|205|197|197|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 19.0,
+      "value_prior_year": 9.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Autres résultats ordinaires|19|9|12|11|7|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 360.0,
+      "value_prior_year": 335.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total des produits d’exploitation|360|335|346|337|334|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

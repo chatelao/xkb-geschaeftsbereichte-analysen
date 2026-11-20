@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-03-2023",
+    "report_type": "offenlegung_q1",
+    "year": 2023,
+    "period": "Q1-2023",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-03-2023.md",
+    "total_chars": 27369,
+    "total_lines": 425
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 8.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Tabelle 2: Ungewichtete Eigenmittelan forderungen<br>auf Basis der Leverage Ratio|8|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

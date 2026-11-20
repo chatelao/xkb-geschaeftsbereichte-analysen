@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-2024",
+    "report_type": "offenlegung_fy",
+    "year": 2024,
+    "period": "FY2024",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-2024.md",
+    "total_chars": 116324,
+    "total_lines": 1553
+  },
+  "backend": "local",
+  "metrics": {}
+}

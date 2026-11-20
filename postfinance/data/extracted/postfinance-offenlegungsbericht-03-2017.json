@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-03-2017",
+    "report_type": "offenlegung_q1",
+    "year": 2017,
+    "period": "Q1-2017",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-03-2017.md",
+    "total_chars": 6234,
+    "total_lines": 139
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 5532.0,
+      "value_prior_year": 5482.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Hartes Kernkapital (CET1) gemäss Definition für systemrelevante Banken**|**5 482**|**5 532**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 17.8,
+      "value_prior_year": 17.13,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Quote hartes Kernkapital (CET1-Quote)|17,13%|17,80%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 17.8,
+      "value_prior_year": 17.13,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Gesamtkapitalquote**|**17,13%**|**17,80%**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_assets": {
+      "value_current": 120379.0,
+      "value_prior_year": 121773.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme|120 379|121 773|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 120680.0,
+      "value_prior_year": 122160.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Gesamtengagement für Leverage Ratio**|**120 680**|**122 160**|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

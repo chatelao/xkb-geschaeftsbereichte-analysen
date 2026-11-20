@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "stem": "raiffeisen-geschaeftsbericht-2022",
+    "report_type": "annual",
+    "year": 2022,
+    "period": "FY2022",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-geschaeftsbericht-2022.md",
+    "total_chars": 608950,
+    "total_lines": 8507
+  },
+  "backend": "local",
+  "metrics": {
+    "commission_income": {
+      "value_current": 536.0,
+      "value_prior_year": 591.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Erfolg aus dem Kommissions- und Dienstleistungsgeschäft|536|591|10,3|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 3383.0,
+      "value_prior_year": 3529.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag|3’383|3’529|4,3|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 1895.0,
+      "value_prior_year": 1972.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand|1’895|1’972|4,1|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 1268.0,
+      "value_prior_year": 1354.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftserfolg|1’268|1’354|6,8|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 1069.0,
+      "value_prior_year": 1182.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Gruppengewinn|1’069|1’182|10,6|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 284489.0,
+      "value_prior_year": 280635.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme|284’489|280’635|–1,4|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 19179.0,
+      "value_prior_year": 20673.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total Eigenkapital (ohne Minderheitsanteile)|19’179|20’673|7,8|",
+      "chunk_name": "bilanz"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 20.3,
+      "value_prior_year": 18.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote<sup>2</sup>|20,3%|18,8%||",
+      "chunk_name": "bilanz"
+    },
+    "nsfr_pct": {
+      "value_current": 144.9,
+      "value_prior_year": 140.9,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Finanzierungsquote (NSFR)<sup>4</sup>|144,9%|140,9%||",
+      "chunk_name": "bilanz"
+    },
+    "net_new_money": {
+      "value_current": 14509.0,
+      "value_prior_year": 8159.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Nettoneugeld verwaltete Kundenvermögen|14’509|8’159|–43,8|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 200.0,
+      "value_prior_year": 200.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|200|200|200|200|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 2121.0,
+      "value_prior_year": 2324.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Netto-Erfolg aus dem Zinsengeschäft|2’121|2’324|283|229|–8|1|18|–4|2’414|2’550|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "trading_income": {
+      "value_current": 144.0,
+      "value_prior_year": 173.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolg aus dem Handelsgeschäft und der Fair-Value-Option|144|173|87|76|14|4|–1|1|244|254|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "other_ordinary_income": {
+      "value_current": 71.0,
+      "value_prior_year": 71.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Übriger ordentlicher Erfolg|71|71|363|392|91|18|–336|–347|189|134|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "personnel_expenses": {
+      "value_current": -960.0,
+      "value_prior_year": -1020.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|–960|–1’020|–420|–411|–22|–16|10|18|–1’392|–1’429|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "general_expenses": {
+      "value_current": -577.0,
+      "value_prior_year": -630.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|–577|–630|–258|–250|–13|–8|345|345|–503|–543|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "taxes": {
+      "value_current": -138.0,
+      "value_prior_year": -172.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Steuern|–138|–172|–3|–3|–6|–1|–36|–20|–183|–196|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "customer_loans_other": {
+      "value_current": 6875.0,
+      "value_prior_year": 7184.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|6’875|7’184|3’090|3’711|91|181|–60|–167|9’996|10’909|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "mortgage_loans": {
+      "value_current": 185323.0,
+      "value_prior_year": 198857.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|185’323|198’857|11’040|4’799|–|–|–3|–|196’360|203’656|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "customer_deposits": {
+      "value_current": 185058.0,
+      "value_prior_year": 194879.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|185’058|194’879|17’277|10’043|–|–|–606|–137|201’729|204’785|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "financial_investments": {
+      "value_current": 6613.0,
+      "value_prior_year": 7194.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|6’613|7’194|8’829|8’549|15’151|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "kassenobligationen": {
+      "value_current": 591.0,
+      "value_prior_year": 459.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|591|459|354|284|210|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

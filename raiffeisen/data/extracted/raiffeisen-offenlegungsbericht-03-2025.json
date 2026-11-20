@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-03-2025",
+    "report_type": "offenlegung_q1",
+    "year": 2025,
+    "period": "Q1-2025",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-03-2025.md",
+    "total_chars": 35007,
+    "total_lines": 483
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 9.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Tabelle 2: Nicht risikobasierte Eigenmittelan forderungen  auf<br>Basis der Leverage Ratio|9|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

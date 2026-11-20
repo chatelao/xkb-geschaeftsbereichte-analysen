@@ -1,0 +1,48 @@
+bank_id: "vskb"
+short_name: "WKB (VSKB)"
+full_name: "Walliser Kantonalbank (BCVs)"
+peer_group: "cantonal_bank"
+canton_or_hq: "Wallis"
+legal_form: "listed_ag"
+listed: true
+ticker: "WKB"
+state_guarantee: true
+has_credit_ban: false
+finma_category: 3
+reporting_scope: "standalone"
+accounting_standard: "ARB_RVB"
+reporting_currency: "CHF"
+primary_languages: ["de", "fr"]
+file_prefix: "vskb"
+public_share_pct_default: 70.0
+
+capital_targets_pct:
+  cet1_target: 9.2
+  total_capital_target: 13.4
+  leverage_min: 3.0
+  lcr_min: 100.0
+  nsfr_min: 100.0
+
+share_splits: []
+
+report_05_mode: "listed_share"
+report_05_slug: "05_aktie_dividenden_und_wertschoepfung"
+
+palette:
+  primary: "#C8102E"
+  secondary: "#1E293B"
+  accent: "#0F766E"
+  muted: "#64748B"
+
+plausibility_bounds_chf_mio:
+  total_assets_min: 7000
+  total_assets_max: 30000
+
+epochs:
+  - {label: "Epoche 1", start: 2007, end: 2014, title: "Regionales Wachstum & Finanzkrise"}
+  - {label: "Epoche 2", start: 2015, end: 2021, title: "SNB-Negativzinsen & Kapitalstärkung"}
+  - {label: "Epoche 3", start: 2022, end: 2026, title: "Zinswende & Basel III final"}
+
+structural_breaks:
+  - {year: 2015, label: "Umstellung auf FINMA-RVB"}
+  - {year: 2025, label: "Inkrafttreten Basel III final per 01.01.2025"}

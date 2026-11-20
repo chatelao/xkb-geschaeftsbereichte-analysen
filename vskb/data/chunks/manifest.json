@@ -1,0 +1,822 @@
+{
+  "bank_id": "vskb",
+  "total_reports": 40,
+  "reports": [
+    {
+      "stem": "vskb-geschaeftsbericht-2007",
+      "report_type": "annual",
+      "year": 2007,
+      "period": "FY2007",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "mehrjahresvergleich": {
+          "chars": 6405,
+          "approx_tokens": 1601
+        },
+        "lagebericht_strategie": {
+          "chars": 7555,
+          "approx_tokens": 1888
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2009",
+      "report_type": "annual",
+      "year": 2009,
+      "period": "FY2009",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 9210,
+          "approx_tokens": 2302
+        },
+        "mehrjahresvergleich": {
+          "chars": 5919,
+          "approx_tokens": 1479
+        },
+        "lagebericht_strategie": {
+          "chars": 7045,
+          "approx_tokens": 1761
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2010",
+      "report_type": "annual",
+      "year": 2010,
+      "period": "FY2010",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 9455,
+          "approx_tokens": 2363
+        },
+        "mehrjahresvergleich": {
+          "chars": 3894,
+          "approx_tokens": 973
+        },
+        "lagebericht_strategie": {
+          "chars": 7234,
+          "approx_tokens": 1808
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 7728,
+          "approx_tokens": 1932
+        },
+        "mehrjahresvergleich": {
+          "chars": 8211,
+          "approx_tokens": 2052
+        },
+        "lagebericht_strategie": {
+          "chars": 7015,
+          "approx_tokens": 1753
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 8333,
+          "approx_tokens": 2083
+        },
+        "mehrjahresvergleich": {
+          "chars": 8663,
+          "approx_tokens": 2165
+        },
+        "aktie_basisdaten": {
+          "chars": 3039,
+          "approx_tokens": 759
+        },
+        "lagebericht_strategie": {
+          "chars": 7025,
+          "approx_tokens": 1756
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5417,
+          "approx_tokens": 1354
+        },
+        "mehrjahresvergleich": {
+          "chars": 6367,
+          "approx_tokens": 1591
+        },
+        "aktie_basisdaten": {
+          "chars": 5423,
+          "approx_tokens": 1355
+        },
+        "lagebericht_strategie": {
+          "chars": 7197,
+          "approx_tokens": 1799
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4955,
+          "approx_tokens": 1238
+        },
+        "mehrjahresvergleich": {
+          "chars": 7643,
+          "approx_tokens": 1910
+        },
+        "lagebericht_strategie": {
+          "chars": 7333,
+          "approx_tokens": 1833
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5255,
+          "approx_tokens": 1313
+        },
+        "mehrjahresvergleich": {
+          "chars": 8204,
+          "approx_tokens": 2051
+        },
+        "lagebericht_strategie": {
+          "chars": 7244,
+          "approx_tokens": 1811
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5156,
+          "approx_tokens": 1289
+        },
+        "mehrjahresvergleich": {
+          "chars": 8383,
+          "approx_tokens": 2095
+        },
+        "lagebericht_strategie": {
+          "chars": 7168,
+          "approx_tokens": 1792
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5200,
+          "approx_tokens": 1300
+        },
+        "mehrjahresvergleich": {
+          "chars": 8433,
+          "approx_tokens": 2108
+        },
+        "lagebericht_strategie": {
+          "chars": 7000,
+          "approx_tokens": 1750
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5289,
+          "approx_tokens": 1322
+        },
+        "mehrjahresvergleich": {
+          "chars": 4880,
+          "approx_tokens": 1220
+        },
+        "verguetung": {
+          "chars": 4339,
+          "approx_tokens": 1084
+        },
+        "lagebericht_strategie": {
+          "chars": 7096,
+          "approx_tokens": 1774
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9015,
+          "approx_tokens": 2253
+        },
+        "erfolgsrechnung": {
+          "chars": 4210,
+          "approx_tokens": 1052
+        },
+        "mehrjahresvergleich": {
+          "chars": 6214,
+          "approx_tokens": 1553
+        },
+        "verguetung": {
+          "chars": 4715,
+          "approx_tokens": 1178
+        },
+        "lagebericht_strategie": {
+          "chars": 7137,
+          "approx_tokens": 1784
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7367,
+          "approx_tokens": 1841
+        },
+        "erfolgsrechnung": {
+          "chars": 3702,
+          "approx_tokens": 925
+        },
+        "verguetung": {
+          "chars": 4017,
+          "approx_tokens": 1004
+        },
+        "lagebericht_strategie": {
+          "chars": 7072,
+          "approx_tokens": 1768
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7357,
+          "approx_tokens": 1839
+        },
+        "erfolgsrechnung": {
+          "chars": 3806,
+          "approx_tokens": 951
+        },
+        "verguetung": {
+          "chars": 4638,
+          "approx_tokens": 1159
+        },
+        "lagebericht_strategie": {
+          "chars": 7698,
+          "approx_tokens": 1924
+        }
+      }
+    },
+    {
+      "stem": "vskb-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7234,
+          "approx_tokens": 1808
+        },
+        "erfolgsrechnung": {
+          "chars": 3739,
+          "approx_tokens": 934
+        },
+        "mehrjahresvergleich": {
+          "chars": 6094,
+          "approx_tokens": 1523
+        },
+        "verguetung": {
+          "chars": 9389,
+          "approx_tokens": 2347
+        },
+        "lagebericht_strategie": {
+          "chars": 7466,
+          "approx_tokens": 1866
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-06-2020",
+      "report_type": "offenlegung_h1",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-06-2021",
+      "report_type": "offenlegung_h1",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-06-2022",
+      "report_type": "offenlegung_h1",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-06-2023",
+      "report_type": "offenlegung_h1",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-06-2024",
+      "report_type": "offenlegung_h1",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-06-2025",
+      "report_type": "offenlegung_h1",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2015",
+      "report_type": "semester",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3247,
+          "approx_tokens": 811
+        },
+        "erfolgsrechnung": {
+          "chars": 3079,
+          "approx_tokens": 769
+        },
+        "lagebericht_strategie": {
+          "chars": 128,
+          "approx_tokens": 32
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2016",
+      "report_type": "semester",
+      "year": 2016,
+      "period": "H1-2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3423,
+          "approx_tokens": 855
+        },
+        "erfolgsrechnung": {
+          "chars": 5525,
+          "approx_tokens": 1381
+        },
+        "lagebericht_strategie": {
+          "chars": 1373,
+          "approx_tokens": 343
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2017",
+      "report_type": "semester",
+      "year": 2017,
+      "period": "H1-2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3167,
+          "approx_tokens": 791
+        },
+        "erfolgsrechnung": {
+          "chars": 5636,
+          "approx_tokens": 1409
+        },
+        "lagebericht_strategie": {
+          "chars": 320,
+          "approx_tokens": 80
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2018",
+      "report_type": "semester",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3138,
+          "approx_tokens": 784
+        },
+        "erfolgsrechnung": {
+          "chars": 5634,
+          "approx_tokens": 1408
+        },
+        "lagebericht_strategie": {
+          "chars": 1104,
+          "approx_tokens": 276
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2019",
+      "report_type": "semester",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3101,
+          "approx_tokens": 775
+        },
+        "erfolgsrechnung": {
+          "chars": 5009,
+          "approx_tokens": 1252
+        },
+        "lagebericht_strategie": {
+          "chars": 862,
+          "approx_tokens": 215
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2020",
+      "report_type": "semester",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3467,
+          "approx_tokens": 866
+        },
+        "erfolgsrechnung": {
+          "chars": 5067,
+          "approx_tokens": 1266
+        },
+        "lagebericht_strategie": {
+          "chars": 5149,
+          "approx_tokens": 1287
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2021",
+      "report_type": "semester",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3590,
+          "approx_tokens": 897
+        },
+        "erfolgsrechnung": {
+          "chars": 5064,
+          "approx_tokens": 1266
+        },
+        "lagebericht_strategie": {
+          "chars": 5610,
+          "approx_tokens": 1402
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3073,
+          "approx_tokens": 768
+        },
+        "erfolgsrechnung": {
+          "chars": 4799,
+          "approx_tokens": 1199
+        },
+        "lagebericht_strategie": {
+          "chars": 5504,
+          "approx_tokens": 1376
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3125,
+          "approx_tokens": 781
+        },
+        "erfolgsrechnung": {
+          "chars": 4869,
+          "approx_tokens": 1217
+        },
+        "lagebericht_strategie": {
+          "chars": 5524,
+          "approx_tokens": 1381
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2960,
+          "approx_tokens": 740
+        },
+        "erfolgsrechnung": {
+          "chars": 5009,
+          "approx_tokens": 1252
+        },
+        "lagebericht_strategie": {
+          "chars": 5556,
+          "approx_tokens": 1389
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2964,
+          "approx_tokens": 741
+        },
+        "erfolgsrechnung": {
+          "chars": 4785,
+          "approx_tokens": 1196
+        },
+        "lagebericht_strategie": {
+          "chars": 5611,
+          "approx_tokens": 1402
+        }
+      }
+    },
+    {
+      "stem": "vskb-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2758,
+          "approx_tokens": 689
+        },
+        "erfolgsrechnung": {
+          "chars": 3109,
+          "approx_tokens": 777
+        },
+        "lagebericht_strategie": {
+          "chars": 5555,
+          "approx_tokens": 1388
+        }
+      }
+    }
+  ]
+}

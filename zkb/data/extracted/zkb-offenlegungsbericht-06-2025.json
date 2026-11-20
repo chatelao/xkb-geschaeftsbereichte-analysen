@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-06-2025",
+    "report_type": "offenlegung_h1",
+    "year": 2025,
+    "period": "H1-2025",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-06-2025.md",
+    "total_chars": 271342,
+    "total_lines": 3505
+  },
+  "backend": "local",
+  "metrics": {}
+}

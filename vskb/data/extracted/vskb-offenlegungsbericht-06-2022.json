@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "vskb-offenlegungsbericht-06-2022",
+    "report_type": "offenlegung_h1",
+    "year": 2022,
+    "period": "H1-2022",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-offenlegungsbericht-06-2022.md",
+    "total_chars": 19428,
+    "total_lines": 303
+  },
+  "backend": "local",
+  "metrics": {}
+}

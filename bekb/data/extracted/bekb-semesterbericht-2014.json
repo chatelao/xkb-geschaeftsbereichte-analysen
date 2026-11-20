@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "stem": "bekb-semesterbericht-2014",
+    "report_type": "semester",
+    "year": 2014,
+    "period": "H1-2014",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-semesterbericht-2014.md",
+    "total_chars": 41147,
+    "total_lines": 904
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 18673792.0,
+      "value_prior_year": 18440444.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|18 673 792|18 440 444|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 2673908.0,
+      "value_prior_year": 2643782.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|2 673 908|2 643 782|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 27075885.0,
+      "value_prior_year": 26663445.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**|**27 075 885**|**26 663 445**|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 163803.0,
+      "value_prior_year": 171140.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|163 803|171 140|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 1236000.0,
+      "value_prior_year": 1300000.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|1 236 000|1 300 000|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 647119.0,
+      "value_prior_year": 630227.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|647 119|630 227|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 10267.0,
+      "value_prior_year": 10885.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Handelsgeschäft**|**10 267**|**10 885**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 225118.0,
+      "value_prior_year": 256095.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Betriebsertragnetto|225 118|256 095|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -75329.0,
+      "value_prior_year": -75885.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|–75 329|–75 885|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -57130.0,
+      "value_prior_year": -56593.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|–57 130|–56 593|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -132459.0,
+      "value_prior_year": -132478.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Geschäftsaufwand vor ausserordentlicher Zuweisung**<br>**an Pensionskasse**|**–132 459**|**–132 478**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 92659.0,
+      "value_prior_year": 107617.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Bruttogewinn|92 659|107 617|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -22900.0,
+      "value_prior_year": -24200.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Steuern|–22 900|–24 200|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

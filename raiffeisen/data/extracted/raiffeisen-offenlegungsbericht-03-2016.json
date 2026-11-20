@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-03-2016",
+    "report_type": "offenlegung_q1",
+    "year": 2016,
+    "period": "Q1-2016",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-03-2016.md",
+    "total_chars": 9738,
+    "total_lines": 144
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 12705.0,
+      "value_prior_year": 12116.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Hartes Kernkapital(CET1) gemäss Definition Systemrelevanz**<sup>**3)**</sup>|**CET1**|**11'590**|**12'116**|**12'544**|**12'705**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 14551.0,
+      "value_prior_year": 13864.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Gesamtkapital**||**12'760**|**13'864**|**14'368**|**14'551**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 13.88,
+      "value_prior_year": 14.15,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Quote des harten Kernkapitals (CET1-Quote)**|**13.88%**|**14.15%**|**14.34%**|**14.27%**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 15.28,
+      "value_prior_year": 16.19,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Gesamtkapitalquote**|**15.28%**|**16.19%**|**16.43%**|**16.34%**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_assets": {
+      "value_current": 212021.0,
+      "value_prior_year": 201345.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme gemäss Gruppenabschluss|188'640|201'345|205'748|212'021|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 212546.0,
+      "value_prior_year": 202292.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Total Gesamtengangement für Leverage Ratio**|**189'019**|**202'292**|**206'937**|**212'546**|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

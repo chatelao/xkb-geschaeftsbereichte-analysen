@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "vskb-offenlegungsbericht-2020",
+    "report_type": "offenlegung_fy",
+    "year": 2020,
+    "period": "FY2020",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-offenlegungsbericht-2020.md",
+    "total_chars": 82060,
+    "total_lines": 1269
+  },
+  "backend": "local",
+  "metrics": {}
+}

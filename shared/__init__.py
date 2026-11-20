@@ -1,1 +1,1 @@
-"""Shared pipeline modules for XKB Kantonalbanken analyses."""
+"""Gemeinsame, unit-getestete Pipeline-Kernbibliothek für XKB Geschäftsberichte Analysen."""

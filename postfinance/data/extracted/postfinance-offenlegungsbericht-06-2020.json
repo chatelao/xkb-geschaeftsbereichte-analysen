@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-06-2020",
+    "report_type": "offenlegung_h1",
+    "year": 2020,
+    "period": "H1-2020",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-06-2020.md",
+    "total_chars": 49151,
+    "total_lines": 823
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 11.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio|11|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_capital": {
+      "value_current": 6101.0,
+      "value_prior_year": 6101.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|6 101|6 101|6 101|6 032|5 982|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 6304.0,
+      "value_prior_year": 6304.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (T1)|6 304|6 304|6 304|6 235|6 185|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 6331.0,
+      "value_prior_year": 6320.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3<br>Gesamtkapital total (T1+T2)<sup>1</sup>|6 331|6 320|6 321|6 252|6 202|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 18.07,
+      "value_prior_year": 17.91,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote (%)|18,07%|17,91%|18,71%|18,69%|18,32%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 18.75,
+      "value_prior_year": 18.56,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote (%)|18,75%|18,56%|19,39%|19,",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

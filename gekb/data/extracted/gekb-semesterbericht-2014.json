@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "stem": "gekb-semesterbericht-2014",
+    "report_type": "semester",
+    "year": 2014,
+    "period": "H1-2014",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-semesterbericht-2014.md",
+    "total_chars": 15633,
+    "total_lines": 139
+  },
+  "backend": "local",
+  "metrics": {
+    "financial_investments": {
+      "value_current": 1566045.0,
+      "value_prior_year": 1276955.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|1’566’045|1’276’955|289’090|||||",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 105000.0,
+      "value_prior_year": 105000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires<br>généraux|105000|105000|-|_dont participations mises_<br>_en équivalence_|_1688_|_598_|_1090_|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

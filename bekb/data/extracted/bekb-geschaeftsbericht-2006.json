@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "stem": "bekb-geschaeftsbericht-2006",
+    "report_type": "annual",
+    "year": 2006,
+    "period": "FY2006",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-geschaeftsbericht-2006.md",
+    "total_chars": 35497,
+    "total_lines": 606
+  },
+  "backend": "local",
+  "metrics": {
+    "total_assets": {
+      "value_current": 21077.0,
+      "value_prior_year": 20724.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total assets<br>20 286|20 724|**21 077**|",
+      "chunk_name": "bilanz"
+    },
+    "assets_under_management": {
+      "value_current": 20099.0,
+      "value_prior_year": 18902.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Assets under management<sup>1</sup><br>17 457|18 902|**20 099**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 15649.0,
+      "value_prior_year": 15167.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Customer deposits in the strict sense<br>14 549|15 167|**15 649**|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

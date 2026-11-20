@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-09-2018",
+    "report_type": "offenlegung_q3",
+    "year": 2018,
+    "period": "Q3-2018",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-09-2018.md",
+    "total_chars": 11039,
+    "total_lines": 186
+  },
+  "backend": "local",
+  "metrics": {}
+}

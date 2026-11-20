@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-06-2021",
+    "report_type": "offenlegung_h1",
+    "year": 2021,
+    "period": "H1-2021",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-06-2021.md",
+    "total_chars": 213566,
+    "total_lines": 2899
+  },
+  "backend": "local",
+  "metrics": {}
+}

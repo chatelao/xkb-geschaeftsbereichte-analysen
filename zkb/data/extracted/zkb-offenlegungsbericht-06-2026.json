@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-06-2026",
+    "report_type": "offenlegung_h1",
+    "year": 2026,
+    "period": "H1-2026",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-06-2026.md",
+    "total_chars": 280054,
+    "total_lines": 3776
+  },
+  "backend": "local",
+  "metrics": {}
+}

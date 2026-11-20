@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-2013",
+    "report_type": "offenlegung_fy",
+    "year": 2013,
+    "period": "FY2013",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-2013.md",
+    "total_chars": 18259,
+    "total_lines": 453
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 4882.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**hartes Kernkapital (cEt1)**|**4** **882**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 20.4,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote (Hartes Kernkapital in %<br>der risikogewichteten Positionen)|auf Basis Mindesteigenmittel (8%)|20,4%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "customer_loans_other": {
+      "value_current": 7295.0,
+      "value_prior_year": 2282.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|||7 295|2 282|317|||9 894|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "mortgage_loans": {
+      "value_current": 1.0,
+      "value_prior_year": 1.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|||||1|||1|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "financial_investments": {
+      "value_current": 10349.0,
+      "value_prior_year": 16527.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen / Schuldtitel|10 349|16 527|6 935|19 575|279|789||54 454|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 6289.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total risikogewichtete Positionen ohne Ratings|6 289|",
+      "chunk_name": "ov1_rwa"
+    }
+  }
+}

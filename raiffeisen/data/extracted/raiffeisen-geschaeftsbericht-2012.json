@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "raiffeisen-geschaeftsbericht-2012",
+    "report_type": "annual",
+    "year": 2012,
+    "period": "FY2012",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-geschaeftsbericht-2012.md",
+    "total_chars": 25924,
+    "total_lines": 445
+  },
+  "backend": "local",
+  "metrics": {}
+}

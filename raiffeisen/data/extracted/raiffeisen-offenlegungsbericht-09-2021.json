@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-09-2021",
+    "report_type": "offenlegung_q3",
+    "year": 2021,
+    "period": "Q3-2021",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-09-2021.md",
+    "total_chars": 26609,
+    "total_lines": 421
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 18053.0,
+      "value_prior_year": 18018.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|18’053|18’018|17’961|17’883|17’085|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 19263.0,
+      "value_prior_year": 19197.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (T1)|19’263|19’197|19’045|18’776|17’485|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 20053.0,
+      "value_prior_year": 19840.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3<br>Gesamtkapital total|20’053|19’840|19’710|19’151|17’485|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 19.8,
+      "value_prior_year": 18.7,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote (%)|19,8%|18,7%|18,8%|19,1%|18,0%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 22.0,
+      "value_prior_year": 20.6,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote (%)|22,0%|20,6%|20,7%|20,5%|18,4%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

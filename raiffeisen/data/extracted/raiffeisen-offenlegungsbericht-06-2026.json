@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-06-2026",
+    "report_type": "offenlegung_h1",
+    "year": 2026,
+    "period": "H1-2026",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-06-2026.md",
+    "total_chars": 119690,
+    "total_lines": 2141
+  },
+  "backend": "local",
+  "metrics": {}
+}

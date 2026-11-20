@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "stem": "gekb-semesterbericht-2008",
+    "report_type": "semester",
+    "year": 2008,
+    "period": "H1-2008",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-semesterbericht-2008.md",
+    "total_chars": 15670,
+    "total_lines": 207
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 3426898.0,
+      "value_prior_year": 3912022.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle|3’426’898|3’912’022|-485’124|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 6692503.0,
+      "value_prior_year": 6393374.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires|6’692’503|6’393’374|299’129|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 514169.0,
+      "value_prior_year": 409411.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|514’169|409’411|104’758|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 13055875.0,
+      "value_prior_year": 12498462.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total de l’actif**|**13’055’875**|**12’498’462**|**557’413**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 4721145.0,
+      "value_prior_year": 4438333.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Engagements envers la clientèle sous forme d’épargne et de placements|4’721’145|4’438’333|282’812|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 126025.0,
+      "value_prior_year": 106339.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|126’025|106’339|19’686|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 85100.0,
+      "value_prior_year": 85100.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux|85’100|85’100|–|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 159771.0,
+      "value_prior_year": 157402.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total desproduits d’exploitation**|**159’771**|**157’402**|**2’369**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -58879.0,
+      "value_prior_year": -60431.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges de personnel|-58’879|-60’431|1’552|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -47290.0,
+      "value_prior_year": -43921.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Autres charges d’exploitation|-47’290|-43’921|-3’369|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 53602.0,
+      "value_prior_year": 53050.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Bénéfice brut**|**53’602**|**53’050**|**552**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -4739.0,
+      "value_prior_year": -1625.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Impôts|-4’739|-1’625|-3’114|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "stem": "bekb-geschaeftsbericht-2017",
+    "report_type": "annual",
+    "year": 2017,
+    "period": "FY2017",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-geschaeftsbericht-2017.md",
+    "total_chars": 319783,
+    "total_lines": 4418
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 20719922.0,
+      "value_prior_year": 19747720.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|20 719 922|19 747 720|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 2069783.0,
+      "value_prior_year": 2259382.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|2 069 783|2 259 382|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 29298088.0,
+      "value_prior_year": 28404656.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**TOTAL AKTIVEN**|**29 298 088**|**28 404 656**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 22004009.0,
+      "value_prior_year": 22017950.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|22 004 009|22 017 950|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 69998.0,
+      "value_prior_year": 91793.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|69 998|91 793|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 3597000.0,
+      "value_prior_year": 2732000.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|3 597 000|2 732 000|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 615282.0,
+      "value_prior_year": 602343.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|615 282|602 343|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 137425.0,
+      "value_prior_year": 129403.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Gewinn|137 425|129 403|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 21826.0,
+      "value_prior_year": 19286.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**ERFOLG AUS DEM HANDELSGESCHÄFT UND DER FAIR-VALUE-OPTION**|**21 826**|**19 286**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 459587.0,
+      "value_prior_year": 432196.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**GESCHÄFTSERTRAG**|**459 587**|**432 196**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -138133.0,
+      "value_prior_year": -137839.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|–138 133|–137 839|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -113811.0,
+      "value_prior_year": -110472.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand<br>|–113 811|–110 472|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -251944.0,
+      "value_prior_year": -248311.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**SUBTOTAL GESCHÄFTSAUFWAND**|**–251 944**|**–248 311**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 145830.0,
+      "value_prior_year": 145965.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**GESCHÄFTSERFOLG**|**145 830**|**145 965**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -37400.0,
+      "value_prior_year": -34200.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Steuern|–37 400|–34 200|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "assets_under_management": {
+      "value_current": 18499.0,
+      "value_prior_year": 18740.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Betreute Vermögenswerte(Depotwerte)|18 499|18 740|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 19.9,
+      "value_prior_year": 20.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Basel-III-Gesamtkapitalquote<sup>2</sup> (in %)|19,9|20,0|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 8.0,
+      "value_prior_year": 7.9,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio(in %)|8,0|7,9|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "fte_count": {
+      "value_current": 1224.0,
+      "value_prior_year": 1214.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Personalbestand(inkl. Lernender sowie Aushilfen)|1 224|1 214|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "dividend_per_share": {
+      "value_current": 6.6,
+      "value_prior_year": 6.2,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Dividendeje Namenaktie|6.60<sup>1</sup>|6.20|6.00|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

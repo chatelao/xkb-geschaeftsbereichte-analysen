@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-2018",
+    "report_type": "offenlegung_fy",
+    "year": 2018,
+    "period": "FY2018",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-2018.md",
+    "total_chars": 148705,
+    "total_lines": 2093
+  },
+  "backend": "local",
+  "metrics": {}
+}

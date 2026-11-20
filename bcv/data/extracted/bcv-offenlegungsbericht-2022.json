@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "bcv-offenlegungsbericht-2022",
+    "report_type": "offenlegung_fy",
+    "year": 2022,
+    "period": "FY2022",
+    "part": null,
+    "bank_id": "bcv",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bcv-offenlegungsbericht-2022.md",
+    "total_chars": 247959,
+    "total_lines": 3197
+  },
+  "backend": "local",
+  "metrics": {}
+}

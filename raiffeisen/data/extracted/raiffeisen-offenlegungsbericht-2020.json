@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-2020",
+    "report_type": "offenlegung_fy",
+    "year": 2020,
+    "period": "FY2020",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-2020.md",
+    "total_chars": 186921,
+    "total_lines": 2750
+  },
+  "backend": "local",
+  "metrics": {}
+}

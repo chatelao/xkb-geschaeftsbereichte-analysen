@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "raiffeisen-offenlegungsbericht-09-2024",
+    "report_type": "offenlegung_q3",
+    "year": 2024,
+    "period": "Q3-2024",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-offenlegungsbericht-09-2024.md",
+    "total_chars": 28397,
+    "total_lines": 434
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 8.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Tabelle 2: Ungewichtete Eigenmittelan forderungen  auf Basis<br>der Leverage Ratio|8|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

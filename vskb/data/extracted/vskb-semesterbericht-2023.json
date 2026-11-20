@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "stem": "vskb-semesterbericht-2023",
+    "report_type": "semester",
+    "year": 2023,
+    "period": "H1-2023",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-semesterbericht-2023.md",
+    "total_chars": 15264,
+    "total_lines": 248
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 12563599.0,
+      "value_prior_year": 12360526.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|12 563 599|12 360 526|203 073|1,64%|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1051915.0,
+      "value_prior_year": 789288.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|1 051 915|789 288|262 627|33,27%|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 19699502.0,
+      "value_prior_year": 19313476.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**|**19 699 502**|**19 313 476**|**386 027**|**2,00%**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 11774662.0,
+      "value_prior_year": 11346502.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|11 774 662|11 346 502|428 161|3,77%|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 25822.0,
+      "value_prior_year": 16753.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|25 822|16 753|9 069|54,13%|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 4470000.0,
+      "value_prior_year": 4346000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|4 470 000|4 346 000|124 000|2,85%|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 587811.0,
+      "value_prior_year": 587811.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|587 811|587 811|0|0,00%|",
+      "chunk_name": "bilanz"
+    },
+    "assets_under_management": {
+      "value_current": 15319023.0,
+      "value_prior_year": 14341663.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Verwaltete Vermögen**|15 319 023|14 341 663|6.81%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "net_interest_income": {
+      "value_current": 113741.0,
+      "value_prior_year": 89190.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Netto-Erfolg aus dem Zinsengeschäft|113 741|89 190|27.53%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 22373.0,
+      "value_prior_year": 22573.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Erfolg aus dem Kommissions- und Dienstleistungsgeschäft|22 373|22 573|-0.89%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -62866.0,
+      "value_prior_year": -60041.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand|-62 866|-60 041|4.71%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 74124.0,
+      "value_prior_year": 61216.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftserfolg|74 124|61 216|21.09%|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

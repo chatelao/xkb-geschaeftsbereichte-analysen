@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "stem": "gekb-offenlegungsbericht-2011",
+    "report_type": "offenlegung_fy",
+    "year": 2011,
+    "period": "FY2011",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-offenlegungsbericht-2011.md",
+    "total_chars": 38963,
+    "total_lines": 671
+  },
+  "chunks": {}
+}

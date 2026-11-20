@@ -1,0 +1,1276 @@
+{
+  "bank_id": "gekb",
+  "total_reports": 65,
+  "reports": [
+    {
+      "stem": "gekb-geschaeftsbericht-2003",
+      "report_type": "annual",
+      "year": 2003,
+      "period": "FY2003",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7620,
+          "approx_tokens": 1905
+        },
+        "erfolgsrechnung": {
+          "chars": 5956,
+          "approx_tokens": 1489
+        },
+        "mehrjahresvergleich": {
+          "chars": 5114,
+          "approx_tokens": 1278
+        },
+        "lagebericht_strategie": {
+          "chars": 7148,
+          "approx_tokens": 1787
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2004",
+      "report_type": "annual",
+      "year": 2004,
+      "period": "FY2004",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 8244,
+          "approx_tokens": 2061
+        },
+        "mehrjahresvergleich": {
+          "chars": 7131,
+          "approx_tokens": 1782
+        },
+        "lagebericht_strategie": {
+          "chars": 7027,
+          "approx_tokens": 1756
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2005",
+      "report_type": "annual",
+      "year": 2005,
+      "period": "FY2005",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4717,
+          "approx_tokens": 1179
+        },
+        "mehrjahresvergleich": {
+          "chars": 3737,
+          "approx_tokens": 934
+        },
+        "lagebericht_strategie": {
+          "chars": 7044,
+          "approx_tokens": 1761
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2006",
+      "report_type": "annual",
+      "year": 2006,
+      "period": "FY2006",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 7278,
+          "approx_tokens": 1819
+        },
+        "mehrjahresvergleich": {
+          "chars": 5753,
+          "approx_tokens": 1438
+        },
+        "lagebericht_strategie": {
+          "chars": 7032,
+          "approx_tokens": 1758
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2007",
+      "report_type": "annual",
+      "year": 2007,
+      "period": "FY2007",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4158,
+          "approx_tokens": 1039
+        },
+        "mehrjahresvergleich": {
+          "chars": 4497,
+          "approx_tokens": 1124
+        },
+        "verguetung": {
+          "chars": 3745,
+          "approx_tokens": 936
+        },
+        "lagebericht_strategie": {
+          "chars": 7217,
+          "approx_tokens": 1804
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2008",
+      "report_type": "annual",
+      "year": 2008,
+      "period": "FY2008",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4195,
+          "approx_tokens": 1048
+        },
+        "mehrjahresvergleich": {
+          "chars": 4867,
+          "approx_tokens": 1216
+        },
+        "verguetung": {
+          "chars": 4116,
+          "approx_tokens": 1029
+        },
+        "lagebericht_strategie": {
+          "chars": 7141,
+          "approx_tokens": 1785
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2009",
+      "report_type": "annual",
+      "year": 2009,
+      "period": "FY2009",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4064,
+          "approx_tokens": 1016
+        },
+        "mehrjahresvergleich": {
+          "chars": 4577,
+          "approx_tokens": 1144
+        },
+        "verguetung": {
+          "chars": 4641,
+          "approx_tokens": 1160
+        },
+        "lagebericht_strategie": {
+          "chars": 7514,
+          "approx_tokens": 1878
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2010",
+      "report_type": "annual",
+      "year": 2010,
+      "period": "FY2010",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3698,
+          "approx_tokens": 924
+        },
+        "mehrjahresvergleich": {
+          "chars": 2250,
+          "approx_tokens": 562
+        },
+        "lagebericht_strategie": {
+          "chars": 7062,
+          "approx_tokens": 1765
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2011",
+      "report_type": "annual",
+      "year": 2011,
+      "period": "FY2011",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3628,
+          "approx_tokens": 907
+        },
+        "mehrjahresvergleich": {
+          "chars": 2267,
+          "approx_tokens": 566
+        },
+        "lagebericht_strategie": {
+          "chars": 7781,
+          "approx_tokens": 1945
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2012",
+      "report_type": "annual",
+      "year": 2012,
+      "period": "FY2012",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9306,
+          "approx_tokens": 2326
+        },
+        "erfolgsrechnung": {
+          "chars": 3597,
+          "approx_tokens": 899
+        },
+        "mehrjahresvergleich": {
+          "chars": 5140,
+          "approx_tokens": 1285
+        },
+        "lagebericht_strategie": {
+          "chars": 7297,
+          "approx_tokens": 1824
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2013",
+      "report_type": "annual",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3738,
+          "approx_tokens": 934
+        },
+        "mehrjahresvergleich": {
+          "chars": 4757,
+          "approx_tokens": 1189
+        },
+        "lagebericht_strategie": {
+          "chars": 7122,
+          "approx_tokens": 1780
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3903,
+          "approx_tokens": 975
+        },
+        "mehrjahresvergleich": {
+          "chars": 4895,
+          "approx_tokens": 1223
+        },
+        "lagebericht_strategie": {
+          "chars": 7228,
+          "approx_tokens": 1807
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4163,
+          "approx_tokens": 1040
+        },
+        "mehrjahresvergleich": {
+          "chars": 5030,
+          "approx_tokens": 1257
+        },
+        "lagebericht_strategie": {
+          "chars": 7211,
+          "approx_tokens": 1802
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3921,
+          "approx_tokens": 980
+        },
+        "mehrjahresvergleich": {
+          "chars": 4063,
+          "approx_tokens": 1015
+        },
+        "lagebericht_strategie": {
+          "chars": 7472,
+          "approx_tokens": 1868
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4393,
+          "approx_tokens": 1098
+        },
+        "mehrjahresvergleich": {
+          "chars": 4183,
+          "approx_tokens": 1045
+        },
+        "lagebericht_strategie": {
+          "chars": 7518,
+          "approx_tokens": 1879
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3711,
+          "approx_tokens": 927
+        },
+        "mehrjahresvergleich": {
+          "chars": 7096,
+          "approx_tokens": 1774
+        },
+        "lagebericht_strategie": {
+          "chars": 7550,
+          "approx_tokens": 1887
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4717,
+          "approx_tokens": 1179
+        },
+        "mehrjahresvergleich": {
+          "chars": 7311,
+          "approx_tokens": 1827
+        },
+        "lagebericht_strategie": {
+          "chars": 7379,
+          "approx_tokens": 1844
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4000,
+          "approx_tokens": 1000
+        },
+        "mehrjahresvergleich": {
+          "chars": 7610,
+          "approx_tokens": 1902
+        },
+        "lagebericht_strategie": {
+          "chars": 7134,
+          "approx_tokens": 1783
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5060,
+          "approx_tokens": 1265
+        },
+        "mehrjahresvergleich": {
+          "chars": 8077,
+          "approx_tokens": 2019
+        },
+        "lagebericht_strategie": {
+          "chars": 7002,
+          "approx_tokens": 1750
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 6420,
+          "approx_tokens": 1605
+        },
+        "mehrjahresvergleich": {
+          "chars": 7163,
+          "approx_tokens": 1790
+        },
+        "lagebericht_strategie": {
+          "chars": 7083,
+          "approx_tokens": 1770
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5203,
+          "approx_tokens": 1300
+        },
+        "mehrjahresvergleich": {
+          "chars": 7017,
+          "approx_tokens": 1754
+        },
+        "lagebericht_strategie": {
+          "chars": 7008,
+          "approx_tokens": 1752
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5419,
+          "approx_tokens": 1354
+        },
+        "mehrjahresvergleich": {
+          "chars": 4407,
+          "approx_tokens": 1101
+        },
+        "verguetung": {
+          "chars": 7479,
+          "approx_tokens": 1869
+        },
+        "lagebericht_strategie": {
+          "chars": 7061,
+          "approx_tokens": 1765
+        }
+      }
+    },
+    {
+      "stem": "gekb-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5519,
+          "approx_tokens": 1379
+        },
+        "mehrjahresvergleich": {
+          "chars": 6212,
+          "approx_tokens": 1553
+        },
+        "verguetung": {
+          "chars": 7526,
+          "approx_tokens": 1881
+        },
+        "lagebericht_strategie": {
+          "chars": 7012,
+          "approx_tokens": 1753
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-06-2019",
+      "report_type": "offenlegung_h1",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-06-2020",
+      "report_type": "offenlegung_h1",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-06-2021",
+      "report_type": "offenlegung_h1",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-06-2022",
+      "report_type": "offenlegung_h1",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-06-2023",
+      "report_type": "offenlegung_h1",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-06-2024",
+      "report_type": "offenlegung_h1",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-06-2025",
+      "report_type": "offenlegung_h1",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2010",
+      "report_type": "offenlegung_fy",
+      "year": 2010,
+      "period": "FY2010",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2011",
+      "report_type": "offenlegung_fy",
+      "year": 2011,
+      "period": "FY2011",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2012",
+      "report_type": "offenlegung_fy",
+      "year": 2012,
+      "period": "FY2012",
+      "part": null,
+      "chunks": {}
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2013",
+      "report_type": "offenlegung_fy",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 4072,
+          "approx_tokens": 1018
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2014",
+      "report_type": "offenlegung_fy",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 4414,
+          "approx_tokens": 1103
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2015",
+      "report_type": "offenlegung_fy",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2016",
+      "report_type": "offenlegung_fy",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2017",
+      "report_type": "offenlegung_fy",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2018",
+      "report_type": "offenlegung_fy",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2019",
+      "report_type": "offenlegung_fy",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2008",
+      "report_type": "semester",
+      "year": 2008,
+      "period": "H1-2008",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2958,
+          "approx_tokens": 739
+        },
+        "erfolgsrechnung": {
+          "chars": 3161,
+          "approx_tokens": 790
+        },
+        "lagebericht_strategie": {
+          "chars": 5541,
+          "approx_tokens": 1385
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2009",
+      "report_type": "semester",
+      "year": 2009,
+      "period": "H1-2009",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6962,
+          "approx_tokens": 1740
+        },
+        "erfolgsrechnung": {
+          "chars": 2970,
+          "approx_tokens": 742
+        },
+        "lagebericht_strategie": {
+          "chars": 6160,
+          "approx_tokens": 1540
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2010",
+      "report_type": "semester",
+      "year": 2010,
+      "period": "H1-2010",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2740,
+          "approx_tokens": 685
+        },
+        "erfolgsrechnung": {
+          "chars": 3380,
+          "approx_tokens": 845
+        },
+        "lagebericht_strategie": {
+          "chars": 5536,
+          "approx_tokens": 1384
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2011",
+      "report_type": "semester",
+      "year": 2011,
+      "period": "H1-2011",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3029,
+          "approx_tokens": 757
+        },
+        "erfolgsrechnung": {
+          "chars": 3357,
+          "approx_tokens": 839
+        },
+        "lagebericht_strategie": {
+          "chars": 5600,
+          "approx_tokens": 1400
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2012",
+      "report_type": "semester",
+      "year": 2012,
+      "period": "H1-2012",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2705,
+          "approx_tokens": 676
+        },
+        "erfolgsrechnung": {
+          "chars": 3329,
+          "approx_tokens": 832
+        },
+        "lagebericht_strategie": {
+          "chars": 5730,
+          "approx_tokens": 1432
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2013",
+      "report_type": "semester",
+      "year": 2013,
+      "period": "H1-2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2622,
+          "approx_tokens": 655
+        },
+        "erfolgsrechnung": {
+          "chars": 3492,
+          "approx_tokens": 873
+        },
+        "lagebericht_strategie": {
+          "chars": 5731,
+          "approx_tokens": 1432
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2014",
+      "report_type": "semester",
+      "year": 2014,
+      "period": "H1-2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6368,
+          "approx_tokens": 1592
+        },
+        "erfolgsrechnung": {
+          "chars": 3177,
+          "approx_tokens": 794
+        },
+        "lagebericht_strategie": {
+          "chars": 5590,
+          "approx_tokens": 1397
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2015",
+      "report_type": "semester",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5482,
+          "approx_tokens": 1370
+        },
+        "lagebericht_strategie": {
+          "chars": 5813,
+          "approx_tokens": 1453
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2017",
+      "report_type": "semester",
+      "year": 2017,
+      "period": "H1-2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5834,
+          "approx_tokens": 1458
+        },
+        "erfolgsrechnung": {
+          "chars": 5353,
+          "approx_tokens": 1338
+        },
+        "lagebericht_strategie": {
+          "chars": 6154,
+          "approx_tokens": 1538
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2018",
+      "report_type": "semester",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6196,
+          "approx_tokens": 1549
+        },
+        "erfolgsrechnung": {
+          "chars": 5175,
+          "approx_tokens": 1293
+        },
+        "lagebericht_strategie": {
+          "chars": 5992,
+          "approx_tokens": 1498
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2019",
+      "report_type": "semester",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6033,
+          "approx_tokens": 1508
+        },
+        "erfolgsrechnung": {
+          "chars": 5429,
+          "approx_tokens": 1357
+        },
+        "lagebericht_strategie": {
+          "chars": 5723,
+          "approx_tokens": 1430
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2020",
+      "report_type": "semester",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6113,
+          "approx_tokens": 1528
+        },
+        "erfolgsrechnung": {
+          "chars": 6601,
+          "approx_tokens": 1650
+        },
+        "lagebericht_strategie": {
+          "chars": 5512,
+          "approx_tokens": 1378
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2021",
+      "report_type": "semester",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5982,
+          "approx_tokens": 1495
+        },
+        "erfolgsrechnung": {
+          "chars": 6562,
+          "approx_tokens": 1640
+        },
+        "lagebericht_strategie": {
+          "chars": 5622,
+          "approx_tokens": 1405
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6083,
+          "approx_tokens": 1520
+        },
+        "erfolgsrechnung": {
+          "chars": 5511,
+          "approx_tokens": 1377
+        },
+        "lagebericht_strategie": {
+          "chars": 5634,
+          "approx_tokens": 1408
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6225,
+          "approx_tokens": 1556
+        },
+        "erfolgsrechnung": {
+          "chars": 5943,
+          "approx_tokens": 1485
+        },
+        "lagebericht_strategie": {
+          "chars": 5515,
+          "approx_tokens": 1378
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6222,
+          "approx_tokens": 1555
+        },
+        "erfolgsrechnung": {
+          "chars": 5240,
+          "approx_tokens": 1310
+        },
+        "lagebericht_strategie": {
+          "chars": 5723,
+          "approx_tokens": 1430
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5555,
+          "approx_tokens": 1388
+        },
+        "lagebericht_strategie": {
+          "chars": 5693,
+          "approx_tokens": 1423
+        }
+      }
+    },
+    {
+      "stem": "gekb-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5710,
+          "approx_tokens": 1427
+        },
+        "lagebericht_strategie": {
+          "chars": 5843,
+          "approx_tokens": 1460
+        }
+      }
+    }
+  ]
+}

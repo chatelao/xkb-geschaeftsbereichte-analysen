@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "stem": "raiffeisen-geschaeftsbericht-2020",
+    "report_type": "annual",
+    "year": 2020,
+    "period": "FY2020",
+    "part": null,
+    "bank_id": "raiffeisen",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/raiffeisen-geschaeftsbericht-2020.md",
+    "total_chars": 530121,
+    "total_lines": 7129
+  },
+  "backend": "local",
+  "metrics": {
+    "commission_income": {
+      "value_current": 451.0,
+      "value_prior_year": 416.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolg aus dem Kommissions- und Dienstleistungsgeschäft|416|451|8,4|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 3060.0,
+      "value_prior_year": 3052.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag|3’052|3’060|0,3|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 1817.0,
+      "value_prior_year": 1870.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand|1’870|1’817|– 2,9|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 967.0,
+      "value_prior_year": 930.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftserfolg|930|967|4,1|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 861.0,
+      "value_prior_year": 835.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Gruppengewinn|835|861|3,1|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 259653.0,
+      "value_prior_year": 248345.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme|248’345|259’653|4,6|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 18444.0,
+      "value_prior_year": 17478.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total Eigenkapital (ohne Minderheitsanteile)|17’478|18’444|5,5|",
+      "chunk_name": "bilanz"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 18.6,
+      "value_prior_year": 16.9,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote|16,9%|18,6%||",
+      "chunk_name": "bilanz"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.3,
+      "value_prior_year": 7.2,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|TLAC Leverage Ratio|7,2%|7,3%||",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 80.0,
+      "value_prior_year": 200.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|80|200|200|200|",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 8159886.0,
+      "value_prior_year": 10041107.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|2, 18|8’159’886|10’041’107|1’881’221|23,1|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 185290514.0,
+      "value_prior_year": 190317358.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|2, 11, 18|185’290’514|190’317’358|5’026’844|2,7|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 7194368.0,
+      "value_prior_year": 8828902.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|5, 11, 18|7’194’368|8’828’902|1’634’534|22,7|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 2119.0,
+      "value_prior_year": 2111.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Netto-Erfolg aus dem Zinsengeschäft|2’119|2’111|140|211|– 24|– 26|19|1|2’254|2’297|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "trading_income": {
+      "value_current": 133.0,
+      "value_prior_year": 124.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Erfolg aus dem Handelsgeschäft und der Fair-Value-Option|133|124|79|77|15|13|1|1|228|215|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "other_ordinary_income": {
+      "value_current": 69.0,
+      "value_prior_year": 71.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Übriger ordentlicher Erfolg|69|71|385|361|19|21|– 320|– 356|153|97|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "personnel_expenses": {
+      "value_current": -912.0,
+      "value_prior_year": -935.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|– 912|– 935|– 408|– 386|– 19|– 23|7|7|– 1’332|– 1’337|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "general_expenses": {
+      "value_current": -581.0,
+      "value_prior_year": -564.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|– 581|– 564|– 247|– 228|– 15|– 20|304|332|– 539|– 480|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "taxes": {
+      "value_current": -148.0,
+      "value_prior_year": -125.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Steuern|– 148|– 125|– 2|– 1|– 3|– 3|41|10|– 112|– 119|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "customer_deposits": {
+      "value_current": 162348.0,
+      "value_prior_year": 174872.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|162’348|174’872|13’943|15’849|–|–|– 112|– 296|176’179|190’425|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "kassenobligationen": {
+      "value_current": 1178.0,
+      "value_prior_year": 836.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|1’178|836|591|459|354|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "net_new_money": {
+      "value_current": 16328062.0,
+      "value_prior_year": 9600566.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Netto-Neugeld-Zufluss/-Abfluss|9’600’566|16’328’062|",
+      "chunk_name": "betreute_vermoegen"
+    }
+  }
+}

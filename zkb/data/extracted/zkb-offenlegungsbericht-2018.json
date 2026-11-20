@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-offenlegungsbericht-2018",
+    "report_type": "offenlegung_fy",
+    "year": 2018,
+    "period": "FY2018",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-offenlegungsbericht-2018.md",
+    "total_chars": 281076,
+    "total_lines": 3450
+  },
+  "backend": "local",
+  "metrics": {}
+}

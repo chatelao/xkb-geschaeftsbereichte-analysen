@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "bekb-offenlegungsbericht-06-2020",
+    "report_type": "offenlegung_h1",
+    "year": 2020,
+    "period": "H1-2020",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-offenlegungsbericht-06-2020.md",
+    "total_chars": 11643,
+    "total_lines": 207
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2540000.0,
+      "value_prior_year": 2540534.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital(CET1)|2 540 000|2 540 534|2 497 829|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2540000.0,
+      "value_prior_year": 2540534.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital(T1)|2 540 000|2 540 534|2 497 829|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2540000.0,
+      "value_prior_year": 2540534.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|3<br>Gesamtkapital total|2 540 000|2 540 534|2 497 829|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 18.94,
+      "value_prior_year": 19.46,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote(%)|18,94|19,46|18,69|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 18.94,
+      "value_prior_year": 19.46,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote(%)|18,94|19,46|18,69|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.95,
+      "value_prior_year": 7.48,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14<br>Basel III Leverage Ratio(Kernkapital in % des Gesamtengagements)|7,95|7,48|7,48|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

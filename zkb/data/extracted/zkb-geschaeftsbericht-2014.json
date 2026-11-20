@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "stem": "zkb-geschaeftsbericht-2014",
+    "report_type": "annual",
+    "year": 2014,
+    "period": "FY2014",
+    "part": null,
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-geschaeftsbericht-2014.md",
+    "total_chars": 447476,
+    "total_lines": 5730
+  },
+  "backend": "local",
+  "metrics": {
+    "trading_income": {
+      "value_current": 287.0,
+      "value_prior_year": 340.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolg aus dem Handelsgeschäft||287|340|379|–15,7|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 1200.0,
+      "value_prior_year": 1241.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand||1’200|1’241|1’266<sup>1</sup>|–3,3|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 735.0,
+      "value_prior_year": 877.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bruttogewinn||735|877|856<sup>1</sup>|–16,2|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 647.0,
+      "value_prior_year": 797.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn||647|797|744<sup>1</sup>|–18,8|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 158392.0,
+      "value_prior_year": 149707.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme||158’392|149’707|150’694|5,8|",
+      "chunk_name": "bilanz"
+    },
+    "net_new_money": {
+      "value_current": -2258.0,
+      "value_prior_year": -178.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Netto-Neugeld-Zufluss/-Abfluss (NNM)<sup>3</sup>||–2’258|–178|8’320||",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 4844.0,
+      "value_prior_year": 4818.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Personalbestand teilzeitbereinigt per Stichtag||4’844|4’818|5’068|0,5|",
+      "chunk_name": "bilanz"
+    },
+    "branch_count": {
+      "value_current": 97.0,
+      "value_prior_year": 97.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Geschäftsstellen<sup>4</sup>||97|97|99||",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 15019.0,
+      "value_prior_year": 10764.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden<br>3.1|15’019|10’764|4’255|39,5|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 71389.0,
+      "value_prior_year": 69658.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen<br>3.1|71’389|69’658|1’731|2,5|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 4027.0,
+      "value_prior_year": 3768.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen<br>3.2.2|4’027|3’768|258|6,9|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 45624.0,
+      "value_prior_year": 43992.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen gegenüber Kunden in Spar- und Anlageform|45’624|43’992|1’632|3,7|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 381.0,
+      "value_prior_year": 460.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen<br>3.8.1|381|460|–79|–17,2|",
+      "chunk_name": "bilanz"
+    },
+    "taxes": {
+      "value_current": 0.0,
+      "value_prior_year": 0.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Steuern|0|0|–0|–0|–2|1|1|1|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

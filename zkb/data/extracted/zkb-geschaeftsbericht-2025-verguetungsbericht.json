@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "zkb-geschaeftsbericht-2025-verguetungsbericht",
+    "report_type": "annual",
+    "year": 2025,
+    "period": "FY2025",
+    "part": "verguetungsbericht",
+    "bank_id": "zkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/zkb-geschaeftsbericht-2025-verguetungsbericht.md",
+    "total_chars": 40548,
+    "total_lines": 428
+  },
+  "backend": "local",
+  "metrics": {}
+}

@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "stem": "bekb-offenlegungsbericht-06-2018",
+    "report_type": "offenlegung_h1",
+    "year": 2018,
+    "period": "H1-2018",
+    "part": null,
+    "bank_id": "bekb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/bekb-offenlegungsbericht-06-2018.md",
+    "total_chars": 30737,
+    "total_lines": 551
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 21220985.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|21 220 985||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "financial_investments": {
+      "value_current": 1999184.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|1 999 184||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_assets": {
+      "value_current": 30317693.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**TOTAL AKTIVEN**|**30 317 693**||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "customer_deposits": {
+      "value_current": 21832024.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|21 832 024||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "kassenobligationen": {
+      "value_current": 54314.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|54 314||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 4195000.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|4 195 000||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "reserves_banking_risks": {
+      "value_current": 610796.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|610 796||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 18.62,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|61<br>CET1­Quote(Ziffer 29,in % der risikogewichteten Positionen)|18,62%|18,62%||",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

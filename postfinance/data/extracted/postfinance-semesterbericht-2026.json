@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "stem": "postfinance-semesterbericht-2026",
+    "report_type": "semester",
+    "year": 2026,
+    "period": "H1-2026",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-semesterbericht-2026.md",
+    "total_chars": 50847,
+    "total_lines": 754
+  },
+  "backend": "local",
+  "metrics": {
+    "net_profit": {
+      "value_current": 103.0,
+      "value_prior_year": 110.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Gewinn|Mio. CHF|110|103|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 613.0,
+      "value_prior_year": 649.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag|Mio. CHF|649|613|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 466.0,
+      "value_prior_year": 477.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand|Mio. CHF|477|466|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 106474.0,
+      "value_prior_year": 104376.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme|Mio. CHF|104 376|106 474|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 58470.0,
+      "value_prior_year": 55651.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|Mio. CHF|55 651|58 470|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 93112.0,
+      "value_prior_year": 91346.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|Mio. CHF|91 346|93 112|",
+      "chunk_name": "bilanz"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.6,
+      "value_prior_year": 6.2,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio|%|6,2|6,6|",
+      "chunk_name": "bilanz"
+    },
+    "nsfr_pct": {
+      "value_current": 184.0,
+      "value_prior_year": 195.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Net Stable Funding Ratio|%|195|184|",
+      "chunk_name": "bilanz"
+    },
+    "lcr_pct": {
+      "value_current": 218.0,
+      "value_prior_year": 227.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Liquidity Coverage Ratio|%|227|218|",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 3460.0,
+      "value_prior_year": 3464.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalbestand|Vollzeitstellen|3 464|3 460|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 54.0,
+      "value_prior_year": 41.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|54|41|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 140.0,
+      "value_prior_year": 200.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|140|200|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 103.0,
+      "value_prior_year": 107.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Handelsgeschäft und der Fair-Value-Option**|**103**|**107**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 59.0,
+      "value_prior_year": 50.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Übriger ordentlicher Erfolg**|**59**|**50**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 134.0,
+      "value_prior_year": 113.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Geschäftserfolg**|**134**|**113**|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

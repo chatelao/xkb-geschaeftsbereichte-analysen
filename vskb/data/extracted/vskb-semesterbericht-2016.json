@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "stem": "vskb-semesterbericht-2016",
+    "report_type": "semester",
+    "year": 2016,
+    "period": "H1-2016",
+    "part": null,
+    "bank_id": "vskb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vskb-semesterbericht-2016.md",
+    "total_chars": 9081,
+    "total_lines": 150
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 2436441849.72,
+      "value_prior_year": 2459667424.55,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|2'436'441'849.72|2'459'667'424.55|-23'225'574.83|-0.94%|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 8711198556.54,
+      "value_prior_year": 8450769816.14,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|8'711'198'556.54|8'450'769'816.14|260'428'740.40|3.08%|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 255704045.75,
+      "value_prior_year": 287644168.05,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|255'704'045.75|287'644'168.05|-31'940'122.30|-11.10%|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 8994489562.53,
+      "value_prior_year": 9057655503.69,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|8'994'489'562.53|9'057'655'503.69|-63'165'941.16|-0.70%|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 58311000.0,
+      "value_prior_year": 66036000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|<br>Kassenobligationen|58'311'000.00|66'036'000.00|-7'725'000.00|-11.70%|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 2349000000.0,
+      "value_prior_year": 2090000000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|2'349'000'000.00|2'090'000'000.00|259'000'000.00|12.39%|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 444400287.15,
+      "value_prior_year": 428400287.15,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|444'400'287.15|428'400'287.15|16'000'000.00|3.73%|",
+      "chunk_name": "bilanz"
+    },
+    "personnel_expenses": {
+      "value_current": -33936564.5,
+      "value_prior_year": -31962629.39,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|-33'936'564.50|-31'962'629.39|-1'973'935.11||",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -19914752.18,
+      "value_prior_year": -19215930.64,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|-19'914'752.18|-19'215'930.64|-698'821.54||",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -7404038.95,
+      "value_prior_year": -8542547.14,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Steuern|-7'404'038.95|-8'542'547.14|1'138'508.19||",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

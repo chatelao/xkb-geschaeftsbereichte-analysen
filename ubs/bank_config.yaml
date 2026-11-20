@@ -1,0 +1,53 @@
+bank_id: "ubs"
+short_name: "UBS"
+full_name: "UBS Group AG"
+peer_group: "g_sib"
+canton_or_hq: "Zürich"
+legal_form: "listed_ag"
+listed: true
+ticker: "UBSG"
+state_guarantee: false
+has_credit_ban: false
+finma_category: 1
+reporting_scope: "consolidated"
+accounting_standard: "IFRS"
+reporting_currency: "USD"
+primary_languages: ["en"]
+file_prefix: "ubs"
+
+capital_targets_pct:
+  cet1_target: 14.0
+  total_capital_target: 18.0
+  tlac_target: 28.6
+  leverage_min: 5.0
+  lcr_min: 100.0
+  nsfr_min: 100.0
+
+share_splits: []
+
+report_05_mode: "listed_share"
+report_05_slug: "05_aktie_dividenden_und_wertschoepfung"
+
+palette:
+  primary: "#E60000"
+  secondary: "#0F172A"
+  accent: "#0F766E"
+  muted: "#64748B"
+
+plausibility_bounds_chf_mio:
+  total_assets_min: 800000
+  total_assets_max: 2000000
+
+epochs:
+  - {label: "Epoche 1", start: 2020, end: 2022, title: "Globale Wealth-Management-Konsolidierung"}
+  - {label: "Epoche 2", start: 2023, end: 2025, title: "Credit-Suisse-Übernahme, Integration & Basel III final"}
+
+structural_breaks:
+  - {year: 2023, label: "Akquisition Credit Suisse (Negative Goodwill USD 27,7 Mrd. als Einmaleffekt)"}
+  - {year: 2025, label: "Basel III final & G-SIB-Kapitalanforderungen"}
+
+chunk_anchors:
+  bilanz:
+    - "\\|Total assets\\|\\*\\*"
+  erfolgsrechnung:
+    - "\\|Total (?:operating income|revenues)\\|\\*\\*|\\|Net\\s*profit\\s*(?:/\\s*\\(?loss\\)?\\s*)?attributable to shareholders\\|\\*\\*"

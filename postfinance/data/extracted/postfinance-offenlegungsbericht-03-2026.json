@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "stem": "postfinance-offenlegungsbericht-03-2026",
+    "report_type": "offenlegung_q1",
+    "year": 2026,
+    "period": "Q1-2026",
+    "part": null,
+    "bank_id": "postfinance",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/postfinance-offenlegungsbericht-03-2026.md",
+    "total_chars": 10867,
+    "total_lines": 156
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 6358.0,
+      "value_prior_year": 6322.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|6 358|6 322|6 237|6 205|6 173|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 7026.0,
+      "value_prior_year": 6990.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (Tier 1)|7 026|6 990|6 679|6 647|6 615|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 7047.0,
+      "value_prior_year": 7010.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3<br>Gesamtkapital total (T1 + T2)<sup>2</sup>|7 047|7 010|6 700|6 667|6 636|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 24.84,
+      "value_prior_year": 25.34,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote|24,84%|25,34%|25,11%|25,01%|24,54%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 27.53,
+      "value_prior_year": 28.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote|27,53%|28,10%|26,98%|26,87%|26,38%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

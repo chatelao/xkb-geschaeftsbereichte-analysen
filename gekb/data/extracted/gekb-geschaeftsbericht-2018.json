@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "stem": "gekb-geschaeftsbericht-2018",
+    "report_type": "annual",
+    "year": 2018,
+    "period": "FY2018",
+    "part": null,
+    "bank_id": "gekb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/gekb-geschaeftsbericht-2018.md",
+    "total_chars": 374544,
+    "total_lines": 5646
+  },
+  "backend": "local",
+  "metrics": {
+    "total_operating_expenses": {
+      "value_current": 232025.0,
+      "value_prior_year": 222735.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Charges d’exploitation|232’025|222’735|9’290|4.2%|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 161317.0,
+      "value_prior_year": 128299.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat opérationnel|161’317|128’299|33’018|25.7%|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 91159.0,
+      "value_prior_year": 81604.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bénéfice net|91’159|81’604|9’555|11.7%|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 23033833.0,
+      "value_prior_year": 22671315.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total du bilan|23’033’833|22’671’315|362’518|1.6%|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 11387669.0,
+      "value_prior_year": 10985361.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires|11’387’669|10’985’361|402’308|3.7%|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 1569922.0,
+      "value_prior_year": 1472199.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Fondspropres|1’569’922|1’472’199|97’723|6.6%|",
+      "chunk_name": "bilanz"
+    },
+    "customer_loans_other": {
+      "value_current": 5215130.0,
+      "value_prior_year": 4706766.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle|5.23|5’215’130|4’706’766|508’364|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1883422.0,
+      "value_prior_year": 1749983.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|5.05|1’883’422|1’749’983|133’439|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 5.23,
+      "value_prior_year": 14644276.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Engagements résultant des dépôts de la clientèle|5.23|14’644’276|14’548’789|95’487|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 5.23,
+      "value_prior_year": 2540.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|5.23|2’540|4’043|–1’503|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 247.0,
+      "value_prior_year": 210.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat net des opérations d’intérêts|247|210|206|198|206|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "trading_income": {
+      "value_current": 29.0,
+      "value_prior_year": 30.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat des opérations de négoce|29|30|26|28|27|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 16.0,
+      "value_prior_year": 19.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Autres résultats ordinaires|16|19|17|20|19|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 409.0,
+      "value_prior_year": 366.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total desproduits d’exploitation|409|366|349|347|360|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

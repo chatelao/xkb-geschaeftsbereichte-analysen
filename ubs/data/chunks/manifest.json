@@ -1,0 +1,380 @@
+{
+  "bank_id": "ubs",
+  "total_reports": 14,
+  "reports": [
+    {
+      "stem": "ubs-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 7236,
+          "approx_tokens": 1809
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "aktie_basisdaten": {
+          "chars": 6477,
+          "approx_tokens": 1619
+        },
+        "betreute_vermoegen": {
+          "chars": 7257,
+          "approx_tokens": 1814
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7073,
+          "approx_tokens": 1768
+        }
+      }
+    },
+    {
+      "stem": "ubs-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 7275,
+          "approx_tokens": 1818
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "aktie_basisdaten": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "betreute_vermoegen": {
+          "chars": 6635,
+          "approx_tokens": 1658
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7031,
+          "approx_tokens": 1757
+        }
+      }
+    },
+    {
+      "stem": "ubs-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 6561,
+          "approx_tokens": 1640
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "aktie_basisdaten": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "betreute_vermoegen": {
+          "chars": 5025,
+          "approx_tokens": 1256
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7114,
+          "approx_tokens": 1778
+        }
+      }
+    },
+    {
+      "stem": "ubs-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "aktie_basisdaten": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "betreute_vermoegen": {
+          "chars": 3526,
+          "approx_tokens": 881
+        },
+        "verguetung": {
+          "chars": 4431,
+          "approx_tokens": 1107
+        },
+        "lagebericht_strategie": {
+          "chars": 7130,
+          "approx_tokens": 1782
+        }
+      }
+    },
+    {
+      "stem": "ubs-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 8948,
+          "approx_tokens": 2237
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "aktie_basisdaten": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "betreute_vermoegen": {
+          "chars": 4265,
+          "approx_tokens": 1066
+        },
+        "verguetung": {
+          "chars": 5044,
+          "approx_tokens": 1261
+        },
+        "lagebericht_strategie": {
+          "chars": 7232,
+          "approx_tokens": 1808
+        }
+      }
+    },
+    {
+      "stem": "ubs-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 8277,
+          "approx_tokens": 2069
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "aktie_basisdaten": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "betreute_vermoegen": {
+          "chars": 4380,
+          "approx_tokens": 1095
+        },
+        "verguetung": {
+          "chars": 5375,
+          "approx_tokens": 1343
+        },
+        "lagebericht_strategie": {
+          "chars": 7189,
+          "approx_tokens": 1797
+        }
+      }
+    },
+    {
+      "stem": "ubs-offenlegungsbericht-06-2023",
+      "report_type": "offenlegung_h1",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4443,
+          "approx_tokens": 1110
+        }
+      }
+    },
+    {
+      "stem": "ubs-offenlegungsbericht-06-2025",
+      "report_type": "offenlegung_h1",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4633,
+          "approx_tokens": 1158
+        }
+      }
+    },
+    {
+      "stem": "ubs-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "ubs-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "ubs-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7735,
+          "approx_tokens": 1933
+        },
+        "erfolgsrechnung": {
+          "chars": 7499,
+          "approx_tokens": 1874
+        },
+        "lagebericht_strategie": {
+          "chars": 5688,
+          "approx_tokens": 1422
+        }
+      }
+    },
+    {
+      "stem": "ubs-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 9119,
+          "approx_tokens": 2279
+        },
+        "lagebericht_strategie": {
+          "chars": 6589,
+          "approx_tokens": 1647
+        }
+      }
+    },
+    {
+      "stem": "ubs-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7183,
+          "approx_tokens": 1795
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 8558,
+          "approx_tokens": 2139
+        }
+      }
+    },
+    {
+      "stem": "ubs-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5719,
+          "approx_tokens": 1429
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 6120,
+          "approx_tokens": 1530
+        }
+      }
+    }
+  ]
+}
