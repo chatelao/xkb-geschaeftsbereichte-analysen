@@ -1,0 +1,527 @@
+[
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2011.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2011/2011-geschaeftsbericht-finanzbericht-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 2116653,
+    "sha256": "7daff682578a55cfc14f734050236ab815ca1c6cc4951cd4060616680bb6d7a6"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2012.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2012/2012-publikation-geschaeftsbericht-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 1079124,
+    "sha256": "995269fe089c33630bb9802293bcb98c636aaf32416ce8d063b39bfd550defdf"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2013.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2013/2013-geschaeftsbericht-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 1765653,
+    "sha256": "819181233c60b9bd2aa84da25df7e7431335583121135ad32ac2c1011cb5f3fe"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2014.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2014/2014-geschaeftsbericht-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 2273561,
+    "sha256": "ef4f8b06e18ddae9d75521670179508cc521478df0e53eb6062a61f33f06d4d3"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2015.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2015/2015-geschaeftsbericht-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 1958882,
+    "sha256": "21bb51e1dc2205019136fca17664b616013e1c35782648c4ee83d1b7e66375e9"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2016.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2016/2016-geschaeftsbericht-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 4589499,
+    "sha256": "ac55a51ab3f93323acbb2d74c0b4f97f0343e0069bed7cb14f450481f9083a90"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2017.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2017/2017-geschaeftsbericht-raiffeisen-gruppe-raiffeisen-schweiz.pdf.pdf",
+    "status": "downloaded",
+    "bytes": 4140928,
+    "sha256": "b4fddfe629238d1982b660db0df0265218d4817f26a1671dbdab644f54a194d6"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2018.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2018/2018-geschaeftsbericht-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 12386952,
+    "sha256": "002f6a3b91099a4126941934436a8333a8f2672d2bbf091bd29b06341b779ed3"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2019.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2019/2019-geschaeftsbericht-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 4612991,
+    "sha256": "549948573db818b0a09c216a9b838b5d91482e92e8540bcfd09f5b3161360ba2"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2020.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2020/2020-raiffeisen-gruppe-geschaeftsbericht.pdf",
+    "status": "downloaded",
+    "bytes": 2717220,
+    "sha256": "568dd3b68d0364b2ea2be2d593d63aa4ef639805c48ba5ae3ee4b45a176eedaa"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2021.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/ueber-uns/medien/medienmitteilungen/2022/de/geschaeftsbericht-2021-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 5517882,
+    "sha256": "fe587f57f2e67a4f8fcd76c21bfc3bf4baef07ab7ebe83a24e618ded63975303"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2022.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2022/raiffeisen-gruppe-geschaeftsbericht-2022.pdf",
+    "status": "downloaded",
+    "bytes": 4554511,
+    "sha256": "243c2a34500e23b5fe458cb8f66814903d40bfab7094df2a022c1cb68aee8a55"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2023.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2023/geschaeftsbericht-2023-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 4342266,
+    "sha256": "11a6ffea6bad282ee89ea3461f4d2a5355ff2fc5abb744f666367e13b2a03863"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2024.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/ueber-uns/geschaeftsbericht/2024/geschaeftsbericht-2024-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 4215599,
+    "sha256": "e309997c10f09ff99c96351b162a2b11f7810efe842d22ac55e1b9fc83c88a5c"
+  },
+  {
+    "filename": "raiffeisen-geschaeftsbericht-2025.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/ueber-uns/raiffeisen-gruppe/geschaeftsberichte/2025/geschaeftsbericht-2025-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 5640530,
+    "sha256": "460b39dc5c4d2802abbdb1138c14b1457acf356fa9d1849692e7741a4094bce0"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2016.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2016/offenlegungsreport-31-03-2016.pdf",
+    "status": "downloaded",
+    "bytes": 28858,
+    "sha256": "a38a36d559f9194a48974dd1fa8498923cf41e9b6288d5c1d1be7b1684394c79"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2017.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2017/offenlegung-systemrelevanz-31-03-2017.pdf",
+    "status": "downloaded",
+    "bytes": 244527,
+    "sha256": "64c350e46a4a356edd3f901e7146f08e6776c1c3174743cbc7d54218adb46447"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2018.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2018/em-offenlegung-q1-2018.pdf",
+    "status": "downloaded",
+    "bytes": 147373,
+    "sha256": "2e52811c176444103a013a9e5f1e01874c5a3cb0d6f1d8d50e06c39ec8a7bfa6"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2019.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2019/em-offenlegung-q1-2019.pdf",
+    "status": "downloaded",
+    "bytes": 131050,
+    "sha256": "4c086ffa1630f37f28fb556313fee557823bdbd66a0f8a5aecbb1dbe52714710"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2020.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2020/em-offenlegung-q1-2020.pdf",
+    "status": "downloaded",
+    "bytes": 96713,
+    "sha256": "9a0a6546c2eadaae92c58a57a5b016420085e28873e9c1e1e5febf72e2a682e0"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2021.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2021/em-offenlegung-q1-2021.pdf",
+    "status": "downloaded",
+    "bytes": 146660,
+    "sha256": "9ae929e71898e4ff5c5b9fa3388e4ef157b51ebe0d10cc3b91cf1924f3562cfd"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2022.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2022/em-offenlegung-q1-2022.pdf",
+    "status": "downloaded",
+    "bytes": 102417,
+    "sha256": "2e2a98dcfff1bbcf94f070d00da15d97edb60d9b5210d4c801c132761ac15427"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2023.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2023/em-offenlegung-q1-2023.pdf",
+    "status": "downloaded",
+    "bytes": 93042,
+    "sha256": "234f4d46bb3b9f2cab61053f8e51fbe6ff678fdc38288b0961481247eb51839c"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2024.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2024/raiffeisen-gruppe-aufsichtsrechtliche-offenlegung-31032024.pdf",
+    "status": "downloaded",
+    "bytes": 85528,
+    "sha256": "681ac809ea7e8dfcb50899dc66ea1f8aa4f16939b8f6e5723041af4b2b682762"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2025.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/ueber-uns/geschaeftsbericht/2025/aufsichtsrechtliche-offenlegung-31032025-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 119455,
+    "sha256": "b2b118677140b5a90d9d946f08455a4600916dccdacf6eae830ce1c0d3263d45"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-03-2026.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/ueber-uns/raiffeisen-gruppe/geschaeftsberichte/2026/aufsichtsrechtliche-offenlegung-31032026-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 522466,
+    "sha256": "4f7841d0d5505743b20194acff543f72b0edc6de47b537b51f9f6559a18c3a22"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2015.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2015/offenlegungsreport-30-06-2015.pdf",
+    "status": "downloaded",
+    "bytes": 133531,
+    "sha256": "edcb627427690e20e09923c83980c2bd33ac70c3c2c6345a21165a02eb2491be"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2016.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2016/kapitaladaequanz-systemrelevanz-gruppe-30-06-2016.pdf",
+    "status": "downloaded",
+    "bytes": 31085,
+    "sha256": "011d2429c5332b95351538c369de5205cc2f2fed030bef2c175168d579d8872b"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2017.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2017/offenlegung-systemrelevanz-30-06-2017.pdf",
+    "status": "downloaded",
+    "bytes": 95039,
+    "sha256": "60183aa5a347c6104a483c4ce3286c5d7862fe963ab5c6eec282b1e5ad8b5d4f"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2018.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2018/em-offenlegung-q2-2018.pdf",
+    "status": "downloaded",
+    "bytes": 335233,
+    "sha256": "a2ef5cb33ce9db02954a34ab7bd766b1c87cd16597aeb99988b79662f9f49b19"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2019.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2019/em-offenlegung-q2-2019.pdf",
+    "status": "downloaded",
+    "bytes": 526616,
+    "sha256": "52e042241078ab66e76c520254e1ef484de46c719061dc3cb77063fcba5cde82"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2020.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2020/em-offenlegung-q2-2020.pdf",
+    "status": "downloaded",
+    "bytes": 217857,
+    "sha256": "cdda9c199008ec6a2b9b4345b85c58b7cf6e40aaf18c9690300caa8ff88a4bb9"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2021.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2021/em-offenlegung-q2-2021.pdf",
+    "status": "downloaded",
+    "bytes": 366069,
+    "sha256": "0f50acea4e6474f5947caacc7cfda93b6042d6a2d98c81170a0708bbe1c845cb"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2022.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2022/em-offenlegung-q2-2022.pdf",
+    "status": "downloaded",
+    "bytes": 297778,
+    "sha256": "64840b1d91b61f717685edd351fe2517d0d2890ea7d140829a2a6ce7f6711efc"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2023.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2023/em-offenlegung-q2-2023.pdf",
+    "status": "downloaded",
+    "bytes": 314966,
+    "sha256": "4d313b12b0437505e0392ca79f065a9079e9d878f8072f43c21758a69e7cffe7"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2024.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2024/aufsichtsrechtliche-offenlegung-per-30-06-2024-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 484737,
+    "sha256": "fb4707aa388045cc85c2ce77d1c7adf908268542eca65ca194265ee5fb60ca56"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2025.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/ueber-uns/geschaeftsbericht/2025/aufsichtsrechtliche-offenlegung-30062025-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 993522,
+    "sha256": "57b63969339681d7733656a8394eb8c6d9f730f4f25b545ec7630be79b80f745"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-06-2026.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/ueber-uns/raiffeisen-gruppe/geschaeftsberichte/2026/aufsichtsrechtliche-offenlegung-30062026-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 1323916,
+    "sha256": "3cb674bacfd58bbe0cc3c7f74ed4bb656e97f7db52b51e7d104f67252aa437d0"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2015.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2015/offenlegungsreport-30-09-2015.pdf",
+    "status": "downloaded",
+    "bytes": 28791,
+    "sha256": "b813a8fbf60b23c9c1a639228a2d85d99e4a3f393f9ab83b3f940ba8db695a1b"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2016.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2016/offenlegung-eigenmittel-30-09-2016.pdf",
+    "status": "downloaded",
+    "bytes": 35300,
+    "sha256": "917a7198c5fa1c07a205fe72ec4a27cfe30f65ba0a89ba68282f150fd8418939"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2017.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2017/offenlegung-systemrelevanz-30-09-2017.pdf",
+    "status": "downloaded",
+    "bytes": 99299,
+    "sha256": "ba2f848c552ad2519eb8ec9222a811e675879690d475afee312aaa6dbe9b5659"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2018.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2018/em-offenlegung-q3-2018.pdf",
+    "status": "downloaded",
+    "bytes": 177812,
+    "sha256": "6ea664fc3e73be83b56af1c6e6d32fbac659bc81eb55d93afa37d9681d58fb14"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2019.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2019/em-offenlegung-q3-2019.pdf",
+    "status": "downloaded",
+    "bytes": 246179,
+    "sha256": "9d1f9131411b437240a8e92fcc2d894f94a4b2ddedf256db5320963af07ed7bf"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2020.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2020/em-offenlegung-q3-2020.pdf",
+    "status": "downloaded",
+    "bytes": 104911,
+    "sha256": "5f25e7af18db4b863f86f71b840dfe2259ec823d1d28f2c0b06cadca090f592e"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2021.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2021/em-offenlegung-q3-2021.pdf",
+    "status": "downloaded",
+    "bytes": 134206,
+    "sha256": "92929df57c9340f840da2f81f74d89c8a47c7f43529a5f6111f24b6306c00f52"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2022.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2022/em-offenlegung-q3-2022.pdf",
+    "status": "downloaded",
+    "bytes": 123911,
+    "sha256": "201288eabe9f0e0cf44436babcb1544944c77ce76ce723097dd7c04ce561ebef"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2023.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2023/em-offenlegung-q3-2023.pdf",
+    "status": "downloaded",
+    "bytes": 85994,
+    "sha256": "b1463edfcace811b5f412d056aef4f29a92d699bcdf472f6f884c9d2fee99c0a"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2024.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2024/raiffeisen-gruppe-aufsichtsrechtliche-offenlegung-30-09-2024.pdf",
+    "status": "downloaded",
+    "bytes": 86088,
+    "sha256": "dab023fbd4a2d7d67241433138cf34dd35e871901a96a3f07d96200ad85e4d51"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-09-2025.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/ueber-uns/geschaeftsbericht/2025/aufsichtsrechtliche-offenlegung-30092025-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 486507,
+    "sha256": "500a329a474c53b27b3db90c141d62338b01fe97763284bd14beae5d1a426743"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2015.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2015/offenlegungsreport-31-12-2015.pdf",
+    "status": "downloaded",
+    "bytes": 58628,
+    "sha256": "a6e1ea88ea417fb91f47a406688a52f53320d558aa11ae97ca341c6d214bb864"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2016.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2016/kapitaladaequanz-systemrelevanz-gruppe-31-12-2016.pdf",
+    "status": "downloaded",
+    "bytes": 397604,
+    "sha256": "48bc704df0dc2e752ee92854dc38c704693e5e275b9aa501b506007f18ac73d7"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2017.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2017/offenlegung-systemrelevanz-31-12-2017.pdf",
+    "status": "downloaded",
+    "bytes": 91858,
+    "sha256": "7b1248c86a07fac5977b3aaa15853d8acb51b458ca6ff141c4764ddec0efe8fa"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2018.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2018/em-offenlegung-q4-2018.pdf",
+    "status": "downloaded",
+    "bytes": 580270,
+    "sha256": "8d50a69e5f6281e89c5dbd486229609e66ec8ab11e4821de8cf06973d73c2fbf"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2019.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2019/em-offenlegung-q4-2019.pdf",
+    "status": "downloaded",
+    "bytes": 795999,
+    "sha256": "9ac5d2a638feac1571284665decea02a4e3ee66e49d21fda7c1e383dba0e135a"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2020.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2020/em-offenlegung-q4-2020.pdf",
+    "status": "downloaded",
+    "bytes": 438983,
+    "sha256": "c48237040ef3fc309331b6ec8f5b46fa53d39f0275af760b5b4968efc763321c"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2021.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/ueber-uns/medien/medienmitteilungen/2022/de/aufsichtsrechtliche-offenlegung-q4-2021.pdf",
+    "status": "downloaded",
+    "bytes": 672643,
+    "sha256": "cef36859d7a830afd95a634c877cc6238ad8628a26832c17d2ec59af14019e5b"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2022.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2022/em-offenlegung-q4-2022.pdf",
+    "status": "downloaded",
+    "bytes": 738217,
+    "sha256": "0bea987f8ba6d428cba94d092f16471109389e83f9a9b6dfe805889ed4936059"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2023.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/mittel-risiko-haftung/de/2023/raiffeisen-gruppe-aufsichtsrechtliche-offenlegung-2023.pdf",
+    "status": "downloaded",
+    "bytes": 759028,
+    "sha256": "59db75b29d6780c8479ab5c8948671ead41a2d578f365922a7bf8b0660d33562"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2024.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/ueber-uns/geschaeftsbericht/2024/aufsichtsrechtliche-offenlegung-2024-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 1181842,
+    "sha256": "0f384e1d819ab6af0a9842e5e5d1f4495c3cba1b22a19e9cade312fe44b8ee21"
+  },
+  {
+    "filename": "raiffeisen-offenlegungsbericht-2025.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/ueber-uns/raiffeisen-gruppe/geschaeftsberichte/2025/aufsichtsrechtliche-offenlegung-2025-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 2011203,
+    "sha256": "e1ab6c3aed4873be70390d49440bab092a29522d93cf007cab6d1c5e27b786b5"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2012.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2012/2012-zwischenabschluss-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 1118377,
+    "sha256": "d15812102b92c1a914a2558ba09fbe53d8354e6b4de23436a73ab984e3163eff"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2013.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2013/2013-zwischenabschluss-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 2270527,
+    "sha256": "ee0c894a1852d0bf9f6a76937876d56889e80b036b0ca356b4327d42b7e07ad0"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2014.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2014/2014-zwischenabschluss-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 694393,
+    "sha256": "77b6b1d40cad3cffd050f067d49a44259a4a9595f032560ca657c0791e5b401d"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2015.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2015/2015-zwischenabschluss-raiffeisen-gruppe.pdf",
+    "status": "downloaded",
+    "bytes": 138070,
+    "sha256": "da29dc891cd29a3504a38e09673850520ec02b45052f977d2f747e4e1f37a723"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2016.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2016/raiffeisen-zwischenabschluss-2016-de.pdf",
+    "status": "downloaded",
+    "bytes": 1059761,
+    "sha256": "fc55637556c9f836d90fdb22cfc7ce01580503f3a7f5bba557ee47b498215475"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2017.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2017/raiffeisen-zwischenabschluss-2017.pdf",
+    "status": "downloaded",
+    "bytes": 1098930,
+    "sha256": "3a3afc1c43676cb86183a5e9f69f9c09ac19ba669e1092c5f8e2a5acb42278a4"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2018.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2018/zwischenabschluss-raiffeisen-gruppe-2018.pdf",
+    "status": "downloaded",
+    "bytes": 1032494,
+    "sha256": "bc2f316654c06c59603c2743dc9b79edf8a2c419a2cecce1b8f8bf630d723534"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2019.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2019/zwischenabschluss-raiffeisen-gruppe-2019.pdf",
+    "status": "downloaded",
+    "bytes": 904259,
+    "sha256": "e5d99a9cb3365d5fd1474404927822a7b0a2fa407d7d7f6c316c078d2ba399a0"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2020.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2020/zwischenabschluss-raiffeisen-gruppe-2020.pdf",
+    "status": "downloaded",
+    "bytes": 803523,
+    "sha256": "4bbcfd51ccbd61064d5e60d3c8dd6b2f7bf0ae9ab0ed2ff11a65d3ac5db3ba9f"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2021.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2021/zwischenabschluss-raiffeisen-gruppe-2021.pdf",
+    "status": "downloaded",
+    "bytes": 248814,
+    "sha256": "8c9189abceb0af3be57199390567dd95dbebbd8caa831a0b48366af509552a26"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2022.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2022/zwischenabschluss-raiffeisen-gruppe-2022.pdf",
+    "status": "downloaded",
+    "bytes": 267561,
+    "sha256": "6d5c0036b2814e38082b09789d2913885661ffffa89a41239e03afdfaadb59ad"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2023.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2023/raiffeisen-gruppe-zwischenabschluss-2023.pdf",
+    "status": "downloaded",
+    "bytes": 421181,
+    "sha256": "d46ab5e8ca418ffcc78f5169caf3f59aa157a9355723aa0d269976a4033b3c47"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2024.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2024/20240630-raiffeisen-gruppe-zwischenabschluss-2024-de.pdf",
+    "status": "downloaded",
+    "bytes": 322103,
+    "sha256": "40b0eb557056b32b7b29650e333ce526e8a1cba86ceade2b04d46365b3627ab1"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2025.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2025/20250630-raiffeisen-gruppe-zwischenbericht-2025-de.pdf",
+    "status": "downloaded",
+    "bytes": 528384,
+    "sha256": "b618e1f81e9e52557331e97008d7e16506d34bed63956ee0494c82fd4b3bcaa6"
+  },
+  {
+    "filename": "raiffeisen-semesterbericht-2026.pdf",
+    "url": "https://www.raiffeisen.ch/content/dam/www/rch/pdf/abschlusszahlen/de/2026/20260630-raiffeisen-gruppe-zwischenbericht-2026-de.pdf",
+    "status": "downloaded",
+    "bytes": 496993,
+    "sha256": "d716c9c8efa8f512b78c0d41832853407563892b7cf55b50c72fe52f1fd5b19f"
+  }
+]

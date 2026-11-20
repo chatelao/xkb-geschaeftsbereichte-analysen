@@ -1,4 +1,4 @@
-# Master-Umsetzungsplan: XKB Geschäftsberichte Analysen (ZKB, GEKB, VSKB, BCV)
+# Master-Umsetzungsplan: XKB Geschäftsberichte Analysen (ZKB, GEKB, VSKB, BCV, Raiffeisen, PostFinance, UBS)
 
 > **Auftraggeber / Referenz:** Analog zu [`chatelao/bekb-geschaeftsbereichte-analysen`](https://github.com/chatelao/bekb-geschaeftsbereichte-analysen)
 > **Ausführungsmodell:** Optimiert für die schrittweise, deterministisch verifizierbare Umsetzung durch **Gemini Hydrogen** (z. B. `gemini-2.5-flash-lite` bzw. Hydrogen-Agent-Tier).
@@ -6,16 +6,19 @@
 
 ---
 
-## 1. Zielsetzung & Abdeckung der vier Kantonalbanken
+## 1. Zielsetzung & Abdeckung der sieben Banken
 
-Dieses Repository erweitert die bewährte vierstufige **«Hydrogen-First» Map-Validate-Reduce-Pipeline** der BEKB-Analyse auf **vier weitere Schweizer Kantonalbanken** – jeweils in einem eigenen Unterverzeichnis, gespeist von einer **gemeinsamen, getesteten Python-Kernbibliothek (`shared/`)** sowie abgerundet durch ein **Cross-Bank-Benchmarking (`comparison/`)** und ein **gemeinsames MkDocs-/Read-the-Docs- & GitHub-Pages-Portal**.
+Dieses Repository erweitert die bewährte vierstufige **«Hydrogen-First» Map-Validate-Reduce-Pipeline** der BEKB-Analyse auf **sieben Schweizer Banken** (vier Kantonalbanken + Raiffeisen, PostFinance und UBS) – jeweils in einem eigenen Unterverzeichnis, gespeist von einer **gemeinsamen, getesteten Python-Kernbibliothek (`shared/`)** sowie abgerundet durch ein **Cross-Bank-Benchmarking (`comparison/`)** und ein **gemeinsames MkDocs-/Read-the-Docs- & GitHub-Pages-Portal**.
 
-| Ordner | Kürzel | Offizieller Name | Kanton | Rechtsform & Börse | Staatsgarantie | FINMA-Kat. | Abschluss-Scope | Berichts-Sprachen |
+| Ordner | Kürzel | Offizieller Name | Kanton / Sitz | Rechtsform & Börse | Staatsgarantie | FINMA-Kat. | Abschluss-Scope | Berichts-Sprachen |
 | :--- | :---: | :--- | :---: | :--- | :---: | :---: | :---: | :--- |
 | [`zkb/`](./zkb/ANALYSE_STRATEGIE.md) | **ZKB** | Zürcher Kantonalbank | ZH | Öffentlich-rechtliche Anstalt (100 % Kanton ZH, **nicht kotiert**) | Voll (exkl. nachrangig) | **Kat. 2 (D-SIB / TBTF)** | **Konzern** | DE (EN) |
-| [`gekb/`](./gekb/ANALYSE_STRATEGIE.md) | **GEKB / BCGE** | Banque Cantonale de Genève | GE | Öffentlich-rechtliche AG (SIX: `BCGE`; ~72,6 % öff. Hand: Kt. ~44,3 %, Stadt ~20,9 %, Gem. ~7,4 %) | **Keine** (abgeschafft) | Kat. 3 | **Konzern** | **FR** (teils EN/DE) |
+| [`gekb/`](./gekb/ANALYSE_STRATEGIE.md) | **GEKB / BCGE** | Banque Cantonale de Genève | GE | Öffentlich-rechtliche AG (SIX: `BCGE`; ~72,6 % öff. Hand) | **Keine** (abgeschafft) | Kat. 3 | **Konzern** | **FR** (teils EN/DE) |
 | [`vskb/`](./vskb/ANALYSE_STRATEGIE.md) | **VSKB / WKB** | Walliser Kantonalbank (BCVs) | VS | Öffentlich-rechtliche AG (SIX: `WKB`; 70 % Kanton VS) | Voll | Kat. 3 | **Einzelabschluss** | **DE** & FR |
 | [`bcv/`](./bcv/ANALYSE_STRATEGIE.md) | **BCV** | Banque Cantonale Vaudoise | VD | Öffentlich-rechtliche AG (SIX: `BCVN`; ~66,95 % Kanton VD) | **Keine** | Kat. 3 | **Konzern** | **FR** & EN |
+| [`raiffeisen/`](./raiffeisen/ANALYSE_STRATEGIE.md) | **Raiffeisen** | Raiffeisen Gruppe Schweiz | SG | Genossenschaftsverbund (**nicht kotiert**) | **Keine** | **Kat. 2 (D-SIB / TBTF)** | **Konzern** | **DE** (FR/IT) |
+| [`postfinance/`](./postfinance/ANALYSE_STRATEGIE.md) | **PostFinance** | PostFinance AG | BE | AG (100 % Die Schweizerische Post AG, **nicht kotiert**) | **Keine** | **Kat. 2 (D-SIB / TBTF)** | **Einzelabschluss** | **DE** (FR/IT/EN) |
+| [`ubs/`](./ubs/ANALYSE_STRATEGIE.md) | **UBS** | UBS Group AG | ZH | Publikums-AG (SIX: `UBSG`, NYSE: `UBS`) | **Keine** | **Kat. 1 (G-SIB / TBTF)** | **Konzern (USD)** | **EN** (teils DE) |
 
 ### Ziel-Berichtszeitraum (analog BEKB)
 - **Geschäftsberichte (`annual`):** Ideal `2003–2025` (mindestens lückenlos ab ältestem öffentlich über Website, `vskb.ch` oder Wayback Machine verfügbarem Jahrgang; Ziel: ≥ 15–23 Jahre).

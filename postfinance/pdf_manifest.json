@@ -1,0 +1,422 @@
+[
+  {
+    "filename": "postfinance-geschaeftsbericht-2013.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2013_de.pdf",
+    "status": "downloaded",
+    "bytes": 3281732,
+    "sha256": "46ff7cd8595938180fb1bdf10f657b8513365f9235b706420ce0705044ba6233"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2014.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2014_de.pdf",
+    "status": "downloaded",
+    "bytes": 2343453,
+    "sha256": "654349fa4174457cb0963e4d503338f0f70aad76d915fd56acb848c65dfc0945"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2015.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2015_de.pdf",
+    "status": "downloaded",
+    "bytes": 4304660,
+    "sha256": "ef33bdbd129b06e7266730f0074efc0352e029e61521341c3d77772adc54d784"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2016.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2016_de.pdf",
+    "status": "downloaded",
+    "bytes": 3608009,
+    "sha256": "504f55a204022a78238ddf1f1aef893ee583301a53307cc49cde06c92847e40f"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2017.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2017_de.pdf",
+    "status": "downloaded",
+    "bytes": 3894741,
+    "sha256": "0a3c38c00e7625a935a1e8a52e1151b98b63f92b9e9005e5dc24896c087ba14e"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2018.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2018_de.pdf",
+    "status": "downloaded",
+    "bytes": 4805769,
+    "sha256": "c4a2c916145ce86f072c40007d99e1b92d0f30c3301f242eec75f7f5ce22de25"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2019.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2019_de.pdf",
+    "status": "downloaded",
+    "bytes": 2669298,
+    "sha256": "8a0e8815170634e4648e330c450f509128eb2e37959b31c9dfda37760ed3292f"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2020.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2020_de.pdf",
+    "status": "downloaded",
+    "bytes": 2762735,
+    "sha256": "076757a4fd904a39e32e9765d278484a1975b9b250674f701aa58fc2ecdb452e"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2021.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2021_de.pdf",
+    "status": "downloaded",
+    "bytes": 6746878,
+    "sha256": "6599a66b86e5c538e76a779f8e29cdba40ef1f6f4180f1dff9cfbee74e07f835"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2022.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2022_de.pdf",
+    "status": "downloaded",
+    "bytes": 4436517,
+    "sha256": "be41cc1191202e8c639b5574cf9b0a8fded331cbb9d863101f030e6172031148"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2023.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2023_de.pdf",
+    "status": "downloaded",
+    "bytes": 2906467,
+    "sha256": "0f26f015254d5db96167d644b8cc1be3ea4714affdb021ab2f732d7023627996"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2024.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2024_de.pdf",
+    "status": "downloaded",
+    "bytes": 1992019,
+    "sha256": "9adaef3d0817d233c462d19901a4a1cdbde8276d2e4c50880d96efeadc59abc4"
+  },
+  {
+    "filename": "postfinance-geschaeftsbericht-2025.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_2025_de.pdf",
+    "status": "downloaded",
+    "bytes": 7108652,
+    "sha256": "e9e15f568f604b9e04584317957e41d08db2dbdea489d2bb6a07d5f24f72fa43"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-03-2017.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_mar_2017_de.pdf",
+    "status": "downloaded",
+    "bytes": 99267,
+    "sha256": "ffdd26df6b36eecff294982f1c0f5b6e69797930ba388d8395df3fff8d036230"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-03-2018.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_mar_2018_de.pdf",
+    "status": "downloaded",
+    "bytes": 106365,
+    "sha256": "21e58f1829ef8feedfeedf6d6b47d7bed757c01f2d77eccf647b8b8c3419e439"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-03-2019.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_mar_2019_de.pdf",
+    "status": "downloaded",
+    "bytes": 105252,
+    "sha256": "3818fbfc7efb64c57ceb04c5f29faccd3ce790c62c99475a9e60a3b4dc7dfda8"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-03-2020.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_mar_2020_de.pdf",
+    "status": "downloaded",
+    "bytes": 109905,
+    "sha256": "25eedeaaf5c3f357dcdadcadc5d3bf40abfedd08f38f363c567a74f5d4cf9a57"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-03-2021.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_mar_2021_de.pdf",
+    "status": "downloaded",
+    "bytes": 175395,
+    "sha256": "6ba278c90fb08aba30a08d41d26ea349afb04010979d72cb834e51ac9e91bd68"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-03-2022.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_mar_2022_de.pdf",
+    "status": "downloaded",
+    "bytes": 178744,
+    "sha256": "1b0a65350a30c37de0cb66b10ccfd6df554e0e29a8506d62106630e83fd68f5f"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-03-2023.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_mar_2023_de.pdf",
+    "status": "downloaded",
+    "bytes": 161351,
+    "sha256": "4738d56c2294ae44610ab828b48bcf24aa5bf599a76b6780e8230877386fa413"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-03-2024.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_mar_2024_de.pdf",
+    "status": "downloaded",
+    "bytes": 158772,
+    "sha256": "05b11ed1d8d61fb39078d178c9f3315822ed26471cf6223736e4bb4f05993797"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-03-2025.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_mar_2025_de.pdf",
+    "status": "downloaded",
+    "bytes": 279439,
+    "sha256": "a12f67474590f3b19c530150f7a34ec3a3ac9dc77370c86cfa3845da507fe9f0"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-03-2026.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_mar_2026_de.pdf",
+    "status": "downloaded",
+    "bytes": 263127,
+    "sha256": "423d23353ba55809826ad27a025368d7443ef93c2b6687f275fc3ca7eecd473d"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2014.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2014_de.pdf",
+    "status": "downloaded",
+    "bytes": 559368,
+    "sha256": "f907007ac67da2e3cc7582c1b519b9e1d52c4032586d33e2a5049f8c27bd7e21"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2015.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2015_de.pdf",
+    "status": "downloaded",
+    "bytes": 252070,
+    "sha256": "cfe742e009cc050c49cbbc26b139cd2f62e9ccd07beba023fd336b091b3d5c76"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2016.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2016_de.pdf",
+    "status": "downloaded",
+    "bytes": 250151,
+    "sha256": "f2724a8fcb7c0c9f639a3780b6d5bd4fd70d3447304ef69205623d2392172303"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2017.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2017_de.pdf",
+    "status": "downloaded",
+    "bytes": 180070,
+    "sha256": "b245d2f3d092ee1dd3ef70332174e14f5588eb15e16b44fed08f28ad3c1870c6"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2018.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2018_de.pdf",
+    "status": "downloaded",
+    "bytes": 164385,
+    "sha256": "c30d9fe54f3ad1eeb7fc2abd18c49e8b77e3828c506c19800eb6b4711c1890c6"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2019.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2019_de.pdf",
+    "status": "downloaded",
+    "bytes": 194298,
+    "sha256": "de3f1c87afc5f4066a0d48336a6272778578067c84767431c5eefc8cc605e037"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2020.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2020_de.pdf",
+    "status": "downloaded",
+    "bytes": 219265,
+    "sha256": "c2a2a229ad430a804b94059037b08a5ba13be535ff475ff6551ec11c780e5b96"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2021.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2021_de.pdf",
+    "status": "downloaded",
+    "bytes": 298546,
+    "sha256": "29d54451eee3ba0fcc6e503546965224af63c5d5ee65225b3955dfccdcaed4ea"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2022.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2022_de.pdf",
+    "status": "downloaded",
+    "bytes": 312924,
+    "sha256": "b740606ce149e11ff6b3258f00f24aa0d833e2a35a8c95b84288e4a9fc88a7a4"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2023.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2023_de.pdf",
+    "status": "downloaded",
+    "bytes": 379648,
+    "sha256": "583d82a3341deb54cc51922b813da792da9baf748891a1c48224f74e1ca0254c"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2024.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2024_de.pdf",
+    "status": "downloaded",
+    "bytes": 327211,
+    "sha256": "4bc12e9de9740f1446e53b8e75fdf0aae6f65e156ebfa67598f8992882f9a71b"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2025.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2025_de.pdf",
+    "status": "downloaded",
+    "bytes": 568321,
+    "sha256": "092c9b28b19533627baf7d01df9557c0b935b5d9738896017cb566841f935d0d"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-06-2026.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_jun_2026_de.pdf",
+    "status": "downloaded",
+    "bytes": 1444818,
+    "sha256": "7b43a04c5bde111630cd50c2e023028611130e8d03098ee40a371cf7504629ec"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-09-2017.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_sep_2017_de.pdf",
+    "status": "downloaded",
+    "bytes": 111358,
+    "sha256": "112b51adeceeb294e0d9e9dadf51d7b422e6ce4ff4710074518b85cee55e8a06"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-09-2018.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_sep_2018_de.pdf",
+    "status": "downloaded",
+    "bytes": 112381,
+    "sha256": "c25450b28a65253bdc48f24c8f1aa83d5eb384455a0e43cc73cd5d4eb0d49adc"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-09-2019.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_sep_2019_de.pdf",
+    "status": "downloaded",
+    "bytes": 105453,
+    "sha256": "86fa7e042b791c1f0568d318124235bf1df89346475f304571e7b6f6dad394e0"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-09-2020.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_sep_2020_de.pdf",
+    "status": "downloaded",
+    "bytes": 103924,
+    "sha256": "6d6817600b51053ba934a054af6a7d8374a44edc4960e9dcc1993dad22b5a631"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-09-2021.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_sep_2021_de.pdf",
+    "status": "downloaded",
+    "bytes": 176024,
+    "sha256": "0ee2ad0aeda954aca76abb8ea0a4a319a1edd8af6b8af098d896d51dcf819194"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-09-2022.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_sep_2022_de.pdf",
+    "status": "downloaded",
+    "bytes": 172892,
+    "sha256": "d08cf1d83d1fa2b14ceaad98cb9d9f853dea2c73423762cdabe8d9ff2e17587e"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-09-2023.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_sep_2023_de.pdf",
+    "status": "downloaded",
+    "bytes": 165272,
+    "sha256": "b589c29e0a2fb5f7c8714a29430fa57cde7f57e753b002f85fae7b9f161fa7e6"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-09-2024.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_sep_2024_de.pdf",
+    "status": "downloaded",
+    "bytes": 101587,
+    "sha256": "1afbe779e4514e0583a7e1fee8ad48db8080b7dec56e2f6961a56283798a6621"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-09-2025.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_sept_2025_de.pdf",
+    "status": "downloaded",
+    "bytes": 299125,
+    "sha256": "f84f124900fbbed5f00af8dfb78fdccda1eefb5ecc0295fb47612db223f4d88b"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2013.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2013_de.pdf",
+    "status": "downloaded",
+    "bytes": 1674043,
+    "sha256": "f6b938a3d3d72fe1aadd0be51d8424d6aeca45d4861be13219f9382b9ff4edeb"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2014.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2014_de.pdf",
+    "status": "downloaded",
+    "bytes": 237583,
+    "sha256": "373bcbf87141175ed2ba622f430cb9291578bcb17dae9608f49f1796ee428003"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2015.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2015_de.pdf",
+    "status": "downloaded",
+    "bytes": 249010,
+    "sha256": "a49d02bd48fd74b49d1fc999802a47a7043f4610bf190cde21fadf31637e2ba2"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2016.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2016_de.pdf",
+    "status": "downloaded",
+    "bytes": 179645,
+    "sha256": "5a0f62c23d994625bd8d49d51af23b4e2a7fc78d67614b1c5d17093da916481f"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2017.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2017_de.pdf",
+    "status": "downloaded",
+    "bytes": 231559,
+    "sha256": "01d200fe0219bd8ca78daa5bc500e76b1221e18504faed23d27fa7b81de069ce"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2018.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2018_de.pdf",
+    "status": "downloaded",
+    "bytes": 235112,
+    "sha256": "bfbfc0200ce50995221784cfc75abfe8f0f557ac98ce6bc8ccc8f2c5321c1005"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2019.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2019_de.pdf",
+    "status": "downloaded",
+    "bytes": 337418,
+    "sha256": "7c8c0bdcda724ed0afd907557b487955b339ab26168067c5b7f19c5337a5925d"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2020.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2020_de.pdf",
+    "status": "downloaded",
+    "bytes": 390629,
+    "sha256": "de24d09b3b43ddf152c4468947540777da74217e23f0b1c169c3d0984e7fbaf6"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2021.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2021_de.pdf",
+    "status": "downloaded",
+    "bytes": 399626,
+    "sha256": "14ed3442fa1c0889e246cd1d900b61112cc83f0eaafee7b510cfefc7aa9ce747"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2022.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2022_de.pdf",
+    "status": "downloaded",
+    "bytes": 521990,
+    "sha256": "999bcdd1f1117c681108aab153cc55ad30c7287267f4e00950e6fcfcff4d6aa0"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2023.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2023_de.pdf",
+    "status": "downloaded",
+    "bytes": 452667,
+    "sha256": "c43052ddafc6086cb82225a211ab2c3856a88caeeb79d9efdae09afa2d8fd2cc"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2024.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2024_de.pdf",
+    "status": "downloaded",
+    "bytes": 522762,
+    "sha256": "e95cc68d64284e3204faa8933c8ff692d607f0b3136a58bcf91bba667a212041"
+  },
+  {
+    "filename": "postfinance-offenlegungsbericht-2025.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/457_00_2_capital_adequacy_disclosure_dec_2025_de.pdf",
+    "status": "downloaded",
+    "bytes": 3016462,
+    "sha256": "6591242cbb63cf590e3da6f5fd5bd6a583637a613d25e701cd6f7405e81e0d4a"
+  },
+  {
+    "filename": "postfinance-semesterbericht-2022.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_interim_2022_de.pdf",
+    "status": "downloaded",
+    "bytes": 501682,
+    "sha256": "47dcd1b06e2d0507d5a21a05116d3702797baa4a86954906dcddd278e2e2bfb0"
+  },
+  {
+    "filename": "postfinance-semesterbericht-2026.pdf",
+    "url": "https://www.postfinance.ch/content/dam/pfch/doc/440_459/450_01_interim_2026_de.pdf",
+    "status": "downloaded",
+    "bytes": 753602,
+    "sha256": "12fc9d8ee4afc9a2d447ea6b5f8f14326c154f066e6fa9c4235d4d22941fefac"
+  }
+]

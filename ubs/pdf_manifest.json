@@ -1,0 +1,100 @@
+[
+  {
+    "filename": "ubs-geschaeftsbericht-2020.pdf",
+    "url": "https://gb-rating.fra1.cdn.digitaloceanspaces.com/gb-rating2021/pdf/participants/ubs-group.pdf",
+    "status": "cached",
+    "bytes": 9146693,
+    "sha256": "79f168b45b4f77c79d7bdde6f5d30a4a2ddac6c501669fbcd579582ef2b409b6"
+  },
+  {
+    "filename": "ubs-geschaeftsbericht-2021.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/annual-report/2021/full-report-ubs-group-ag-and-ubs-ag-consolidated-2021-en.pdf",
+    "status": "cached",
+    "bytes": 12761036,
+    "sha256": "3487bdd8166eed006aa9c0ec827febefd131547c511a96c98f8ef6848c76d904"
+  },
+  {
+    "filename": "ubs-geschaeftsbericht-2022.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/annual-report/2022/full-report-ubs-group-ag-and-ubs-ag-consolidated-2022-en.pdf",
+    "status": "cached",
+    "bytes": 10914985,
+    "sha256": "4fa85a26ac34dd3c04c2432606ac3c547ffa6f272aa005cc8237c85efef9e82d"
+  },
+  {
+    "filename": "ubs-geschaeftsbericht-2023.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/annual-report/2023/files/annual-report-ubs-group-2023.pdf",
+    "status": "cached",
+    "bytes": 9302822,
+    "sha256": "47c4bd6126c9066f2f69748cb82c839d19064e6cda9ce39515ac6505e8f7fef2"
+  },
+  {
+    "filename": "ubs-geschaeftsbericht-2024.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/annual-report/2024/annual-report-ubs-group-2024.pdf",
+    "status": "cached",
+    "bytes": 8840656,
+    "sha256": "06d9706e63b2afbb9f79a2748b471ff0003adae4f29e0c3141de266b2f22ccc4"
+  },
+  {
+    "filename": "ubs-geschaeftsbericht-2025.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/annual-report/2025/annual-report-ubs-group-2025.pdf",
+    "status": "cached",
+    "bytes": 7059831,
+    "sha256": "a4756fd408868b77b63faa899b267b300ca5c08845c681f0e7d92d6672d13750"
+  },
+  {
+    "filename": "ubs-offenlegungsbericht-06-2023.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/quarterlies/2023/2q23/pillar-3-2q23.pdf",
+    "status": "cached",
+    "bytes": 1301013,
+    "sha256": "d909ab36ef834c3d3b5c0c3f46bf591af03fc24e1dcc20a551d0ca258dab8e0a"
+  },
+  {
+    "filename": "ubs-offenlegungsbericht-06-2025.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/quarterlies/2025/2q25/pillar-3-2q25.pdf",
+    "status": "cached",
+    "bytes": 674090,
+    "sha256": "610f637868fd37ad55e8e0778e3d97cc1637959fa910cb38a20d2a6a4e1cf7c4"
+  },
+  {
+    "filename": "ubs-offenlegungsbericht-2023.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/annual-report/2023/files/annual-report-pillar3-2023.pdf",
+    "status": "cached",
+    "bytes": 3499523,
+    "sha256": "14033a5f2db1287c4725a9095dc6a195fe90b3d15d08a7e2e94edd12ffae97eb"
+  },
+  {
+    "filename": "ubs-offenlegungsbericht-2024.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/annual-report/2024/annual-report-pillar3-2024.pdf",
+    "status": "cached",
+    "bytes": 1263819,
+    "sha256": "4d366560ac381df8a6e338575a2a446c4c8a67e16c621a764e6e449a001f44fe"
+  },
+  {
+    "filename": "ubs-semesterbericht-2022.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/quarterlies/2022/2q22/full-report-ubs-group-ag-consolidated-2q22.pdf",
+    "status": "cached",
+    "bytes": 746882,
+    "sha256": "bd4b69d33845310fd3fe922d29fa0da5c37b3e12b9895afe5efbd1eb23c22702"
+  },
+  {
+    "filename": "ubs-semesterbericht-2023.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/quarterlies/2023/2q23/full-report-ubs-group-ag-consolidated-2q23.pdf",
+    "status": "cached",
+    "bytes": 930427,
+    "sha256": "bb8ea4cc2dc15eba362c9d996b9ef0c6a37495a4ef7316e82ed5fcec9f1d7845"
+  },
+  {
+    "filename": "ubs-semesterbericht-2024.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/quarterlies/2024/2q24/full-report-ubs-group-consolidated-2q24.pdf",
+    "status": "cached",
+    "bytes": 933892,
+    "sha256": "ecc0ccc614905ee0549071052311ab75f45a3c44f1910d2b3cff0ed188eaaaf5"
+  },
+  {
+    "filename": "ubs-semesterbericht-2025.pdf",
+    "url": "https://web.archive.org/web/2026id_/https://www.ubs.com/content/dam/assets/cc/investor-relations/quarterlies/2025/2q25/full-report-ubs-group-consolidated-2q25.pdf",
+    "status": "cached",
+    "bytes": 812912,
+    "sha256": "c20a338ab32ebe8c149ade489f9c3a959fe37bd87bf74953b5ce2f6a1a062f8e"
+  }
+]
