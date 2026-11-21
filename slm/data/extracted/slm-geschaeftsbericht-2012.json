@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "stem": "slm-geschaeftsbericht-2012",
+    "report_type": "annual",
+    "year": 2012,
+    "period": "FY2012",
+    "part": null,
+    "bank_id": "slm",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/slm-geschaeftsbericht-2012.md",
+    "total_chars": 588154,
+    "total_lines": 1702
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": null,
+      "value_prior_year": 922814.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|**2450873164594761523976451038475608374657263549178**<br>**6345087163495651239764018327465917623549673145087**<br>**1346594165234081325476132454716325401324569173646**<br>**50817346571365140812376401873246597831438057",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": null,
+      "value_prior_year": 74795.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|**8734658740817634875673465081374650873650817346574**<br>**369187653497865013248576138746508374d435871346085**<br>**7163024874601823476501827364081734650817236408172**<br>**3605481734650817326408712365408712360487126308457**<",
+      "chunk_name": "bilanz"
+    }
+  }
+}

@@ -9,3 +9,6 @@ Deterministisch generierte Mehrjahresberichte aus den validierten CSV/JSON-Panel
 - [Aktie, Dividenden & Investoren-Wertschöpfung](./05_aktie_dividenden_und_wertschoepfung.md)
 - [Unterjährige Dynamik](./06_unterjaehrige_dynamik_semesterberichte.md)
 - [Strategische Epochen & Governance](./07_strategische_epochen_und_governance.md)
+- [CEO & Chairman Achievement Report](./08_ceo_und_vrp_leistungsbericht.md)
+- [IT Strategy & Digital Transformation](./09_it_strategie_und_digitalisierung.md)
+- [Fusionsbaum & Historie seit 1900](./10_fusionsbaum_und_historie.md)

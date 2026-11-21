@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "stem": "slm-geschaeftsbericht-2013",
+    "report_type": "annual",
+    "year": 2013,
+    "period": "FY2013",
+    "part": null,
+    "bank_id": "slm",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/slm-geschaeftsbericht-2013.md",
+    "total_chars": 647810,
+    "total_lines": 2044
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": null,
+      "value_prior_year": 979862.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|**2450873164594761523976451038475608374657263549178**<br>**6345087163495651239764018327465917623549673145087**<br>**1346594165234081325476132454716325401324569173646**<br>**50817346571365140812376401873246597831438057",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": null,
+      "value_prior_year": 69693.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|**8734658740817634875673465081374650873650817346574**<br>**369187653497865013248576138746508374d435871346085**<br>**7163024874601823476501827364081734650817236408172**<br>**3605481734650817326408712365408712360487126308457**<",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 11280.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand|**087465§0873240§1283764087163048712638745123867412**<br>**387645219341597362549§7632549§7623549726359417623**<br>**5497§16235497652937645917635497362549172635497162**<br>**3594716253974615927364591726354971623549761523493",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "operating_profit": {
+      "value_current": 9467.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bruttogewinn|**0187235497162345087321654091873465085763728645081**<br>**7346510876320487613524975616023847650183246750187**<br>**6324501873462526547623548734650873165872635497266**<br>**3450875136498576513408576123847568374650187364081**<b",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "net_profit": {
+      "value_current": 3188.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn|**369187653497865013248576138746508374d435871346085**<br>**7163024874601823476501827364081734650817236408172**<br>**3605481734650817326408712365408712360487126308457**<br>**6123085746348765420837461973265430817236540817346**<b",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "fte_count": {
+      "value_current": null,
+      "value_prior_year": 51.1,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Teilzeitbereinigt|**~~2837465082734650287346057236408576203847560283746~~**<br>**5028374650273468573648725063847560128374635837468**<br>**3702834757483028347657230683745087263084756028734**<br>**65378302387465738475602384563874560283734501",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "nsfr_pct": {
+      "value_current": null,
+      "value_prior_year": 84.94,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**~~234214308~~**<br>**5602834756**<br>**6410983476**<br>**347658726**<br>**2347650813**<br>**3487656832**<br><br>Refinanzierungsquote(Kundengelder in % der Kundenausleihungen)|**~~716384755366173480548371356740183746547~~**<br>**042872608",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

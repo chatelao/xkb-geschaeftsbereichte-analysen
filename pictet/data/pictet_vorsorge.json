@@ -1,0 +1,22 @@
+{
+  "bank_id": "pictet",
+  "short_name": "Pictet",
+  "pk_name": "Fondation de prévoyance du Groupe Pictet",
+  "pk_plan_type": "Beitragsprimat (unabhängige Genfer Stiftung)",
+  "accounting_basis": "Swiss GAAP FER 26 / ARB",
+  "reference_year": 2025,
+  "active_insured_count": null,
+  "pensioners_count": null,
+  "active_to_pensioner_ratio": null,
+  "pk_assets_mio": null,
+  "coverage_ratio_bvg_pct": 122.7,
+  "technical_interest_rate_pct": null,
+  "interest_crediting_pct": null,
+  "conversion_rate_65_pct": null,
+  "employer_contribution_mio": null,
+  "employer_share_pct": null,
+  "employer_contribution_reserve_mio": null,
+  "extraordinary_contributions_mio": 0.0,
+  "notes": "Unabhängige Vorsorgeeinrichtung (Kanton Genf, FER 26); Deckungsgrad Ende 2025 122,7 % (2024: 119,3 %); Wertschwankungsreserve 25 % der Vorsorgeverpflichtungen.",
+  "source_url_or_file": "pictet/.md/pictet-geschaeftsbericht-2025.md (Note 11 Disclosures on pension schemes)"
+}

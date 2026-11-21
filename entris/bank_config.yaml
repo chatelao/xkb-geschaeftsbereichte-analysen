@@ -1,0 +1,46 @@
+bank_id: "entris"
+short_name: "Entris / RBA-Holding"
+full_name: "Entris Holding AG (ehem. RBA-Holding AG)"
+peer_group: "regional_bank"
+canton_or_hq: "Gümligen (Bern)"
+legal_form: "unlisted_ag"
+listed: false
+ticker: null
+state_guarantee: false
+has_credit_ban: false
+finma_category: 4
+reporting_scope: "consolidated"
+accounting_standard: "ARB_RVB"
+reporting_currency: "CHF"
+primary_languages: ["de"]
+file_prefix: "entris"
+
+capital_targets_pct:
+  cet1_target: 11.2
+  total_capital_target: 12.0
+  leverage_min: 3.0
+  lcr_min: 100.0
+  nsfr_min: 100.0
+
+share_splits: []
+
+report_05_mode: "post_dividend"
+report_05_slug: "05_aktionaere_und_wertschoepfung"
+
+palette:
+  primary: "#003B5C"
+  secondary: "#1E293B"
+  accent: "#E11D48"
+  muted: "#64748B"
+
+plausibility_bounds_chf_mio:
+  total_assets_min: 8000
+  total_assets_max: 25000
+
+epochs:
+  - {label: "Epoche 1", start: 2021, end: 2022, title: "SNB-Negativzinsen & Girozentralbank-Infrastruktur"}
+  - {label: "Epoche 2", start: 2023, end: 2026, title: "Zinswende, EntriX Payment & B2B-Plattformausbau"}
+
+structural_breaks:
+  - {year: 2023, label: "SNB-Zinswende & starker Zuwachs bei Girogeldern / Zinserträgen"}
+  - {year: 2025, label: "Inkrafttreten Basel III final per 01.01.2025"}

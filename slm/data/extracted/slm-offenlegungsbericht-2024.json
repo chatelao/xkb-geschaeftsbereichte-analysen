@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "slm-offenlegungsbericht-2024",
+    "report_type": "offenlegung_fy",
+    "year": 2024,
+    "period": "FY2024",
+    "part": null,
+    "bank_id": "slm",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/slm-offenlegungsbericht-2024.md",
+    "total_chars": 6118,
+    "total_lines": 79
+  },
+  "backend": "local",
+  "metrics": {}
+}

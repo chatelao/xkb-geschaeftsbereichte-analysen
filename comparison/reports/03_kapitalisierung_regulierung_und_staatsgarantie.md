@@ -17,5 +17,13 @@
 | Raiffeisen | Kat. 2 | Keine | H1-2026 | 24,70 % | 10,00 % | 14,70 Pp. | 7,80 % |
 | PostFinance | Kat. 2 | Keine | H1-2026 | 24,97 % | 10,00 % | 14,97 Pp. | 6,59 % |
 | UBS | Kat. 1 | Keine | H1-2025 | 14,41 % | 14,00 % | 0,41 Pp. | 5,53 % |
+| EK Speicher | Kat. 5 | Keine | – | – % | 10,50 % | – Pp. | – % |
+| Bank SLM | Kat. 5 | Keine | H1-2026 | – % | 10,50 % | – Pp. | 9,28 % |
+| AEK Thun | Kat. 4 | Keine | – | – % | 11,20 % | – Pp. | – % |
+| Migros Bank | Kat. 3 | Keine | – | – % | 10,50 % | – Pp. | – % |
+| Vontobel | Kat. 3 | Keine | H1-2026 | – % | 12,00 % | – Pp. | – % |
+| Pictet | Kat. 3 | Keine | – | – % | 12,00 % | – Pp. | – % |
+| Entris / RBA-Holding | Kat. 4 | Keine | – | – % | 11,20 % | – Pp. | – % |
+| Valiant | Kat. 3 | Keine | H1-2026 | 17,02 % | 11,20 % | 5,82 Pp. | 6,54 % |
 
 ![Staatsgarantie und Eigenkapitalquote](./charts/06_staatsgarantie_und_finma_kategorien.png)

@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "stem": "pictet-geschaeftsbericht-2024",
+    "report_type": "annual",
+    "year": 2024,
+    "period": "FY2024",
+    "part": null,
+    "bank_id": "pictet",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/pictet-geschaeftsbericht-2024.md",
+    "total_chars": 121935,
+    "total_lines": 2434
+  },
+  "backend": "local",
+  "metrics": {
+    "total_operating_income": {
+      "value_current": 3160208.0,
+      "value_prior_year": 3161546.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Operating income|3 160 208|3 161 546|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 816287.0,
+      "value_prior_year": 737121.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Operating result|816 287|737 121|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 665374.0,
+      "value_prior_year": 576691.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Consolidated profit for the year|665 374|576 691|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 43236177.0,
+      "value_prior_year": 40060322.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total assets|43 236 177|40 060 322|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 3782034.0,
+      "value_prior_year": 4103556.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total equity|3 782 034|4 103 556|",
+      "chunk_name": "bilanz"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 24.2,
+      "value_prior_year": 28.7,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Basel III CET1 solvency ratio|24.2%|28.7%|",
+      "chunk_name": "bilanz"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 24.5,
+      "value_prior_year": 29.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Basel III Total solvency ratio|24.5%|29.0%|",
+      "chunk_name": "bilanz"
+    },
+    "lcr_pct": {
+      "value_current": 212.0,
+      "value_prior_year": 198.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Liquidity coverage ratio (LCR)|212%|198%|",
+      "chunk_name": "bilanz"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.5,
+      "value_prior_year": 7.7,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage ratio|6.5%|7.7%|",
+      "chunk_name": "bilanz"
+    },
+    "assets_under_management": {
+      "value_current": 724.0,
+      "value_prior_year": 633.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Assets under management or custody (CHF bn)|724|633|",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 5496.0,
+      "value_prior_year": 5439.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Staff (in FTE)|5 496|5 439|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 16047839.0,
+      "value_prior_year": 12893533.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Financial investments|5;10|16 047 839|12 893 533|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 491743.0,
+      "value_prior_year": 582805.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal net result from interest operations**||**491 743**|**582 805**|**-16%**|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 2474473.0,
+      "value_prior_year": 2404145.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal result from commission business and services**||**2 474 473**|**2 404 145**|**3%**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -1573017.0,
+      "value_prior_year": -1529919.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personnel expenses|12;28|(1 573 017)|(1 529 919)||",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -715116.0,
+      "value_prior_year": -717040.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|General and administrative expenses|29|(715 116)|(717 040)||",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -2288133.0,
+      "value_prior_year": -2246959.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal operating expenses**||**(2 288 133)**|**(2 246 959)**|**2%**|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

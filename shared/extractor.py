@@ -254,11 +254,14 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
         r"^netto-?zinserfolg",
         r"^(?:sous-total\s+)?r[ée]sult(?:at|ant)\s+(?:net\s+)?des\s+op[ée]rations\s+d'int[ée]r[êe]ts",
         r"^net\s+interest\s+income",
+        r"^net\s+interest\s+and\s+dividend\s+income",
+        r"^subtotal\s+net\s+result\s+from\s+interest\s+operations",
     ],
     "commission_income": [
         r"^(?:subtotal\s+)?erfolg\s+(?:aus\s+dem\s+)?kommissions",
         r"^(?:sous-total\s+)?r[ée]sult(?:at|ant)\s+des\s+op[ée]rations\s+de\s+commissions",
         r"^net\s+fee\s+and\s+commission\s+income",
+        r"^subtotal\s+result\s+from\s+commission\s+business",
     ],
     "trading_income": [
         r"^erfolg\s+aus\s+dem\s+handelsgesch[äa]ft",
@@ -280,13 +283,13 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
         r"^operating\s*income$",
         r"^total\s+revenues$",
     ],
-    "personnel_expenses": [r"^personalaufwand", r"^charges\s+de\s+personnel", r"^personnel\s+expenses"],
+    "personnel_expenses": [r"^personalaufwand", r"^charges\s+de\s+personnel", r"^personnel\s+expenses?$"],
     "general_expenses": [r"^sachaufwand", r"^autres\s+charges\s+d'exploitation", r"^general\s+and\s+administrative"],
     "total_operating_expenses": [
         r"^(?:subtotal\s+)?(?:total\s+)?gesch[äa]ftsaufwand",
         r"^(?:sous-total\s+|total\s+des\s+)?charges\s+d'exploitation",
-        r"^total\s+operating\s+expenses",
-        r"^operating\s*expenses$",
+        r"^(?:total|subtotal)\s+operating\s+expenses?$",
+        r"^operating\s*expenses?$",
     ],
     "operating_profit": [
         r"^gesch[äa]ftserfolg$",
@@ -294,6 +297,7 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
         r"^r[ée]sultat\s+op[ée]rationnel",
         r"^b[ée]n[ée]fice\s+brut$",
         r"^operating\s+profit\s*(?:\(loss\))?\s*before\s+tax",
+        r"^operating\s+result$",
     ],
     "taxes": [r"^steuern$", r"^imp[ôo]ts", r"^tax\s+expense"],
     "net_profit": [
@@ -303,6 +307,7 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
         r"^r[ée]sultat\s+(?:de\s+la\s*p[ée]riode|net)$",
         r"^net\s*profit\s*(?:/\s*\(?loss\)?\s*)?attributable\s+to\s+shareholders",
         r"^net\s+profit$",
+        r"^consolidated\s+(?:profit|result)\s+for\s+the\s+(?:year|period)$",
     ],
     # Volumen & Operatives
     "assets_under_management": [
@@ -314,12 +319,16 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
     "net_new_money": [r"^netto-?neugeld", r"^afflux\s+nets\s+de\s+fonds", r"^net\s+new\s+(?:money|assets)"],
     "fte_count": [
         r"^total\s+teilzeitbereinigt$",
+        r"^teilzeitbereinigt$",
         r"^mitarbeitende\s+teilzeitbereinigt$",
+        r"^personalbestand$",
         r"^(?:anzahl\s+)?vollzeitstellen",
         r"^vollzeit[äa]quivalent",
         r"^personalbestand\s*(?:\(|–|-)?\s*teilzeitbereinigt",
         r"^effectif.*(?:ept|[ée]quivalents?\s+plein\s+temps)",
         r"^employees\s*\(?full-time",
+        r"^staff\s*\(in\s*fte\)",
+        r"^total\s+number\s+of\s+employees$",
     ],
     "branch_count": [r"^gesch[äa]ftsstellen", r"^filialen", r"^succursales", r"^branches"],
     # Aktie & Ausschüttung
@@ -330,8 +339,8 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
     "tier1_capital": [r"^kernkapital\s*\((?:t1|tier\s*1)\)", r"fonds\s+propres\s+de\s+base\s*\(t1\)", r"^tier\s+1\s+capital"],
     "total_capital": [r"^gesamtkapital", r"total\s+des\s+fonds\s+propres", r"^total\s+capital\b"],
     "rwa_total": [r"^rwa$", r"^total\s+risikogewichtete", r"total\s+des\s+positions\s+pond[ée]r[ée]es", r"total\s+risk-weighted\s+assets"],
-    "cet1_ratio_pct": [r"cet1-?quote|hartes\s+kernkapital\s+in\s+%", r"ratio\s+cet1", r"common\s+equity\s*tier\s*1\s*(?:capital\s*)?ratio", r"cet1\s+capital\s+ratio"],
-    "total_capital_ratio_pct": [r"gesamtkapitalquote", r"ratio\s+global\s+de\s+fonds\s+propres", r"total\s+capital\s+ratio"],
+    "cet1_ratio_pct": [r"cet1-?quote|hartes\s+kernkapital\s+in\s+%", r"ratio\s+cet1", r"common\s+equity\s*tier\s*1\s*(?:capital\s*)?ratio", r"cet1\s+(?:capital|solvency)\s+ratio"],
+    "total_capital_ratio_pct": [r"gesamtkapitalquote", r"ratio\s+global\s+de\s+fonds\s+propres", r"total\s+(?:capital|solvency)\s+ratio"],
     "leverage_ratio_pct": [r"leverage\s+ratio", r"ratio\s+de\s+levier"],
     "lcr_pct": [r"lcr\s*\(%?\)|quote\s+f[üu]r\s+kurzfristige\s+liquidit[äa]t", r"liquidity\s+coverage\s+ratio"],
     "nsfr_pct": [r"nsfr\s*\(%?\)|finanzierungsquote", r"net\s+stable\s+funding\s+ratio"],

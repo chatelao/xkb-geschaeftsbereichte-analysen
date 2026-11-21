@@ -11,10 +11,34 @@ import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-VALID_BANKS = ("bekb", "vskb", "zkb", "bcv", "gekb", "raiffeisen", "postfinance", "ubs")
+VALID_BANKS = (
+    "bekb",
+    "vskb",
+    "zkb",
+    "bcv",
+    "gekb",
+    "raiffeisen",
+    "postfinance",
+    "ubs",
+    "eks",
+    "slm",
+    "aek",
+    "migrosbank",
+    "vontobel",
+    "pictet",
+    "entris",
+    "valiant",
+)
 VALID_SCOPES = {"standalone", "consolidated"}
 VALID_REPORT_05_MODES = {"listed_share", "cantonal_endowment", "cooperative_payout", "post_dividend"}
-VALID_PEER_GROUPS = {"cantonal_bank", "domestic_dsib", "g_sib"}
+VALID_PEER_GROUPS = {
+    "cantonal_bank",
+    "domestic_dsib",
+    "g_sib",
+    "regional_bank",
+    "wealth_manager",
+    "private_bank",
+}
 
 
 @dataclass
@@ -117,7 +141,7 @@ def load_bank_config(bank_id: str, root: Path | None = None) -> BankConfig:
         raise ValueError(f"{cfg_path}: Ungültiger report_05_mode '{raw['report_05_mode']}'")
     if raw["peer_group"] not in VALID_PEER_GROUPS:
         raise ValueError(f"{cfg_path}: Ungültiger peer_group '{raw['peer_group']}'")
-    if int(raw["finma_category"]) not in (1, 2, 3):
+    if int(raw["finma_category"]) not in (1, 2, 3, 4, 5):
         raise ValueError(f"{cfg_path}: Ungültige finma_category '{raw['finma_category']}'")
 
     return BankConfig(

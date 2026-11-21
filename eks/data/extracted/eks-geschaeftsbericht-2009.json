@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "eks-geschaeftsbericht-2009",
+    "report_type": "annual",
+    "year": 2009,
+    "period": "FY2009",
+    "part": null,
+    "bank_id": "eks",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/eks-geschaeftsbericht-2009.md",
+    "total_chars": 48601,
+    "total_lines": 787
+  },
+  "backend": "local",
+  "metrics": {
+    "net_profit": {
+      "value_current": 243.0,
+      "value_prior_year": 237.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn|243|237|+ 2,53|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

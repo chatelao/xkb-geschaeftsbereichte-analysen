@@ -1,0 +1,45 @@
+bank_id: "vontobel"
+short_name: "Vontobel"
+full_name: "Vontobel Holding AG"
+peer_group: "wealth_manager"
+canton_or_hq: "Zürich"
+legal_form: "listed_ag"
+listed: true
+ticker: "VONN"
+state_guarantee: false
+has_credit_ban: false
+finma_category: 3
+reporting_scope: "consolidated"
+accounting_standard: "IFRS"
+reporting_currency: "CHF"
+primary_languages: ["en"]
+file_prefix: "vontobel"
+
+capital_targets_pct:
+  cet1_target: 12.0
+  total_capital_target: 16.0
+  leverage_min: 3.0
+  lcr_min: 100.0
+  nsfr_min: 100.0
+
+share_splits: []
+
+report_05_mode: "listed_share"
+report_05_slug: "05_aktie_dividenden_und_wertschoepfung"
+
+palette:
+  primary: "#003B5C"
+  secondary: "#1E293B"
+  accent: "#B45309"
+  muted: "#64748B"
+
+plausibility_bounds_chf_mio:
+  total_assets_min: 20000
+  total_assets_max: 60000
+
+epochs:
+  - {label: "Epoche 1", start: 2023, end: 2024, title: "Wealth & Asset Management Konsolidierung"}
+  - {label: "Epoche 2", start: 2025, end: 2026, title: "Basel III final & Globale Expansion"}
+
+structural_breaks:
+  - {year: 2025, label: "Inkrafttreten Basel III final per 01.01.2025"}

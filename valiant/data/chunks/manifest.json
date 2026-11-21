@@ -1,0 +1,549 @@
+{
+  "bank_id": "valiant",
+  "total_reports": 23,
+  "reports": [
+    {
+      "stem": "valiant-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5898,
+          "approx_tokens": 1474
+        },
+        "mehrjahresvergleich": {
+          "chars": 6234,
+          "approx_tokens": 1558
+        },
+        "verguetung": {
+          "chars": 8193,
+          "approx_tokens": 2048
+        },
+        "lagebericht_strategie": {
+          "chars": 7186,
+          "approx_tokens": 1796
+        }
+      }
+    },
+    {
+      "stem": "valiant-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5696,
+          "approx_tokens": 1424
+        },
+        "mehrjahresvergleich": {
+          "chars": 5717,
+          "approx_tokens": 1429
+        },
+        "aktie_basisdaten": {
+          "chars": 4921,
+          "approx_tokens": 1230
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7119,
+          "approx_tokens": 1779
+        }
+      }
+    },
+    {
+      "stem": "valiant-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5601,
+          "approx_tokens": 1400
+        },
+        "mehrjahresvergleich": {
+          "chars": 4901,
+          "approx_tokens": 1225
+        },
+        "aktie_basisdaten": {
+          "chars": 4337,
+          "approx_tokens": 1084
+        },
+        "verguetung": {
+          "chars": 9334,
+          "approx_tokens": 2333
+        },
+        "lagebericht_strategie": {
+          "chars": 7061,
+          "approx_tokens": 1765
+        }
+      }
+    },
+    {
+      "stem": "valiant-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 6147,
+          "approx_tokens": 1536
+        },
+        "mehrjahresvergleich": {
+          "chars": 4223,
+          "approx_tokens": 1055
+        },
+        "aktie_basisdaten": {
+          "chars": 5320,
+          "approx_tokens": 1330
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7434,
+          "approx_tokens": 1858
+        }
+      }
+    },
+    {
+      "stem": "valiant-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5962,
+          "approx_tokens": 1490
+        },
+        "mehrjahresvergleich": {
+          "chars": 4383,
+          "approx_tokens": 1095
+        },
+        "aktie_basisdaten": {
+          "chars": 5094,
+          "approx_tokens": 1273
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7454,
+          "approx_tokens": 1863
+        }
+      }
+    },
+    {
+      "stem": "valiant-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4085,
+          "approx_tokens": 1021
+        },
+        "mehrjahresvergleich": {
+          "chars": 4742,
+          "approx_tokens": 1185
+        },
+        "aktie_basisdaten": {
+          "chars": 5427,
+          "approx_tokens": 1356
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7515,
+          "approx_tokens": 1878
+        }
+      }
+    },
+    {
+      "stem": "valiant-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 6563,
+          "approx_tokens": 1640
+        },
+        "mehrjahresvergleich": {
+          "chars": 6138,
+          "approx_tokens": 1534
+        },
+        "aktie_basisdaten": {
+          "chars": 5368,
+          "approx_tokens": 1342
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7516,
+          "approx_tokens": 1879
+        }
+      }
+    },
+    {
+      "stem": "valiant-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 6493,
+          "approx_tokens": 1623
+        },
+        "mehrjahresvergleich": {
+          "chars": 5795,
+          "approx_tokens": 1448
+        },
+        "aktie_basisdaten": {
+          "chars": 5425,
+          "approx_tokens": 1356
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7338,
+          "approx_tokens": 1834
+        }
+      }
+    },
+    {
+      "stem": "valiant-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 6446,
+          "approx_tokens": 1611
+        },
+        "mehrjahresvergleich": {
+          "chars": 6473,
+          "approx_tokens": 1618
+        },
+        "aktie_basisdaten": {
+          "chars": 5614,
+          "approx_tokens": 1403
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7561,
+          "approx_tokens": 1890
+        }
+      }
+    },
+    {
+      "stem": "valiant-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3664,
+          "approx_tokens": 916
+        },
+        "mehrjahresvergleich": {
+          "chars": 6086,
+          "approx_tokens": 1521
+        },
+        "aktie_basisdaten": {
+          "chars": 5256,
+          "approx_tokens": 1314
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7037,
+          "approx_tokens": 1759
+        }
+      }
+    },
+    {
+      "stem": "valiant-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "valiant-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "valiant-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "valiant-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "valiant-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "valiant-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "valiant-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "valiant-semesterbericht-2020",
+      "report_type": "semester",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2861,
+          "approx_tokens": 715
+        },
+        "erfolgsrechnung": {
+          "chars": 5694,
+          "approx_tokens": 1423
+        },
+        "lagebericht_strategie": {
+          "chars": 5698,
+          "approx_tokens": 1424
+        }
+      }
+    },
+    {
+      "stem": "valiant-semesterbericht-2021",
+      "report_type": "semester",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2869,
+          "approx_tokens": 717
+        },
+        "erfolgsrechnung": {
+          "chars": 6370,
+          "approx_tokens": 1592
+        },
+        "lagebericht_strategie": {
+          "chars": 5589,
+          "approx_tokens": 1397
+        }
+      }
+    },
+    {
+      "stem": "valiant-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2853,
+          "approx_tokens": 713
+        },
+        "erfolgsrechnung": {
+          "chars": 5350,
+          "approx_tokens": 1337
+        },
+        "lagebericht_strategie": {
+          "chars": 5617,
+          "approx_tokens": 1404
+        }
+      }
+    },
+    {
+      "stem": "valiant-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2714,
+          "approx_tokens": 678
+        },
+        "erfolgsrechnung": {
+          "chars": 5544,
+          "approx_tokens": 1386
+        },
+        "lagebericht_strategie": {
+          "chars": 5761,
+          "approx_tokens": 1440
+        }
+      }
+    },
+    {
+      "stem": "valiant-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3222,
+          "approx_tokens": 805
+        },
+        "erfolgsrechnung": {
+          "chars": 5530,
+          "approx_tokens": 1382
+        },
+        "lagebericht_strategie": {
+          "chars": 6033,
+          "approx_tokens": 1508
+        }
+      }
+    },
+    {
+      "stem": "valiant-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2671,
+          "approx_tokens": 667
+        },
+        "erfolgsrechnung": {
+          "chars": 5850,
+          "approx_tokens": 1462
+        },
+        "lagebericht_strategie": {
+          "chars": 5525,
+          "approx_tokens": 1381
+        }
+      }
+    }
+  ]
+}

@@ -11,6 +11,9 @@ from pathlib import Path
 from typing import Any
 
 from shared.config import BankConfig, load_bank_config
+from shared.it_strategy import IT_STRATEGY_DATA
+from shared.leadership import LEADERSHIP_DATA
+from shared.mergers import MERGER_HISTORY
 
 DEFAULT_HYDROGEN_MODEL = "gemini-2.5-flash-lite"
 
@@ -283,8 +286,9 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
 - Bei kotierten Instituten mit Aktiensplits (z. B. BCV 1:10 im Jahr 2020) sind sämtliche historischen Kurs- und Dividendenreihen deterministisch split-bereinigt.
 - Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 8 Institute eingeordnet.
 
-## 4. Fazit & Ausblick
+## 4. Fazit, Führungsleistung & Ausblick
 - Stabile Ertragskraft sichert langfristig Dividendenkontinuität bzw. verlässliche Ablieferungen an Kanton, Post oder Genossenschafter.
+- Die detaillierte Leistungsbilanz von CEO und Verwaltungsratspräsidium aus Investoren- und Eigentümersicht findet sich im [CEO & Chairman of the Board Achievement Report](./08_ceo_und_vrp_leistungsbericht.md).
 """
 
     # Bericht 06: Unterjährige Dynamik (Semesterberichte)
@@ -368,6 +372,124 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
 - Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen, Pay Ratio und Pensionskassen-Resilienz im Branchenvergleich (`comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md`).
 """
 
+    # Bericht 08: CEO & Chairman of the Board Achievement Report (Investoren-Sektion)
+    lead = LEADERSHIP_DATA.get(cfg.bank_id, {})
+    first = annual[0] if annual else {}
+    n_yrs = max(1, (last.get("year", 2025) - first.get("year", 2025))) if annual else 1
+    ta_cagr = _cagr(first.get("total_assets_mio"), last.get("total_assets_mio"), n_yrs)
+    inc_cagr = _cagr(first.get("total_operating_income_mio"), last.get("total_operating_income_mio"), n_yrs)
+    np_cagr = _cagr(first.get("net_profit_mio"), last.get("net_profit_mio"), n_yrs)
+    cir_delta = (
+        round(last["cir_pct"] - first["cir_pct"], 2)
+        if last.get("cir_pct") is not None and first.get("cir_pct") is not None
+        else None
+    )
+    roe_delta = (
+        round(last["roe_pct"] - first["roe_pct"], 2)
+        if last.get("roe_pct") is not None and first.get("roe_pct") is not None
+        else None
+    )
+    cet1_latest = last_off.get("cet1_ratio_pct") if last_off else None
+    cet1_target = cfg.capital_targets_pct.get("cet1_target")
+    cet1_buf = round(cet1_latest - cet1_target, 2) if cet1_latest is not None and cet1_target is not None else None
+
+    scorecard_rows = [
+        ["Bilanzsumme (Mio. CHF)", fmt_num(first.get("total_assets_mio")), fmt_num(last.get("total_assets_mio")), f"CAGR {fmt_num(ta_cagr, 2)} % p.a."],
+        ["Geschäftsertrag (Mio. CHF)", fmt_num(first.get("total_operating_income_mio")), fmt_num(last.get("total_operating_income_mio")), f"CAGR {fmt_num(inc_cagr, 2)} % p.a."],
+        ["Reingewinn (Mio. CHF)", fmt_num(first.get("net_profit_mio")), fmt_num(last.get("net_profit_mio")), f"CAGR {fmt_num(np_cagr, 2)} % p.a."],
+        ["Cost-Income-Ratio (CIR)", f"{fmt_num(first.get('cir_pct'), 2)} %", f"{fmt_num(last.get('cir_pct'), 2)} %", f"{fmt_num(cir_delta, 2)} Pp."],
+        ["Eigenkapitalrendite (ROE)", f"{fmt_num(first.get('roe_pct'), 2)} %", f"{fmt_num(last.get('roe_pct'), 2)} %", f"{fmt_num(roe_delta, 2)} Pp."],
+        ["Ertrag pro FTE (TCHF)", fmt_num(first.get("income_per_fte_tchf"), 1), fmt_num(last.get("income_per_fte_tchf"), 1), "Operative Produktivität"],
+        ["Lohnkosten / Produktivität", f"{fmt_num(first.get('wage_to_productivity_pct'), 1)} %", f"{fmt_num(last.get('wage_to_productivity_pct'), 1)} %", "Personalaufwand / Ertrag"],
+        ["CET1-Quote (vs. Zielgrösse)", "–", f"{fmt_num(cet1_latest, 2)} %", f"Puffer {fmt_num(cet1_buf, 2)} Pp. (Ziel {fmt_num(cet1_target, 1)} %)"],
+    ]
+    ach_lines = "\n".join(f"- {a}" for a in lead.get("achievements", [])) or "- Keine spezifischen Meilensteine hinterlegt."
+    comp_alignment = (
+        f"- **Reale Vergütung ({y1}, Basis 2025 CHF):** VR gesamt **{fmt_num(last_verg.get('vr_total_tchf_real2025'), 1)} TCHF**, CEO **{fmt_num(last_verg.get('ceo_total_tchf_real2025'), 1)} TCHF**, GL gesamt **{fmt_num(last_verg.get('gl_total_tchf_real2025'), 1)} TCHF**.\n"
+        f"- **CEO-zu-Mitarbeitenden-Pay-Ratio:** **{fmt_num(pay_ratio, 1)}×** (Ø Personalaufwand/FTE real: {fmt_num(last_verg.get('avg_per_fte_tchf_real2025'), 1)} TCHF)."
+        if last_verg.get("ceo_total_tchf_real2025")
+        else f"- **Vergütungs-Alignment ({y1}):** Ø Personalaufwand pro FTE (real 2025) beträgt **{fmt_num(last_verg.get('avg_per_fte_tchf_real2025'), 1)} TCHF** bei einer Lohnkosten-/Produktivitätsquote von **{fmt_num(last.get('wage_to_productivity_pct'), 1)} %**. (Einzelvergütungen VR/CEO werden je nach Rechtsform im Vergütungs- bzw. Geschäftsbericht offengelegt.)"
+    )
+    r08 = f"""# 08 · CEO & Chairman of the Board Achievement Report ({y0}–{y1}): {cfg.full_name}
+
+> **Investor & Governance Brief** | **Aktueller Chairman:** {lead.get('chairman_name', '–')} (*{lead.get('chairman_title', '–')}*) | **Aktueller CEO:** {lead.get('ceo_name', '–')} (*{lead.get('ceo_title', '–')}*)
+
+## 1. Executive Governance Profile
+- **Institut:** {cfg.full_name} (`{cfg.bank_id}`) — {lead.get('governance_model', cfg.legal_form)}
+- **Eigentümer- & Investoren-Modus:** `{cfg.report_05_mode}` | **FINMA-Kategorie:** {cfg.finma_category} | **Staatsgarantie:** {'Ja' if cfg.state_guarantee else 'Keine'}
+- **Verwaltungsratspräsidium (Chairman of the Board):** **{lead.get('chairman_name', '–')}** ({lead.get('chairman_title', '–')})
+- **Operative Gesamtleitung (CEO):** **{lead.get('ceo_name', '–')}** ({lead.get('ceo_title', '–')})
+
+## 2. Historische & aktuelle CEO- / VR-Präsidiums-Chronik ({y0}–{y1})
+{_table(["Amtszeit", "Funktion", "Name", "Schwerpunkt & Kontext"], lead.get("timeline", []))}
+
+## 3. Quantitative Performance Scorecard ({y0}–{y1})
+{_table(["Kennzahl", f"Start ({y0})", f"Aktuell ({y1})", "Veränderung / Einordnung"], scorecard_rows)}
+
+## 4. Strategische Leistungsbilanz & Meilensteine (CEO & VR-Präsidium)
+{ach_lines}
+
+## 5. Vergütungs- & Eigentümer-Alignment
+{comp_alignment}
+- **Investoren-Einordnung:** Siehe auch [{r05_title}](./{cfg.report_05_slug}.md) sowie den institutsübergreifenden Vergleich in `comparison/reports/06_investoren_branchenvergleich.md`.
+- **Quellenbasis:** `{lead.get('source', 'Geschäftsbericht 2025')}` & historische Geschäftsberichte ({y0}–{y1})
+"""
+
+    # Bericht 09: IT Strategy & Digital Transformation
+    it = IT_STRATEGY_DATA.get(cfg.bank_id, {})
+    it_bullets = "\n".join(f"- {item}" for item in it.get("cloud_ai_data", [])) or "- Keine spezifischen Cloud-/AI-Initiativen dokumentiert."
+    it_rows = [
+        [
+            str(r["year"]),
+            fmt_num(r.get("general_expenses_mio")),
+            fmt_num(r.get("total_operating_expenses_mio")),
+            f"{fmt_num(r.get('cir_pct'), 2)} %",
+            fmt_num(r.get("income_per_fte_tchf"), 1),
+        ]
+        for r in annual
+    ]
+    r09 = f"""# 09 · IT Strategy & Digital Transformation ({y0}–{y1}): {cfg.full_name}
+
+> **Core Banking:** {it.get('core_banking', '–')} | **Betriebsmodell:** {it.get('operating_model', '–')}
+
+## 1. IT-Architektur & Kernbankensystem
+- **Kernbankensystem:** {it.get('core_banking', '–')}
+- **Betriebs- & Sourcing-Modell:** {it.get('operating_model', '–')}
+- **Digitale Kundenschnittstellen:** {it.get('digital_channels', '–')}
+
+## 2. Cloud, Daten & Künstliche Intelligenz (AI)
+{it_bullets}
+
+## 3. Kosten-, Effizienz- & Produktivitätskontext ({y0}–{y1})
+{_table(["Jahr", "Sachaufwand (inkl. IT, Mio.)", "Geschäftsaufwand (Mio.)", "CIR (%)", "Ertrag/FTE (TCHF)"], it_rows)}
+
+## 4. Cybersicherheit, Resilienz & Ausblick
+- **Cyber- & OpRisk-Governance:** {it.get('cyber_resilience', '–')}
+- **Quellenbasis:** `{it.get('sources', 'Geschäftsbericht 2025 & öffentliche Fachpublikationen')}`
+"""
+
+    # Bericht 10: Fusionsbaum & Institutsgeschichte seit 1900
+    mh = MERGER_HISTORY.get(cfg.bank_id, {})
+    mh_mermaid = mh.get("mermaid", "flowchart TD\n    A[\"Keine Fusionsdaten hinterlegt\"]")
+    mh_rows = mh.get("milestones", [])
+    r10 = f"""# 10 · Fusionsbaum & Institutsgeschichte seit 1900: {cfg.full_name}
+
+> **Gründung / Ursprung:** {mh.get('founded', '–')} | **Aktuelle Rechtsform:** `{cfg.legal_form}` | **FINMA-Kategorie:** {cfg.finma_category}
+
+## 1. Überblick der Institutslinie (1900–2026)
+{mh.get('lineage_summary', 'Keine historische Zusammenfassung hinterlegt.')}
+
+## 2. Fusionsbaum (Mermaid-Diagramm seit 1900)
+```mermaid
+{mh_mermaid}
+```
+
+## 3. Chronologische Meilensteine (Fusionen, Übernahmen & Rechtsformwechsel)
+{_table(["Jahr / Zeitraum", "Institut / Ereignis", "Typ", "Bedeutung & Auswirkung"], mh_rows)}
+
+- **Quellenbasis:** `{mh.get('sources', 'Historische Geschäftsberichte & offizielle Institutschronik')}`
+"""
+
     reports_spec = [
         ("01_zinszyklen_und_ertragsarchitektur.md", r01, "Zinszyklen & Ertragsarchitektur"),
         ("02_bilanzwachstum_hypotheken_und_refinanzierung.md", r02, "Bilanzwachstum & Refinanzierung"),
@@ -376,6 +498,9 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
         (f"{cfg.report_05_slug}.md", r05, r05_title),
         ("06_unterjaehrige_dynamik_semesterberichte.md", r06, "Unterjährige Dynamik"),
         ("07_strategische_epochen_und_governance.md", r07, "Strategische Epochen & Governance"),
+        ("08_ceo_und_vrp_leistungsbericht.md", r08, "CEO & Chairman Achievement Report"),
+        ("09_it_strategie_und_digitalisierung.md", r09, "IT Strategy & Digital Transformation"),
+        ("10_fusionsbaum_und_historie.md", r10, "Fusionsbaum & Historie seit 1900"),
     ]
 
     written: list[Path] = []
@@ -392,7 +517,7 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
         "",
     ] + [f"- [{t}](./{fn})" for fn, _, t in reports_spec]
     (cfg.reports_dir / "README.md").write_text("\n".join(readme) + "\n", encoding="utf-8")
-    print(f"[OK] {cfg.bank_id}: 7 Berichte in {cfg.reports_dir}/ erzeugt (Backend={'gemini' if use_gemini else 'local'}).")
+    print(f"[OK] {cfg.bank_id}: {len(reports_spec)} Berichte in {cfg.reports_dir}/ erzeugt (Backend={'gemini' if use_gemini else 'local'}).")
     return written
 
 

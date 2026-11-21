@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "eks-geschaeftsbericht-2012",
+    "report_type": "annual",
+    "year": 2012,
+    "period": "FY2012",
+    "part": null,
+    "bank_id": "eks",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/eks-geschaeftsbericht-2012.md",
+    "total_chars": 49014,
+    "total_lines": 820
+  },
+  "backend": "local",
+  "metrics": {
+    "net_profit": {
+      "value_current": 191.0,
+      "value_prior_year": 213.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn|191|213|-10.33|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "stem": "vontobel-offenlegungsbericht-2025",
+    "report_type": "offenlegung_fy",
+    "year": 2025,
+    "period": "FY2025",
+    "part": null,
+    "bank_id": "vontobel",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vontobel-offenlegungsbericht-2025.md",
+    "total_chars": 94321,
+    "total_lines": 1286
+  },
+  "backend": "local",
+  "metrics": {
+    "tier1_capital": {
+      "value_current": 1651239.0,
+      "value_prior_year": 1574947.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|45|<br>Tier 1 capital (net CET1 + net AT1)|1,651,239|1,574,947||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 6764453.0,
+      "value_prior_year": 7518561.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|60|<br>Total risk-weighted assets (RWA)|6,764,453|7,518,561||",
+      "chunk_name": "ov1_rwa"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 24.4,
+      "value_prior_year": 21.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|63|Total capital ratio (line 59), as % of RWA|24.4 %|21.0 %||",
+      "chunk_name": "ov1_rwa"
+    }
+  }
+}

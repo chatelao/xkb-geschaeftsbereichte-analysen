@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "eks-geschaeftsbericht-2014",
+    "report_type": "annual",
+    "year": 2014,
+    "period": "FY2014",
+    "part": null,
+    "bank_id": "eks",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/eks-geschaeftsbericht-2014.md",
+    "total_chars": 50162,
+    "total_lines": 860
+  },
+  "backend": "local",
+  "metrics": {
+    "net_profit": {
+      "value_current": 102.0,
+      "value_prior_year": 146.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn|102|146|-30.14|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

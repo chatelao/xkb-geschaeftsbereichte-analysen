@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "eks-geschaeftsbericht-2008",
+    "report_type": "annual",
+    "year": 2008,
+    "period": "FY2008",
+    "part": null,
+    "bank_id": "eks",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/eks-geschaeftsbericht-2008.md",
+    "total_chars": 75078,
+    "total_lines": 748
+  },
+  "backend": "local",
+  "metrics": {}
+}

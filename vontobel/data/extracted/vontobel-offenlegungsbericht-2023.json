@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "vontobel-offenlegungsbericht-2023",
+    "report_type": "offenlegung_fy",
+    "year": 2023,
+    "period": "FY2023",
+    "part": null,
+    "bank_id": "vontobel",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vontobel-offenlegungsbericht-2023.md",
+    "total_chars": 72304,
+    "total_lines": 1049
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 1220136.0,
+      "value_prior_year": 1052691.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Common Equity Tier 1 (CET1)|1,220,136||1,155,455||1,052,691|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 1552333.0,
+      "value_prior_year": 1502279.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Tier 1 Capital (T1)|1,552,333||1,605,290||1,502,279|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 1552333.0,
+      "value_prior_year": 1502279.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Total capital|1,552,333||1,605,290||1,502,279|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 6523903.0,
+      "value_prior_year": 6304060.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|Total risk-weighted assets (RWA)|6,523,903||6,691,118||6,304,060|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 23.8,
+      "value_prior_year": 23.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Total capital ratio (%)|23.8 %||24.0 %||23.8 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 5.4,
+      "value_prior_year": 5.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14|Basel III leverage ratio (Tier 1 capital % of the total exposure)|5.4 %||5.0 %||5.0 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

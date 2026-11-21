@@ -1,0 +1,574 @@
+{
+  "bank_id": "migrosbank",
+  "total_reports": 20,
+  "reports": [
+    {
+      "stem": "migrosbank-geschaeftsbericht-2010",
+      "report_type": "annual",
+      "year": 2010,
+      "period": "FY2010",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4402,
+          "approx_tokens": 1100
+        },
+        "mehrjahresvergleich": {
+          "chars": 2814,
+          "approx_tokens": 703
+        },
+        "aktie_basisdaten": {
+          "chars": 4795,
+          "approx_tokens": 1198
+        },
+        "lagebericht_strategie": {
+          "chars": 7720,
+          "approx_tokens": 1930
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2011",
+      "report_type": "annual",
+      "year": 2011,
+      "period": "FY2011",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4532,
+          "approx_tokens": 1133
+        },
+        "mehrjahresvergleich": {
+          "chars": 2815,
+          "approx_tokens": 703
+        },
+        "aktie_basisdaten": {
+          "chars": 4828,
+          "approx_tokens": 1207
+        },
+        "lagebericht_strategie": {
+          "chars": 7266,
+          "approx_tokens": 1816
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2012",
+      "report_type": "annual",
+      "year": 2012,
+      "period": "FY2012",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4518,
+          "approx_tokens": 1129
+        },
+        "mehrjahresvergleich": {
+          "chars": 5137,
+          "approx_tokens": 1284
+        },
+        "aktie_basisdaten": {
+          "chars": 4828,
+          "approx_tokens": 1207
+        },
+        "lagebericht_strategie": {
+          "chars": 7189,
+          "approx_tokens": 1797
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2013",
+      "report_type": "annual",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4279,
+          "approx_tokens": 1069
+        },
+        "mehrjahresvergleich": {
+          "chars": 4976,
+          "approx_tokens": 1244
+        },
+        "aktie_basisdaten": {
+          "chars": 4786,
+          "approx_tokens": 1196
+        },
+        "lagebericht_strategie": {
+          "chars": 7166,
+          "approx_tokens": 1791
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4501,
+          "approx_tokens": 1125
+        },
+        "mehrjahresvergleich": {
+          "chars": 2898,
+          "approx_tokens": 724
+        },
+        "aktie_basisdaten": {
+          "chars": 4761,
+          "approx_tokens": 1190
+        },
+        "lagebericht_strategie": {
+          "chars": 7572,
+          "approx_tokens": 1893
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4260,
+          "approx_tokens": 1065
+        },
+        "mehrjahresvergleich": {
+          "chars": 3865,
+          "approx_tokens": 966
+        },
+        "aktie_basisdaten": {
+          "chars": 4957,
+          "approx_tokens": 1239
+        },
+        "lagebericht_strategie": {
+          "chars": 7351,
+          "approx_tokens": 1837
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4283,
+          "approx_tokens": 1070
+        },
+        "mehrjahresvergleich": {
+          "chars": 2634,
+          "approx_tokens": 658
+        },
+        "aktie_basisdaten": {
+          "chars": 5075,
+          "approx_tokens": 1268
+        },
+        "lagebericht_strategie": {
+          "chars": 7077,
+          "approx_tokens": 1769
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4314,
+          "approx_tokens": 1078
+        },
+        "mehrjahresvergleich": {
+          "chars": 2563,
+          "approx_tokens": 640
+        },
+        "aktie_basisdaten": {
+          "chars": 4988,
+          "approx_tokens": 1247
+        },
+        "verguetung": {
+          "chars": 7707,
+          "approx_tokens": 1926
+        },
+        "lagebericht_strategie": {
+          "chars": 7006,
+          "approx_tokens": 1751
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4320,
+          "approx_tokens": 1080
+        },
+        "mehrjahresvergleich": {
+          "chars": 2563,
+          "approx_tokens": 640
+        },
+        "aktie_basisdaten": {
+          "chars": 4873,
+          "approx_tokens": 1218
+        },
+        "verguetung": {
+          "chars": 7132,
+          "approx_tokens": 1783
+        },
+        "lagebericht_strategie": {
+          "chars": 7414,
+          "approx_tokens": 1853
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4329,
+          "approx_tokens": 1082
+        },
+        "mehrjahresvergleich": {
+          "chars": 2534,
+          "approx_tokens": 633
+        },
+        "aktie_basisdaten": {
+          "chars": 4432,
+          "approx_tokens": 1108
+        },
+        "verguetung": {
+          "chars": 7172,
+          "approx_tokens": 1793
+        },
+        "lagebericht_strategie": {
+          "chars": 7051,
+          "approx_tokens": 1762
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4415,
+          "approx_tokens": 1103
+        },
+        "mehrjahresvergleich": {
+          "chars": 2588,
+          "approx_tokens": 647
+        },
+        "aktie_basisdaten": {
+          "chars": 4472,
+          "approx_tokens": 1118
+        },
+        "verguetung": {
+          "chars": 7470,
+          "approx_tokens": 1867
+        },
+        "lagebericht_strategie": {
+          "chars": 7410,
+          "approx_tokens": 1852
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8462,
+          "approx_tokens": 2115
+        },
+        "erfolgsrechnung": {
+          "chars": 4790,
+          "approx_tokens": 1197
+        },
+        "mehrjahresvergleich": {
+          "chars": 4618,
+          "approx_tokens": 1154
+        },
+        "aktie_basisdaten": {
+          "chars": 3747,
+          "approx_tokens": 936
+        },
+        "verguetung": {
+          "chars": 6395,
+          "approx_tokens": 1598
+        },
+        "lagebericht_strategie": {
+          "chars": 7181,
+          "approx_tokens": 1795
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8579,
+          "approx_tokens": 2144
+        },
+        "erfolgsrechnung": {
+          "chars": 5098,
+          "approx_tokens": 1274
+        },
+        "mehrjahresvergleich": {
+          "chars": 4843,
+          "approx_tokens": 1210
+        },
+        "verguetung": {
+          "chars": 5884,
+          "approx_tokens": 1471
+        },
+        "lagebericht_strategie": {
+          "chars": 7486,
+          "approx_tokens": 1871
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9249,
+          "approx_tokens": 2312
+        },
+        "erfolgsrechnung": {
+          "chars": 4687,
+          "approx_tokens": 1171
+        },
+        "mehrjahresvergleich": {
+          "chars": 5047,
+          "approx_tokens": 1261
+        },
+        "verguetung": {
+          "chars": 5799,
+          "approx_tokens": 1449
+        },
+        "lagebericht_strategie": {
+          "chars": 7110,
+          "approx_tokens": 1777
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9440,
+          "approx_tokens": 2360
+        },
+        "erfolgsrechnung": {
+          "chars": 4644,
+          "approx_tokens": 1161
+        },
+        "mehrjahresvergleich": {
+          "chars": 4440,
+          "approx_tokens": 1110
+        },
+        "verguetung": {
+          "chars": 5680,
+          "approx_tokens": 1420
+        },
+        "lagebericht_strategie": {
+          "chars": 7335,
+          "approx_tokens": 1833
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8955,
+          "approx_tokens": 2238
+        },
+        "erfolgsrechnung": {
+          "chars": 4613,
+          "approx_tokens": 1153
+        },
+        "mehrjahresvergleich": {
+          "chars": 5797,
+          "approx_tokens": 1449
+        },
+        "verguetung": {
+          "chars": 5931,
+          "approx_tokens": 1482
+        },
+        "lagebericht_strategie": {
+          "chars": 7223,
+          "approx_tokens": 1805
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2532,
+          "approx_tokens": 633
+        },
+        "erfolgsrechnung": {
+          "chars": 4960,
+          "approx_tokens": 1240
+        },
+        "lagebericht_strategie": {
+          "chars": 4644,
+          "approx_tokens": 1161
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2683,
+          "approx_tokens": 670
+        },
+        "erfolgsrechnung": {
+          "chars": 4734,
+          "approx_tokens": 1183
+        },
+        "lagebericht_strategie": {
+          "chars": 4483,
+          "approx_tokens": 1120
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2692,
+          "approx_tokens": 673
+        },
+        "erfolgsrechnung": {
+          "chars": 4709,
+          "approx_tokens": 1177
+        },
+        "lagebericht_strategie": {
+          "chars": 4099,
+          "approx_tokens": 1024
+        }
+      }
+    },
+    {
+      "stem": "migrosbank-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2684,
+          "approx_tokens": 671
+        },
+        "erfolgsrechnung": {
+          "chars": 4699,
+          "approx_tokens": 1174
+        },
+        "lagebericht_strategie": {
+          "chars": 4223,
+          "approx_tokens": 1055
+        }
+      }
+    }
+  ]
+}

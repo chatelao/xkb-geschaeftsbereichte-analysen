@@ -9,7 +9,7 @@ COMP_DIR = ROOT / "comparison"
 def test_all_8_banks_reports_and_charts():
     for b in VALID_BANKS:
         assert (ROOT / b / "bank_config.yaml").exists()
-        assert len(list((ROOT / b / "reports").glob("0*.md"))) == 7, f"{b} hat keine 7 Berichte"
+        assert len(list((ROOT / b / "reports").glob("[01]*.md"))) == 10, f"{b} hat keine 10 Berichte"
         assert len(list((ROOT / b / "reports" / "charts").glob("*.png"))) == 13, f"{b} hat keine 13 Grafiken"
 
 

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "slm-offenlegungsbericht-2025",
+    "report_type": "offenlegung_fy",
+    "year": 2025,
+    "period": "FY2025",
+    "part": null,
+    "bank_id": "slm",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/slm-offenlegungsbericht-2025.md",
+    "total_chars": 5986,
+    "total_lines": 79
+  },
+  "backend": "local",
+  "metrics": {}
+}

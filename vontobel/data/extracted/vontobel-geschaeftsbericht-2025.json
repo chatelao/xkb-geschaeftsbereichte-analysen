@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "stem": "vontobel-geschaeftsbericht-2025",
+    "report_type": "annual",
+    "year": 2025,
+    "period": "FY2025",
+    "part": null,
+    "bank_id": "vontobel",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vontobel-geschaeftsbericht-2025.md",
+    "total_chars": 729945,
+    "total_lines": 8777
+  },
+  "backend": "local",
+  "metrics": {
+    "total_operating_income": {
+      "value_current": 1431.5,
+      "value_prior_year": 1422.5,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Operating income|1,431.5|1,422.5|1,309.6|1,285.1|1,535.6|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 1067.9,
+      "value_prior_year": 1068.7,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Operating expense|1,067.9|1,068.7|1,041.9|1,017.7|1,068.4|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 34737.4,
+      "value_prior_year": 32860.9,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total assets|34,737.4|32,860.9|29,146.0|30,509.2|32,397.9|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 12672.1,
+      "value_prior_year": 11353.4,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Customer deposits|12,672.1|11,353.4|9,951.5|13,240.9|14,793.3|",
+      "chunk_name": "bilanz"
+    },
+    "assets_under_management": {
+      "value_current": 240.7,
+      "value_prior_year": 229.1,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Assets under management|240.7|229.1|206.8|204.4|243.7|",
+      "chunk_name": "bilanz"
+    },
+    "net_new_money": {
+      "value_current": 4.2,
+      "value_prior_year": 2.6,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Net new money|4.2|2.6|-3.5|-5.2|8.1|",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 2310.0,
+      "value_prior_year": 2264.4,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total number of employees**|**2,310.0**|**2,264.4**|**2,274.8**|**2,214.4**|**2,109.3**|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1603.4,
+      "value_prior_year": 866.9,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Financial investments|13|1,603.4|866.9|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 2478.7,
+      "value_prior_year": 2230.6,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total equity**||**2,478.7**|**2,230.6**|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 81.0,
+      "value_prior_year": 115.4,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Net interest and dividend income**|1|**81.0**|**115.4**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 851.2,
+      "value_prior_year": 835.8,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Net fee and commission income**|2|**851.2**|**835.8**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": 705.8,
+      "value_prior_year": 695.7,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personnel expense|5|705.8|695.7|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "net_profit": {
+      "value_current": 261.8,
+      "value_prior_year": 252.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Net profit|261.8|252.0|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

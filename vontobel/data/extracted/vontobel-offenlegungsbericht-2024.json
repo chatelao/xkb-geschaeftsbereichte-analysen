@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "stem": "vontobel-offenlegungsbericht-2024",
+    "report_type": "offenlegung_fy",
+    "year": 2024,
+    "period": "FY2024",
+    "part": null,
+    "bank_id": "vontobel",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/vontobel-offenlegungsbericht-2024.md",
+    "total_chars": 73017,
+    "total_lines": 1051
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 1210323.0,
+      "value_prior_year": 1220136.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Common Equity Tier 1 (CET1)|1,210,323||1,266,290||1,220,136|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 1574947.0,
+      "value_prior_year": 1552333.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Tier 1 Capital (T1)|1,574,947||1,629,797||1,552,333|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 7518561.0,
+      "value_prior_year": 6523903.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|Total risk-weighted assets (RWA)|7,518,561||6,918,455||6,523,903|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 21.0,
+      "value_prior_year": 23.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Total capital ratio (%)|21.0 %||23.6 %||23.8 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 4.8,
+      "value_prior_year": 5.4,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14|Basel III leverage ratio (Tier 1 capital % of the total exposure)|4.8 %||4.9 %||5.4 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

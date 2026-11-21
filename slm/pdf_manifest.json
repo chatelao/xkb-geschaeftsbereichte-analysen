@@ -1,0 +1,177 @@
+[
+  {
+    "filename": "slm-geschaeftsbericht-2012.pdf",
+    "url": "https://bankslm.ch/app/uploads/2017/07/Geschaeftsbericht_2012.pdf",
+    "status": "cached",
+    "bytes": 3649537,
+    "sha256": "ff8b8ec87fe5bcd8bda5be917fb26b4961b9af8ed8e93b889d54f79d81b1d396"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2013.pdf",
+    "url": "https://bankslm.ch/app/uploads/2017/07/Gesch%C3%A4ftsbericht_2013.pdf",
+    "status": "downloaded",
+    "bytes": 3786290,
+    "sha256": "67244bf052f1dbdc1eccefb55bc820ac6f93fce40cbd49e7bff134502a34edd9"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2014.pdf",
+    "url": "https://bankslm.ch/app/uploads/2017/07/Gesch%C3%A4ftsbericht_2014.pdf",
+    "status": "downloaded",
+    "bytes": 3083709,
+    "sha256": "5e4524a5a4f18296d8fa0a16076c1df4da94d31fc46b34a800f741e7455c37c9"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2015.pdf",
+    "url": "https://bankslm.ch/app/uploads/2017/07/Geschaeftsbericht2015.pdf",
+    "status": "downloaded",
+    "bytes": 1919401,
+    "sha256": "43c9f4ef7042d02b2c69ddd957b4a37fea61d0c9c67d252ce47ec7efe94656f5"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2016.pdf",
+    "url": "https://bankslm.ch/app/uploads/2017/07/slm_GB_2016_Langversion_web01-1.pdf",
+    "status": "downloaded",
+    "bytes": 5878265,
+    "sha256": "5e33b0da8428c43c1febefd377a98f28138cac4645fab43d1adfe8e71234b1f2"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2017.pdf",
+    "url": "https://bankslm.ch/app/uploads/2018/03/Gesch%C3%A4ftsbericht-2017.pdf",
+    "status": "downloaded",
+    "bytes": 3185100,
+    "sha256": "42b14f0ba555fe0f412e1f80842f7410694edda1ce4945729d2a95719d34459d"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2018.pdf",
+    "url": "https://bankslm.ch/app/uploads/2019/03/slm_GB_2018_Langversion_web02_es.pdf",
+    "status": "downloaded",
+    "bytes": 7551624,
+    "sha256": "e6050aeb60b74e5dec8f531794b611e39807bf8fc7ecc85b96f43f3aeb3cb609"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2019.pdf",
+    "url": "https://bankslm.ch/app/uploads/2020/03/slm_GB_2019_Langversion_web01.pdf",
+    "status": "cached",
+    "bytes": 1537731,
+    "sha256": "906950b2274dccf2dfb646c4bc4ee891ab18c8c3291eaa59c1a90ca9257e9bee"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2020.pdf",
+    "url": "https://bankslm.ch/app/uploads/2021/03/slm_GB_2020_Langversion_web01.pdf",
+    "status": "cached",
+    "bytes": 2284217,
+    "sha256": "6d6f097dc3ee08b3f61fe2fdcd511ee6584eaafb46e3089a7867b058653fb2dc"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2021.pdf",
+    "url": "https://bankslm.ch/app/uploads/2022/03/slm_GB_2021_Langversion_web01.pdf",
+    "status": "cached",
+    "bytes": 2564134,
+    "sha256": "0ff25bb517a40c6f7c2c38cdac79d900c33c63dceb9c8fdd3e6405ce44a16465"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2022.pdf",
+    "url": "https://bankslm.ch/app/uploads/2023/03/slm_GB_2022_Langversion_web03.pdf",
+    "status": "cached",
+    "bytes": 2502877,
+    "sha256": "13e089a4d1b5631ecf08206e833473eceefb009d272ff951bd383ea64f2a306c"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2023.pdf",
+    "url": "https://bankslm.ch/app/uploads/2024/03/slm_GB_2023_Langversion_web01.pdf",
+    "status": "cached",
+    "bytes": 1366047,
+    "sha256": "c1c38ef02cbfd044810ac47dc2c42dd6dc22ee9a9a8c553989ef0db1603cf27c"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2024.pdf",
+    "url": "https://bankslm.ch/app/uploads/2025/03/slm_GB_2024_Langversion_web01.pdf",
+    "status": "cached",
+    "bytes": 6009942,
+    "sha256": "2a874e7fcf2f82e32f7acec9bf943e5d1759f7b478c98581c13516b894d5ce5e"
+  },
+  {
+    "filename": "slm-geschaeftsbericht-2025.pdf",
+    "url": "https://bankslm.ch/app/uploads/2026/03/slm_GB_2025_Langversion_web.pdf",
+    "status": "cached",
+    "bytes": 3441740,
+    "sha256": "c3986be7c0da13e6377f02122e6c18f92b4c0d110adedff7a9a99cfaa8de0d65"
+  },
+  {
+    "filename": "slm-offenlegungsbericht-06-2026.pdf",
+    "url": "https://bankslm.ch/app/uploads/2026/08/slm_Offenlegung_01.06.2026_web.pdf",
+    "status": "cached",
+    "bytes": 1554127,
+    "sha256": "8be9d38277100d74d63335e05bf4f0c472f1cd935349afa6f766550499ac3511"
+  },
+  {
+    "filename": "slm-offenlegungsbericht-2020.pdf",
+    "url": "https://bankslm.ch/app/uploads/2021/02/slm_Offenlegung_2020_web.pdf",
+    "status": "cached",
+    "bytes": 91435,
+    "sha256": "3c2f461c19a90b4eeff8aa0fecb29531c642f25e165ab49a6c7a2bbba9f6f3ee"
+  },
+  {
+    "filename": "slm-offenlegungsbericht-2021.pdf",
+    "url": "https://bankslm.ch/app/uploads/2023/03/slm_Offenlegung_2021_ew01.pdf",
+    "status": "cached",
+    "bytes": 83492,
+    "sha256": "c5e5cb7429369a5c9208a1cf997c1d9e63157906676356b62e08dadcb45feea1"
+  },
+  {
+    "filename": "slm-offenlegungsbericht-2022.pdf",
+    "url": "https://bankslm.ch/app/uploads/2023/03/slm_Offenlegung_31.12.2022_rz02_web-1.pdf",
+    "status": "cached",
+    "bytes": 80837,
+    "sha256": "32588e0c856cd039f0c6a9f382a2d7155b4f744d1408778984ff04a9fbb655e2"
+  },
+  {
+    "filename": "slm-offenlegungsbericht-2023.pdf",
+    "url": "https://bankslm.ch/app/uploads/2024/03/slm_Offenlegung_31.12.2023_web01.pdf",
+    "status": "cached",
+    "bytes": 95570,
+    "sha256": "dad6de0fd4e185628999a8d55ede4b5e31ef6619ab2c3b2a198dd1a263eeaf00"
+  },
+  {
+    "filename": "slm-offenlegungsbericht-2024.pdf",
+    "url": "https://bankslm.ch/app/uploads/2025/03/slm_Offenlegung_2024_web02.pdf",
+    "status": "cached",
+    "bytes": 1555276,
+    "sha256": "db9afcf011043b13b345c830a5e976f888be67df793f1cc3be0adfdd546b989b"
+  },
+  {
+    "filename": "slm-offenlegungsbericht-2025.pdf",
+    "url": "https://bankslm.ch/app/uploads/2026/08/Offenlegung-31.12.2025.pdf",
+    "status": "cached",
+    "bytes": 188525,
+    "sha256": "285af249a9f2f04ab97cf2e0afe91dbb36e13c2f0c385150d40c17800b27c7b8"
+  },
+  {
+    "filename": "slm-semesterbericht-2021.pdf",
+    "url": "https://bankslm.ch/app/uploads/2021/09/Geschaeftsbericht_30.06.2021.pdf",
+    "status": "cached",
+    "bytes": 126067,
+    "sha256": "b963c90ddb3a1a9c61b95a0a37f44cd19c5edee1dfeadd0aaef9f2f4acf2c22d"
+  },
+  {
+    "filename": "slm-semesterbericht-2022.pdf",
+    "url": "https://bankslm.ch/app/uploads/2017/05/Halbjahresabschluss-2022.pdf",
+    "status": "cached",
+    "bytes": 156583,
+    "sha256": "e2890cfaf6b282911265d865a194943c4faf3e87f72cb78b60d8d7ac887d218a"
+  },
+  {
+    "filename": "slm-semesterbericht-2024.pdf",
+    "url": "https://bankslm.ch/app/uploads/2017/05/Geschaeftsbericht-Halbjahresabschluss-2024.pdf",
+    "status": "cached",
+    "bytes": 177329,
+    "sha256": "b1e4dbb16b76333e6cce890fd5add2614800d41c3bb8bbc6f729e1823ad15575"
+  },
+  {
+    "filename": "slm-semesterbericht-2025.pdf",
+    "url": "https://bankslm.ch/app/uploads/2025/08/Geschaeftsbericht_30.06.2025.pdf",
+    "status": "cached",
+    "bytes": 730902,
+    "sha256": "ec16b11e595ca4bd05ee0cf0b065550127a37d40bd64f0b1d5a21a803b6df729"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "filename": "vontobel-geschaeftsbericht-2020.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2020/ar/2021-02-11_fr_full-year-report_en.pdf",
+    "status": "downloaded",
+    "bytes": 3944663,
+    "sha256": "ac72383dba51323986519ebe5289ae4c195c072c8c56ee7aa4cc8ef0cdb19ab0"
+  },
+  {
+    "filename": "vontobel-geschaeftsbericht-2024.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2024/fyr/full-year-report-2024_en-mjayntaymdc.pdf",
+    "status": "cached",
+    "bytes": 8594551,
+    "sha256": "6ef1a0b48e9f40af9d095f7c6c8d8d0ff2c8b6f114109169d45c325c7e2d2a1e"
+  },
+  {
+    "filename": "vontobel-geschaeftsbericht-2025.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2025/fyr/full-year-report-2025_en-mjaynjaymdy.pdf",
+    "status": "cached",
+    "bytes": 6713023,
+    "sha256": "69955dd197f7b22868b8ae174fd8a2f50162028dbac6185c602d58b91b8f8d72"
+  },
+  {
+    "filename": "vontobel-offenlegungsbericht-06-2025.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2025/hyr/disclosures_vontobel_hy2025.pdf",
+    "status": "cached",
+    "bytes": 541850,
+    "sha256": "8f6c0a5fb58fbc491732fd300d1db384e78e17bc2d45a362964f8f72da7f7497"
+  },
+  {
+    "filename": "vontobel-offenlegungsbericht-06-2026.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2026/hyr/disclosures_vontobel_hy2026.pdf",
+    "status": "cached",
+    "bytes": 512138,
+    "sha256": "58d7dcac25d9615ea6c92281f4e394f8ded0d05216a2ac7bba0267c117d33323"
+  },
+  {
+    "filename": "vontobel-offenlegungsbericht-2023.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2023/bvt_disclosure-report-2023_en.pdf",
+    "status": "cached",
+    "bytes": 312577,
+    "sha256": "d1a67e3c5f357704a84eb0d1f534c90b6148f6541e2363ce408deebd26d57153"
+  },
+  {
+    "filename": "vontobel-offenlegungsbericht-2024.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2024/disclosure-report-2024_en_final-1.pdf",
+    "status": "cached",
+    "bytes": 315784,
+    "sha256": "b63373ee8f9279b2dac4be2ca6471f8b3d1eab5da570b0192c26b87e8b08a80b"
+  },
+  {
+    "filename": "vontobel-offenlegungsbericht-2025.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2025/fyr/disclosures_vontobel_fy2025.pdf",
+    "status": "cached",
+    "bytes": 1243881,
+    "sha256": "947ee69d2da335f519c8cd156deddb989e604e75c09abc4443d93ac19bc918a4"
+  },
+  {
+    "filename": "vontobel-semesterbericht-2023.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2023/hyr/2023-07-27_hyr2023_half-year-report_en.pdf",
+    "status": "cached",
+    "bytes": 1479170,
+    "sha256": "fc4d7ac1cbf446e2324a78c4940b20967dbada30655361f97de910290aebdc0a"
+  },
+  {
+    "filename": "vontobel-semesterbericht-2024.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2024/hyr/half-year-report-2024_en-mjaynda3mjy.pdf",
+    "status": "cached",
+    "bytes": 2729984,
+    "sha256": "5e0f78f8d4536cc1bea8f4957967dbe480abadd35daede639295797793b6e213"
+  },
+  {
+    "filename": "vontobel-semesterbericht-2025.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2025/hyr/half-year-report-2025_en-mjaynta3mjq.pdf",
+    "status": "cached",
+    "bytes": 3843547,
+    "sha256": "e81a8e84585688a13efa074244f85a56e60c07bd40f7529acb6586ca0b5c9505"
+  },
+  {
+    "filename": "vontobel-semesterbericht-2026.pdf",
+    "url": "https://www.vontobel.com/siteassets/about-vontobel/investor-relations/reports--presentations/2026/hyr/hyr2026-halfyear-report_en-mjaynja3mjq.pdf",
+    "status": "cached",
+    "bytes": 7706057,
+    "sha256": "13e76cbb5419abafd17de8214c61c4712707cf8f8afaef3a8d28a2bfce447926"
+  }
+]

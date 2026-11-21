@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "stem": "slm-offenlegungsbericht-2021",
+    "report_type": "offenlegung_fy",
+    "year": 2021,
+    "period": "FY2021",
+    "part": null,
+    "bank_id": "slm",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/slm-offenlegungsbericht-2021.md",
+    "total_chars": 6246,
+    "total_lines": 86
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 149788.0,
+      "value_prior_year": 143477.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hartes Kernkapital(CET1)|149’788|143’477|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 149788.0,
+      "value_prior_year": 143477.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Kernkapital(T1)|149’788|143’477|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 157628.0,
+      "value_prior_year": 151317.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Gesamtkapital total|157’628|151’317|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 8.7,
+      "value_prior_year": 8.63,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Vereinfachte Leverage Ratio|8.70 %|8.63 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

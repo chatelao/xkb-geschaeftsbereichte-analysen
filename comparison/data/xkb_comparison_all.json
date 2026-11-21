@@ -7,10 +7,18 @@
     "gekb",
     "raiffeisen",
     "postfinance",
-    "ubs"
+    "ubs",
+    "eks",
+    "slm",
+    "aek",
+    "migrosbank",
+    "vontobel",
+    "pictet",
+    "entris",
+    "valiant"
   ],
-  "annual_rows": 126,
-  "semester_rows": 98,
-  "offenlegung_rows": 230,
-  "verguetung_rows": 126
+  "annual_rows": 210,
+  "semester_rows": 124,
+  "offenlegung_rows": 249,
+  "verguetung_rows": 210
 }

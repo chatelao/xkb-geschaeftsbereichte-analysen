@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "eks-geschaeftsbericht-2007",
+    "report_type": "annual",
+    "year": 2007,
+    "period": "FY2007",
+    "part": null,
+    "bank_id": "eks",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/eks-geschaeftsbericht-2007.md",
+    "total_chars": 63881,
+    "total_lines": 702
+  },
+  "backend": "local",
+  "metrics": {}
+}

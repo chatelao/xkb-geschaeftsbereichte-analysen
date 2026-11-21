@@ -1,0 +1,135 @@
+{
+  "bank_id": "entris",
+  "total_reports": 5,
+  "reports": [
+    {
+      "stem": "entris-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6826,
+          "approx_tokens": 1706
+        },
+        "erfolgsrechnung": {
+          "chars": 4207,
+          "approx_tokens": 1051
+        },
+        "mehrjahresvergleich": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "verguetung": {
+          "chars": 2402,
+          "approx_tokens": 600
+        },
+        "lagebericht_strategie": {
+          "chars": 7039,
+          "approx_tokens": 1759
+        }
+      }
+    },
+    {
+      "stem": "entris-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7113,
+          "approx_tokens": 1778
+        },
+        "erfolgsrechnung": {
+          "chars": 4209,
+          "approx_tokens": 1052
+        },
+        "verguetung": {
+          "chars": 2398,
+          "approx_tokens": 599
+        },
+        "lagebericht_strategie": {
+          "chars": 7079,
+          "approx_tokens": 1769
+        }
+      }
+    },
+    {
+      "stem": "entris-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6740,
+          "approx_tokens": 1685
+        },
+        "erfolgsrechnung": {
+          "chars": 3999,
+          "approx_tokens": 999
+        },
+        "verguetung": {
+          "chars": 2462,
+          "approx_tokens": 615
+        },
+        "lagebericht_strategie": {
+          "chars": 7290,
+          "approx_tokens": 1822
+        }
+      }
+    },
+    {
+      "stem": "entris-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7720,
+          "approx_tokens": 1930
+        },
+        "erfolgsrechnung": {
+          "chars": 3881,
+          "approx_tokens": 970
+        },
+        "verguetung": {
+          "chars": 2053,
+          "approx_tokens": 513
+        },
+        "lagebericht_strategie": {
+          "chars": 7189,
+          "approx_tokens": 1797
+        }
+      }
+    },
+    {
+      "stem": "entris-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6791,
+          "approx_tokens": 1697
+        },
+        "erfolgsrechnung": {
+          "chars": 4076,
+          "approx_tokens": 1019
+        },
+        "verguetung": {
+          "chars": 1814,
+          "approx_tokens": 453
+        },
+        "lagebericht_strategie": {
+          "chars": 7649,
+          "approx_tokens": 1912
+        }
+      }
+    }
+  ]
+}

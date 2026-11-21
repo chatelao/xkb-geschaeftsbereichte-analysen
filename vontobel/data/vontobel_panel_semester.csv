@@ -1,0 +1,5 @@
+bank_id,year,period,report_type,report_file,currency_orig,shareholders_equity_mio,customer_deposits_mio,net_interest_income_mio,total_assets_mio,personnel_expenses_mio,financial_investments_mio,assets_under_management_mio,total_operating_income_mio,fte_count,commission_income_mio,total_operating_expenses_mio,self_healed_fields,net_new_money_mio
+vontobel,2023,H1-2023,semester,.md/vontobel-semesterbericht-2023.md,CHF,2.008,11.454,0.095,32.062,0.362,1.61,211.9,0.696,2220.6,0.415,0.546,,
+vontobel,2024,H1-2024,semester,.md/vontobel-semesterbericht-2024.md,CHF,2.163,10.967,0.062,33.123,0.362,0.997,225.9,0.728,2277.6,0.411,0.554,,2.3
+vontobel,2025,H1-2025,semester,.md/vontobel-semesterbericht-2025.md,CHF,2.235,12.339,0.044,35.468,0.355,1.346,233.3,0.689,2302.1,0.419,0.541,,
+vontobel,2026,H1-2026,semester,.md/vontobel-semesterbericht-2026.md,CHF,2.642,13.025,0.055,38.29,0.398,1.803,252.2,0.852,2279.1,0.449,0.579,,2.5

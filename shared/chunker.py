@@ -26,8 +26,8 @@ DEFAULT_ANCHORS = {
     ],
     "erfolgsrechnung": [
         r"Zins- und Diskontertrag|Subtotal (?:Netto-)?Erfolg Zinsengeschäft|Netto-?Erfolg aus dem Zinsengeschäft|^\|\*\*Erfolg aus dem Zinsengeschäft",
-        r"Résultat net des opérations d'intérêts|Produits des intérêts|Net interest income",
-        r"Erfolg aus dem Kommissions|Kommissions- und Dienstleistungsgeschäft|Résultat des opérations de commissions|Net fee and commission income",
+        r"Résultat net des opérations d'intérêts|Produits des intérêts|Net interest income|Subtotal net result from interest operations",
+        r"Erfolg aus dem Kommissions|Kommissions- und Dienstleistungsgeschäft|Résultat des opérations de commissions|Net fee and commission income|Subtotal operating income",
     ],
     "mehrjahresvergleich": [
         r"Personalbestand|Vollzeitstellen|Effectif du personnel|Full-time equivalents|Employees",

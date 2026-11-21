@@ -1,0 +1,286 @@
+{
+  "bank_id": "vontobel",
+  "total_reports": 12,
+  "reports": [
+    {
+      "stem": "vontobel-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 8508,
+          "approx_tokens": 2127
+        },
+        "mehrjahresvergleich": {
+          "chars": 4203,
+          "approx_tokens": 1050
+        },
+        "aktie_basisdaten": {
+          "chars": 2368,
+          "approx_tokens": 592
+        },
+        "betreute_vermoegen": {
+          "chars": 4003,
+          "approx_tokens": 1000
+        },
+        "verguetung": {
+          "chars": 6514,
+          "approx_tokens": 1628
+        },
+        "lagebericht_strategie": {
+          "chars": 7377,
+          "approx_tokens": 1844
+        }
+      }
+    },
+    {
+      "stem": "vontobel-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4703,
+          "approx_tokens": 1175
+        },
+        "mehrjahresvergleich": {
+          "chars": 4448,
+          "approx_tokens": 1112
+        },
+        "aktie_basisdaten": {
+          "chars": 2478,
+          "approx_tokens": 619
+        },
+        "betreute_vermoegen": {
+          "chars": 2278,
+          "approx_tokens": 569
+        },
+        "verguetung": {
+          "chars": 5569,
+          "approx_tokens": 1392
+        },
+        "lagebericht_strategie": {
+          "chars": 7293,
+          "approx_tokens": 1823
+        }
+      }
+    },
+    {
+      "stem": "vontobel-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3949,
+          "approx_tokens": 987
+        },
+        "mehrjahresvergleich": {
+          "chars": 7017,
+          "approx_tokens": 1754
+        },
+        "aktie_basisdaten": {
+          "chars": 2510,
+          "approx_tokens": 627
+        },
+        "betreute_vermoegen": {
+          "chars": 2025,
+          "approx_tokens": 506
+        },
+        "verguetung": {
+          "chars": 8354,
+          "approx_tokens": 2088
+        },
+        "lagebericht_strategie": {
+          "chars": 7537,
+          "approx_tokens": 1884
+        }
+      }
+    },
+    {
+      "stem": "vontobel-offenlegungsbericht-06-2025",
+      "report_type": "offenlegung_h1",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3422,
+          "approx_tokens": 855
+        }
+      }
+    },
+    {
+      "stem": "vontobel-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3557,
+          "approx_tokens": 889
+        }
+      }
+    },
+    {
+      "stem": "vontobel-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3476,
+          "approx_tokens": 869
+        }
+      }
+    },
+    {
+      "stem": "vontobel-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 3504,
+          "approx_tokens": 876
+        }
+      }
+    },
+    {
+      "stem": "vontobel-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "ov1_rwa": {
+          "chars": 4564,
+          "approx_tokens": 1141
+        }
+      }
+    },
+    {
+      "stem": "vontobel-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4235,
+          "approx_tokens": 1058
+        },
+        "erfolgsrechnung": {
+          "chars": 4901,
+          "approx_tokens": 1225
+        },
+        "lagebericht_strategie": {
+          "chars": 5520,
+          "approx_tokens": 1380
+        }
+      }
+    },
+    {
+      "stem": "vontobel-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4172,
+          "approx_tokens": 1043
+        },
+        "erfolgsrechnung": {
+          "chars": 4996,
+          "approx_tokens": 1249
+        },
+        "lagebericht_strategie": {
+          "chars": 5507,
+          "approx_tokens": 1376
+        }
+      }
+    },
+    {
+      "stem": "vontobel-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4708,
+          "approx_tokens": 1177
+        },
+        "erfolgsrechnung": {
+          "chars": 4489,
+          "approx_tokens": 1122
+        },
+        "lagebericht_strategie": {
+          "chars": 5667,
+          "approx_tokens": 1416
+        }
+      }
+    },
+    {
+      "stem": "vontobel-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4782,
+          "approx_tokens": 1195
+        },
+        "erfolgsrechnung": {
+          "chars": 4779,
+          "approx_tokens": 1194
+        },
+        "lagebericht_strategie": {
+          "chars": 5707,
+          "approx_tokens": 1426
+        }
+      }
+    }
+  ]
+}

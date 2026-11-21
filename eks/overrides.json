@@ -1,0 +1,18 @@
+{
+  "annual": {
+    "2007": {"total_assets": 65.743, "shareholders_equity": 7.266, "net_interest_income": 0.893, "total_operating_income": 0.913, "total_operating_expenses": 0.506, "operating_profit": 0.407, "net_profit": 0.230},
+    "2008": {"total_assets": 70.464, "shareholders_equity": 7.538, "net_interest_income": 0.804, "commission_income": 0.006, "total_operating_income": 0.822, "total_operating_expenses": 0.512, "operating_profit": 0.310, "net_profit": 0.237},
+    "2009": {"total_assets": 72.043, "shareholders_equity": 7.796, "customer_deposits": 63.695, "net_interest_income": 0.906, "commission_income": 0.003, "total_operating_income": 0.923, "total_operating_expenses": 0.563, "operating_profit": 0.360, "net_profit": 0.243},
+    "2010": {"total_assets": 73.084, "shareholders_equity": 8.137, "customer_deposits": 64.423, "net_interest_income": 0.935, "commission_income": 0.006, "total_operating_income": 0.948, "total_operating_expenses": 0.528, "operating_profit": 0.420, "net_profit": 0.241},
+    "2011": {"total_assets": 73.525, "shareholders_equity": 8.425, "customer_deposits": 64.560, "net_interest_income": 0.922, "commission_income": 0.005, "total_operating_income": 0.940, "total_operating_expenses": 0.559, "operating_profit": 0.380, "net_profit": 0.213},
+    "2012": {"total_assets": 73.426, "shareholders_equity": 8.666, "customer_deposits": 64.219, "net_interest_income": 0.851, "commission_income": 0.007, "total_operating_income": 0.872, "total_operating_expenses": 0.552, "operating_profit": 0.320, "net_profit": 0.191},
+    "2013": {"total_assets": 74.710, "shareholders_equity": 8.812, "customer_deposits": 65.306, "net_interest_income": 0.786, "commission_income": 0.008, "total_operating_income": 0.809, "total_operating_expenses": 0.576, "operating_profit": 0.232, "net_profit": 0.146},
+    "2019": {"shareholders_equity": 9.571, "fte_count": 4.0},
+    "2020": {"shareholders_equity": 9.732, "fte_count": 4.0},
+    "2021": {"shareholders_equity": 9.845, "fte_count": 4.0},
+    "2022": {"shareholders_equity": 9.957, "fte_count": 4.0},
+    "2023": {"shareholders_equity": 10.089, "fte_count": 4.0},
+    "2024": {"shareholders_equity": 10.276, "fte_count": 4.0},
+    "2025": {"shareholders_equity": 10.498, "fte_count": 4.0}
+  }
+}

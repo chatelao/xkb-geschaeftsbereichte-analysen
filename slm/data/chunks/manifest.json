@@ -1,0 +1,499 @@
+{
+  "bank_id": "slm",
+  "total_reports": 25,
+  "reports": [
+    {
+      "stem": "slm-geschaeftsbericht-2012",
+      "report_type": "annual",
+      "year": 2012,
+      "period": "FY2012",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "mehrjahresvergleich": {
+          "chars": 4692,
+          "approx_tokens": 1173
+        },
+        "lagebericht_strategie": {
+          "chars": 7202,
+          "approx_tokens": 1800
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2013",
+      "report_type": "annual",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "mehrjahresvergleich": {
+          "chars": 9425,
+          "approx_tokens": 2356
+        },
+        "lagebericht_strategie": {
+          "chars": 54952,
+          "approx_tokens": 13738
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6584,
+          "approx_tokens": 1646
+        },
+        "erfolgsrechnung": {
+          "chars": 3175,
+          "approx_tokens": 793
+        },
+        "mehrjahresvergleich": {
+          "chars": 2969,
+          "approx_tokens": 742
+        },
+        "lagebericht_strategie": {
+          "chars": 7041,
+          "approx_tokens": 1760
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9001,
+          "approx_tokens": 2250
+        },
+        "erfolgsrechnung": {
+          "chars": 3882,
+          "approx_tokens": 970
+        },
+        "mehrjahresvergleich": {
+          "chars": 4476,
+          "approx_tokens": 1119
+        },
+        "lagebericht_strategie": {
+          "chars": 7378,
+          "approx_tokens": 1844
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6241,
+          "approx_tokens": 1560
+        },
+        "erfolgsrechnung": {
+          "chars": 3949,
+          "approx_tokens": 987
+        },
+        "mehrjahresvergleich": {
+          "chars": 3647,
+          "approx_tokens": 911
+        },
+        "lagebericht_strategie": {
+          "chars": 7010,
+          "approx_tokens": 1752
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6060,
+          "approx_tokens": 1515
+        },
+        "erfolgsrechnung": {
+          "chars": 3958,
+          "approx_tokens": 989
+        },
+        "lagebericht_strategie": {
+          "chars": 7059,
+          "approx_tokens": 1764
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6676,
+          "approx_tokens": 1669
+        },
+        "erfolgsrechnung": {
+          "chars": 4142,
+          "approx_tokens": 1035
+        },
+        "mehrjahresvergleich": {
+          "chars": 3595,
+          "approx_tokens": 898
+        },
+        "lagebericht_strategie": {
+          "chars": 7204,
+          "approx_tokens": 1801
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6204,
+          "approx_tokens": 1551
+        },
+        "erfolgsrechnung": {
+          "chars": 3041,
+          "approx_tokens": 760
+        },
+        "lagebericht_strategie": {
+          "chars": 7238,
+          "approx_tokens": 1809
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6266,
+          "approx_tokens": 1566
+        },
+        "erfolgsrechnung": {
+          "chars": 2978,
+          "approx_tokens": 744
+        },
+        "lagebericht_strategie": {
+          "chars": 8191,
+          "approx_tokens": 2047
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6284,
+          "approx_tokens": 1571
+        },
+        "erfolgsrechnung": {
+          "chars": 2642,
+          "approx_tokens": 660
+        },
+        "lagebericht_strategie": {
+          "chars": 7081,
+          "approx_tokens": 1770
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6406,
+          "approx_tokens": 1601
+        },
+        "erfolgsrechnung": {
+          "chars": 2602,
+          "approx_tokens": 650
+        },
+        "lagebericht_strategie": {
+          "chars": 7239,
+          "approx_tokens": 1809
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6319,
+          "approx_tokens": 1579
+        },
+        "erfolgsrechnung": {
+          "chars": 2655,
+          "approx_tokens": 663
+        },
+        "lagebericht_strategie": {
+          "chars": 7050,
+          "approx_tokens": 1762
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6354,
+          "approx_tokens": 1588
+        },
+        "erfolgsrechnung": {
+          "chars": 2656,
+          "approx_tokens": 664
+        },
+        "lagebericht_strategie": {
+          "chars": 7457,
+          "approx_tokens": 1864
+        }
+      }
+    },
+    {
+      "stem": "slm-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6286,
+          "approx_tokens": 1571
+        },
+        "erfolgsrechnung": {
+          "chars": 2682,
+          "approx_tokens": 670
+        },
+        "lagebericht_strategie": {
+          "chars": 6999,
+          "approx_tokens": 1749
+        }
+      }
+    },
+    {
+      "stem": "slm-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 4875,
+          "approx_tokens": 1218
+        }
+      }
+    },
+    {
+      "stem": "slm-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 4403,
+          "approx_tokens": 1100
+        }
+      }
+    },
+    {
+      "stem": "slm-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 4050,
+          "approx_tokens": 1012
+        }
+      }
+    },
+    {
+      "stem": "slm-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 5205,
+          "approx_tokens": 1301
+        }
+      }
+    },
+    {
+      "stem": "slm-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 5021,
+          "approx_tokens": 1255
+        }
+      }
+    },
+    {
+      "stem": "slm-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 5067,
+          "approx_tokens": 1266
+        }
+      }
+    },
+    {
+      "stem": "slm-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 4886,
+          "approx_tokens": 1221
+        }
+      }
+    },
+    {
+      "stem": "slm-semesterbericht-2021",
+      "report_type": "semester",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4179,
+          "approx_tokens": 1044
+        },
+        "erfolgsrechnung": {
+          "chars": 5668,
+          "approx_tokens": 1417
+        },
+        "lagebericht_strategie": {
+          "chars": 3681,
+          "approx_tokens": 920
+        }
+      }
+    },
+    {
+      "stem": "slm-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4173,
+          "approx_tokens": 1043
+        },
+        "erfolgsrechnung": {
+          "chars": 5857,
+          "approx_tokens": 1464
+        },
+        "lagebericht_strategie": {
+          "chars": 3874,
+          "approx_tokens": 968
+        }
+      }
+    },
+    {
+      "stem": "slm-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4190,
+          "approx_tokens": 1047
+        },
+        "erfolgsrechnung": {
+          "chars": 6017,
+          "approx_tokens": 1504
+        },
+        "lagebericht_strategie": {
+          "chars": 4025,
+          "approx_tokens": 1006
+        }
+      }
+    },
+    {
+      "stem": "slm-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4194,
+          "approx_tokens": 1048
+        },
+        "erfolgsrechnung": {
+          "chars": 6001,
+          "approx_tokens": 1500
+        },
+        "lagebericht_strategie": {
+          "chars": 4006,
+          "approx_tokens": 1001
+        }
+      }
+    }
+  ]
+}

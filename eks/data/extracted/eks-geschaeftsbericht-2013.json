@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "stem": "eks-geschaeftsbericht-2013",
+    "report_type": "annual",
+    "year": 2013,
+    "period": "FY2013",
+    "part": null,
+    "bank_id": "eks",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/eks-geschaeftsbericht-2013.md",
+    "total_chars": 49262,
+    "total_lines": 795
+  },
+  "backend": "local",
+  "metrics": {
+    "net_profit": {
+      "value_current": 146.0,
+      "value_prior_year": 191.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn|146|191|-23.56|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

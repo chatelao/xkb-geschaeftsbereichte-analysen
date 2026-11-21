@@ -1,0 +1,230 @@
+{
+  "bank_id": "pictet",
+  "total_reports": 8,
+  "reports": [
+    {
+      "stem": "pictet-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4711,
+          "approx_tokens": 1177
+        },
+        "mehrjahresvergleich": {
+          "chars": 1598,
+          "approx_tokens": 399
+        },
+        "betreute_vermoegen": {
+          "chars": 2769,
+          "approx_tokens": 692
+        },
+        "lagebericht_strategie": {
+          "chars": 7080,
+          "approx_tokens": 1770
+        }
+      }
+    },
+    {
+      "stem": "pictet-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4689,
+          "approx_tokens": 1172
+        },
+        "mehrjahresvergleich": {
+          "chars": 1637,
+          "approx_tokens": 409
+        },
+        "betreute_vermoegen": {
+          "chars": 3510,
+          "approx_tokens": 877
+        },
+        "lagebericht_strategie": {
+          "chars": 7033,
+          "approx_tokens": 1758
+        }
+      }
+    },
+    {
+      "stem": "pictet-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4888,
+          "approx_tokens": 1222
+        },
+        "mehrjahresvergleich": {
+          "chars": 1919,
+          "approx_tokens": 479
+        },
+        "betreute_vermoegen": {
+          "chars": 4044,
+          "approx_tokens": 1011
+        },
+        "lagebericht_strategie": {
+          "chars": 7030,
+          "approx_tokens": 1757
+        }
+      }
+    },
+    {
+      "stem": "pictet-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4901,
+          "approx_tokens": 1225
+        },
+        "mehrjahresvergleich": {
+          "chars": 1910,
+          "approx_tokens": 477
+        },
+        "betreute_vermoegen": {
+          "chars": 3396,
+          "approx_tokens": 849
+        },
+        "lagebericht_strategie": {
+          "chars": 7081,
+          "approx_tokens": 1770
+        }
+      }
+    },
+    {
+      "stem": "pictet-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9482,
+          "approx_tokens": 2370
+        },
+        "erfolgsrechnung": {
+          "chars": 4912,
+          "approx_tokens": 1228
+        },
+        "mehrjahresvergleich": {
+          "chars": 1920,
+          "approx_tokens": 480
+        },
+        "betreute_vermoegen": {
+          "chars": 2724,
+          "approx_tokens": 681
+        },
+        "lagebericht_strategie": {
+          "chars": 7024,
+          "approx_tokens": 1756
+        }
+      }
+    },
+    {
+      "stem": "pictet-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9137,
+          "approx_tokens": 2284
+        },
+        "erfolgsrechnung": {
+          "chars": 4908,
+          "approx_tokens": 1227
+        },
+        "mehrjahresvergleich": {
+          "chars": 1903,
+          "approx_tokens": 475
+        },
+        "betreute_vermoegen": {
+          "chars": 2613,
+          "approx_tokens": 653
+        },
+        "lagebericht_strategie": {
+          "chars": 7015,
+          "approx_tokens": 1753
+        }
+      }
+    },
+    {
+      "stem": "pictet-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9358,
+          "approx_tokens": 2339
+        },
+        "erfolgsrechnung": {
+          "chars": 4862,
+          "approx_tokens": 1215
+        },
+        "mehrjahresvergleich": {
+          "chars": 1906,
+          "approx_tokens": 476
+        },
+        "betreute_vermoegen": {
+          "chars": 2498,
+          "approx_tokens": 624
+        },
+        "lagebericht_strategie": {
+          "chars": 7129,
+          "approx_tokens": 1782
+        }
+      }
+    },
+    {
+      "stem": "pictet-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 4583,
+          "approx_tokens": 1145
+        },
+        "erfolgsrechnung": {
+          "chars": 5878,
+          "approx_tokens": 1469
+        },
+        "lagebericht_strategie": {
+          "chars": 4935,
+          "approx_tokens": 1233
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "bank_id": "aek",
+  "total_reports": 20,
+  "reports": [
+    {
+      "stem": "aek-geschaeftsbericht-2016-anhang",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": "anhang",
+      "chunks": {
+        "bilanz": {
+          "chars": 6641,
+          "approx_tokens": 1660
+        },
+        "erfolgsrechnung": {
+          "chars": 3719,
+          "approx_tokens": 929
+        },
+        "lagebericht_strategie": {
+          "chars": 7400,
+          "approx_tokens": 1850
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 1786,
+          "approx_tokens": 446
+        },
+        "erfolgsrechnung": {
+          "chars": 4548,
+          "approx_tokens": 1137
+        },
+        "lagebericht_strategie": {
+          "chars": 7051,
+          "approx_tokens": 1762
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2017-anhang",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": "anhang",
+      "chunks": {
+        "bilanz": {
+          "chars": 7343,
+          "approx_tokens": 1835
+        },
+        "erfolgsrechnung": {
+          "chars": 4542,
+          "approx_tokens": 1135
+        },
+        "lagebericht_strategie": {
+          "chars": 7949,
+          "approx_tokens": 1987
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 1922,
+          "approx_tokens": 480
+        },
+        "erfolgsrechnung": {
+          "chars": 4298,
+          "approx_tokens": 1074
+        },
+        "lagebericht_strategie": {
+          "chars": 7025,
+          "approx_tokens": 1756
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2018-anhang",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": "anhang",
+      "chunks": {
+        "bilanz": {
+          "chars": 6720,
+          "approx_tokens": 1680
+        },
+        "erfolgsrechnung": {
+          "chars": 3751,
+          "approx_tokens": 937
+        },
+        "lagebericht_strategie": {
+          "chars": 7574,
+          "approx_tokens": 1893
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 1712,
+          "approx_tokens": 428
+        },
+        "erfolgsrechnung": {
+          "chars": 3731,
+          "approx_tokens": 932
+        },
+        "lagebericht_strategie": {
+          "chars": 7339,
+          "approx_tokens": 1834
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2019-anhang",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": "anhang",
+      "chunks": {
+        "bilanz": {
+          "chars": 6618,
+          "approx_tokens": 1654
+        },
+        "erfolgsrechnung": {
+          "chars": 3773,
+          "approx_tokens": 943
+        },
+        "lagebericht_strategie": {
+          "chars": 7973,
+          "approx_tokens": 1993
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 1738,
+          "approx_tokens": 434
+        },
+        "erfolgsrechnung": {
+          "chars": 4699,
+          "approx_tokens": 1174
+        },
+        "lagebericht_strategie": {
+          "chars": 8991,
+          "approx_tokens": 2247
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2020-anhang",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": "anhang",
+      "chunks": {
+        "bilanz": {
+          "chars": 6655,
+          "approx_tokens": 1663
+        },
+        "erfolgsrechnung": {
+          "chars": 3670,
+          "approx_tokens": 917
+        },
+        "lagebericht_strategie": {
+          "chars": 7446,
+          "approx_tokens": 1861
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 1792,
+          "approx_tokens": 448
+        },
+        "erfolgsrechnung": {
+          "chars": 5138,
+          "approx_tokens": 1284
+        },
+        "lagebericht_strategie": {
+          "chars": 8420,
+          "approx_tokens": 2105
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2021-anhang",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": "anhang",
+      "chunks": {
+        "bilanz": {
+          "chars": 7010,
+          "approx_tokens": 1752
+        },
+        "erfolgsrechnung": {
+          "chars": 3674,
+          "approx_tokens": 918
+        },
+        "lagebericht_strategie": {
+          "chars": 7022,
+          "approx_tokens": 1755
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 1793,
+          "approx_tokens": 448
+        },
+        "erfolgsrechnung": {
+          "chars": 4615,
+          "approx_tokens": 1153
+        },
+        "lagebericht_strategie": {
+          "chars": 7054,
+          "approx_tokens": 1763
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2022-anhang",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": "anhang",
+      "chunks": {
+        "bilanz": {
+          "chars": 7313,
+          "approx_tokens": 1828
+        },
+        "erfolgsrechnung": {
+          "chars": 3629,
+          "approx_tokens": 907
+        },
+        "lagebericht_strategie": {
+          "chars": 7383,
+          "approx_tokens": 1845
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 1813,
+          "approx_tokens": 453
+        },
+        "erfolgsrechnung": {
+          "chars": 5168,
+          "approx_tokens": 1292
+        },
+        "lagebericht_strategie": {
+          "chars": 8462,
+          "approx_tokens": 2115
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2023-anhang",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": "anhang",
+      "chunks": {
+        "bilanz": {
+          "chars": 7187,
+          "approx_tokens": 1796
+        },
+        "erfolgsrechnung": {
+          "chars": 3626,
+          "approx_tokens": 906
+        },
+        "lagebericht_strategie": {
+          "chars": 7339,
+          "approx_tokens": 1834
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 1791,
+          "approx_tokens": 447
+        },
+        "erfolgsrechnung": {
+          "chars": 4384,
+          "approx_tokens": 1096
+        },
+        "lagebericht_strategie": {
+          "chars": 7071,
+          "approx_tokens": 1767
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2024-anhang",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": "anhang",
+      "chunks": {
+        "bilanz": {
+          "chars": 7099,
+          "approx_tokens": 1774
+        },
+        "erfolgsrechnung": {
+          "chars": 3687,
+          "approx_tokens": 921
+        },
+        "lagebericht_strategie": {
+          "chars": 8147,
+          "approx_tokens": 2036
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 1796,
+          "approx_tokens": 449
+        },
+        "erfolgsrechnung": {
+          "chars": 3990,
+          "approx_tokens": 997
+        },
+        "lagebericht_strategie": {
+          "chars": 7063,
+          "approx_tokens": 1765
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2025-anhang",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": "anhang",
+      "chunks": {
+        "bilanz": {
+          "chars": 7146,
+          "approx_tokens": 1786
+        },
+        "erfolgsrechnung": {
+          "chars": 3636,
+          "approx_tokens": 909
+        },
+        "lagebericht_strategie": {
+          "chars": 7034,
+          "approx_tokens": 1758
+        }
+      }
+    },
+    {
+      "stem": "aek-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 1797,
+          "approx_tokens": 449
+        },
+        "erfolgsrechnung": {
+          "chars": 5083,
+          "approx_tokens": 1270
+        },
+        "lagebericht_strategie": {
+          "chars": 7039,
+          "approx_tokens": 1759
+        }
+      }
+    }
+  ]
+}

@@ -229,3 +229,22 @@ ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2023,H1-2023,2023-06-30,Basel 
 ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2023,FY2023,2023-12-31,Basel III,459829.307,66037.279,,16.9,5.45,,,31.82,
 ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2024,FY2024,2024-12-31,Basel III,451775.136,64672.775,,17.6,5.77,,,31.85,
 ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2025,H1-2025,2025-06-30,Basel III final,444969.0,64129.338,14.41,18.18,5.53,182.31,122.44,31.19,0.41
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2020,FY2020,2020-12-31,Basel III,,143.477,,,9.3,,,,
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2021,FY2021,2021-12-31,Basel III,,149.788,,,8.7,,,,
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2022,FY2022,2022-12-31,Basel III,,,,,,,,,
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2023,FY2023,2023-12-31,Basel III,,,,,,,,,
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2024,FY2024,2024-12-31,Basel III,,,,,,,,,
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2025,FY2025,2025-12-31,Basel III final,,,,,,,,,
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2026,H1-2026,2026-06-30,Basel III final,,182.457,,,9.28,,,,
+vontobel,Vontobel,wealth_manager,consolidated,IFRS,False,False,3,CHF,2023,FY2023,2023-12-31,Basel III,6523.903,1220.136,,23.8,5.4,,,,
+vontobel,Vontobel,wealth_manager,consolidated,IFRS,False,False,3,CHF,2024,FY2024,2024-12-31,Basel III,7518.561,1210.323,,21.0,4.8,,,22.88,
+vontobel,Vontobel,wealth_manager,consolidated,IFRS,False,False,3,CHF,2025,H1-2025,2025-06-30,Basel III final,7491.492,1253.797,,21.0,4.4,,122.8,21.57,
+vontobel,Vontobel,wealth_manager,consolidated,IFRS,False,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,6764.453,,,24.4,,,,19.47,
+vontobel,Vontobel,wealth_manager,consolidated,IFRS,False,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,6514.193,1498.347,,28.0,,,121.7,,
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2020,FY2020,2020-12-31,Basel III,14037.317,2261.455,16.11,16.11,,,,42.3,4.91
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2021,FY2021,2021-12-31,Basel III,14408.311,2303.219,15.99,16.02,,,119.0,40.52,4.79
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2022,FY2022,2022-12-31,Basel III,15045.365,2375.683,15.79,15.8,,,115.0,42.11,4.59
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2023,FY2023,2023-12-31,Basel III,15268.39,2483.795,16.27,16.27,,,112.0,42.32,5.07
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,FY2024,2024-12-31,Basel III,15653.408,2580.958,16.49,16.5,,,115.0,42.17,5.29
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,15480.452,2664.217,17.21,17.23,6.66,,119.0,40.87,6.01
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,15765.075,2682.481,17.02,17.02,6.54,,120.0,,5.82

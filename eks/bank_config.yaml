@@ -1,0 +1,45 @@
+bank_id: "eks"
+short_name: "EK Speicher"
+full_name: "Ersparniskasse Speicher"
+peer_group: "regional_bank"
+canton_or_hq: "Appenzell Ausserrhoden"
+legal_form: "cooperative"
+listed: false
+ticker: null
+state_guarantee: false
+has_credit_ban: false
+finma_category: 5
+reporting_scope: "standalone"
+accounting_standard: "ARB_RVB"
+reporting_currency: "CHF"
+primary_languages: ["de"]
+file_prefix: "eks"
+
+capital_targets_pct:
+  cet1_target: 10.5
+  total_capital_target: 11.2
+  leverage_min: 3.0
+  lcr_min: 100.0
+  nsfr_min: 100.0
+
+share_splits: []
+
+report_05_mode: "cooperative_payout"
+report_05_slug: "05_genossenschaft_und_wertschoepfung"
+
+palette:
+  primary: "#0F5257"
+  secondary: "#1E293B"
+  accent: "#D97706"
+  muted: "#64748B"
+
+plausibility_bounds_chf_mio:
+  total_assets_min: 50
+  total_assets_max: 150
+
+epochs:
+  - {label: "Epoche 1", start: 2019, end: 2021, title: "SNB-Negativzinsen & Regionales Spargeschäft"}
+  - {label: "Epoche 2", start: 2022, end: 2026, title: "Zinswende & Basel III final"}
+
+structural_breaks:
+  - {year: 2025, label: "Inkrafttreten Basel III final per 01.01.2025"}

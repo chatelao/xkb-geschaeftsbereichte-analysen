@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "stem": "eks-geschaeftsbericht-2024",
+    "report_type": "annual",
+    "year": 2024,
+    "period": "FY2024",
+    "part": null,
+    "bank_id": "eks",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/eks-geschaeftsbericht-2024.md",
+    "total_chars": 57924,
+    "total_lines": 969
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 3090000.0,
+      "value_prior_year": 3090000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|3’090’000.00|3’090’000.00|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 64696175.4,
+      "value_prior_year": 63842250.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|64’696’175.40|63’842’250.00|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1687323.95,
+      "value_prior_year": 1676025.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|1’687’323.95|1’676’025.00|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 79474581.85,
+      "value_prior_year": 75588539.25,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**|**79’474’581.85**|**75’588’539.25**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 68796223.98,
+      "value_prior_year": 65112707.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|68’796’223.98|65’112’707.00|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 2960000.0,
+      "value_prior_year": 2960000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|2’960’000.00|2’960’000.00|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 186700.42,
+      "value_prior_year": 131915.5,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Gewinn|186’700.42<br>*|131’915.50<br>*|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 737909.41,
+      "value_prior_year": 624237.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Netto-Erfolg Zinsengeschäft**|**737’909.41**|**624’237.00**|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 12461.7,
+      "value_prior_year": 12319.35,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg aus dem Kommissions- und Dienstleistungsgeschäft**|**12’461.70**|**12’319.35**|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 12206.55,
+      "value_prior_year": 9439.61,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Handelsgeschäft und der Fair-Value-Option**|**12’206.55**|**9’439.61**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 47448.68,
+      "value_prior_year": 48485.96,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**47’448.68**|**48’485.96**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -320321.75,
+      "value_prior_year": -307318.8,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|-320’321.75|-307’318.80|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -342758.27,
+      "value_prior_year": -289785.87,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|-342’758.27|-289’785.87|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -663080.02,
+      "value_prior_year": -597104.67,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Geschäftsaufwand**|**-663’080.02**|**-597’104.67**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 146946.32,
+      "value_prior_year": 92378.25,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Geschäftserfolg**|**146’946.32**|**92’378.25**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -10245.9,
+      "value_prior_year": -10462.75,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Steuern|-10’245.90|-10’462.75|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

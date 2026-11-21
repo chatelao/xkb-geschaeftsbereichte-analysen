@@ -592,7 +592,7 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
     (COMP_DATA / "xkb_comparison_all.json").write_text(
         json.dumps(summary_json, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"[OK] Cross-Bank: 8 Banken harmonisiert ({len(annual_rows)} Annual-Zeilen), 7 Berichte + 13 Grafiken unter comparison/ erzeugt.")
+    print(f"[OK] Cross-Bank: {len(VALID_BANKS)} Banken harmonisiert ({len(annual_rows)} Annual-Zeilen), 7 Berichte + 13 Grafiken unter comparison/ erzeugt.")
     return summary_json
 
 

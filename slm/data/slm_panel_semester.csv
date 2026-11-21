@@ -1,0 +1,5 @@
+bank_id,year,period,report_type,report_file,currency_orig,trading_income_mio,financial_investments_mio,general_expenses_mio,taxes_mio,total_assets_mio,net_interest_income_mio,kassenobligationen_mio,personnel_expenses_mio,operating_profit_mio,reserves_banking_risks_mio,commission_income_mio,mortgage_loans_mio,customer_deposits_mio,other_ordinary_income_mio,pfandbriefe_bonds_mio,total_operating_expenses_mio,total_operating_income_mio,self_healed_fields
+slm,2021,H1-2021,semester,.md/slm-semesterbericht-2021.md,CHF,0.333,110.972,-2.321,-0.676,1673.999,9.248,30.68,-3.246,5.503,92.075,1.995,1300.78,1181.317,0.84,278.0,-5.567,12.416,
+slm,2022,H1-2022,semester,.md/slm-semesterbericht-2022.md,CHF,0.342,124.479,-2.367,-0.576,1702.44,9.37,23.042,-3.408,5.1,97.38,2.165,1340.118,1193.329,0.407,298.0,-5.775,12.284,
+slm,2024,H1-2024,semester,.md/slm-semesterbericht-2024.md,CHF,0.364,119.646,-2.628,-0.778,1818.481,9.77,90.59,-3.758,5.83,110.375,2.227,1476.956,1160.5,1.267,361.3,-6.386,13.628,
+slm,2025,H1-2025,semester,.md/slm-semesterbericht-2025.md,CHF,0.33,103.211,-2.649,-0.433,1884.26,8.79,128.348,-3.893,6.199,118.35,2.431,1511.765,1158.604,2.783,381.3,-6.542,14.334,

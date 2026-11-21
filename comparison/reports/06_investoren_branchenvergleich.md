@@ -17,5 +17,13 @@
 | Raiffeisen | Nicht kotiert | Keine | 5,08 % | – | – | – % | 7,01 % | 24,70 % |
 | PostFinance | Nicht kotiert | Keine | 1,82 % | – | – | – % | -1,44 % | 24,97 % |
 | UBS | Kotiert (UBSG) | Keine | 8,60 % | 41,80 | 0,90 | 2,15 % | 2,14 % | 14,41 % |
+| EK Speicher | Nicht kotiert | Keine | 2,11 % | – | – | – % | 14,87 % | – % |
+| Bank SLM | Nicht kotiert | Keine | 1,83 % | – | – | – % | 0,96 % | – % |
+| AEK Thun | Nicht kotiert | Keine | 1,70 % | – | – | – % | 0,79 % | – % |
+| Migros Bank | Nicht kotiert | Keine | 5,07 % | – | – | – % | 7,44 % | – % |
+| Vontobel | Kotiert (VONN) | Keine | 10,57 % | – | – | – % | 0,20 % | – % |
+| Pictet | Nicht kotiert | Keine | 20,32 % | – | – | – % | – % | – % |
+| Entris / RBA-Holding | Nicht kotiert | Keine | 4,66 % | – | – | – % | – % | – % |
+| Valiant | Kotiert (VATN) | Keine | 5,60 % | – | – | – % | 4,89 % | 17,02 % |
 
 ![Investoren Wachstum & Ausschüttung](./charts/11_investoren_tsr_und_ausschuettung_2020_2025.png)

@@ -1,0 +1,22 @@
+{
+  "bank_id": "aek",
+  "short_name": "AEK Thun",
+  "pk_name": "Pensionskasse der AEK BANK 1826",
+  "pk_plan_type": "Beitragsprimat (eigene rechtlich selbständige PK)",
+  "accounting_basis": "Swiss GAAP FER 16 / ARB",
+  "reference_year": 2025,
+  "active_insured_count": null,
+  "pensioners_count": null,
+  "active_to_pensioner_ratio": null,
+  "pk_assets_mio": null,
+  "coverage_ratio_bvg_pct": 110.0,
+  "technical_interest_rate_pct": null,
+  "interest_crediting_pct": null,
+  "conversion_rate_65_pct": null,
+  "employer_contribution_mio": 1.971,
+  "employer_share_pct": null,
+  "employer_contribution_reserve_mio": 2.2,
+  "extraordinary_contributions_mio": 0.6,
+  "notes": "Deckungsgrad per Ende Vorjahr (2024) 110,0 % (Sollwert Schwankungsreserve noch nicht erreicht); AGBR CHF 2,200 Mio. (2025 mit 3,25 % verzinst); Zuweisung an PK CHF 0,600 Mio.",
+  "source_url_or_file": "aek/.md/aek-geschaeftsbericht-2025-anhang.md (Anhang Vorsorgeeinrichtungen)"
+}

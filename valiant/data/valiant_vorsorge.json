@@ -1,0 +1,22 @@
+{
+  "bank_id": "valiant",
+  "short_name": "Valiant",
+  "pk_name": "Pensionskasse Valiant",
+  "pk_plan_type": "Beitragsprimat",
+  "accounting_basis": "Swiss GAAP FER 26 / ARB",
+  "reference_year": 2025,
+  "active_insured_count": 1052,
+  "pensioners_count": null,
+  "active_to_pensioner_ratio": null,
+  "pk_assets_mio": null,
+  "coverage_ratio_bvg_pct": null,
+  "technical_interest_rate_pct": null,
+  "interest_crediting_pct": null,
+  "conversion_rate_65_pct": null,
+  "employer_contribution_mio": null,
+  "employer_share_pct": null,
+  "employer_contribution_reserve_mio": null,
+  "extraordinary_contributions_mio": 0.0,
+  "notes": "Eigene Vorsorgeeinrichtung (Pensionskasse Valiant); per 31.12.2025 bestehen gemäss Konzernanhang keine bilanzierten Vorsorgeverpflichtungen (CHF 0).",
+  "source_url_or_file": "valiant/.md/valiant-geschaeftsbericht-2025.md (Anhang Vorsorgeverpflichtungen)"
+}

@@ -18,6 +18,14 @@
 | Raiffeisen | 10'972 | 355,9 | 150,9 | 42,4 % | 2,36× | 1'780,0 | 11,8× |
 | PostFinance | 3'527 | 340,2 | 149,4 | 43,9 % | 2,28× | 890,0 | 6,0× |
 | UBS | 103'177 | 423,3 | 237,9 | 56,2 % | 1,78× | 14'900,0 | 62,6× |
+| EK Speicher | 4 | 245,8 | 86,2 | 35,1 % | 2,85× | – | – |
+| Bank SLM | 66 | 438,8 | 123,2 | 28,1 % | 3,56× | – | – |
+| AEK Thun | 166 | 439,7 | 100,8 | 22,9 % | 4,36× | – | – |
+| Migros Bank | 1'749 | 465,7 | 151,7 | 32,6 % | 3,07× | – | – |
+| Vontobel | 2'310 | 619,5 | 305,6 | 49,3 % | 2,03× | – | – |
+| Pictet | 5'507 | 582,3 | 293,2 | 50,3 % | 1,99× | – | – |
+| Entris / RBA-Holding | 67 | 996,9 | 187,6 | 18,8 % | 5,31× | – | – |
+| Valiant | 1'052 | 522,3 | 155,1 | 29,7 % | 3,37× | – | – |
 
 ## 3. Zugehörige Vorsorgeeinrichtungen (Pensionskassen)
 | Institut | Vorsorgeeinrichtung | Standard | Aktive | Rentner | Deckungsgrad BVG | AGBR (Mio.) |
@@ -30,5 +38,13 @@
 | Raiffeisen | Raiffeisen Pensionskasse Genossenschaft (+ Arbeitgeberstiftung) | Swiss GAAP FER 16 / ARB | n. a. | n. a. | n. a. | 179,1 |
 | PostFinance | Pensionskasse Post (Sammelstiftung Konzern Post) | Swiss GAAP FER 16 / FER 26 | 37'516 | 28'703 | n. a. | 36,0 |
 | UBS | Pensionskasse der UBS (+ Credit Suisse Swiss Plan) | IFRS / IAS 19 (vs. BVV 2 lokal) | n. a. | n. a. | n. a. | n. a. |
+| EK Speicher | ASGA Pensionskasse des Gewerbes (angeschlossen) | Swiss GAAP FER 16 / ARB | 4 | n. a. | n. a. | n. a. |
+| Bank SLM | Stiftung «Vorsorge FinTec» | Swiss GAAP FER 26 / ARB | n. a. | n. a. | 122,3 % | 0,2 |
+| AEK Thun | Pensionskasse der AEK BANK 1826 | Swiss GAAP FER 16 / ARB | n. a. | n. a. | 110,0 % | 2,2 |
+| Migros Bank | Migros-Pensionskasse (MPK) | Swiss GAAP FER 16 / ARB | n. a. | n. a. | n. a. | 0,0 |
+| Vontobel | Vontobel Pensionskasse (IAS 19) | IFRS / IAS 19 | n. a. | n. a. | n. a. | n. a. |
+| Pictet | Fondation de prévoyance du Groupe Pictet | Swiss GAAP FER 26 / ARB | n. a. | n. a. | 122,7 % | n. a. |
+| Entris / RBA-Holding | Pensionskasse Entris / Sammelstiftung (ARB) | Swiss GAAP FER 26 / ARB | 67 | n. a. | n. a. | n. a. |
+| Valiant | Pensionskasse Valiant | Swiss GAAP FER 26 / ARB | 1'052 | n. a. | n. a. | n. a. |
 
 ![Vorsorgeeinrichtungen Struktur](./charts/13_vorsorgeeinrichtungen_deckungsgrad_verzinsung.png)

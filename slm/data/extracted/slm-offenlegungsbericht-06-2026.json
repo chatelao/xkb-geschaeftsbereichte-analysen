@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "stem": "slm-offenlegungsbericht-06-2026",
+    "report_type": "offenlegung_h1",
+    "year": 2026,
+    "period": "H1-2026",
+    "part": null,
+    "bank_id": "slm",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/slm-offenlegungsbericht-06-2026.md",
+    "total_chars": 5453,
+    "total_lines": 78
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 182457.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hartes Kernkapital(CET1)||182’457||173’932|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 182457.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Kernkapital(T1)||182’457||173’932|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 190957.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Gesamtkapital total||190’957||182’432|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 9.28,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Vereinfachte Leverage Ratio||9.28 %||9.24 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

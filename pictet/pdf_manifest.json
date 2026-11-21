@@ -1,0 +1,58 @@
+[
+  {
+    "filename": "pictet-geschaeftsbericht-2018.pdf",
+    "url": "https://www.pictet.com/content/dam/www/documents/publications/annual-review/Pictet-AnnualReport-2018-EN.pdf.coredownload.pdf",
+    "status": "downloaded",
+    "bytes": 1264919,
+    "sha256": "d6522412dfd6681ab2ea6d0d866dcbab98613387fe482d4c4f106b6d44b39a0c"
+  },
+  {
+    "filename": "pictet-geschaeftsbericht-2019.pdf",
+    "url": "https://www.pictet.com/content/dam/www/documents/publications/annual-review/Pictet-AR2019-Financial-annual-report-EN.pdf.coredownload.pdf",
+    "status": "cached",
+    "bytes": 1469552,
+    "sha256": "5f4cb7b003a8b303347aee7ea41d3ad772f41e7bcd69138f3d0bd4123ed77fc2"
+  },
+  {
+    "filename": "pictet-geschaeftsbericht-2021.pdf",
+    "url": "https://www.pictet.com/content/dam/www/documents/publications/annual-review/Pictet-Group_Annual-report-2021-EN.pdf.coredownload.pdf",
+    "status": "cached",
+    "bytes": 1240544,
+    "sha256": "0c0909c392bd6f1de4c0bc6697358da0ab99e11e4f46ce0bc11a2bd753395778"
+  },
+  {
+    "filename": "pictet-geschaeftsbericht-2022.pdf",
+    "url": "https://www.pictet.com/content/dam/www/documents/publications/financial-reports/Pictet%20Group%20-%202022%20Annual%20Report.pdf.coredownload.pdf",
+    "status": "cached",
+    "bytes": 657615,
+    "sha256": "d6f0f9e69dfae37cd56236ffec0cd9ef8c4c688c9f45f0a32e9c948f6396cbe7"
+  },
+  {
+    "filename": "pictet-geschaeftsbericht-2023.pdf",
+    "url": "https://www.pictet.com/content/dam/www/documents/publications/financial-reports/PictetGroup-2023-Annual-Report.pdf.coredownload.pdf",
+    "status": "cached",
+    "bytes": 592310,
+    "sha256": "c7d61d5cd6b7f84ebf0cdddaf4840138d447529ecc9699e0a5adfa4da80a093a"
+  },
+  {
+    "filename": "pictet-geschaeftsbericht-2024.pdf",
+    "url": "https://www.pictet.com/content/dam/www/documents/publications/financial-reports/PictetGroup-2024-Annual-Report.pdf.coredownload.pdf",
+    "status": "cached",
+    "bytes": 1209959,
+    "sha256": "dead4de0fdd1e5727dc24d63ee58446a74a9f5d9f78486be9d292a5f9f5d7432"
+  },
+  {
+    "filename": "pictet-geschaeftsbericht-2025.pdf",
+    "url": "https://www.pictet.com/content/dam/www/documents/publications/financial-reports/PictetGroup-2025-Annual-Report.pdf.coredownload.pdf",
+    "status": "cached",
+    "bytes": 1125211,
+    "sha256": "6363cf2ff02e7e1cd1b86fbc6cfd0a15cefe3719c05e8e004480038a31dad9f1"
+  },
+  {
+    "filename": "pictet-semesterbericht-2025.pdf",
+    "url": "https://www.pictet.com/content/dam/www/documents/publications/annual-review/2025/PictetGroup-2025-half-year-financial-report-EN.pdf.coredownload.pdf",
+    "status": "cached",
+    "bytes": 248418,
+    "sha256": "5181e46d0acff63578f6fb9fdbb89fac00d91966c0cd5a8a5834b914449ce50f"
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "stem": "slm-geschaeftsbericht-2019",
+    "report_type": "annual",
+    "year": 2019,
+    "period": "FY2019",
+    "part": null,
+    "bank_id": "slm",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/slm-geschaeftsbericht-2019.md",
+    "total_chars": 86652,
+    "total_lines": 1419
+  },
+  "backend": "local",
+  "metrics": {
+    "total_assets": {
+      "value_current": 1597146.0,
+      "value_prior_year": 1546012.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bilanzsumme|1’597’146|1’546’012|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 268000.0,
+      "value_prior_year": 252100.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|268’000|252’100|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 22972.0,
+      "value_prior_year": 22369.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag|22’972|22’369|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 12000.0,
+      "value_prior_year": 12530.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand|12’000|12’530|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 7310.0,
+      "value_prior_year": 6409.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftserfolg|7’310|6’409|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 3334.0,
+      "value_prior_year": 3326.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn|3’334|3’326|",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 53.5,
+      "value_prior_year": 56.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Teilzeitbereinigt|53.5|56.0|",
+      "chunk_name": "bilanz"
+    },
+    "nsfr_pct": {
+      "value_current": 88.05,
+      "value_prior_year": 87.11,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Refinanzierungsquote(Kundengelder in % der Kundenausleihungen)|88.05 %|87.11 %|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 1264457.0,
+      "value_prior_year": 1244576.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|1’264’457|1’244’576|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 81109.0,
+      "value_prior_year": 77611.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|81’109|77’611|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 1122013.0,
+      "value_prior_year": 1083556.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|1’122’013|1’083’556|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 39127.0,
+      "value_prior_year": 46870.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|39’127|46’870|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 85165.0,
+      "value_prior_year": 57540.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|85’165|57’540|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 16949.0,
+      "value_prior_year": 17582.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Netto-Erfolg Zinsengeschäft**|**16’949**|**17’582**|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 3244.0,
+      "value_prior_year": 3049.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions- und Dienstleistungsgeschäft**|**3’244**|**3’049**|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 784.0,
+      "value_prior_year": 673.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Handelsgeschäft und der Fair-Value-Option**|**784**|**673**|",
+      "chunk_name": "bilanz"
+    },
+    "other_ordinary_income": {
+      "value_current": 1995.0,
+      "value_prior_year": 1065.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**1’995**|**1’065**|",
+      "chunk_name": "bilanz"
+    },
+    "personnel_expenses": {
+      "value_current": -7298.0,
+      "value_prior_year": -7226.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|–7’298|–7’226|",
+      "chunk_name": "bilanz"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 18.81,
+      "value_prior_year": 15.73,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Harte Kernkapitalquote(CET1-Quote)|18.81 %|15.73 %|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 8.59,
+      "value_prior_year": 7.37,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio|8.59 %|7.37 %|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

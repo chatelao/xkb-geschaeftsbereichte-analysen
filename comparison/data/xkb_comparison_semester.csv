@@ -97,3 +97,29 @@ ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2022,H1-2022,1029146.929,,8513
 ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2023,H1-2023,1412525.492,,8572.644,25947.075
 ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2024,H1-2024,1414556.451,,10481.472,1000.248
 ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2025,H1-2025,1472932.062,,10670.672,2109.995
+eks,EK Speicher,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2020,H1-2020,77408.238,331.299,,67.049
+eks,EK Speicher,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2021,H1-2021,78395.825,316.887,,46.358
+eks,EK Speicher,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2022,H1-2022,74271.26,298.866,,32.41
+eks,EK Speicher,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2023,H1-2023,74514.336,309.958,,47.542
+eks,EK Speicher,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2024,H1-2024,77913.138,295.083,,10.528
+eks,EK Speicher,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2025,H1-2025,77974.413,475.982,,151.575
+eks,EK Speicher,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2026,H1-2026,82415.091,383.31,,64.799
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2021,H1-2021,1673.999,9.248,12.416,
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2022,H1-2022,1702.44,9.37,12.284,
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2024,H1-2024,1818.481,9.77,13.628,
+slm,Bank SLM,regional_bank,standalone,ARB_RVB,False,False,5,CHF,2025,H1-2025,1884.26,8.79,14.334,
+migrosbank,Migros Bank,regional_bank,standalone,ARB_RVB,False,False,3,CHF,2023,H1-2023,58428.264,326.577,414.922,
+migrosbank,Migros Bank,regional_bank,standalone,ARB_RVB,False,False,3,CHF,2024,H1-2024,59583.844,301.347,402.299,
+migrosbank,Migros Bank,regional_bank,standalone,ARB_RVB,False,False,3,CHF,2025,H1-2025,61806.628,290.779,399.66,
+migrosbank,Migros Bank,regional_bank,standalone,ARB_RVB,False,False,3,CHF,2026,H1-2026,63341.514,319.401,433.839,151.523
+vontobel,Vontobel,wealth_manager,consolidated,IFRS,False,False,3,CHF,2023,H1-2023,32.062,0.095,0.696,
+vontobel,Vontobel,wealth_manager,consolidated,IFRS,False,False,3,CHF,2024,H1-2024,33.123,0.062,0.728,
+vontobel,Vontobel,wealth_manager,consolidated,IFRS,False,False,3,CHF,2025,H1-2025,35.468,0.044,0.689,
+vontobel,Vontobel,wealth_manager,consolidated,IFRS,False,False,3,CHF,2026,H1-2026,38.29,0.055,0.852,
+pictet,Pictet,private_bank,consolidated,ARB_RVB,False,False,3,CHF,2025,H1-2025,43710.877,224.446,1570.207,
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2020,H1-2020,31935.992,154.509,,60.115
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2021,H1-2021,35211.268,162.71,211.277,61.207
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2022,H1-2022,36494.957,167.279,221.985,62.019
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2023,H1-2023,35981.36,195.379,266.064,67.24
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,H1-2024,36346.641,196.038,276.481,71.259
+valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2026,H1-2026,39026.989,192.887,277.283,75.853

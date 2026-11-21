@@ -1,0 +1,21 @@
+{
+  "annual": {
+    "2016": {"fte_count": 842.0},
+    "2017": {"fte_count": 873.0},
+    "2018": {"fte_count": 890.0},
+    "2019": {"fte_count": 918.0},
+    "2020": {
+      "net_interest_income": 316.110,
+      "total_operating_income": 413.122,
+      "total_operating_expenses": 241.604,
+      "personnel_expenses": 134.690,
+      "operating_profit": 147.030,
+      "fte_count": 937.0
+    },
+    "2025": {
+      "net_interest_income": 396.305,
+      "commission_income": 98.558,
+      "personnel_expenses": 163.196
+    }
+  }
+}

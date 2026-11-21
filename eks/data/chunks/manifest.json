@@ -1,0 +1,552 @@
+{
+  "bank_id": "eks",
+  "total_reports": 26,
+  "reports": [
+    {
+      "stem": "eks-geschaeftsbericht-2007",
+      "report_type": "annual",
+      "year": 2007,
+      "period": "FY2007",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7032,
+          "approx_tokens": 1758
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2008",
+      "report_type": "annual",
+      "year": 2008,
+      "period": "FY2008",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7167,
+          "approx_tokens": 1791
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2009",
+      "report_type": "annual",
+      "year": 2009,
+      "period": "FY2009",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 6073,
+          "approx_tokens": 1518
+        },
+        "lagebericht_strategie": {
+          "chars": 7135,
+          "approx_tokens": 1783
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2010",
+      "report_type": "annual",
+      "year": 2010,
+      "period": "FY2010",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5998,
+          "approx_tokens": 1499
+        },
+        "lagebericht_strategie": {
+          "chars": 7163,
+          "approx_tokens": 1790
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2011",
+      "report_type": "annual",
+      "year": 2011,
+      "period": "FY2011",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5986,
+          "approx_tokens": 1496
+        },
+        "lagebericht_strategie": {
+          "chars": 7018,
+          "approx_tokens": 1754
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2012",
+      "report_type": "annual",
+      "year": 2012,
+      "period": "FY2012",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5971,
+          "approx_tokens": 1492
+        },
+        "lagebericht_strategie": {
+          "chars": 7159,
+          "approx_tokens": 1789
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2013",
+      "report_type": "annual",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5954,
+          "approx_tokens": 1488
+        },
+        "lagebericht_strategie": {
+          "chars": 7470,
+          "approx_tokens": 1867
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5242,
+          "approx_tokens": 1310
+        },
+        "lagebericht_strategie": {
+          "chars": 7177,
+          "approx_tokens": 1794
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8779,
+          "approx_tokens": 2194
+        },
+        "erfolgsrechnung": {
+          "chars": 4440,
+          "approx_tokens": 1110
+        },
+        "lagebericht_strategie": {
+          "chars": 7008,
+          "approx_tokens": 1752
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8478,
+          "approx_tokens": 2119
+        },
+        "erfolgsrechnung": {
+          "chars": 4654,
+          "approx_tokens": 1163
+        },
+        "lagebericht_strategie": {
+          "chars": 7397,
+          "approx_tokens": 1849
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8601,
+          "approx_tokens": 2150
+        },
+        "erfolgsrechnung": {
+          "chars": 4389,
+          "approx_tokens": 1097
+        },
+        "lagebericht_strategie": {
+          "chars": 7006,
+          "approx_tokens": 1751
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8621,
+          "approx_tokens": 2155
+        },
+        "erfolgsrechnung": {
+          "chars": 4715,
+          "approx_tokens": 1178
+        },
+        "lagebericht_strategie": {
+          "chars": 7019,
+          "approx_tokens": 1754
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8542,
+          "approx_tokens": 2135
+        },
+        "erfolgsrechnung": {
+          "chars": 4699,
+          "approx_tokens": 1174
+        },
+        "lagebericht_strategie": {
+          "chars": 7139,
+          "approx_tokens": 1784
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8854,
+          "approx_tokens": 2213
+        },
+        "erfolgsrechnung": {
+          "chars": 4909,
+          "approx_tokens": 1227
+        },
+        "lagebericht_strategie": {
+          "chars": 7305,
+          "approx_tokens": 1826
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8502,
+          "approx_tokens": 2125
+        },
+        "erfolgsrechnung": {
+          "chars": 4826,
+          "approx_tokens": 1206
+        },
+        "lagebericht_strategie": {
+          "chars": 7039,
+          "approx_tokens": 1759
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8186,
+          "approx_tokens": 2046
+        },
+        "erfolgsrechnung": {
+          "chars": 4683,
+          "approx_tokens": 1170
+        },
+        "lagebericht_strategie": {
+          "chars": 7216,
+          "approx_tokens": 1804
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8765,
+          "approx_tokens": 2191
+        },
+        "erfolgsrechnung": {
+          "chars": 4684,
+          "approx_tokens": 1171
+        },
+        "lagebericht_strategie": {
+          "chars": 7053,
+          "approx_tokens": 1763
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8911,
+          "approx_tokens": 2227
+        },
+        "erfolgsrechnung": {
+          "chars": 4662,
+          "approx_tokens": 1165
+        },
+        "lagebericht_strategie": {
+          "chars": 7089,
+          "approx_tokens": 1772
+        }
+      }
+    },
+    {
+      "stem": "eks-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9253,
+          "approx_tokens": 2313
+        },
+        "erfolgsrechnung": {
+          "chars": 4343,
+          "approx_tokens": 1085
+        },
+        "lagebericht_strategie": {
+          "chars": 7248,
+          "approx_tokens": 1812
+        }
+      }
+    },
+    {
+      "stem": "eks-semesterbericht-2020",
+      "report_type": "semester",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2126,
+          "approx_tokens": 531
+        },
+        "erfolgsrechnung": {
+          "chars": 2024,
+          "approx_tokens": 506
+        },
+        "lagebericht_strategie": {
+          "chars": 185,
+          "approx_tokens": 46
+        }
+      }
+    },
+    {
+      "stem": "eks-semesterbericht-2021",
+      "report_type": "semester",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2107,
+          "approx_tokens": 526
+        },
+        "erfolgsrechnung": {
+          "chars": 2023,
+          "approx_tokens": 505
+        },
+        "lagebericht_strategie": {
+          "chars": 185,
+          "approx_tokens": 46
+        }
+      }
+    },
+    {
+      "stem": "eks-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2167,
+          "approx_tokens": 541
+        },
+        "erfolgsrechnung": {
+          "chars": 2056,
+          "approx_tokens": 514
+        },
+        "lagebericht_strategie": {
+          "chars": 246,
+          "approx_tokens": 61
+        }
+      }
+    },
+    {
+      "stem": "eks-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2102,
+          "approx_tokens": 525
+        },
+        "erfolgsrechnung": {
+          "chars": 2064,
+          "approx_tokens": 516
+        },
+        "lagebericht_strategie": {
+          "chars": 185,
+          "approx_tokens": 46
+        }
+      }
+    },
+    {
+      "stem": "eks-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2113,
+          "approx_tokens": 528
+        },
+        "erfolgsrechnung": {
+          "chars": 2066,
+          "approx_tokens": 516
+        },
+        "lagebericht_strategie": {
+          "chars": 185,
+          "approx_tokens": 46
+        }
+      }
+    },
+    {
+      "stem": "eks-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2111,
+          "approx_tokens": 527
+        },
+        "erfolgsrechnung": {
+          "chars": 2064,
+          "approx_tokens": 516
+        },
+        "lagebericht_strategie": {
+          "chars": 185,
+          "approx_tokens": 46
+        }
+      }
+    },
+    {
+      "stem": "eks-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2102,
+          "approx_tokens": 525
+        },
+        "erfolgsrechnung": {
+          "chars": 2062,
+          "approx_tokens": 515
+        },
+        "lagebericht_strategie": {
+          "chars": 185,
+          "approx_tokens": 46
+        }
+      }
+    }
+  ]
+}

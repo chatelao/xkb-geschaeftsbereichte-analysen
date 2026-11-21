@@ -17,5 +17,13 @@
 | Raiffeisen | cooperative_payout | 1'208,0 | 150,9 | – | – |
 | PostFinance | post_dividend | 120,0 | 149,4 | – | – |
 | UBS | listed_share | 6'842,7 | 237,9 | 41,80 | 0,90 |
+| EK Speicher | cooperative_payout | 0,2 | 86,2 | – | – |
+| Bank SLM | listed_share | 3,5 | 123,2 | – | – |
+| AEK Thun | cooperative_payout | 10,3 | 100,8 | – | – |
+| Migros Bank | post_dividend | 276,2 | 151,7 | – | – |
+| Vontobel | listed_share | 262,0 | 305,6 | – | – |
+| Pictet | post_dividend | 667,2 | 293,2 | – | – |
+| Entris / RBA-Holding | post_dividend | 13,8 | 187,6 | – | – |
+| Valiant | listed_share | 154,7 | 155,1 | – | – |
 
 ![Reingewinn Vergleich](./charts/09_ausschuettung_und_total_return.png)

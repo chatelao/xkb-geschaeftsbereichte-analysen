@@ -1,0 +1,72 @@
+[
+  {
+    "filename": "entris-banking-2021.pdf",
+    "url": "https://www.datocms-assets.com/207097/1790019460-entrisbanking_gb21_de_20220325.pdf",
+    "status": "downloaded",
+    "bytes": 4750389,
+    "sha256": "518599ed28931df36b399d23c4e935339e011d7cec044969fa6d99ec5ef23bdf"
+  },
+  {
+    "filename": "entris-banking-2022.pdf",
+    "url": "https://www.datocms-assets.com/207097/1790019457-geschaeftsbericht_2022_de_entris-banking.pdf",
+    "status": "downloaded",
+    "bytes": 4576226,
+    "sha256": "f7fa1ca12d033f22174769b4eedd4c642c0fb6396f65da0a9ed428ceaff3f78f"
+  },
+  {
+    "filename": "entris-banking-2023.pdf",
+    "url": "https://www.datocms-assets.com/207097/1790019455-geschaeftsbericht_2023_entris-banking.pdf",
+    "status": "downloaded",
+    "bytes": 1045965,
+    "sha256": "5d2c0dac0bf2d76ae15957c59a81be5e9480dbac4eda7085ecff3791ce0e6876"
+  },
+  {
+    "filename": "entris-banking-2024.pdf",
+    "url": "https://www.datocms-assets.com/207097/1790019452-geschaeftsbericht_2024_entris-banking.pdf",
+    "status": "downloaded",
+    "bytes": 1274297,
+    "sha256": "58b1626bab6cefa6971fee93aad2f9fc14137e03799e9de840bb89a552cbc7bd"
+  },
+  {
+    "filename": "entris-banking-2025.pdf",
+    "url": "https://www.datocms-assets.com/207097/1790019449-entrisbanking_gb25_20260311_final.pdf",
+    "status": "downloaded",
+    "bytes": 1620461,
+    "sha256": "3a978b8ba20f88ebc22423bf5ae50f4b0ba0567fb60a53411e5452f95c92ec15"
+  },
+  {
+    "filename": "entris-geschaeftsbericht-2021.pdf",
+    "url": "https://www.datocms-assets.com/207097/1791977720-entrisholding_gb21_de_20220325.pdf",
+    "status": "downloaded",
+    "bytes": 2215014,
+    "sha256": "81af97c81a48d6041b2f0569ade8ef861c5c50d0ff9b1dd914ace864ed625dc2"
+  },
+  {
+    "filename": "entris-geschaeftsbericht-2022.pdf",
+    "url": "https://www.datocms-assets.com/207097/1791977683-entrisholding_gb22_20230314_final.pdf",
+    "status": "downloaded",
+    "bytes": 1091275,
+    "sha256": "f0e22c594cbf716a8959fdcc1d00227d2b8134f43278f8d83a1dedcef5c616ba"
+  },
+  {
+    "filename": "entris-geschaeftsbericht-2023.pdf",
+    "url": "https://www.datocms-assets.com/207097/1791977666-entrisholding_gb23_final_web.pdf",
+    "status": "downloaded",
+    "bytes": 712998,
+    "sha256": "dd0da1908beaae02e457cf75922ee47325ca94c10447f23d2291f9da10e15279"
+  },
+  {
+    "filename": "entris-geschaeftsbericht-2024.pdf",
+    "url": "https://www.datocms-assets.com/207097/1791977649-entrisholding_gb24_def.pdf",
+    "status": "downloaded",
+    "bytes": 677579,
+    "sha256": "50588877e282ba003550b5fba3bb2164303e938d4d2999a8f9a093fbbee6b019"
+  },
+  {
+    "filename": "entris-geschaeftsbericht-2025.pdf",
+    "url": "https://www.datocms-assets.com/207097/1791977630-entrisholding_gb25_final.pdf",
+    "status": "downloaded",
+    "bytes": 721444,
+    "sha256": "9e6eb96d87ec88bb630fc47776c5930a03969c675c47fba0230b98d94574fae8"
+  }
+]

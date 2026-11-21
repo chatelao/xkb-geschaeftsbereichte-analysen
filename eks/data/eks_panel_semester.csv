@@ -1,0 +1,8 @@
+bank_id,year,period,report_type,report_file,currency_orig,total_assets_mio,commission_income_mio,mortgage_loans_mio,reserves_banking_risks_mio,customer_loans_other_mio,trading_income_mio,general_expenses_mio,total_operating_expenses_mio,financial_investments_mio,operating_profit_mio,taxes_mio,other_ordinary_income_mio,net_interest_income_mio,personnel_expenses_mio,customer_deposits_mio,net_profit_mio,self_healed_fields
+eks,2020,H1-2020,semester,.md/eks-semesterbericht-2020.md,CHF,77408.238,6.516,64808.89,2900.0,1140.0,2.357,-132.014,-279.234,1479.525,79.049,-12.0,18.11,331.299,-147.22,67386.705,67.049,
+eks,2021,H1-2021,semester,.md/eks-semesterbericht-2021.md,CHF,78395.825,6.571,66000.05,2950.0,1140.938,1.732,-142.724,-288.92,1479.275,53.858,-7.5,17.587,316.887,-146.195,66264.326,46.358,
+eks,2022,H1-2022,semester,.md/eks-semesterbericht-2022.md,CHF,74271.26,6.154,62550.925,2960.0,1100.938,1.498,-130.726,-284.694,1379.025,38.91,-6.5,17.086,298.866,-153.968,64031.347,32.41,
+eks,2023,H1-2023,semester,.md/eks-semesterbericht-2023.md,CHF,74514.336,6.104,63022.7,2960.0,3089.87,4.524,-144.204,-297.07,1776.275,54.542,-7.0,31.026,309.958,-152.866,64055.095,47.542,
+eks,2024,H1-2024,semester,.md/eks-semesterbericht-2024.md,CHF,77913.138,6.206,63810.259,2960.0,3090.0,6.599,-166.719,-326.888,1685.131,12.528,-2.0,31.529,295.083,-160.169,67195.145,10.528,
+eks,2025,H1-2025,semester,.md/eks-semesterbericht-2025.md,CHF,77974.413,6.416,64848.9,2960.0,3090.0,4.76,-158.942,-323.327,1687.949,187.214,-35.639,23.383,475.982,-164.386,67210.701,151.575,
+eks,2026,H1-2026,semester,.md/eks-semesterbericht-2026.md,CHF,82415.091,6.851,66198.7,2960.0,3090.0,4.834,-151.763,-342.311,438.324,75.084,-10.285,22.401,383.31,-190.548,71518.359,64.799,

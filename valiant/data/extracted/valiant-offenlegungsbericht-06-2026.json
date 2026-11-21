@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "stem": "valiant-offenlegungsbericht-06-2026",
+    "report_type": "offenlegung_h1",
+    "year": 2026,
+    "period": "H1-2026",
+    "part": null,
+    "bank_id": "valiant",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/valiant-offenlegungsbericht-06-2026.md",
+    "total_chars": 26077,
+    "total_lines": 357
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2682481.0,
+      "value_prior_year": 2664217.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|2 682 481|2 664 217|2 597 097|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2682481.0,
+      "value_prior_year": 2664217.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (Tier1)|2 682 481|2 664 217|2 597 097|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2683353.0,
+      "value_prior_year": 2666581.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**3**<br>**Gesamtkapital total**|**2 683 353**|**2 666 581**|**2 599 044**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 15765075.0,
+      "value_prior_year": 15480452.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4<br>RWA|15 765 075|15 480 452|15 448 660|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 17.02,
+      "value_prior_year": 17.21,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote|17,02|17,21|16,81|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 17.02,
+      "value_prior_year": 17.23,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote|17,02|17,23|16,82|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.54,
+      "value_prior_year": 6.66,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14b Leverage Ratio,ohne die Auswirkungeiner vorübergehenden Ausnahme von Zentralbankguthaben|6,54|6,66|6,59|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 120.0,
+      "value_prior_year": 119.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**20**|**Finanzierungsquote, NSFR (in %)**|**120**|**119**|**118**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "mortgage_loans": {
+      "value_current": 15691351.0,
+      "value_prior_year": 14054504.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|15 691 351||14 054 504|29 745 855|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "financial_investments": {
+      "value_current": 431912.0,
+      "value_prior_year": 16711.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|431 912|16 711|3 403 017|3 851 640|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

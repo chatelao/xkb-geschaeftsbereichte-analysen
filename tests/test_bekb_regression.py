@@ -25,7 +25,7 @@ def test_bekb_panel_regression():
 
 
 def test_bekb_reports_and_charts_count():
-    reports = list((BEKB_DIR / "reports").glob("0*.md"))
+    reports = list((BEKB_DIR / "reports").glob("[01]*.md"))
     charts = list((BEKB_DIR / "reports" / "charts").glob("*.png"))
-    assert len(reports) == 7
+    assert len(reports) == 10
     assert len(charts) == 13

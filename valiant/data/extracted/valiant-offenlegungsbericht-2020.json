@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "valiant-offenlegungsbericht-2020",
+    "report_type": "offenlegung_fy",
+    "year": 2020,
+    "period": "FY2020",
+    "part": null,
+    "bank_id": "valiant",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/valiant-offenlegungsbericht-2020.md",
+    "total_chars": 57213,
+    "total_lines": 936
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2261455.0,
+      "value_prior_year": 2230815.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|2 261 455|2 230 815|2 217 836|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2261455.0,
+      "value_prior_year": 2230815.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (Tier1)|2 261 455|2 230 815|2 217 836|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2261455.0,
+      "value_prior_year": 2230815.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**3**<br>**Gesamtkapital total**|**2 261 455**|**2 230 815**|**2 217 836**|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 14037317.0,
+      "value_prior_year": 13888008.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|4<br>RWA|14 037 317|13 888 008|13 475 177|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 16.11,
+      "value_prior_year": 16.06,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote (in %)|16,11|16,06|16,46|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 16.11,
+      "value_prior_year": 16.06,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote (in %)|16,11|16,06|16,46|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

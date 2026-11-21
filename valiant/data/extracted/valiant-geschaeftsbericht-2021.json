@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "stem": "valiant-geschaeftsbericht-2021",
+    "report_type": "annual",
+    "year": 2021,
+    "period": "FY2021",
+    "part": null,
+    "bank_id": "valiant",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/valiant-geschaeftsbericht-2021.md",
+    "total_chars": 480711,
+    "total_lines": 6380
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 25708253.0,
+      "value_prior_year": 24212132.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|2,11|25 708 253|24 212 132|1 496 121|6,2|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1529548.0,
+      "value_prior_year": 1610841.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|5|1 529 548|1 610 841|– 81 293|– 5,0|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 35560329.0,
+      "value_prior_year": 33184237.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**||**35 560 329**|**33 184 237**|**2 376 092**|**7,2 **|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 22087860.0,
+      "value_prior_year": 20950936.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|12|22 087 860|20 950 936|1 136 924|5,4|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 50889.0,
+      "value_prior_year": 77551.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen||50 889|77 551|– 26 662|– 34,4|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 8078500.0,
+      "value_prior_year": 7163700.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|15|8 078 500|7 163 700|914 800|12,8|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 34786.0,
+      "value_prior_year": 34786.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|16|34 786|34 786|0|0,0|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 123125.0,
+      "value_prior_year": 121869.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn||123 125|121 869|1 256|1,0|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 2398755.0,
+      "value_prior_year": 2361107.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Eigenkapital**||**2 398 755**|**2 361 107**|**37 648**|**1,6 **|",
+      "chunk_name": "bilanz"
+    }
+  }
+}
