@@ -102,6 +102,14 @@
       "source_quote": "|Emprunts et prêts des centrales d'émission des lettres de gage|3'533'255|3'432'055|101'200|2.9|",
       "chunk_name": "bilanz"
     },
+    "reserves_banking_risks": {
+      "value_current": 195000.0,
+      "value_prior_year": 180000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux|195'000|180'000|15'000|8.3|",
+      "chunk_name": "bilanz"
+    },
     "net_interest_income": {
       "value_current": 125557.0,
       "value_prior_year": 107898.0,

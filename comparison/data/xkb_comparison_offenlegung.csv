@@ -1,40 +1,40 @@
 bank_id,short_name,peer_group,reporting_scope,accounting_standard,state_guarantee,has_credit_ban,finma_category,currency_orig,year,period,sort_date,regime,rwa_total_mio,cet1_capital_mio,cet1_ratio_pct,total_capital_ratio_pct,leverage_ratio_pct,lcr_pct,nsfr_pct,rwa_density_pct,cet1_excess_over_target_pp
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2015,FY2015,2015-12-31,Basel III,,,19.47,,29183982.0,,,,10.21
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2016,FY2016,2016-12-31,Basel III,,,19.81,,29572913.0,,,,10.55
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2015,FY2015,2015-12-31,Basel III,,,19.47,,7.74,,,,10.21
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2016,FY2016,2016-12-31,Basel III,,,19.81,,7.87,,,,10.55
 bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2017,FY2017,2017-12-31,Basel III,,,19.93,,,,,,10.67
 bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2018,H1-2018,2018-06-30,Basel III,,,18.62,,,,,,9.36
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2018,FY2018,2018-12-31,Basel III,,2488.978,18.6,18.6,7.82,,,,9.34
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2019,H1-2019,2019-06-30,Basel III,,2497.829,18.69,18.69,7.48,,,,9.43
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2019,FY2019,2019-12-31,Basel III,,2540.534,19.46,19.46,7.48,,,,10.2
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2020,H1-2020,2020-06-30,Basel III,,2540.0,18.94,18.94,7.95,,,,9.68
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2020,FY2020,2020-12-31,Basel III,,,,,,,,,
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2021,H1-2021,2021-06-30,Basel III,,,,,,,,,
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2021,FY2021,2021-12-31,Basel III,,,,,,,,,
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2022,H1-2022,2022-06-30,Basel III,,,,,,,,,
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2022,FY2022,2022-12-31,Basel III,,,,,,,,,
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2023,H1-2023,2023-06-30,Basel III,,,,,,,,,
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2023,FY2023,2023-12-31,Basel III,,,,,,,,,
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2024,H1-2024,2024-06-30,Basel III,,2793.607,17.11,19.33,6.81,,152.9,,7.85
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2024,FY2024,2024-12-31,Basel III,,2875.338,17.26,19.4,6.9,,148.8,,8.0
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2025,H1-2025,2025-06-30,Basel III final,,2896.756,18.5,20.69,6.69,144.4,143.0,,9.24
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,,2954.48,18.28,20.39,,141.9,143.3,,9.02
-bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2020,H1-2020,2020-06-30,Basel III,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2020,FY2020,2020-12-31,Basel III,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2021,H1-2021,2021-06-30,Basel III,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2021,FY2021,2021-12-31,Basel III,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2022,H1-2022,2022-06-30,Basel III,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2022,FY2022,2022-12-31,Basel III,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2023,H1-2023,2023-06-30,Basel III,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2023,FY2023,2023-12-31,Basel III,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2024,H1-2024,2024-06-30,Basel III,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2024,FY2024,2024-12-31,Basel III,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2025,H1-2025,2025-06-30,Basel III final,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,,,,,,,,,
-vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2014,Q1-2014,2014-03-31,Basel III,,,,,2014.0,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2014,FY2014,2014-12-31,Basel III,,,,,2.21,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2015,Q1-2015,2015-03-31,Basel III,,,,,177848.0,,,,
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2018,FY2018,2018-12-31,Basel III,13379.878,2488.978,18.6,18.6,,,,43.74,9.34
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2019,H1-2019,2019-06-30,Basel III,13366.814,2497.829,18.69,18.69,,145.8,,40.59,9.43
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2019,FY2019,2019-12-31,Basel III,13057.846,2540.534,19.46,19.46,,,,39.65,10.2
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2020,H1-2020,2020-06-30,Basel III,13412.412,2540.0,18.94,18.94,,135.28,,36.83,9.68
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2020,FY2020,2020-12-31,Basel III,13420.304,2548.367,18.99,18.99,,,,36.85,9.73
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2021,H1-2021,2021-06-30,Basel III,14201.781,2555.27,17.99,17.99,,191.68,,36.42,8.73
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2021,FY2021,2021-12-31,Basel III,14418.758,2592.854,17.98,18.97,,,155.7,36.98,8.72
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2022,H1-2022,2022-06-30,Basel III,15160.868,2600.996,17.16,19.4,,181.2,156.0,38.13,7.9
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2022,FY2022,2022-12-31,Basel III,15466.598,2649.812,17.13,19.4,,,156.8,38.9,7.87
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2023,H1-2023,2023-06-30,Basel III,15653.349,2670.185,17.06,19.29,,204.3,158.4,39.08,7.8
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2023,FY2023,2023-12-31,Basel III,15975.333,2767.304,17.32,19.57,,,155.2,39.88,8.06
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2024,H1-2024,2024-06-30,Basel III,16323.672,2793.607,17.11,19.33,,199.4,152.9,40.31,7.85
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2024,FY2024,2024-12-31,Basel III,16658.058,2875.338,17.26,19.4,,,148.8,41.13,8.0
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2025,H1-2025,2025-06-30,Basel III final,15661.491,2896.756,18.5,20.69,,144.4,143.0,36.44,9.24
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,16159.205,2954.48,18.28,20.39,,141.9,143.3,37.6,9.02
+bekb,BEKB,cantonal_bank,standalone,ARB_RVB,False,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,16421.145,2962.332,18.04,20.08,,141.2,144.0,,8.78
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2020,H1-2020,2020-06-30,Basel III,7776.133,1365.867,17.6,17.6,,,,43.04,8.4
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2020,FY2020,2020-12-31,Basel III,7994.263,,16.7,17.5,,,,44.25,7.5
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2021,H1-2021,2021-06-30,Basel III,8069.241,1333.154,16.5,17.3,,,,43.62,7.3
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2021,FY2021,2021-12-31,Basel III,8110.061,1379.38,17.0,17.8,,,128.0,43.84,7.8
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2022,H1-2022,2022-06-30,Basel III,8449.173,1380.183,16.3,17.1,,163.3,125.0,43.75,7.1
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2022,FY2022,2022-12-31,Basel III,8353.746,1430.303,17.1,17.8,,,125.1,43.25,7.9
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2023,H1-2023,2023-06-30,Basel III,8787.359,1431.359,16.3,17.0,,139.3,126.5,43.7,7.1
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2023,FY2023,2023-12-31,Basel III,8845.849,1507.696,17.0,17.8,,,123.9,43.99,7.8
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2024,H1-2024,2024-06-30,Basel III,9041.741,1508.516,16.7,17.4,,,129.2,43.35,7.5
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2024,FY2024,2024-12-31,Basel III,9195.67,1581.015,17.2,17.9,,,128.8,44.08,8.0
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2025,H1-2025,2025-06-30,Basel III final,9471.03,1584.468,16.7,17.4,,171.0,124.7,42.97,7.5
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,9575.354,1646.719,17.2,17.9,,,,43.44,8.0
+vskb,WKB (VSKB),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,9910.254,1649.47,16.6,17.3,,180.8,125.1,,7.4
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2014,Q1-2014,2014-03-31,Basel III,,,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2014,FY2014,2014-12-31,Basel III,,,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2015,Q1-2015,2015-03-31,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2015,H1-2015,2015-06-30,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2015,Q3-2015,2015-09-30,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2016,Q1-2016,2016-03-31,Basel III,,,,,,,,,
@@ -42,40 +42,40 @@ zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2016,H1-2016,2016-06
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2016,Q3-2016,2016-09-30,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2016,FY2016,2016-12-31,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2017,Q1-2017,2017-03-31,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2017,FY2017,2017-12-31,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2018,H1-2018,2018-06-30,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2018,Q3-2018,2018-09-30,Basel III,,,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2017,FY2017,2017-12-31,Basel III,,,16.5,18.8,,,,,6.5
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2018,H1-2018,2018-06-30,Basel III,,,16.3,18.6,,,,,6.3
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2018,Q3-2018,2018-09-30,Basel III,,,16.4,18.7,,,,,6.4
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2018,FY2018,2018-12-31,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2019,Q1-2019,2019-03-31,Basel III,,11.173,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2019,Q1-2019,2019-03-31,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2019,H1-2019,2019-06-30,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2019,Q3-2019,2019-09-30,Basel III,,11.019,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2019,Q3-2019,2019-09-30,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2019,FY2019,2019-12-31,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2020,Q1-2020,2020-03-31,Basel III,,11.474,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2020,H1-2020,2020-06-30,Basel III,,,,,43.0,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2020,Q3-2020,2020-09-30,Basel III,,11.486,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2020,Q1-2020,2020-03-31,Basel III,,,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2020,H1-2020,2020-06-30,Basel III,,,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2020,Q3-2020,2020-09-30,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2020,FY2020,2020-12-31,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2021,Q1-2021,2021-03-31,Basel III,,11.652,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2021,Q1-2021,2021-03-31,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2021,H1-2021,2021-06-30,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2021,Q3-2021,2021-09-30,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2021,FY2021,2021-12-31,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2022,Q1-2022,2022-03-31,Basel III,,12.196,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2022,H1-2022,2022-06-30,Basel III,,,,,47.0,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2022,Q3-2022,2022-09-30,Basel III,,12.211,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2022,Q1-2022,2022-03-31,Basel III,,,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2022,H1-2022,2022-06-30,Basel III,,,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2022,Q3-2022,2022-09-30,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2022,FY2022,2022-12-31,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2023,Q1-2023,2023-03-31,Basel III,,12.798,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2023,H1-2023,2023-06-30,Basel III,,12.949,16.6,19.9,6.2,,121.0,,6.6
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2023,Q1-2023,2023-03-31,Basel III,,,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2023,H1-2023,2023-06-30,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2023,Q3-2023,2023-09-30,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2023,FY2023,2023-12-31,Basel III,,,,,223324.0,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2023,FY2023,2023-12-31,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2024,Q1-2024,2024-03-31,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2024,H1-2024,2024-06-30,Basel III,,,,,229724.0,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2024,H1-2024,2024-06-30,Basel III,,,,,,,,,
 zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2024,Q3-2024,2024-09-30,Basel III,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2024,FY2024,2024-12-31,Basel III,,,,,227341.0,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2025,Q1-2025,2025-03-31,Basel III final,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2025,H1-2025,2025-06-30,Basel III final,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2025,Q3-2025,2025-09-30,Basel III final,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2025,FY2025,2025-12-31,Basel III final,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2026,Q1-2026,2026-03-31,Basel III final,,,,,,,,,
-zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2026,H1-2026,2026-06-30,Basel III final,,,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2024,FY2024,2024-12-31,Basel III,,,,,,,,,
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2025,Q1-2025,2025-03-31,Basel III final,72.39,14.64,20.2,22.5,6.9,,,0.04,10.2
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2025,H1-2025,2025-06-30,Basel III final,70.855,14.937,21.1,23.2,7.2,,,0.03,11.1
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2025,Q3-2025,2025-09-30,Basel III final,72.751,14.929,20.5,22.6,7.0,,,0.04,10.5
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2025,FY2025,2025-12-31,Basel III final,72.736,15.47,21.3,23.4,7.2,,,0.04,11.3
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2026,Q1-2026,2026-03-31,Basel III final,78.025,15.498,19.9,21.8,7.0,,,,9.9
+zkb,ZKB,cantonal_bank,consolidated,ARB_RVB,True,False,2,CHF,2026,H1-2026,2026-06-30,Basel III final,77.987,15.668,20.1,21.9,7.1,,,,10.1
 bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2009,H1-2009,2009-06-30,Basel III,,,,,,,,,
 bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2009,FY2009,2009-12-31,Basel III,,,,,,,,,
 bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2010,H1-2010,2010-06-30,Basel III,,,,,,,,,
@@ -89,143 +89,143 @@ bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2013,FY2013,2013-12
 bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2014,H1-2014,2014-06-30,Basel III,,2.854,,,,,,,
 bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2014,FY2014,2014-12-31,Basel III,,2.874,,,,,,,
 bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2015,H1-2015,2015-06-30,Basel III,,2.872,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2015,FY2015,2015-12-31,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2016,H1-2016,2016-06-30,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2016,FY2016,2016-12-31,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2017,H1-2017,2017-06-30,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2017,FY2017,2017-12-31,Basel III,,,,,47886.0,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2018,H1-2018,2018-06-30,Basel III,,,,,48296.0,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2018,FY2018,2018-12-31,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2019,H1-2019,2019-06-30,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2019,FY2019,2019-12-31,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2020,H1-2020,2020-06-30,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2020,FY2020,2020-12-31,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2021,H1-2021,2021-06-30,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2021,FY2021,2021-12-31,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2022,H1-2022,2022-06-30,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2022,FY2022,2022-12-31,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2023,H1-2023,2023-06-30,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2023,FY2023,2023-12-31,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,H1-2024,2024-06-30,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,FY2024,2024-12-31,Basel III,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2025,H1-2025,2025-06-30,Basel III final,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,,,,,,,,,
-bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,,,,,,,,,
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2015,FY2015,2015-12-31,Basel III,,3.113,,,,,,,
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2016,H1-2016,2016-06-30,Basel III,,3.114,,,,,,,
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2016,FY2016,2016-12-31,Basel III,,3.136,17.5,,,,,,6.9
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2017,H1-2017,2017-06-30,Basel III,,3.155,17.1,,,,,,6.5
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2017,FY2017,2017-12-31,Basel III,18.199,3.118,17.1,,6.5,,,0.04,6.5
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2018,H1-2018,2018-06-30,Basel III,18.949,3.109,16.4,,6.4,,,0.04,5.8
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2018,FY2018,2018-12-31,Basel III,18.423,3.24,17.1,,6.2,,,0.04,6.5
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2019,H1-2019,2019-06-30,Basel III,18.942,3.241,16.7,,6.3,,,0.04,6.1
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2019,FY2019,2019-12-31,Basel III,18.786,3.294,17.1,,6.3,,,0.04,6.5
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2020,H1-2020,2020-06-30,Basel III,18.124,3.294,17.7,,6.1,,,0.03,7.1
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2020,FY2020,2020-12-31,Basel III,,3.28,17.7,,5.8,,,,7.1
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2021,H1-2021,2021-06-30,Basel III,19.167,3.28,17.0,,5.6,,,0.03,6.4
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2021,FY2021,2021-12-31,Basel III,,3.34,17.2,,5.6,,,,6.6
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2022,H1-2022,2022-06-30,Basel III,,3.34,17.0,,5.4,,,,6.4
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2022,FY2022,2022-12-31,Basel III,,3.4,17.6,,5.5,,,,7.0
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2023,H1-2023,2023-06-30,Basel III,,3.4,17.5,,5.5,,,,6.9
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2023,FY2023,2023-12-31,Basel III,19.352,3.499,17.9,,5.6,,,0.03,7.3
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,H1-2024,2024-06-30,Basel III,,3.499,17.0,,5.4,,,,6.4
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,FY2024,2024-12-31,Basel III,,3.561,16.8,,5.5,,,,6.2
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2025,H1-2025,2025-06-30,Basel III final,,,18.4,,,,,,7.8
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,,,18.0,,,,,,7.4
+bcv,BCV,cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,,,17.6,,,,,,7.0
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2010,FY2010,2010-12-31,Basel III,,,,,,,,,
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2011,FY2011,2011-12-31,Basel III,,,,,,,,,
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2012,FY2012,2012-12-31,Basel III,,,,,,,,,
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2013,FY2013,2013-12-31,Basel III,,1159.45,11.6,,,,,,2.4
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2014,FY2014,2014-12-31,Basel III,,1227.914,,,,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2015,FY2015,2015-12-31,Basel III,,,,,0.0,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2016,FY2016,2016-12-31,Basel III,,,,,0.0,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2017,FY2017,2017-12-31,Basel III,,,,,0.0,,,,
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2015,FY2015,2015-12-31,Basel III,,1307.504,12.84,,6.76,,,,3.64
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2016,FY2016,2016-12-31,Basel III,,1362.267,12.19,,6.6,,,,2.99
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2017,FY2017,2017-12-31,Basel III,,1457.526,12.34,,6.91,,,,3.14
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2018,FY2018,2018-12-31,Basel III,,,,,,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2019,H1-2019,2019-06-30,Basel III,,,,,,,,,
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2019,H1-2019,2019-06-30,Basel III,12079.612,,13.3,,7.4,,,48.48,4.1
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2019,FY2019,2019-12-31,Basel III,,,,,,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2020,H1-2020,2020-06-30,Basel III,,,,,,,,,
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2020,H1-2020,2020-06-30,Basel III,12558.351,1658.403,13.2,,8.2,,,45.6,4.0
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2020,FY2020,2020-12-31,Basel III,,,,,,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2021,H1-2021,2021-06-30,Basel III,,,,,,,,,
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2021,H1-2021,2021-06-30,Basel III,,,12.9,,6.7,,,,3.7
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2021,FY2021,2021-12-31,Basel III,,,,,,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2022,H1-2022,2022-06-30,Basel III,,,,,,,,,
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2022,H1-2022,2022-06-30,Basel III,13568.431,1848.693,13.6,,6.8,,,45.18,4.4
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2022,FY2022,2022-12-31,Basel III,,,,,,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2023,H1-2023,2023-06-30,Basel III,,,,,,,,,
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2023,H1-2023,2023-06-30,Basel III,13652.652,2034.238,14.9,,6.7,,,45.1,5.7
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2023,FY2023,2023-12-31,Basel III,,,,,,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,H1-2024,2024-06-30,Basel III,,,,,,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,FY2024,2024-12-31,Basel III,,,,,,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2025,H1-2025,2025-06-30,Basel III final,,,,,,,,,
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,H1-2024,2024-06-30,Basel III,14814.642,2220.478,15.0,,7.1,,,45.67,5.8
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,FY2024,2024-12-31,Basel III,,,15.0,,,,,,5.8
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2025,H1-2025,2025-06-30,Basel III final,,2335.719,15.9,,6.5,,,,6.7
 gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,,,,,,,,,
-gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2015,H1-2015,2015-06-30,Basel III,85616094.0,12635842.0,14.4,16.2,,,,41612.11,4.4
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2015,Q3-2015,2015-09-30,Basel III,,12116.0,14.15,16.19,202292.0,,,,4.15
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2015,FY2015,2015-12-31,Basel III,87458514.0,13283841.0,14.6,16.4,,,,42507.59,4.6
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2016,Q1-2016,2016-03-31,Basel III,,12705.0,13.88,15.28,212546.0,,,,3.88
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2016,H1-2016,2016-06-30,Basel III,,12705.0,14.27,16.34,212546.0,,,,4.27
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2016,Q3-2016,2016-09-30,Basel III,,0.003,14.6,16.3,,,,,4.6
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2016,FY2016,2016-12-31,Basel III,,0.01,14.8,16.5,,,,,4.8
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2017,Q1-2017,2017-03-31,Basel III,,0.01,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2017,H1-2017,2017-06-30,Basel III,,0.01,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2017,Q3-2017,2017-09-30,Basel III,,0.01,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2017,FY2017,2017-12-31,Basel III,,0.01,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2018,Q1-2018,2018-03-31,Basel III,,10.06,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2018,H1-2018,2018-06-30,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2018,Q3-2018,2018-09-30,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2018,FY2018,2018-12-31,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,Q1-2019,2019-03-31,Basel III,,,,,239641.0,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,H1-2019,2019-06-30,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,Q3-2019,2019-09-30,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,FY2019,2019-12-31,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,Q1-2020,2020-03-31,Basel III,,16920.0,17.2,18.3,228686.0,,,,7.2
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,H1-2020,2020-06-30,Basel III,,16959.0,17.0,18.1,,,,,7.0
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,Q3-2020,2020-09-30,Basel III,,17085.0,18.0,18.4,237105.0,,,,8.0
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,FY2020,2020-12-31,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,Q1-2021,2021-03-31,Basel III,,17.961,18.8,20.7,6.8,,,,8.8
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,H1-2021,2021-06-30,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,Q3-2021,2021-09-30,Basel III,,18.053,19.8,22.0,,,,,9.8
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,FY2021,2021-12-31,Basel III,,,,,27.0,,36.0,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2022,Q1-2022,2022-03-31,Basel III,,,,,7.0,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2022,H1-2022,2022-06-30,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2022,Q3-2022,2022-09-30,Basel III,,,,,7.0,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2022,FY2022,2022-12-31,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2023,Q1-2023,2023-03-31,Basel III,,,,,8.0,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2023,H1-2023,2023-06-30,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2023,Q3-2023,2023-09-30,Basel III,,,,,8.0,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2023,FY2023,2023-12-31,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,Q1-2024,2024-03-31,Basel III,,,,,8.0,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,H1-2024,2024-06-30,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,Q3-2024,2024-09-30,Basel III,,,,,8.0,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,FY2024,2024-12-31,Basel III,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,Q1-2025,2025-03-31,Basel III final,,,,,9.0,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,H1-2025,2025-06-30,Basel III final,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,Q3-2025,2025-09-30,Basel III final,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,FY2025,2025-12-31,Basel III final,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2026,Q1-2026,2026-03-31,Basel III final,,,,,,,,,
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2026,H1-2026,2026-06-30,Basel III final,,,,,,,,,
+gekb,BCGE (GEKB),cantonal_bank,consolidated,ARB_RVB,False,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,,2402.843,15.5,,6.4,166.0,138.0,,6.3
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2015,H1-2015,2015-06-30,Basel III,85616094.0,,14.4,16.2,,,,41612.11,4.4
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2015,Q3-2015,2015-09-30,Basel III,,12116.0,14.15,16.19,6.53,,,,4.15
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2015,FY2015,2015-12-31,Basel III,87458514.0,,14.6,16.4,,,,42507.59,4.6
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2016,Q1-2016,2016-03-31,Basel III,,12705.0,13.88,15.28,6.66,,,,3.88
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2016,H1-2016,2016-06-30,Basel III,,12705.0,14.27,16.34,6.66,,,,4.27
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2016,Q3-2016,2016-09-30,Basel III,,,14.6,16.3,,,,,4.6
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2016,FY2016,2016-12-31,Basel III,,,14.8,16.5,,,,,4.8
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2017,Q1-2017,2017-03-31,Basel III,,,,,,,,,
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2017,H1-2017,2017-06-30,Basel III,,,,,,,,,
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2017,Q3-2017,2017-09-30,Basel III,,,,,,,,,
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2017,FY2017,2017-12-31,Basel III,,,,,,,,,
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2018,Q1-2018,2018-03-31,Basel III,,,15.6,17.03,,,,,5.6
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2018,H1-2018,2018-06-30,Basel III,,,15.64,16.92,,,,,5.64
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2018,Q3-2018,2018-09-30,Basel III,,,15.94,17.21,,,,,5.94
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2018,FY2018,2018-12-31,Basel III,99307.0,16408.0,16.5,17.8,,,,44.07,6.5
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,Q1-2019,2019-03-31,Basel III,102003.0,16479.0,16.2,17.3,,,,41.07,6.2
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,H1-2019,2019-06-30,Basel III,102032.0,16548.0,16.2,17.4,,,,41.08,6.2
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,Q3-2019,2019-09-30,Basel III,97333.0,16063.0,16.5,17.7,,,,39.19,6.5
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,FY2019,2019-12-31,Basel III,98295.0,16868.0,17.2,18.3,,,,39.58,7.2
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,Q1-2020,2020-03-31,Basel III,,,17.2,18.3,,,,,7.2
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,H1-2020,2020-06-30,Basel III,,,17.0,18.1,,,,,7.0
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,Q3-2020,2020-09-30,Basel III,,,18.0,18.4,,,,,8.0
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,FY2020,2020-12-31,Basel III,,,19.1,20.5,,,,,9.1
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,Q1-2021,2021-03-31,Basel III,,,18.8,20.7,,,,,8.8
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,H1-2021,2021-06-30,Basel III,,,18.7,20.6,,,,,8.7
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,Q3-2021,2021-09-30,Basel III,,,19.8,22.0,,,146.5,,9.8
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,FY2021,2021-12-31,Basel III,91.187,19.109,21.0,23.2,,,144.9,0.03,11.0
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2022,Q1-2022,2022-03-31,Basel III,92.493,19.183,20.7,22.8,7.0,,143.8,0.03,10.7
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2022,H1-2022,2022-06-30,Basel III,93.215,19.375,20.8,22.8,,,142.3,0.03,10.8
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2022,Q3-2022,2022-09-30,Basel III,92.238,19.415,21.0,23.1,7.0,,141.4,0.03,11.0
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2022,FY2022,2022-12-31,Basel III,,20.575,,,,,,,
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2023,Q1-2023,2023-03-31,Basel III,94.226,20.729,22.0,24.1,8.0,,140.5,0.03,12.0
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2023,H1-2023,2023-06-30,Basel III,95.314,21.47,22.5,25.2,,,,0.03,12.5
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2023,Q3-2023,2023-09-30,Basel III,96.321,21.484,22.3,25.0,8.0,,,0.03,12.3
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2023,FY2023,2023-12-31,Basel III,97.142,22.197,22.8,25.2,,,,0.03,12.8
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,Q1-2024,2024-03-31,Basel III,98.886,22.27,22.5,24.9,8.0,,,0.03,12.5
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,H1-2024,2024-06-30,Basel III,100.481,22.934,22.8,25.3,,,,0.03,12.8
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,Q3-2024,2024-09-30,Basel III,102.203,22.947,22.5,25.3,8.0,,,0.03,12.5
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,FY2024,2024-12-31,Basel III,103.463,23.541,22.8,25.3,,,,0.03,12.8
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,Q1-2025,2025-03-31,Basel III final,97.949,23.87,24.4,,9.0,,,0.03,14.4
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,H1-2025,2025-06-30,Basel III final,,,24.2,26.9,7.8,,,,14.2
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,Q3-2025,2025-09-30,Basel III final,100.756,24.307,24.1,26.7,7.8,,,0.03,14.1
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,FY2025,2025-12-31,Basel III final,101.966,24.811,24.3,26.7,7.9,,,0.03,14.3
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2026,Q1-2026,2026-03-31,Basel III final,101.338,25.039,24.7,27.0,7.8,,,,14.7
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2026,H1-2026,2026-06-30,Basel III final,102.056,25.256,24.7,27.2,7.8,,,,14.7
 postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2013,FY2013,2013-12-31,Basel III,6.289,4.882,20.4,,,,,0.01,10.4
 postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2014,H1-2014,2014-06-30,Basel III,4.33,5.007,21.7,,,,,0.0,11.7
 postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2014,FY2014,2014-12-31,Basel III,4.743,5.107,20.1,,,,,0.0,10.1
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2015,H1-2015,2015-06-30,Basel III,4277.0,0.009,19.6,,116900.0,,,3.56,9.6
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2015,FY2015,2015-12-31,Basel III,4528.0,0.009,19.5,,115505.0,,,3.76,9.5
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2016,H1-2016,2016-06-30,Basel III,5234.0,0.009,19.5,,122112.0,,,4.52,9.5
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2016,FY2016,2016-12-31,Basel III,5650.0,0.009,19.49,,120680.0,,,4.88,9.49
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2017,Q1-2017,2017-03-31,Basel III,,5532.0,17.8,17.8,120680.0,,,,7.8
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2017,H1-2017,2017-06-30,Basel III,5651.0,0.009,17.13,,122007.0,,,4.65,7.13
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2017,Q3-2017,2017-09-30,Basel III,,5.482,17.13,17.13,120680.0,,,,7.13
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2017,FY2017,2017-12-31,Basel III,,,,,35.0,,,,
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2015,H1-2015,2015-06-30,Basel III,4277.0,,19.6,,,,,3.74,9.6
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2015,FY2015,2015-12-31,Basel III,4528.0,,19.5,,,,,3.96,9.5
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2016,H1-2016,2016-06-30,Basel III,5234.0,,19.5,,,,,4.57,9.5
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2016,FY2016,2016-12-31,Basel III,5650.0,,19.49,,,,,4.94,9.49
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2017,Q1-2017,2017-03-31,Basel III,,5532.0,17.8,17.8,4.54,,,,7.8
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2017,H1-2017,2017-06-30,Basel III,5651.0,,17.13,,,,,4.73,7.13
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2017,Q3-2017,2017-09-30,Basel III,,5.482,17.13,17.13,4.54,,,,7.13
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2017,FY2017,2017-12-31,Basel III,,,17.11,,,,,,7.11
 postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2018,Q1-2018,2018-03-31,Basel III,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2018,H1-2018,2018-06-30,Basel III,,,,,,,,,
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2018,H1-2018,2018-06-30,Basel III,,,16.82,,,,,,6.82
 postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2018,Q3-2018,2018-09-30,Basel III,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2018,FY2018,2018-12-31,Basel III,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2019,Q1-2019,2019-03-31,Basel III,,5999.0,18.04,18.5,5.11,182.0,,,8.04
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2019,H1-2019,2019-06-30,Basel III,,,,,11.0,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2019,Q3-2019,2019-09-30,Basel III,,6032.0,18.69,19.37,5.29,197.0,,,8.69
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2019,FY2019,2019-12-31,Basel III,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2020,Q1-2020,2020-03-31,Basel III,,6101.0,17.91,18.56,128095.0,185.0,,,7.91
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2020,H1-2020,2020-06-30,Basel III,,6.101,18.07,18.75,11.0,,,,8.07
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2020,Q3-2020,2020-09-30,Basel III,,6101.0,18.26,18.95,136803.0,191.0,,,8.26
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2020,FY2020,2020-12-31,Basel III,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2021,Q1-2021,2021-03-31,Basel III,,6093.0,18.3,19.03,125816.0,,,,8.3
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2021,H1-2021,2021-06-30,Basel III,,6.093,18.5,19.23,11.0,,,,8.5
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2021,Q3-2021,2021-09-30,Basel III,,6093.0,18.96,19.7,126127.0,,166.0,,8.96
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2021,FY2021,2021-12-31,Basel III,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2022,Q1-2022,2022-03-31,Basel III,,6094.0,19.31,20.04,122628.0,,161.0,,9.31
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2022,H1-2022,2022-06-30,Basel III,,,,,11.0,,16.0,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2022,Q3-2022,2022-09-30,Basel III,,6094.0,20.41,21.35,115980.0,,165.0,,10.41
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2022,FY2022,2022-12-31,Basel III,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2023,Q1-2023,2023-03-31,Basel III,,6095.0,20.07,20.99,118390.0,,182.0,,10.07
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2023,H1-2023,2023-06-30,Basel III,,,,,11.0,,16.0,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2023,Q3-2023,2023-09-30,Basel III,,6095.0,20.28,21.83,113415.0,,186.0,,10.28
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2023,FY2023,2023-12-31,Basel III,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2024,Q1-2024,2024-03-31,Basel III,,6145.0,20.08,21.59,109904.0,,,,10.08
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2024,H1-2024,2024-06-30,Basel III,,6145.0,20.13,21.64,,,,,10.13
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2024,Q3-2024,2024-09-30,Basel III,,6164.0,20.84,22.41,103771.0,,,,10.84
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2024,FY2024,2024-12-31,Basel III,,6165.0,20.84,22.4,,,,,10.84
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2018,FY2018,2018-12-31,Basel III,33.809,5.949,17.59,17.65,,,,0.03,7.59
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2019,Q1-2019,2019-03-31,Basel III,33254.0,5999.0,18.04,18.5,,182.0,,28.14,8.04
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2019,H1-2019,2019-06-30,Basel III,32.653,5.982,18.32,18.99,11.0,191.0,,0.03,8.32
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2019,Q3-2019,2019-09-30,Basel III,32273.0,6032.0,18.69,19.37,,197.0,,27.31,8.69
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2019,FY2019,2019-12-31,Basel III,32.602,6.101,18.71,19.39,,200.0,,0.03,8.71
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2020,Q1-2020,2020-03-31,Basel III,34057.0,6101.0,17.91,18.56,,185.0,,27.08,7.91
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2020,H1-2020,2020-06-30,Basel III,33.759,6.101,18.07,18.75,11.0,179.0,,0.03,8.07
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2020,Q3-2020,2020-09-30,Basel III,33405.0,6101.0,18.26,18.95,,191.0,,26.57,8.26
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2020,FY2020,2020-12-31,Basel III,33.044,6.101,18.46,19.19,,,,0.03,8.46
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2021,Q1-2021,2021-03-31,Basel III,33292.0,6093.0,18.3,19.03,,,,27.36,8.3
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2021,H1-2021,2021-06-30,Basel III,32.935,6.093,18.5,19.23,11.0,,,0.03,8.5
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2021,Q3-2021,2021-09-30,Basel III,32147.0,6093.0,18.96,19.7,,,166.0,26.42,8.96
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2021,FY2021,2021-12-31,Basel III,30.97,6.094,19.68,20.42,,,170.0,0.03,9.68
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2022,Q1-2022,2022-03-31,Basel III,31550.0,6094.0,19.31,20.04,,,161.0,27.58,9.31
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2022,H1-2022,2022-06-30,Basel III,30.304,6.094,20.11,21.03,11.0,,158.0,0.03,10.11
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2022,Q3-2022,2022-09-30,Basel III,29852.0,6094.0,20.41,21.35,,,165.0,26.1,10.41
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2022,FY2022,2022-12-31,Basel III,29.863,6.094,20.41,21.34,,,168.0,0.03,10.41
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2023,Q1-2023,2023-03-31,Basel III,30363.0,6095.0,20.07,20.99,,,182.0,29.69,10.07
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2023,H1-2023,2023-06-30,Basel III,30.363,6.095,20.07,21.61,11.0,,178.0,0.03,10.07
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2023,Q3-2023,2023-09-30,Basel III,30049.0,6095.0,20.28,21.83,,,186.0,29.39,10.28
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2023,FY2023,2023-12-31,Basel III,29.469,6.095,20.68,22.25,,,183.0,0.03,10.68
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2024,Q1-2024,2024-03-31,Basel III,30605.0,6145.0,20.08,21.59,,,,29.93,10.08
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2024,H1-2024,2024-06-30,Basel III,30.523,6.145,20.13,21.64,,,179.0,0.03,10.13
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2024,Q3-2024,2024-09-30,Basel III,29577.0,6164.0,20.84,22.41,,,,28.92,10.84
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2024,FY2024,2024-12-31,Basel III,29.578,6.165,20.84,22.4,,,187.0,0.03,10.84
 postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2025,Q1-2025,2025-03-31,Basel III final,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2025,H1-2025,2025-06-30,Basel III final,,,,,,,,,
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2025,H1-2025,2025-06-30,Basel III final,24807.0,6205.0,25.01,26.87,6.23,,,23.66,15.01
 postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2025,Q3-2025,2025-09-30,Basel III final,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2025,FY2025,2025-12-31,Basel III final,,,,,,,,,
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2026,Q1-2026,2026-03-31,Basel III final,,6.358,24.84,27.53,,,,,14.84
-postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2026,H1-2026,2026-06-30,Basel III final,,,,,,,,,
-ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2023,H1-2023,2023-06-30,Basel III,468.326,,,16.76,1677877.0,175.24,117.64,0.05,
-ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2023,FY2023,2023-12-31,Basel III,459829.307,,,16.9,1695403.0,,,47.27,
-ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2024,FY2024,2024-12-31,Basel III,451.775,,,17.6,1519477.0,,,0.03,
-ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2025,H1-2025,2025-06-30,Basel III final,444969.0,,,18.18,1658089.0,182.31,122.44,31.2,
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2025,FY2025,2025-12-31,Basel III final,24946.0,6322.0,25.34,28.1,6.67,,,23.8,15.34
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2026,Q1-2026,2026-03-31,Basel III final,25.594,6.358,24.84,27.53,,,,,14.84
+postfinance,PostFinance,domestic_dsib,standalone,ARB_RVB,False,True,2,CHF,2026,H1-2026,2026-06-30,Basel III final,25564.0,6382.0,24.97,27.6,6.59,,,,14.97
+ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2023,H1-2023,2023-06-30,Basel III,468325.764,67529.081,,16.76,5.56,175.24,117.64,32.41,
+ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2023,FY2023,2023-12-31,Basel III,459829.307,66037.279,,16.9,5.45,,,31.82,
+ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2024,FY2024,2024-12-31,Basel III,451775.136,64672.775,,17.6,5.77,,,31.85,
+ubs,UBS,g_sib,consolidated,IFRS,False,False,1,USD,2025,H1-2025,2025-06-30,Basel III final,444969.0,64129.338,14.41,18.18,5.53,182.31,122.44,31.19,0.41

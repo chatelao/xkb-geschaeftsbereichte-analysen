@@ -102,6 +102,14 @@
       "source_quote": "|**Résultat des opérations de négoce**|**46.2**|**– 44.7**|**90.9**|**n / a**|",
       "chunk_name": "erfolgsrechnung"
     },
+    "other_ordinary_income": {
+      "value_current": 20.2,
+      "value_prior_year": 31.6,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|<br>**Autres résultats ordinaires**|**20.2**|**31.6**|**– 11.4**|**– 36**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "total_operating_income": {
       "value_current": 478.8,
       "value_prior_year": 420.0,

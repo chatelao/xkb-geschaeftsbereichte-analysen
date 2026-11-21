@@ -78,6 +78,14 @@
       "source_quote": "|Fonds propres||3 341|3 322|19|1|",
       "chunk_name": "bilanz"
     },
+    "customer_deposits": {
+      "value_current": 26.0,
+      "value_prior_year": 228.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Engagements envers la clientèle|||26|||228||",
+      "chunk_name": "bilanz"
+    },
     "net_interest_income": {
       "value_current": 503.8,
       "value_prior_year": 501.5,
@@ -100,6 +108,14 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Résultat des opérations de négoce|15.5/15.13|106.4|112.8|–6.4|–6|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 39.6,
+      "value_prior_year": 35.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Autres résultats ordinaires|15.13|39.6|35.0|4.6|13|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {
@@ -148,14 +164,6 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|<br>Impôts|15.12|–85.1|–83.9|1.2|1|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "customer_deposits": {
-      "value_current": 26.0,
-      "value_prior_year": 228.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Engagements envers la clientèle|||26|||228||",
       "chunk_name": "erfolgsrechnung"
     },
     "dividend_per_share": {

@@ -86,6 +86,22 @@
       "source_quote": "|Gewinn|75 581|159 616|–84 035|–52,6|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 195107.0,
+      "value_prior_year": 165081.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Netto-Erfolg Zinsengeschäft**|**195 107**|**165 081**|**30 026**|**18,2**|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 52541.0,
+      "value_prior_year": 56562.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions- und**<br>**Dienstleistungsgeschäft**|**52 541**|**56 562**|**–4 021**|**–7,1**|",
+      "chunk_name": "bilanz"
+    },
     "trading_income": {
       "value_current": 12890.0,
       "value_prior_year": 21832.0,
@@ -93,6 +109,14 @@
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft und**<br>**der Fair-Value-Option**|**12 890**|**21 832**|**–8 941**|**–41,0**|",
       "chunk_name": "bilanz"
+    },
+    "other_ordinary_income": {
+      "value_current": 9657.0,
+      "value_prior_year": 875.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**9 657**|**875**|**8 782**|**n.a.**|",
+      "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {
       "value_current": 270196.0,

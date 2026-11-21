@@ -14,22 +14,6 @@
   },
   "backend": "local",
   "metrics": {
-    "cet1_capital": {
-      "value_current": 16920.0,
-      "value_prior_year": 16868.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|1 Hartes Kernkapital (CET1)|16'920|16'868|16'063|16'548|16'479|",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "tier1_capital": {
-      "value_current": 17895.0,
-      "value_prior_year": 17836.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|2 Kernkapital (T1)|17'895|17'836|17'019|17'513|17'447|",
-      "chunk_name": "km1_eigenmittel"
-    },
     "cet1_ratio_pct": {
       "value_current": 17.2,
       "value_prior_year": 17.2,
@@ -44,14 +28,6 @@
       "unit": "%",
       "currency": "CHF",
       "source_quote": "|7 Gesamtkapitalquote (%)|18,3%|18,3%|17,7%|17,4%|17,3%|",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "leverage_ratio_pct": {
-      "value_current": 228686.0,
-      "value_prior_year": null,
-      "unit": "%",
-      "currency": "CHF",
-      "source_quote": "|13 Gesamtengagement unter Ausschluss von<br>Zentralbankeinlagen (Nenner der Going-concern-<br>Leverage Ratio, LRD)|228'686|n.a.|n.a.|n.a.|n.a.|",
       "chunk_name": "km1_eigenmittel"
     }
   }

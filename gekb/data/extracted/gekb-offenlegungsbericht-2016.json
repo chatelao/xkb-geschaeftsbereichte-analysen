@@ -14,12 +14,28 @@
   },
   "backend": "local",
   "metrics": {
-    "leverage_ratio_pct": {
-      "value_current": 0.0,
+    "cet1_capital": {
+      "value_current": 1362267.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|29|= Fonds propres de base durs nets (net CET1)|1'362'267|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 12.19,
       "value_prior_year": null,
       "unit": "%",
       "currency": "CHF",
-      "source_quote": "|Ajustements relatifs aux actifs fiduciaires, portés au bilan conformément aux prescriptions<br>comptables, mais non pris en compte dans la mesure du ratio de levier (Cm 15 Circ.-FINMA<br>15/3)|0|",
+      "source_quote": "|61|Ratio CET1(chiffre 29, en % despositionspondéréespar le risque)|12.19%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.6,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|**Ratio de levier (Cm 3 à 4 Circ.-FINMA 15/3)**|**6.60%**|",
       "chunk_name": "km1_eigenmittel"
     }
   }

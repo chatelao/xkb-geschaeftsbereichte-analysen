@@ -78,6 +78,22 @@
       "source_quote": "|Gewinn|60 073|142 870|–82 797|–58,0|",
       "chunk_name": "bilanz"
     },
+    "commission_income": {
+      "value_current": 54479.0,
+      "value_prior_year": 51815.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**SUBTOTAL ERFOLG KOMMISSIONS- UND**<br>**DIENSTLEISTUNGSGESCHÄFT**|**54 479**|**51 815**|**2 664**|**5,1**|",
+      "chunk_name": "bilanz"
+    },
+    "other_ordinary_income": {
+      "value_current": 5426.0,
+      "value_prior_year": 11969.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**SUBTOTAL ÜBRIGER ORDENTLICHER**<br>**ERFOLG**|**5 426**|**11 969**|**–6 543**|**–54,7**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "total_operating_income": {
       "value_current": 201694.0,
       "value_prior_year": 221706.0,

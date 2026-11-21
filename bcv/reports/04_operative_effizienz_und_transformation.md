@@ -1,8 +1,8 @@
 # 04 · Operative Effizienz & Transformation (2007–2025): Banque Cantonale Vaudoise
 
 ## 1. Management Summary
-- Die Cost-Income-Ratio (CIR) liegt im Jahr 2025 bei **48,66 %** (vs. 51,36 % im Jahr 2007), die Eigenkapitalrendite (ROE) bei **– %**.
-- Der Personalbestand umfasst 2025 **– FTE** bei einem Ertrag pro Vollzeitstelle von **– TCHF**.
+- Die Cost-Income-Ratio (CIR) liegt im Jahr 2025 bei **48,66 %** (vs. 51,36 % im Jahr 2007), die Eigenkapitalrendite (ROE) bei **11,00 %**.
+- Der Personalbestand umfasst 2025 **2'083,0 FTE** bei einem Ertrag pro Vollzeitstelle von **552,0 TCHF**.
 
 ## 2. Quantitative Entwicklung
 | Jahr | CIR % | ROE % | FTE | Ertrag/FTE (TCHF) | Bilanz/FTE (Mio.) | Filialen |
@@ -25,7 +25,7 @@
 | 2022 | 49,71 % | 10,45 % | – | – | – | – |
 | 2023 | 46,62 % | – % | – | – | – | – |
 | 2024 | 48,18 % | – % | – | – | – | – |
-| 2025 | 48,66 % | – % | – | – | – | – |
+| 2025 | 48,66 % | 11,00 % | 2'083,0 | 552,0 | 29,58 | – |
 
 ![Effizienz & Produktivität](./charts/04_effizienz_produktivitaet.png)
 

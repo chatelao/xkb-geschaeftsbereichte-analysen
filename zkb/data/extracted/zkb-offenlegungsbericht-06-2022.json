@@ -13,14 +13,5 @@
     "total_lines": 2195
   },
   "backend": "local",
-  "metrics": {
-    "leverage_ratio_pct": {
-      "value_current": 47.0,
-      "value_prior_year": null,
-      "unit": "%",
-      "currency": "CHF",
-      "source_quote": "|13.2 Anhang 3: Ungewichtete Eigenmittelanforderungen auf Basis Leverage Ratio (Konzern und<br>Stammhaus)|47|",
-      "chunk_name": "km1_eigenmittel"
-    }
-  }
+  "metrics": {}
 }

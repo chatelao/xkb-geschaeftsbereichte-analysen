@@ -10,40 +10,70 @@
 - Alle Geschäftsjahre vollständig.
 
 ## Vorjahres-Selbstheilung (`t → t+1`) & Abweichungen (> 0.5 %)
-- 2013 `total_assets_mio`: Abweichung 1.06% (Bericht 2013: 118273.0 vs. Vorjahr in 2014: 117018.0).
-- 2013 `net_interest_income_mio`: Lücke durch Vorjahreswert aus 2014 geschlossen (0.934).
-- 2014 `total_operating_income_mio`: Abweichung 5.78% (Bericht 2014: 1.506 vs. Vorjahr in 2015: 1.419).
-- 2014 `operating_profit_mio`: Abweichung 62.34% (Bericht 2014: 0.539 vs. Vorjahr in 2015: 0.203).
-- 2015 `total_operating_income_mio`: Abweichung 6.58% (Bericht 2015: 1.535 vs. Vorjahr in 2016: 1.636).
-- 2015 `total_operating_expenses_mio`: Abweichung 1.31% (Bericht 2015: -0.991 vs. Vorjahr in 2016: -1.004).
-- 2015 `operating_profit_mio`: Abweichung 26.45% (Bericht 2015: 0.276 vs. Vorjahr in 2016: 0.349).
-- 2015 `net_profit_mio`: Abweichung 86.23% (Bericht 2015: 167.0 vs. Vorjahr in 2016: 311.0).
-- 2016 `total_assets_mio`: Abweichung 4.05% (Bericht 2016: 115689.0 vs. Vorjahr in 2017: 120379.0).
-- 2016 `mortgage_loans_mio`: Abweichung 100.00% (Bericht 2016: 6.0 vs. Vorjahr in 2017: 0.0).
-- 2016 `customer_deposits_mio`: Lücke durch Vorjahreswert aus 2017 geschlossen (109709.0).
-- 2016 `total_operating_income_mio`: Abweichung 4.89% (Bericht 2016: 1.535 vs. Vorjahr in 2017: 1.61).
-- 2016 `total_operating_expenses_mio`: Abweichung 7.57% (Bericht 2016: -0.991 vs. Vorjahr in 2017: -1.066).
-- 2016 `operating_profit_mio`: Abweichung 39.86% (Bericht 2016: 0.276 vs. Vorjahr in 2017: 0.166).
-- 2016 `net_profit_mio`: Abweichung 40.72% (Bericht 2016: 221.0 vs. Vorjahr in 2017: 311.0).
-- 2017 `total_operating_income_mio`: Abweichung 12.71% (Bericht 2017: 1.636 vs. Vorjahr in 2018: 1.428).
-- 2017 `total_operating_expenses_mio`: Abweichung 3.98% (Bericht 2017: -1.004 vs. Vorjahr in 2018: -1.044).
-- 2017 `operating_profit_mio`: Abweichung 75.07% (Bericht 2017: 0.349 vs. Vorjahr in 2018: 0.087).
-- 2018 `total_operating_income_mio`: Abweichung 19.32% (Bericht 2018: 1.61 vs. Vorjahr in 2019: 1.299).
-- 2018 `total_operating_expenses_mio`: Abweichung 6.75% (Bericht 2018: -1.066 vs. Vorjahr in 2019: -0.994).
-- 2018 `operating_profit_mio`: Abweichung 459.64% (Bericht 2018: 0.166 vs. Vorjahr in 2019: -0.597).
-- 2019 `total_operating_income_mio`: Abweichung 16.53% (Bericht 2019: 1.428 vs. Vorjahr in 2020: 1.192).
-- 2019 `total_operating_expenses_mio`: Abweichung 7.18% (Bericht 2019: -1.044 vs. Vorjahr in 2020: -0.969).
-- 2019 `operating_profit_mio`: Abweichung 51.72% (Bericht 2019: 0.087 vs. Vorjahr in 2020: 0.132).
-- 2020 `total_operating_income_mio`: Abweichung 0.92% (Bericht 2020: 1.299 vs. Vorjahr in 2021: 1.311).
-- 2020 `operating_profit_mio`: Abweichung 137.35% (Bericht 2020: -0.597 vs. Vorjahr in 2021: 0.223).
+- 2013 `mortgage_loans_mio`: Abweichung 99900.00% (Bericht 2013: 1.0 vs. Vorjahr in 2014: 1000.0).
+- 2013 `net_interest_income_mio`: Lücke durch Vorjahreswert aus 2014 geschlossen (934.0).
+- 2013 `commission_income_mio`: Abweichung 99900.00% (Bericht 2013: 0.158 vs. Vorjahr in 2014: 158.0).
+- 2013 `total_operating_income_mio`: Abweichung 99900.00% (Bericht 2013: 1.475 vs. Vorjahr in 2014: 1475.0).
+- 2013 `total_operating_expenses_mio`: Abweichung 99900.00% (Bericht 2013: -0.941 vs. Vorjahr in 2014: -941.0).
+- 2013 `operating_profit_mio`: Abweichung 99900.00% (Bericht 2013: 0.534 vs. Vorjahr in 2014: 534.0).
+- 2014 `net_interest_income_mio`: Abweichung 9.02% (Bericht 2014: 965.0 vs. Vorjahr in 2015: 878.0).
+- 2014 `total_operating_income_mio`: Abweichung 5.78% (Bericht 2014: 1506.0 vs. Vorjahr in 2015: 1419.0).
+- 2014 `operating_profit_mio`: Abweichung 62.34% (Bericht 2014: 539.0 vs. Vorjahr in 2015: 203.0).
+- 2015 `total_assets_mio`: Abweichung 4.40% (Bericht 2015: 114468.0 vs. Vorjahr in 2016: 119503.0).
+- 2015 `net_interest_income_mio`: Abweichung 2.48% (Bericht 2015: 966.0 vs. Vorjahr in 2016: 942.0).
+- 2015 `commission_income_mio`: Abweichung 14.65% (Bericht 2015: 198.0 vs. Vorjahr in 2016: 227.0).
+- 2015 `total_operating_income_mio`: Abweichung 6.58% (Bericht 2015: 1535.0 vs. Vorjahr in 2016: 1636.0).
+- 2015 `total_operating_expenses_mio`: Abweichung 1.31% (Bericht 2015: -991.0 vs. Vorjahr in 2016: -1004.0).
+- 2015 `operating_profit_mio`: Abweichung 26.45% (Bericht 2015: 276.0 vs. Vorjahr in 2016: 349.0).
+- 2015 `net_profit_mio`: Abweichung 86.23% (Bericht 2015: 167000.0 vs. Vorjahr in 2016: 311000.0).
+- 2016 `total_assets_mio`: Abweichung 5.56% (Bericht 2016: 114468.0 vs. Vorjahr in 2017: 120837.0).
+- 2016 `mortgage_loans_mio`: Abweichung 100.00% (Bericht 2016: 6000.0 vs. Vorjahr in 2017: 0.0).
+- 2016 `customer_deposits_mio`: Lücke durch Vorjahreswert aus 2017 geschlossen (109709000.0).
+- 2016 `net_interest_income_mio`: Abweichung 6.42% (Bericht 2016: 966.0 vs. Vorjahr in 2017: 904.0).
+- 2016 `commission_income_mio`: Abweichung 28.79% (Bericht 2016: 198.0 vs. Vorjahr in 2017: 255.0).
+- 2016 `total_operating_income_mio`: Abweichung 4.89% (Bericht 2016: 1535.0 vs. Vorjahr in 2017: 1610.0).
+- 2016 `total_operating_expenses_mio`: Abweichung 7.57% (Bericht 2016: -991.0 vs. Vorjahr in 2017: -1066.0).
+- 2016 `operating_profit_mio`: Abweichung 39.86% (Bericht 2016: 276.0 vs. Vorjahr in 2017: 166.0).
+- 2016 `net_profit_mio`: Abweichung 40.72% (Bericht 2016: 221000.0 vs. Vorjahr in 2017: 311000.0).
+- 2017 `total_assets_mio`: Abweichung 1.06% (Bericht 2017: 119435.0 vs. Vorjahr in 2018: 118173.0).
+- 2017 `net_interest_income_mio`: Abweichung 14.33% (Bericht 2017: 942.0 vs. Vorjahr in 2018: 807.0).
+- 2017 `commission_income_mio`: Abweichung 21.59% (Bericht 2017: 227.0 vs. Vorjahr in 2018: 276.0).
+- 2017 `total_operating_income_mio`: Abweichung 12.71% (Bericht 2017: 1636.0 vs. Vorjahr in 2018: 1428.0).
+- 2017 `total_operating_expenses_mio`: Abweichung 3.98% (Bericht 2017: -1004.0 vs. Vorjahr in 2018: -1044.0).
+- 2017 `operating_profit_mio`: Abweichung 75.07% (Bericht 2017: 349.0 vs. Vorjahr in 2018: 87.0).
+- 2018 `total_assets_mio`: Abweichung 4.05% (Bericht 2018: 120848.0 vs. Vorjahr in 2019: 125742.0).
+- 2018 `net_interest_income_mio`: Abweichung 37.94% (Bericht 2018: 904.0 vs. Vorjahr in 2019: 561.0).
+- 2018 `commission_income_mio`: Abweichung 35.69% (Bericht 2018: 255.0 vs. Vorjahr in 2019: 346.0).
+- 2018 `total_operating_income_mio`: Abweichung 19.32% (Bericht 2018: 1610.0 vs. Vorjahr in 2019: 1299.0).
+- 2018 `total_operating_expenses_mio`: Abweichung 6.75% (Bericht 2018: -1066.0 vs. Vorjahr in 2019: -994.0).
+- 2018 `operating_profit_mio`: Abweichung 459.64% (Bericht 2018: 166.0 vs. Vorjahr in 2019: -597.0).
+- 2019 `total_assets_mio`: Abweichung 0.66% (Bericht 2019: 118173.0 vs. Vorjahr in 2020: 117393.0).
+- 2019 `net_interest_income_mio`: Abweichung 35.19% (Bericht 2019: 807.0 vs. Vorjahr in 2020: 523.0).
+- 2019 `commission_income_mio`: Abweichung 24.64% (Bericht 2019: 276.0 vs. Vorjahr in 2020: 344.0).
+- 2019 `total_operating_income_mio`: Abweichung 16.53% (Bericht 2019: 1428.0 vs. Vorjahr in 2020: 1192.0).
+- 2019 `total_operating_expenses_mio`: Abweichung 7.18% (Bericht 2019: -1044.0 vs. Vorjahr in 2020: -969.0).
+- 2019 `operating_profit_mio`: Abweichung 51.72% (Bericht 2019: 87.0 vs. Vorjahr in 2020: 132.0).
+- 2020 `total_assets_mio`: Abweichung 6.80% (Bericht 2020: 125742.0 vs. Vorjahr in 2021: 117189.0).
+- 2020 `customer_deposits_mio`: Abweichung 99.90% (Bericht 2020: 109340000.0 vs. Vorjahr in 2021: 109340.0).
+- 2020 `net_interest_income_mio`: Abweichung 99.90% (Bericht 2020: 561.0 vs. Vorjahr in 2021: 0.564).
+- 2020 `commission_income_mio`: Abweichung 99.88% (Bericht 2020: 346.0 vs. Vorjahr in 2021: 0.398).
+- 2020 `total_operating_income_mio`: Abweichung 99.90% (Bericht 2020: 1299.0 vs. Vorjahr in 2021: 1.311).
+- 2020 `total_operating_expenses_mio`: Abweichung 99.90% (Bericht 2020: -994.0 vs. Vorjahr in 2021: -0.992).
+- 2020 `operating_profit_mio`: Abweichung 100.04% (Bericht 2020: -597.0 vs. Vorjahr in 2021: 0.223).
+- 2020 `net_profit_mio`: Abweichung 99.90% (Bericht 2020: 129000.0 vs. Vorjahr in 2021: 129.0).
+- 2021 `net_interest_income_mio`: Abweichung 7.46% (Bericht 2021: 0.523 vs. Vorjahr in 2022: 0.484).
+- 2021 `commission_income_mio`: Abweichung 17.73% (Bericht 2021: 0.344 vs. Vorjahr in 2022: 0.405).
 - 2021 `total_operating_income_mio`: Abweichung 4.03% (Bericht 2021: 1.192 vs. Vorjahr in 2022: 1.24).
 - 2021 `total_operating_expenses_mio`: Abweichung 1.34% (Bericht 2021: -0.969 vs. Vorjahr in 2022: -0.956).
 - 2021 `operating_profit_mio`: Abweichung 45.45% (Bericht 2021: 0.132 vs. Vorjahr in 2022: 0.192).
+- 2022 `net_interest_income_mio`: Abweichung 8.51% (Bericht 2022: 0.564 vs. Vorjahr in 2023: 0.516).
+- 2022 `commission_income_mio`: Abweichung 2.51% (Bericht 2022: 0.398 vs. Vorjahr in 2023: 0.388).
 - 2022 `total_operating_income_mio`: Abweichung 5.80% (Bericht 2022: 1.311 vs. Vorjahr in 2023: 1.235).
 - 2022 `total_operating_expenses_mio`: Abweichung 3.13% (Bericht 2022: -0.992 vs. Vorjahr in 2023: -0.961).
 - 2022 `operating_profit_mio`: Abweichung 17.04% (Bericht 2022: 0.223 vs. Vorjahr in 2023: 0.185).
 - 2023 `total_assets_mio`: Abweichung 2.52% (Bericht 2023: 102257.0 vs. Vorjahr in 2024: 104836.0).
 - 2023 `customer_deposits_mio`: Abweichung 1.43% (Bericht 2023: 89607.0 vs. Vorjahr in 2024: 88326.0).
+- 2023 `net_interest_income_mio`: Abweichung 5.58% (Bericht 2023: 0.484 vs. Vorjahr in 2024: 0.457).
 - 2023 `total_operating_income_mio`: Abweichung 3.23% (Bericht 2023: 1.24 vs. Vorjahr in 2024: 1.2).
 - 2023 `total_operating_expenses_mio`: Abweichung 5.54% (Bericht 2023: -0.956 vs. Vorjahr in 2024: -1.009).
 - 2023 `operating_profit_mio`: Abweichung 42.71% (Bericht 2023: 0.192 vs. Vorjahr in 2024: 0.11).
@@ -53,4 +83,3 @@
 - 2024 `total_operating_income_mio`: Abweichung 101357.49% (Bericht 2024: 1.235 vs. Vorjahr in 2025: 1253.0).
 - 2024 `total_operating_expenses_mio`: Abweichung 97394.48% (Bericht 2024: -0.961 vs. Vorjahr in 2025: 935.0).
 - 2024 `net_profit_mio`: Abweichung 71.95% (Bericht 2024: 164.0 vs. Vorjahr in 2025: 282.0).
-- 2024 `fte_count`: Lücke durch Vorjahreswert aus 2025 geschlossen (3464.0).

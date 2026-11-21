@@ -22,12 +22,60 @@
       "source_quote": "|Leverage Ratio|11|",
       "chunk_name": "km1_eigenmittel"
     },
-    "nsfr_pct": {
-      "value_current": 16.0,
-      "value_prior_year": null,
+    "cet1_capital": {
+      "value_current": 6095.0,
+      "value_prior_year": 6095.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|6095|6095|6094|6094|6094|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 6537.0,
+      "value_prior_year": 6348.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (T1)|6537|6348|6347|6347|6347|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 6560.0,
+      "value_prior_year": 6372.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3<br>Gesamtkapital total (T1 + T2)<sup>1</sup>|6560|6372|6371|6373|6372|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 30363.0,
+      "value_prior_year": 30363.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4<br>RWA|30363|30363|29863|29852|30304|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 20.07,
+      "value_prior_year": 20.07,
       "unit": "%",
       "currency": "CHF",
-      "source_quote": "|LIQ2: Informationen zur Finanzierungsquote(NSFR)|16|",
+      "source_quote": "|5<br>CET1-Quote|20,07%|20,07%|20,41%|20,41%|20,11%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 21.61,
+      "value_prior_year": 20.99,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote|21,61%|20,99%|21,34%|21,35%|21,03%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 178.0,
+      "value_prior_year": 182.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|20<br>Finanzierungsquote, NSFR|178%|182%|168%|165%|158%|",
       "chunk_name": "km1_eigenmittel"
     }
   }

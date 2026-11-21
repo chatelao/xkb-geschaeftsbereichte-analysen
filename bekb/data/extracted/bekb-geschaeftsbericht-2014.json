@@ -46,12 +46,36 @@
       "source_quote": "|Kassenobligationen|32 240|53 551||",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 304496.0,
+      "value_prior_year": 329737.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Zinsengeschäft**|**304 496**|**329 737**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 84961.0,
+      "value_prior_year": 83829.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions- und Dienstleistungsgeschäft**|**84 961**|**83 829**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 21897.0,
       "value_prior_year": 21217.0,
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft**|**21 897**|**21 217**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 40042.0,
+      "value_prior_year": 77926.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**40 042**|**77 926**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {
@@ -132,14 +156,6 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Reserven für allgemeine Bankrisiken|654|630|586|",
-      "chunk_name": "mehrjahresvergleich"
-    },
-    "fte_count": {
-      "value_current": 1375.0,
-      "value_prior_year": 1418.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Personalbestand(inkl. Lernende sowie Aushilfen)|1 375|1 418|1 456|",
       "chunk_name": "mehrjahresvergleich"
     },
     "dividend_per_share": {

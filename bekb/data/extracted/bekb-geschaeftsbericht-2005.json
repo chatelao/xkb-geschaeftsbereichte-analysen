@@ -22,6 +22,14 @@
       "source_quote": "|Créances sur la clientèle<br>(prêts à la clientèle)|13 356|14 051|13 882|",
       "chunk_name": "bilanz"
     },
+    "shareholders_equity": {
+      "value_current": 1026.0,
+      "value_prior_year": 1069.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Fonds propres|1 017|1 069|1 026 <sup>2)</sup>|",
+      "chunk_name": "bilanz"
+    },
     "customer_deposits": {
       "value_current": 63.1,
       "value_prior_year": 62.6,
@@ -78,6 +86,14 @@
       "source_quote": "|**Résultat des opérations de négoce**|**19 845**|**22 621**|",
       "chunk_name": "erfolgsrechnung"
     },
+    "other_ordinary_income": {
+      "value_current": 56295.0,
+      "value_prior_year": 42200.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Sous-total autres résultats ordinaires**|**42200**|**56 295**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "total_operating_income": {
       "value_current": 437861.0,
       "value_prior_year": 408749.0,
@@ -118,6 +134,14 @@
       "source_quote": "|Bénéfice brut|196 494|219 360|",
       "chunk_name": "erfolgsrechnung"
     },
+    "net_profit": {
+      "value_current": 121207.0,
+      "value_prior_year": 103847.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Bénéfice de l’exercice avant impôts**|**103 847**|**121 207**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "taxes": {
       "value_current": -36200.0,
       "value_prior_year": -29100.0,
@@ -126,28 +150,12 @@
       "source_quote": "|Impôts|(29 100)|(36 200)|",
       "chunk_name": "erfolgsrechnung"
     },
-    "net_profit": {
-      "value_current": 85007.0,
-      "value_prior_year": 74747.0,
-      "unit": "TCHF",
-      "currency": "CHF",
-      "source_quote": "|Bénéfice de l’exercice|74 747|85 007|",
-      "chunk_name": "erfolgsrechnung"
-    },
     "dividend_per_share": {
       "value_current": 3.5,
       "value_prior_year": 3.1,
       "unit": null,
       "currency": "CHF",
       "source_quote": "|Dividende par action nominative|3.00|3.10|3.50 <sup>4)</sup>|",
-      "chunk_name": "mehrjahresvergleich"
-    },
-    "fte_count": {
-      "value_current": 1441.0,
-      "value_prior_year": 1433.0,
-      "unit": null,
-      "currency": "CHF",
-      "source_quote": "|Effectif du personnel|1 448|1 433|1 441|",
       "chunk_name": "mehrjahresvergleich"
     },
     "reserves_banking_risks": {

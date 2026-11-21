@@ -118,6 +118,14 @@
       "source_quote": "|Anleihen und Pfandbriefdarlehen|24'288'926|23'470'245|818'681|3,5|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 1109430.0,
+      "value_prior_year": 1092631.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Netto-Erfolg Zinsengeschäft**|**1'109'430**|**1'092'631**|**16'799**|**1,5**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 93527.0,
       "value_prior_year": 106879.0,

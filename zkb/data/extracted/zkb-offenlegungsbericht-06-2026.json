@@ -13,5 +13,62 @@
     "total_lines": 3776
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 15668.0,
+      "value_prior_year": 15498.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital(CET1)|**15’668**|15’498|15’347|14’929|14’792|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 16728.0,
+      "value_prior_year": 16557.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital(T1)|**16’728**|16’557|16’400|15’977|15’853|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 17115.0,
+      "value_prior_year": 17042.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total<sup>1</sup>|**17’115**|17’042|16’882|16’460|16’332<sup>5</sup>|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 77987.0,
+      "value_prior_year": 78025.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|**77’987**|78’025|72’359|72’751|71’680<sup>5</sup>|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 20.1,
+      "value_prior_year": 19.9,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote<sup>1</sup>|**20,1 %**|19,9 %|21,2 %|20,5 %|20,6 %<sup>5</sup>|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 21.9,
+      "value_prior_year": 21.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote<sup>1</sup>|**21,9 %**|21,8 %|23,3 %|22,6 %|22,8 %<sup>5</sup>|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.1,
+      "value_prior_year": 7.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14b|Leverage Ratio, ohne die Auswirkung einer vorübergehenden<br>Ausnahme von Zentralbankguthaben|**7,1 %**|7,0 %|7,1 %|7,0 %|7,1 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

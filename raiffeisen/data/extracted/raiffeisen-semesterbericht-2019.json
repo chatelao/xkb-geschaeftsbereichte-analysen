@@ -14,6 +14,38 @@
   },
   "backend": "local",
   "metrics": {
+    "total_operating_income": {
+      "value_current": 1518.0,
+      "value_prior_year": 1636.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag|1'518|1'636|-7,2|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": 934.0,
+      "value_prior_year": 1000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand|934|1'000|-6,6|",
+      "chunk_name": "bilanz"
+    },
+    "operating_profit": {
+      "value_current": 446.0,
+      "value_prior_year": 517.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftserfolg|446|517|-13,7|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 355.0,
+      "value_prior_year": 416.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Gruppengewinn|355|416|-14,7|",
+      "chunk_name": "bilanz"
+    },
     "total_assets": {
       "value_current": 234974.0,
       "value_prior_year": 225333.0,
@@ -110,28 +142,12 @@
       "source_quote": "|Reserven für allgemeine Bankrisiken|200'000|200'000|-|-|",
       "chunk_name": "bilanz"
     },
-    "net_profit": {
-      "value_current": 354921.0,
-      "value_prior_year": 540820.0,
-      "unit": "TCHF",
-      "currency": "CHF",
-      "source_quote": "|Gruppengewinn|354'921|540'820|-185'899|-34,4|",
-      "chunk_name": "bilanz"
-    },
     "other_ordinary_income": {
       "value_current": 61051.0,
       "value_prior_year": 123584.0,
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|Übriger ordentlicher Erfolg|61'051|123'584|-62'533|-50,6|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "total_operating_income": {
-      "value_current": 1518040.0,
-      "value_prior_year": 1636393.0,
-      "unit": "TCHF",
-      "currency": "CHF",
-      "source_quote": "|Geschäftsertrag|1'518'040|1'636'393|-118'353|-7,2|",
       "chunk_name": "erfolgsrechnung"
     },
     "personnel_expenses": {
@@ -148,22 +164,6 @@
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|Sachaufwand|-258'796|-292'849|34'053|-11,6|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "total_operating_expenses": {
-      "value_current": -933612.0,
-      "value_prior_year": -999996.0,
-      "unit": "TCHF",
-      "currency": "CHF",
-      "source_quote": "|Geschäftsaufwand|-933'612|-999'996|66'384|-6,6|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "operating_profit": {
-      "value_current": 446359.0,
-      "value_prior_year": 516968.0,
-      "unit": "TCHF",
-      "currency": "CHF",
-      "source_quote": "|Geschäftserfolg|446'359|516'968|-70'609|-13,7|",
       "chunk_name": "erfolgsrechnung"
     },
     "taxes": {

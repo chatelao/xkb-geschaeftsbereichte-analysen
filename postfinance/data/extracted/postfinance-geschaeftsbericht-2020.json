@@ -14,6 +14,22 @@
   },
   "backend": "local",
   "metrics": {
+    "financial_investments": {
+      "value_current": 76388.0,
+      "value_prior_year": 76508.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|76 388|76 508|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 125742.0,
+      "value_prior_year": 117393.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**|**125 742**|**117 393**|",
+      "chunk_name": "bilanz"
+    },
     "customer_loans_other": {
       "value_current": 12527.0,
       "value_prior_year": 12075.0,
@@ -28,22 +44,6 @@
       "unit": "Mrd. CHF",
       "currency": "CHF",
       "source_quote": "|Hypothekarforderungen|6|0|0|",
-      "chunk_name": "bilanz"
-    },
-    "financial_investments": {
-      "value_current": 60477.0,
-      "value_prior_year": 60406.0,
-      "unit": "Mrd. CHF",
-      "currency": "CHF",
-      "source_quote": "|Finanzanlagen|8|60 406|60 477|",
-      "chunk_name": "bilanz"
-    },
-    "total_assets": {
-      "value_current": 117189.0,
-      "value_prior_year": 125574.0,
-      "unit": "Mrd. CHF",
-      "currency": "CHF",
-      "source_quote": "|**Total Aktiven**||**125 574**|**117 189**|",
       "chunk_name": "bilanz"
     },
     "customer_deposits": {
@@ -69,6 +69,22 @@
       "currency": "CHF",
       "source_quote": "|Gewinn / Verlust||– 582|129|",
       "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 561.0,
+      "value_prior_year": 523.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Netto-Erfolg Zinsengeschäft**||**561**|**523**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 346.0,
+      "value_prior_year": 344.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg Kommissions- und Dienstleistungsgeschäft**||**346**|**344**|",
+      "chunk_name": "erfolgsrechnung"
     },
     "trading_income": {
       "value_current": 26.0,

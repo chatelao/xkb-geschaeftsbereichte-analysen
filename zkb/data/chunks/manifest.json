@@ -14,8 +14,8 @@
           "approx_tokens": 2375
         },
         "erfolgsrechnung": {
-          "chars": 5092,
-          "approx_tokens": 1273
+          "chars": 4834,
+          "approx_tokens": 1208
         },
         "mehrjahresvergleich": {
           "chars": 5979,
@@ -544,12 +544,7 @@
       "year": 2014,
       "period": "Q1-2014",
       "part": null,
-      "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        }
-      }
+      "chunks": {}
     },
     {
       "stem": "zkb-offenlegungsbericht-03-2015",
@@ -557,12 +552,7 @@
       "year": 2015,
       "period": "Q1-2015",
       "part": null,
-      "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        }
-      }
+      "chunks": {}
     },
     {
       "stem": "zkb-offenlegungsbericht-03-2016",
@@ -587,10 +577,6 @@
       "period": "Q1-2019",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5243,
           "approx_tokens": 1310
@@ -604,10 +590,6 @@
       "period": "Q1-2020",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5481,
           "approx_tokens": 1370
@@ -621,10 +603,6 @@
       "period": "Q1-2021",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5745,
           "approx_tokens": 1436
@@ -638,10 +616,6 @@
       "period": "Q1-2022",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5094,
           "approx_tokens": 1273
@@ -655,10 +629,6 @@
       "period": "Q1-2023",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5911,
           "approx_tokens": 1477
@@ -672,10 +642,6 @@
       "period": "Q1-2024",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 4366,
           "approx_tokens": 1091
@@ -694,8 +660,8 @@
           "approx_tokens": 2375
         },
         "ov1_rwa": {
-          "chars": 3558,
-          "approx_tokens": 889
+          "chars": 5562,
+          "approx_tokens": 1390
         }
       }
     },
@@ -711,8 +677,8 @@
           "approx_tokens": 2375
         },
         "ov1_rwa": {
-          "chars": 3454,
-          "approx_tokens": 863
+          "chars": 4450,
+          "approx_tokens": 1112
         }
       }
     },
@@ -722,12 +688,7 @@
       "year": 2015,
       "period": "H1-2015",
       "part": null,
-      "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        }
-      }
+      "chunks": {}
     },
     {
       "stem": "zkb-offenlegungsbericht-06-2016",
@@ -745,8 +706,8 @@
       "part": null,
       "chunks": {
         "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
+          "chars": 4249,
+          "approx_tokens": 1062
         },
         "ov1_rwa": {
           "chars": 4945,
@@ -761,10 +722,6 @@
       "period": "H1-2019",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 4813,
           "approx_tokens": 1203
@@ -778,10 +735,6 @@
       "period": "H1-2020",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5568,
           "approx_tokens": 1392
@@ -795,10 +748,6 @@
       "period": "H1-2021",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5669,
           "approx_tokens": 1417
@@ -812,10 +761,6 @@
       "period": "H1-2022",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5095,
           "approx_tokens": 1273
@@ -829,10 +774,6 @@
       "period": "H1-2023",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5107,
           "approx_tokens": 1276
@@ -846,10 +787,6 @@
       "period": "H1-2024",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 4551,
           "approx_tokens": 1137
@@ -868,8 +805,8 @@
           "approx_tokens": 2375
         },
         "ov1_rwa": {
-          "chars": 3818,
-          "approx_tokens": 954
+          "chars": 6232,
+          "approx_tokens": 1558
         }
       }
     },
@@ -885,8 +822,8 @@
           "approx_tokens": 2375
         },
         "ov1_rwa": {
-          "chars": 3877,
-          "approx_tokens": 969
+          "chars": 5481,
+          "approx_tokens": 1370
         }
       }
     },
@@ -914,8 +851,8 @@
       "part": null,
       "chunks": {
         "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
+          "chars": 4326,
+          "approx_tokens": 1081
         },
         "ov1_rwa": {
           "chars": 4682,
@@ -930,10 +867,6 @@
       "period": "Q3-2019",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5306,
           "approx_tokens": 1326
@@ -947,10 +880,6 @@
       "period": "Q3-2020",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5582,
           "approx_tokens": 1395
@@ -964,10 +893,6 @@
       "period": "Q3-2021",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5729,
           "approx_tokens": 1432
@@ -981,10 +906,6 @@
       "period": "Q3-2022",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5105,
           "approx_tokens": 1276
@@ -998,10 +919,6 @@
       "period": "Q3-2023",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5117,
           "approx_tokens": 1279
@@ -1015,10 +932,6 @@
       "period": "Q3-2024",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 4678,
           "approx_tokens": 1169
@@ -1037,8 +950,8 @@
           "approx_tokens": 2375
         },
         "ov1_rwa": {
-          "chars": 3450,
-          "approx_tokens": 862
+          "chars": 6247,
+          "approx_tokens": 1561
         }
       }
     },
@@ -1048,12 +961,7 @@
       "year": 2014,
       "period": "FY2014",
       "part": null,
-      "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        }
-      }
+      "chunks": {}
     },
     {
       "stem": "zkb-offenlegungsbericht-2016",
@@ -1071,8 +979,8 @@
       "part": null,
       "chunks": {
         "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
+          "chars": 4558,
+          "approx_tokens": 1139
         },
         "ov1_rwa": {
           "chars": 5170,
@@ -1087,10 +995,6 @@
       "period": "FY2018",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5877,
           "approx_tokens": 1469
@@ -1104,10 +1008,6 @@
       "period": "FY2019",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5467,
           "approx_tokens": 1366
@@ -1121,10 +1021,6 @@
       "period": "FY2020",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5779,
           "approx_tokens": 1444
@@ -1138,10 +1034,6 @@
       "period": "FY2021",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 4965,
           "approx_tokens": 1241
@@ -1155,10 +1047,6 @@
       "period": "FY2022",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 5917,
           "approx_tokens": 1479
@@ -1172,10 +1060,6 @@
       "period": "FY2023",
       "part": null,
       "chunks": {
-        "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
-        },
         "ov1_rwa": {
           "chars": 4375,
           "approx_tokens": 1093
@@ -1190,8 +1074,8 @@
       "part": null,
       "chunks": {
         "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
+          "chars": 3773,
+          "approx_tokens": 943
         },
         "ov1_rwa": {
           "chars": 5087,
@@ -1211,8 +1095,8 @@
           "approx_tokens": 2375
         },
         "ov1_rwa": {
-          "chars": 3679,
-          "approx_tokens": 919
+          "chars": 6416,
+          "approx_tokens": 1604
         }
       }
     },

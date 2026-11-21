@@ -38,6 +38,14 @@
       "source_quote": "|3<br>Gesamtkapital total|2 497 829|2 488 978|2 422 872|",
       "chunk_name": "km1_eigenmittel"
     },
+    "rwa_total": {
+      "value_current": 13366814.0,
+      "value_prior_year": 13379878.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|4<br>RWA|13 366 814|13 379 878|13 010 546|",
+      "chunk_name": "km1_eigenmittel"
+    },
     "cet1_ratio_pct": {
       "value_current": 18.69,
       "value_prior_year": 18.6,
@@ -54,12 +62,12 @@
       "source_quote": "|7<br>Gesamtkapitalquote(%)|18,69|18,60|18,62|",
       "chunk_name": "km1_eigenmittel"
     },
-    "leverage_ratio_pct": {
-      "value_current": 7.48,
-      "value_prior_year": 7.82,
+    "lcr_pct": {
+      "value_current": 145.8,
+      "value_prior_year": 141.6,
       "unit": "%",
       "currency": "CHF",
-      "source_quote": "|14<br>Basel III Leverage Ratio(Kernkapital in % des Gesamtengagements)|7,48|7,82|7,72|",
+      "source_quote": "|23|Quote für kurzfristige Liquidität LCR(in %)||145,8%||141,6%|",
       "chunk_name": "km1_eigenmittel"
     }
   }

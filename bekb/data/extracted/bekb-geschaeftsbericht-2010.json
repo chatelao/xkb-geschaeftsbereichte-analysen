@@ -94,12 +94,36 @@
       "source_quote": "|Hypothekarforderungen|14 930 191|15 609 781|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 358164.0,
+      "value_prior_year": 348492.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Zinsengeschäft**|**348 492**|**358 164**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 89775.0,
+      "value_prior_year": 85395.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions-**<br>**und Dienstleistungsgeschäft**|**85 395**|**89 775**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 22673.0,
       "value_prior_year": 25425.0,
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft**|**25 425**|**22 673**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 35747.0,
+      "value_prior_year": 38440.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**38 440**|**35 747**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {

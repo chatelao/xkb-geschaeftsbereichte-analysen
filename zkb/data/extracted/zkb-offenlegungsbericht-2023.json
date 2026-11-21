@@ -13,14 +13,5 @@
     "total_lines": 6143
   },
   "backend": "local",
-  "metrics": {
-    "leverage_ratio_pct": {
-      "value_current": 223324.0,
-      "value_prior_year": 223324.0,
-      "unit": "%",
-      "currency": "CHF",
-      "source_quote": "|**Gesamtengagement (Nenner der Leverage Ratio, LRD)**|**223'324**||**223'324**||",
-      "chunk_name": "km1_eigenmittel"
-    }
-  }
+  "metrics": {}
 }

@@ -45,6 +45,7 @@ class BankConfig:
     structural_breaks: list[dict[str, Any]] = field(default_factory=list)
     chunk_anchors: dict[str, list[str]] = field(default_factory=dict)
     public_share_pct_default: float | None = None
+    default_unit: str | None = None
     notes: str = ""
 
     @property
@@ -146,6 +147,7 @@ def load_bank_config(bank_id: str, root: Path | None = None) -> BankConfig:
         structural_breaks=list(raw.get("structural_breaks", [])),
         chunk_anchors=dict(raw.get("chunk_anchors", {})),
         public_share_pct_default=raw.get("public_share_pct_default"),
+        default_unit=raw.get("default_unit"),
         notes=str(raw.get("notes", "")),
     )
 

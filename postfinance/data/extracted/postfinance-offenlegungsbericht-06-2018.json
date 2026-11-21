@@ -13,5 +13,14 @@
     "total_lines": 801
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_ratio_pct": {
+      "value_current": 16.82,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|61|CET1-Quote (Ziffer 29, in % der risikogewichteten Positionen)|16,82%||",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

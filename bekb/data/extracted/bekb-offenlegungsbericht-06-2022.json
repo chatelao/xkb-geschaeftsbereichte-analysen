@@ -13,5 +13,70 @@
     "total_lines": 335
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2600996.0,
+      "value_prior_year": 2592854.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|2 600 996|2 592 854|2 555 270|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2600996.0,
+      "value_prior_year": 2592854.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|2 600 996|2 592 854|2 555 270|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2940449.0,
+      "value_prior_year": 2735594.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|2 940 449|2 735 594|2 555 270|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 15160868.0,
+      "value_prior_year": 14418758.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|4|RWA|15 160 868|14 418 758|14 201 781|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 17.16,
+      "value_prior_year": 17.98,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote (%)|17,16|17,98|17,99|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 19.4,
+      "value_prior_year": 18.97,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote (%)|19,40|18,97|17,99|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 156.0,
+      "value_prior_year": 155.7,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|20|Finanzierungsquote, NSFR (in %)<br>2|156,0|155,7||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "lcr_pct": {
+      "value_current": 181.2,
+      "value_prior_year": 174.6,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|23|Quote für kurzfristige Liquidität LCR (in %)||181,2%||174,6%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

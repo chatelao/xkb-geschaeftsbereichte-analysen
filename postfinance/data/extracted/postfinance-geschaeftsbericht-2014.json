@@ -14,6 +14,22 @@
   },
   "backend": "local",
   "metrics": {
+    "financial_investments": {
+      "value_current": 72705.0,
+      "value_prior_year": 66697.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|72 705|66 697|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 118829.0,
+      "value_prior_year": 115193.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**|**118 829**|**115 193**|",
+      "chunk_name": "bilanz"
+    },
     "customer_loans_other": {
       "value_current": 11139.0,
       "value_prior_year": 9894.0,
@@ -28,22 +44,6 @@
       "unit": "Mrd. CHF",
       "currency": "CHF",
       "source_quote": "|Hypothekarforderungen<br>5|0|1|",
-      "chunk_name": "bilanz"
-    },
-    "financial_investments": {
-      "value_current": 59196.0,
-      "value_prior_year": 54454.0,
-      "unit": "Mrd. CHF",
-      "currency": "CHF",
-      "source_quote": "|Finanzanlagen<br>6, 20|59 196|54 454|",
-      "chunk_name": "bilanz"
-    },
-    "total_assets": {
-      "value_current": 120446.0,
-      "value_prior_year": 117018.0,
-      "unit": "Mrd. CHF",
-      "currency": "CHF",
-      "source_quote": "|**Total Aktiven**|**120 446**|**117 018**|",
       "chunk_name": "bilanz"
     },
     "kassenobligationen": {

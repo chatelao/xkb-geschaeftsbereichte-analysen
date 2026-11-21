@@ -13,5 +13,70 @@
     "total_lines": 321
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 1584468.0,
+      "value_prior_year": 1581015.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|1'584'468|–|1'581'015|–|1'508'516|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 1584468.0,
+      "value_prior_year": 1581015.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (Tier 1)|1'584'468|–|1'581'015|–|1'508'516|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 1651468.0,
+      "value_prior_year": 1646015.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|1'651'468|–|1'646'015|–|1'573'516|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 9471030.0,
+      "value_prior_year": 9195670.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|9’471’030|–|9’195’670|–|9’041’741|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 16.7,
+      "value_prior_year": 17.2,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote (%)|16,7%|–|17,2%|–|16,7%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 17.4,
+      "value_prior_year": 17.9,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote (%)|17,4%|–|17,9%|–|17,4%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "lcr_pct": {
+      "value_current": 171.0,
+      "value_prior_year": 157.3,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|17|LCR (%)|171,0%|157,3%|156,2%|156,1%|148,6%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 124.7,
+      "value_prior_year": 128.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|20|NSFR (%)|124,7%|–|128,8%|–|129,2%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

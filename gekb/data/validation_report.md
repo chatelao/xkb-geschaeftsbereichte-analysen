@@ -11,9 +11,7 @@
 
 ## Vorjahres-Selbstheilung (`t → t+1`) & Abweichungen (> 0.5 %)
 - 2004 `net_interest_income_mio`: Lücke durch Vorjahreswert aus 2005 geschlossen (0.179).
-- 2004 `net_profit_mio`: Abweichung 44.44% (Bericht 2004: 0.009 vs. Vorjahr in 2005: 0.005).
-- 2005 `net_profit_mio`: Abweichung 763133.33% (Bericht 2005: 0.006 vs. Vorjahr in 2006: 45.794).
-- 2006 `shareholders_equity_mio`: Abweichung 99.88% (Bericht 2006: 705.206 vs. Vorjahr in 2007: 0.814).
+- 2005 `net_profit_mio`: Abweichung 352161.54% (Bericht 2005: 0.013 vs. Vorjahr in 2006: 45.794).
 - 2006 `total_operating_expenses_mio`: Abweichung 99876.10% (Bericht 2006: 0.205 vs. Vorjahr in 2007: 204.951).
 - 2006 `operating_profit_mio`: Abweichung 99945.76% (Bericht 2006: 0.118 vs. Vorjahr in 2007: 118.054).
 - 2009 `total_operating_expenses_mio`: Abweichung 99.90% (Bericht 2009: 218.044 vs. Vorjahr in 2010: 0.218).
@@ -55,6 +53,5 @@
 - 2023 `net_interest_income_mio`: Abweichung 99900.00% (Bericht 2023: 0.39 vs. Vorjahr in 2024: 390.0).
 - 2023 `commission_income_mio`: Abweichung 99900.00% (Bericht 2023: 0.133 vs. Vorjahr in 2024: 133.0).
 - 2023 `total_operating_income_mio`: Abweichung 99900.00% (Bericht 2023: 0.59 vs. Vorjahr in 2024: 590.0).
-- 2023 `net_profit_mio`: Abweichung 95.24% (Bericht 2023: 231.24 vs. Vorjahr in 2024: 11.0).
 - 2024 `mortgage_loans_mio`: Abweichung 73.63% (Bericht 2024: 14204922.0 vs. Vorjahr in 2025: 3745259.0).
 - 2024 `customer_deposits_mio`: Abweichung 159264075.00% (Bericht 2024: 4.0 vs. Vorjahr in 2025: 6370567.0).

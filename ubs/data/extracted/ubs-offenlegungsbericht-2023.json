@@ -14,6 +14,22 @@
   },
   "backend": "local",
   "metrics": {
+    "cet1_capital": {
+      "value_current": 78485.0,
+      "value_prior_year": 77409.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|1<br>Common EquityTier 1(CET1)<sup>2</sup>|**78,485**|77,409|79,080|44,590|45,457|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 92378.0,
+      "value_prior_year": 90369.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|3<br>Total capital<sup>2</sup>|**92,378**|90,369|92,110|58,182|58,806|",
+      "chunk_name": "km1_eigenmittel"
+    },
     "rwa_total": {
       "value_current": 546505.0,
       "value_prior_year": 546491.0,
@@ -31,11 +47,11 @@
       "chunk_name": "km1_eigenmittel"
     },
     "leverage_ratio_pct": {
-      "value_current": 1695403.0,
-      "value_prior_year": 1615817.0,
+      "value_current": 5.45,
+      "value_prior_year": 5.59,
       "unit": "%",
       "currency": "USD",
-      "source_quote": "|13<br>Total Basel III leverage ratio exposure measure|**1,695,403**|1,615,817|1,677,877|1,014,446|1,028,461|",
+      "source_quote": "|14<br>Basel III leverage ratio (%)<sup>2</sup>|**5.45**|5.59|5.49|5.69|5.67|",
       "chunk_name": "km1_eigenmittel"
     }
   }

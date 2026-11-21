@@ -14,60 +14,68 @@
   },
   "backend": "local",
   "metrics": {
-    "total_assets": {
-      "value_current": 1156016.0,
-      "value_prior_year": 1105436.0,
-      "unit": "Mrd. USD",
+    "total_operating_expenses": {
+      "value_current": 38806.0,
+      "value_prior_year": 24930.0,
+      "unit": "Mio. USD",
       "currency": "USD",
-      "source_quote": "|Total assets|**1,156,016**|1,105,436|**558,527**|504,767|**314,231**|315,657|**46,981**|47,978|**194,258**|201,777|",
+      "source_quote": "|Operatingexpenses|**38,806**|24,930|26,058|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 27849.0,
+      "value_prior_year": 7630.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|Netprofit /(loss)attributable to shareholders|**27,849**|7,630|7,457|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 1717246.0,
+      "value_prior_year": 1104364.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|Total assets|**1,717,246**|1,104,364|1,117,182|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 86108.0,
+      "value_prior_year": 56876.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|Equityattributable to shareholders|**86,108**|56,876|60,662|",
+      "chunk_name": "bilanz"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 14.4,
+      "value_prior_year": 14.2,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|Common equitytier 1 capital ratio(%)<sup>7</sup>|**14.4**|14.2|15.0|",
+      "chunk_name": "bilanz"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 4.6,
+      "value_prior_year": 4.4,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|Common equitytier 1 leverage ratio(%)<sup>7</sup>|**4.6**|4.4|4.2|",
+      "chunk_name": "bilanz"
+    },
+    "assets_under_management": {
+      "value_current": 5714.0,
+      "value_prior_year": 3981.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|Invested assets(USD bn)<sup>3,9,10</sup>|**5,714**|3,981|4,614|",
       "chunk_name": "bilanz"
     },
     "total_operating_income": {
       "value_current": 40834.0,
       "value_prior_year": 34563.0,
-      "unit": null,
+      "unit": "Mio. USD",
       "currency": "USD",
       "source_quote": "|Total revenues|**40,834**|34,563|35,393|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "total_operating_expenses": {
-      "value_current": 38806.0,
-      "value_prior_year": 24930.0,
-      "unit": null,
-      "currency": "USD",
-      "source_quote": "|Operatingexpenses|**38,806**|24,930|26,058|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "net_profit": {
-      "value_current": 27849.0,
-      "value_prior_year": 7630.0,
-      "unit": null,
-      "currency": "USD",
-      "source_quote": "|Netprofit /(loss)attributable to shareholders|**27,849**|7,630|7,457|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "leverage_ratio_pct": {
-      "value_current": 2.9,
-      "value_prior_year": 3.3,
-      "unit": "%",
-      "currency": "USD",
-      "source_quote": "|Return on leverage ratio denominator, gross(%)|**2.9**|3.3|3.4|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "shareholders_equity": {
-      "value_current": 86108.0,
-      "value_prior_year": 56876.0,
-      "unit": null,
-      "currency": "USD",
-      "source_quote": "|Equityattributable to shareholders|**86,108**|56,876|60,662|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "assets_under_management": {
-      "value_current": 5714.0,
-      "value_prior_year": 3981.0,
-      "unit": null,
-      "currency": "USD",
-      "source_quote": "|Invested assets(USD bn)<sup>3,9,10</sup>|**5,714**|3,981|4,614|",
       "chunk_name": "erfolgsrechnung"
     }
   }

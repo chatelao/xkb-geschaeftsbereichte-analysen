@@ -13,5 +13,38 @@
     "total_lines": 2806
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_ratio_pct": {
+      "value_current": 16.7,
+      "value_prior_year": 17.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|Ratio CET1|16.7%|17.1%|16.4%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.3,
+      "value_prior_year": 6.2,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14|Ratio de levier Bâle III (fonds propres de base en % de<br>l'engagement global)|6.3%|6.2%|6.4%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_capital": {
+      "value_current": 3241.0,
+      "value_prior_year": 3240.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**6**|**Fonds propres de base durs, avant**<br>**ajustements**|**3'241**|**3'240**||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 18942.0,
+      "value_prior_year": 18423.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|18'942|18'423|18'94",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

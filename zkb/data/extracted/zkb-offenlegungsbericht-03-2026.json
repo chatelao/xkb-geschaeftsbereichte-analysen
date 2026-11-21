@@ -13,5 +13,62 @@
     "total_lines": 1801
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 15498.0,
+      "value_prior_year": 15347.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital(CET1)|**15’498**|15’347|14’929|14’792|14’640|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 16557.0,
+      "value_prior_year": 16400.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital(T1)|**16’557**|16’400|15’977|15’853|15’701|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 17042.0,
+      "value_prior_year": 16882.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total<sup>1</sup>|**17’042**|16’882|16’460|16’332<sup>5</sup>|16’281<sup>5</sup>|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 78025.0,
+      "value_prior_year": 72359.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|**78’025**|72’359|72’751|71’680<sup>5</sup>|73’599<sup>5</sup>|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 19.9,
+      "value_prior_year": 21.2,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote<sup>1</sup>|**19,9 %**|21,2 %|20,5 %|20,6 %<sup>5</sup>|19,9 %<sup>5</sup>|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 21.8,
+      "value_prior_year": 23.3,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote<sup>1</sup>|**21,8 %**|23,3 %|22,6 %|22,8 %<sup>5</sup>|22,1 %<sup>5</sup>|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.0,
+      "value_prior_year": 7.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14b|Leverage Ratio, ohne die Auswirkung einer vorübergehenden<br>Ausnahme von Zentralbankguthaben|**7,0 %**|7,1 %|7,0 %|7,1 %|6,9 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

@@ -1,0 +1,21 @@
+{
+  "annual": {
+    "2025": {
+      "net_interest_income": 7747.0,
+      "commission_income": 27912.0,
+      "fte_count": 103177.0,
+      "share_price_eoy": 41.8,
+      "dividend_per_share": 0.9
+    },
+    "2024": {
+      "net_interest_income": 7108.0,
+      "commission_income": 26138.0,
+      "fte_count": 108648.0,
+      "share_price_eoy": 30.6,
+      "dividend_per_share": 0.9
+    }
+  },
+  "compensation": {
+    "2025": {"vr_total_tchf": 14800.0, "ceo_total_tchf": 14900.0, "gl_total_tchf": 143500.0, "notes": "UBS Annual Report 2025 Compensation Report (in TCHF äquiv.)"}
+  }
+}

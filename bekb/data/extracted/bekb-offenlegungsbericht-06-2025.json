@@ -38,6 +38,14 @@
       "source_quote": "|3<br>Gesamtkapital total|3 240 835|3 231 533|3 154 705|",
       "chunk_name": "km1_eigenmittel"
     },
+    "rwa_total": {
+      "value_current": 15661491.0,
+      "value_prior_year": 16658058.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|4<br>RWA|15 661 491|16 658 058|16 323 672|",
+      "chunk_name": "km1_eigenmittel"
+    },
     "cet1_ratio_pct": {
       "value_current": 18.5,
       "value_prior_year": 17.26,
@@ -52,14 +60,6 @@
       "unit": "%",
       "currency": "CHF",
       "source_quote": "|7<br>Gesamtkapitalquote (%)|20,69|19,40|19,33|",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "leverage_ratio_pct": {
-      "value_current": 6.69,
-      "value_prior_year": 6.9,
-      "unit": "%",
-      "currency": "CHF",
-      "source_quote": "|14<br>Leverage Ratio, ausgedrückt als Tier 1 in % des LRD, einschliesslich der<br>Auswirkung einer vorübergehenden Ausnahme von Zentralbankguthaben|6,69|6,90|6,81|",
       "chunk_name": "km1_eigenmittel"
     },
     "lcr_pct": {

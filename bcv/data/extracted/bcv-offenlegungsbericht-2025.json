@@ -13,5 +13,14 @@
     "total_lines": 3436
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_ratio_pct": {
+      "value_current": 18.0,
+      "value_prior_year": 18.4,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|Ratio CET1|18.0%|18.4%|16.8%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "annual": {
+    "2025": {
+      "net_interest_income": 2641.0,
+      "commission_income": 752.0,
+      "fte_count": 10972.0
+    },
+    "2024": {
+      "net_interest_income": 2843.0,
+      "commission_income": 683.0,
+      "fte_count": 10720.0
+    }
+  },
+  "compensation": {
+    "2025": {"vr_total_tchf": 1950.0, "ceo_total_tchf": 1780.0, "gl_total_tchf": 8900.0, "notes": "Raiffeisen Gruppe GB 2025 Vergütungsbericht"}
+  }
+}

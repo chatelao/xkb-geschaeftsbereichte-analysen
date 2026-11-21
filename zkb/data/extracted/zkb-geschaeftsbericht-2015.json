@@ -14,12 +14,36 @@
   },
   "backend": "local",
   "metrics": {
+    "net_interest_income": {
+      "value_current": 1162.0,
+      "value_prior_year": 1127.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Netto-Erfolg Zinsengeschäft||1’162|1’127|3,1|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 663.0,
+      "value_prior_year": 526.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolg Kommissions- und Dienstleistungsgeschäft||663|526|26,1|",
+      "chunk_name": "bilanz"
+    },
     "trading_income": {
       "value_current": 328.0,
       "value_prior_year": 233.0,
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Erfolg aus dem Handelsgeschäft und der Fair-Value-Option||328|233|40,5|",
+      "chunk_name": "bilanz"
+    },
+    "other_ordinary_income": {
+      "value_current": 52.0,
+      "value_prior_year": 43.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Übriger ordentlicher Erfolg||52|43|19,5|",
       "chunk_name": "bilanz"
     },
     "total_operating_income": {
@@ -148,14 +172,6 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Kassenobligationen|15|269|381|–112|–29,4|",
-      "chunk_name": "bilanz"
-    },
-    "shareholders_equity": {
-      "value_current": 1925.0,
-      "value_prior_year": 6919.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|**Total Eigenkapital per 31. Dezember 2014**|1’925|6’919|647|–4|9’487|",
       "chunk_name": "bilanz"
     }
   }

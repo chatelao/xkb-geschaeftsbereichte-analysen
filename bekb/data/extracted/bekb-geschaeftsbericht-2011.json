@@ -62,14 +62,6 @@
       "source_quote": "|Dividendeje Namenaktie|5,30 <sup>4</sup>|5,10|4,80|",
       "chunk_name": "bilanz"
     },
-    "fte_count": {
-      "value_current": 1465.0,
-      "value_prior_year": 1448.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Personalbestand(inkl. Lernende sowie Aushilfen)|1 465|1 448|1 426|",
-      "chunk_name": "bilanz"
-    },
     "mortgage_loans": {
       "value_current": 16211001.0,
       "value_prior_year": 15609781.0,
@@ -94,12 +86,36 @@
       "source_quote": "|Kassenobligationen|291 953|452 573|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 354676.0,
+      "value_prior_year": 358164.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Zinsengeschäft**|**354 676**|**358 164**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 84039.0,
+      "value_prior_year": 89775.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions- und Dienstleistungsgeschäft**|**84 039**|**89 775**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 27229.0,
       "value_prior_year": 22673.0,
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft**|**27 229**|**22 673**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 33573.0,
+      "value_prior_year": 35747.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**33 573**|**35 747**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {

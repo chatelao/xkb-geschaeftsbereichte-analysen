@@ -1,4 +1,4 @@
-# 07 · Strategische Epochen, Governance & reale Vergütung (2007–2025): Walliser Kantonalbank (BCVs)
+# 07 · Strategische Epochen, Governance, reale Vergütung & Vorsorge (2007–2025): Walliser Kantonalbank (BCVs)
 
 > **Preisbasis:** Sämtliche Realgrössen sind mit dem offiziellen **BFS Landesindex der Konsumentenpreise (LIK, Dez. 1982 = 100)** deterministisch auf **reale CHF 2025** deflationiert.
 
@@ -26,13 +26,18 @@
 | 2022 | 72,9 | 75,3 | – | – | – | – |
 | 2023 | 90,4 | 91,4 | – | – | – | – |
 | 2024 | 90,5 | 90,6 | – | – | – | – |
-| 2025 | 85,9 | 85,9 | 170,6 | – | – | – |
+| 2025 | 85,9 | 85,9 | 170,6 | 1'150,0 | 790,0 | 3'250,0 |
 
 ![Gewinn, Löhne & Vergütung real](./charts/07_gewinn_loehne_verguetung_real.png)
 
-## 3. Treiberanalyse & Wendepunkte
+## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
+- **Vorsorgeeinrichtung:** Pensions- und Vorsorgekasse für das Personal der Walliser Kantonalbank (*Beitragsprimat (umhüllend)*, Basis: `Swiss GAAP FER 16 / ARB`)
+- **Versichertenstruktur:** Aktive **–**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **29,0 Mio. CHF**
+- **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **4,6×** (CEO real 2025: 790,0 TCHF vs. Ø Personalaufwand/FTE: 170,6 TCHF)
+- **Quelle:** `vskb/.md/vskb-geschaeftsbericht-2021.md; vskb/.md/vskb-geschaeftsbericht-2024.md` — 2020 Sondereinlage 29,0 Mio. CHF in Pensions- und Vorsorgekasse für das Personal der WKB (GB 2021 Ziff. 8.13/10.3).
+
+## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2015:** Umstellung auf FINMA-RVB
 - **2025:** Inkrafttreten Basel III final per 01.01.2025
-
-## 4. Fazit & Ausblick
-- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen und Organvergütungen über zwei Jahrzehnte.
+- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen, Pay Ratio und Pensionskassen-Resilienz im Branchenvergleich (`comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md`).

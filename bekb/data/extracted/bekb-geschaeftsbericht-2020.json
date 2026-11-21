@@ -78,12 +78,36 @@
       "source_quote": "|Gewinn|148 377|142 870|5 507|3,9|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 268687.0,
+      "value_prior_year": 288076.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Netto-Erfolg Zinsengeschäft**|**268 687**|**288 076**|**–19 389**|**–6,7**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 105055.0,
+      "value_prior_year": 105207.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions- und Dienstleistungsgeschäft**|**105 055**|**105 207**|**–152**|**–0,1**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 20866.0,
       "value_prior_year": 23972.0,
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft und der Fair-Value-Option**|**20 866**|**23 972**|**–3 106**|**–13,0**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 18595.0,
+      "value_prior_year": 27752.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**18 595**|**27 752**|**–9 158**|**–33,0**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {
@@ -156,14 +180,6 @@
       "unit": "%",
       "currency": "CHF",
       "source_quote": "|Leverage Ratio(in %)|7,8|7,5|",
-      "chunk_name": "mehrjahresvergleich"
-    },
-    "fte_count": {
-      "value_current": 1230.0,
-      "value_prior_year": 1226.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Personalbestand(inkl. Lernender sowie Aushilfen)|1 230|1 226|",
       "chunk_name": "mehrjahresvergleich"
     },
     "dividend_per_share": {

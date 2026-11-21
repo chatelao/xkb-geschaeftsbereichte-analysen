@@ -14,12 +14,36 @@
   },
   "backend": "local",
   "metrics": {
+    "cet1_capital": {
+      "value_current": 72709.0,
+      "value_prior_year": 69152.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|1<br>Common EquityTier 1(CET1)|**72,709**|69,152|71,367|74,213|76,104|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 91721.0,
+      "value_prior_year": 87837.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|3<br>Total capital|**91,721**|87,837|87,739|91,025|91,804|",
+      "chunk_name": "km1_eigenmittel"
+    },
     "rwa_total": {
       "value_current": 504500.0,
       "value_prior_year": 483276.0,
       "unit": "Mio. USD",
       "currency": "USD",
       "source_quote": "|4<br>Total risk-weighted assets(RWA)|**504,500**|483,276|498,538|519,363|511,376|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 14.41,
+      "value_prior_year": 14.31,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|5<br>Common equitytier 1 ratio(%)|**14.41**|14.31|14.32|14.29|14.88|",
       "chunk_name": "km1_eigenmittel"
     },
     "total_capital_ratio_pct": {
@@ -31,11 +55,11 @@
       "chunk_name": "km1_eigenmittel"
     },
     "leverage_ratio_pct": {
-      "value_current": 1658089.0,
-      "value_prior_year": 1561583.0,
+      "value_current": 5.53,
+      "value_prior_year": 5.62,
       "unit": "%",
       "currency": "USD",
-      "source_quote": "|13<br>Total Basel III leverage ratio exposure measure|**1,658,089**|1,561,583|1,519,477|1,608,341|1,564,201|",
+      "source_quote": "|14<br>Basel III leverage ratio (%) (including the impact of any applicable temporary<br>exemption of central bank reserves)<sup>4</sup>|**5.53**|5.62|5.77|5.66|5.87|",
       "chunk_name": "km1_eigenmittel"
     },
     "lcr_pct": {

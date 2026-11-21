@@ -14,12 +14,44 @@
   },
   "backend": "local",
   "metrics": {
-    "leverage_ratio_pct": {
-      "value_current": 48296.0,
-      "value_prior_year": 47886.0,
+    "cet1_capital": {
+      "value_current": 3109.0,
+      "value_prior_year": 3118.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Fonds propres de base durs(CET1)|3'109|3'118|3'079|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 3109.0,
+      "value_prior_year": 3118.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Fonds propres de base(T1)|3'109|3'118|3'079|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 18949.0,
+      "value_prior_year": 18199.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|18'949|18'199|18'024|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 16.4,
+      "value_prior_year": 17.1,
       "unit": "%",
       "currency": "CHF",
-      "source_quote": "|**8**<br>**Engagement total soumis au ratio de levier**|**48'296**|**47'886**|",
+      "source_quote": "|5|Ratio CET1|16.4%|17.1%|17.1%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.4,
+      "value_prior_year": 6.5,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14|Ratio de levier Bâle III (fonds propres de base en % de<br>l'engagement global)|6.4%|6.5%|6.5%|",
       "chunk_name": "km1_eigenmittel"
     }
   }

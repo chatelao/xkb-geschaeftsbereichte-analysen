@@ -33,7 +33,7 @@ Regeln:
 
 
 def clean_cell(cell: str) -> str:
-    txt = cell.replace("\xad", "").replace("’", "'")
+    txt = cell.replace("\xad", "").replace("’", "'").replace("\u2011", "-")
     txt = re.sub(r"<sup>.*?</sup>", "", txt, flags=re.IGNORECASE)
     txt = re.sub(r"^(?:[il]\s*<br\s*/?>\s*)+", "", txt, flags=re.IGNORECASE)
     txt = re.sub(r"(?:\s*<br\s*/?>\s*(?:[il]|\d)\s*)+$", "", txt, flags=re.IGNORECASE)
@@ -128,11 +128,15 @@ def detect_unit_and_currency(text: str, default_currency: str = "CHF") -> tuple[
     return None, curr
 
 
-def parse_markdown_tables(chunk_text: str, default_currency: str = "CHF") -> list[dict]:
+def parse_markdown_tables(
+    chunk_text: str,
+    default_currency: str = "CHF",
+    default_unit: str | None = None,
+) -> list[dict]:
     tables = []
     lines = chunk_text.splitlines()
     i = 0
-    recent_unit: str | None = None
+    recent_unit: str | None = default_unit
     recent_curr: str = default_currency
     recent_year_headers: list[str] | None = None
 
@@ -172,6 +176,16 @@ def parse_markdown_tables(chunk_text: str, default_currency: str = "CHF") -> lis
         elif re.match(r"^\|[\s:|-]+\|$", line) and i + 1 < len(lines) and lines[i + 1].strip().startswith("|"):
             rows = []
             j = i + 1
+            while j < len(lines) and lines[j].strip().startswith("|"):
+                rows.append((lines[j].strip(), split_md_row(lines[j])))
+                j += 1
+            tables.append({"headers": [], "unit": recent_unit, "currency": recent_curr, "rows": rows})
+            i = j
+            continue
+        elif line.startswith("|") and line.count("|") >= 3 and i + 1 < len(lines) and lines[i + 1].strip().startswith("|"):
+            # Tabellenfragment am Chunkanfang ohne Trennzeile
+            rows = []
+            j = i
             while j < len(lines) and lines[j].strip().startswith("|"):
                 rows.append((lines[j].strip(), split_md_row(lines[j])))
                 j += 1
@@ -225,8 +239,9 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
         r"^r[ée]serves\s+pour\s+risques\s+bancaires\s+g[ée]n[ée]raux",
     ],
     "shareholders_equity": [
-        r"^total\s+(?:des\s+)?eigenkapital",
-        r"^eigenkapital\s+total",
+        r"^total\s+(?:des\s+)?eigenkapital(?:\s+(?:vor|nach)\s+gewinnverwendung)?$",
+        r"^eigenkapital\s+total$",
+        r"^anrechenbares\s+eigenkapital$",
         r"^total\s+des\s+capitaux\s+propres",
         r"^fonds\s*propres$",
         r"^total\s+equity",
@@ -298,9 +313,12 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
     ],
     "net_new_money": [r"^netto-?neugeld", r"^afflux\s+nets\s+de\s+fonds", r"^net\s+new\s+(?:money|assets)"],
     "fte_count": [
-        r"^personalbestand.*(?:vollzeit|fte|teilzeitbereinigt)?",
-        r"^vollzeitstellen",
-        r"^effectif\s+du\s+personnel",
+        r"^total\s+teilzeitbereinigt$",
+        r"^mitarbeitende\s+teilzeitbereinigt$",
+        r"^(?:anzahl\s+)?vollzeitstellen",
+        r"^vollzeit[äa]quivalent",
+        r"^personalbestand\s*(?:\(|–|-)?\s*teilzeitbereinigt",
+        r"^effectif.*(?:ept|[ée]quivalents?\s+plein\s+temps)",
         r"^employees\s*\(?full-time",
     ],
     "branch_count": [r"^gesch[äa]ftsstellen", r"^filialen", r"^succursales", r"^branches"],
@@ -308,11 +326,11 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
     "share_price_eoy": [r"^aktienkurs", r"^schlusskurs", r"^cours\s+de\s+l'action", r"^share\s+price"],
     "dividend_per_share": [r"^dividende.*je\s+(?:namen|inhaber)?aktie", r"^dividende\s+par\s+action", r"^dividend\s+per\s+share"],
     # Offenlegung (KM1 / OV1)
-    "cet1_capital": [r"hartes\s+kernkapital\s*\(cet1\)|^1\s+hartes\s+kernkapital", r"fonds\s+propres\s+de\s+base\s+durs", r"common\s+equity\s+tier\s+1\s*\(cet1\)\s+capital"],
-    "tier1_capital": [r"^2\s+kernkapital|^kernkapital\s*\(t1\)", r"fonds\s+propres\s+de\s+base\s*\(t1\)", r"^tier\s+1\s+capital"],
-    "total_capital": [r"^3\s+gesamtkapital|^gesamtkapital", r"total\s+des\s+fonds\s+propres", r"^total\s+capital\b"],
-    "rwa_total": [r"^4\s+total\s+risikogewichtete|^total\s+risikogewichtete", r"total\s+des\s+positions\s+pond[ée]r[ée]es", r"total\s+risk-weighted\s+assets"],
-    "cet1_ratio_pct": [r"cet1-?quote|hartes\s+kernkapital\s+in\s+%", r"ratio\s+cet1", r"cet1\s+capital\s+ratio"],
+    "cet1_capital": [r"^hartes\s+kernkapital\s*\(cet1\)", r"fonds\s+propres\s+de\s+base\s+durs", r"common\s+equity\s*tier\s*1\s*\(cet1\)\s*(?:capital)?$"],
+    "tier1_capital": [r"^kernkapital\s*\((?:t1|tier\s*1)\)", r"fonds\s+propres\s+de\s+base\s*\(t1\)", r"^tier\s+1\s+capital"],
+    "total_capital": [r"^gesamtkapital", r"total\s+des\s+fonds\s+propres", r"^total\s+capital\b"],
+    "rwa_total": [r"^rwa$", r"^total\s+risikogewichtete", r"total\s+des\s+positions\s+pond[ée]r[ée]es", r"total\s+risk-weighted\s+assets"],
+    "cet1_ratio_pct": [r"cet1-?quote|hartes\s+kernkapital\s+in\s+%", r"ratio\s+cet1", r"common\s+equity\s*tier\s*1\s*(?:capital\s*)?ratio", r"cet1\s+capital\s+ratio"],
     "total_capital_ratio_pct": [r"gesamtkapitalquote", r"ratio\s+global\s+de\s+fonds\s+propres", r"total\s+capital\s+ratio"],
     "leverage_ratio_pct": [r"leverage\s+ratio", r"ratio\s+de\s+levier"],
     "lcr_pct": [r"lcr\s*\(%?\)|quote\s+f[üu]r\s+kurzfristige\s+liquidit[äa]t", r"liquidity\s+coverage\s+ratio"],
@@ -340,8 +358,9 @@ def extract_local_from_chunk(
     chunk_text: str,
     target_year: int,
     default_currency: str,
+    default_unit: str | None = None,
 ) -> dict[str, dict]:
-    tables = parse_markdown_tables(chunk_text, default_currency=default_currency)
+    tables = parse_markdown_tables(chunk_text, default_currency=default_currency, default_unit=default_unit)
     found: dict[str, dict] = {}
 
     for tbl in tables:
@@ -350,23 +369,34 @@ def extract_local_from_chunk(
         for raw_line, raw_cells in tbl["rows"]:
             if not raw_cells:
                 continue
-            label = clean_cell(raw_cells[0]).lower()
+            c0 = clean_cell(raw_cells[0])
+            # KM1 / OV1 / LIQ1 Tabellen haben in Spalte 0 die Zeilennummer (z.B. "1", "5", "12c") oder "5 CET1-Quote"
+            data_start = 1
+            label = re.sub(r"^\d{1,2}[a-z]?\s+(?=[A-Za-zÄÖÜäöü])", "", c0).lower()
+            if re.fullmatch(r"\d{1,2}[a-z]?", c0) and len(raw_cells) >= 3:
+                c1 = clean_cell(raw_cells[1])
+                if c1 and any(ch.isalpha() for ch in c1):
+                    label = c1.lower()
+                    data_start = 2
             if not label:
                 continue
 
             for metric_id, patterns in METRIC_ROW_PATTERNS.items():
                 if metric_id in found:
                     continue
-                if not metric_id.endswith("_pct") and ("in %" in label or "%" in label or "quote" in label):
+                if not metric_id.endswith("_pct") and ("in %" in label or "%" in label or "quote" in label or "roe" in label):
+                    continue
+                if metric_id == "leverage_ratio_pct" and any(w in label for w in ("denominator", "gesamtengagement", "exposition", "nenner", "lrd")):
+                    continue
+                if metric_id == "cet1_ratio_pct" and any(w in label for w in ("zielquote", "puffer", "buffer", "anforderung", "target")):
                     continue
                 if any(re.search(pat, label, re.IGNORECASE) for pat in patterns):
-                    c_idx = curr_col if (curr_col is not None and curr_col < len(raw_cells)) else None
-                    p_idx = prev_col if (prev_col is not None and prev_col < len(raw_cells)) else None
+                    c_idx = curr_col if (curr_col is not None and curr_col >= data_start and curr_col < len(raw_cells)) else None
+                    p_idx = prev_col if (prev_col is not None and prev_col >= data_start and prev_col < len(raw_cells)) else None
 
                     if c_idx is None:
-                        # Fallback: erste zwei numerische Spalten
                         num_cols = [
-                            k for k in range(1, len(raw_cells)) if parse_number(raw_cells[k]) is not None
+                            k for k in range(data_start, len(raw_cells)) if parse_number(raw_cells[k]) is not None
                         ]
                         if not num_cols:
                             continue
@@ -374,10 +404,27 @@ def extract_local_from_chunk(
                         if len(num_cols) > 1 and p_idx is None:
                             p_idx = num_cols[1]
 
-                    val_curr = parse_number(raw_cells[c_idx])
+                    raw_curr = raw_cells[c_idx]
+                    val_curr = parse_number(raw_curr)
                     val_prev = parse_number(raw_cells[p_idx]) if p_idx is not None and p_idx < len(raw_cells) else None
                     if val_curr is None and val_prev is None:
                         continue
+
+                    if metric_id == "dividend_per_share" and val_curr is not None and val_curr > 500:
+                        m_fn = re.match(r"^(\d{1,3}),(\d{2})\d$", clean_cell(raw_curr))
+                        if m_fn:
+                            val_curr = float(f"{m_fn.group(1)}.{m_fn.group(2)}")
+                        else:
+                            continue
+                    if metric_id in ("cet1_ratio_pct", "total_capital_ratio_pct") and val_curr is not None:
+                        if not (5.0 < val_curr < 60.0):
+                            continue
+                    if metric_id == "leverage_ratio_pct" and val_curr is not None:
+                        if not (2.0 < val_curr < 15.0):
+                            continue
+                    if metric_id in ("lcr_pct", "nsfr_pct") and val_curr is not None:
+                        if not (50.0 < val_curr < 1000.0):
+                            continue
 
                     unit = "%" if metric_id.endswith("_pct") else tbl["unit"]
                     found[metric_id] = {
@@ -436,7 +483,7 @@ def extract_bank(bank_id: str, backend: str = "auto") -> int:
                 extracted = extract_with_gemini_api(chunk_name, chunk_text, meta, api_key)
             else:
                 extracted = extract_local_from_chunk(
-                    chunk_name, chunk_text, meta["year"], cfg.reporting_currency
+                    chunk_name, chunk_text, meta["year"], cfg.reporting_currency, default_unit=cfg.default_unit
                 )
             for k, v in extracted.items():
                 if k not in metrics and isinstance(v, dict):

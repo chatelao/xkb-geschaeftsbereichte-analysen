@@ -118,6 +118,14 @@
       "source_quote": "|• Geschäftserfolg|112’552|100’278|12,24%|",
       "chunk_name": "erfolgsrechnung"
     },
+    "tier1_capital": {
+      "value_current": 1273536.0,
+      "value_prior_year": 1214428.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|• Kernkapital (Tier 1)|1’273’536|1’214’428|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "leverage_ratio_pct": {
       "value_current": 7.9,
       "value_prior_year": 8.0,

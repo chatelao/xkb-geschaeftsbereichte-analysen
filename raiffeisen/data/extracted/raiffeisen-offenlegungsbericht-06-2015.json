@@ -14,6 +14,38 @@
   },
   "backend": "local",
   "metrics": {
+    "customer_deposits": {
+      "value_current": 115576800.0,
+      "value_prior_year": 114937605.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen gegenüber Kunden in Spar- und Anlageform|115'576'800|114'937'605||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "kassenobligationen": {
+      "value_current": 10714835.0,
+      "value_prior_year": 10872642.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|10'714'835|10'872'642||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 22922193.0,
+      "value_prior_year": 21640862.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|22'922'193|21'640'862||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "shareholders_equity": {
+      "value_current": 12660284.0,
+      "value_prior_year": 12060387.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total Eigenkapital (mit Minderheitsanteilen)**|**12'660'284**|**12'060'387**||",
+      "chunk_name": "km1_eigenmittel"
+    },
     "customer_loans_other": {
       "value_current": 4773679.0,
       "value_prior_year": null,
@@ -28,14 +60,6 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Hypothekarforderungen|65'302'799|5'224'224|63'543'490|5'083'479|60'784'866|4'862'789|",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "cet1_capital": {
-      "value_current": 12635842.0,
-      "value_prior_year": 12007710.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|**Total hartes Kernkapital (CET1) vor Anpassungen**|**12'635'842**|**12'007'710**|**11'169'640**|",
       "chunk_name": "km1_eigenmittel"
     },
     "rwa_total": {

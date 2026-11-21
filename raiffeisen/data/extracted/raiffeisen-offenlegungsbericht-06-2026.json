@@ -13,5 +13,62 @@
     "total_lines": 2141
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 25256.0,
+      "value_prior_year": 25039.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|25’256|25’039|24’811|24’307|24’075|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 26180.0,
+      "value_prior_year": 25964.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|26’180|25’964|25’735|25’232|25’000|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 27735.0,
+      "value_prior_year": 27360.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|27’735|27’360|27’179|26’925|26’729|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 102056.0,
+      "value_prior_year": 101338.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA<sup>2</sup>|102’056|101’338|101’966|100’756|99’339|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 24.7,
+      "value_prior_year": 24.7,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote|24,7%|24,7%|24,3%|24,1%|24,2%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 27.2,
+      "value_prior_year": 27.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote|27,2%|27,0%|26,7%|26,7%|26,9%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.8,
+      "value_prior_year": 7.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14b|Leverage Ratio ohne die Auswirkung einer vorübergehenden Ausnahme von Zentral-<br>bankguthaben|7,8%|7,8%|7,9%|7,8%|7,8%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

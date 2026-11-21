@@ -13,22 +13,5 @@
     "total_lines": 245
   },
   "backend": "local",
-  "metrics": {
-    "total_capital": {
-      "value_current": 9783.0,
-      "value_prior_year": 9412.0,
-      "unit": null,
-      "currency": "CHF",
-      "source_quote": "|**Gesamtkapital**|9'783|9'412|9'735|9'387|",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "leverage_ratio_pct": {
-      "value_current": 2.21,
-      "value_prior_year": 0.24,
-      "unit": "%",
-      "currency": "CHF",
-      "source_quote": "|**Leverage Ratio 31.12.2014**<br>1,08%|2,21%|0,24%|2,27%|5,80%|",
-      "chunk_name": "km1_eigenmittel"
-    }
-  }
+  "metrics": {}
 }

@@ -13,5 +13,22 @@
     "total_lines": 2555
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 3155.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|6|**= Fonds propres de base durs, avant ajustements**|**3'155**||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 17.1,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|61|Ratio CET1 (chiffre 29, en % des positions pondérées par le risque)|17.1%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

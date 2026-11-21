@@ -13,5 +13,14 @@
     "total_lines": 1553
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_ratio_pct": {
+      "value_current": 15.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|61|Ratio CET1(chiffre 29,en % despositionspondéréespar le risque)|15.0%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

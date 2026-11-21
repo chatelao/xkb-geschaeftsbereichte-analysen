@@ -13,30 +13,5 @@
     "total_lines": 1052
   },
   "backend": "local",
-  "metrics": {
-    "customer_loans_other": {
-      "value_current": 16459.0,
-      "value_prior_year": 15019.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Forderungen gegenüber Kunden||16’459|15’019|",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "mortgage_loans": {
-      "value_current": 72370.0,
-      "value_prior_year": 71389.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Hypothekarforderungen||72’370|71’389|",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "financial_investments": {
-      "value_current": 3933.0,
-      "value_prior_year": 4027.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Finanzanlagen||3’933|4’027|",
-      "chunk_name": "km1_eigenmittel"
-    }
-  }
+  "metrics": {}
 }

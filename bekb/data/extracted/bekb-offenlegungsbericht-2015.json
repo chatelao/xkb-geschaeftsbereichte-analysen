@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "shareholders_equity": {
+      "value_current": 2323372.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total Eigenkapital**|**2 323 372**||",
+      "chunk_name": "km1_eigenmittel"
+    },
     "cet1_ratio_pct": {
       "value_current": 19.47,
       "value_prior_year": null,
@@ -23,11 +31,11 @@
       "chunk_name": "km1_eigenmittel"
     },
     "leverage_ratio_pct": {
-      "value_current": 29183982.0,
+      "value_current": 7.74,
       "value_prior_year": null,
       "unit": "%",
       "currency": "CHF",
-      "source_quote": "|8  Gesamtengagement für die Leverage Ratio(Summe der Zeilen 1–7)|29 183 982|",
+      "source_quote": "|22  Leverage Ratio(Rz 3–4 FINMA-RS 15/3)|7,74%|",
       "chunk_name": "km1_eigenmittel"
     }
   }

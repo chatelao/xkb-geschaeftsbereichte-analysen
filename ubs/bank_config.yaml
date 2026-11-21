@@ -12,6 +12,7 @@ finma_category: 1
 reporting_scope: "consolidated"
 accounting_standard: "IFRS"
 reporting_currency: "USD"
+default_unit: "Mio. USD"
 primary_languages: ["en"]
 file_prefix: "ubs"
 

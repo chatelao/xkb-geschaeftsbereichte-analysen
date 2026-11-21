@@ -241,7 +241,7 @@ def _extract_row_values(entry: dict, cfg: BankConfig, ov_period: dict) -> dict[s
                 if min_ta <= ta * factor <= max_ta:
                     ta_unit = raw_metrics.get("total_assets", {}).get("unit")
                     for m_id in raw_metrics:
-                        if m_id in PCT_OR_UNITLESS_METRICS:
+                        if m_id in PCT_OR_UNITLESS_METRICS or m_id in ov_period:
                             continue
                         if raw_metrics[m_id].get("unit") == ta_unit:
                             k = f"{m_id}_mio" if not m_id.endswith("_mio") else m_id
@@ -290,6 +290,13 @@ def _enrich_annual_kpis(rows: list[dict], cfg: BankConfig) -> list[str]:
             r["total_operating_income_mio"] = inc
             r.setdefault("_healed", []).append("total_operating_income_mio(op_plus_exp)")
         exp = r.get("total_operating_expenses_mio")
+        if exp is not None and inc is not None and inc > 0:
+            if abs(exp) > inc * 50.0:
+                exp = r_round(exp / 1000.0, 3)
+                r["total_operating_expenses_mio"] = exp
+            elif 0 < abs(exp) < inc * 0.01:
+                exp = r_round(exp * 1000.0, 3)
+                r["total_operating_expenses_mio"] = exp
         exp_abs = abs(exp) if exp is not None else None
         r["cir_pct"] = r_round(safe_div(exp_abs, inc, 100.0), 2)
         r["interest_share_pct"] = r_round(safe_div(r.get("net_interest_income_mio"), inc, 100.0), 2)
@@ -474,6 +481,24 @@ def validate_bank(bank_id: str, strict_audit: bool = False) -> dict[str, Any]:
         for req in ("total_assets_mio", "total_operating_income_mio", "net_profit_mio"):
             if r.get(req) is None:
                 missing_core.append(f"{r['period']}: `{req}` fehlt")
+        roe = r.get("roe_pct")
+        if roe is not None and not (r["bank_id"] == "ubs" and r["year"] == 2023):
+            if not (-20.0 < roe < 35.0):
+                plausibility_warnings.append(f"{r['year']}: ROE {roe:.2f} % ausserhalb [-20, 35] %!")
+        cir = r.get("cir_pct")
+        if cir is not None and not (25.0 < cir < 110.0):
+            plausibility_warnings.append(f"{r['year']}: CIR {cir:.2f} % ausserhalb [25, 110] %!")
+        div = r.get("dividend_per_share")
+        if div is not None and not (0.0 <= div < 250.0):
+            plausibility_warnings.append(f"{r['year']}: Dividende/Aktie {div:.2f} CHF unplausibel!")
+
+    for r in off_rows:
+        cet1 = r.get("cet1_ratio_pct")
+        if cet1 is not None and not (8.0 < cet1 < 40.0):
+            plausibility_warnings.append(f"{r['period']} Offenlegung: CET1 {cet1:.2f} % unplausibel!")
+        lev = r.get("leverage_ratio_pct")
+        if lev is not None and not (2.0 < lev < 20.0):
+            plausibility_warnings.append(f"{r['period']} Offenlegung: Leverage Ratio {lev:.2f} % unplausibel!")
 
     rep_lines = [
         f"# Validierungs- & Selbstheilungsbericht: {cfg.full_name} (`{cfg.bank_id}`)",

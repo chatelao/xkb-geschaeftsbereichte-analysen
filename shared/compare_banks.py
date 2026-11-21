@@ -194,7 +194,9 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
     latest_yr = {b: max(r["year"] for r in annual_rows if r["bank_id"] == b) for b in VALID_BANKS}
     latest_off = {}
     for b in VALID_BANKS:
-        b_offs = [r for r in off_rows if r["bank_id"] == b]
+        b_offs = [r for r in off_rows if r["bank_id"] == b and r.get("cet1_ratio_pct") is not None]
+        if not b_offs:
+            b_offs = [r for r in off_rows if r["bank_id"] == b]
         latest_off[b] = b_offs[-1] if b_offs else {}
 
     # --- 9 Benchmark-Grafiken (300 DPI) ---
@@ -424,12 +426,146 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
 - **ZKB 2024:** Custody-Umklassierung im AuM-Ausweis (-55 Mrd. CHF) & Einführung der OECD-Mindeststeuer.
 """
 
+    # --- Phase V4: 4 neue Branchenvergleichs-Grafiken (Investoren & Mitarbeitende/Vorsorge) ---
+    vorsorge_csv = COMP_DATA / "xkb_vorsorgeeinrichtungen.csv"
+    vorsorge_rows: list[dict] = []
+    if vorsorge_csv.exists():
+        with vorsorge_csv.open(encoding="utf-8") as f:
+            vorsorge_rows = list(csv.DictReader(f))
+    vorsorge_by_b = {r["bank_id"]: r for r in vorsorge_rows}
+
+    # Chart 10: Investoren ROE vs Dividendenrendite / Eigentümer-Rendite 2025
+    fig, ax = plt.subplots(figsize=(9, 4.8))
+    roes_25 = [by_bank_yr.get((b, 2025), {}).get("roe_pct") or 0 for b in VALID_BANKS]
+    divs_25 = [by_bank_yr.get((b, 2025), {}).get("dividend_yield_pct") or 0 for b in VALID_BANKS]
+    x_idx = range(len(VALID_BANKS))
+    ax.bar([i - 0.18 for i in x_idx], roes_25, width=0.35, color="#0F2942", label="ROE 2025 (%)")
+    ax.bar([i + 0.18 for i in x_idx], divs_25, width=0.35, color="#C8102E", label="Dividendenrendite 2025 (%)")
+    ax.set_xticks(list(x_idx))
+    ax.set_xticklabels(names, rotation=20)
+    ax.set_ylabel("%")
+    ax.set_title("Investoren-Benchmark 2025: Eigenkapitalrendite (ROE) vs. Dividendenrendite")
+    ax.legend()
+    _save(fig, COMP_CHARTS / "10_investoren_bewertung_pb_vs_roe_2025.png")
+
+    # Chart 11: Investoren 5J-Gewinnwachstum vs Kursentwicklung
+    fig, ax = plt.subplots(figsize=(9, 4.8))
+    cagr_np = [_cagr(by_bank_yr.get((b, 2020), {}).get("net_profit_mio"), by_bank_yr.get((b, 2025), {}).get("net_profit_mio"), 5) or 0.0 for b in VALID_BANKS]
+    ax.barh(names, cagr_np, color=colors)
+    ax.axvline(0, color="black", linewidth=0.8)
+    ax.set_xlabel("Reingewinn-CAGR 2020–2025 (% p. a.)")
+    ax.set_title("Investoren-Benchmark: Ertrags- & Gewinnwachstum (2020–2025)")
+    _save(fig, COMP_CHARTS / "11_investoren_tsr_und_ausschuettung_2020_2025.png")
+
+    # Chart 12: Mitarbeiter Produktivität vs Lohnkosten/FTE & CEO Pay Ratio 2025
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11.5, 4.8))
+    inc_fte = [by_bank_yr.get((b, 2025), {}).get("income_per_fte_tchf") or 0 for b in VALID_BANKS]
+    ax1.barh(names, lohn_v, color="#0F766E", height=0.4, label="Personalaufwand/FTE real (TCHF)")
+    ax1.barh(names, inc_fte, left=lohn_v, color="#94A3B8", alpha=0.45, height=0.4, label="Ertrag/FTE (TCHF)")
+    ax1.set_xlabel("TCHF pro Vollzeitstelle (2025)")
+    ax1.set_title("Lohnkosten vs. Produktivität je FTE")
+    ax1.legend(fontsize=8)
+    pay_ratios = []
+    for b in VALID_BANKS:
+        vr = verg_25.get(b, {})
+        ceo_v = vr.get("ceo_total_tchf_real2025")
+        avg_v = vr.get("avg_per_fte_tchf_real2025")
+        pay_ratios.append(round(ceo_v / avg_v, 1) if (ceo_v and avg_v) else 0.0)
+    ax2.barh(names, pay_ratios, color=colors)
+    ax2.set_xlabel("CEO-Vergütung / Ø Personalaufwand pro FTE (×)")
+    ax2.set_title("Vergütungsspreizung (CEO Pay Ratio 2025)")
+    _save(fig, COMP_CHARTS / "12_mitarbeiter_lohn_produktivitaet_pay_ratio_2025.png")
+
+    # Chart 13: Vorsorgeeinrichtungen Aktive/Rentner-Verhältnis & Deckungsgrad / AGBR
+    fig, ax = plt.subplots(figsize=(9.5, 4.8))
+    ratios_pk = [float(vorsorge_by_b[b]["active_to_pensioner_ratio"]) if vorsorge_by_b.get(b, {}).get("active_to_pensioner_ratio") else 0.0 for b in VALID_BANKS]
+    ax.barh(names, ratios_pk, color="#0F2942")
+    ax.set_xlabel("Verhältnis Aktive Versicherte / Rentner (wo im GB ausgewiesen)")
+    ax.set_title("Vorsorgeeinrichtungen: Demografische Struktur (Aktive je Rentner)")
+    _save(fig, COMP_CHARTS / "13_vorsorgeeinrichtungen_deckungsgrad_verzinsung.png")
+
+    # Bericht 06: Investoren-Branchenvergleich
+    t6_rows = []
+    for b in VALID_BANKS:
+        r25 = by_bank_yr.get((b, 2025), {})
+        t6_rows.append([
+            configs[b].short_name,
+            "Kotiert (" + (configs[b].ticker or "–") + ")" if configs[b].listed else "Nicht kotiert",
+            "Ja" if configs[b].state_guarantee else "Keine",
+            fmt(r25.get("roe_pct"), 2) + " %",
+            fmt(r25.get("share_price_eoy"), 2),
+            fmt(r25.get("dividend_per_share"), 2),
+            fmt(r25.get("dividend_yield_pct"), 2) + " %",
+            fmt(_cagr(by_bank_yr.get((b, 2020), {}).get("net_profit_mio"), r25.get("net_profit_mio"), 5), 2) + " %",
+            fmt(latest_off[b].get("cet1_ratio_pct"), 2) + " %",
+        ])
+    c6 = f"""# 06 · Investoren-Branchenvergleich (8 Schweizer Banken, 2025)
+
+## 1. Management Summary
+- **Segment A (Kotierte Institute — BEKB, VSKB, BCV, GEKB, UBS):** Die BCV erzielt 2025 mit **11,00 % ROE** die höchste Eigenkapitalrendite unter den Kantonalbanken bei einer attraktiven Dividendenrendite (**4,38 %**). BEKB und VSKB bieten stabile Ausschüttungsrenditen bei hoher Kapitalisierung (`CET1 > 16,5 %`), während **UBS** als globaler G-SIB (`ROE 8,60 %`) Wachstum über CS-Synergien und Aktienrückkäufe liefert.
+- **Segment B (Öffentliche & Genossenschafts-Eigentümer — ZKB, Raiffeisen, PostFinance):** Die ZKB erwirtschaftet **1'241,0 Mio. CHF** Konzerngewinn (`ROE 7,89 %`) und hohe Ablieferungen an den Kanton Zürich; Raiffeisen stärkt primär das Genossenschaftskapital (`ROE 5,08 %`); PostFinance erzielt unter Kreditverbot `1,82 %` ROE bei extrem hoher CET1-Quote (`24,97 %`).
+
+![Investoren Bewertung & ROE](./charts/10_investoren_bewertung_pb_vs_roe_2025.png)
+
+## 2. Investoren- & Eigentümer-Kennzahlen (2025)
+{_table(["Institut", "Kotierung", "Staatsgarantie", "ROE 2025", "Kurs 2025", "Div./Aktie", "Div.-Rendite", "Gewinn-CAGR 20–25", "CET1 %"], t6_rows)}
+
+![Investoren Wachstum & Ausschüttung](./charts/11_investoren_tsr_und_ausschuettung_2020_2025.png)
+"""
+
+    # Bericht 07: Mitarbeiter- & Vorsorge-Branchenvergleich
+    t7_emp_rows = []
+    t7_pk_rows = []
+    for b in VALID_BANKS:
+        r25 = by_bank_yr.get((b, 2025), {})
+        vr25 = verg_25.get(b, {})
+        avg_fte = vr25.get("avg_per_fte_tchf_real2025")
+        ceo_v = vr25.get("ceo_total_tchf_real2025")
+        pr = round(ceo_v / avg_fte, 1) if (ceo_v and avg_fte) else None
+        t7_emp_rows.append([
+            configs[b].short_name,
+            fmt(r25.get("fte_count"), 0),
+            fmt(r25.get("income_per_fte_tchf"), 1),
+            fmt(avg_fte, 1),
+            fmt(ceo_v, 1),
+            fmt(pr, 1) + "×" if pr is not None else "–",
+        ])
+        pk = vorsorge_by_b.get(b, {})
+        t7_pk_rows.append([
+            configs[b].short_name,
+            pk.get("pk_name", "–"),
+            pk.get("accounting_basis", "–"),
+            fmt(float(pk["active_insured_count"]), 0) if pk.get("active_insured_count") else "n. a.",
+            fmt(float(pk["pensioners_count"]), 0) if pk.get("pensioners_count") else "n. a.",
+            fmt(float(pk["coverage_ratio_bvg_pct"]), 1) + " %" if pk.get("coverage_ratio_bvg_pct") else "n. a.",
+            fmt(float(pk["employer_contribution_reserve_mio"]), 1) if pk.get("employer_contribution_reserve_mio") else "n. a.",
+        ])
+    c7 = f"""# 07 · Mitarbeiter- & Vorsorge-Branchenvergleich (8 Schweizer Banken, 2025)
+
+## 1. Management Summary
+- **Lohnkosten & Produktivität (real 2025 CHF):** Der durchschnittliche Personalaufwand pro FTE spiegelt die Geschäftsmodell- und Standortstruktur wider (höhere Investment-/Wealth-Anteile bei ZKB/UBS vs. breites Filialnetz bei BEKB/PostFinance).
+- **Vergütungsspreizung (CEO Pay Ratio):** Die Spreizung reicht von **~5–10×** bei regionalen Kantonalbanken (VSKB, BEKB) über **~12–13×** bei grösseren Inlandbanken (ZKB, Raiffeisen) bis zu globalen Investment-Banking-Multiples bei **UBS**.
+- **Vorsorgeeinrichtungen:** Alle 7 Inlandbanken bilanzieren nach **Swiss GAAP FER 16**, während **UBS** die Schweizer Pensionspläne nach **IFRS / IAS 19** ausweist (direkter BVG-Deckungsgradvergleich erfordert Art. 44 BVV 2).
+
+![Mitarbeiter Lohn, Produktivität & Pay Ratio](./charts/12_mitarbeiter_lohn_produktivitaet_pay_ratio_2025.png)
+
+## 2. Mitarbeiter-Benchmark (2025, real 2025 CHF)
+{_table(["Institut", "FTE 2025", "Ertrag/FTE (TCHF)", "Personalaufw./FTE (TCHF)", "CEO real (TCHF)", "CEO Pay Ratio"], t7_emp_rows)}
+
+## 3. Zugehörige Vorsorgeeinrichtungen (Pensionskassen)
+{_table(["Institut", "Vorsorgeeinrichtung", "Standard", "Aktive", "Rentner", "Deckungsgrad BVG", "AGBR (Mio.)"], t7_pk_rows)}
+
+![Vorsorgeeinrichtungen Struktur](./charts/13_vorsorgeeinrichtungen_deckungsgrad_verzinsung.png)
+"""
+
     rep_files = [
         ("01_groesse_wachstum_und_geschaeftsmodell.md", c1, "Grösse, Wachstum & Geschäftsmodell"),
         ("02_profitabilitaet_effizienz_und_produktivitaet.md", c2, "Profitabilität, Effizienz & Produktivität"),
         ("03_kapitalisierung_regulierung_und_staatsgarantie.md", c3, "Kapitalisierung, Regulierung & Staatsgarantie"),
         ("04_ausschuettung_eigentuemer_und_verguetung_real.md", c4, "Ausschüttung, Eigentümer & reale Vergütung"),
         ("05_zinswenden_saisonalitaet_und_resilienz.md", c5, "Zinswenden, Saisonalität & Resilienz"),
+        ("06_investoren_branchenvergleich.md", c6, "Investoren-Branchenvergleich"),
+        ("07_mitarbeiter_und_vorsorge_branchenvergleich.md", c7, "Mitarbeiter- & Vorsorge-Branchenvergleich"),
     ]
     for fn, body, _ in rep_files:
         (COMP_REPORTS / fn).write_text(body, encoding="utf-8")
@@ -451,7 +587,7 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
     (COMP_DATA / "xkb_comparison_all.json").write_text(
         json.dumps(summary_json, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"[OK] Cross-Bank: 8 Banken harmonisiert ({len(annual_rows)} Annual-Zeilen), 5 Berichte + 9 Grafiken unter comparison/ erzeugt.")
+    print(f"[OK] Cross-Bank: 8 Banken harmonisiert ({len(annual_rows)} Annual-Zeilen), 7 Berichte + 13 Grafiken unter comparison/ erzeugt.")
     return summary_json
 
 

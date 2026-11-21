@@ -78,12 +78,36 @@
       "source_quote": "|Kassenobligationen|120|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 314661.0,
+      "value_prior_year": 298258.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Zinsengeschäft**|**298 258**|**314 661**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 93708.0,
+      "value_prior_year": 104899.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions­**<br>**und Dienstleistungsgeschäft**|**104 899**|**93 708**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 37789.0,
       "value_prior_year": 27634.0,
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft**|**27 634**|**37 789**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 25179.0,
+      "value_prior_year": 36405.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**36 405**|**25 179**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {

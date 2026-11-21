@@ -1,10 +1,10 @@
-# 05 · Aktie, Dividenden & Wertschöpfung (2007–2025): Banque Cantonale Vaudoise
+# 05 · Aktie, Dividenden & Investoren-Wertschöpfung (2007–2025): Banque Cantonale Vaudoise
 
 > **Eigentümer-Modus:** `listed_share` | **Staatsgarantie:** Keine | **Ticker:** `BCVN`
 
 ## 1. Management Summary
-- Im Geschäftsjahr 2025 erwirtschaftete BCV einen Gewinn von **430,0 Mio. CHF** bei einem Eigenkapital von **– Mio. CHF**.
-- Die Ausschüttungs- und Kapitalstruktur folgt dem spezifischen Governance-Modell (`listed_share`).
+- Im Geschäftsjahr 2025 erwirtschaftete BCV einen Gewinn von **430,0 Mio. CHF** bei einem Eigenkapital von **3'909,0 Mio. CHF**.
+- **Aktuelle Ausschüttung (2025):** Kurs **100.40 CHF**, Dividende **4.40 CHF** (Rendite **4,38 %**).
 
 ## 2. Quantitative Entwicklung
 | Jahr | Reingewinn (Mio.) | Eigenkapital (Mio.) | Aktienkurs (split-ber.) | Dividende/Aktie | Div.-Rendite | Öff. Ablieferung (Mio.) |
@@ -27,12 +27,13 @@
 | 2022 | 388,0 | 3'713,0 | – | – | – % | – |
 | 2023 | 469,0 | – | – | – | – % | – |
 | 2024 | 441,0 | – | – | – | – % | – |
-| 2025 | 430,0 | – | – | 4'403.00 | – % | – |
+| 2025 | 430,0 | 3'909,0 | 100.40 | 4.40 | 4,38 % | – |
 
 ![Eigentümer & Wertschöpfung](./charts/05_eigentuemer_wertschoepfung.png)
 
-## 3. Treiberanalyse & Wendepunkte
+## 3. Treiberanalyse & Wendepunkte (Investoren-Perspektive)
 - Bei kotierten Instituten mit Aktiensplits (z. B. BCV 1:10 im Jahr 2020) sind sämtliche historischen Kurs- und Dividendenreihen deterministisch split-bereinigt.
+- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 8 Institute eingeordnet.
 
 ## 4. Fazit & Ausblick
 - Stabile Ertragskraft sichert langfristig Dividendenkontinuität bzw. verlässliche Ablieferungen an Kanton, Post oder Genossenschafter.

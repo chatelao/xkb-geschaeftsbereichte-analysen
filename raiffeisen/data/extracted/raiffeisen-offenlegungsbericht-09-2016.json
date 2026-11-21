@@ -14,12 +14,12 @@
   },
   "backend": "local",
   "metrics": {
-    "cet1_capital": {
-      "value_current": 3.125,
-      "value_prior_year": null,
+    "tier1_capital": {
+      "value_current": 14789.0,
+      "value_prior_year": 16.27,
       "unit": null,
       "currency": "CHF",
-      "source_quote": "|_davon hartes Kernkapital (CET1)_|3.125|",
+      "source_quote": "|**Kernkapital(Tier 1)**|**14'789**|**16.27%**|**14'789**|**16.27%**|",
       "chunk_name": "km1_eigenmittel"
     },
     "cet1_ratio_pct": {

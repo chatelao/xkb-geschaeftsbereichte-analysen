@@ -14,6 +14,22 @@
   },
   "backend": "local",
   "metrics": {
+    "financial_investments": {
+      "value_current": 72385.0,
+      "value_prior_year": 79166.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|72 385|79 166|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 114468.0,
+      "value_prior_year": 119503.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**|**114 468**|**119 503**|",
+      "chunk_name": "bilanz"
+    },
     "customer_loans_other": {
       "value_current": 6.0,
       "value_prior_year": 10993.0,
@@ -28,22 +44,6 @@
       "unit": "Mrd. CHF",
       "currency": "CHF",
       "source_quote": "|Hypothekarforderungen|6|0|0|",
-      "chunk_name": "bilanz"
-    },
-    "financial_investments": {
-      "value_current": 8.0,
-      "value_prior_year": 57395.0,
-      "unit": "Mrd. CHF",
-      "currency": "CHF",
-      "source_quote": "|Finanzanlagen|8|57 395|61 742|",
-      "chunk_name": "bilanz"
-    },
-    "total_assets": {
-      "value_current": 115689.0,
-      "value_prior_year": 120379.0,
-      "unit": "Mrd. CHF",
-      "currency": "CHF",
-      "source_quote": "|**Total Aktiven**||**115 689**|**120 379**|",
       "chunk_name": "bilanz"
     },
     "kassenobligationen": {
@@ -61,6 +61,22 @@
       "currency": "CHF",
       "source_quote": "|Gewinn||221|311|",
       "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 966.0,
+      "value_prior_year": 942.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Netto-Erfolg Zinsengeschäft**||**966**|**942**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 198.0,
+      "value_prior_year": 227.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg Kommissions- und Dienstleistungsgeschäft**||**198**|**227**|",
+      "chunk_name": "erfolgsrechnung"
     },
     "trading_income": {
       "value_current": 27.0,

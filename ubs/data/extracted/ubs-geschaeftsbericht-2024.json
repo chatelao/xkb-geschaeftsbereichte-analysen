@@ -14,26 +14,66 @@
   },
   "backend": "local",
   "metrics": {
-    "total_assets": {
-      "value_current": 1568060.0,
-      "value_prior_year": 1156016.0,
-      "unit": "Mrd. USD",
+    "total_operating_expenses": {
+      "value_current": 41239.0,
+      "value_prior_year": 38806.0,
+      "unit": "Mio. USD",
       "currency": "USD",
-      "source_quote": "|Total assets|**1,568,060**|1,156,016|**966,697**|698,149|**526,521**|319,037|**55,344**|46,769|**211,893**|222,009|",
+      "source_quote": "|Operatingexpenses|**41,239**|38,806|24,930|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 5085.0,
+      "value_prior_year": 27366.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|Netprofit /(loss)attributable to shareholders|**5,085**|27,366|7,630|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 1565028.0,
+      "value_prior_year": 1716924.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|Total assets|**1,565,028**|1,716,924|1,104,364|",
       "chunk_name": "bilanz"
     },
     "shareholders_equity": {
-      "value_current": 94666.0,
-      "value_prior_year": 55569.0,
-      "unit": "Mrd. USD",
+      "value_current": 85079.0,
+      "value_prior_year": 85624.0,
+      "unit": "Mio. USD",
       "currency": "USD",
-      "source_quote": "|Total equity|**94,666**|55,569|**88,332**|55,546|**26,249**|15,364|**4,377**|3,874|**26,725**|32,899|",
+      "source_quote": "|Equityattributable to shareholders|**85,079**|85,624|56,876|",
+      "chunk_name": "bilanz"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 14.3,
+      "value_prior_year": 14.3,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|Common equitytier 1 capital ratio(%)<sup>7</sup>|**14.3**|14.3|14.2|",
+      "chunk_name": "bilanz"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 4.7,
+      "value_prior_year": 4.6,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|Common equitytier 1 leverage ratio(%)<sup>7</sup>|**4.7**|4.6|4.4|",
+      "chunk_name": "bilanz"
+    },
+    "assets_under_management": {
+      "value_current": 6087.0,
+      "value_prior_year": 5714.0,
+      "unit": "Mio. USD",
+      "currency": "USD",
+      "source_quote": "|Invested assets(USD bn)<sup>4,9</sup>|**6,087**|5,714|3,981|",
       "chunk_name": "bilanz"
     },
     "total_capital": {
       "value_current": 3839.0,
       "value_prior_year": 3225.0,
-      "unit": "Mrd. USD",
+      "unit": "Mio. USD",
       "currency": "USD",
       "source_quote": "|Total capital|||||||**3,839**|3,225|**19,181**|17,120|",
       "chunk_name": "bilanz"
@@ -41,41 +81,9 @@
     "total_operating_income": {
       "value_current": 48611.0,
       "value_prior_year": 40834.0,
-      "unit": null,
+      "unit": "Mio. USD",
       "currency": "USD",
       "source_quote": "|Total revenues|**48,611**|40,834|34,563|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "total_operating_expenses": {
-      "value_current": 41239.0,
-      "value_prior_year": 38806.0,
-      "unit": null,
-      "currency": "USD",
-      "source_quote": "|Operatingexpenses|**41,239**|38,806|24,930|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "net_profit": {
-      "value_current": 5085.0,
-      "value_prior_year": 27366.0,
-      "unit": null,
-      "currency": "USD",
-      "source_quote": "|Netprofit /(loss)attributable to shareholders|**5,085**|27,366|7,630|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "leverage_ratio_pct": {
-      "value_current": 3.0,
-      "value_prior_year": 2.9,
-      "unit": "%",
-      "currency": "USD",
-      "source_quote": "|Return on leverage ratio denominator, gross(%)|**3.0**|2.9|3.3|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "assets_under_management": {
-      "value_current": 6087.0,
-      "value_prior_year": 5714.0,
-      "unit": null,
-      "currency": "USD",
-      "source_quote": "|Invested assets(USD bn)<sup>4,9</sup>|**6,087**|5,714|3,981|",
       "chunk_name": "erfolgsrechnung"
     }
   }

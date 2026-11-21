@@ -14,44 +14,20 @@
   },
   "backend": "local",
   "metrics": {
-    "mortgage_loans": {
-      "value_current": 79087.0,
-      "value_prior_year": null,
-      "unit": "Mio. CHF",
+    "cet1_ratio_pct": {
+      "value_current": 16.5,
+      "value_prior_year": 16.3,
+      "unit": "%",
       "currency": "CHF",
-      "source_quote": "|Hypothekarforderungen|79'087||",
+      "source_quote": "|6|CET1-Quote(hartes Kernkapital in % der RWA) <sup>1</sup>|16.5%|16.3%|",
       "chunk_name": "km1_eigenmittel"
     },
-    "financial_investments": {
-      "value_current": 4740.0,
-      "value_prior_year": null,
-      "unit": "Mio. CHF",
+    "total_capital_ratio_pct": {
+      "value_current": 18.8,
+      "value_prior_year": 18.6,
+      "unit": "%",
       "currency": "CHF",
-      "source_quote": "|Finanzanlagen|4'740||",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "total_assets": {
-      "value_current": 163881.0,
-      "value_prior_year": null,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|**Total Aktiven**|**163'881**||",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "customer_deposits": {
-      "value_current": 81381.0,
-      "value_prior_year": null,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Verpflichtungen aus Kundeneinlagen|81'381||",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "kassenobligationen": {
-      "value_current": 191.0,
-      "value_prior_year": null,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Kassenobligationen|191||",
+      "source_quote": "|8|Gesamtkapitalquote(in % der RWA) <sup>1</sup>|18.8%|18.6%|",
       "chunk_name": "km1_eigenmittel"
     }
   }

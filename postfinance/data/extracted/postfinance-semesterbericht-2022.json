@@ -70,6 +70,22 @@
       "source_quote": "|Gewinn/Verlust|223|153|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 252.0,
+      "value_prior_year": 300.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Netto-Erfolg Zinsengeschäft**|**252**|**300**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 179.0,
+      "value_prior_year": 207.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg Kommissions- und Dienstleistungsgeschäft**|**179**|**207**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 96.0,
       "value_prior_year": 110.0,

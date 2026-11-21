@@ -11,13 +11,13 @@
 ## 2. Quantitative Gegenüberstellung (Geschäftsjahr 2025)
 | Institut | Peer Group | Scope | Standard | Bilanzsumme 2025 (Mio.) | CAGR 20–25 | Zinsanteil | Komm.-Anteil |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BEKB | cantonal_bank | standalone | ARB_RVB | 42'977,0 | 3,37 % | – % | – % |
+| BEKB | cantonal_bank | standalone | ARB_RVB | 42'977,0 | 3,37 % | 68,8 % | 23,0 % |
 | WKB (VSKB) | cantonal_bank | standalone | ARB_RVB | 22'042,2 | 4,06 % | 72,1 % | 18,9 % |
-| ZKB | cantonal_bank | consolidated | ARB_RVB | 206'177,0 | 1,82 % | – % | 33,7 % |
-| BCV | cantonal_bank | consolidated | ARB_RVB | 61'620,0 | 2,99 % | 45,8 % | – % |
+| ZKB | cantonal_bank | consolidated | ARB_RVB | 206'177,0 | 1,82 % | 52,3 % | 33,7 % |
+| BCV | cantonal_bank | consolidated | ARB_RVB | 61'620,0 | 2,99 % | 45,8 % | 33,2 % |
 | BCGE (GEKB) | cantonal_bank | consolidated | ARB_RVB | 34'905,0 | 4,85 % | 55,4 % | 28,0 % |
-| Raiffeisen | domestic_dsib | consolidated | ARB_RVB | 305'611,0 | 3,31 % | – % | 17,5 % |
-| PostFinance | domestic_dsib | standalone | ARB_RVB | 104'836,0 | -2,20 % | – % | – % |
-| UBS | g_sib | consolidated | IFRS | 1'426'346,6 | 7,47 % | – % | – % |
+| Raiffeisen | domestic_dsib | consolidated | ARB_RVB | 305'611,0 | 3,31 % | 67,6 % | 19,3 % |
+| PostFinance | domestic_dsib | standalone | ARB_RVB | 104'836,0 | -3,57 % | 53,3 % | 33,7 % |
+| UBS | g_sib | consolidated | IFRS | 1'426'570,6 | 7,47 % | 15,6 % | 56,3 % |
 
 ![Ertragsmix 2025](./charts/02_ertragsmix_geschaeftsmodelle_2025.png)

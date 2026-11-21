@@ -118,6 +118,14 @@
       "source_quote": "|Reserven für allgemeine Bankrisiken|**379**|379|–|–|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 836.0,
+      "value_prior_year": 822.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Netto-Erfolg Zinsengeschäft**|**836**|**822**|**14**|**1,7**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "commission_income": {
       "value_current": 598.0,
       "value_prior_year": 530.0,
@@ -132,6 +140,14 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft**<br>**und der Fair-Value-Option**|**244**|**233**|**11**|**4,7**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 19.0,
+      "value_prior_year": 15.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Übriger ordentlicher Erfolg**|**19**|**15**|**4**|**23,6**|",
       "chunk_name": "erfolgsrechnung"
     },
     "personnel_expenses": {

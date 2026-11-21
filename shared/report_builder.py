@@ -235,9 +235,13 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
 - Digitalisierung und Skalierung steigern Bilanzsumme und Geschäftsvolumen pro Vollzeitstelle langfristig.
 """
 
-    # Bericht 05: Eigentümer-Wertschöpfung (4 Modi)
+    # Vorsorge-Metadaten laden (Phase V2/V3)
+    vorsorge_path = cfg.data_dir / f"{cfg.bank_id}_vorsorge.json"
+    vorsorge = json.loads(vorsorge_path.read_text(encoding="utf-8")) if vorsorge_path.exists() else {}
+
+    # Bericht 05: Eigentümer-Wertschöpfung (4 Modi) + Investoren-KPIs
     mode_titles = {
-        "listed_share": "Aktie, Dividenden & Wertschöpfung",
+        "listed_share": "Aktie, Dividenden & Investoren-Wertschöpfung",
         "cantonal_endowment": "Dotationskapital, Ausschüttung & Kanton",
         "cooperative_payout": "Genossenschaftskapital, Mitglieder & Ausschüttung",
         "post_dividend": "Dividendenablieferung an Post AG & Eigentümerwert",
@@ -255,21 +259,27 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
         ]
         for r in annual
     ]
+    inv_notes = []
+    if cfg.listed and last.get("share_price_eoy") and last.get("dividend_per_share"):
+        inv_notes.append(f"- **Aktuelle Ausschüttung ({y1}):** Kurs **{fmt_chf(last.get('share_price_eoy'))} CHF**, Dividende **{fmt_chf(last.get('dividend_per_share'))} CHF** (Rendite **{fmt_num(last.get('dividend_yield_pct'), 2)} %**).")
+    else:
+        inv_notes.append(f"- **Eigenkapitalrendite ({y1}):** ROE **{fmt_num(last.get('roe_pct'), 2)} %** bei einem Eigenkapital von **{fmt_num(last.get('shareholders_equity_mio'))} Mio. CHF**.")
     r05 = f"""# 05 · {r05_title} ({y0}–{y1}): {cfg.full_name}
 
 > **Eigentümer-Modus:** `{cfg.report_05_mode}` | **Staatsgarantie:** {'Ja' if cfg.state_guarantee else 'Keine'} | **Ticker:** `{cfg.ticker or 'nicht kotiert'}`
 
 ## 1. Management Summary
 - Im Geschäftsjahr {y1} erwirtschaftete {cfg.short_name} einen Gewinn von **{fmt_num(last.get('net_profit_mio'))} Mio. CHF** bei einem Eigenkapital von **{fmt_num(last.get('shareholders_equity_mio'))} Mio. CHF**.
-- Die Ausschüttungs- und Kapitalstruktur folgt dem spezifischen Governance-Modell (`{cfg.report_05_mode}`).
+{chr(10).join(inv_notes)}
 
 ## 2. Quantitative Entwicklung
 {_table(["Jahr", "Reingewinn (Mio.)", "Eigenkapital (Mio.)", "Aktienkurs (split-ber.)", "Dividende/Aktie", "Div.-Rendite", "Öff. Ablieferung (Mio.)"], r05_rows)}
 
 ![Eigentümer & Wertschöpfung](./charts/05_eigentuemer_wertschoepfung.png)
 
-## 3. Treiberanalyse & Wendepunkte
+## 3. Treiberanalyse & Wendepunkte (Investoren-Perspektive)
 - Bei kotierten Instituten mit Aktiensplits (z. B. BCV 1:10 im Jahr 2020) sind sämtliche historischen Kurs- und Dividendenreihen deterministisch split-bereinigt.
+- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 8 Institute eingeordnet.
 
 ## 4. Fazit & Ausblick
 - Stabile Ertragskraft sichert langfristig Dividendenkontinuität bzw. verlässliche Ablieferungen an Kanton, Post oder Genossenschafter.
@@ -305,7 +315,7 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
 - Die Halbjahresberichte ermöglichen ein zeitnahes Monitoring der Zinsmargen- und Kreditvolumen-Dynamik bis H1-2026.
 """
 
-    # Bericht 07: Strategische Epochen, Governance & Vergütung real
+    # Bericht 07: Strategische Epochen, Governance, reale Vergütung & Vorsorgeeinrichtung
     epoch_lines = "\n".join(f"- **{e['label']} ({e['start']}–{e['end']}):** {e['title']}" for e in cfg.epochs)
     r07_rows = [
         [
@@ -319,7 +329,22 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
         ]
         for r in verg
     ]
-    r07 = f"""# 07 · Strategische Epochen, Governance & reale Vergütung ({y0}–{y1}): {cfg.full_name}
+    last_verg = verg[-1] if verg else {}
+    pay_ratio = (
+        round(last_verg["ceo_total_tchf_real2025"] / last_verg["avg_per_fte_tchf_real2025"], 1)
+        if last_verg.get("ceo_total_tchf_real2025") and last_verg.get("avg_per_fte_tchf_real2025")
+        else None
+    )
+    pk_block = (
+        f"- **Vorsorgeeinrichtung:** {vorsorge.get('pk_name', '–')} (*{vorsorge.get('pk_plan_type', '–')}*, Basis: `{vorsorge.get('accounting_basis', '–')}`)\n"
+        f"- **Versichertenstruktur:** Aktive **{fmt_num(vorsorge.get('active_insured_count'), 0)}**, Rentner **{fmt_num(vorsorge.get('pensioners_count'), 0)}** (Verhältnis Aktive/Rentner: **{fmt_num(vorsorge.get('active_to_pensioner_ratio'), 2)}**)\n"
+        f"- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **{fmt_num(vorsorge.get('coverage_ratio_bvg_pct'), 1)} %**, Arbeitgeberbeitragsreserve **{fmt_num(vorsorge.get('employer_contribution_reserve_mio'), 1)} Mio. CHF**, Sondereinlagen **{fmt_num(vorsorge.get('extraordinary_contributions_mio'), 1)} Mio. CHF**\n"
+        f"- **CEO-zu-Mitarbeitenden-Pay-Ratio ({y1}):** **{fmt_num(pay_ratio, 1)}×** (CEO real 2025: {fmt_num(last_verg.get('ceo_total_tchf_real2025'), 1)} TCHF vs. Ø Personalaufwand/FTE: {fmt_num(last_verg.get('avg_per_fte_tchf_real2025'), 1)} TCHF)\n"
+        f"- **Quelle:** `{vorsorge.get('source_url_or_file', '–')}` — {vorsorge.get('notes', '')}"
+        if vorsorge
+        else "- Keine Vorsorgedaten hinterlegt."
+    )
+    r07 = f"""# 07 · Strategische Epochen, Governance, reale Vergütung & Vorsorge ({y0}–{y1}): {cfg.full_name}
 
 > **Preisbasis:** Sämtliche Realgrössen sind mit dem offiziellen **BFS Landesindex der Konsumentenpreise (LIK, Dez. 1982 = 100)** deterministisch auf **reale CHF 2025** deflationiert.
 
@@ -333,11 +358,12 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
 
 ![Gewinn, Löhne & Vergütung real](./charts/07_gewinn_loehne_verguetung_real.png)
 
-## 3. Treiberanalyse & Wendepunkte
-{_breaks_text(cfg)}
+## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
+{pk_block}
 
-## 4. Fazit & Ausblick
-- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen und Organvergütungen über zwei Jahrzehnte.
+## 4. Treiberanalyse, Strukturbrüche & Ausblick
+{_breaks_text(cfg)}
+- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen, Pay Ratio und Pensionskassen-Resilienz im Branchenvergleich (`comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md`).
 """
 
     reports_spec = [

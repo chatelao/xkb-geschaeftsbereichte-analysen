@@ -14,6 +14,22 @@
   },
   "backend": "local",
   "metrics": {
+    "cet1_ratio_pct": {
+      "value_current": 15.64,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|6|CET1-Quote (hartes Kernkapitel in Prozent der RWA)|15,64%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 16.92,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|8|Gesamtkapitalquote (in Prozent der RWA)|16,92%|",
+      "chunk_name": "km1_eigenmittel"
+    },
     "mortgage_loans": {
       "value_current": 176262.0,
       "value_prior_year": 172622.0,
@@ -44,6 +60,46 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Verpflichtungen aus Kundeneinlagen|165'563||164'085||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "kassenobligationen": {
+      "value_current": 698.0,
+      "value_prior_year": 836.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|698||836||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 26558.0,
+      "value_prior_year": 25939.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|26'558||25'939||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "reserves_banking_risks": {
+      "value_current": 80.0,
+      "value_prior_year": 80.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|80|(VI)|80|(VI)|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "net_profit": {
+      "value_current": 416.0,
+      "value_prior_year": 917.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Gruppengewinn|416|(VII)|917|(VII)|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "shareholders_equity": {
+      "value_current": 16164.0,
+      "value_prior_year": 15700.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total Eigenkapital (mit Minderheitsanteilen)|16'164||15'700||",
       "chunk_name": "km1_eigenmittel"
     }
   }

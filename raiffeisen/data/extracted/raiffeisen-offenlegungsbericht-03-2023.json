@@ -21,6 +21,62 @@
       "currency": "CHF",
       "source_quote": "|Tabelle 2: Ungewichtete Eigenmittelan forderungen<br>auf Basis der Leverage Ratio|8|",
       "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_capital": {
+      "value_current": 20729.0,
+      "value_prior_year": 20575.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|20’729|20’575|19’415|19’375|19’183|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 21550.0,
+      "value_prior_year": 21710.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|21’550|21’710|20’544|20’501|20’376|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 22708.0,
+      "value_prior_year": 22877.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|22’708|22’877|21’295|21’227|21’125|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 94226.0,
+      "value_prior_year": 92899.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|94’226|92’899|92’238|93’215|92’493|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 22.0,
+      "value_prior_year": 22.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote (%)|22,0%|22,1%|21,0%|20,8%|20,7%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 24.1,
+      "value_prior_year": 24.6,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote (%)|24,1%|24,6%|23,1%|22,8%|22,8%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 140.5,
+      "value_prior_year": 140.9,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|20|Finanzierungsquote, NSFR (in %)|140,5%|140,9%|141,4%|142,3%|143,8%|",
+      "chunk_name": "km1_eigenmittel"
     }
   }
 }

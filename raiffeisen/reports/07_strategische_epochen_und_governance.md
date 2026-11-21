@@ -1,4 +1,4 @@
-# 07 · Strategische Epochen, Governance & reale Vergütung (2011–2025): Raiffeisen Gruppe Schweiz
+# 07 · Strategische Epochen, Governance, reale Vergütung & Vorsorge (2011–2025): Raiffeisen Gruppe Schweiz
 
 > **Preisbasis:** Sämtliche Realgrössen sind mit dem offiziellen **BFS Landesindex der Konsumentenpreise (LIK, Dez. 1982 = 100)** deterministisch auf **reale CHF 2025** deflationiert.
 
@@ -26,14 +26,19 @@
 | 2022 | 1'069,0 | 1'104,8 | – | – | – | – |
 | 2023 | 1'391,0 | 1'407,6 | – | – | – | – |
 | 2024 | 1'391,0 | 1'392,6 | – | – | – | – |
-| 2025 | 1'208,0 | 1'208,0 | – | – | – | – |
+| 2025 | 1'208,0 | 1'208,0 | – | 1'950,0 | 1'780,0 | 8'900,0 |
 
 ![Gewinn, Löhne & Vergütung real](./charts/07_gewinn_loehne_verguetung_real.png)
 
-## 3. Treiberanalyse & Wendepunkte
+## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
+- **Vorsorgeeinrichtung:** Raiffeisen Pensionskasse Genossenschaft (+ Arbeitgeberstiftung) (*Beitragsprimat (umhüllend)*, Basis: `Swiss GAAP FER 16 / ARB`)
+- **Versichertenstruktur:** Aktive **–**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **179,1 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **–×** (CEO real 2025: 1'780,0 TCHF vs. Ø Personalaufwand/FTE: – TCHF)
+- **Quelle:** `raiffeisen/.md/raiffeisen-geschaeftsbericht-2025.md (Anhang Ziff. 12, S. 124)` — Arbeitgeberbeitragsreserve (AGBR) Ende 2025: 179,1 Mio. CHF (2024: 178,2 Mio. CHF); Verpflichtungen gegenüber eigenen Vorsorgeeinrichtungen: 302,2 Mio. CHF.
+
+## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2015:** Umstellung auf FINMA-RVB
 - **2018:** Governance-Reform & strategische Neuausrichtung
 - **2025:** Inkrafttreten Basel III final per 01.01.2025
-
-## 4. Fazit & Ausblick
-- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen und Organvergütungen über zwei Jahrzehnte.
+- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen, Pay Ratio und Pensionskassen-Resilienz im Branchenvergleich (`comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md`).

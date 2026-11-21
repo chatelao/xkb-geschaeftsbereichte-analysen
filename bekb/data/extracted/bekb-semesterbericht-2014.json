@@ -62,12 +62,36 @@
       "source_quote": "|Reserven für allgemeine Bankrisiken|647 119|630 227|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 154322.0,
+      "value_prior_year": 160291.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Zinsengeschäft**|**154 322**|**160 291**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 39311.0,
+      "value_prior_year": 39079.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions- und Dienstleistungsgeschäft**|**39 311**|**39 079**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 10267.0,
       "value_prior_year": 10885.0,
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft**|**10 267**|**10 885**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 21218.0,
+      "value_prior_year": 45840.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**21 218**|**45 840**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {

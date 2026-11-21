@@ -1,0 +1,14 @@
+{
+  "annual": {
+    "2025": {
+      "shareholders_equity": 3909.0,
+      "commission_income": 382.0,
+      "fte_count": 2083.0,
+      "share_price_eoy": 100.4,
+      "dividend_per_share": 4.4
+    }
+  },
+  "compensation": {
+    "2025": {"vr_total_tchf": 1380.0, "ceo_total_tchf": 1620.0, "gl_total_tchf": 7850.0, "notes": "BCV Rapport de gestion 2025 Rémunérations"}
+  }
+}

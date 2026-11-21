@@ -444,8 +444,8 @@
       "part": null,
       "chunks": {
         "km1_eigenmittel": {
-          "chars": 9344,
-          "approx_tokens": 2336
+          "chars": 9500,
+          "approx_tokens": 2375
         },
         "ov1_rwa": {
           "chars": 2828,
@@ -480,10 +480,6 @@
         "km1_eigenmittel": {
           "chars": 9500,
           "approx_tokens": 2375
-        },
-        "ov1_rwa": {
-          "chars": 3769,
-          "approx_tokens": 942
         }
       }
     },
@@ -497,10 +493,6 @@
         "km1_eigenmittel": {
           "chars": 9500,
           "approx_tokens": 2375
-        },
-        "ov1_rwa": {
-          "chars": 3902,
-          "approx_tokens": 975
         }
       }
     },
@@ -514,10 +506,6 @@
         "km1_eigenmittel": {
           "chars": 9500,
           "approx_tokens": 2375
-        },
-        "ov1_rwa": {
-          "chars": 3904,
-          "approx_tokens": 976
         }
       }
     },
@@ -531,10 +519,6 @@
         "km1_eigenmittel": {
           "chars": 9500,
           "approx_tokens": 2375
-        },
-        "ov1_rwa": {
-          "chars": 3838,
-          "approx_tokens": 959
         }
       }
     },
@@ -548,10 +532,6 @@
         "km1_eigenmittel": {
           "chars": 9500,
           "approx_tokens": 2375
-        },
-        "ov1_rwa": {
-          "chars": 4006,
-          "approx_tokens": 1001
         }
       }
     },
@@ -672,10 +652,6 @@
         "km1_eigenmittel": {
           "chars": 9500,
           "approx_tokens": 2375
-        },
-        "ov1_rwa": {
-          "chars": 3702,
-          "approx_tokens": 925
         }
       }
     },
@@ -829,8 +805,8 @@
       "part": null,
       "chunks": {
         "km1_eigenmittel": {
-          "chars": 9500,
-          "approx_tokens": 2375
+          "chars": 9351,
+          "approx_tokens": 2337
         },
         "ov1_rwa": {
           "chars": 3439,
@@ -848,10 +824,6 @@
         "km1_eigenmittel": {
           "chars": 9500,
           "approx_tokens": 2375
-        },
-        "ov1_rwa": {
-          "chars": 3507,
-          "approx_tokens": 876
         }
       }
     },
@@ -865,10 +837,6 @@
         "km1_eigenmittel": {
           "chars": 9500,
           "approx_tokens": 2375
-        },
-        "ov1_rwa": {
-          "chars": 3840,
-          "approx_tokens": 960
         }
       }
     },
@@ -882,10 +850,6 @@
         "km1_eigenmittel": {
           "chars": 9500,
           "approx_tokens": 2375
-        },
-        "ov1_rwa": {
-          "chars": 3570,
-          "approx_tokens": 892
         }
       }
     },
@@ -899,10 +863,6 @@
         "km1_eigenmittel": {
           "chars": 9500,
           "approx_tokens": 2375
-        },
-        "ov1_rwa": {
-          "chars": 3838,
-          "approx_tokens": 959
         }
       }
     },

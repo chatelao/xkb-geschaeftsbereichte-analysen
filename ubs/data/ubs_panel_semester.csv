@@ -1,5 +1,5 @@
-bank_id,year,period,report_type,report_file,currency_orig,total_operating_income_mio,total_operating_income_mio_orig,leverage_ratio_pct,total_assets_mio,total_assets_mio_orig,shareholders_equity_mio,shareholders_equity_mio_orig,assets_under_management_mio,assets_under_management_mio_orig,total_operating_expenses_mio,total_operating_expenses_mio_orig,net_profit_mio,net_profit_mio_orig,self_healed_fields
-ubs,2022,H1-2022,semester,.md/ubs-semesterbericht-2022.md,USD,8.513,8.917,3.4,1029.147,1113.193,52.553,56.845,3616.644,3912.0,6.01,6.295,2.013,2.108,
-ubs,2023,H1-2023,semester,.md/ubs-semesterbericht-2023.md,USD,8.573,9.54,2.8,922441965.2,1096318000.0,44824743.6,53274000.0,4652.942,5530.0,7.626,8.486,25.947,28.875,
-ubs,2024,H1-2024,semester,.md/ubs-semesterbericht-2024.md,USD,10.481,11.904,3.0,1414.556,1560.976,75.834,83.683,5322.113,5873.0,9.104,10.34,1.0,1.136,
-ubs,2025,H1-2025,semester,.md/ubs-semesterbericht-2025.md,USD,10.671,12.112,3.0,1472.932,1669.991,78.742,89.277,5837.076,6618.0,8.595,9.756,2.11,2.395,
+bank_id,year,period,report_type,report_file,currency_orig,total_assets_mio,total_assets_mio_orig,assets_under_management_mio,assets_under_management_mio_orig,net_profit_mio,net_profit_mio_orig,shareholders_equity_mio,shareholders_equity_mio_orig,total_operating_expenses_mio,total_operating_expenses_mio_orig,total_operating_income_mio,total_operating_income_mio_orig,cet1_ratio_pct,leverage_ratio_pct,self_healed_fields
+ubs,2022,H1-2022,semester,.md/ubs-semesterbericht-2022.md,USD,1029146.929,1113193.0,3616.644,3912.0,2012.508,2108.0,52553.202,56845.0,6009.837,6295.0,8513.06,8917.0,14.2,4.37,
+ubs,2023,H1-2023,semester,.md/ubs-semesterbericht-2023.md,USD,1412525.492,1678780.0,4652.942,5530.0,25947.075,28875.0,73200.959,86999.0,7625.52,8486.0,8572.644,9540.0,14.4,4.78,
+ubs,2024,H1-2024,semester,.md/ubs-semesterbericht-2024.md,USD,1414556.451,1560976.0,5322.113,5873.0,1000.248,1136.0,75833.535,83683.0,9104.37,10340.0,10481.472,11904.0,14.9,4.9,
+ubs,2025,H1-2025,semester,.md/ubs-semesterbericht-2025.md,USD,1472932.062,1669991.0,5837.076,6618.0,2109.995,2395.0,78742.314,89277.0,8595.036,9756.0,10670.672,12112.0,14.4,4.4,

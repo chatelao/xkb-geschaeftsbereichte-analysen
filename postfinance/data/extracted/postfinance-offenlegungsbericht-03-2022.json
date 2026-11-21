@@ -14,14 +14,6 @@
   },
   "backend": "local",
   "metrics": {
-    "leverage_ratio_pct": {
-      "value_current": 122628.0,
-      "value_prior_year": 122628.0,
-      "unit": "%",
-      "currency": "CHF",
-      "source_quote": "|Gesamtengagement (Nenner der Leverage Ratio, LRD)|122 628||122 628||",
-      "chunk_name": "km1_eigenmittel"
-    },
     "cet1_capital": {
       "value_current": 6094.0,
       "value_prior_year": 6094.0,
@@ -44,6 +36,14 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|3<br>Gesamtkapital total (T1 + T2)<sup>1</sup>|6 324|6 324|6 331|6 334|6 335|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 31550.0,
+      "value_prior_year": 30970.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|4<br>RWA|31 550|30 970|32 147|32 935|33 292|",
       "chunk_name": "km1_eigenmittel"
     },
     "cet1_ratio_pct": {

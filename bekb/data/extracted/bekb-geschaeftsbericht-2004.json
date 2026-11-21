@@ -94,12 +94,36 @@
       "source_quote": "|Finanzanlagen||2 599 554|2 816 582|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 268711.0,
+      "value_prior_year": 292835.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Zinsengeschäft**|**292 835**|**268 711**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 76826.0,
+      "value_prior_year": 66001.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions-**<br>**und Dienstleistungsgeschäft**|**66 001**|**76 826**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 19845.0,
       "value_prior_year": 21743.0,
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft**|**21 743**|**19 845**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 43366.0,
+      "value_prior_year": 37520.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**37 520**|**43 366**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {
@@ -156,14 +180,6 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Dividende je Namenaktie bzw. Partizipationsschein in CHF|0|",
-      "chunk_name": "aktie_basisdaten"
-    },
-    "fte_count": {
-      "value_current": 1653.0,
-      "value_prior_year": null,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Personalbestand (inkl. Lernende sowie Aushilfen)|1 653|",
       "chunk_name": "aktie_basisdaten"
     }
   }

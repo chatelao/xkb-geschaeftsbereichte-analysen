@@ -48,3 +48,7 @@ structural_breaks:
   - {year: 2015, label: "Übernahme Swisscanto & FINMA-RVB"}
   - {year: 2024, label: "AuM-Umklassierung Custody Services (-55 Mrd. CHF) & OECD-Mindeststeuer"}
   - {year: 2025, label: "Inkrafttreten Basel III final per 01.01.2025"}
+
+chunk_anchors:
+  km1_eigenmittel:
+    - "\\|5\\|CET1-Quote|\\|1\\|Hartes Kernkapital|\\|CET1-Quote"

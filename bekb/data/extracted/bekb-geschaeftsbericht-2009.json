@@ -94,12 +94,36 @@
       "source_quote": "|Finanzanlagen|2 990 623|3 541 329|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 348492.0,
+      "value_prior_year": 314661.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Zinsengeschäft**|**314 661**|**348 492**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 85395.0,
+      "value_prior_year": 93708.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions-**<br>**und Dienstleistungsgeschäft**|**93 708**|**85 395**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 25425.0,
       "value_prior_year": 37789.0,
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft**|**37 789**|**25 425**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 38440.0,
+      "value_prior_year": 25179.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|**25 179**|**38 440**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {

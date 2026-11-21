@@ -13,5 +13,14 @@
     "total_lines": 2577
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 3113.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|6|**= Fonds propres de base durs, avant ajustements**|**3'113**||",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

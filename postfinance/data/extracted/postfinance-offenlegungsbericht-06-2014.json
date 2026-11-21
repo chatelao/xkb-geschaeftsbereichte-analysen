@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "shareholders_equity": {
+      "value_current": 6829.0,
+      "value_prior_year": 6947.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total Eigenkapital**|**6 829**|**6 947**|",
+      "chunk_name": "km1_eigenmittel"
+    },
     "cet1_capital": {
       "value_current": 5007.0,
       "value_prior_year": 4882.0,

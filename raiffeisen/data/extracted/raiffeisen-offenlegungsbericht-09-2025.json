@@ -13,5 +13,62 @@
     "total_lines": 595
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 24307.0,
+      "value_prior_year": 24075.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|24 307|24 075|23 870|23 541|22 947|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 25232.0,
+      "value_prior_year": 25000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|25 232|25 000|24 795|24 466|23 872|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 26925.0,
+      "value_prior_year": 26729.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|26 925|26 729|26 543|26 222|25 856|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 100756.0,
+      "value_prior_year": 99339.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA<sup>2</sup>|100 756|99 339|97 949|103 463|102 203|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 24.1,
+      "value_prior_year": 24.2,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote|24,1%|24,2%|24,4%|22,8%|22,5%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 26.7,
+      "value_prior_year": 26.9,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote|26,7%|26,9%|27,1%|25,3%|25,3%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.8,
+      "value_prior_year": 7.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14b|Leverage Ratio ohne die Auswirkung einer vorübergehenden Ausnahme von Zentral-<br>bankguthaben|7,8%|7,8%|7,9%|7,9%|7,8%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

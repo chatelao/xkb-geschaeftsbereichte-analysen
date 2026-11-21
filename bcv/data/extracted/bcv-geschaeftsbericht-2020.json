@@ -102,6 +102,14 @@
       "source_quote": "|Résultat des opérations de commissions et<br>des prestations de service||310.2|322.9|–12.7|–4|",
       "chunk_name": "erfolgsrechnung"
     },
+    "other_ordinary_income": {
+      "value_current": 36.4,
+      "value_prior_year": 44.3,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Autres résultats ordinaires||36.4|44.3|–7.9|–18|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "total_operating_income": {
       "value_current": 945.2,
       "value_prior_year": 1002.0,

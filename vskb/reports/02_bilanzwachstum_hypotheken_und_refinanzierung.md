@@ -3,7 +3,7 @@
 ## 1. Management Summary
 - Die Bilanzsumme wuchs von **8'179,4 Mio. CHF** (2007) auf **22'042,2 Mio. CHF** (2025, CAGR **5,66 %**).
 - Die Hypothekarforderungen machen im Jahr 2025 **63,9 %** der Bilanzsumme aus.
-- Die Kundeneinlagen belaufen sich 2025 auf **12'880,0 Mio. CHF**, das Eigenkapital auf **– Mio. CHF** (Eigenkapitalquote **– %**).
+- Die Kundeneinlagen belaufen sich 2025 auf **12'880,0 Mio. CHF**, das Eigenkapital auf **1'693,0 Mio. CHF** (Eigenkapitalquote **7,68 %**).
 
 ![Bilanz Gestapelte Säulen](./charts/02_bilanz_gestapelte_saeulen_latest.png)
 
@@ -24,7 +24,7 @@
 | 2022 | 19'313,5 | 12'360,5 | 789,3 | 11'346,5 | – | 78,7 % |
 | 2023 | 20'109,1 | 12'682,9 | 1'422,2 | 11'605,6 | – | 78,1 % |
 | 2024 | 20'859,8 | 13'306,5 | 1'471,0 | 12'013,8 | – | 77,4 % |
-| 2025 | 22'042,2 | 14'073,5 | 1'796,8 | 12'880,0 | – | 79,3 % |
+| 2025 | 22'042,2 | 14'073,5 | 1'796,8 | 12'880,0 | 1'693,0 | 79,3 % |
 
 ![Bilanz Treemap](./charts/02_bilanz_treemap_latest.png)
 ![Bilanz Sankey](./charts/02_bilanz_sankey_latest.png)

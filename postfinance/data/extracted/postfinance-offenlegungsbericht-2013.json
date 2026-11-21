@@ -14,6 +14,22 @@
   },
   "backend": "local",
   "metrics": {
+    "net_profit": {
+      "value_current": 265.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn|265|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "shareholders_equity": {
+      "value_current": 6947.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**total Eigenkapital**|**6** **947**|",
+      "chunk_name": "km1_eigenmittel"
+    },
     "cet1_capital": {
       "value_current": 4882.0,
       "value_prior_year": null,

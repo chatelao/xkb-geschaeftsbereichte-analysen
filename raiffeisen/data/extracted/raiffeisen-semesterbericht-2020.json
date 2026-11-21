@@ -150,6 +150,14 @@
       "source_quote": "|Reserven für allgemeine Bankrisiken|275'000|200'000|75'000|37,5|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 1165057.0,
+      "value_prior_year": 1139989.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Netto-Erfolg Zinsengeschäft|1'165'057|1'139'989|25'068|2,2|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "commission_income": {
       "value_current": 231898.0,
       "value_prior_year": 208193.0,

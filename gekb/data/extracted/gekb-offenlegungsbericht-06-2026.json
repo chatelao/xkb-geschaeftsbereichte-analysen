@@ -13,5 +13,46 @@
     "total_lines": 459
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2402843.0,
+      "value_prior_year": 2309047.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|<br>Fonds propres de base durs (CET1)|2'402'843|2'309'047|2'258'989|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 15.5,
+      "value_prior_year": 15.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|**Ratios de fonds propres basés sur les risques (% des RWA)**<br>Ratio CET1 (%)|15.5%|15.8%|15.7%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.4,
+      "value_prior_year": 6.3,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14b|Ratio de levier (%), sans les répercussions d’une exception provisoire des avoirs de<br>banques centrales|6.4%|6.3%|6.3%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "lcr_pct": {
+      "value_current": 166.0,
+      "value_prior_year": 166.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|17|LCR (%)|166%|166%|158%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 138.0,
+      "value_prior_year": 138.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|20|NSFR (%)|138%|138%|134%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

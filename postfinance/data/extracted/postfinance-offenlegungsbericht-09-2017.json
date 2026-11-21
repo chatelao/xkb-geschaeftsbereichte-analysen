@@ -46,12 +46,20 @@
       "source_quote": "|Bilanzsumme|120 379|120 922|",
       "chunk_name": "km1_eigenmittel"
     },
+    "tier1_capital": {
+      "value_current": 5482.0,
+      "value_prior_year": 5632.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Kernkapital (Tier 1)**|**5 482**|**5 632**|",
+      "chunk_name": "km1_eigenmittel"
+    },
     "leverage_ratio_pct": {
-      "value_current": 120680.0,
-      "value_prior_year": 121005.0,
+      "value_current": 4.54,
+      "value_prior_year": 4.65,
       "unit": "%",
       "currency": "CHF",
-      "source_quote": "|**Gesamtengagement für Leverage Ratio**|**120 680**|**121 005**|",
+      "source_quote": "|**Leverage Ratio**|**4,54%**|**4,65%**|",
       "chunk_name": "km1_eigenmittel"
     }
   }

@@ -4,7 +4,7 @@
 
 ## 1. Management Summary
 - Im Geschäftsjahr 2025 erwirtschaftete Raiffeisen einen Gewinn von **1'208,0 Mio. CHF** bei einem Eigenkapital von **23'759,0 Mio. CHF**.
-- Die Ausschüttungs- und Kapitalstruktur folgt dem spezifischen Governance-Modell (`cooperative_payout`).
+- **Eigenkapitalrendite (2025):** ROE **5,08 %** bei einem Eigenkapital von **23'759,0 Mio. CHF**.
 
 ## 2. Quantitative Entwicklung
 | Jahr | Reingewinn (Mio.) | Eigenkapital (Mio.) | Aktienkurs (split-ber.) | Dividende/Aktie | Div.-Rendite | Öff. Ablieferung (Mio.) |
@@ -27,8 +27,9 @@
 
 ![Eigentümer & Wertschöpfung](./charts/05_eigentuemer_wertschoepfung.png)
 
-## 3. Treiberanalyse & Wendepunkte
+## 3. Treiberanalyse & Wendepunkte (Investoren-Perspektive)
 - Bei kotierten Instituten mit Aktiensplits (z. B. BCV 1:10 im Jahr 2020) sind sämtliche historischen Kurs- und Dividendenreihen deterministisch split-bereinigt.
+- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 8 Institute eingeordnet.
 
 ## 4. Fazit & Ausblick
 - Stabile Ertragskraft sichert langfristig Dividendenkontinuität bzw. verlässliche Ablieferungen an Kanton, Post oder Genossenschafter.

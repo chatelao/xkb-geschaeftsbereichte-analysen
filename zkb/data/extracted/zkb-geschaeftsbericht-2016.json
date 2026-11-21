@@ -14,12 +14,36 @@
   },
   "backend": "local",
   "metrics": {
+    "net_interest_income": {
+      "value_current": 1187.0,
+      "value_prior_year": 1162.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Netto-Erfolg Zinsengeschäft||1’187|1’162|2,2|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 728.0,
+      "value_prior_year": 668.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolg Kommissions- und Dienstleistungsgeschäft||728|668<sup>1</sup>|8,9|",
+      "chunk_name": "bilanz"
+    },
     "trading_income": {
       "value_current": 379.0,
       "value_prior_year": 328.0,
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Erfolg aus dem Handelsgeschäft und der Fair-Value-Option||379|328|15,8|",
+      "chunk_name": "bilanz"
+    },
+    "other_ordinary_income": {
+      "value_current": 31.0,
+      "value_prior_year": 47.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Übriger ordentlicher Erfolg||31|47<sup>1</sup>|–35,1|",
       "chunk_name": "bilanz"
     },
     "total_operating_income": {
@@ -140,14 +164,6 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Konzerngewinn|21|691|722|–32|–4,4|",
-      "chunk_name": "bilanz"
-    },
-    "shareholders_equity": {
-      "value_current": 2425.0,
-      "value_prior_year": 7290.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|**Total Eigenkapital per 31.12.2015**|2’425|7’290|722|–8|10’429|",
       "chunk_name": "bilanz"
     }
   }

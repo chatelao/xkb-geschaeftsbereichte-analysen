@@ -1,0 +1,30 @@
+{
+  "annual": {
+    "2025": {
+      "shareholders_equity": 2981.479,
+      "fte_count": 1058.0,
+      "share_price_eoy": 309.5,
+      "dividend_per_share": 10.8,
+      "commission_income": 125.975,
+      "contribution_public_mio": 94.3
+    },
+    "2024": {
+      "shareholders_equity": 2902.337,
+      "fte_count": 1009.0,
+      "share_price_eoy": 235.0,
+      "dividend_per_share": 10.4,
+      "contribution_public_mio": 98.1
+    },
+    "2020": {
+      "shareholders_equity": 2562.0,
+      "fte_count": 1018.0,
+      "share_price_eoy": 228.0,
+      "dividend_per_share": 8.8,
+      "contribution_public_mio": 65.2
+    }
+  },
+  "compensation": {
+    "2024": {"vr_total_tchf": 1471.0, "ceo_total_tchf": 992.0, "gl_total_tchf": 4301.0, "notes": "BEKB GB 2024 Vergütungsbericht"},
+    "2025": {"vr_total_tchf": 1452.0, "ceo_total_tchf": 998.0, "gl_total_tchf": 4685.0, "notes": "BEKB GB 2025 (GL 6.6 FTE)"}
+  }
+}

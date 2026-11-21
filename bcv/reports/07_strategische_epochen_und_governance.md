@@ -1,4 +1,4 @@
-# 07 · Strategische Epochen, Governance & reale Vergütung (2007–2025): Banque Cantonale Vaudoise
+# 07 · Strategische Epochen, Governance, reale Vergütung & Vorsorge (2007–2025): Banque Cantonale Vaudoise
 
 > **Preisbasis:** Sämtliche Realgrössen sind mit dem offiziellen **BFS Landesindex der Konsumentenpreise (LIK, Dez. 1982 = 100)** deterministisch auf **reale CHF 2025** deflationiert.
 
@@ -30,14 +30,19 @@
 | 2022 | 388,0 | 401,0 | – | – | – | – |
 | 2023 | 469,0 | 474,6 | – | – | – | – |
 | 2024 | 441,0 | 441,5 | – | – | – | – |
-| 2025 | 430,0 | 430,0 | – | – | – | – |
+| 2025 | 430,0 | 430,0 | 188,8 | 1'380,0 | 1'620,0 | 7'850,0 |
 
 ![Gewinn, Löhne & Vergütung real](./charts/07_gewinn_loehne_verguetung_real.png)
 
-## 3. Treiberanalyse & Wendepunkte
+## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
+- **Vorsorgeeinrichtung:** Caisse de pensions de la Banque Cantonale Vaudoise (*Beitragsprimat (umhüllend / enveloppante)*, Basis: `Swiss GAAP FER 16 / ARB`)
+- **Versichertenstruktur:** Aktive **2'210**, Rentner **1'479** (Verhältnis Aktive/Rentner: **1,49**)
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **8,6×** (CEO real 2025: 1'620,0 TCHF vs. Ø Personalaufwand/FTE: 188,8 TCHF)
+- **Quelle:** `bcv/.md/bcv-geschaeftsbericht-2024.md (Rapport social, S. 732-734)` — 2024: 2'210 aktive Versicherte (davon 1'964 Stammhaus) und 1'479 Rentner; umhüllender Vorsorgeplan.
+
+## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2015:** Umstellung auf FINMA-RVB
 - **2020:** Aktiensplit 1:10 (28.05.2020)
 - **2025:** Basel III final & IRB Output Floor
-
-## 4. Fazit & Ausblick
-- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen und Organvergütungen über zwei Jahrzehnte.
+- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen, Pay Ratio und Pensionskassen-Resilienz im Branchenvergleich (`comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md`).

@@ -4,7 +4,7 @@
 
 ## 1. Management Summary
 - Im Zeitraum **2003–2025** entwickelte sich der Geschäftsertrag von **0,3 Mio. CHF** auf **554,0 Mio. CHF** (CAGR **41,29 % p. a.**).
-- Der Reingewinn erreichte im jüngsten Geschäftsjahr 2025 **9,0 Mio. CHF** (nach 0,0 Mio. CHF im Jahr 2003).
+- Der Reingewinn erreichte im jüngsten Geschäftsjahr 2025 **221,0 Mio. CHF** (nach 0,0 Mio. CHF im Jahr 2003).
 - Der Netto-Zinserfolg trägt aktuell **55,4 %** zum Gesamtertrag bei, das Kommissionsgeschäft **28,0 %** und das Handelsgeschäft **7,9 %**.
 
 ![Erfolgsrechnung Wasserfall](./charts/01_erfolgsrechnung_wasserfall_latest.png)
@@ -33,8 +33,8 @@
 | 2021 | 227,9 | 136,0 | – | 439,2 | 174,3 | 125,2 | 51,9 % |
 | 2022 | 286,0 | 132,7 | – | 475,7 | 195,0 | 175,9 | 60,1 % |
 | 2023 | 0,4 | 0,1 | 0,0 | 0,6 | 281,7 | 231,2 | 66,1 % |
-| 2024 | 377,0 | 148,0 | 41,0 | 585,0 | 258,0 | 10,0 | 64,4 % |
-| 2025 | 307,0 | 155,0 | 44,0 | 554,0 | 233,0 | 9,0 | 55,4 % |
+| 2024 | 377,0 | 148,0 | 41,0 | 585,0 | 258,0 | 219,0 | 64,4 % |
+| 2025 | 307,0 | 155,0 | 44,0 | 554,0 | 233,0 | 221,0 | 55,4 % |
 
 ![Ertrag, Aufwand & Marge](./charts/01_ertrag_kosten_marge_kombi.png)
 

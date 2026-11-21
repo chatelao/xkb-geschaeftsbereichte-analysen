@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "other_ordinary_income": {
+      "value_current": 31.0,
+      "value_prior_year": 31.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Übriger ordentlicher Erfolg|31|31|0,6|",
+      "chunk_name": "bilanz"
+    },
     "total_operating_income": {
       "value_current": 2336.0,
       "value_prior_year": 2325.0,
@@ -87,11 +95,11 @@
       "chunk_name": "bilanz"
     },
     "fte_count": {
-      "value_current": 2017.0,
-      "value_prior_year": 2016.0,
+      "value_current": 5117.0,
+      "value_prior_year": 5173.0,
       "unit": "Mio. CHF",
       "currency": "CHF",
-      "source_quote": "|Personalbestand / Geschäftsstellen<br>Anzahl|2017|2016|Veränderung<br>in %|",
+      "source_quote": "|Personalbestand teilzeitbereinigtper Stichtag|5’117|5’173|– 1,1|",
       "chunk_name": "bilanz"
     },
     "branch_count": {

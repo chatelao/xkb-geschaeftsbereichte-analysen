@@ -1,4 +1,4 @@
-# 07 · Strategische Epochen, Governance & reale Vergütung (2003–2025): Banque Cantonale de Genève
+# 07 · Strategische Epochen, Governance, reale Vergütung & Vorsorge (2003–2025): Banque Cantonale de Genève
 
 > **Preisbasis:** Sämtliche Realgrössen sind mit dem offiziellen **BFS Landesindex der Konsumentenpreise (LIK, Dez. 1982 = 100)** deterministisch auf **reale CHF 2025** deflationiert.
 
@@ -33,15 +33,20 @@
 | 2021 | 125,2 | 133,1 | – | – | – | – |
 | 2022 | 175,9 | 181,8 | – | – | – | – |
 | 2023 | 231,2 | 234,0 | – | – | – | – |
-| 2024 | 10,0 | 10,0 | – | – | – | – |
-| 2025 | 9,0 | 9,0 | – | – | – | – |
+| 2024 | 219,0 | 219,3 | – | – | – | – |
+| 2025 | 221,0 | 221,0 | – | 1'280,0 | 1'450,0 | 5'477,1 |
 
 ![Gewinn, Löhne & Vergütung real](./charts/07_gewinn_loehne_verguetung_real.png)
 
-## 3. Treiberanalyse & Wendepunkte
+## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
+- **Vorsorgeeinrichtung:** Fondation de prévoyance professionnelle de la BCGE (*Beitragsprimat (umhüllend)*, Basis: `Swiss GAAP FER 16 / ARB`)
+- **Versichertenstruktur:** Aktive **–**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **–×** (CEO real 2025: 1'450,0 TCHF vs. Ø Personalaufwand/FTE: – TCHF)
+- **Quelle:** `gekb/.md/gekb-geschaeftsbericht-2024.md; gekb/.md/gekb-geschaeftsbericht-2025.md` — Haupt-Vorsorgeeinrichtung der BCGE-Gruppe, deckt alle Mitarbeitenden des Stammhauses ab.
+
+## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2008:** Abwicklung Fondation de valorisation
 - **2015:** Umstellung auf FINMA-RVB
 - **2025:** Inkrafttreten Basel III final per 01.01.2025
-
-## 4. Fazit & Ausblick
-- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen und Organvergütungen über zwei Jahrzehnte.
+- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen, Pay Ratio und Pensionskassen-Resilienz im Branchenvergleich (`comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md`).

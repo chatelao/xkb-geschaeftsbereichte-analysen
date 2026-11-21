@@ -13,5 +13,62 @@
     "total_lines": 1395
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 14640.0,
+      "value_prior_year": 14482.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital(CET1)|**14’640**|14’482|13’725|13’739|13’738|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 15701.0,
+      "value_prior_year": 15546.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital(T1)|**15’701**|15’546|14’789|14’803|14’795|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 16276.0,
+      "value_prior_year": 16095.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total<sup>1</sup>|**16’276**|16’095|15’332|15’350|15’445|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 72390.0,
+      "value_prior_year": 86443.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|**72’390**|86’443|82’521|82’023|83’300|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 20.2,
+      "value_prior_year": 16.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote<sup>1</sup>|**20,2 %**|16,8 %|16,6 %|16,8 %|16,5 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 22.5,
+      "value_prior_year": 18.6,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote<sup>1</sup>|**22,5 %**|18,6 %|18,6 %|18,7 %|18,5 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.9,
+      "value_prior_year": 6.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14b|Leverage Ratio, ohne die Auswirkung einer vorübergehenden Ausnahme<br>von Zentralbankguthaben|**6,9 %**|6,8 %|6,5 %|6,6 %|6,4 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

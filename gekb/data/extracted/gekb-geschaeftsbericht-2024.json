@@ -127,11 +127,35 @@
       "chunk_name": "erfolgsrechnung"
     },
     "net_profit": {
-      "value_current": 9.6,
-      "value_prior_year": 10.9,
+      "value_current": 30.0,
+      "value_prior_year": 32.0,
       "unit": null,
       "currency": "CHF",
-      "source_quote": "|Bénéfice net sur fondspropres(ROE)|9.6|10.9|9.1|7.0|6.2|",
+      "source_quote": "|Résultat net|30|32|24|17|15|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "rwa_total": {
+      "value_current": 15045351.0,
+      "value_prior_year": 14044154.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA<sup>3</sup>|15’045’351|14’044’154|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 15.0,
+      "value_prior_year": 15.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|Ratio CET1<sup>1</sup>|15.0%|15.1%|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.1,
+      "value_prior_year": 7.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14|Ratio de levier Bâle III(fondspropres de base en % de l’engagementglobal)|7.1%|7.1%|",
       "chunk_name": "erfolgsrechnung"
     }
   }

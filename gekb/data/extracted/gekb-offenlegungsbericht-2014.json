@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "total_capital": {
+      "value_current": 1469921.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|<br>**Total des fonds propres**|1'469'921|",
+      "chunk_name": "km1_eigenmittel"
+    },
     "cet1_capital": {
       "value_current": 1227914.0,
       "value_prior_year": null,

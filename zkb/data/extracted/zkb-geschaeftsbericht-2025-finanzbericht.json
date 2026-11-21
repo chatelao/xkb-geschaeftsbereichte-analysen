@@ -62,13 +62,13 @@
       "source_quote": "|Konzerngewinn|21|**1’241**|1’120|121|10,8|",
       "chunk_name": "bilanz"
     },
-    "shareholders_equity": {
-      "value_current": 2425.0,
-      "value_prior_year": 10241.0,
+    "net_interest_income": {
+      "value_current": 1679.0,
+      "value_prior_year": 1680.0,
       "unit": "Mio. CHF",
       "currency": "CHF",
-      "source_quote": "|Total Eigenkapitalper 31.12.2023|2’425|10’241|379|1’238|– 16|14’268|",
-      "chunk_name": "bilanz"
+      "source_quote": "|**Subtotal Netto-Erfolg Zinsengeschäft**|**1’679**|**1’680**|**– 1**|**– 0,1**|",
+      "chunk_name": "erfolgsrechnung"
     },
     "commission_income": {
       "value_current": 1082.0,
@@ -76,6 +76,14 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|**Subtotal Erfolg aus dem Kommissions-**<br>**und Dienstleistungsgeschäft**|**1’082**|**1’024**|**58**|**5,7**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 25.0,
+      "value_prior_year": 32.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Übriger ordentlicher Erfolg**|**25**|**32**|**– 7**|**– 20,5**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {
@@ -118,10 +126,18 @@
       "source_quote": "|**Geschäftserfolg**|**1’354**|**1’277**|**77**|**6,0**|",
       "chunk_name": "erfolgsrechnung"
     },
+    "customer_deposits": {
+      "value_current": 114324.0,
+      "value_prior_year": 106980.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen||114’324|106’980|101’452|103’351|96’777|",
+      "chunk_name": "mehrjahresvergleich"
+    },
     "fte_count": {
       "value_current": 5809.0,
       "value_prior_year": 5779.0,
-      "unit": "Mio. CHF",
+      "unit": null,
       "currency": "CHF",
       "source_quote": "|Personalbestand teilzeitbereinigtper Stichtag||5’809|5’779|5’539|5’249|5’145|",
       "chunk_name": "mehrjahresvergleich"
@@ -129,7 +145,7 @@
     "branch_count": {
       "value_current": 51.0,
       "value_prior_year": 53.0,
-      "unit": "Mio. CHF",
+      "unit": null,
       "currency": "CHF",
       "source_quote": "|Geschäftsstellen||51|53<sup>6</sup>|53<sup>6</sup>|53<sup>6</sup>|57<sup>6</sup>|",
       "chunk_name": "mehrjahresvergleich"

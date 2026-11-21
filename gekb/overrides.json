@@ -1,0 +1,25 @@
+{
+  "annual": {
+    "2025": {
+      "net_profit": 221.0,
+      "net_interest_income": 307.0,
+      "commission_income": 155.0,
+      "trading_income": 44.0,
+      "fte_count": 958.4,
+      "share_price_eoy": 24.6,
+      "dividend_per_share": 0.7
+    },
+    "2024": {
+      "net_profit": 219.0,
+      "fte_count": 968.2,
+      "share_price_eoy": 25.5,
+      "dividend_per_share": 0.65
+    },
+    "2007": {
+      "shareholders_equity": 920.0
+    }
+  },
+  "compensation": {
+    "2025": {"vr_total_tchf": 1280.0, "ceo_total_tchf": 1450.0, "gl_total_tchf": 5477.1, "notes": "BCGE Rapport de gestion 2025 (Direction générale 5'477 TCHF)"}
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "annual": {
+    "2025": {
+      "shareholders_equity": 15727.0,
+      "commission_income": 1083.0,
+      "fte_count": 5809.0,
+      "contribution_public_mio": 530.0
+    },
+    "2024": {
+      "shareholders_equity": 14862.0
+    },
+    "2023": {
+      "shareholders_equity": 14268.0
+    }
+  },
+  "compensation": {
+    "2025": {"vr_total_tchf": 2480.0, "ceo_total_tchf": 2826.2, "gl_total_tchf": 16500.0, "notes": "ZKB Vergütungsbericht 2025 (Höchste Vergütung 2'826'207 CHF)"}
+  }
+}

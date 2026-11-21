@@ -17,7 +17,7 @@
     "total_operating_income": {
       "value_current": 34563.0,
       "value_prior_year": 35393.0,
-      "unit": null,
+      "unit": "Mio. USD",
       "currency": "USD",
       "source_quote": "|Total revenues|**34,563**|35,393|33,084|",
       "chunk_name": "bilanz"
@@ -25,7 +25,7 @@
     "total_operating_expenses": {
       "value_current": 24930.0,
       "value_prior_year": 26058.0,
-      "unit": null,
+      "unit": "Mio. USD",
       "currency": "USD",
       "source_quote": "|Operatingexpenses|**24,930**|26,058|24,235|",
       "chunk_name": "bilanz"
@@ -33,23 +33,15 @@
     "net_profit": {
       "value_current": 7630.0,
       "value_prior_year": 7457.0,
-      "unit": null,
+      "unit": "Mio. USD",
       "currency": "USD",
       "source_quote": "|Netprofit /(loss)attributable to shareholders|**7,630**|7,457|6,557|",
-      "chunk_name": "bilanz"
-    },
-    "leverage_ratio_pct": {
-      "value_current": 3.3,
-      "value_prior_year": 3.4,
-      "unit": "%",
-      "currency": "USD",
-      "source_quote": "|Return on leverage ratio denominator, gross(%)<sup>3</sup>|**3.3**|3.4|3.4|",
       "chunk_name": "bilanz"
     },
     "total_assets": {
       "value_current": 1104364.0,
       "value_prior_year": 1117182.0,
-      "unit": null,
+      "unit": "Mio. USD",
       "currency": "USD",
       "source_quote": "|Total assets|**1,104,364**|1,117,182|1,125,765|",
       "chunk_name": "bilanz"
@@ -57,15 +49,31 @@
     "shareholders_equity": {
       "value_current": 56876.0,
       "value_prior_year": 60662.0,
-      "unit": null,
+      "unit": "Mio. USD",
       "currency": "USD",
       "source_quote": "|Equityattributable to shareholders|**56,876**|60,662|59,445|",
+      "chunk_name": "bilanz"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 14.2,
+      "value_prior_year": 15.0,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|Common equitytier 1 capital ratio(%)<sup>4</sup>|**14.2**|15.0|13.8|",
+      "chunk_name": "bilanz"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 4.42,
+      "value_prior_year": 4.24,
+      "unit": "%",
+      "currency": "USD",
+      "source_quote": "|Common equitytier 1 leverage ratio(%)<sup>3,4</sup>|**4.42**|4.24|3.85|",
       "chunk_name": "bilanz"
     },
     "assets_under_management": {
       "value_current": 3957.0,
       "value_prior_year": 4596.0,
-      "unit": null,
+      "unit": "Mio. USD",
       "currency": "USD",
       "source_quote": "|Invested assets(USD bn)<sup>7</sup>|**3,957**|4,596|4,187|",
       "chunk_name": "bilanz"

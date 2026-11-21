@@ -13,5 +13,14 @@
     "total_lines": 153
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "tier1_capital": {
+      "value_current": 4999.0,
+      "value_prior_year": 19.87,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|11|Kernkapital (Tier 1) und wie AT1-Wandlungskapital mit hohem Trigger<br>anrechenbares Wandlungskapital<sup>3</sup>|4 999|19,87%|4 675|18,59%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

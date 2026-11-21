@@ -14,12 +14,36 @@
   },
   "backend": "local",
   "metrics": {
+    "net_interest_income": {
+      "value_current": 1070.0,
+      "value_prior_year": 1117.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolg Zinsengeschäft||1’070|1’117|1’154|– 4,2|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 531.0,
+      "value_prior_year": 551.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolg Kommissions- und Dienstleistungsgeschäft||531|551|536|–3,5|",
+      "chunk_name": "bilanz"
+    },
     "trading_income": {
       "value_current": 287.0,
       "value_prior_year": 340.0,
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Erfolg aus dem Handelsgeschäft||287|340|379|–15,7|",
+      "chunk_name": "bilanz"
+    },
+    "other_ordinary_income": {
+      "value_current": 47.0,
+      "value_prior_year": 109.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Übriger ordentlicher Erfolg||47|109|54|–57,1|",
       "chunk_name": "bilanz"
     },
     "total_operating_expenses": {
@@ -118,13 +142,29 @@
       "source_quote": "|Kassenobligationen<br>3.8.1|381|460|–79|–17,2|",
       "chunk_name": "bilanz"
     },
+    "personnel_expenses": {
+      "value_current": 816.0,
+      "value_prior_year": 851.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|5.2|816|851|1’020|–4,1|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": 384.0,
+      "value_prior_year": 390.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|5.3|384|390|396|–1,6|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "taxes": {
       "value_current": 0.0,
       "value_prior_year": 0.0,
       "unit": "Mio. CHF",
       "currency": "CHF",
-      "source_quote": "|Steuern|0|0|–0|–0|–2|1|1|1|",
-      "chunk_name": "mehrjahresvergleich"
+      "source_quote": "|Steuern|5.5|0|0|–0|–|",
+      "chunk_name": "erfolgsrechnung"
     }
   }
 }

@@ -20,7 +20,7 @@
       "unit": "%",
       "currency": "CHF",
       "source_quote": "|Leverage Ratio(goingconcern) <sup>2</sup>||**7,1**|6,8||",
-      "chunk_name": "mehrjahresvergleich"
+      "chunk_name": "bilanz"
     },
     "total_operating_income": {
       "value_current": 3213.0,
@@ -28,7 +28,7 @@
       "unit": null,
       "currency": "CHF",
       "source_quote": "|Geschäftsertrag||**3’213**|3’088|4,0|",
-      "chunk_name": "mehrjahresvergleich"
+      "chunk_name": "bilanz"
     },
     "operating_profit": {
       "value_current": 1354.0,
@@ -36,7 +36,7 @@
       "unit": null,
       "currency": "CHF",
       "source_quote": "|Geschäftserfolg||**1’354**|1’277|6,0|",
-      "chunk_name": "mehrjahresvergleich"
+      "chunk_name": "bilanz"
     },
     "net_profit": {
       "value_current": 1241.0,
@@ -44,7 +44,7 @@
       "unit": null,
       "currency": "CHF",
       "source_quote": "|Konzerngewinn||**1’241**|1’120|10,8|",
-      "chunk_name": "mehrjahresvergleich"
+      "chunk_name": "bilanz"
     },
     "total_assets": {
       "value_current": 206177.0,
@@ -52,7 +52,7 @@
       "unit": null,
       "currency": "CHF",
       "source_quote": "|Bilanzsumme||**206’177**|202’594|1,8|",
-      "chunk_name": "mehrjahresvergleich"
+      "chunk_name": "bilanz"
     },
     "mortgage_loans": {
       "value_current": 111174.0,
@@ -60,7 +60,7 @@
       "unit": null,
       "currency": "CHF",
       "source_quote": "|Hypothekarforderungen||**111’174**|106’600|4,3|",
-      "chunk_name": "mehrjahresvergleich"
+      "chunk_name": "bilanz"
     },
     "customer_deposits": {
       "value_current": 114324.0,
@@ -68,7 +68,7 @@
       "unit": null,
       "currency": "CHF",
       "source_quote": "|Verpflichtungen aus Kundeneinlagen||**114’324**|106’980|6,9|",
-      "chunk_name": "mehrjahresvergleich"
+      "chunk_name": "bilanz"
     },
     "fte_count": {
       "value_current": 5809.0,
@@ -76,7 +76,7 @@
       "unit": null,
       "currency": "CHF",
       "source_quote": "|Personalbestand teilzeitbereinigtper Stichtag|Anzahl|**5’809**|5’779|0,5|",
-      "chunk_name": "mehrjahresvergleich"
+      "chunk_name": "bilanz"
     },
     "branch_count": {
       "value_current": 51.0,
@@ -84,7 +84,7 @@
       "unit": null,
       "currency": "CHF",
       "source_quote": "|Geschäftsstellen|Anzahl|**51**|53|– 3,8<sup>6</sup>|",
-      "chunk_name": "mehrjahresvergleich"
+      "chunk_name": "bilanz"
     }
   }
 }

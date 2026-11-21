@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "other_ordinary_income": {
+      "value_current": 46.0,
+      "value_prior_year": 31.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Übriger ordentlicher Erfolg|46|31|49,2|",
+      "chunk_name": "bilanz"
+    },
     "total_operating_income": {
       "value_current": 2320.0,
       "value_prior_year": 2336.0,

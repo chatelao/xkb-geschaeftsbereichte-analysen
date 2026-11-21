@@ -46,6 +46,14 @@
       "source_quote": "|3<br>Gesamtkapital total (T1 + T2)<sup>1</sup>|6 334|6 335|6 342|6 331|6 331|",
       "chunk_name": "km1_eigenmittel"
     },
+    "rwa_total": {
+      "value_current": 32935.0,
+      "value_prior_year": 33292.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4<br>RWA|32 935|33 292|33 044|33 405|33 759|",
+      "chunk_name": "km1_eigenmittel"
+    },
     "cet1_ratio_pct": {
       "value_current": 18.5,
       "value_prior_year": 18.3,
@@ -59,7 +67,7 @@
       "value_prior_year": 19.03,
       "unit": "%",
       "currency": "CHF",
-      "source_quote": "|7<br>Gesamtkapitalquote|19,23%|19,03%|19,19",
+      "source_quote": "|7<br>Gesamtkapitalquote|19,23%|19,03%|19,19%|18,95%|18,75%|",
       "chunk_name": "km1_eigenmittel"
     }
   }

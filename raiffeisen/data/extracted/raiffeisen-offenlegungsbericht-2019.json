@@ -13,5 +13,46 @@
     "total_lines": 2657
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 16868.0,
+      "value_prior_year": 16063.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|16'868|16'063|16'548|16'479|16'408|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 17836.0,
+      "value_prior_year": 17019.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|17'836|17'019|17'513|17'447|17'381|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 98295.0,
+      "value_prior_year": 97333.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|4|RWA|98'295|97'333|102'032|102'003|99'307|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 17.2,
+      "value_prior_year": 16.5,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote (%)|17,2%|16,5%|16,2%|16,2%|16,5%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 18.3,
+      "value_prior_year": 17.7,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote (%)|18,3%|17,7%|17,4%|17,3%|17,8%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

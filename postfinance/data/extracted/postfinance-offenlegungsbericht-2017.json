@@ -14,12 +14,12 @@
   },
   "backend": "local",
   "metrics": {
-    "leverage_ratio_pct": {
-      "value_current": 35.0,
+    "cet1_ratio_pct": {
+      "value_current": 17.11,
       "value_prior_year": null,
       "unit": "%",
       "currency": "CHF",
-      "source_quote": "|Leverage Ratio|35|",
+      "source_quote": "|61|CET1-Quote (Ziffer 29, in % der risikogewichteten Positionen)|17,11%||",
       "chunk_name": "km1_eigenmittel"
     }
   }

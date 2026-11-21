@@ -13,5 +13,30 @@
     "total_lines": 2146
   },
   "backend": "local",
-  "metrics": {}
+  "metrics": {
+    "cet1_ratio_pct": {
+      "value_current": 24.2,
+      "value_prior_year": 24.4,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote|24,2%|24,4%|22,8%|22,5%|22,8%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 26.9,
+      "value_prior_year": 27.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote|26,9%|27,1%|25,3%|25,3%|25,3%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 7.8,
+      "value_prior_year": 7.9,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|14b|Leverage Ratio ohne die Auswirkung einer vorübergehenden Ausnahme von Zentral-<br>bankguthaben|7,8%|7,9%|7,9%|7,8%|7,8%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
 }

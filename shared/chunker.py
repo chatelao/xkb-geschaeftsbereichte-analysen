@@ -123,10 +123,10 @@ def detect_report_meta(filename: str, file_prefix: str | None = None) -> dict:
 
 
 def is_toc_region(lines: list[str], idx: int) -> bool:
-    window = "\n".join(lines[max(0, idx - 8) : min(len(lines), idx + 4)])
+    window = "\n".join(lines[max(0, idx - 15) : min(len(lines), idx + 4)])
     return bool(
         re.search(
-            r"Tabellenbezeichnung|Übersicht der Tabellen|Inhaltsverzeichnis|Table of contents|Sommaire",
+            r"Tabellenbezeichnung|Publikationsh[äa]ufigkeit|Nicht verwendete Tabellen|Glossar|Begriff\s*/\s*Abk[üu]rzung|[ÜU]bersicht der Tabellen|Inhaltsverzeichnis|Table of contents|Sommaire",
             window,
             re.IGNORECASE,
         )

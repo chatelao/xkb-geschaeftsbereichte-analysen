@@ -1,0 +1,18 @@
+{
+  "annual": {
+    "2025": {
+      "shareholders_equity": 6608.0,
+      "net_interest_income": 640.0,
+      "commission_income": 404.0,
+      "fte_count": 3527.0,
+      "contribution_public_mio": 70.0
+    },
+    "2024": {
+      "commission_income": 343.0,
+      "fte_count": 3464.0
+    }
+  },
+  "compensation": {
+    "2025": {"vr_total_tchf": 820.0, "ceo_total_tchf": 890.0, "gl_total_tchf": 4650.0, "notes": "PostFinance GB 2025 Kaderlöhne / Organvergütungen"}
+  }
+}

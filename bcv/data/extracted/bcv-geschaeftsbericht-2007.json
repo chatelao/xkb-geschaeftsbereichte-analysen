@@ -78,6 +78,14 @@
       "source_quote": "|**Fonds propres**||**3 225.1**|**3 418.6**|**–193.5**<br>**–6**|",
       "chunk_name": "bilanz"
     },
+    "taxes": {
+      "value_current": 9.4,
+      "value_prior_year": 70.3,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Impôts indirects|9.4|70.3|40.6|57.9|",
+      "chunk_name": "bilanz"
+    },
     "net_interest_income": {
       "value_current": 505.0,
       "value_prior_year": 480.7,
@@ -100,6 +108,14 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|**Résultat des opérations de négoce**<sup>2)</sup>|13.5|**73.5**|**94.4**|**–20.9**|**–22**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 124.2,
+      "value_prior_year": 159.3,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Autres résultats ordinaires**||**124.2**|**159.3**|**–35.1**|**–22**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {
@@ -140,14 +156,6 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|**Bénéfice brut**||**529.0**|**536.1**|**–7.1**|**–1**|",
-      "chunk_name": "erfolgsrechnung"
-    },
-    "taxes": {
-      "value_current": -98.5,
-      "value_prior_year": -23.3,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Impôts||–98.5|–23.3|75.2|323|",
       "chunk_name": "erfolgsrechnung"
     },
     "customer_deposits": {

@@ -62,14 +62,6 @@
       "source_quote": "|Jahresgewinn nach Steuern|85,0|92,2|**103,8**<br>5|",
       "chunk_name": "bilanz"
     },
-    "fte_count": {
-      "value_current": 1457.0,
-      "value_prior_year": 1456.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Personalbestand(inklusive Lernende und Aushilfen)|1441|1456|**1457**|",
-      "chunk_name": "bilanz"
-    },
     "mortgage_loans": {
       "value_current": 13648988.0,
       "value_prior_year": 13219213.0,
@@ -86,12 +78,36 @@
       "source_quote": "|Finanzanlagen|2 260 868|**1 978 487**|Reserven für allgemeine Bankrisiken|535 963|**559 701**|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 298258.0,
+      "value_prior_year": 278780.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Zinsengeschäft**|278 780|**298 258**|**Bruttogewinn**|||",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 104899.0,
+      "value_prior_year": 98086.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal Erfolg Kommissions- und Dienstleistungsgeschäft**|98 086|**104 899**|**Zwischenergebnis**|181 095|**196 112**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 27634.0,
       "value_prior_year": 22632.0,
       "unit": null,
       "currency": "CHF",
       "source_quote": "|**Erfolg aus dem Handelsgeschäft**|22 632|**27 634**|Ausserordentlicher Ertrag|74 981|196 518|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 36405.0,
+      "value_prior_year": 48413.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Subtotal übriger ordentlicher Erfolg**|48 413|**36 405**|**Jahresgewinn vor Steuern exkl.**|||",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {

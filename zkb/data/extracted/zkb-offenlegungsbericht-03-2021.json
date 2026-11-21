@@ -13,30 +13,5 @@
     "total_lines": 649
   },
   "backend": "local",
-  "metrics": {
-    "cet1_capital": {
-      "value_current": 11652.0,
-      "value_prior_year": 11903.0,
-      "unit": null,
-      "currency": "CHF",
-      "source_quote": "|1<br>Hartes Kernkapital (CET1)<br>|11'652|11'903|11'486|11'480|11'474|",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "tier1_capital": {
-      "value_current": 12709.0,
-      "value_prior_year": 12968.0,
-      "unit": null,
-      "currency": "CHF",
-      "source_quote": "|2<br>Kernkapital (T1)|12'709|12'968|12'236|12'230|12'224|",
-      "chunk_name": "km1_eigenmittel"
-    },
-    "total_capital": {
-      "value_current": 13529.0,
-      "value_prior_year": 13508.0,
-      "unit": null,
-      "currency": "CHF",
-      "source_quote": "|3<br>Gesamtkapital total|13'529|13'508|12'774|12'761|12'927|",
-      "chunk_name": "km1_eigenmittel"
-    }
-  }
+  "metrics": {}
 }

@@ -14,20 +14,60 @@
   },
   "backend": "local",
   "metrics": {
-    "leverage_ratio_pct": {
-      "value_current": 27.0,
-      "value_prior_year": null,
+    "cet1_capital": {
+      "value_current": 19109.0,
+      "value_prior_year": 18053.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|19’109|18’053|18’018|17’961|17’883|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 20323.0,
+      "value_prior_year": 19263.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|20’323|19’263|19’197|19’045|18’776|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 21142.0,
+      "value_prior_year": 20053.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|21’142|20’053|19’840|19’710|19’151|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 91187.0,
+      "value_prior_year": 91034.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|91’187|91’034|96’387|95’330|93’545|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 21.0,
+      "value_prior_year": 19.8,
       "unit": "%",
       "currency": "CHF",
-      "source_quote": "|**Leverage Ratio**<br>|27|",
+      "source_quote": "|5|CET1­Quote (%)|21,0%|19,8%|18,7%|18,8%|19,1%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 23.2,
+      "value_prior_year": 22.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote (%)|23,2%|22,0%|20,6%|20,7%|20,5%|",
       "chunk_name": "km1_eigenmittel"
     },
     "nsfr_pct": {
-      "value_current": 36.0,
-      "value_prior_year": null,
+      "value_current": 144.9,
+      "value_prior_year": 146.5,
       "unit": "%",
       "currency": "CHF",
-      "source_quote": "|LIQ2 Informationen zur Finanzierungsquote (NSFR)<br>|36|",
+      "source_quote": "|20|Finanzierungsquote, NSFR (in %)|144,9%|146,5%|n/a|n/a|n/a|",
       "chunk_name": "km1_eigenmittel"
     }
   }

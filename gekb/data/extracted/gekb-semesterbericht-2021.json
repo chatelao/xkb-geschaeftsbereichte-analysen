@@ -78,6 +78,30 @@
       "source_quote": "|Engagements résultant des dépôts de la clientèle|17'536'471|16'883'771|652'700|3.9|",
       "chunk_name": "bilanz"
     },
+    "kassenobligationen": {
+      "value_current": 863.0,
+      "value_prior_year": 1100.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|863|1'100|-237|-21.5|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 4495155.0,
+      "value_prior_year": 4491155.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Emprunts et prêts des centrales d'émission des lettres de gage|4'495'155|4'491'155|4'000|0.1|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 230000.0,
+      "value_prior_year": 230000.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Réserves pour risques bancaires généraux|230'000|230'000|-|-|",
+      "chunk_name": "bilanz"
+    },
     "net_interest_income": {
       "value_current": 103857.0,
       "value_prior_year": 111544.0,

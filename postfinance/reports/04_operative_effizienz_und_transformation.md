@@ -1,7 +1,7 @@
 # 04 · Operative Effizienz & Transformation (2013–2025): PostFinance AG
 
 ## 1. Management Summary
-- Die Cost-Income-Ratio (CIR) liegt im Jahr 2025 bei **84,08 %** (vs. 63,80 % im Jahr 2013), die Eigenkapitalrendite (ROE) bei **– %**.
+- Die Cost-Income-Ratio (CIR) liegt im Jahr 2025 bei **84,08 %** (vs. 63,80 % im Jahr 2013), die Eigenkapitalrendite (ROE) bei **1,82 %**.
 - Der Personalbestand umfasst 2025 **3'527,0 FTE** bei einem Ertrag pro Vollzeitstelle von **340,2 TCHF**.
 
 ## 2. Quantitative Entwicklung
@@ -19,7 +19,7 @@
 | 2022 | 75,67 % | – % | – | – | – | – |
 | 2023 | 77,10 % | – % | – | – | – | – |
 | 2024 | 77,81 % | – % | 3'464,0 | 0,4 | 29,52 | – |
-| 2025 | 84,08 % | – % | 3'527,0 | 340,2 | 29,72 | – |
+| 2025 | 84,08 % | 1,82 % | 3'527,0 | 340,2 | 29,72 | – |
 
 ![Effizienz & Produktivität](./charts/04_effizienz_produktivitaet.png)
 

@@ -21,6 +21,54 @@
       "currency": "CHF",
       "source_quote": "|Tabelle 2: Ungewichtete Eigenmittelan forderungen  auf Basis<br>der Leverage Ratio|8|",
       "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_capital": {
+      "value_current": 22270.0,
+      "value_prior_year": 22197.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|22 270|22 197|21 484|21 470|20 729|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 23195.0,
+      "value_prior_year": 23121.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|23 195|23 121|22 395|22 368|21 550|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 24617.0,
+      "value_prior_year": 24522.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|24 617|24 522|24 064|23 989|22 708|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 98886.0,
+      "value_prior_year": 97142.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|98 886|97 142|96 321|95 314|94 226|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 22.5,
+      "value_prior_year": 22.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote (%)|22,5%|22,8%|22,3%|22,5%|22,0%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 24.9,
+      "value_prior_year": 25.2,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote (%)|24,9%|25,2%|25,0%|25,2%|24,1%|",
+      "chunk_name": "km1_eigenmittel"
     }
   }
 }

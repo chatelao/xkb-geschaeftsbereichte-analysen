@@ -22,5 +22,5 @@ def test_comparison_layer_outputs():
     assert banks_present == set(VALID_BANKS)
     assert any(r["bank_id"] == "ubs" and r["extraordinary_flag"] == "CS_NEGATIVE_GOODWILL" for r in rows)
 
-    assert len(list((COMP_DIR / "reports").glob("0*.md"))) == 5
-    assert len(list((COMP_DIR / "reports" / "charts").glob("*.png"))) == 9
+    assert len(list((COMP_DIR / "reports").glob("0*.md"))) == 7
+    assert len(list((COMP_DIR / "reports" / "charts").glob("*.png"))) == 13

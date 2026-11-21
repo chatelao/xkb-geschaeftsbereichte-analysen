@@ -78,12 +78,36 @@
       "source_quote": "|Gewinn|59 098|140 788|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 146714.0,
+      "value_prior_year": 135725.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**SUBTOTAL NETTO-ERFOLG ZINSENGESCHÄFT**|**146 714**|**135 725**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 51815.0,
+      "value_prior_year": 53010.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**SUBTOTAL ERFOLG KOMMISSIONS- UND DIENSTLEISTUNGSGESCHÄFT**|**51 815**|**53 010**|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 11208.0,
       "value_prior_year": 10922.0,
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|**ERFOLG AUS DEM HANDELSGESCHÄFT UND DER FAIR-VALUE-OPTION**|**11 208**|**10 922**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 11969.0,
+      "value_prior_year": 10791.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**SUBTOTAL ÜBRIGER ORDENTLICHER ERFOLG**|**11 969**|**10 791**|",
       "chunk_name": "erfolgsrechnung"
     },
     "total_operating_income": {

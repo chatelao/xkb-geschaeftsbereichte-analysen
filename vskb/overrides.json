@@ -1,0 +1,13 @@
+{
+  "annual": {
+    "2025": {
+      "shareholders_equity": 1693.0,
+      "share_price_eoy": 134.0,
+      "dividend_per_share": 4.0,
+      "fte_count": 494.0
+    }
+  },
+  "compensation": {
+    "2025": {"vr_total_tchf": 1150.0, "ceo_total_tchf": 790.0, "gl_total_tchf": 3250.0, "notes": "WKB GB 2025 Vergütungsbericht"}
+  }
+}

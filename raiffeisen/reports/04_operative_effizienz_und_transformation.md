@@ -2,7 +2,7 @@
 
 ## 1. Management Summary
 - Die Cost-Income-Ratio (CIR) liegt im Jahr 2025 bei **56,72 %** (vs. 62,39 % im Jahr 2011), die Eigenkapitalrendite (ROE) bei **5,08 %**.
-- Der Personalbestand umfasst 2025 **– FTE** bei einem Ertrag pro Vollzeitstelle von **– TCHF**.
+- Der Personalbestand umfasst 2025 **10'972,0 FTE** bei einem Ertrag pro Vollzeitstelle von **355,9 TCHF**.
 
 ## 2. Quantitative Entwicklung
 | Jahr | CIR % | ROE % | FTE | Ertrag/FTE (TCHF) | Bilanz/FTE (Mio.) | Filialen |
@@ -20,8 +20,8 @@
 | 2021 | 56,02 % | 5,57 % | – | – | – | – |
 | 2022 | 56,02 % | 5,57 % | – | – | – | – |
 | 2023 | 51,93 % | 6,22 % | – | – | – | – |
-| 2024 | 51,93 % | 6,22 % | – | – | – | – |
-| 2025 | 56,72 % | 5,08 % | – | – | – | – |
+| 2024 | 51,93 % | 6,22 % | 10'720,0 | 379,6 | 27,72 | – |
+| 2025 | 56,72 % | 5,08 % | 10'972,0 | 355,9 | 27,85 | – |
 
 ![Effizienz & Produktivität](./charts/04_effizienz_produktivitaet.png)
 

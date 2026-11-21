@@ -119,11 +119,11 @@
       "chunk_name": "erfolgsrechnung"
     },
     "net_profit": {
-      "value_current": 6.5,
-      "value_prior_year": 4.9,
+      "value_current": 13.0,
+      "value_prior_year": 9.0,
       "unit": null,
       "currency": "CHF",
-      "source_quote": "|Bénéfice net sur fonds propres (ROE)|**6.5**|4.9|1.2|–4.5|–4.8|",
+      "source_quote": "|Résultat net|**13**|9|2|–8|–9|",
       "chunk_name": "erfolgsrechnung"
     }
   }
