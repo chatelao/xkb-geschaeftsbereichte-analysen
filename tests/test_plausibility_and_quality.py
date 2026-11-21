@@ -19,7 +19,7 @@ def test_2025_core_completeness_and_plausibility():
         "fte_count",
     ]
     for b in VALID_BANKS:
-        with (ROOT / b / "data" / f"{b}_panel_annual.csv").open(encoding="utf-8") as f:
+        with (ROOT / "banks" / b / "data" / f"{b}_panel_annual.csv").open(encoding="utf-8") as f:
             rows = list(csv.DictReader(f))
         r25 = next((r for r in rows if r["year"] == "2025"), None)
         assert r25 is not None, f"{b}: 2025 fehlt"

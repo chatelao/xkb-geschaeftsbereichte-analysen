@@ -1,7 +1,8 @@
-site_name: XKB Geschäftsberichte Analysen (8 Schweizer Banken)
+site_name: XKB Geschäftsberichte Analysen (16 Schweizer Banken)
 site_description: >-
-  Strukturierte Längsschnitt-, Bilanz-, Risiko- und Effizienzanalysen für BEKB, VSKB, ZKB, BCV,
-  GEKB, Raiffeisen, PostFinance und UBS inklusive institutsübergreifendem Benchmarking.
+  Strukturierte Längsschnitt-, Bilanz-, Risiko-, Effizienz-, Leadership-, IT- und Fusionsanalysen
+  für 16 Schweizer Banken (Kantonal-, Gross-, Privat-, Genossenschafts- und Regionalbanken)
+  inklusive institutsübergreifendem Benchmarking.
 site_author: chatelao
 repo_url: https://github.com/chatelao/xkb-geschaeftsbereichte-analysen
 repo_name: chatelao/xkb-geschaeftsbereichte-analysen
@@ -50,7 +51,7 @@ nav:
   - Übersicht:
       - Startseite: index.md
       - Master-Umsetzungsplan: PLAN.md
-  - Bankenvergleich (8 Institute):
+  - Branchenvergleich (16 Institute):
       - Übersicht: comparison/reports/README.md
       - "01 · Grösse & Geschäftsmodell": comparison/reports/01_groesse_wachstum_und_geschaeftsmodell.md
       - "02 · Profitabilität & Effizienz": comparison/reports/02_profitabilitaet_effizienz_und_produktivitaet.md
@@ -59,211 +60,215 @@ nav:
       - "05 · Zinswenden & Resilienz": comparison/reports/05_zinswenden_saisonalitaet_und_resilienz.md
       - "06 · Investoren-Branchenvergleich": comparison/reports/06_investoren_branchenvergleich.md
       - "07 · Mitarbeiter & Vorsorge": comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md
-  - BEKB:
-      - Übersicht: bekb/reports/README.md
-      - "01 · Zinszyklen & Ertrag": bekb/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Hypotheken": bekb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III": bekb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": bekb/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Aktie & Wertschöpfung": bekb/reports/05_aktie_dividenden_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": bekb/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": bekb/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": bekb/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": bekb/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": bekb/reports/10_fusionsbaum_und_historie.md
-      - Audit: bekb/validation_report.md
-  - VSKB (WKB):
-      - Übersicht: vskb/reports/README.md
-      - "01 · Zinszyklen & Ertrag": vskb/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Hypotheken": vskb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III": vskb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": vskb/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Aktie & Wertschöpfung": vskb/reports/05_aktie_dividenden_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": vskb/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": vskb/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": vskb/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": vskb/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": vskb/reports/10_fusionsbaum_und_historie.md
-      - Audit: vskb/validation_report.md
-  - ZKB:
-      - Übersicht: zkb/reports/README.md
-      - "01 · Zinszyklen & Ertrag": zkb/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Hypotheken": zkb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & TLAC": zkb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": zkb/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Dotationskapital & Kanton": zkb/reports/05_dotationskapital_ausschuettung_und_kanton_zuerich.md
-      - \"05b · CEO & Chairman Achievement Report\": zkb/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": zkb/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": zkb/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": zkb/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": zkb/reports/10_fusionsbaum_und_historie.md
-      - Audit: zkb/validation_report.md
-  - BCV:
-      - Übersicht: bcv/reports/README.md
-      - "01 · Zinszyklen & Ertrag": bcv/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Hypotheken": bcv/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & IRB": bcv/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": bcv/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Aktie & Wertschöpfung": bcv/reports/05_aktie_dividenden_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": bcv/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": bcv/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": bcv/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": bcv/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": bcv/reports/10_fusionsbaum_und_historie.md
-      - Audit: bcv/validation_report.md
-  - GEKB (BCGE):
-      - Übersicht: gekb/reports/README.md
-      - "01 · Zinszyklen & Ertrag": gekb/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Hypotheken": gekb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III": gekb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": gekb/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Aktie & Wertschöpfung": gekb/reports/05_aktie_dividenden_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": gekb/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": gekb/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": gekb/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": gekb/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": gekb/reports/10_fusionsbaum_und_historie.md
-      - Audit: gekb/validation_report.md
-  - Raiffeisen:
-      - Übersicht: raiffeisen/reports/README.md
-      - "01 · Zinszyklen & Ertrag": raiffeisen/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Hypotheken": raiffeisen/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & D-SIB": raiffeisen/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": raiffeisen/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Genossenschaftskapital": raiffeisen/reports/05_genossenschaftskapital_mitglieder_und_ausschuettung.md
-      - \"05b · CEO & Chairman Achievement Report\": raiffeisen/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": raiffeisen/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": raiffeisen/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": raiffeisen/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": raiffeisen/reports/10_fusionsbaum_und_historie.md
-      - Audit: raiffeisen/validation_report.md
-  - PostFinance:
-      - Übersicht: postfinance/reports/README.md
-      - "01 · Zinszyklen & Ertrag": postfinance/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Finanzanlagen": postfinance/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & D-SIB": postfinance/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": postfinance/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Dividende an Post AG": postfinance/reports/05_dividendenablieferung_post_ag_und_eigentuemerwert.md
-      - \"05b · CEO & Chairman Achievement Report\": postfinance/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": postfinance/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": postfinance/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": postfinance/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": postfinance/reports/10_fusionsbaum_und_historie.md
-      - Audit: postfinance/validation_report.md
-  - UBS:
-      - Übersicht: ubs/reports/README.md
-      - "01 · Zinszyklen & Ertrag": ubs/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Refinanzierung": ubs/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & G-SIB": ubs/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": ubs/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Aktie & Rückkäufe": ubs/reports/05_aktie_dividenden_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": ubs/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": ubs/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": ubs/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": ubs/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": ubs/reports/10_fusionsbaum_und_historie.md
-      - Audit: ubs/validation_report.md
-  - EK Speicher:
-      - Übersicht: eks/reports/README.md
-      - "01 · Zinszyklen & Ertrag": eks/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Refinanzierung": eks/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & Kapital": eks/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": eks/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Genossenschaft & Wertschöpfung": eks/reports/05_genossenschaft_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": eks/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": eks/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": eks/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": eks/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": eks/reports/10_fusionsbaum_und_historie.md
-      - Audit: eks/validation_report.md
-  - Bank SLM:
-      - Übersicht: slm/reports/README.md
-      - "01 · Zinszyklen & Ertrag": slm/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Refinanzierung": slm/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & Kapital": slm/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": slm/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Aktie & Wertschöpfung": slm/reports/05_aktie_dividenden_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": slm/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": slm/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": slm/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": slm/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": slm/reports/10_fusionsbaum_und_historie.md
-      - Audit: slm/validation_report.md
-  - AEK Thun:
-      - Übersicht: aek/reports/README.md
-      - "01 · Zinszyklen & Ertrag": aek/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Refinanzierung": aek/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & Kapital": aek/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": aek/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Genossenschaft & Wertschöpfung": aek/reports/05_genossenschaft_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": aek/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": aek/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": aek/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": aek/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": aek/reports/10_fusionsbaum_und_historie.md
-      - Audit: aek/validation_report.md
-  - Migros Bank:
-      - Übersicht: migrosbank/reports/README.md
-      - "01 · Zinszyklen & Ertrag": migrosbank/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Refinanzierung": migrosbank/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & Kapital": migrosbank/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": migrosbank/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Eigentümer & Wertschöpfung": migrosbank/reports/05_eigentuemer_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": migrosbank/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": migrosbank/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": migrosbank/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": migrosbank/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": migrosbank/reports/10_fusionsbaum_und_historie.md
-      - Audit: migrosbank/validation_report.md
-  - Vontobel:
-      - Übersicht: vontobel/reports/README.md
-      - "01 · Zinszyklen & Ertrag": vontobel/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Refinanzierung": vontobel/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & Kapital": vontobel/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": vontobel/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Aktie & Dividenden": vontobel/reports/05_aktie_dividenden_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": vontobel/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": vontobel/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": vontobel/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": vontobel/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": vontobel/reports/10_fusionsbaum_und_historie.md
-      - Audit: vontobel/validation_report.md
-  - Pictet:
-      - Übersicht: pictet/reports/README.md
-      - "01 · Zinszyklen & Ertrag": pictet/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Refinanzierung": pictet/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & Kapital": pictet/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": pictet/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Eigentümer & Wertschöpfung": pictet/reports/05_eigentuemer_und_wertschoepfung.md
-      - \"05b · CEO & Chairman Achievement Report\": pictet/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": pictet/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": pictet/reports/07_strategische_epochen_und_governance.md
-      - \"09 · IT Strategy & Digital Transformation\": pictet/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": pictet/reports/10_fusionsbaum_und_historie.md
-      - Audit: pictet/validation_report.md
-  - "Entris / RBA-Holding":
-      - Übersicht: entris/reports/README.md
-      - "01 · Zinszyklen & Ertrag": entris/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Refinanzierung": entris/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & Kapital": entris/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": entris/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Aktionäre & Wertschöpfung": entris/reports/05_aktionaere_und_wertschoepfung.md
-      - "05b · CEO & Chairman Achievement Report": entris/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": entris/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": entris/reports/07_strategische_epochen_und_governance.md
-      - "09 · IT Strategy & Digital Transformation": entris/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": entris/reports/10_fusionsbaum_und_historie.md
-      - Audit: entris/validation_report.md
-  - Valiant:
-      - Übersicht: valiant/reports/README.md
-      - "01 · Zinszyklen & Ertrag": valiant/reports/01_zinszyklen_und_ertragsarchitektur.md
-      - "02 · Bilanz & Hypotheken": valiant/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
-      - "03 · Basel III & Kapital": valiant/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
-      - "04 · Effizienz": valiant/reports/04_operative_effizienz_und_transformation.md
-      - "05 · Aktie & Wertschöpfung": valiant/reports/05_aktie_dividenden_und_wertschoepfung.md
-      - "05b · CEO & Chairman Achievement Report": valiant/reports/08_ceo_und_vrp_leistungsbericht.md
-      - "06 · Semesterdynamik": valiant/reports/06_unterjaehrige_dynamik_semesterberichte.md
-      - "07 · Epochen & Vergütung real": valiant/reports/07_strategische_epochen_und_governance.md
-      - "09 · IT Strategy & Digital Transformation": valiant/reports/09_it_strategie_und_digitalisierung.md
-      - "10 · Fusionsbaum & Historie (seit 1900)": valiant/reports/10_fusionsbaum_und_historie.md
-      - Audit: valiant/validation_report.md
+  - Kantonalbanken:
+      - BEKB | BCBE:
+          - Übersicht: banks/bekb/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/bekb/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/bekb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/bekb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/bekb/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktie & Wertschöpfung": banks/bekb/reports/05_aktie_dividenden_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/bekb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/bekb/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/bekb/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/bekb/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/bekb/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/bekb/validation_report.md
+      - BCV (Waadt):
+          - Übersicht: banks/bcv/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/bcv/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/bcv/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/bcv/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/bcv/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktie & Wertschöpfung": banks/bcv/reports/05_aktie_dividenden_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/bcv/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/bcv/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/bcv/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/bcv/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/bcv/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/bcv/validation_report.md
+      - BCGE (Genf):
+          - Übersicht: banks/gekb/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/gekb/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/gekb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/gekb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/gekb/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktie & Wertschöpfung": banks/gekb/reports/05_aktie_dividenden_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/gekb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/gekb/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/gekb/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/gekb/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/gekb/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/gekb/validation_report.md
+      - Zürcher Kantonalbank (ZKB):
+          - Übersicht: banks/zkb/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/zkb/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/zkb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/zkb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/zkb/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Dotationskapital & Kanton": banks/zkb/reports/05_dotationskapital_ausschuettung_und_kanton_zuerich.md
+          - "06 · Semesterdynamik": banks/zkb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/zkb/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/zkb/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/zkb/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/zkb/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/zkb/validation_report.md
+      - Walliser Kantonalbank (VSKB):
+          - Übersicht: banks/vskb/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/vskb/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/vskb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/vskb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/vskb/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktie & Wertschöpfung": banks/vskb/reports/05_aktie_dividenden_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/vskb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/vskb/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/vskb/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/vskb/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/vskb/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/vskb/validation_report.md
+  - Gross- & Privatbanken:
+      - UBS Group:
+          - Übersicht: banks/ubs/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/ubs/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/ubs/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/ubs/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/ubs/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktie & Wertschöpfung": banks/ubs/reports/05_aktie_dividenden_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/ubs/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/ubs/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/ubs/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/ubs/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/ubs/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/ubs/validation_report.md
+      - Pictet-Gruppe:
+          - Übersicht: banks/pictet/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/pictet/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/pictet/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/pictet/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/pictet/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Eigentümer & Wertschöpfung": banks/pictet/reports/05_eigentuemer_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/pictet/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/pictet/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/pictet/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/pictet/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/pictet/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/pictet/validation_report.md
+      - Vontobel:
+          - Übersicht: banks/vontobel/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/vontobel/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/vontobel/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/vontobel/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/vontobel/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktie & Dividenden": banks/vontobel/reports/05_aktie_dividenden_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/vontobel/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/vontobel/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/vontobel/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/vontobel/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/vontobel/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/vontobel/validation_report.md
+  - Genossenschaften & Post:
+      - Raiffeisen Gruppe:
+          - Übersicht: banks/raiffeisen/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/raiffeisen/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/raiffeisen/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/raiffeisen/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/raiffeisen/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Genossenschaft & Ausschüttung": banks/raiffeisen/reports/05_genossenschaftskapital_mitglieder_und_ausschuettung.md
+          - "06 · Semesterdynamik": banks/raiffeisen/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/raiffeisen/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/raiffeisen/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/raiffeisen/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/raiffeisen/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/raiffeisen/validation_report.md
+      - PostFinance:
+          - Übersicht: banks/postfinance/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/postfinance/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/postfinance/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/postfinance/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/postfinance/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Dividende & Post AG": banks/postfinance/reports/05_dividendenablieferung_post_ag_und_eigentuemerwert.md
+          - "06 · Semesterdynamik": banks/postfinance/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/postfinance/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/postfinance/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/postfinance/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/postfinance/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/postfinance/validation_report.md
+      - Migros Bank:
+          - Übersicht: banks/migrosbank/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/migrosbank/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/migrosbank/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/migrosbank/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/migrosbank/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Eigentümer & Wertschöpfung": banks/migrosbank/reports/05_eigentuemer_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/migrosbank/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/migrosbank/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/migrosbank/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/migrosbank/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/migrosbank/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/migrosbank/validation_report.md
+  - Regionalbanken & Verbund:
+      - Valiant:
+          - Übersicht: banks/valiant/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/valiant/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/valiant/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/valiant/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/valiant/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktie & Wertschöpfung": banks/valiant/reports/05_aktie_dividenden_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/valiant/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/valiant/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/valiant/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/valiant/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/valiant/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/valiant/validation_report.md
+      - Entris / RBA-Holding:
+          - Übersicht: banks/entris/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/entris/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/entris/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/entris/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/entris/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktionäre & Wertschöpfung": banks/entris/reports/05_aktionaere_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/entris/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/entris/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/entris/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/entris/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/entris/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/entris/validation_report.md
+      - AEK BANK 1826:
+          - Übersicht: banks/aek/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/aek/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/aek/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/aek/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/aek/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Genossenschaft & Wertschöpfung": banks/aek/reports/05_genossenschaft_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/aek/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/aek/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/aek/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/aek/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/aek/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/aek/validation_report.md
+      - Bank SLM:
+          - Übersicht: banks/slm/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/slm/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/slm/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/slm/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/slm/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktie & Wertschöpfung": banks/slm/reports/05_aktie_dividenden_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/slm/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/slm/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/slm/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/slm/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/slm/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/slm/validation_report.md
+      - EK Speicher:
+          - Übersicht: banks/eks/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/eks/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/eks/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/eks/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/eks/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Genossenschaft & Wertschöpfung": banks/eks/reports/05_genossenschaft_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/eks/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/eks/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/eks/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/eks/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/eks/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/eks/validation_report.md

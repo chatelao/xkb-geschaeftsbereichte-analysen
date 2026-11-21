@@ -10,6 +10,7 @@ from typing import Any
 import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+BANKS_DIR = REPO_ROOT / "banks"
 
 VALID_BANKS = (
     "bekb",
@@ -74,7 +75,7 @@ class BankConfig:
 
     @property
     def bank_dir(self) -> Path:
-        return REPO_ROOT / self.bank_id
+        return BANKS_DIR / self.bank_id
 
     @property
     def md_dir(self) -> Path:
@@ -125,7 +126,7 @@ REQUIRED_FIELDS = [
 
 
 def load_bank_config(bank_id: str, root: Path | None = None) -> BankConfig:
-    base = root or REPO_ROOT
+    base = root or BANKS_DIR
     cfg_path = base / bank_id / "bank_config.yaml"
     if not cfg_path.exists():
         raise FileNotFoundError(f"Konfiguration nicht gefunden: {cfg_path}")
@@ -177,7 +178,7 @@ def load_bank_config(bank_id: str, root: Path | None = None) -> BankConfig:
 
 
 def check_all_schemas(root: Path | None = None) -> list[str]:
-    base = root or REPO_ROOT
+    base = root or BANKS_DIR
     checked = []
     for b in VALID_BANKS:
         cfg_path = base / b / "bank_config.yaml"

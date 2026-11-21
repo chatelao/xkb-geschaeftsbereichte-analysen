@@ -1,0 +1,21 @@
+bank_id,year,period,report_type,report_file,currency_orig,cet1_ratio_pct,leverage_ratio_pct,shareholders_equity_mio,sort_date,regime,matched_total_assets_mio,rwa_density_pct,cet1_excess_over_target_pp,self_healed_fields,total_assets_mio,kassenobligationen_mio,customer_deposits_mio,pfandbriefe_bonds_mio,reserves_banking_risks_mio,mortgage_loans_mio,financial_investments_mio,total_capital_mio,total_capital_ratio_pct,rwa_total_mio,cet1_capital_mio,tier1_capital_mio,total_cap_excess_over_target_pp,lcr_pct,nsfr_pct
+bekb,2015,FY2015,offenlegung_fy,.md/bekb-offenlegungsbericht-2015.md,CHF,19.47,7.74,2323.372,2015-12-31,Basel III,28034.674,,10.21,,,,,,,,,,,,,,,,
+bekb,2016,FY2016,offenlegung_fy,.md/bekb-offenlegungsbericht-2016.md,CHF,19.81,7.87,2397.391,2016-12-31,Basel III,28404.656,,10.55,,,,,,,,,,,,,,,,
+bekb,2017,FY2017,offenlegung_fy,.md/bekb-offenlegungsbericht-2017.md,CHF,19.93,,,2017-12-31,Basel III,29298.088,,10.67,,,,,,,,,,,,,,,,
+bekb,2018,H1-2018,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2018.md,CHF,18.62,,,2018-06-30,Basel III,30589.219,,9.36,,30317.693,54.314,21832.024,4195.0,610.796,21220.985,1999.184,,,,,,,,
+bekb,2018,FY2018,offenlegung_fy,.md/bekb-offenlegungsbericht-2018.md,CHF,18.6,,,2018-12-31,Basel III,30589.219,43.74,9.34,,,,,,,,,2488.978,18.6,13379.878,2488.978,2488.978,5.14,,
+bekb,2019,H1-2019,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2019.md,CHF,18.69,,,2019-06-30,Basel III,32929.829,40.59,9.43,,,,,,,,,2497.829,18.69,13366.814,2497.829,2497.829,5.23,145.8,
+bekb,2019,FY2019,offenlegung_fy,.md/bekb-offenlegungsbericht-2019.md,CHF,19.46,,,2019-12-31,Basel III,32929.829,39.65,10.2,,,,,,,,,2540.534,19.46,13057.846,2540.534,2540.534,6.0,,
+bekb,2020,H1-2020,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2020.md,CHF,18.94,,,2020-06-30,Basel III,36421.744,36.83,9.68,,,,,,,,,2540.0,18.94,13412.412,2540.0,2540.0,5.48,135.28,
+bekb,2020,FY2020,offenlegung_fy,.md/bekb-offenlegungsbericht-2020.md,CHF,18.99,,,2020-12-31,Basel III,36421.744,36.85,9.73,,,,,,,,,2548.367,18.99,13420.304,2548.367,2548.367,5.53,,
+bekb,2021,H1-2021,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2021.md,CHF,17.99,,,2021-06-30,Basel III,38993.62,36.42,8.73,,,,,,,,,2555.27,17.99,14201.781,2555.27,2555.27,4.53,191.68,
+bekb,2021,FY2021,offenlegung_fy,.md/bekb-offenlegungsbericht-2021.md,CHF,17.98,,,2021-12-31,Basel III,38993.62,36.98,8.72,,,,,,,,,2735.594,18.97,14418.758,2592.854,2592.854,5.51,,155.7
+bekb,2022,H1-2022,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2022.md,CHF,17.16,,,2022-06-30,Basel III,39757.263,38.13,7.9,,,,,,,,,2940.449,19.4,15160.868,2600.996,2600.996,5.94,181.2,156.0
+bekb,2022,FY2022,offenlegung_fy,.md/bekb-offenlegungsbericht-2022.md,CHF,17.13,,,2022-12-31,Basel III,39757.263,38.9,7.87,,,,,,,,,3000.172,19.4,15466.598,2649.812,2649.812,5.94,,156.8
+bekb,2023,H1-2023,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2023.md,CHF,17.06,,,2023-06-30,Basel III,40053.489,39.08,7.8,,,,,,,,,3019.472,19.29,15653.349,2670.185,2670.185,5.83,204.3,158.4
+bekb,2023,FY2023,offenlegung_fy,.md/bekb-offenlegungsbericht-2023.md,CHF,17.32,,,2023-12-31,Basel III,40053.489,39.88,8.06,,,,,,,,,3127.005,19.57,15975.333,2767.304,2767.304,6.11,,155.2
+bekb,2024,H1-2024,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2024.md,CHF,17.11,,,2024-06-30,Basel III,40499.255,40.31,7.85,,,,,,,,,3154.705,19.33,16323.672,2793.607,2793.607,5.87,199.4,152.9
+bekb,2024,FY2024,offenlegung_fy,.md/bekb-offenlegungsbericht-2024.md,CHF,17.26,,,2024-12-31,Basel III,40499.255,41.13,8.0,,,,,,,,,3231.533,19.4,16658.058,2875.338,2875.338,5.94,,148.8
+bekb,2025,H1-2025,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2025.md,CHF,18.5,,,2025-06-30,Basel III final,42976.997,36.44,9.24,,,,,,,,,3240.835,20.69,15661.491,2896.756,2896.756,7.23,144.4,143.0
+bekb,2025,FY2025,offenlegung_fy,.md/bekb-offenlegungsbericht-2025.md,CHF,18.28,,,2025-12-31,Basel III final,42976.997,37.6,9.02,,,,,,,,,3294.883,20.39,16159.205,2954.48,2954.48,6.93,141.9,143.3
+bekb,2026,H1-2026,offenlegung_h1,.md/bekb-offenlegungsbericht-06-2026.md,CHF,18.04,,,2026-06-30,Basel III final,,,8.78,,,,,,,,,3296.817,20.08,16421.145,2962.332,2962.332,6.62,141.2,144.0

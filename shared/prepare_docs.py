@@ -53,7 +53,7 @@ def prepare_docs() -> Path:
 
     plan_txt = (REPO_ROOT / "PLAN.md").read_text(encoding="utf-8")
     for b in VALID_BANKS:
-        plan_txt = plan_txt.replace(f"./{b}/ANALYSE_STRATEGIE.md", f"{b}/ANALYSE_STRATEGIE.md")
+        plan_txt = plan_txt.replace(f"./{b}/ANALYSE_STRATEGIE.md", f"banks/{b}/ANALYSE_STRATEGIE.md")
     plan_txt = _rewrite_github_links(plan_txt)
     (RTD_DIR / "PLAN.md").write_text(plan_txt, encoding="utf-8")
 
@@ -62,17 +62,17 @@ def prepare_docs() -> Path:
     comp_dst.mkdir(parents=True, exist_ok=True)
     shutil.copytree(REPO_ROOT / "comparison" / "reports", comp_dst / "reports", dirs_exist_ok=True)
 
-    # Alle 8 Institute
+    # Alle 16 Institute unter banks/
     for b in VALID_BANKS:
         cfg = load_bank_config(b)
-        b_dst = RTD_DIR / b
+        b_dst = RTD_DIR / "banks" / b
         b_dst.mkdir(parents=True, exist_ok=True)
         shutil.copytree(cfg.reports_dir, b_dst / "reports", dirs_exist_ok=True)
         if (cfg.bank_dir / "ANALYSE_STRATEGIE.md").exists():
-            txt = _rewrite_github_links((cfg.bank_dir / "ANALYSE_STRATEGIE.md").read_text(encoding="utf-8"), b)
+            txt = _rewrite_github_links((cfg.bank_dir / "ANALYSE_STRATEGIE.md").read_text(encoding="utf-8"), b).replace("../PLAN.md", "../../PLAN.md")
             (b_dst / "ANALYSE_STRATEGIE.md").write_text(txt, encoding="utf-8")
         if (cfg.bank_dir / "ROADMAP.md").exists():
-            txt = _rewrite_github_links((cfg.bank_dir / "ROADMAP.md").read_text(encoding="utf-8"), b)
+            txt = _rewrite_github_links((cfg.bank_dir / "ROADMAP.md").read_text(encoding="utf-8"), b).replace("../PLAN.md", "../../PLAN.md")
             (b_dst / "ROADMAP.md").write_text(txt, encoding="utf-8")
         if (cfg.data_dir / "validation_report.md").exists():
             shutil.copy2(cfg.data_dir / "validation_report.md", b_dst / "validation_report.md")

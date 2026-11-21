@@ -375,7 +375,7 @@ def export_vorsorge_data() -> Path:
     comp_data.mkdir(parents=True, exist_ok=True)
     for rec in VORSORGE_RECORDS:
         b = rec["bank_id"]
-        b_data = REPO_ROOT / b / "data"
+        b_data = REPO_ROOT / "banks" / b / "data"
         b_data.mkdir(parents=True, exist_ok=True)
         (b_data / f"{b}_vorsorge.json").write_text(
             json.dumps(rec, ensure_ascii=False, indent=2), encoding="utf-8"

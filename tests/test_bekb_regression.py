@@ -2,7 +2,7 @@ import csv
 from pathlib import Path
 import pytest
 
-BEKB_DIR = Path(__file__).resolve().parent.parent / "bekb"
+BEKB_DIR = Path(__file__).resolve().parent.parent / "banks" / "bekb"
 
 
 def test_bekb_panel_regression():
