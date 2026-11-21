@@ -1,4 +1,4 @@
-bank_id,year,period,report_type,report_file,currency_orig,sort_date,regime,matched_total_assets_mio,rwa_density_pct,self_healed_fields,cet1_ratio_pct,total_capital_mio,cet1_capital_mio,cet1_excess_over_target_pp,leverage_ratio_pct,rwa_total_mio,tier1_capital_mio,nsfr_pct,lcr_pct
+bank_id,year,period,report_type,report_file,currency_orig,sort_date,regime,matched_total_assets_mio,rwa_density_pct,self_healed_fields,cet1_ratio_pct,total_capital_mio,cet1_capital_mio,cet1_excess_over_target_pp,leverage_ratio_pct,rwa_total_mio,tier1_capital_mio,lcr_pct,nsfr_pct
 gekb,2010,FY2010,offenlegung_fy,.md/gekb-offenlegungsbericht-2010.md,CHF,2010-12-31,Basel III,14257.187,,,,,,,,,,,
 gekb,2011,FY2011,offenlegung_fy,.md/gekb-offenlegungsbericht-2011.md,CHF,2011-12-31,Basel III,15870.964,,,,,,,,,,,
 gekb,2012,FY2012,offenlegung_fy,.md/gekb-offenlegungsbericht-2012.md,CHF,2012-12-31,Basel III,16472.65,,,,,,,,,,,
@@ -22,4 +22,4 @@ gekb,2024,H1-2024,offenlegung_h1,.md/gekb-offenlegungsbericht-06-2024.md,CHF,202
 gekb,2024,FY2024,offenlegung_fy,.md/gekb-offenlegungsbericht-2024.md,CHF,2024-12-31,Basel III,32436.0,,,15.0,,,5.8,,,,,
 gekb,2025,H1-2025,offenlegung_h1,.md/gekb-offenlegungsbericht-06-2025.md,CHF,2025-06-30,Basel III final,34905.0,,,15.9,,2335.719,6.7,6.5,,2335.719,,
 gekb,2025,FY2025,offenlegung_fy,.md/gekb-offenlegungsbericht-2025.md,CHF,2025-12-31,Basel III final,34905.0,,,,,,,,,,,
-gekb,2026,H1-2026,offenlegung_h1,.md/gekb-offenlegungsbericht-06-2026.md,CHF,2026-06-30,Basel III final,,,,15.5,,2402.843,6.3,6.4,,,138.0,166.0
+gekb,2026,H1-2026,offenlegung_h1,.md/gekb-offenlegungsbericht-06-2026.md,CHF,2026-06-30,Basel III final,,,,15.5,,2402.843,6.3,6.4,,,166.0,138.0

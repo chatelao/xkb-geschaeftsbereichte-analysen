@@ -16,7 +16,7 @@
 | 2022 | 7'284,4 | 7'528,4 | – | – | – | – |
 | 2023 | 25'025,1 | 25'323,6 | – | – | – | – |
 | 2024 | 4'477,3 | 4'482,6 | – | – | – | – |
-| 2025 | 6'842,7 | 6'842,7 | – | 14'800,0 | 14'900,0 | 143'500,0 |
+| 2025 | 6'842,7 | 6'842,7 | 237,9 | 14'800,0 | 14'900,0 | 143'500,0 |
 
 ![Gewinn, Löhne & Vergütung real](./charts/07_gewinn_loehne_verguetung_real.png)
 
@@ -24,7 +24,7 @@
 - **Vorsorgeeinrichtung:** Pensionskasse der UBS (+ Credit Suisse Swiss Plan) (*Beitragsprimat (IAS 19: Defined Benefit)*, Basis: `IFRS / IAS 19 (vs. BVV 2 lokal)`)
 - **Versichertenstruktur:** Aktive **–**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
 - **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
-- **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **–×** (CEO real 2025: 14'900,0 TCHF vs. Ø Personalaufwand/FTE: – TCHF)
+- **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **62,6×** (CEO real 2025: 14'900,0 TCHF vs. Ø Personalaufwand/FTE: 237,9 TCHF)
 - **Quelle:** `ubs/.md/ubs-geschaeftsbericht-2025.md (Note 25 Post-employment benefit plans, S. 339)` — Konzernrechnung weist Schweizer Pläne (UBS Swiss Plan & CS Swiss Plan) nach IAS 19 aus (Note 25/26); direkter Vergleich mit FER-16-Banken erfordert BVG-Deckungsgrad gemäss Art. 44 BVV 2.
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick

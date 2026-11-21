@@ -35,12 +35,21 @@ def prepare_docs() -> Path:
 
     # Root-Dateien
     readme_txt = (REPO_ROOT / "README.md").read_text(encoding="utf-8")
-    readme_txt = readme_txt.replace("./PLAN.md", "PLAN.md").replace("./comparison/", "comparison/reports/README.md")
+    readme_txt = (
+        readme_txt.replace("(./PLAN.md)", "(PLAN.md)")
+        .replace("(./VERBESSERUNGSPLAN.md)", "(VERBESSERUNGSPLAN.md)")
+        .replace("(./comparison/reports/", "(comparison/reports/")
+        .replace("(./comparison/)", "(comparison/reports/README.md)")
+    )
     for b in VALID_BANKS:
-        readme_txt = readme_txt.replace(f"./{b}/ANALYSE_STRATEGIE.md", f"{b}/ANALYSE_STRATEGIE.md")
-        readme_txt = readme_txt.replace(f"./{b}/", f"{b}/reports/README.md")
+        readme_txt = readme_txt.replace(f"(./{b}/ANALYSE_STRATEGIE.md)", f"({b}/ANALYSE_STRATEGIE.md)")
+        readme_txt = readme_txt.replace(f"(./{b}/reports/", f"({b}/reports/")
+        readme_txt = readme_txt.replace(f"(./{b}/)", f"({b}/reports/README.md)")
     readme_txt = _rewrite_github_links(readme_txt)
     (RTD_DIR / "index.md").write_text(readme_txt, encoding="utf-8")
+
+    if (REPO_ROOT / "VERBESSERUNGSPLAN.md").exists():
+        shutil.copy2(REPO_ROOT / "VERBESSERUNGSPLAN.md", RTD_DIR / "VERBESSERUNGSPLAN.md")
 
     plan_txt = (REPO_ROOT / "PLAN.md").read_text(encoding="utf-8")
     for b in VALID_BANKS:

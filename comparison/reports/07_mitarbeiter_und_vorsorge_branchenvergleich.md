@@ -14,10 +14,10 @@
 | WKB (VSKB) | 494 | 574,0 | 170,6 | 790,0 | 4,6× |
 | ZKB | 5'809 | 553,1 | 215,0 | 2'826,2 | 13,1× |
 | BCV | 2'083 | 552,0 | 188,8 | 1'620,0 | 8,6× |
-| BCGE (GEKB) | 958 | 578,0 | – | 1'450,0 | – |
-| Raiffeisen | 10'972 | 355,9 | – | 1'780,0 | – |
-| PostFinance | 3'527 | 340,2 | – | 890,0 | – |
-| UBS | 103'177 | 423,3 | – | 14'900,0 | – |
+| BCGE (GEKB) | 958 | 578,0 | 190,7 | 1'450,0 | 7,6× |
+| Raiffeisen | 10'972 | 355,9 | 150,9 | 1'780,0 | 11,8× |
+| PostFinance | 3'527 | 340,2 | 149,4 | 890,0 | 6,0× |
+| UBS | 103'177 | 423,3 | 237,9 | 14'900,0 | 62,6× |
 
 ## 3. Zugehörige Vorsorgeeinrichtungen (Pensionskassen)
 | Institut | Vorsorgeeinrichtung | Standard | Aktive | Rentner | Deckungsgrad BVG | AGBR (Mio.) |

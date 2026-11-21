@@ -13,9 +13,9 @@
 | WKB (VSKB) | Kotiert (WKB) | Ja | 5,07 % | 134,00 | 4,00 | 2,99 % | 4,98 % | 16,60 % |
 | ZKB | Nicht kotiert | Ja | 7,89 % | – | – | – % | 7,49 % | 20,10 % |
 | BCV | Kotiert (BCVN) | Keine | 11,00 % | 100,40 | 4,40 | 4,38 % | 5,37 % | 17,60 % |
-| BCGE (GEKB) | Kotiert (BCGE) | Keine | 8,84 % | 24,60 | 0,70 | 2,85 % | -70,85 % | 15,50 % |
+| BCGE (GEKB) | Kotiert (BCGE) | Keine | 8,84 % | 24,60 | 0,70 | 2,85 % | 16,06 % | 15,50 % |
 | Raiffeisen | Nicht kotiert | Keine | 5,08 % | – | – | – % | 7,01 % | 24,70 % |
-| PostFinance | Nicht kotiert | Keine | 1,82 % | – | – | – % | -75,24 % | 24,97 % |
+| PostFinance | Nicht kotiert | Keine | 1,82 % | – | – | – % | -1,44 % | 24,97 % |
 | UBS | Kotiert (UBSG) | Keine | 8,60 % | 41,80 | 0,90 | 2,15 % | 2,14 % | 14,41 % |
 
 ![Investoren Wachstum & Ausschüttung](./charts/11_investoren_tsr_und_ausschuettung_2020_2025.png)

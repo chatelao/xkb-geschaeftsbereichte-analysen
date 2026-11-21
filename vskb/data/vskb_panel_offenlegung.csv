@@ -1,14 +1,14 @@
-bank_id,year,period,report_type,report_file,currency_orig,rwa_total_mio,cet1_capital_mio,tier1_capital_mio,total_capital_mio,total_capital_ratio_pct,cet1_ratio_pct,sort_date,regime,matched_total_assets_mio,rwa_density_pct,cet1_excess_over_target_pp,total_cap_excess_over_target_pp,self_healed_fields,nsfr_pct,lcr_pct
-vskb,2020,H1-2020,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2020.md,CHF,7776.133,1365.867,1365.867,1365.867,17.6,17.6,2020-06-30,Basel III,18067.899,43.04,8.4,4.2,,,
-vskb,2020,FY2020,offenlegung_fy,.md/vskb-offenlegungsbericht-2020.md,CHF,7994.263,,1332.903,1395.192,17.5,16.7,2020-12-31,Basel III,18067.899,44.25,7.5,4.1,,,
-vskb,2021,H1-2021,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2021.md,CHF,8069.241,1333.154,1333.154,1395.443,17.3,16.5,2021-06-30,Basel III,18499.84,43.62,7.3,3.9,,,
-vskb,2021,FY2021,offenlegung_fy,.md/vskb-offenlegungsbericht-2021.md,CHF,8110.061,1379.38,1379.38,1441.669,17.8,17.0,2021-12-31,Basel III,18499.84,43.84,7.8,4.4,,128.0,
-vskb,2022,H1-2022,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2022.md,CHF,8449.173,1380.183,1380.183,1442.472,17.1,16.3,2022-06-30,Basel III,19313.476,43.75,7.1,3.7,,125.0,163.3
-vskb,2022,FY2022,offenlegung_fy,.md/vskb-offenlegungsbericht-2022.md,CHF,8353.746,1430.303,1430.303,1490.455,17.8,17.1,2022-12-31,Basel III,19313.476,43.25,7.9,4.4,,125.1,
-vskb,2023,H1-2023,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2023.md,CHF,8787.359,1431.359,1431.359,1491.511,17.0,16.3,2023-06-30,Basel III,20109.096,43.7,7.1,3.6,,126.5,139.3
-vskb,2023,FY2023,offenlegung_fy,.md/vskb-offenlegungsbericht-2023.md,CHF,8845.849,1507.696,1507.696,1572.696,17.8,17.0,2023-12-31,Basel III,20109.096,43.99,7.8,4.4,,123.9,
-vskb,2024,H1-2024,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2024.md,CHF,9041.741,1508.516,1508.516,1573.516,17.4,16.7,2024-06-30,Basel III,20859.774,43.35,7.5,4.0,,129.2,
-vskb,2024,FY2024,offenlegung_fy,.md/vskb-offenlegungsbericht-2024.md,CHF,9195.67,1581.015,1581.015,1646.015,17.9,17.2,2024-12-31,Basel III,20859.774,44.08,8.0,4.5,,128.8,
-vskb,2025,H1-2025,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2025.md,CHF,9471.03,1584.468,1584.468,1651.468,17.4,16.7,2025-06-30,Basel III final,22042.237,42.97,7.5,4.0,,124.7,171.0
-vskb,2025,FY2025,offenlegung_fy,.md/vskb-offenlegungsbericht-2025.md,CHF,9575.354,1646.719,1646.719,1713.719,17.9,17.2,2025-12-31,Basel III final,22042.237,43.44,8.0,4.5,,,
-vskb,2026,H1-2026,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2026.md,CHF,9910.254,1649.47,1649.47,1716.47,17.3,16.6,2026-06-30,Basel III final,,,7.4,3.9,,125.1,180.8
+bank_id,year,period,report_type,report_file,currency_orig,tier1_capital_mio,rwa_total_mio,total_capital_ratio_pct,cet1_capital_mio,total_capital_mio,cet1_ratio_pct,sort_date,regime,matched_total_assets_mio,rwa_density_pct,cet1_excess_over_target_pp,total_cap_excess_over_target_pp,self_healed_fields,nsfr_pct,lcr_pct
+vskb,2020,H1-2020,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2020.md,CHF,1365.867,7776.133,17.6,1365.867,1365.867,17.6,2020-06-30,Basel III,18067.899,43.04,8.4,4.2,,,
+vskb,2020,FY2020,offenlegung_fy,.md/vskb-offenlegungsbericht-2020.md,CHF,1332.903,7994.263,17.5,,1395.192,16.7,2020-12-31,Basel III,18067.899,44.25,7.5,4.1,,,
+vskb,2021,H1-2021,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2021.md,CHF,1333.154,8069.241,17.3,1333.154,1395.443,16.5,2021-06-30,Basel III,18499.84,43.62,7.3,3.9,,,
+vskb,2021,FY2021,offenlegung_fy,.md/vskb-offenlegungsbericht-2021.md,CHF,1379.38,8110.061,17.8,1379.38,1441.669,17.0,2021-12-31,Basel III,18499.84,43.84,7.8,4.4,,128.0,
+vskb,2022,H1-2022,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2022.md,CHF,1380.183,8449.173,17.1,1380.183,1442.472,16.3,2022-06-30,Basel III,19313.476,43.75,7.1,3.7,,125.0,163.3
+vskb,2022,FY2022,offenlegung_fy,.md/vskb-offenlegungsbericht-2022.md,CHF,1430.303,8353.746,17.8,1430.303,1490.455,17.1,2022-12-31,Basel III,19313.476,43.25,7.9,4.4,,125.1,
+vskb,2023,H1-2023,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2023.md,CHF,1431.359,8787.359,17.0,1431.359,1491.511,16.3,2023-06-30,Basel III,20109.096,43.7,7.1,3.6,,126.5,139.3
+vskb,2023,FY2023,offenlegung_fy,.md/vskb-offenlegungsbericht-2023.md,CHF,1507.696,8845.849,17.8,1507.696,1572.696,17.0,2023-12-31,Basel III,20109.096,43.99,7.8,4.4,,123.9,
+vskb,2024,H1-2024,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2024.md,CHF,1508.516,9041.741,17.4,1508.516,1573.516,16.7,2024-06-30,Basel III,20859.774,43.35,7.5,4.0,,129.2,
+vskb,2024,FY2024,offenlegung_fy,.md/vskb-offenlegungsbericht-2024.md,CHF,1581.015,9195.67,17.9,1581.015,1646.015,17.2,2024-12-31,Basel III,20859.774,44.08,8.0,4.5,,128.8,
+vskb,2025,H1-2025,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2025.md,CHF,1584.468,9471.03,17.4,1584.468,1651.468,16.7,2025-06-30,Basel III final,22042.237,42.97,7.5,4.0,,124.7,171.0
+vskb,2025,FY2025,offenlegung_fy,.md/vskb-offenlegungsbericht-2025.md,CHF,1646.719,9575.354,17.9,1646.719,1713.719,17.2,2025-12-31,Basel III final,22042.237,43.44,8.0,4.5,,,
+vskb,2026,H1-2026,offenlegung_h1,.md/vskb-offenlegungsbericht-06-2026.md,CHF,1649.47,9910.254,17.3,1649.47,1716.47,16.6,2026-06-30,Basel III final,,,7.4,3.9,,125.1,180.8

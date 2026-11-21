@@ -298,6 +298,8 @@ def _enrich_annual_kpis(rows: list[dict], cfg: BankConfig) -> list[str]:
                 exp = r_round(exp * 1000.0, 3)
                 r["total_operating_expenses_mio"] = exp
         exp_abs = abs(exp) if exp is not None else None
+        if inc is not None and inc > 0 and r.get("net_profit_mio") is not None and abs(r["net_profit_mio"]) > inc * 5.0:
+            r["net_profit_mio"] = r_round(r["net_profit_mio"] / 1000.0, 3)
         r["cir_pct"] = r_round(safe_div(exp_abs, inc, 100.0), 2)
         r["interest_share_pct"] = r_round(safe_div(r.get("net_interest_income_mio"), inc, 100.0), 2)
         r["commission_share_pct"] = r_round(safe_div(r.get("commission_income_mio"), inc, 100.0), 2)
