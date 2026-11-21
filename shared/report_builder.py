@@ -212,8 +212,10 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
             fmt_num(r.get("roe_pct"), 2) + " %",
             fmt_num(r.get("fte_count"), 1),
             fmt_num(r.get("income_per_fte_tchf"), 1),
+            fmt_num(r.get("personnel_cost_per_fte_tchf"), 1),
+            fmt_num(r.get("wage_to_productivity_pct"), 1) + " %",
+            fmt_num(r.get("productivity_to_wage_ratio"), 2) + "×",
             fmt_num(r.get("assets_per_fte_mio"), 2),
-            fmt_num(r.get("branch_count"), 0),
         ]
         for r in annual
     ]
@@ -221,10 +223,10 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
 
 ## 1. Management Summary
 - Die Cost-Income-Ratio (CIR) liegt im Jahr {y1} bei **{fmt_num(last.get('cir_pct'), 2)} %** (vs. {fmt_num(first.get('cir_pct'), 2)} % im Jahr {y0}), die Eigenkapitalrendite (ROE) bei **{fmt_num(last.get('roe_pct'), 2)} %**.
-- Der Personalbestand umfasst {y1} **{fmt_num(last.get('fte_count'), 1)} FTE** bei einem Ertrag pro Vollzeitstelle von **{fmt_num(last.get('income_per_fte_tchf'), 1)} TCHF**.
+- Der Personalbestand umfasst {y1} **{fmt_num(last.get('fte_count'), 1)} FTE** bei einem Ertrag pro Vollzeitstelle von **{fmt_num(last.get('income_per_fte_tchf'), 1)} TCHF** und einem **Lohnkosten-/Produktivitätsverhältnis von {fmt_num(last.get('wage_to_productivity_pct'), 1)} %** (bzw. **{fmt_num(last.get('productivity_to_wage_ratio'), 2)}×** Ertrag je CHF Personalaufwand).
 
 ## 2. Quantitative Entwicklung
-{_table(["Jahr", "CIR %", "ROE %", "FTE", "Ertrag/FTE (TCHF)", "Bilanz/FTE (Mio.)", "Filialen"], r04_rows)}
+{_table(["Jahr", "CIR %", "ROE %", "FTE", "Ertrag/FTE (TCHF)", "Lohn/FTE (TCHF)", "Lohn/Ertrag %", "Ertrag/Lohn", "Bilanz/FTE (Mio.)"], r04_rows)}
 
 ![Effizienz & Produktivität](./charts/04_effizienz_produktivitaet.png)
 

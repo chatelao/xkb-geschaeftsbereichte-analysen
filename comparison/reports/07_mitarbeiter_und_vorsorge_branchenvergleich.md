@@ -1,23 +1,23 @@
 # 07 · Mitarbeiter- & Vorsorge-Branchenvergleich (8 Schweizer Banken, 2025)
 
 ## 1. Management Summary
-- **Lohnkosten & Produktivität (real 2025 CHF):** Der durchschnittliche Personalaufwand pro FTE spiegelt die Geschäftsmodell- und Standortstruktur wider (höhere Investment-/Wealth-Anteile bei ZKB/UBS vs. breites Filialnetz bei BEKB/PostFinance).
-- **Vergütungsspreizung (CEO Pay Ratio):** Die Spreizung reicht von **~5–10×** bei regionalen Kantonalbanken (VSKB, BEKB) über **~12–13×** bei grösseren Inlandbanken (ZKB, Raiffeisen) bis zu globalen Investment-Banking-Multiples bei **UBS**.
+- **Lohnkosten- / Produktivitätsverhältnis (2025):** Das Verhältnis von Personalaufwand zu Geschäftsertrag je FTE reicht von effizienten **~28–39 %** bei den Kantonalbanken und Raiffeisen (entspricht **2,6× bis 3,6×** Ertrag pro CHF Lohnkosten) bis zu **43,9 %** (`2,28×`) bei PostFinance und **56,2 %** (`1,78×`) bei UBS.
+- **Vergütungsspreizung (CEO Pay Ratio):** Die Spreizung reicht von **4,6×–8,6×** bei VSKB, BEKB, GEKB und BCV über **11,8×–13,1×** bei Raiffeisen und ZKB bis zu **62,6×** bei UBS.
 - **Vorsorgeeinrichtungen:** Alle 7 Inlandbanken bilanzieren nach **Swiss GAAP FER 16**, während **UBS** die Schweizer Pensionspläne nach **IFRS / IAS 19** ausweist (direkter BVG-Deckungsgradvergleich erfordert Art. 44 BVV 2).
 
 ![Mitarbeiter Lohn, Produktivität & Pay Ratio](./charts/12_mitarbeiter_lohn_produktivitaet_pay_ratio_2025.png)
 
 ## 2. Mitarbeiter-Benchmark (2025, real 2025 CHF)
-| Institut | FTE 2025 | Ertrag/FTE (TCHF) | Personalaufw./FTE (TCHF) | CEO real (TCHF) | CEO Pay Ratio |
-| --- | --- | --- | --- | --- | --- |
-| BEKB | 1'058 | 517,3 | 145,4 | 998,0 | 6,9× |
-| WKB (VSKB) | 494 | 574,0 | 170,6 | 790,0 | 4,6× |
-| ZKB | 5'809 | 553,1 | 215,0 | 2'826,2 | 13,1× |
-| BCV | 2'083 | 552,0 | 188,8 | 1'620,0 | 8,6× |
-| BCGE (GEKB) | 958 | 578,0 | 190,7 | 1'450,0 | 7,6× |
-| Raiffeisen | 10'972 | 355,9 | 150,9 | 1'780,0 | 11,8× |
-| PostFinance | 3'527 | 340,2 | 149,4 | 890,0 | 6,0× |
-| UBS | 103'177 | 423,3 | 237,9 | 14'900,0 | 62,6× |
+| Institut | FTE 2025 | Ertrag/FTE (TCHF) | Personalaufw./FTE (TCHF) | Lohn / Produktivität | Ertrag / Lohn | CEO real (TCHF) | CEO Pay Ratio |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| BEKB | 1'058 | 517,3 | 145,4 | 28,1 % | 3,56× | 998,0 | 6,9× |
+| WKB (VSKB) | 494 | 574,0 | 170,6 | 29,7 % | 3,37× | 790,0 | 4,6× |
+| ZKB | 5'809 | 553,1 | 215,0 | 38,9 % | 2,57× | 2'826,2 | 13,1× |
+| BCV | 2'083 | 552,0 | 188,8 | 34,2 % | 2,92× | 1'620,0 | 8,6× |
+| BCGE (GEKB) | 958 | 578,0 | 190,7 | 33,0 % | 3,03× | 1'450,0 | 7,6× |
+| Raiffeisen | 10'972 | 355,9 | 150,9 | 42,4 % | 2,36× | 1'780,0 | 11,8× |
+| PostFinance | 3'527 | 340,2 | 149,4 | 43,9 % | 2,28× | 890,0 | 6,0× |
+| UBS | 103'177 | 423,3 | 237,9 | 56,2 % | 1,78× | 14'900,0 | 62,6× |
 
 ## 3. Zugehörige Vorsorgeeinrichtungen (Pensionskassen)
 | Institut | Vorsorgeeinrichtung | Standard | Aktive | Rentner | Deckungsgrad BVG | AGBR (Mio.) |

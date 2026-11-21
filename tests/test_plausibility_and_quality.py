@@ -27,8 +27,12 @@ def test_2025_core_completeness_and_plausibility():
             assert r25.get(col) not in (None, ""), f"{b} 2025: {col} fehlt"
         roe = float(r25["roe_pct"])
         cir = float(r25["cir_pct"])
+        wtp = float(r25["wage_to_productivity_pct"])
+        ptw = float(r25["productivity_to_wage_ratio"])
         assert 0.5 < roe < 25.0, f"{b} 2025 ROE unplausibel: {roe}"
         assert 30.0 < cir < 95.0, f"{b} 2025 CIR unplausibel: {cir}"
+        assert 15.0 < wtp < 70.0, f"{b} 2025 Lohn/Produktivität unplausibel: {wtp}"
+        assert 1.5 < ptw < 6.0, f"{b} 2025 Produktivität/Lohn unplausibel: {ptw}"
 
 
 def test_vorsorgeeinrichtungen_dataset():

@@ -1,7 +1,7 @@
-year,bfs_lik_dez1982,cpi_factor_2025,net_profit_mio_nom,net_profit_mio_real2025,personnel_tchf_nom,personnel_mio_real2025,fte_count,avg_per_fte_tchf_nom,avg_per_fte_tchf_real2025,vr_total_tchf_nom,vr_total_tchf_real2025,ceo_total_tchf_nom,ceo_total_tchf_real2025,gl_total_tchf_nom,gl_total_tchf_real2025,notes
-2020,158.7,1.069313,6156.367,6583.084,,,,,,,,,,,,
-2021,159.7,1.062617,6817.935,7244.856,,,,,,,,,,,,
-2022,164.2,1.033496,7284.361,7528.356,,,,,,,,,,,,
-2023,167.7,1.011926,25025.111,25323.562,,,,,,,,,,,,
-2024,169.5,1.00118,4477.342,4482.625,,,108648.0,,,,,,,,,
-2025,169.7,1.0,6842.727,6842.727,24545541.0,24545.541,103177.0,237.9,237.9,14800.0,14800.0,14900.0,14900.0,143500.0,143500.0,UBS Annual Report 2025 Compensation Report (in TCHF äquiv.)
+year,bfs_lik_dez1982,cpi_factor_2025,net_profit_mio_nom,net_profit_mio_real2025,personnel_tchf_nom,personnel_mio_real2025,fte_count,avg_per_fte_tchf_nom,avg_per_fte_tchf_real2025,income_per_fte_tchf_nom,income_per_fte_tchf_real2025,wage_to_productivity_pct,productivity_to_wage_ratio,vr_total_tchf_nom,vr_total_tchf_real2025,ceo_total_tchf_nom,ceo_total_tchf_real2025,gl_total_tchf_nom,gl_total_tchf_real2025,notes
+2020,158.7,1.069313,6156.367,6583.084,,,,,,,,,,,,,,,,
+2021,159.7,1.062617,6817.935,7244.856,,,,,,,,,,,,,,,,
+2022,164.2,1.033496,7284.361,7528.356,,,,,,,,,,,,,,,,
+2023,167.7,1.011926,25025.111,25323.562,,,,,,,,,,,,,,,,
+2024,169.5,1.00118,4477.342,4482.625,,,108648.0,,,394.0,394.46,,,,,,,,,
+2025,169.7,1.0,6842.727,6842.727,24545541.0,24545.541,103177.0,237.9,237.9,423.3,423.3,56.2,1.78,14800.0,14800.0,14900.0,14900.0,143500.0,143500.0,UBS Annual Report 2025 Compensation Report (in TCHF äquiv.)

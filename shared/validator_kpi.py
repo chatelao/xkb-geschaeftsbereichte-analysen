@@ -314,7 +314,13 @@ def _enrich_annual_kpis(rows: list[dict], cfg: BankConfig) -> list[str]:
         r["net_interest_margin_bps"] = r_round(safe_div(r.get("net_interest_income_mio"), ta, 10000.0), 1)
 
         fte = r.get("fte_count")
-        r["income_per_fte_tchf"] = r_round(safe_div(inc, fte, 1000.0), 1)
+        inc_fte = safe_div(inc, fte, 1000.0)
+        pers_abs = abs(r["personnel_expenses_mio"]) if r.get("personnel_expenses_mio") is not None else None
+        pers_fte = safe_div(pers_abs, fte, 1000.0)
+        r["income_per_fte_tchf"] = r_round(inc_fte, 1)
+        r["personnel_cost_per_fte_tchf"] = r_round(pers_fte, 1)
+        r["wage_to_productivity_pct"] = r_round(safe_div(pers_fte, inc_fte, 100.0), 1)
+        r["productivity_to_wage_ratio"] = r_round(safe_div(inc_fte, pers_fte, 1.0), 2)
         r["op_profit_per_fte_tchf"] = r_round(safe_div(r.get("operating_profit_mio"), fte, 1000.0), 1)
         r["assets_per_fte_mio"] = r_round(safe_div(ta, fte, 1.0), 2)
 
@@ -373,6 +379,7 @@ def _build_verguetung_real(annual_rows: list[dict], overrides: dict) -> list[dic
         pers_nom_tchf = (abs(r["personnel_expenses_mio"]) * 1000.0) if r.get("personnel_expenses_mio") is not None else None
         fte = r.get("fte_count")
         avg_fte_nom = safe_div(pers_nom_tchf, fte)
+        inc_fte_nom = r.get("income_per_fte_tchf")
         c_yr = comp_ov.get(str(yr), {})
         vr_tot = c_yr.get("vr_total_tchf") or (r.get("vr_total_comp_mio") * 1000.0 if r.get("vr_total_comp_mio") else None)
         ceo_tot = c_yr.get("ceo_total_tchf") or (r.get("ceo_total_comp_mio") * 1000.0 if r.get("ceo_total_comp_mio") else None)
@@ -390,6 +397,10 @@ def _build_verguetung_real(annual_rows: list[dict], overrides: dict) -> list[dic
                 "fte_count": fte,
                 "avg_per_fte_tchf_nom": r_round(avg_fte_nom, 2),
                 "avg_per_fte_tchf_real2025": r_round(deflate_to_real_2025(avg_fte_nom, yr), 2),
+                "income_per_fte_tchf_nom": inc_fte_nom,
+                "income_per_fte_tchf_real2025": r_round(deflate_to_real_2025(inc_fte_nom, yr), 2),
+                "wage_to_productivity_pct": r.get("wage_to_productivity_pct"),
+                "productivity_to_wage_ratio": r.get("productivity_to_wage_ratio"),
                 "vr_total_tchf_nom": vr_tot,
                 "vr_total_tchf_real2025": r_round(deflate_to_real_2025(vr_tot, yr), 1),
                 "ceo_total_tchf_nom": ceo_tot,
