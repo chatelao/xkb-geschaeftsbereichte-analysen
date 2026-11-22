@@ -13,13 +13,13 @@
 | 2009 | 48,5 | – | – | – | – % | – |
 | 2010 | 51,7 | – | – | – | – % | – |
 | 2014 | 56,3 | – | – | – | – % | – |
-| 2015 | 56,8 | – | – | – | – % | – |
-| 2016 | 57,5 | – | – | – | – % | – |
-| 2017 | 64,0 | – | – | – | – % | – |
-| 2018 | 67,1 | – | – | – | – % | – |
-| 2019 | 67,3 | – | – | – | – % | – |
-| 2020 | 67,4 | – | – | – | – % | – |
-| 2021 | 68,5 | – | – | – | – % | – |
+| 2015 | 56,8 | 1'141,0 | – | – | – % | – |
+| 2016 | 57,5 | 1'262,0 | – | – | – % | – |
+| 2017 | 64,0 | 1'323,0 | – | – | – % | – |
+| 2018 | 67,1 | 1'369,0 | – | – | – % | – |
+| 2019 | 67,3 | 1'418,0 | – | – | – % | – |
+| 2020 | 67,4 | 1'386,0 | – | – | – % | – |
+| 2021 | 68,5 | 1'434,0 | – | – | – % | – |
 | 2022 | 72,9 | – | – | – | – % | – |
 | 2023 | 90,4 | – | – | – | – % | – |
 | 2024 | 90,5 | – | – | – | – % | – |
@@ -29,7 +29,7 @@
 
 ## 3. Treiberanalyse & Wendepunkte (Investoren-Perspektive)
 - Bei kotierten Instituten mit Aktiensplits (z. B. BCV 1:10 im Jahr 2020) sind sämtliche historischen Kurs- und Dividendenreihen deterministisch split-bereinigt.
-- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 8 Institute eingeordnet.
+- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 19 Institute eingeordnet.
 
 ## 4. Fazit, Führungsleistung & Ausblick
 - Stabile Ertragskraft sichert langfristig Dividendenkontinuität bzw. verlässliche Ablieferungen an Kanton, Post oder Genossenschafter.

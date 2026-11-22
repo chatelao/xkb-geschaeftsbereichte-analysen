@@ -25,9 +25,9 @@ jobs:
           pip install -r docs/requirements.txt
       - name: Run unit & regression tests
         run: pytest -q tests/
-      - name: Verify deterministic pipeline across all 14 banks & cross-bank
+      - name: Verify deterministic pipeline across all 19 banks & cross-bank
         run: |
-          for b in bekb vskb zkb bcv gekb raiffeisen postfinance ubs eks slm aek migrosbank vontobel pictet entris valiant; do
+          for b in bekb vskb zkb bcv gekb raiffeisen postfinance ubs eks slm aek migrosbank vontobel pictet entris valiant sgkb lukb blkb; do
             python -m shared.validator_kpi --bank "$b" --strict-audit
             python -m shared.report_builder --bank "$b" --backend local
           done

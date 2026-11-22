@@ -75,7 +75,7 @@
       "value_prior_year": 316742.75,
       "unit": null,
       "currency": "CHF",
-      "source_quote": "|**Subtotal Netto-Erfolg Zinsengeschäft**|**331’299.41**|**316’742.75**|",
+      "source_quote": "|**Brutto-Erfolg Zinsengeschäft**|**331’299.41**|**316’742.75**|",
       "chunk_name": "bilanz"
     },
     "commission_income": {

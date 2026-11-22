@@ -78,6 +78,14 @@
       "source_quote": "|Gesamtkapitalquote(Eigenmittel)<sup>*</sup>|16,4%|15,3%||",
       "chunk_name": "bilanz"
     },
+    "fte_count": {
+      "value_current": 9286.0,
+      "value_prior_year": 9028.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anzahl Vollzeitstellen|9'286|9'028|2,9|",
+      "chunk_name": "bilanz"
+    },
     "mortgage_loans": {
       "value_current": 158593585.0,
       "value_prior_year": 150730695.0,
@@ -119,11 +127,11 @@
       "chunk_name": "bilanz"
     },
     "net_interest_income": {
-      "value_current": 2176751.0,
-      "value_prior_year": 2135288.0,
+      "value_current": 2187872.0,
+      "value_prior_year": 2133564.0,
       "unit": "TCHF",
       "currency": "CHF",
-      "source_quote": "|**Netto-Erfolg Zinsengeschäft**|**2'176'751**|**2'135'288**|**41'463**|**1,9**||",
+      "source_quote": "|**Brutto-Erfolg Zinsengeschäft**|**2'187'872**|**2'133'564**|**54'308**|**2,5**||",
       "chunk_name": "erfolgsrechnung"
     },
     "commission_income": {

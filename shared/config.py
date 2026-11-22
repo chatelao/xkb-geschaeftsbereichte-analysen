@@ -29,6 +29,9 @@ VALID_BANKS = (
     "pictet",
     "entris",
     "valiant",
+    "sgkb",
+    "lukb",
+    "blkb",
 )
 VALID_SCOPES = {"standalone", "consolidated"}
 VALID_REPORT_05_MODES = {"listed_share", "cantonal_endowment", "cooperative_payout", "post_dividend"}

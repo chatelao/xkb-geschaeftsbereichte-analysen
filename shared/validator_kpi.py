@@ -308,8 +308,21 @@ def _enrich_annual_kpis(rows: list[dict], cfg: BankConfig) -> list[str]:
         r["mortgage_share_pct"] = 0.0 if cfg.has_credit_ban else r_round(safe_div(r.get("mortgage_loans_mio"), ta, 100.0), 2)
         r["deposit_to_mortgage_pct"] = None if cfg.has_credit_ban else r_round(safe_div(r.get("customer_deposits_mio"), r.get("mortgage_loans_mio"), 100.0), 2)
         r["deposit_coverage_pct"] = r_round(safe_div(r.get("customer_deposits_mio"), tot_loans, 100.0), 2)
-        r["equity_ratio_pct"] = r_round(safe_div(r.get("shareholders_equity_mio"), ta, 100.0), 2)
-        r["roe_pct"] = r_round(safe_div(r.get("net_profit_mio"), r.get("shareholders_equity_mio"), 100.0), 2)
+        eq = r.get("shareholders_equity_mio")
+        if eq is not None and ta is not None and ta > 0:
+            if eq > ta * 0.50 and (ta * 0.02 <= eq / 1000.0 <= ta * 0.35):
+                eq = r_round(eq / 1000.0, 3)
+                r["shareholders_equity_mio"] = eq
+                r.setdefault("_healed", []).append("shareholders_equity_mio(/1000)")
+            elif eq < ta * 0.01 and (ta * 0.02 <= eq * 1000.0 <= ta * 0.35):
+                eq = r_round(eq * 1000.0, 3)
+                r["shareholders_equity_mio"] = eq
+                r.setdefault("_healed", []).append("shareholders_equity_mio(x1000)")
+            elif eq < ta * 0.015 or eq > ta * 0.50:
+                eq = None
+                r["shareholders_equity_mio"] = None
+        r["equity_ratio_pct"] = r_round(safe_div(eq, ta, 100.0), 2)
+        r["roe_pct"] = r_round(safe_div(r.get("net_profit_mio"), eq, 100.0), 2)
         r["roa_pct"] = r_round(safe_div(r.get("net_profit_mio"), ta, 100.0), 3)
         r["net_interest_margin_bps"] = r_round(safe_div(r.get("net_interest_income_mio"), ta, 10000.0), 1)
 
@@ -356,13 +369,30 @@ def _enrich_offenlegung(rows: list[dict], cfg: BankConfig, annual_by_year: dict[
         yr = r["year"]
         r["sort_date"] = f"{yr}-06-30" if "H1" in r["period"] else (f"{yr}-03-31" if "Q1" in r["period"] else (f"{yr}-09-30" if "Q3" in r["period"] else f"{yr}-12-31"))
         r["regime"] = "Basel III final" if yr >= 2025 else "Basel III"
-        ta = annual_by_year.get(yr, {}).get("total_assets_mio")
+        ann_r = annual_by_year.get(yr)
+        ta = ann_r.get("total_assets_mio") if ann_r else None
         r["matched_total_assets_mio"] = ta
         r["rwa_density_pct"] = r_round(safe_div(r.get("rwa_total_mio"), ta, 100.0), 2)
         if cet1_target is not None and r.get("cet1_ratio_pct") is not None:
             r["cet1_excess_over_target_pp"] = r_round(r["cet1_ratio_pct"] - cet1_target, 2)
         if tot_target is not None and r.get("total_capital_ratio_pct") is not None:
             r["total_cap_excess_over_target_pp"] = r_round(r["total_capital_ratio_pct"] - tot_target, 2)
+        # Rückspiegelung der Jahresend-Offenlegung (12-31) in das Annual-Panel, falls dort leer
+        if ann_r is not None and r["sort_date"].endswith("-12-31"):
+            for k in (
+                "cet1_capital_mio",
+                "tier1_capital_mio",
+                "total_capital_mio",
+                "rwa_total_mio",
+                "cet1_ratio_pct",
+                "total_capital_ratio_pct",
+                "leverage_ratio_pct",
+                "lcr_pct",
+                "nsfr_pct",
+            ):
+                if ann_r.get(k) is None and r.get(k) is not None:
+                    ann_r[k] = r[k]
+                    ann_r.setdefault("_healed", []).append(f"{k}(from_offenlegung)")
     rows.sort(key=lambda x: x["sort_date"])
 
 
@@ -371,7 +401,7 @@ def _build_verguetung_real(annual_rows: list[dict], overrides: dict) -> list[dic
     out = []
     for r in annual_rows:
         yr = r["year"]
-        if yr not in range(2003, 2027):
+        if yr not in range(2001, 2027):
             continue
         cpi = get_cpi_index(yr)
         factor = cpi_factor_2025(yr)

@@ -62,12 +62,20 @@
       "source_quote": "|Gewinn||221|167|",
       "chunk_name": "bilanz"
     },
+    "shareholders_equity": {
+      "value_current": 2000.0,
+      "value_prior_year": 4682.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Eigenkapital per 31.12.2015**|**2 000**|**4 682**|**0**|**0**|**0**|**221**|**6 903**|",
+      "chunk_name": "bilanz"
+    },
     "net_interest_income": {
-      "value_current": 966.0,
-      "value_prior_year": 878.0,
+      "value_current": 953.0,
+      "value_prior_year": 965.0,
       "unit": null,
       "currency": "CHF",
-      "source_quote": "|**Netto-Erfolg Zinsengeschäft**||**966**|**878**|",
+      "source_quote": "|**Brutto-Erfolg Zinsengeschäft**||**953**|**965**|",
       "chunk_name": "erfolgsrechnung"
     },
     "commission_income": {

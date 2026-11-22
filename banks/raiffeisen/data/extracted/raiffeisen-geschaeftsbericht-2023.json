@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "net_interest_income": {
+      "value_current": 3099.0,
+      "value_prior_year": 2569.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Brutto-Erfolg Zinsengeschäft|2 569|3 099|20,6|",
+      "chunk_name": "bilanz"
+    },
     "commission_income": {
       "value_current": 624.0,
       "value_prior_year": 591.0,
@@ -62,14 +70,6 @@
       "source_quote": "|Bilanzsumme|280 635|297 135|5,9|",
       "chunk_name": "bilanz"
     },
-    "shareholders_equity": {
-      "value_current": 22378.0,
-      "value_prior_year": 20673.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Total Eigenkapital (ohne Minderheitsanteile)|20 673|22 378|8,2|",
-      "chunk_name": "bilanz"
-    },
     "cet1_ratio_pct": {
       "value_current": 19.5,
       "value_prior_year": 18.8,
@@ -102,6 +102,14 @@
       "source_quote": "|Nettoneugeld verwaltete Kundenvermögen|8 159|4 887|–40,1|",
       "chunk_name": "bilanz"
     },
+    "fte_count": {
+      "value_current": 10305.0,
+      "value_prior_year": 9901.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anzahl Vollzeitstellen|9 901|10 305|4,1|",
+      "chunk_name": "bilanz"
+    },
     "reserves_banking_risks": {
       "value_current": 250.0,
       "value_prior_year": 200.0,
@@ -110,13 +118,13 @@
       "source_quote": "|Reserven für allgemeine Bankrisiken|200|200|200|200|250|",
       "chunk_name": "bilanz"
     },
-    "net_interest_income": {
-      "value_current": 2324.0,
-      "value_prior_year": 2932.0,
+    "shareholders_equity": {
+      "value_current": 22378.0,
+      "value_prior_year": 20673.0,
       "unit": "Mio. CHF",
       "currency": "CHF",
-      "source_quote": "|Netto-Erfolg aus dem Zinsengeschäft|2 324|2 932|229|140|1|2|–4|–1|2 550|3 073|",
-      "chunk_name": "mehrjahresvergleich"
+      "source_quote": "|**Total Eigenkapital**|**17 478**|**18 444**|**19 179**|**20 673**|**22 378**|",
+      "chunk_name": "bilanz"
     },
     "trading_income": {
       "value_current": 173.0,

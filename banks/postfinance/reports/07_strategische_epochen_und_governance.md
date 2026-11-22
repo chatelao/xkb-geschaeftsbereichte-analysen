@@ -31,9 +31,9 @@
 ## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
 - **Vorsorgeeinrichtung:** Pensionskasse Post (Sammelstiftung Konzern Post) (*Beitragsprimat (umhüllend)*, Basis: `Swiss GAAP FER 16 / FER 26`)
 - **Versichertenstruktur:** Aktive **37'516**, Rentner **28'703** (Verhältnis Aktive/Rentner: **1,31**)
-- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **36,0 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **117,0 %**, Arbeitgeberbeitragsreserve **36,0 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **6,0×** (CEO real 2025: 890,0 TCHF vs. Ø Personalaufwand/FTE: 149,4 TCHF)
-- **Quelle:** `postfinance/.md/postfinance-geschaeftsbericht-2025.md (Anhang Ziff. 15, S. 77)` — Keine eigene PK; Anschluss an Pensionskasse Post (37'516 Aktive, 28'703 Rentner Konzern). Vorsorgeaufwand PostFinance 2025: 46 Mio. CHF (2024: 44 Mio. CHF); AGBR: 36 Mio. CHF.
+- **Quelle:** `postfinance/.md/postfinance-geschaeftsbericht-2025.md (Anhang Ziff. 15, S. 77)` — Anschluss an Pensionskasse Post (37'516 Aktive, 28'703 Rentner Konzern); geschätzter Deckungsgrad Ende 2025: 117,0 % (2024: 111,5 %); Vorsorgeaufwand PostFinance 2025: 46,0 Mio. CHF; AGBR: 36,0 Mio. CHF.
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2013:** Ausgründung als AG unter FINMA-Aufsicht (mit Kreditverbot)

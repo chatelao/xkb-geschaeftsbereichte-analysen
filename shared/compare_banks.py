@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Schritt 2 (Phase 8): Harmonisierungs-Layer & Institutsübergreifende Auswertung (8 Banken)."""
+"""Schritt 2 (Phase 8): Harmonisierungs-Layer & Institutsübergreifende Auswertung (19 Banken)."""
 
 from __future__ import annotations
 
@@ -212,7 +212,7 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
     ax1.barh(names, ta_vals, color=colors)
     ax1.set_xscale("log")
     ax1.set_xlabel("Bilanzsumme 2025 (Mrd. CHF, Log-Skala)")
-    ax1.set_title("Bilanzgrösse 2025 (8 Institute)")
+    ax1.set_title("Bilanzgrösse 2025 (19 Institute)")
     cagrs = [_cagr(by_bank_yr.get((b, 2020), {}).get("total_assets_mio"), by_bank_yr.get((b, 2025), {}).get("total_assets_mio"), 5) or 0.0 for b in VALID_BANKS]
     ax2.barh(names, cagrs, color=colors)
     ax2.axvline(0, color="black", linewidth=0.8)
@@ -295,7 +295,7 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
     lohn_v = [verg_25.get(b, {}).get("avg_per_fte_tchf_real2025") or 0 for b in VALID_BANKS]
     ax.barh(names, lohn_v, color=colors)
     ax.set_xlabel("Personalaufwand je FTE 2025 (TCHF, real 2025)")
-    ax.set_title("Reale Lohnkosten je Vollzeitstelle 2025 (8 Institute)")
+    ax.set_title("Reale Lohnkosten je Vollzeitstelle 2025 (19 Institute)")
     _save(fig, COMP_CHARTS / "08_verguetung_real_2025_vergleich.png")
 
     # Chart 09: Reingewinn real 2025 vs 2020 (Index)
@@ -379,7 +379,7 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
     c3 = f"""# 03 · Kapitalisierung, Regulierung & Staatsgarantie (Basel III final)
 
 ## 1. Management Summary
-- Sämtliche 8 Institute übertreffen ihre jeweiligen **FINMA-Zielgrössen** (Kategorie 1 G-SIB, Kategorie 2 D-SIB bzw. Kategorie 3) komfortabel.
+- Sämtliche 19 Institute übertreffen ihre jeweiligen **FINMA-Zielgrössen** (Kategorie 1 G-SIB, Kategorie 2 D-SIB bzw. Kategorie 3) komfortabel.
 - Der Übergang zu **Basel III final (ab 01.01.2025)** reduziert bei risikoarmen Hypothekarbanken (Standardansatz) tendenziell die RWA-Dichte, während IRB-Banken (BCV) bzw. G-SIBs (UBS) schärfere Output-Floor-/TBTF-Vorgaben einhalten.
 
 ![Kapitalpuffer Basel III final](./charts/05_kapitalpuffer_basel_iii_final_2026.png)
@@ -404,7 +404,7 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
     c4 = f"""# 04 · Ausschüttung, Eigentümer & reale Vergütung (real 2025 CHF)
 
 ## 1. Management Summary
-- Die 8 Institute decken vier unterschiedliche Eigentümermodelle ab (`listed_share`, `cantonal_endowment`, `cooperative_payout`, `post_dividend`).
+- Die 19 Institute decken vier unterschiedliche Eigentümermodelle ab (`listed_share`, `cantonal_endowment`, `cooperative_payout`, `post_dividend`).
 - Alle Lohnkosten und Vergütungsreihen sind über `shared/cpi_bfs.py` (BFS LIK) auf **reale CHF 2025** normiert.
 
 ![Reale Vergütung 2025](./charts/08_verguetung_real_2025_vergleich.png)

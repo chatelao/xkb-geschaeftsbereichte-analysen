@@ -1,0 +1,413 @@
+{
+  "bank_id": "sgkb",
+  "total_reports": 15,
+  "reports": [
+    {
+      "stem": "sgkb-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4719,
+          "approx_tokens": 1179
+        },
+        "mehrjahresvergleich": {
+          "chars": 5176,
+          "approx_tokens": 1294
+        },
+        "aktie_basisdaten": {
+          "chars": 3348,
+          "approx_tokens": 837
+        },
+        "betreute_vermoegen": {
+          "chars": 1866,
+          "approx_tokens": 466
+        },
+        "lagebericht_strategie": {
+          "chars": 7434,
+          "approx_tokens": 1858
+        }
+      }
+    },
+    {
+      "stem": "sgkb-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9074,
+          "approx_tokens": 2268
+        },
+        "erfolgsrechnung": {
+          "chars": 4750,
+          "approx_tokens": 1187
+        },
+        "mehrjahresvergleich": {
+          "chars": 5319,
+          "approx_tokens": 1329
+        },
+        "aktie_basisdaten": {
+          "chars": 3508,
+          "approx_tokens": 877
+        },
+        "betreute_vermoegen": {
+          "chars": 1911,
+          "approx_tokens": 477
+        },
+        "verguetung": {
+          "chars": 3663,
+          "approx_tokens": 915
+        },
+        "lagebericht_strategie": {
+          "chars": 7000,
+          "approx_tokens": 1750
+        }
+      }
+    },
+    {
+      "stem": "sgkb-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4674,
+          "approx_tokens": 1168
+        },
+        "mehrjahresvergleich": {
+          "chars": 5415,
+          "approx_tokens": 1353
+        },
+        "aktie_basisdaten": {
+          "chars": 3614,
+          "approx_tokens": 903
+        },
+        "betreute_vermoegen": {
+          "chars": 1966,
+          "approx_tokens": 491
+        },
+        "verguetung": {
+          "chars": 3972,
+          "approx_tokens": 993
+        },
+        "lagebericht_strategie": {
+          "chars": 7060,
+          "approx_tokens": 1765
+        }
+      }
+    },
+    {
+      "stem": "sgkb-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4949,
+          "approx_tokens": 1237
+        },
+        "mehrjahresvergleich": {
+          "chars": 5284,
+          "approx_tokens": 1321
+        },
+        "aktie_basisdaten": {
+          "chars": 3493,
+          "approx_tokens": 873
+        },
+        "betreute_vermoegen": {
+          "chars": 1952,
+          "approx_tokens": 488
+        },
+        "verguetung": {
+          "chars": 4219,
+          "approx_tokens": 1054
+        },
+        "lagebericht_strategie": {
+          "chars": 7134,
+          "approx_tokens": 1783
+        }
+      }
+    },
+    {
+      "stem": "sgkb-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4783,
+          "approx_tokens": 1195
+        },
+        "mehrjahresvergleich": {
+          "chars": 5380,
+          "approx_tokens": 1345
+        },
+        "aktie_basisdaten": {
+          "chars": 3541,
+          "approx_tokens": 885
+        },
+        "betreute_vermoegen": {
+          "chars": 1956,
+          "approx_tokens": 489
+        },
+        "verguetung": {
+          "chars": 6050,
+          "approx_tokens": 1512
+        },
+        "lagebericht_strategie": {
+          "chars": 7540,
+          "approx_tokens": 1885
+        }
+      }
+    },
+    {
+      "stem": "sgkb-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4649,
+          "approx_tokens": 1162
+        },
+        "mehrjahresvergleich": {
+          "chars": 5096,
+          "approx_tokens": 1274
+        },
+        "aktie_basisdaten": {
+          "chars": 3318,
+          "approx_tokens": 829
+        },
+        "betreute_vermoegen": {
+          "chars": 1951,
+          "approx_tokens": 487
+        },
+        "verguetung": {
+          "chars": 4256,
+          "approx_tokens": 1064
+        },
+        "lagebericht_strategie": {
+          "chars": 7023,
+          "approx_tokens": 1755
+        }
+      }
+    },
+    {
+      "stem": "sgkb-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4476,
+          "approx_tokens": 1119
+        },
+        "mehrjahresvergleich": {
+          "chars": 5088,
+          "approx_tokens": 1272
+        },
+        "aktie_basisdaten": {
+          "chars": 3300,
+          "approx_tokens": 825
+        },
+        "betreute_vermoegen": {
+          "chars": 2890,
+          "approx_tokens": 722
+        },
+        "verguetung": {
+          "chars": 3071,
+          "approx_tokens": 767
+        },
+        "lagebericht_strategie": {
+          "chars": 7550,
+          "approx_tokens": 1887
+        }
+      }
+    },
+    {
+      "stem": "sgkb-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4578,
+          "approx_tokens": 1144
+        },
+        "mehrjahresvergleich": {
+          "chars": 4816,
+          "approx_tokens": 1204
+        },
+        "aktie_basisdaten": {
+          "chars": 3032,
+          "approx_tokens": 758
+        },
+        "betreute_vermoegen": {
+          "chars": 2764,
+          "approx_tokens": 691
+        },
+        "verguetung": {
+          "chars": 6072,
+          "approx_tokens": 1518
+        },
+        "lagebericht_strategie": {
+          "chars": 7465,
+          "approx_tokens": 1866
+        }
+      }
+    },
+    {
+      "stem": "sgkb-offenlegungsbericht-06-2023",
+      "report_type": "offenlegung_h1",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "sgkb-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "sgkb-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "sgkb-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "sgkb-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6492,
+          "approx_tokens": 1623
+        },
+        "erfolgsrechnung": {
+          "chars": 4779,
+          "approx_tokens": 1194
+        },
+        "lagebericht_strategie": {
+          "chars": 1200,
+          "approx_tokens": 300
+        }
+      }
+    },
+    {
+      "stem": "sgkb-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3010,
+          "approx_tokens": 752
+        },
+        "erfolgsrechnung": {
+          "chars": 4820,
+          "approx_tokens": 1205
+        },
+        "lagebericht_strategie": {
+          "chars": 1328,
+          "approx_tokens": 332
+        }
+      }
+    },
+    {
+      "stem": "sgkb-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6363,
+          "approx_tokens": 1590
+        },
+        "erfolgsrechnung": {
+          "chars": 4823,
+          "approx_tokens": 1205
+        },
+        "lagebericht_strategie": {
+          "chars": 1252,
+          "approx_tokens": 313
+        }
+      }
+    }
+  ]
+}

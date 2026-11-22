@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "lukb-offenlegungsbericht-2019",
+    "report_type": "offenlegung_fy",
+    "year": 2019,
+    "period": "FY2019",
+    "part": null,
+    "bank_id": "lukb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/lukb-offenlegungsbericht-2019.md",
+    "total_chars": 64704,
+    "total_lines": 1001
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2758.4,
+      "value_prior_year": 2664.6,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1 <br>|Hartes Kernkapital(CET1)<br>|2 758.4||2 664.6||2 662.1|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 3268.4,
+      "value_prior_year": 3174.6,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2 <br>|Kernkapital(T1)<br>|3 268.4||3 174.6||2 922.1|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 3303.9,
+      "value_prior_year": 3227.4,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|3 303.9||3 227.4||2 992.4|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 19795.7,
+      "value_prior_year": 19729.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|19 795.7||19 729.0||18 645.8|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 13.93,
+      "value_prior_year": 13.51,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote|13.93 %||13.51 %||14.28 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 16.69,
+      "value_prior_year": 16.36,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote|16.69 %||16.36 %||16.05 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

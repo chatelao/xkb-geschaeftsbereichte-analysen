@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "blkb-offenlegungsbericht-2014",
+    "report_type": "offenlegung_fy",
+    "year": 2014,
+    "period": "FY2014",
+    "part": null,
+    "bank_id": "blkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/blkb-offenlegungsbericht-2014.md",
+    "total_chars": 21986,
+    "total_lines": 289
+  },
+  "backend": "local",
+  "metrics": {}
+}

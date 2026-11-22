@@ -78,12 +78,20 @@
       "source_quote": "|•Gewinn(Periodenerfolg)||67’290’703,11|67’076’733,02|",
       "chunk_name": "bilanz"
     },
+    "shareholders_equity": {
+      "value_current": 1417889.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Eigenkapital am Ende der Berichtsperiode**|**158’000**|**145’319**|**491’271**|**564’400**|**21**|**-8’413**|**67’291 **|**1’417’889**|",
+      "chunk_name": "bilanz"
+    },
     "net_interest_income": {
-      "value_current": 163710561.39,
-      "value_prior_year": 165782050.37,
+      "value_current": 162718404.81,
+      "value_prior_year": 160820372.92,
       "unit": null,
       "currency": "CHF",
-      "source_quote": "|Subtotal Netto-Erfolg Zinsengeschäft||**163’710’561,39**|**165’782’050,37**|",
+      "source_quote": "|Brutto-Erfolg aus dem Zinsengeschäft||162’718’404,81|160’820’372,92|",
       "chunk_name": "erfolgsrechnung"
     },
     "commission_income": {

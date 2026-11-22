@@ -86,6 +86,14 @@
       "source_quote": "|**Total Eigenkapital**||**2 763 930**|**2 677 412**|**86 518**|**3,2 **|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 408371.0,
+      "value_prior_year": 408870.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Brutto-Erfolgaus dem Zinsengeschäft|in CHF 1 000|408 371|408 870|426 995|351 099|341 644|",
+      "chunk_name": "mehrjahresvergleich"
+    },
     "total_operating_income": {
       "value_current": 549494.0,
       "value_prior_year": 551676.0,

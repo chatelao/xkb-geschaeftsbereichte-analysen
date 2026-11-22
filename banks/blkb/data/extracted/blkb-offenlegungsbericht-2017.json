@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "blkb-offenlegungsbericht-2017",
+    "report_type": "offenlegung_fy",
+    "year": 2017,
+    "period": "FY2017",
+    "part": null,
+    "bank_id": "blkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/blkb-offenlegungsbericht-2017.md",
+    "total_chars": 65792,
+    "total_lines": 928
+  },
+  "backend": "local",
+  "metrics": {}
+}

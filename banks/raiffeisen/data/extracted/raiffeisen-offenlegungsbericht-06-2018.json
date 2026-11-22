@@ -93,14 +93,6 @@
       "currency": "CHF",
       "source_quote": "|Gruppengewinn|416|(VII)|917|(VII)|",
       "chunk_name": "km1_eigenmittel"
-    },
-    "shareholders_equity": {
-      "value_current": 16164.0,
-      "value_prior_year": 15700.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Total Eigenkapital (mit Minderheitsanteilen)|16'164||15'700||",
-      "chunk_name": "km1_eigenmittel"
     }
   }
 }

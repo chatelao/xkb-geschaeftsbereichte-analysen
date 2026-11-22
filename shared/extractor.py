@@ -242,6 +242,8 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
         r"^total\s+(?:des\s+)?eigenkapital(?:\s+(?:vor|nach)\s+gewinnverwendung)?$",
         r"^eigenkapital\s+total$",
         r"^anrechenbares\s+eigenkapital$",
+        r"^eigenkapital\s+am\s+ende\s+der\s+berichtsperiode$",
+        r"^eigenkapital\s+per\s+31\.12\.\d{4}$",
         r"^total\s+des\s+capitaux\s+propres",
         r"^fonds\s*propres$",
         r"^total\s+equity",
@@ -250,31 +252,32 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
     ],
     # Erfolgsrechnung
     "net_interest_income": [
-        r"^(?:subtotal\s+)?(?:netto-?)?erfolg\s+(?:aus\s+dem\s+)?zinsengesch[äa]ft",
+        r"^(?:subtotal\s+|total\s+)?(?:netto-?|brutto-?)?erfolg\s*(?:aus\s+dem\s+)?zinsengesch[äa]ft",
         r"^netto-?zinserfolg",
-        r"^(?:sous-total\s+)?r[ée]sult(?:at|ant)\s+(?:net\s+)?des\s+op[ée]rations\s+d'int[ée]r[êe]ts",
+        r"^(?:sous-total\s+)?r[ée]sult(?:at|ant)\s+(?:net\s+|brut\s+)?des\s+op[ée]rations\s+d'int[ée]r[êe]ts",
         r"^net\s+interest\s+income",
         r"^net\s+interest\s+and\s+dividend\s+income",
         r"^subtotal\s+net\s+result\s+from\s+interest\s+operations",
     ],
     "commission_income": [
-        r"^(?:subtotal\s+)?erfolg\s+(?:aus\s+dem\s+)?kommissions",
+        r"^(?:subtotal\s+|total\s+)?erfolg\s*(?:aus\s+dem\s+)?kommissions",
         r"^(?:sous-total\s+)?r[ée]sult(?:at|ant)\s+des\s+op[ée]rations\s+de\s+commissions",
         r"^net\s+fee\s+and\s+commission\s+income",
         r"^subtotal\s+result\s+from\s+commission\s+business",
     ],
     "trading_income": [
-        r"^erfolg\s+aus\s+dem\s+handelsgesch[äa]ft",
+        r"^(?:subtotal\s+|total\s+)?erfolg\s*aus\s+dem\s+handelsgesch[äa]ft",
         r"^r[ée]sultat\s+des\s+op[ée]rations\s+de\s+n[ée]goce",
         r"^other\s+net\s+income\s+from\s+financial\s+instruments",
     ],
     "other_ordinary_income": [
-        r"^(?:subtotal\s+)?[üu]briger\s+ordentlicher\s+erfolg",
+        r"^(?:subtotal\s+|total\s+)?[üu]briger\s+ordentlicher\s+erfolg",
         r"^(?:sous-total\s+)?autres\s+r[ée]sultats\s+ordinaires",
     ],
     "total_operating_income": [
         r"^gesch[äa]ftsertrag\b",
-        r"^betriebsertrag\s*netto$",
+        r"^betriebsertrag(?:\s*netto)?$",
+        r"^bruttoerfolg$",
         r"^total\s+ertrag\b",
         r"^total\s+des\s*produits\s*d'exploitation",
         r"^total\s+des\s+r[ée]sultats\s+de\s+l'activit[ée]\s+bancaire\s+ordinaire",
@@ -322,10 +325,12 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
         r"^teilzeitbereinigt$",
         r"^mitarbeitende\s+teilzeitbereinigt$",
         r"^personalbestand$",
-        r"^(?:anzahl\s+)?vollzeitstellen",
+        r"^(?:total\s+|anzahl\s+)?vollzeitstellen",
         r"^vollzeit[äa]quivalent",
         r"^personalbestand\s*(?:\(|–|-)?\s*teilzeitbereinigt",
-        r"^effectif.*(?:ept|[ée]quivalents?\s+plein\s+temps)",
+        r"^durchschnittlicher\s+personalbestand.*personaleinheiten",
+        r"^personaleinheiten\s*\(gem[äa]ss\s+finma",
+        r"^effectifs?.*(?:ept|[ée]quivalents?\s+plein\s+temps)",
         r"^employees\s*\(?full-time",
         r"^staff\s*\(in\s*fte\)",
         r"^total\s+number\s+of\s+employees$",
@@ -333,7 +338,12 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
     "branch_count": [r"^gesch[äa]ftsstellen", r"^filialen", r"^succursales", r"^branches"],
     # Aktie & Ausschüttung
     "share_price_eoy": [r"^aktienkurs", r"^schlusskurs", r"^cours\s+de\s+l'action", r"^share\s+price"],
-    "dividend_per_share": [r"^dividende.*je\s+(?:namen|inhaber)?aktie", r"^dividende\s+par\s+action", r"^dividend\s+per\s+share"],
+    "dividend_per_share": [
+        r"^dividende.*(?:je|pro)\s+(?:namen|inhaber)?aktie",
+        r"^aussch[üu]ttung.*(?:je|pro)\s+(?:namen|inhaber|partizipations|kantonalbank)?(?:aktie|schein|zertifikat)",
+        r"^dividende\s+par\s+action",
+        r"^dividend\s+per\s+share",
+    ],
     # Offenlegung (KM1 / OV1)
     "cet1_capital": [r"^hartes\s+kernkapital\s*\(cet1\)", r"fonds\s+propres\s+de\s+base\s+durs", r"common\s+equity\s*tier\s*1\s*\(cet1\)\s*(?:capital)?$"],
     "tier1_capital": [r"^kernkapital\s*\((?:t1|tier\s*1)\)", r"fonds\s+propres\s+de\s+base\s*\(t1\)", r"^tier\s+1\s+capital"],
@@ -409,9 +419,15 @@ def extract_local_from_chunk(
                         ]
                         if not num_cols:
                             continue
-                        c_idx = num_cols[0]
-                        if len(num_cols) > 1 and p_idx is None:
-                            p_idx = num_cols[1]
+                        if metric_id == "shareholders_equity" and (
+                            label.startswith("eigenkapital am ende") or label.startswith("eigenkapital per")
+                        ):
+                            c_idx = num_cols[-1]
+                            p_idx = None
+                        else:
+                            c_idx = num_cols[0]
+                            if len(num_cols) > 1 and p_idx is None:
+                                p_idx = num_cols[1]
 
                     raw_curr = raw_cells[c_idx]
                     val_curr = parse_number(raw_curr)

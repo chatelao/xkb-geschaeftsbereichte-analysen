@@ -70,12 +70,20 @@
       "source_quote": "|Gewinn/Verlust||129|223|",
       "chunk_name": "bilanz"
     },
+    "shareholders_equity": {
+      "value_current": 2000.0,
+      "value_prior_year": 4553.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Eigenkapital per 31.12.2021**|**2 000**|**4 553**|**–**|**–**|**– 452**|**223**|**6 324**|",
+      "chunk_name": "bilanz"
+    },
     "net_interest_income": {
-      "value_current": 523.0,
-      "value_prior_year": 564.0,
+      "value_current": 552.0,
+      "value_prior_year": 552.0,
       "unit": null,
       "currency": "CHF",
-      "source_quote": "|**Netto-Erfolg Zinsengeschäft**||**523**|**564**|",
+      "source_quote": "|**Brutto-Erfolg Zinsengeschäft**||**552**|**552**|",
       "chunk_name": "erfolgsrechnung"
     },
     "commission_income": {

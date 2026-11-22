@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "stem": "blkb-geschaeftsbericht-2013",
+    "report_type": "annual",
+    "year": 2013,
+    "period": "FY2013",
+    "part": null,
+    "bank_id": "blkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/blkb-geschaeftsbericht-2013.md",
+    "total_chars": 104588,
+    "total_lines": 1760
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 15973263.0,
+      "value_prior_year": 15009749.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|15 973 263|15 009 749|963 514|6,42|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1586024.0,
+      "value_prior_year": 1613499.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|1 586 024|1 613 499|– 27 475|– 1,70|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 20522875.0,
+      "value_prior_year": 19241087.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Total aktiven|20 522 875|19 241 087|1 281 788|6,66|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 140768.0,
+      "value_prior_year": 210227.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|140 768|210 227|– 69 459|– 33,04|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 3592000.0,
+      "value_prior_year": 3277719.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|3 592 000|3 277 719|314 281|9,59|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 937000.0,
+      "value_prior_year": 867000.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|937 000|867 000|70 000|8,07|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 112299.0,
+      "value_prior_year": 111864.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Jahresgewinn|112 299|111 864|435|0,39|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 260228.0,
+      "value_prior_year": 273617.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|erfolgaus dem Zinsengeschäft|260 228|273 617|– 13 389|– 4,89|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 65556.0,
+      "value_prior_year": 62963.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|erfolgaus dem Kommissions- und Dienstleistungsgeschäft|65 556|62 963|2 593|4,12|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 14648.0,
+      "value_prior_year": 15930.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|erfolgaus dem handelsgeschäft|14 648|15 930|– 1 281|– 8,04|",
+      "chunk_name": "bilanz"
+    },
+    "other_ordinary_income": {
+      "value_current": 9334.0,
+      "value_prior_year": 11501.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Übriger ordentlicher erfolg|9 334|11 501|– 2 167|– 18,84|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_income": {
+      "value_current": 349766.0,
+      "value_prior_year": 364010.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Betriebsertrag|349 766|364 010|– 14 244|– 3,91|",
+      "chunk_name": "bilanz"
+    },
+    "total_operating_expenses": {
+      "value_current": -156918.0,
+      "value_prior_year": -158033.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|geschäftsaufwand|– 156 918|– 158 033|1 114|– 0,71|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -99612.0,
+      "value_prior_year": -99043.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|– 99 612|– 99 043|– 570|0,58|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -57306.0,
+      "value_prior_year": -58990.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|– 57 306|– 58 990|1 684|– 2,85|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 192848.0,
+      "value_prior_year": 205978.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Bruttogewinn|192 848|205 978|– 13 130|– 6,37|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -279.0,
+      "value_prior_year": -168.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Steuern|– 279|– 168|– 110|65,61|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

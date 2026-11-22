@@ -26,11 +26,11 @@
 ![Gewinn, Löhne & Vergütung real](./charts/07_gewinn_loehne_verguetung_real.png)
 
 ## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
-- **Vorsorgeeinrichtung:** Pensionskasse Valiant (*Beitragsprimat*, Basis: `Swiss GAAP FER 26 / ARB`)
+- **Vorsorgeeinrichtung:** Pensionskasse Valiant (+ avenirplus.ch Ergänzungskasse) (*Beitragsprimat*, Basis: `Swiss GAAP FER 26 / ARB`)
 - **Versichertenstruktur:** Aktive **1'052**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
-- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **112,8 %**, Arbeitgeberbeitragsreserve **0,0 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **–×** (CEO real 2025: – TCHF vs. Ø Personalaufwand/FTE: 155,1 TCHF)
-- **Quelle:** `valiant/.md/valiant-geschaeftsbericht-2025.md (Anhang Vorsorgeverpflichtungen)` — Eigene Vorsorgeeinrichtung (Pensionskasse Valiant); per 31.12.2025 bestehen gemäss Konzernanhang keine bilanzierten Vorsorgeverpflichtungen (CHF 0).
+- **Quelle:** `valiant/.md/valiant-geschaeftsbericht-2025.md (Anhang 13 Vorsorgeeinrichtungen)` — Provisorischer Deckungsgrad Ende 2025: 112,8 % bei 1,50 % techn. Zins (Überdeckung CHF 55,898 Mio., Wertschwankungsreserve CHF 61,6 Mio.); bezahlte Beiträge 2025: CHF 12,011 Mio. (CHF 10,737 Mio. PK + CHF 1,274 Mio. avenirplus).
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2020:** Beschleunigte Expansion auf 15 Kantone & Start Strategie 2020–2024

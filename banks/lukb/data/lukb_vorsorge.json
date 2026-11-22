@@ -1,0 +1,22 @@
+{
+  "bank_id": "lukb",
+  "short_name": "LUKB",
+  "pk_name": "Pensionskasse der Luzerner Kantonalbank",
+  "pk_plan_type": "Beitragsprimat",
+  "accounting_basis": "Swiss GAAP FER 26 / ARB",
+  "reference_year": 2025,
+  "active_insured_count": null,
+  "pensioners_count": null,
+  "active_to_pensioner_ratio": null,
+  "pk_assets_mio": null,
+  "coverage_ratio_bvg_pct": 128.1,
+  "technical_interest_rate_pct": null,
+  "interest_crediting_pct": null,
+  "conversion_rate_65_pct": null,
+  "employer_contribution_mio": 20.616,
+  "employer_share_pct": null,
+  "employer_contribution_reserve_mio": 0.0,
+  "extraordinary_contributions_mio": 0.0,
+  "notes": "Rechtlich selbstständige Pensionskasse (Swiss GAAP FER 26); Deckungsgrad per 31.12.2025 128,1 % (Vorjahr 127,4 %); Zielwert Wertschwankungsreserve (25,6 %) erreicht; bezahlte Beiträge 2025: CHF 20,616 Mio. (2024: CHF 19,883 Mio.).",
+  "source_url_or_file": "lukb/.md/lukb-geschaeftsbericht-2025.md (Anhang 6.9 / 8.11 Wirtschaftliche Lage der eigenen Vorsorgeeinrichtungen)"
+}

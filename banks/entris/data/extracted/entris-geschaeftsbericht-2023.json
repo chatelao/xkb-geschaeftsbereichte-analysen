@@ -94,6 +94,14 @@
       "source_quote": "|Anleihen und Pfandbriefdarlehen|||||260 000||",
       "chunk_name": "bilanz"
     },
+    "shareholders_equity": {
+      "value_current": 25000.0,
+      "value_prior_year": 44104.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Eigenkapital am Ende der Berichtsperiode|25 000|44 104|151 131|53 229|15 492|288 956|",
+      "chunk_name": "bilanz"
+    },
     "personnel_expenses": {
       "value_current": -736.0,
       "value_prior_year": -804.0,

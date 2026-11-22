@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "net_interest_income": {
+      "value_current": 1133.0,
+      "value_prior_year": 1148.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Brutto-ErfolgZinsengeschäft|1'133|1'148|-1,4|",
+      "chunk_name": "bilanz"
+    },
     "total_operating_income": {
       "value_current": 1518.0,
       "value_prior_year": 1636.0,
@@ -94,6 +102,14 @@
       "source_quote": "|Leverage Ratio|7,4%|7,6%||",
       "chunk_name": "bilanz"
     },
+    "fte_count": {
+      "value_current": 9190.0,
+      "value_prior_year": 9215.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anzahl Vollzeitstellen|9'190|9'215|-0,3|",
+      "chunk_name": "bilanz"
+    },
     "mortgage_loans": {
       "value_current": 182193857.0,
       "value_prior_year": 179558432.0,
@@ -141,6 +157,22 @@
       "currency": "CHF",
       "source_quote": "|Reserven für allgemeine Bankrisiken|200'000|200'000|-|-|",
       "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 208193.0,
+      "value_prior_year": 255922.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolgaus dem Kommissions- und Dienstleistungsgeschäft|208'193|255'922|-47'729|-18,6|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "trading_income": {
+      "value_current": 108807.0,
+      "value_prior_year": 118392.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolgaus dem Handelsgeschäft und der Fair-Value-Option|108'807|118'392|-9'585|-8,1|",
+      "chunk_name": "erfolgsrechnung"
     },
     "other_ordinary_income": {
       "value_current": 61051.0,

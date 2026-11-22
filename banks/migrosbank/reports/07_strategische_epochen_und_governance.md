@@ -33,9 +33,9 @@
 ## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
 - **Vorsorgeeinrichtung:** Migros-Pensionskasse (MPK) (*Beitragsprimat (Konzern-Pensionskasse)*, Basis: `Swiss GAAP FER 16 / ARB`)
 - **Versichertenstruktur:** Aktive **–**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
-- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **0,0 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **132,8 %**, Arbeitgeberbeitragsreserve **0,0 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **–×** (CEO real 2025: – TCHF vs. Ø Personalaufwand/FTE: 151,7 TCHF)
-- **Quelle:** `migrosbank/.md/migrosbank-geschaeftsbericht-2025.md (Anhang Ziff. 9)` — Keine eigenständige PK; Vorsorge über Migros-Pensionskasse (MPK). Verpflichtungen gegenüber PK per 31.12.2025 CHF 16,163 Mio. (2024: 19,249 Mio.); keine AGBR aktiviert.
+- **Quelle:** `migrosbank/.md/migrosbank-geschaeftsbericht-2025.md (Anhang Ziff. 9)` — Vorsorge über Migros-Pensionskasse (MPK); geprüfter Deckungsgrad gemäss Art. 44 BVV 2: 132,8 % (Vorjahr 129,4 %); Vorsorgeaufwand 2025: 26,5 Mio. CHF (2024: 25,6 Mio. CHF).
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2025:** Inkrafttreten Basel III final per 01.01.2025

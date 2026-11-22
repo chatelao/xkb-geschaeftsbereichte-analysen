@@ -9,7 +9,7 @@
   "pensioners_count": 28703,
   "active_to_pensioner_ratio": 1.31,
   "pk_assets_mio": null,
-  "coverage_ratio_bvg_pct": null,
+  "coverage_ratio_bvg_pct": 117.0,
   "technical_interest_rate_pct": null,
   "interest_crediting_pct": null,
   "conversion_rate_65_pct": null,
@@ -17,6 +17,6 @@
   "employer_share_pct": null,
   "employer_contribution_reserve_mio": 36.0,
   "extraordinary_contributions_mio": 0.0,
-  "notes": "Keine eigene PK; Anschluss an Pensionskasse Post (37'516 Aktive, 28'703 Rentner Konzern). Vorsorgeaufwand PostFinance 2025: 46 Mio. CHF (2024: 44 Mio. CHF); AGBR: 36 Mio. CHF.",
+  "notes": "Anschluss an Pensionskasse Post (37'516 Aktive, 28'703 Rentner Konzern); geschätzter Deckungsgrad Ende 2025: 117,0 % (2024: 111,5 %); Vorsorgeaufwand PostFinance 2025: 46,0 Mio. CHF; AGBR: 36,0 Mio. CHF.",
   "source_url_or_file": "postfinance/.md/postfinance-geschaeftsbericht-2025.md (Anhang Ziff. 15, S. 77)"
 }

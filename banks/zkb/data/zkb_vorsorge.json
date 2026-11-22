@@ -8,15 +8,15 @@
   "active_insured_count": 6179,
   "pensioners_count": 2308,
   "active_to_pensioner_ratio": 2.68,
-  "pk_assets_mio": null,
-  "coverage_ratio_bvg_pct": null,
+  "pk_assets_mio": 6000.0,
+  "coverage_ratio_bvg_pct": 117.6,
   "technical_interest_rate_pct": null,
   "interest_crediting_pct": null,
   "conversion_rate_65_pct": null,
-  "employer_contribution_mio": null,
+  "employer_contribution_mio": 122.0,
   "employer_share_pct": null,
-  "employer_contribution_reserve_mio": null,
+  "employer_contribution_reserve_mio": 0.0,
   "extraordinary_contributions_mio": 0.0,
-  "notes": "2025: 6'179 Aktive / 2'308 Rentner (2024: 6'039 / 2'282). Eigene autonome Kasse mit Arbeitnehmervertretung.",
-  "source_url_or_file": "zkb/.md/zkb-geschaeftsbericht-2025.md (S. 99 / Personalbericht)"
+  "notes": "2025: 6'179 Aktive / 2'308 Rentner; PK-Vermögen ~6,0 Mrd. CHF; Deckungsgrad 117,6 % (gerundet 118 %; Marienburg-Kaderstiftung 110 %); bezahlte Beiträge 2025: 122 Mio. CHF.",
+  "source_url_or_file": "zkb/.md/zkb-geschaeftsbericht-2025.md (Personalbericht & Anhang 13, S. 147–148)"
 }

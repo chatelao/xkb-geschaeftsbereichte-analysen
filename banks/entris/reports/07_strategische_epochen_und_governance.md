@@ -20,7 +20,11 @@
 ![Gewinn, Löhne & Vergütung real](./charts/07_gewinn_loehne_verguetung_real.png)
 
 ## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
-- Keine Vorsorgedaten hinterlegt.
+- **Vorsorgeeinrichtung:** Pensionskasse Entris / Sammelstiftung (ARB) (*Beitragsprimat*, Basis: `Swiss GAAP FER 26 / ARB`)
+- **Versichertenstruktur:** Aktive **67**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **–×** (CEO real 2025: – TCHF vs. Ø Personalaufwand/FTE: 187,6 TCHF)
+- **Quelle:** `entris/.md/entris-geschaeftsbericht-2025.md (Anhang Personalaufwand)` — Vorsorgeaufwand im Konzernpersonalaufwand 2025 CHF 1,030 Mio. (2024: CHF 0,910 Mio.); keine Verpflichtungen zu weitergehenden Leistungen laut Konzernanhang.
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2023:** SNB-Zinswende & starker Zuwachs bei Girogeldern / Zinserträgen

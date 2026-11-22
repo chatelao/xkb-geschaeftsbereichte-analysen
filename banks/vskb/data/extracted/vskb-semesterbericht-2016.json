@@ -93,6 +93,14 @@
       "currency": "CHF",
       "source_quote": "|Steuern|-7'404'038.95|-8'542'547.14|1'138'508.19||",
       "chunk_name": "erfolgsrechnung"
+    },
+    "shareholders_equity": {
+      "value_current": 56819.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Eigenkapital per 31.12.2015|150'000|141'523|374'291|428'400|25|-10'246|56'819|**_1'140'812_**|",
+      "chunk_name": "erfolgsrechnung"
     }
   }
 }

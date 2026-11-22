@@ -36,9 +36,9 @@
 ## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
 - **Vorsorgeeinrichtung:** ASGA Pensionskasse des Gewerbes (angeschlossen) (*Beitragsprimat (Sammelstiftung)*, Basis: `Swiss GAAP FER 16 / ARB`)
 - **Versichertenstruktur:** Aktive **4**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
-- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **121,7 %**, Arbeitgeberbeitragsreserve **0,0 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **–×** (CEO real 2025: – TCHF vs. Ø Personalaufwand/FTE: 86,2 TCHF)
-- **Quelle:** `eks/.md/eks-geschaeftsbericht-2025.md (Vorsorgeverpflichtungen)` — 4 Mitarbeitende sind bei der ASGA Pensionskasse des Gewerbes (St. Gallen) im Beitragsprimat als geschlossene Kasse versichert; ASGA-Einzelbilanz wird im Bankbericht nicht separat ausgewiesen.
+- **Quelle:** `eks/.md/eks-geschaeftsbericht-2025.md (Anhang Vorsorgeverpflichtungen)` — 4 Mitarbeitende bei der ASGA Pensionskasse des Gewerbes (St. Gallen) versichert; Deckungsgrad Ende 2025: 121,68 % (2024: 120,50 %); bezahlte Beiträge 2025: CHF 20'035 (0,020 Mio. CHF).
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2025:** Inkrafttreten Basel III final per 01.01.2025

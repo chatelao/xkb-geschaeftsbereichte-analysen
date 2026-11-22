@@ -25,7 +25,7 @@
 - **Versichertenstruktur:** Aktive **–**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
 - **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **62,6×** (CEO real 2025: 14'900,0 TCHF vs. Ø Personalaufwand/FTE: 237,9 TCHF)
-- **Quelle:** `ubs/.md/ubs-geschaeftsbericht-2025.md (Note 25 Post-employment benefit plans, S. 339)` — Konzernrechnung weist Schweizer Pläne (UBS Swiss Plan & CS Swiss Plan) nach IAS 19 aus (Note 25/26); direkter Vergleich mit FER-16-Banken erfordert BVG-Deckungsgrad gemäss Art. 44 BVV 2.
+- **Quelle:** `ubs/.md/ubs-geschaeftsbericht-2025.md (Note 25 Post-employment benefit plans, S. 339)` — Konzernrechnung weist Schweizer Pläne (UBS Swiss Plan & CS Swiss Plan, Zusammenführung per 01.01.2027) nach IAS 19 aus (Note 25); BVG-Deckungsgrad gemäss Art. 44 BVV 2 im IFRS-Abschluss nicht separat ausgewiesen.
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2023:** Akquisition Credit Suisse (Negative Goodwill USD 27,7 Mrd. als Einmaleffekt)

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "blkb-offenlegungsbericht-2020",
+    "report_type": "offenlegung_fy",
+    "year": 2020,
+    "period": "FY2020",
+    "part": null,
+    "bank_id": "blkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/blkb-offenlegungsbericht-2020.md",
+    "total_chars": 9410,
+    "total_lines": 135
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2430570.0,
+      "value_prior_year": 2430904.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Hartes Kernkapital (CET1)|2 430 570|2 430 904|2 338 396|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2430570.0,
+      "value_prior_year": 2430904.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Kernkapital (T1)|2 430 570|2 430 904|2 338 396|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2430570.0,
+      "value_prior_year": 2430904.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Gesamtkapital total|2 430 570|2 430 904|2 338 396|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 12522002.0,
+      "value_prior_year": 11923101.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|RWA|12 522 002|11 923 101|11 782 671|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 19.41,
+      "value_prior_year": 20.39,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote|19,41%|20,39%|19,85%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 19.41,
+      "value_prior_year": 20.39,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Gesamtkapitalquote|19,41%|20,39%|19,85%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

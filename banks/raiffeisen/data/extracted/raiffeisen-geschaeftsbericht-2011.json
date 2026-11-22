@@ -102,6 +102,14 @@
       "source_quote": "|**Übriger ordentlicher Erfolg**|**57’210**|**58’256**|**-1’046**|**-1,8**||",
       "chunk_name": "erfolgsrechnung"
     },
+    "total_operating_income": {
+      "value_current": 2513416.0,
+      "value_prior_year": 2417806.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Betriebsertrag**|**2’513’416**|**2’417’806**|**95’610**|**4,0**||",
+      "chunk_name": "erfolgsrechnung"
+    },
     "personnel_expenses": {
       "value_current": -1070550.0,
       "value_prior_year": -1031407.0,

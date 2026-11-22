@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "net_interest_income": {
+      "value_current": 1547.0,
+      "value_prior_year": 1220.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Brutto-Erfolg Zinsengeschäft|1’220|1’547|26,8|",
+      "chunk_name": "bilanz"
+    },
     "commission_income": {
       "value_current": 311.0,
       "value_prior_year": 300.0,
@@ -54,14 +62,6 @@
       "source_quote": "|Bilanzsumme|280’635|287’603|2,5|",
       "chunk_name": "bilanz"
     },
-    "shareholders_equity": {
-      "value_current": 21572.0,
-      "value_prior_year": 20673.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Total Eigenkapital (ohne Minderheitsanteile)|20’673|21’572|4,3|",
-      "chunk_name": "bilanz"
-    },
     "cet1_ratio_pct": {
       "value_current": 19.2,
       "value_prior_year": 18.8,
@@ -92,6 +92,14 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Netto-Neugeld verwaltete Kundenvermögen (* Wert per 30.06.)|4’351<sup>*</sup>|2’593|–40,4|",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 9975.0,
+      "value_prior_year": 9901.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anzahl Vollzeitstellen|9’901|9’975|0,7|",
       "chunk_name": "bilanz"
     },
     "customer_loans_other": {

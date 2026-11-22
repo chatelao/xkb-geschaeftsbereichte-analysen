@@ -87,11 +87,11 @@
       "chunk_name": "bilanz"
     },
     "net_interest_income": {
-      "value_current": 477.8,
-      "value_prior_year": 490.1,
+      "value_current": 482.5,
+      "value_prior_year": 489.2,
       "unit": "Mio. CHF",
       "currency": "CHF",
-      "source_quote": "|Résultat net des opérations d'intérêts||477.8|490.1|–12.3|–3|",
+      "source_quote": "|Résultat brut des opérations d'intérêts<br>|12.1|482.5|489.2|–6.7|–1|",
       "chunk_name": "erfolgsrechnung"
     },
     "commission_income": {

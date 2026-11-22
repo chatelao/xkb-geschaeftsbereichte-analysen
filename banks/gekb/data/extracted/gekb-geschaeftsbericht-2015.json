@@ -110,6 +110,14 @@
       "source_quote": "|Réserves pour risques bancaires généraux|5.16|150’000|120’000|30’000|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 210.0,
+      "value_prior_year": 206.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Résultat brut des opérations d'intérêts|210|206|201|205|197|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 28.0,
       "value_prior_year": 27.0,

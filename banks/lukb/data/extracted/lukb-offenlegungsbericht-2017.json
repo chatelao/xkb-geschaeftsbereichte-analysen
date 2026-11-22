@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "stem": "lukb-offenlegungsbericht-2017",
+    "report_type": "offenlegung_fy",
+    "year": 2017,
+    "period": "FY2017",
+    "part": null,
+    "bank_id": "lukb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/lukb-offenlegungsbericht-2017.md",
+    "total_chars": 80587,
+    "total_lines": 1186
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_ratio_pct": {
+      "value_current": 14.61,
+      "value_prior_year": 14.93,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote(hartes Kernkapital in % der RWA)|14.61 %|14.93 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 16.59,
+      "value_prior_year": 17.13,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Gesamtkapitalquote(in % der RWA)|16.59 %|17.13 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "mortgage_loans": {
+      "value_current": 24557.1,
+      "value_prior_year": 23284.2,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|24 557.1|23 284.2|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "financial_investments": {
+      "value_current": 2609.9,
+      "value_prior_year": 2533.3,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|2 609.9|2 533.3|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_assets": {
+      "value_current": 35881.6,
+      "value_prior_year": 34854.9,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total Aktiven|35 881.6|34 854.9|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "customer_deposits": {
+      "value_current": 21987.0,
+      "value_prior_year": 21656.7,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|21 987.0|21 656.7|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "reserves_banking_risks": {
+      "value_current": 653.2,
+      "value_prior_year": 665.2,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|653.2|653.2|665.2|665.2|C|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

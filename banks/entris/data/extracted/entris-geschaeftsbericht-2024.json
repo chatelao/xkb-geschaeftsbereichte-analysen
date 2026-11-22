@@ -78,6 +78,14 @@
       "source_quote": "|Subtotal Erfolg Kommissions- und Dienstleistungsgeschäft|**41 196**|38 658|",
       "chunk_name": "bilanz"
     },
+    "shareholders_equity": {
+      "value_current": 25000.0,
+      "value_prior_year": 44104.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Eigenkapital am Ende der Berichtsperiode|25 000|44 104|156 048|53 804|12 376|291 332|",
+      "chunk_name": "bilanz"
+    },
     "personnel_expenses": {
       "value_current": -752.0,
       "value_prior_year": -736.0,

@@ -1,16 +1,16 @@
 # 04 · Operative Effizienz & Transformation (2016–2025): Valiant Holding AG
 
 ## 1. Management Summary
-- Die Cost-Income-Ratio (CIR) liegt im Jahr 2025 bei **54,84 %** (vs. 56,75 % im Jahr 2016), die Eigenkapitalrendite (ROE) bei **5,60 %**.
+- Die Cost-Income-Ratio (CIR) liegt im Jahr 2025 bei **54,84 %** (vs. 58,36 % im Jahr 2016), die Eigenkapitalrendite (ROE) bei **5,60 %**.
 - Der Personalbestand umfasst 2025 **1'052,0 FTE** bei einem Ertrag pro Vollzeitstelle von **522,3 TCHF** und einem **Lohnkosten-/Produktivitätsverhältnis von 29,7 %** (bzw. **3,37×** Ertrag je CHF Personalaufwand).
 
 ## 2. Quantitative Entwicklung
 | Jahr | CIR % | ROE % | FTE | Ertrag/FTE (TCHF) | Lohn/FTE (TCHF) | Lohn/Ertrag % | Ertrag/Lohn | Bilanz/FTE (Mio.) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2016 | 56,75 % | – % | 842,0 | 462,3 | 140,9 | 30,5 % | 3,28× | 30,99 |
-| 2017 | 58,35 % | – % | 873,0 | 443,7 | 140,9 | 31,7 % | 3,15× | 31,57 |
-| 2018 | 56,25 % | 5,31 % | 890,0 | 451,4 | 141,5 | 31,3 % | 3,19× | 30,77 |
-| 2019 | 57,78 % | 5,22 % | 918,0 | 441,5 | 141,8 | 32,1 % | 3,11× | 32,58 |
+| 2016 | 58,36 % | 5,52 % | 842,0 | 449,6 | 140,9 | 31,3 % | 3,19× | 30,99 |
+| 2017 | 58,26 % | – % | 873,0 | 444,5 | 140,9 | 31,7 % | 3,16× | 31,57 |
+| 2018 | 55,94 % | 5,31 % | 890,0 | 454,0 | 141,5 | 31,2 % | 3,21× | 30,77 |
+| 2019 | 56,98 % | 5,22 % | 918,0 | 447,8 | 141,8 | 31,7 % | 3,16× | 32,58 |
 | 2020 | 58,48 % | 5,16 % | 937,0 | 440,9 | 143,7 | 32,6 % | 3,07× | 35,42 |
 | 2021 | 59,07 % | 5,13 % | 995,0 | 432,8 | – | – % | –× | 35,74 |
 | 2022 | 59,67 % | 5,25 % | 981,0 | 457,1 | 146,1 | 32,0 % | 3,13× | 36,42 |

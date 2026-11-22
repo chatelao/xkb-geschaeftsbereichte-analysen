@@ -9,14 +9,14 @@
   "pensioners_count": null,
   "active_to_pensioner_ratio": null,
   "pk_assets_mio": null,
-  "coverage_ratio_bvg_pct": null,
+  "coverage_ratio_bvg_pct": 132.8,
   "technical_interest_rate_pct": null,
   "interest_crediting_pct": null,
   "conversion_rate_65_pct": null,
-  "employer_contribution_mio": null,
+  "employer_contribution_mio": 26.5,
   "employer_share_pct": null,
   "employer_contribution_reserve_mio": 0.0,
   "extraordinary_contributions_mio": 0.0,
-  "notes": "Keine eigenständige PK; Vorsorge über Migros-Pensionskasse (MPK). Verpflichtungen gegenüber PK per 31.12.2025 CHF 16,163 Mio. (2024: 19,249 Mio.); keine AGBR aktiviert.",
+  "notes": "Vorsorge über Migros-Pensionskasse (MPK); geprüfter Deckungsgrad gemäss Art. 44 BVV 2: 132,8 % (Vorjahr 129,4 %); Vorsorgeaufwand 2025: 26,5 Mio. CHF (2024: 25,6 Mio. CHF).",
   "source_url_or_file": "migrosbank/.md/migrosbank-geschaeftsbericht-2025.md (Anhang Ziff. 9)"
 }

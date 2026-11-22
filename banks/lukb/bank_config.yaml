@@ -1,0 +1,49 @@
+bank_id: "lukb"
+short_name: "LUKB"
+full_name: "Luzerner Kantonalbank AG"
+peer_group: "cantonal_bank"
+canton_or_hq: "Luzern"
+legal_form: "listed_ag"
+listed: true
+ticker: "LUKN"
+state_guarantee: true
+has_credit_ban: false
+finma_category: 3
+reporting_scope: "consolidated"
+accounting_standard: "ARB_RVB"
+reporting_currency: "CHF"
+primary_languages: ["de"]
+file_prefix: "lukb"
+
+capital_targets_pct:
+  cet1_target: 11.2
+  total_capital_target: 12.0
+  leverage_min: 3.0
+  lcr_min: 100.0
+  nsfr_min: 100.0
+
+share_splits:
+  - {date: "2023-04-01", ratio: 5.0, note: "Aktiensplit 1:5 per April 2023"}
+
+report_05_mode: "listed_share"
+report_05_slug: "05_aktie_dividenden_und_wertschoepfung"
+
+palette:
+  primary: "#005596"
+  secondary: "#1E293B"
+  accent: "#D97706"
+  muted: "#64748B"
+
+plausibility_bounds_chf_mio:
+  total_assets_min: 12000
+  total_assets_max: 80000
+
+epochs:
+  - {label: "Epoche 1", start: 2001, end: 2014, title: "Agiles Wachstum nach AG-Umwandlung (2001) & Finanzkrise"}
+  - {label: "Epoche 2", start: 2015, end: 2021, title: "SNB-Negativzinsen & Zentralschweizer Expansion"}
+  - {label: "Epoche 3", start: 2022, end: 2026, title: "Zinswende, Strategie LUKB25/30 & Basel III final"}
+
+structural_breaks:
+  - {year: 2015, label: "Einführung SNB-Negativzins & Rechnungslegungswechsel (ARB)"}
+  - {year: 2023, label: "Aktiensplit 1:5 & Zinswende-Höchststand"}
+  - {year: 2025, label: "Inkrafttreten Basel III final per 01.01.2025"}

@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "net_interest_income": {
+      "value_current": 2402.0,
+      "value_prior_year": 2569.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Brutto-Erfolg Zinsengeschäft|2’402|2’569|7,0|",
+      "chunk_name": "bilanz"
+    },
     "commission_income": {
       "value_current": 536.0,
       "value_prior_year": 591.0,
@@ -62,14 +70,6 @@
       "source_quote": "|Bilanzsumme|284’489|280’635|–1,4|",
       "chunk_name": "bilanz"
     },
-    "shareholders_equity": {
-      "value_current": 19179.0,
-      "value_prior_year": 20673.0,
-      "unit": null,
-      "currency": "CHF",
-      "source_quote": "|Total Eigenkapital (ohne Minderheitsanteile)|19’179|20’673|7,8|",
-      "chunk_name": "bilanz"
-    },
     "cet1_ratio_pct": {
       "value_current": 20.3,
       "value_prior_year": 18.8,
@@ -94,6 +94,14 @@
       "source_quote": "|Nettoneugeld verwaltete Kundenvermögen|14’509|8’159|–43,8|",
       "chunk_name": "bilanz"
     },
+    "fte_count": {
+      "value_current": 9729.0,
+      "value_prior_year": 9901.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Anzahl Vollzeitstellen|9’729|9’901|1,8|",
+      "chunk_name": "bilanz"
+    },
     "reserves_banking_risks": {
       "value_current": 200.0,
       "value_prior_year": 200.0,
@@ -102,13 +110,13 @@
       "source_quote": "|Reserven für allgemeine Bankrisiken|200|200|200|200|",
       "chunk_name": "bilanz"
     },
-    "net_interest_income": {
-      "value_current": 2121.0,
-      "value_prior_year": 2324.0,
+    "shareholders_equity": {
+      "value_current": 20673.0,
+      "value_prior_year": 19179.0,
       "unit": "Mio. CHF",
       "currency": "CHF",
-      "source_quote": "|Netto-Erfolg aus dem Zinsengeschäft|2’121|2’324|283|229|–8|1|18|–4|2’414|2’550|",
-      "chunk_name": "mehrjahresvergleich"
+      "source_quote": "|**Total Eigenkapital**|**17’478**|**18’444**|**19’179**|**20’673**|",
+      "chunk_name": "bilanz"
     },
     "trading_income": {
       "value_current": 144.0,

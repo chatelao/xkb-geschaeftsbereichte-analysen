@@ -34,7 +34,6 @@
 - 2014 `total_assets_mio`: Abweichung 1.64% (Bericht 2014: 27054.992 vs. Vorjahr in 2015: 26610.247).
 - 2014 `mortgage_loans_mio`: Abweichung 0.90% (Bericht 2014: 18925.491 vs. Vorjahr in 2015: 18754.312).
 - 2014 `customer_deposits_mio`: Lücke durch Vorjahreswert aus 2015 geschlossen (22006.562).
-- 2014 `net_interest_income_mio`: Abweichung 7.52% (Bericht 2014: 304.496 vs. Vorjahr in 2015: 327.404).
 - 2014 `commission_income_mio`: Abweichung 20.95% (Bericht 2014: 84.961 vs. Vorjahr in 2015: 102.76).
 - 2014 `total_operating_income_mio`: Abweichung 5.06% (Bericht 2014: 451.395 vs. Vorjahr in 2015: 474.23).
 - 2014 `operating_profit_mio`: Abweichung 6.83% (Bericht 2014: 193.558 vs. Vorjahr in 2015: 180.33).

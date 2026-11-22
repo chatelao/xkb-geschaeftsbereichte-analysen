@@ -1,0 +1,12 @@
+{
+  "annual": {
+    "2018": {"net_interest_income": 316.299, "fte_count": 1078.0, "share_price_eoy": 451.50, "dividend_per_share": 16.00},
+    "2019": {"net_interest_income": 298.258, "fte_count": 1099.0, "share_price_eoy": 450.50, "dividend_per_share": 16.00},
+    "2020": {"net_interest_income": 311.931, "fte_count": 1115.0, "share_price_eoy": 415.00, "dividend_per_share": 16.00},
+    "2021": {"net_interest_income": 307.051, "fte_count": 1121.0, "share_price_eoy": 435.00, "dividend_per_share": 17.00},
+    "2022": {"net_interest_income": 317.024, "fte_count": 1132.0, "share_price_eoy": 481.00, "dividend_per_share": 17.00},
+    "2023": {"net_interest_income": 370.658, "commission_income": 157.984, "fte_count": 1155.0, "share_price_eoy": 491.50, "dividend_per_share": 19.00},
+    "2024": {"net_interest_income": 332.052, "fte_count": 1186.0, "share_price_eoy": 437.50, "dividend_per_share": 19.00},
+    "2025": {"net_interest_income": 358.380, "fte_count": 1219.0, "share_price_eoy": 435.00, "dividend_per_share": 20.00}
+  }
+}

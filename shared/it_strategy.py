@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Strukturierte IT-Strategie-, Kernbankensystem- und Digitalisierungsdaten für alle 14 Institute."""
+"""Strukturierte IT-Strategie-, Kernbankensystem- und Digitalisierungsdaten für alle 19 Institute."""
 
 from __future__ import annotations
 
@@ -179,5 +179,38 @@ IT_STRATEGY_DATA: dict[str, dict] = {
         "digital_channels": "Valiant App, Valiant eBanking, Online-Hypotheken & Video-/Hybridberatung",
         "cyber_resilience": "FINMA-konformes OpRisk- und IKT-Sicherheits-Framework für überregionale Retail- & KMU-Plattform.",
         "sources": "valiant/.md/valiant-geschaeftsbericht-2025.md & valiant-geschaeftsbericht-2024.md",
+    },
+    "sgkb": {
+        "core_banking": "Avaloq Banking System (Stammhaus Schweiz, eingeführt 2008); Atruvia AG (SGKB Deutschland AG)",
+        "operating_model": "Multi-Provider-Outsourcing des IT-Betriebs an Swisscom (Schweiz) AG und Inventx AG; Atruvia für Deutschland",
+        "cloud_ai_data": [
+            "Aktives Technologie-Scouting und schrittweise Umsetzung bei Reife in den Bereichen Künstliche Intelligenz, Blockchain und Quantum Computing.",
+            "Ausbau der digitalen Kundenkanäle, Mobile-ID-Authentifizierung (mit Swisscom) und Valorendaten-BPO.",
+        ],
+        "digital_channels": "SGKB E-Banking, SGKB Mobile Banking, SGKB TWINT, digitale Kontoeröffnung & Beratung",
+        "cyber_resilience": "FINMA-konformes OpRisk- & IKT-Kontrollsystem; regelmässige Überprüfung der Outsourcing-Partner Swisscom, Inventx und Atruvia.",
+        "sources": "sgkb/.md/sgkb-geschaeftsbericht-2025.md (Kernbankensystem & F&E); sgkb-geschaeftsbericht-2018.md",
+    },
+    "blkb": {
+        "core_banking": "Avaloq Banking System (eingeführt 2010 als erste grössere Standardplattform-Migration)",
+        "operating_model": "Modulare Avaloq-Plattform im Stammhaus; geordnete Beendigung der separaten Cloud-Tochterplattform radicant (2025)",
+        "cloud_ai_data": [
+            "Erweiterung der Datenstrategie 2025 um Künstliche Intelligenz (KI) inklusive bankweiter Schulung der Mitarbeitenden in KI-Governance.",
+            "Fokussierung der IT-Investitionen auf das Kerngeschäft Nordwestschweiz, Prozessautomatisierung und digitale Beratungsprozesse nach dem radicant-Ausstieg.",
+        ],
+        "digital_channels": "BLKB E-Banking, BLKB Mobile Banking, BLKB TWINT, digitale Vorsorge- und Finanzierungsstrecken",
+        "cyber_resilience": "FINMA-konformes IKT- & OpRisk-Framework; aktive Sensibilisierung von Kundschaft und Öffentlichkeit zu Cybersicherheit.",
+        "sources": "blkb/.md/blkb-geschaeftsbericht-2025.md (Datenstrategie, KI-Governance & radicant); Inside IT (Avaloq 2008/2010)",
+    },
+    "lukb": {
+        "core_banking": "Avaloq Banking System (Evaluationsentscheid 2013 gegen Finnova / Ablösung der AGI-Plattform)",
+        "operating_model": "Eigenes Geschäftsleitungs-Departement Technology & Services (geleitet von Dr. Simon Kauth) auf Avaloq-Basis",
+        "cloud_ai_data": [
+            "Aufbau einer modernen Digital- und Krypto-Infrastruktur (einfacher Handel und Verwahrung von Kryptowährungen seit März 2024).",
+            "Durchgängige Digitalisierung der Kundenprozesse (LUKB E-Banking, LUKB TWINT seit 2022) und schalterlose Filialkonzepte (2023).",
+        ],
+        "digital_channels": "LUKB E-Banking, LUKB Mobile Banking, LUKB TWINT, Krypto-Plattform & digitale Vermögensverwaltung",
+        "cyber_resilience": "FINMA-konformes OpRisk- & IKT-Kontrollsystem; hohe Investitionen in IT-Sicherheit und Stabilität der Avaloq-Plattform.",
+        "sources": "lukb/.md/lukb-geschaeftsbericht-2025.md (Departement Technology & Services, Lagebericht); Finews / Netzwoche",
     },
 }

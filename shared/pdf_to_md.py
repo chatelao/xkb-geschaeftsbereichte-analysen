@@ -126,9 +126,13 @@ def main() -> None:
     parser.add_argument("--pattern", default="*.pdf", help="Glob pattern inside <bank>/pdf/")
     args = parser.parse_args()
 
+    from shared.config import BANKS_DIR
+
     bank_dir = Path(args.bank)
     if not bank_dir.is_dir():
-        print(f"Bank directory not found: {bank_dir}", file=sys.stderr)
+        bank_dir = BANKS_DIR / args.bank
+    if not bank_dir.is_dir():
+        print(f"Bank directory not found: {args.bank}", file=sys.stderr)
         sys.exit(1)
 
     ok, total = convert_bank_pdfs(

@@ -1,13 +1,13 @@
 # 04 · Operative Effizienz & Transformation (2014–2025): Zürcher Kantonalbank
 
 ## 1. Management Summary
-- Die Cost-Income-Ratio (CIR) liegt im Jahr 2025 bei **55,71 %** (vs. 62,21 % im Jahr 2014), die Eigenkapitalrendite (ROE) bei **7,89 %**.
+- Die Cost-Income-Ratio (CIR) liegt im Jahr 2025 bei **55,71 %** (vs. 62,02 % im Jahr 2014), die Eigenkapitalrendite (ROE) bei **7,89 %**.
 - Der Personalbestand umfasst 2025 **5'809,0 FTE** bei einem Ertrag pro Vollzeitstelle von **553,1 TCHF** und einem **Lohnkosten-/Produktivitätsverhältnis von 38,9 %** (bzw. **2,57×** Ertrag je CHF Personalaufwand).
 
 ## 2. Quantitative Entwicklung
 | Jahr | CIR % | ROE % | FTE | Ertrag/FTE (TCHF) | Lohn/FTE (TCHF) | Lohn/Ertrag % | Ertrag/Lohn | Bilanz/FTE (Mio.) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2014 | 62,21 % | – % | 4'844,0 | 398,2 | 168,5 | 42,3 % | 2,36× | 32,70 |
+| 2014 | 62,02 % | – % | 4'844,0 | 399,5 | 168,5 | 42,2 % | 2,37× | 32,70 |
 | 2015 | 62,34 % | – % | 5'179,0 | 425,6 | – | – % | –× | 29,81 |
 | 2016 | 61,98 % | – % | 5'173,0 | 449,4 | – | – % | –× | 30,54 |
 | 2017 | 61,39 % | – % | 5'117,0 | 456,5 | – | – % | –× | 32,03 |

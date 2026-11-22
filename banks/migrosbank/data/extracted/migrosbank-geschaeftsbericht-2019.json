@@ -78,6 +78,14 @@
       "source_quote": "|Gewinn|230’633|204’202|+26’430|+13|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 495675.0,
+      "value_prior_year": 473490.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Brutto-ErfolgZinsengeschäft|495’675|473’490|+22’185|+5|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "trading_income": {
       "value_current": 39739.0,
       "value_prior_year": 33582.0,

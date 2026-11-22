@@ -20,12 +20,12 @@
 | Kennzahl | Start (2016) | Aktuell (2025) | Veränderung / Einordnung |
 | --- | --- | --- | --- |
 | Bilanzsumme (Mio. CHF) | 26'094,5 | 37'874,1 | CAGR 4,23 % p.a. |
-| Geschäftsertrag (Mio. CHF) | 389,3 | 549,5 | CAGR 3,90 % p.a. |
+| Geschäftsertrag (Mio. CHF) | 378,5 | 549,5 | CAGR 4,23 % p.a. |
 | Reingewinn (Mio. CHF) | 117,5 | 154,7 | CAGR 3,10 % p.a. |
-| Cost-Income-Ratio (CIR) | 56,75 % | 54,84 % | -1,91 Pp. |
-| Eigenkapitalrendite (ROE) | – % | 5,60 % | – Pp. |
-| Ertrag pro FTE (TCHF) | 462,3 | 522,3 | Operative Produktivität |
-| Lohnkosten / Produktivität | 30,5 % | 29,7 % | Personalaufwand / Ertrag |
+| Cost-Income-Ratio (CIR) | 58,36 % | 54,84 % | -3,52 Pp. |
+| Eigenkapitalrendite (ROE) | 5,52 % | 5,60 % | 0,08 Pp. |
+| Ertrag pro FTE (TCHF) | 449,6 | 522,3 | Operative Produktivität |
+| Lohnkosten / Produktivität | 31,3 % | 29,7 % | Personalaufwand / Ertrag |
 | CET1-Quote (vs. Zielgrösse) | – | 17,02 % | Puffer 5,82 Pp. (Ziel 11,2 %) |
 
 ## 4. Strategische Leistungsbilanz & Meilensteine (CEO & VR-Präsidium)

@@ -37,9 +37,9 @@
 ## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
 - **Vorsorgeeinrichtung:** Caisse de pensions de la Banque Cantonale Vaudoise (*Beitragsprimat (umhüllend / enveloppante)*, Basis: `Swiss GAAP FER 16 / ARB`)
 - **Versichertenstruktur:** Aktive **2'210**, Rentner **1'479** (Verhältnis Aktive/Rentner: **1,49**)
-- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **0,0 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **8,6×** (CEO real 2025: 1'620,0 TCHF vs. Ø Personalaufwand/FTE: 188,8 TCHF)
-- **Quelle:** `bcv/.md/bcv-geschaeftsbericht-2024.md (Rapport social, S. 732-734)` — 2024: 2'210 aktive Versicherte (davon 1'964 Stammhaus) und 1'479 Rentner; umhüllender Vorsorgeplan.
+- **Quelle:** `bcv/.md/bcv-geschaeftsbericht-2025.md (Annexe Institutions de prévoyance)` — Überdeckung per Ende 2025: 136,8 Mio. CHF (zuzüglich 62,6 Mio. CHF patronaler Fonds = 199,4 Mio. CHF); Arbeitgeberbeiträge 2025: 40,9 Mio. CHF (2024: 40,3 Mio. CHF).
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2015:** Umstellung auf FINMA-RVB

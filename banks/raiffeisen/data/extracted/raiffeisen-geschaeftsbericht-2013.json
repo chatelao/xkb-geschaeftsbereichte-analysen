@@ -22,6 +22,14 @@
       "source_quote": "|Bilanzsumme|176'575|168'124|5,0|",
       "chunk_name": "bilanz"
     },
+    "total_operating_income": {
+      "value_current": 2791.0,
+      "value_prior_year": 2712.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Betriebsertrag|2'791|2'712|2,9|",
+      "chunk_name": "bilanz"
+    },
     "total_operating_expenses": {
       "value_current": 1723.0,
       "value_prior_year": 1786.0,
@@ -52,6 +60,14 @@
       "unit": "Mrd. CHF",
       "currency": "CHF",
       "source_quote": "|Total Eigenkapital|11'201|10'496|6,7|",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 8887.0,
+      "value_prior_year": 8797.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anzahl Vollzeitstellen|8'887|8'797|1,0|",
       "chunk_name": "bilanz"
     },
     "mortgage_loans": {

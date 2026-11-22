@@ -41,9 +41,9 @@
 ## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
 - **Vorsorgeeinrichtung:** Pensionskasse der Berner Kantonalbank AG (*Beitragsprimat (umhüllend)*, Basis: `Swiss GAAP FER 16 / ARB`)
 - **Versichertenstruktur:** Aktive **1'593**, Rentner **791** (Verhältnis Aktive/Rentner: **2,01**)
-- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **126,0 %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **83,8 Mio. CHF**
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **133,3 %**, Arbeitgeberbeitragsreserve **0,0 Mio. CHF**, Sondereinlagen **83,8 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **6,9×** (CEO real 2025: 998,0 TCHF vs. Ø Personalaufwand/FTE: 145,4 TCHF)
-- **Quelle:** `bekb/.md/bekb-geschaeftsbericht-2024.md (Anhang Vorsorgeeinrichtungen, S. 159)` — Schwankungsreserve 17,3 %, Freie Mittel 3,1 % (31.12.2024; 2023 Deckungsgrad 120,2 %); 2015 einmalige PK-Sanierungseinlage 83,8 Mio. CHF.
+- **Quelle:** `bekb/.md/bekb-geschaeftsbericht-2025.md (Anhang Tabelle 13, S. 150)` — Deckungsgrad Ende 2025: 133,3 % (2024: 126,0 %); Wertschwankungsreserve hat Zielwert mit 215,4 Mio. CHF erreicht; Beiträge 2025: 14,011 Mio. CHF.
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2015:** Umstellung auf FINMA-RVB sowie einmalige PK-Sanierungseinlage (83,8 Mio. CHF)

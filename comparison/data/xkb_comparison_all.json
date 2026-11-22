@@ -15,10 +15,13 @@
     "vontobel",
     "pictet",
     "entris",
-    "valiant"
+    "valiant",
+    "sgkb",
+    "lukb",
+    "blkb"
   ],
-  "annual_rows": 210,
-  "semester_rows": 124,
-  "offenlegung_rows": 249,
-  "verguetung_rows": 210
+  "annual_rows": 260,
+  "semester_rows": 129,
+  "offenlegung_rows": 274,
+  "verguetung_rows": 260
 }

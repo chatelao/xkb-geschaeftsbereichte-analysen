@@ -94,6 +94,14 @@
       "source_quote": "|Erfolg aus dem Handelsgeschäft und der Fair-Value-Option|**512**|625|",
       "chunk_name": "bilanz"
     },
+    "shareholders_equity": {
+      "value_current": 25000.0,
+      "value_prior_year": 44104.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Eigenkapital am Ende der Berichtsperiode|25 000|44 104|147 635|53 229|13 496|283 464|",
+      "chunk_name": "bilanz"
+    },
     "personnel_expenses": {
       "value_current": -804.0,
       "value_prior_year": -811.0,

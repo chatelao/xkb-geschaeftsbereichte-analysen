@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "stem": "lukb-geschaeftsbericht-2008",
+    "report_type": "annual",
+    "year": 2008,
+    "period": "FY2008",
+    "part": null,
+    "bank_id": "lukb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/lukb-geschaeftsbericht-2008.md",
+    "total_chars": 245910,
+    "total_lines": 3569
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 3362066.0,
+      "value_prior_year": 3069140.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden<br>|3 362 066<br>|3 069 140<br>|292 926<br>|9.5<br>|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 14647212.0,
+      "value_prior_year": 13998942.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen<br>|14 647 212<br>|13 998 942<br>|648 270<br>|4.6<br>|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1119593.0,
+      "value_prior_year": 707162.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|1 119 593|707 162|412 431|58.3|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 22694756.0,
+      "value_prior_year": 19602763.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|<br>Total Aktiven|22 694 756|19 602 763|3 091 993|15.8|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 7733134.0,
+      "value_prior_year": 5910928.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|<br>Verpflichtungen gegenüber Kunden in Spar-und Anlageform|7 733 134|5 910 928|1 822 206|30.8|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 650074.0,
+      "value_prior_year": 490577.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|<br>Kassenobligationen|650 074|490 577|159 497|32.5|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 4270500.0,
+      "value_prior_year": 4977500.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|<br>Anleihen und Pfandbriefdarlehen|4 270 500|4 977 500|–707 000|–14.2|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 484902.0,
+      "value_prior_year": 480902.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|484 902|480 902|4 000|0.8|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 143256.0,
+      "value_prior_year": 149876.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn|143 256|149 876|–6 620|–4.4|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

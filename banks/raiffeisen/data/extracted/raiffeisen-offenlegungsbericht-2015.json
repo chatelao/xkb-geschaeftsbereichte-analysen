@@ -38,14 +38,6 @@
       "source_quote": "|Anleihen und Pfandbriefdarlehen|23'470'245|21'518'753||",
       "chunk_name": "km1_eigenmittel"
     },
-    "shareholders_equity": {
-      "value_current": 13325719.0,
-      "value_prior_year": 12060387.0,
-      "unit": null,
-      "currency": "CHF",
-      "source_quote": "|**Total Eigenkapital (mit Minderheitsanteilen)**|**13'325'719**|**12'060'387**||",
-      "chunk_name": "km1_eigenmittel"
-    },
     "customer_loans_other": {
       "value_current": 5024441.0,
       "value_prior_year": null,

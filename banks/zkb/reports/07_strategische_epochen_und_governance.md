@@ -30,9 +30,9 @@
 ## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
 - **Vorsorgeeinrichtung:** Pensionskasse der Zürcher Kantonalbank (*Beitragsprimat (umhüllend)*, Basis: `Swiss GAAP FER 16 / ARB`)
 - **Versichertenstruktur:** Aktive **6'179**, Rentner **2'308** (Verhältnis Aktive/Rentner: **2,68**)
-- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **117,6 %**, Arbeitgeberbeitragsreserve **0,0 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **13,1×** (CEO real 2025: 2'826,2 TCHF vs. Ø Personalaufwand/FTE: 215,0 TCHF)
-- **Quelle:** `zkb/.md/zkb-geschaeftsbericht-2025.md (S. 99 / Personalbericht)` — 2025: 6'179 Aktive / 2'308 Rentner (2024: 6'039 / 2'282). Eigene autonome Kasse mit Arbeitnehmervertretung.
+- **Quelle:** `zkb/.md/zkb-geschaeftsbericht-2025.md (Personalbericht & Anhang 13, S. 147–148)` — 2025: 6'179 Aktive / 2'308 Rentner; PK-Vermögen ~6,0 Mrd. CHF; Deckungsgrad 117,6 % (gerundet 118 %; Marienburg-Kaderstiftung 110 %); bezahlte Beiträge 2025: 122 Mio. CHF.
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2015:** Übernahme Swisscanto & FINMA-RVB

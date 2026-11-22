@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "total_operating_income": {
+      "value_current": 1361.0,
+      "value_prior_year": 1256.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Betriebsertrag|1’361|1’256|8,4|",
+      "chunk_name": "bilanz"
+    },
     "total_operating_expenses": {
       "value_current": 841.0,
       "value_prior_year": 753.0,
@@ -44,6 +52,14 @@
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Total Eigenkapital|10’185|9’875|3,1|",
+      "chunk_name": "bilanz"
+    },
+    "fte_count": {
+      "value_current": 8731.0,
+      "value_prior_year": 8167.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anzahl Vollzeitstellen|8’731|8’167|6,9|",
       "chunk_name": "bilanz"
     },
     "mortgage_loans": {

@@ -1,0 +1,951 @@
+{
+  "bank_id": "lukb",
+  "total_reports": 37,
+  "reports": [
+    {
+      "stem": "lukb-geschaeftsbericht-2001",
+      "report_type": "annual",
+      "year": 2001,
+      "period": "FY2001",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9016,
+          "approx_tokens": 2254
+        },
+        "erfolgsrechnung": {
+          "chars": 4859,
+          "approx_tokens": 1214
+        },
+        "mehrjahresvergleich": {
+          "chars": 3328,
+          "approx_tokens": 832
+        },
+        "aktie_basisdaten": {
+          "chars": 2755,
+          "approx_tokens": 688
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 8728,
+          "approx_tokens": 2182
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2002",
+      "report_type": "annual",
+      "year": 2002,
+      "period": "FY2002",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8613,
+          "approx_tokens": 2153
+        },
+        "erfolgsrechnung": {
+          "chars": 4664,
+          "approx_tokens": 1166
+        },
+        "mehrjahresvergleich": {
+          "chars": 5352,
+          "approx_tokens": 1338
+        },
+        "aktie_basisdaten": {
+          "chars": 3024,
+          "approx_tokens": 756
+        },
+        "betreute_vermoegen": {
+          "chars": 1562,
+          "approx_tokens": 390
+        },
+        "verguetung": {
+          "chars": 7099,
+          "approx_tokens": 1774
+        },
+        "lagebericht_strategie": {
+          "chars": 7074,
+          "approx_tokens": 1768
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2003",
+      "report_type": "annual",
+      "year": 2003,
+      "period": "FY2003",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8914,
+          "approx_tokens": 2228
+        },
+        "erfolgsrechnung": {
+          "chars": 4783,
+          "approx_tokens": 1195
+        },
+        "mehrjahresvergleich": {
+          "chars": 5195,
+          "approx_tokens": 1298
+        },
+        "verguetung": {
+          "chars": 7985,
+          "approx_tokens": 1996
+        },
+        "lagebericht_strategie": {
+          "chars": 7386,
+          "approx_tokens": 1846
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2004",
+      "report_type": "annual",
+      "year": 2004,
+      "period": "FY2004",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4719,
+          "approx_tokens": 1179
+        },
+        "mehrjahresvergleich": {
+          "chars": 5403,
+          "approx_tokens": 1350
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7148,
+          "approx_tokens": 1787
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2005",
+      "report_type": "annual",
+      "year": 2005,
+      "period": "FY2005",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9260,
+          "approx_tokens": 2315
+        },
+        "erfolgsrechnung": {
+          "chars": 4666,
+          "approx_tokens": 1166
+        },
+        "mehrjahresvergleich": {
+          "chars": 4397,
+          "approx_tokens": 1099
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7063,
+          "approx_tokens": 1765
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2006",
+      "report_type": "annual",
+      "year": 2006,
+      "period": "FY2006",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4738,
+          "approx_tokens": 1184
+        },
+        "mehrjahresvergleich": {
+          "chars": 4354,
+          "approx_tokens": 1088
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7364,
+          "approx_tokens": 1841
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2007",
+      "report_type": "annual",
+      "year": 2007,
+      "period": "FY2007",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4912,
+          "approx_tokens": 1228
+        },
+        "mehrjahresvergleich": {
+          "chars": 4285,
+          "approx_tokens": 1071
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7573,
+          "approx_tokens": 1893
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2008",
+      "report_type": "annual",
+      "year": 2008,
+      "period": "FY2008",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4792,
+          "approx_tokens": 1198
+        },
+        "mehrjahresvergleich": {
+          "chars": 4385,
+          "approx_tokens": 1096
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7146,
+          "approx_tokens": 1786
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2009",
+      "report_type": "annual",
+      "year": 2009,
+      "period": "FY2009",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4670,
+          "approx_tokens": 1167
+        },
+        "mehrjahresvergleich": {
+          "chars": 4102,
+          "approx_tokens": 1025
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7032,
+          "approx_tokens": 1758
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2010",
+      "report_type": "annual",
+      "year": 2010,
+      "period": "FY2010",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4652,
+          "approx_tokens": 1163
+        },
+        "mehrjahresvergleich": {
+          "chars": 4081,
+          "approx_tokens": 1020
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7077,
+          "approx_tokens": 1769
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2011",
+      "report_type": "annual",
+      "year": 2011,
+      "period": "FY2011",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4429,
+          "approx_tokens": 1107
+        },
+        "mehrjahresvergleich": {
+          "chars": 3924,
+          "approx_tokens": 981
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7106,
+          "approx_tokens": 1776
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2012",
+      "report_type": "annual",
+      "year": 2012,
+      "period": "FY2012",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 3950,
+          "approx_tokens": 987
+        },
+        "mehrjahresvergleich": {
+          "chars": 3684,
+          "approx_tokens": 921
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7062,
+          "approx_tokens": 1765
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2013",
+      "report_type": "annual",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8847,
+          "approx_tokens": 2211
+        },
+        "erfolgsrechnung": {
+          "chars": 4013,
+          "approx_tokens": 1003
+        },
+        "mehrjahresvergleich": {
+          "chars": 3979,
+          "approx_tokens": 994
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7006,
+          "approx_tokens": 1751
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4333,
+          "approx_tokens": 1083
+        },
+        "mehrjahresvergleich": {
+          "chars": 3895,
+          "approx_tokens": 973
+        },
+        "verguetung": {
+          "chars": 3645,
+          "approx_tokens": 911
+        },
+        "lagebericht_strategie": {
+          "chars": 7195,
+          "approx_tokens": 1798
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4475,
+          "approx_tokens": 1118
+        },
+        "mehrjahresvergleich": {
+          "chars": 4270,
+          "approx_tokens": 1067
+        },
+        "verguetung": {
+          "chars": 3642,
+          "approx_tokens": 910
+        },
+        "lagebericht_strategie": {
+          "chars": 8149,
+          "approx_tokens": 2037
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4498,
+          "approx_tokens": 1124
+        },
+        "mehrjahresvergleich": {
+          "chars": 4509,
+          "approx_tokens": 1127
+        },
+        "verguetung": {
+          "chars": 3000,
+          "approx_tokens": 750
+        },
+        "lagebericht_strategie": {
+          "chars": 7345,
+          "approx_tokens": 1836
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4949,
+          "approx_tokens": 1237
+        },
+        "mehrjahresvergleich": {
+          "chars": 4848,
+          "approx_tokens": 1212
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7089,
+          "approx_tokens": 1772
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4928,
+          "approx_tokens": 1232
+        },
+        "mehrjahresvergleich": {
+          "chars": 3681,
+          "approx_tokens": 920
+        },
+        "betreute_vermoegen": {
+          "chars": 1925,
+          "approx_tokens": 481
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7050,
+          "approx_tokens": 1762
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4957,
+          "approx_tokens": 1239
+        },
+        "mehrjahresvergleich": {
+          "chars": 3664,
+          "approx_tokens": 916
+        },
+        "betreute_vermoegen": {
+          "chars": 2496,
+          "approx_tokens": 624
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7294,
+          "approx_tokens": 1823
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5002,
+          "approx_tokens": 1250
+        },
+        "mehrjahresvergleich": {
+          "chars": 3289,
+          "approx_tokens": 822
+        },
+        "betreute_vermoegen": {
+          "chars": 2647,
+          "approx_tokens": 661
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7438,
+          "approx_tokens": 1859
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5041,
+          "approx_tokens": 1260
+        },
+        "mehrjahresvergleich": {
+          "chars": 3254,
+          "approx_tokens": 813
+        },
+        "betreute_vermoegen": {
+          "chars": 2589,
+          "approx_tokens": 647
+        },
+        "verguetung": {
+          "chars": 8938,
+          "approx_tokens": 2234
+        },
+        "lagebericht_strategie": {
+          "chars": 7181,
+          "approx_tokens": 1795
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5006,
+          "approx_tokens": 1251
+        },
+        "mehrjahresvergleich": {
+          "chars": 2821,
+          "approx_tokens": 705
+        },
+        "aktie_basisdaten": {
+          "chars": 3634,
+          "approx_tokens": 908
+        },
+        "betreute_vermoegen": {
+          "chars": 2208,
+          "approx_tokens": 552
+        },
+        "verguetung": {
+          "chars": 9289,
+          "approx_tokens": 2322
+        },
+        "lagebericht_strategie": {
+          "chars": 7343,
+          "approx_tokens": 1835
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 5052,
+          "approx_tokens": 1263
+        },
+        "mehrjahresvergleich": {
+          "chars": 3019,
+          "approx_tokens": 754
+        },
+        "betreute_vermoegen": {
+          "chars": 1747,
+          "approx_tokens": 436
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7240,
+          "approx_tokens": 1810
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9181,
+          "approx_tokens": 2295
+        },
+        "erfolgsrechnung": {
+          "chars": 4976,
+          "approx_tokens": 1244
+        },
+        "mehrjahresvergleich": {
+          "chars": 4296,
+          "approx_tokens": 1074
+        },
+        "betreute_vermoegen": {
+          "chars": 2104,
+          "approx_tokens": 526
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7016,
+          "approx_tokens": 1754
+        }
+      }
+    },
+    {
+      "stem": "lukb-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4982,
+          "approx_tokens": 1245
+        },
+        "mehrjahresvergleich": {
+          "chars": 3939,
+          "approx_tokens": 984
+        },
+        "betreute_vermoegen": {
+          "chars": 2361,
+          "approx_tokens": 590
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7023,
+          "approx_tokens": 1755
+        }
+      }
+    },
+    {
+      "stem": "lukb-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "lukb-offenlegungsbericht-2017",
+      "report_type": "offenlegung_fy",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "lukb-offenlegungsbericht-2018",
+      "report_type": "offenlegung_fy",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "lukb-offenlegungsbericht-2019",
+      "report_type": "offenlegung_fy",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "lukb-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "lukb-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "lukb-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "lukb-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "lukb-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "lukb-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "lukb-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 6097,
+          "approx_tokens": 1524
+        },
+        "erfolgsrechnung": {
+          "chars": 4694,
+          "approx_tokens": 1173
+        },
+        "lagebericht_strategie": {
+          "chars": 5728,
+          "approx_tokens": 1432
+        }
+      }
+    },
+    {
+      "stem": "lukb-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5825,
+          "approx_tokens": 1456
+        },
+        "erfolgsrechnung": {
+          "chars": 4560,
+          "approx_tokens": 1140
+        },
+        "lagebericht_strategie": {
+          "chars": 5732,
+          "approx_tokens": 1433
+        }
+      }
+    }
+  ]
+}

@@ -17,6 +17,6 @@
   "employer_share_pct": null,
   "employer_contribution_reserve_mio": null,
   "extraordinary_contributions_mio": 0.0,
-  "notes": "Konzernrechnung weist Schweizer Pläne (UBS Swiss Plan & CS Swiss Plan) nach IAS 19 aus (Note 25/26); direkter Vergleich mit FER-16-Banken erfordert BVG-Deckungsgrad gemäss Art. 44 BVV 2.",
+  "notes": "Konzernrechnung weist Schweizer Pläne (UBS Swiss Plan & CS Swiss Plan, Zusammenführung per 01.01.2027) nach IAS 19 aus (Note 25); BVG-Deckungsgrad gemäss Art. 44 BVV 2 im IFRS-Abschluss nicht separat ausgewiesen.",
   "source_url_or_file": "ubs/.md/ubs-geschaeftsbericht-2025.md (Note 25 Post-employment benefit plans, S. 339)"
 }

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "stem": "blkb-offenlegungsbericht-2021",
+    "report_type": "offenlegung_fy",
+    "year": 2021,
+    "period": "FY2021",
+    "part": null,
+    "bank_id": "blkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/blkb-offenlegungsbericht-2021.md",
+    "total_chars": 61157,
+    "total_lines": 896
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2575943.0,
+      "value_prior_year": 2481867.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Hartes Kernkapital(CET1)|2 575 943|2 481 223|2 481 867|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2575943.0,
+      "value_prior_year": 2481867.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Kernkapital(T1)|2 575 943|2 481 223|2 481 867|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2609329.0,
+      "value_prior_year": 2513535.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Gesamtkapital total|2 609 329|2 513 104|2 513 535|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 13770816.0,
+      "value_prior_year": 12309181.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|RWA|13 770 816|12 961 088|12 309 181|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 18.71,
+      "value_prior_year": 20.16,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote|18,71%|19,14%|20,16%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 18.95,
+      "value_prior_year": 20.42,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Gesamtkapitalquote|18,95%|19,39%|20,42%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 145.66,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Finanzierungsquote,NSFR|145,66%|||",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

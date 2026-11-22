@@ -51,7 +51,7 @@ nav:
   - Übersicht:
       - Startseite: index.md
       - Master-Umsetzungsplan: PLAN.md
-  - Branchenvergleich (16 Institute):
+  - Branchenvergleich (19 Institute):
       - Übersicht: comparison/reports/README.md
       - "01 · Grösse & Geschäftsmodell": comparison/reports/01_groesse_wachstum_und_geschaeftsmodell.md
       - "02 · Profitabilität & Effizienz": comparison/reports/02_profitabilitaet_effizienz_und_produktivitaet.md
@@ -126,6 +126,45 @@ nav:
           - "09 · IT-Strategie & Digitalisierung": banks/vskb/reports/09_it_strategie_und_digitalisierung.md
           - "10 · Fusionsbaum & Historie (seit 1900)": banks/vskb/reports/10_fusionsbaum_und_historie.md
           - Validierungsbericht: banks/vskb/validation_report.md
+      - St.Galler Kantonalbank (SGKB):
+          - Übersicht: banks/sgkb/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/sgkb/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/sgkb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/sgkb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/sgkb/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktie & Wertschöpfung": banks/sgkb/reports/05_aktie_dividenden_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/sgkb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/sgkb/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/sgkb/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/sgkb/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/sgkb/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/sgkb/validation_report.md
+      - Luzerner Kantonalbank (LUKB):
+          - Übersicht: banks/lukb/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/lukb/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/lukb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/lukb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/lukb/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Aktie & Wertschöpfung": banks/lukb/reports/05_aktie_dividenden_und_wertschoepfung.md
+          - "06 · Semesterdynamik": banks/lukb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/lukb/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/lukb/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/lukb/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/lukb/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/lukb/validation_report.md
+      - Basellandschaftliche Kantonalbank (BLKB):
+          - Übersicht: banks/blkb/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/blkb/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/blkb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/blkb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/blkb/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Dotationskapital & Kanton": banks/blkb/reports/05_dotationskapital_ausschuettung_und_kanton_bl.md
+          - "06 · Semesterdynamik": banks/blkb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/blkb/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/blkb/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/blkb/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/blkb/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/blkb/validation_report.md
   - Gross- & Privatbanken:
       - UBS Group:
           - Übersicht: banks/ubs/reports/README.md

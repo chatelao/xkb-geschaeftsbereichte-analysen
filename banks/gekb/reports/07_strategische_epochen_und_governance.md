@@ -41,9 +41,9 @@
 ## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
 - **Vorsorgeeinrichtung:** Fondation de prévoyance professionnelle de la BCGE (*Beitragsprimat (umhüllend)*, Basis: `Swiss GAAP FER 16 / ARB`)
 - **Versichertenstruktur:** Aktive **–**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
-- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **0,0 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **7,6×** (CEO real 2025: 1'450,0 TCHF vs. Ø Personalaufwand/FTE: 190,7 TCHF)
-- **Quelle:** `gekb/.md/gekb-geschaeftsbericht-2024.md; gekb/.md/gekb-geschaeftsbericht-2025.md` — Haupt-Vorsorgeeinrichtung der BCGE-Gruppe, deckt alle Mitarbeitenden des Stammhauses ab.
+- **Quelle:** `gekb/.md/gekb-geschaeftsbericht-2025.md (Annexe 4.13 b, S. 92)` — Haupt-Vorsorgeeinrichtung der BCGE-Gruppe; bezahlte Arbeitgeberbeiträge 2025: 19,128 Mio. CHF (Vorsorgeaufwand im Personalaufwand 19,241 Mio. CHF; 2024: 18,260 Mio. CHF).
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2008:** Abwicklung Fondation de valorisation

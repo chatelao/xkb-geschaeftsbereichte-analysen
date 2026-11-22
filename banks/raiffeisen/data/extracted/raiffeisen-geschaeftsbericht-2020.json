@@ -14,6 +14,14 @@
   },
   "backend": "local",
   "metrics": {
+    "net_interest_income": {
+      "value_current": 2350.0,
+      "value_prior_year": 2267.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Brutto-Erfolg Zinsengeschäft|2’267|2’350|3,6|",
+      "chunk_name": "bilanz"
+    },
     "commission_income": {
       "value_current": 451.0,
       "value_prior_year": 416.0,
@@ -62,14 +70,6 @@
       "source_quote": "|Bilanzsumme|248’345|259’653|4,6|",
       "chunk_name": "bilanz"
     },
-    "shareholders_equity": {
-      "value_current": 18444.0,
-      "value_prior_year": 17478.0,
-      "unit": "Mio. CHF",
-      "currency": "CHF",
-      "source_quote": "|Total Eigenkapital (ohne Minderheitsanteile)|17’478|18’444|5,5|",
-      "chunk_name": "bilanz"
-    },
     "cet1_ratio_pct": {
       "value_current": 18.6,
       "value_prior_year": 16.9,
@@ -86,12 +86,28 @@
       "source_quote": "|TLAC Leverage Ratio|7,2%|7,3%||",
       "chunk_name": "bilanz"
     },
+    "fte_count": {
+      "value_current": 9492.0,
+      "value_prior_year": 9295.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anzahl Vollzeitstellen|9’295|9’492|2,1|",
+      "chunk_name": "bilanz"
+    },
     "reserves_banking_risks": {
       "value_current": 80.0,
       "value_prior_year": 200.0,
       "unit": "Mio. CHF",
       "currency": "CHF",
       "source_quote": "|Reserven für allgemeine Bankrisiken|80|200|200|200|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 15700.0,
+      "value_prior_year": 16524.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Eigenkapital**|**15’700**|**16’524**|**17’478**|**18’444**|",
       "chunk_name": "bilanz"
     },
     "customer_loans_other": {
@@ -117,14 +133,6 @@
       "currency": "CHF",
       "source_quote": "|Finanzanlagen|5, 11, 18|7’194’368|8’828’902|1’634’534|22,7|",
       "chunk_name": "bilanz"
-    },
-    "net_interest_income": {
-      "value_current": 2119.0,
-      "value_prior_year": 2111.0,
-      "unit": null,
-      "currency": "CHF",
-      "source_quote": "|Netto-Erfolg aus dem Zinsengeschäft|2’119|2’111|140|211|– 24|– 26|19|1|2’254|2’297|",
-      "chunk_name": "mehrjahresvergleich"
     },
     "trading_income": {
       "value_current": 133.0,

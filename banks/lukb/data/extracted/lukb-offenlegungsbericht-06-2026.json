@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "stem": "lukb-offenlegungsbericht-06-2026",
+    "report_type": "offenlegung_h1",
+    "year": 2026,
+    "period": "H1-2026",
+    "part": null,
+    "bank_id": "lukb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/lukb-offenlegungsbericht-06-2026.md",
+    "total_chars": 29333,
+    "total_lines": 454
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 4159.3,
+      "value_prior_year": 4090.9,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|4 159.3|4 090.9|3 989.6|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 5119.0,
+      "value_prior_year": 5050.6,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|5 119.0|5 050.6|4 949.3|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 5729.2,
+      "value_prior_year": 5740.2,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|5 729.2|5 740.2|5 433.9|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 27836.2,
+      "value_prior_year": 27904.3,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|4|RWA|27 836.2|27 904.3|27 566.9|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 14.94,
+      "value_prior_year": 14.66,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote|14.94 %|14.66 %|14.47 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 20.58,
+      "value_prior_year": 20.57,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote|20.58 %|20.57 %|19.71 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "customer_loans_other": {
+      "value_current": 0.1,
+      "value_prior_year": 0.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|0.1|<br>0.0|<br>5 827.1|5 827.2|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "mortgage_loans": {
+      "value_current": 9945.2,
+      "value_prior_year": 0.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|9 945.2|<br>0.0|<br>30 944.7|40 889.9|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "lcr_pct": {
+      "value_current": 135.61,
+      "value_prior_year": 142.73,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|23|Quote für kurzfristige Liquidität (LCR)|–|135.61 %|–|<br>142.73 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

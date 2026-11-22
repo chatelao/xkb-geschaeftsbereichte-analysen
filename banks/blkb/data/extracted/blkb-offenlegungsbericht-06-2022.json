@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "stem": "blkb-offenlegungsbericht-06-2022",
+    "report_type": "offenlegung_h1",
+    "year": 2022,
+    "period": "H1-2022",
+    "part": null,
+    "bank_id": "blkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/blkb-offenlegungsbericht-06-2022.md",
+    "total_chars": 16145,
+    "total_lines": 246
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2576702.0,
+      "value_prior_year": 2575943.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|2 576 702|2 575 943|2 481 223|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2576702.0,
+      "value_prior_year": 2575943.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|2 576 702|2 575 943|2 481 223|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2612211.0,
+      "value_prior_year": 2609329.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|2 612 211|2 609 329|2 513 104|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 14352605.0,
+      "value_prior_year": 13770816.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|4|RWA|14 352 605|13 770 816|12 961 088|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 17.95,
+      "value_prior_year": 18.71,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote|17,95%|18,71%|19,14%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 18.2,
+      "value_prior_year": 18.95,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote|18,20%|18,95%|19,39%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 147.82,
+      "value_prior_year": 145.66,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|20|Finanzierungsquote, NSFR|147.82%|145,66%||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "lcr_pct": {
+      "value_current": 128.16,
+      "value_prior_year": 121.9,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|23|Quote für kurzfristige Liquidität LCR (in %)||128,16%||121,90%|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

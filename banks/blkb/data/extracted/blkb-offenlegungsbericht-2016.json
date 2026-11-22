@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "blkb-offenlegungsbericht-2016",
+    "report_type": "offenlegung_fy",
+    "year": 2016,
+    "period": "FY2016",
+    "part": null,
+    "bank_id": "blkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/blkb-offenlegungsbericht-2016.md",
+    "total_chars": 32694,
+    "total_lines": 445
+  },
+  "backend": "local",
+  "metrics": {}
+}

@@ -1,0 +1,710 @@
+{
+  "bank_id": "blkb",
+  "total_reports": 28,
+  "reports": [
+    {
+      "stem": "blkb-geschaeftsbericht-2007",
+      "report_type": "annual",
+      "year": 2007,
+      "period": "FY2007",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4513,
+          "approx_tokens": 1128
+        },
+        "mehrjahresvergleich": {
+          "chars": 4245,
+          "approx_tokens": 1061
+        },
+        "aktie_basisdaten": {
+          "chars": 2523,
+          "approx_tokens": 630
+        },
+        "verguetung": {
+          "chars": 5449,
+          "approx_tokens": 1362
+        },
+        "lagebericht_strategie": {
+          "chars": 7037,
+          "approx_tokens": 1759
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2008",
+      "report_type": "annual",
+      "year": 2008,
+      "period": "FY2008",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8994,
+          "approx_tokens": 2248
+        },
+        "erfolgsrechnung": {
+          "chars": 4456,
+          "approx_tokens": 1114
+        },
+        "mehrjahresvergleich": {
+          "chars": 4777,
+          "approx_tokens": 1194
+        },
+        "aktie_basisdaten": {
+          "chars": 2285,
+          "approx_tokens": 571
+        },
+        "verguetung": {
+          "chars": 2445,
+          "approx_tokens": 611
+        },
+        "lagebericht_strategie": {
+          "chars": 7083,
+          "approx_tokens": 1770
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2009",
+      "report_type": "annual",
+      "year": 2009,
+      "period": "FY2009",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4726,
+          "approx_tokens": 1181
+        },
+        "mehrjahresvergleich": {
+          "chars": 4587,
+          "approx_tokens": 1146
+        },
+        "aktie_basisdaten": {
+          "chars": 2828,
+          "approx_tokens": 707
+        },
+        "verguetung": {
+          "chars": 2380,
+          "approx_tokens": 595
+        },
+        "lagebericht_strategie": {
+          "chars": 7183,
+          "approx_tokens": 1795
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2010",
+      "report_type": "annual",
+      "year": 2010,
+      "period": "FY2010",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4144,
+          "approx_tokens": 1036
+        },
+        "aktie_basisdaten": {
+          "chars": 2805,
+          "approx_tokens": 701
+        },
+        "verguetung": {
+          "chars": 5860,
+          "approx_tokens": 1465
+        },
+        "lagebericht_strategie": {
+          "chars": 7567,
+          "approx_tokens": 1891
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2011",
+      "report_type": "annual",
+      "year": 2011,
+      "period": "FY2011",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4291,
+          "approx_tokens": 1072
+        },
+        "aktie_basisdaten": {
+          "chars": 2894,
+          "approx_tokens": 723
+        },
+        "verguetung": {
+          "chars": 5743,
+          "approx_tokens": 1435
+        },
+        "lagebericht_strategie": {
+          "chars": 7586,
+          "approx_tokens": 1896
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2013",
+      "report_type": "annual",
+      "year": 2013,
+      "period": "FY2013",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "erfolgsrechnung": {
+          "chars": 4285,
+          "approx_tokens": 1071
+        },
+        "aktie_basisdaten": {
+          "chars": 2843,
+          "approx_tokens": 710
+        },
+        "verguetung": {
+          "chars": 6124,
+          "approx_tokens": 1531
+        },
+        "lagebericht_strategie": {
+          "chars": 7036,
+          "approx_tokens": 1759
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2014",
+      "report_type": "annual",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 5527,
+          "approx_tokens": 1381
+        },
+        "erfolgsrechnung": {
+          "chars": 2527,
+          "approx_tokens": 631
+        },
+        "aktie_basisdaten": {
+          "chars": 1355,
+          "approx_tokens": 338
+        },
+        "lagebericht_strategie": {
+          "chars": 136,
+          "approx_tokens": 34
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9301,
+          "approx_tokens": 2325
+        },
+        "erfolgsrechnung": {
+          "chars": 4792,
+          "approx_tokens": 1198
+        },
+        "aktie_basisdaten": {
+          "chars": 2860,
+          "approx_tokens": 715
+        },
+        "betreute_vermoegen": {
+          "chars": 1889,
+          "approx_tokens": 472
+        },
+        "verguetung": {
+          "chars": 5489,
+          "approx_tokens": 1372
+        },
+        "lagebericht_strategie": {
+          "chars": 7077,
+          "approx_tokens": 1769
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9022,
+          "approx_tokens": 2255
+        },
+        "erfolgsrechnung": {
+          "chars": 4845,
+          "approx_tokens": 1211
+        },
+        "aktie_basisdaten": {
+          "chars": 2617,
+          "approx_tokens": 654
+        },
+        "betreute_vermoegen": {
+          "chars": 1916,
+          "approx_tokens": 479
+        },
+        "verguetung": {
+          "chars": 5914,
+          "approx_tokens": 1478
+        },
+        "lagebericht_strategie": {
+          "chars": 7054,
+          "approx_tokens": 1763
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9229,
+          "approx_tokens": 2307
+        },
+        "erfolgsrechnung": {
+          "chars": 5173,
+          "approx_tokens": 1293
+        },
+        "aktie_basisdaten": {
+          "chars": 2296,
+          "approx_tokens": 574
+        },
+        "betreute_vermoegen": {
+          "chars": 1930,
+          "approx_tokens": 482
+        },
+        "verguetung": {
+          "chars": 5188,
+          "approx_tokens": 1297
+        },
+        "lagebericht_strategie": {
+          "chars": 7293,
+          "approx_tokens": 1823
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8064,
+          "approx_tokens": 2016
+        },
+        "erfolgsrechnung": {
+          "chars": 4638,
+          "approx_tokens": 1159
+        },
+        "mehrjahresvergleich": {
+          "chars": 2904,
+          "approx_tokens": 726
+        },
+        "aktie_basisdaten": {
+          "chars": 2377,
+          "approx_tokens": 594
+        },
+        "betreute_vermoegen": {
+          "chars": 1929,
+          "approx_tokens": 482
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7098,
+          "approx_tokens": 1774
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8255,
+          "approx_tokens": 2063
+        },
+        "erfolgsrechnung": {
+          "chars": 4642,
+          "approx_tokens": 1160
+        },
+        "mehrjahresvergleich": {
+          "chars": 2611,
+          "approx_tokens": 652
+        },
+        "aktie_basisdaten": {
+          "chars": 2402,
+          "approx_tokens": 600
+        },
+        "betreute_vermoegen": {
+          "chars": 1931,
+          "approx_tokens": 482
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7421,
+          "approx_tokens": 1855
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 9100,
+          "approx_tokens": 2275
+        },
+        "erfolgsrechnung": {
+          "chars": 4709,
+          "approx_tokens": 1177
+        },
+        "mehrjahresvergleich": {
+          "chars": 4939,
+          "approx_tokens": 1234
+        },
+        "aktie_basisdaten": {
+          "chars": 2637,
+          "approx_tokens": 659
+        },
+        "betreute_vermoegen": {
+          "chars": 1941,
+          "approx_tokens": 485
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7628,
+          "approx_tokens": 1907
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8955,
+          "approx_tokens": 2238
+        },
+        "erfolgsrechnung": {
+          "chars": 4744,
+          "approx_tokens": 1186
+        },
+        "aktie_basisdaten": {
+          "chars": 2649,
+          "approx_tokens": 662
+        },
+        "betreute_vermoegen": {
+          "chars": 2107,
+          "approx_tokens": 526
+        },
+        "verguetung": {
+          "chars": 5654,
+          "approx_tokens": 1413
+        },
+        "lagebericht_strategie": {
+          "chars": 7064,
+          "approx_tokens": 1766
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8222,
+          "approx_tokens": 2055
+        },
+        "erfolgsrechnung": {
+          "chars": 4573,
+          "approx_tokens": 1143
+        },
+        "mehrjahresvergleich": {
+          "chars": 2570,
+          "approx_tokens": 642
+        },
+        "aktie_basisdaten": {
+          "chars": 2271,
+          "approx_tokens": 567
+        },
+        "betreute_vermoegen": {
+          "chars": 1907,
+          "approx_tokens": 476
+        },
+        "lagebericht_strategie": {
+          "chars": 7027,
+          "approx_tokens": 1756
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8344,
+          "approx_tokens": 2086
+        },
+        "erfolgsrechnung": {
+          "chars": 4556,
+          "approx_tokens": 1139
+        },
+        "mehrjahresvergleich": {
+          "chars": 3192,
+          "approx_tokens": 798
+        },
+        "aktie_basisdaten": {
+          "chars": 2232,
+          "approx_tokens": 558
+        },
+        "betreute_vermoegen": {
+          "chars": 1917,
+          "approx_tokens": 479
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7492,
+          "approx_tokens": 1873
+        }
+      }
+    },
+    {
+      "stem": "blkb-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8498,
+          "approx_tokens": 2124
+        },
+        "erfolgsrechnung": {
+          "chars": 4670,
+          "approx_tokens": 1167
+        },
+        "mehrjahresvergleich": {
+          "chars": 3189,
+          "approx_tokens": 797
+        },
+        "aktie_basisdaten": {
+          "chars": 2257,
+          "approx_tokens": 564
+        },
+        "betreute_vermoegen": {
+          "chars": 1897,
+          "approx_tokens": 474
+        },
+        "verguetung": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        },
+        "lagebericht_strategie": {
+          "chars": 7635,
+          "approx_tokens": 1908
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-06-2022",
+      "report_type": "offenlegung_h1",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-2014",
+      "report_type": "offenlegung_fy",
+      "year": 2014,
+      "period": "FY2014",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9273,
+          "approx_tokens": 2318
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-2015",
+      "report_type": "offenlegung_fy",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-2016",
+      "report_type": "offenlegung_fy",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-2017",
+      "report_type": "offenlegung_fy",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-2018",
+      "report_type": "offenlegung_fy",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 6237,
+          "approx_tokens": 1559
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "blkb-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    }
+  ]
+}

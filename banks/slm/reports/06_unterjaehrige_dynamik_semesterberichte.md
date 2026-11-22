@@ -7,9 +7,9 @@
 | Periode | Bilanzsumme | Zinserfolg H1 | Geschäftsertrag H1 | Geschäftserfolg H1 | Reingewinn H1 |
 | --- | --- | --- | --- | --- | --- |
 | H1-2021 | 1'674,0 | 9,2 | 12,4 | 5,5 | – |
-| H1-2022 | 1'702,4 | 9,4 | 12,3 | 5,1 | – |
-| H1-2024 | 1'818,5 | 9,8 | 13,6 | 5,8 | – |
-| H1-2025 | 1'884,3 | 8,8 | 14,3 | 6,2 | – |
+| H1-2022 | 1'702,4 | 9,3 | 12,3 | 5,1 | – |
+| H1-2024 | 1'818,5 | 10,1 | 13,6 | 5,8 | – |
+| H1-2025 | 1'884,3 | 10,2 | 14,3 | 6,2 | – |
 
 ![Semester Saisonalität](./charts/06_semester_saisonalitaet_reserven.png)
 

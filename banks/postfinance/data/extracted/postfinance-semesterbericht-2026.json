@@ -22,6 +22,14 @@
       "source_quote": "|Gewinn|Mio. CHF|110|103|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 289.0,
+      "value_prior_year": 321.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Brutto-Erfolg Zinsengeschäft|Mio. CHF|321|289|",
+      "chunk_name": "bilanz"
+    },
     "commission_income": {
       "value_current": 171.0,
       "value_prior_year": 168.0,
@@ -94,6 +102,14 @@
       "source_quote": "|Liquidity Coverage Ratio|%|227|218|",
       "chunk_name": "bilanz"
     },
+    "fte_count": {
+      "value_current": 3460.0,
+      "value_prior_year": 3464.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalbestand|Vollzeitstellen|3 464|3 460|",
+      "chunk_name": "bilanz"
+    },
     "kassenobligationen": {
       "value_current": 54.0,
       "value_prior_year": 41.0,
@@ -109,14 +125,6 @@
       "currency": "CHF",
       "source_quote": "|Reserven für allgemeine Bankrisiken|140|200|",
       "chunk_name": "bilanz"
-    },
-    "net_interest_income": {
-      "value_current": 319.0,
-      "value_prior_year": 285.0,
-      "unit": null,
-      "currency": "CHF",
-      "source_quote": "|**Netto-Erfolg Zinsengeschäft**|**319**|**285**|",
-      "chunk_name": "erfolgsrechnung"
     },
     "trading_income": {
       "value_current": 103.0,

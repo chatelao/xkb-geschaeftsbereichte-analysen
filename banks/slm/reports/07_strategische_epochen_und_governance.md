@@ -11,7 +11,7 @@
 ## 2. Reale Gewinn-, Lohn- & Vergütungsentwicklung (real 2025 CHF)
 | Jahr | Gewinn nom. | Gewinn real 2025 | Lohn/FTE real (TCHF) | VR real (TCHF) | CEO real (TCHF) | GL real (TCHF) |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2012 | – | – | – | – | – | – |
+| 2012 | 3,2 | 3,4 | 120,5 | – | – | – |
 | 2013 | 3,2 | 3,4 | – | – | – | – |
 | 2014 | 3,2 | 3,4 | 131,2 | – | – | – |
 | 2015 | 3,3 | 3,5 | – | – | – | – |

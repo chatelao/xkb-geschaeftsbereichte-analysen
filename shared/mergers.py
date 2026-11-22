@@ -1,4 +1,4 @@
-"""Deterministische Fusions-, Übernahme- und Institutsgeschichtsdaten seit 1900 für alle 14 Banken."""
+"""Deterministische Fusions-, Übernahme- und Institutsgeschichtsdaten seit 1900 für alle 19 Banken."""
 
 from __future__ import annotations
 
@@ -362,5 +362,73 @@ MERGER_HISTORY: dict[str, dict[str, Any]] = {
             ["2017–2018", "Übernahme & Integration der Triba Partner Bank AG (Luzern)", "Akquisition", "Aufstockung auf 97,4 % (2017) und vollständige Fusion in die Valiant Bank AG (2018)"],
         ],
         "sources": "Valiant Geschäftsberichte (2016–2025); Valiant Chronik",
+    },
+    "sgkb": {
+        "founded": "1868 (St.Gallische Kantonalbank) → 2001 (Umwandlung in Aktiengesellschaft & Börsengang SIX)",
+        "lineage_summary": (
+            "Die 1868 gegründete St.Galler Kantonalbank wurde 2001 in eine spezialgesetzliche/privatrechtliche "
+            "Aktiengesellschaft umgewandelt und an der SIX Swiss Exchange kotiert (Kanton St. Gallen hält 51,0 %). "
+            "In den 2000er-Jahren expandierte sie über Hyposwiss (Zürich/Genf) und gründete 2009 die SGKB Deutschland AG. "
+            "2013–2014 fokussierte sie sich wieder auf das Kerngebiet (Verkauf Hyposwiss Genf und Übernahme/Integration "
+            "der Vadian Bank AG St. Gallen) sowie 2017–2018 Übernahme von Teilen der M.M.Warburg Bank (Schweiz)."
+        ),
+        "mermaid": """flowchart TD
+    SGKB1900["St.Gallische Kantonalbank (gegr. 1868, Stand 1900)"] -->|"2001: Umwandlung AG & IPO SIX"| SGKB01["St.Galler Kantonalbank AG (2001)"]
+    SGKB01 -->|"2009: Gründung Tochter"| DE["SGKB Deutschland AG (München)"]
+    HYPO["Hyposwiss Zürich / Genf"] -->|"2000er: Expansion / 2013–2014: Verkauf Genf & Integration Zürich"| SGKB01
+    VAD["Vadian Bank AG (St. Gallen)"] -->|"2014: Kauf & Integration"| SGKB01
+    WAR["M.M.Warburg Bank (Schweiz) PB-Geschäft"] -->|"2017–2018: Übernahme"| SGKB01
+    SGKB01 --> SGKB["St.Galler Kantonalbank Gruppe (heute)"]
+    DE --> SGKB""",
+        "milestones": [
+            ["1868 / 1900", "St.Gallische Kantonalbank", "Gründung & Ausgangslage", "Staatsbank des Kantons St. Gallen seit 1868"],
+            ["2001", "Umwandlung in AG & Börsengang (SIX: SGKN)", "Rechtsformwechsel", "Teilprivatisierung unter Beibehaltung der kantonalen Mehrheit (51,0 %) und Staatsgarantie"],
+            ["2009", "Gründung St.Galler Kantonalbank Deutschland AG", "Auslandstochter", "Aufbau des Private-Banking-Standorts München"],
+            ["2013–2014", "Kauf Vadian Bank AG & Verkauf Hyposwiss Genf", "Fokussierung", "Stärkung im Heimmarkt St. Gallen und Rückzug aus nicht-strategischen Auslandsmärkten"],
+            ["2017–2018", "Übernahme M.M.Warburg Bank (Schweiz) PB-Geschäft", "Akquisition", "Ausbau des Schweizer Private Bankings zum 150-Jahr-Jubiläum"],
+        ],
+        "sources": "SGKB Geschäftsberichte (2018–2025); SGKB Chronik",
+    },
+    "blkb": {
+        "founded": "1864 (Basellandschaftliche Kantonalbank, Liestal)",
+        "lineage_summary": (
+            "Die Basellandschaftliche Kantonalbank wurde 1864 durch Volksabstimmung im Kanton Basel-Landschaft gegründet "
+            "und wuchs seither ohne Grossfusionen organisch zur führenden Bank der Nordwestschweiz. "
+            "2001 übernahm sie zur Auslandsexpansion die AAM Privatbank (2009 an die Basler Kantonalbank verkauft). "
+            "2021–2025 lancierte sie die Digitalbank-Tochter radicant, deren Betrieb 2025 zugunsten der Fokussierung auf das Stammgeschäft eingestellt wurde."
+        ),
+        "mermaid": """flowchart TD
+    BLKB1900["Basellandschaftliche Kantonalbank (gegr. 1864, Stand 1900)"] -->|"Organisches Wachstum Nordwestschweiz"| BLKB00["BLKB (Staatsanstalt mit KB-Zertifikaten)"]
+    AAM["AAM Privatbank (Übernahme 2001)"] -->|"2009: Verkauf an BKB"| BLKB00
+    BLKB00 -->|"2021–2025: Gründung & Ausstieg 2025"| RAD["radicant bank ag (eingestellt 2025)"]
+    BLKB00 --> BLKB["Basellandschaftliche Kantonalbank (heute)"]""",
+        "milestones": [
+            ["1864 / 1900", "Basellandschaftliche Kantonalbank", "Gründung & Ausgangslage", "Volksbeschluss vom 10. Juli 1864; Staatsbank des Kantons Basel-Landschaft in Liestal"],
+            ["2001–2009", "Übernahme & Verkauf AAM Privatbank", "Auslandsexpansion / Rückzug", "2001 Übernahme der AAM zur Auslandsexpansion, 2009 Verkauf an die Basler Kantonalbank"],
+            ["2010", "Einführung Avaloq Banking System", "IT-Modernisierung", "Ablösung der Eigenentwicklung durch die Standardplattform Avaloq"],
+            ["2021–2025", "Aufbau und Beendigung radicant bank ag", "Strategische Bereinigung", "Nachhaltigkeits-Digitalbank 2025 wertberichtigt (CHF 105,5 Mio.) und geordnet beendet"],
+        ],
+        "sources": "BLKB Geschäftsberichte (2007–2025); BLKB Chronik",
+    },
+    "lukb": {
+        "founded": "1850 (Luzerner Kantonalbank) → 2001 (Umwandlung in privatrechtliche AG & Börsengang SIX)",
+        "lineage_summary": (
+            "Die 1850 gegründete Luzerner Kantonalbank wurde 2001 auf Basis des kantonalen Umwandlungsgesetzes in eine "
+            "privatrechtliche Aktiengesellschaft umgewandelt und an der SIX Swiss Exchange kotiert (Kanton Luzern hält 61,5 %). "
+            "2006 übernahm die Tochter Adler & Co. Privatbank den Basler Standort der swissfirst Bank AG und fusionierte 2010 "
+            "mit dem Stammhaus LUKB; 2025 wurde zudem die Tochter Refinum AG ins Stammhaus integriert."
+        ),
+        "mermaid": """flowchart TD
+    LUKB1900["Luzerner Kantonalbank (gegr. 1850, Stand 1900)"] -->|"2001: Umwandlungsgesetz & IPO SIX"| LUKB01["Luzerner Kantonalbank AG (2001)"]
+    ADL["Adler & Co. Privatbank AG (inkl. swissfirst Basel 2006)"] -->|"2010: Fusion ins Stammhaus"| LUKB01
+    REF["Refinum AG"] -->|"01/2025: Integration ins Stammhaus"| LUKB01
+    LUKB01 --> LUKB["Luzerner Kantonalbank Konzern (heute)"]""",
+        "milestones": [
+            ["1850 / 1900", "Luzerner Kantonalbank", "Gründung & Ausgangslage", "Kantonalbank des Kantons Luzern seit 1850"],
+            ["2001", "Umwandlung in AG & Börsengang (SIX: LUKN)", "Rechtsformwechsel", "Privatrechtliche AG mit Staatsgarantie und 61,5 % Kantonsbeteiligung"],
+            ["2006–2010", "Adler & Co. Privatbank AG", "Akquisition & Fusion", "Übernahme Standort Basel (2006) und vollständige Fusion mit LUKB (2010)"],
+            ["2025", "175-Jahr-Jubiläum & Integration Refinum AG", "Jubiläum & Konsolidierung", "Integration der Tochter Refinum AG per 31. Januar 2025 ins Stammhaus"],
+        ],
+        "sources": "LUKB Geschäftsberichte (2001–2025); LUKB Chronik",
     },
 }

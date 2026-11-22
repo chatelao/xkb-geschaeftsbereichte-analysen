@@ -1,0 +1,22 @@
+{
+  "bank_id": "blkb",
+  "short_name": "BLKB",
+  "pk_name": "Pensionskasse der BLKB (Basellandschaftliche Pensionskasse BLPK)",
+  "pk_plan_type": "Beitragsprimat",
+  "accounting_basis": "Swiss GAAP FER 26 / ARB",
+  "reference_year": 2025,
+  "active_insured_count": null,
+  "pensioners_count": null,
+  "active_to_pensioner_ratio": null,
+  "pk_assets_mio": null,
+  "coverage_ratio_bvg_pct": 115.4,
+  "technical_interest_rate_pct": null,
+  "interest_crediting_pct": null,
+  "conversion_rate_65_pct": null,
+  "employer_contribution_mio": 15.925,
+  "employer_share_pct": null,
+  "employer_contribution_reserve_mio": 0.0,
+  "extraordinary_contributions_mio": 0.0,
+  "notes": "Vorsorgelösung bei der BLPK mit Deckungsgrad 115,4 % per 31.12.2025 (Wertschwankungsreserve vollständig geäufnet); Beiträge/Vorsorgeaufwand 2025: CHF 15,925 Mio.; radicant bank ag bei Nest Sammelstiftung (112,5 %).",
+  "source_url_or_file": "blkb/.md/blkb-geschaeftsbericht-2025.md (Anhang Konzernrechnung Vorsorgeverpflichtungen)"
+}

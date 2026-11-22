@@ -1,11 +1,13 @@
 """Offizieller Schweizer Landesindex der Konsumentenpreise (BFS LIK, Basis Dez. 1982 = 100).
 
-Single Source of Truth für die Inflationsbereinigung auf reale CHF 2025 über alle 8 Institute.
+Single Source of Truth für die Inflationsbereinigung auf reale CHF 2025 über alle 19 Institute.
 """
 
 from __future__ import annotations
 
 BFS_LIK_DEZ1982: dict[int, float] = {
+    2001: 148.9,
+    2002: 149.8,
     2003: 150.7,
     2004: 152.0,
     2005: 153.7,

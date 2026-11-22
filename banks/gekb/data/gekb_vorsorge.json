@@ -13,10 +13,10 @@
   "technical_interest_rate_pct": null,
   "interest_crediting_pct": null,
   "conversion_rate_65_pct": null,
-  "employer_contribution_mio": null,
+  "employer_contribution_mio": 19.128,
   "employer_share_pct": null,
-  "employer_contribution_reserve_mio": null,
+  "employer_contribution_reserve_mio": 0.0,
   "extraordinary_contributions_mio": 0.0,
-  "notes": "Haupt-Vorsorgeeinrichtung der BCGE-Gruppe, deckt alle Mitarbeitenden des Stammhauses ab.",
-  "source_url_or_file": "gekb/.md/gekb-geschaeftsbericht-2024.md; gekb/.md/gekb-geschaeftsbericht-2025.md"
+  "notes": "Haupt-Vorsorgeeinrichtung der BCGE-Gruppe; bezahlte Arbeitgeberbeiträge 2025: 19,128 Mio. CHF (Vorsorgeaufwand im Personalaufwand 19,241 Mio. CHF; 2024: 18,260 Mio. CHF).",
+  "source_url_or_file": "gekb/.md/gekb-geschaeftsbericht-2025.md (Annexe 4.13 b, S. 92)"
 }

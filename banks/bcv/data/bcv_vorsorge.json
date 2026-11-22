@@ -4,7 +4,7 @@
   "pk_name": "Caisse de pensions de la Banque Cantonale Vaudoise",
   "pk_plan_type": "Beitragsprimat (umhüllend / enveloppante)",
   "accounting_basis": "Swiss GAAP FER 16 / ARB",
-  "reference_year": 2024,
+  "reference_year": 2025,
   "active_insured_count": 2210,
   "pensioners_count": 1479,
   "active_to_pensioner_ratio": 1.49,
@@ -13,10 +13,10 @@
   "technical_interest_rate_pct": null,
   "interest_crediting_pct": null,
   "conversion_rate_65_pct": null,
-  "employer_contribution_mio": null,
+  "employer_contribution_mio": 40.9,
   "employer_share_pct": null,
-  "employer_contribution_reserve_mio": null,
+  "employer_contribution_reserve_mio": 0.0,
   "extraordinary_contributions_mio": 0.0,
-  "notes": "2024: 2'210 aktive Versicherte (davon 1'964 Stammhaus) und 1'479 Rentner; umhüllender Vorsorgeplan.",
-  "source_url_or_file": "bcv/.md/bcv-geschaeftsbericht-2024.md (Rapport social, S. 732-734)"
+  "notes": "Überdeckung per Ende 2025: 136,8 Mio. CHF (zuzüglich 62,6 Mio. CHF patronaler Fonds = 199,4 Mio. CHF); Arbeitgeberbeiträge 2025: 40,9 Mio. CHF (2024: 40,3 Mio. CHF).",
+  "source_url_or_file": "bcv/.md/bcv-geschaeftsbericht-2025.md (Annexe Institutions de prévoyance)"
 }

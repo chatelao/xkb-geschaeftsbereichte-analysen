@@ -13,10 +13,10 @@
   "technical_interest_rate_pct": null,
   "interest_crediting_pct": null,
   "conversion_rate_65_pct": null,
-  "employer_contribution_mio": null,
+  "employer_contribution_mio": 55.3,
   "employer_share_pct": null,
   "employer_contribution_reserve_mio": null,
   "extraordinary_contributions_mio": 0.0,
-  "notes": "Bilanzierter Defined-Benefit-Aktivüberschuss (IAS 19) per 31.12.2025 CHF 218,3 Mio. (2024: CHF 54,5 Mio.); separater BVG-Deckungsgrad gemäss Art. 44 BVV 2 im Konzernbericht nicht ausgewiesen.",
-  "source_url_or_file": "vontobel/.md/vontobel-geschaeftsbericht-2025.md (Note 33)"
+  "notes": "Bilanzierter Defined-Benefit-Aktivüberschuss (IAS 19) per 31.12.2025 CHF 218,3 Mio. (2024: CHF 54,5 Mio.); Vorsorgeaufwand 2025: CHF 55,3 Mio. (2024: CHF 48,3 Mio.).",
+  "source_url_or_file": "vontobel/.md/vontobel-geschaeftsbericht-2025.md (Note 5 & Note 33)"
 }

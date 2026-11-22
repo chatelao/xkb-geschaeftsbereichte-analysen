@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "lukb-offenlegungsbericht-2020",
+    "report_type": "offenlegung_fy",
+    "year": 2020,
+    "period": "FY2020",
+    "part": null,
+    "bank_id": "lukb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/lukb-offenlegungsbericht-2020.md",
+    "total_chars": 59219,
+    "total_lines": 962
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2836.8,
+      "value_prior_year": 2766.1,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1 <br>|Hartes Kernkapital(CET1)<br>|2 836.8||2 766.1||2 758.4|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 3575.9,
+      "value_prior_year": 3503.4,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital(T1)|3 575.9||3 503.4||3 268.4|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 3576.3,
+      "value_prior_year": 3539.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|3 576.3||3 539.0||3 303.9|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 22622.2,
+      "value_prior_year": 22020.9,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|22 622.2||22 020.9||19 795.7|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 12.54,
+      "value_prior_year": 12.56,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote|12.54 %||12.56 %||13.93 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 15.81,
+      "value_prior_year": 16.07,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote|15.81 %||16.07 %||16.69 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

@@ -22,7 +22,7 @@
 - **Versichertenstruktur:** Aktive **–**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
 - **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **–×** (CEO real 2025: – TCHF vs. Ø Personalaufwand/FTE: 305,6 TCHF)
-- **Quelle:** `vontobel/.md/vontobel-geschaeftsbericht-2025.md (Note 33)` — Bilanzierter Defined-Benefit-Aktivüberschuss (IAS 19) per 31.12.2025 CHF 218,3 Mio. (2024: CHF 54,5 Mio.); separater BVG-Deckungsgrad gemäss Art. 44 BVV 2 im Konzernbericht nicht ausgewiesen.
+- **Quelle:** `vontobel/.md/vontobel-geschaeftsbericht-2025.md (Note 5 & Note 33)` — Bilanzierter Defined-Benefit-Aktivüberschuss (IAS 19) per 31.12.2025 CHF 218,3 Mio. (2024: CHF 54,5 Mio.); Vorsorgeaufwand 2025: CHF 55,3 Mio. (2024: CHF 48,3 Mio.).
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2025:** Inkrafttreten Basel III final per 01.01.2025

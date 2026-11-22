@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "stem": "lukb-geschaeftsbericht-2010",
+    "report_type": "annual",
+    "year": 2010,
+    "period": "FY2010",
+    "part": null,
+    "bank_id": "lukb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/lukb-geschaeftsbericht-2010.md",
+    "total_chars": 251244,
+    "total_lines": 3580
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 17036261.0,
+      "value_prior_year": 15865519.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen<br>|17 036 261<br>|15 865 519|1 170 742<br>|7.4<br>|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1748840.0,
+      "value_prior_year": 1730520.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen<br>|1 748 840|1 730 520|18 320|1.1|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 25841869.0,
+      "value_prior_year": 23998045.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**|**25 841 869**|**23 998 045**|**1 843 824**|**7.7**|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 253632.0,
+      "value_prior_year": 485268.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|l<br>Kassenobligationen|253 632|485 268|– 231 636|– 47.7|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 4598500.0,
+      "value_prior_year": 4086015.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|4 598 500|4 086 015|512 485|12.5|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 528902.0,
+      "value_prior_year": 508902.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|528 902|508 902|20 000|3.9|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 149409.0,
+      "value_prior_year": 140745.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn|149 409|140 745|8 664|6.2|",
+      "chunk_name": "bilanz"
+    }
+  }
+}

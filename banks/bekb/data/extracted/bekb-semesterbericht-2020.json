@@ -78,6 +78,14 @@
       "source_quote": "|Gewinn|60 073|142 870|–82 797|–58,0|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 139132.0,
+      "value_prior_year": 130792.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**BRUTTO-ERFOLG ZINSENGESCHÄFT**|**139 132**|**130 792**|**8 340**|**6,4**|",
+      "chunk_name": "bilanz"
+    },
     "commission_income": {
       "value_current": 54479.0,
       "value_prior_year": 51815.0,
@@ -140,6 +148,14 @@
       "unit": "TCHF",
       "currency": "CHF",
       "source_quote": "|Steuern|–10 900|–11 700|800|–6,8|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "shareholders_equity": {
+      "value_current": 2613622.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**EIGENKAPITAL AM ENDE DER BERICHTSPERIODE**|**186 400**|**54 734**|**173 614**|**605 385**|**1 545 204**|**–11 788**|**60 073**|**2 613 622**|",
       "chunk_name": "erfolgsrechnung"
     }
   }

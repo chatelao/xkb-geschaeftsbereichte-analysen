@@ -1,0 +1,20 @@
+{
+  "annual": {
+    "2008": {"total_operating_income": 464.332, "total_operating_expenses": 219.983},
+    "2009": {"total_operating_income": 453.692, "total_operating_expenses": 221.359},
+    "2010": {"total_operating_income": 449.842, "total_operating_expenses": 217.303},
+    "2013": {"share_price_eoy": 342.75, "dividend_per_share": 11.00},
+    "2014": {"share_price_eoy": 350.75, "dividend_per_share": 11.00},
+    "2015": {"share_price_eoy": 377.50, "dividend_per_share": 11.00},
+    "2016": {"share_price_eoy": 401.00, "dividend_per_share": 11.50},
+    "2017": {"share_price_eoy": 465.25, "dividend_per_share": 12.00},
+    "2018": {"share_price_eoy": 460.00, "dividend_per_share": 12.50},
+    "2019": {"share_price_eoy": 419.50, "dividend_per_share": 12.50},
+    "2020": {"share_price_eoy": 400.50, "dividend_per_share": 12.50},
+    "2021": {"shareholders_equity": 3081.9, "fte_count": 1075.7, "share_price_eoy": 415.00, "dividend_per_share": 12.50},
+    "2022": {"shareholders_equity": 3228.8, "fte_count": 1091.9, "share_price_eoy": 413.50, "dividend_per_share": 12.50},
+    "2023": {"shareholders_equity": 3856.1, "fte_count": 1134.9, "share_price_eoy": 72.00, "dividend_per_share": 2.50},
+    "2024": {"shareholders_equity": 4045.3, "fte_count": 1181.0, "share_price_eoy": 63.90, "dividend_per_share": 2.60},
+    "2025": {"shareholders_equity": 4224.6, "fte_count": 1206.2, "share_price_eoy": 92.70, "dividend_per_share": 2.70}
+  }
+}

@@ -1,5 +1,20 @@
 {
   "annual": {
+    "2012": {
+      "total_assets": 1204.8,
+      "mortgage_loans": 979.9,
+      "customer_deposits": 876.4,
+      "shareholders_equity": 121.9,
+      "net_interest_income": 16.3,
+      "commission_income": 2.1,
+      "other_ordinary_income": 1.5,
+      "total_operating_income": 20.5,
+      "personnel_expenses": 5.8,
+      "total_operating_expenses": 11.0,
+      "operating_profit": 9.5,
+      "net_profit": 3.19,
+      "fte_count": 51.1
+    },
     "2019": {"shareholders_equity": 146.427},
     "2020": {"shareholders_equity": 151.082},
     "2021": {"shareholders_equity": 157.693},

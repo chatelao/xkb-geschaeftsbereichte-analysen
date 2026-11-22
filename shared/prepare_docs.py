@@ -62,7 +62,7 @@ def prepare_docs() -> Path:
     comp_dst.mkdir(parents=True, exist_ok=True)
     shutil.copytree(REPO_ROOT / "comparison" / "reports", comp_dst / "reports", dirs_exist_ok=True)
 
-    # Alle 16 Institute unter banks/
+    # Alle 19 Institute unter banks/
     for b in VALID_BANKS:
         cfg = load_bank_config(b)
         b_dst = RTD_DIR / "banks" / b

@@ -75,7 +75,7 @@
       "value_prior_year": 653073.77,
       "unit": null,
       "currency": "CHF",
-      "source_quote": "|**Subtotal Netto-Erfolg Zinsengeschäft**|**630’603.13**|**653’073.77**|",
+      "source_quote": "|**Brutto-Erfolg Zinsengeschäft**|**630’603.13**|**653’073.77**|",
       "chunk_name": "bilanz"
     },
     "commission_income": {
@@ -140,6 +140,14 @@
       "unit": null,
       "currency": "CHF",
       "source_quote": "|Steuern|–16’143.55|–22’107.25|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "shareholders_equity": {
+      "value_current": 2960000.0,
+      "value_prior_year": 6781889.32,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Eigenkapital am Ende der Berichtsperiode**|**2’960’000.00**|**6’781’889.32**|**103’273.24**|**9’845’162.56**|",
       "chunk_name": "erfolgsrechnung"
     }
   }

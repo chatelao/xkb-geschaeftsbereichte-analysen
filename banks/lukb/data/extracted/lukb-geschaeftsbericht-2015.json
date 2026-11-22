@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "stem": "lukb-geschaeftsbericht-2015",
+    "report_type": "annual",
+    "year": 2015,
+    "period": "FY2015",
+    "part": null,
+    "bank_id": "lukb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/lukb-geschaeftsbericht-2015.md",
+    "total_chars": 261451,
+    "total_lines": 4283
+  },
+  "backend": "local",
+  "metrics": {
+    "mortgage_loans": {
+      "value_current": 22130645.0,
+      "value_prior_year": 21029005.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|22 130 645|21 029 005|1 101 640|5.2|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 2388969.0,
+      "value_prior_year": 2345416.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|2 388 969|2 345 416|43 553|1.9|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 33271520.0,
+      "value_prior_year": 29215208.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|**Total Aktiven**|**33 271 520**|**29 215 208**|**4 056 312**|**13.9**|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 21013965.0,
+      "value_prior_year": 20344069.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|21 013 965|20 344 069|669 896|3.3|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 63887.0,
+      "value_prior_year": 81528.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|63 887|81 528|– 17 641|– 21.6|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 5976000.0,
+      "value_prior_year": 5123000.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|5 976 000|5 123 000|853 000|16.7|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 668654.0,
+      "value_prior_year": 657785.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|668 654|657 785|10 868|1.7|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 180114.0,
+      "value_prior_year": 181808.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn|180 114|181 808|– 1 694|– 0.9|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 306424.0,
+      "value_prior_year": 332703.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bruttoerfolgaus dem Zinsengeschäft|306 424|332 703|– 26 279|– 7.9|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 82662.0,
+      "value_prior_year": 84071.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Kommissions- und Dienstleistungsgeschäft**|**82 662**|**84 071**|**– 1 408**|**– 1.7**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "trading_income": {
+      "value_current": 22474.0,
+      "value_prior_year": 20862.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|**Erfolg aus dem Handelsgeschäft und der Fair-Value-Option**|**22 474**|**20 862**|**1 612**|**7.7**|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": 206603.0,
+      "value_prior_year": 205435.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand|206 603|205 435|1 168|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "total_operating_income": {
+      "value_current": 431867.0,
+      "value_prior_year": 451836.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag (korrigiert um Veränderungen von ausfallrisikobedingten Wertberichtigungen<br>sowie Verluste aus dem Zinsengeschäft)|431 867|451 836|– 19 969|",
+      "chunk_name": "mehrjahresvergleich"
+    }
+  }
+}

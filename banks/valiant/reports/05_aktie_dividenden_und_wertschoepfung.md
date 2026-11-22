@@ -9,7 +9,7 @@
 ## 2. Quantitative Entwicklung
 | Jahr | Reingewinn (Mio.) | Eigenkapital (Mio.) | Aktienkurs (split-ber.) | Dividende/Aktie | Div.-Rendite | Öff. Ablieferung (Mio.) |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2016 | 117,5 | – | – | – | – % | – |
+| 2016 | 117,5 | 2'127,7 | – | – | – % | – |
 | 2017 | 119,2 | – | – | – | – % | – |
 | 2018 | 120,3 | 2'266,7 | – | – | – % | – |
 | 2019 | 121,1 | 2'318,3 | – | – | – % | – |
@@ -24,7 +24,7 @@
 
 ## 3. Treiberanalyse & Wendepunkte (Investoren-Perspektive)
 - Bei kotierten Instituten mit Aktiensplits (z. B. BCV 1:10 im Jahr 2020) sind sämtliche historischen Kurs- und Dividendenreihen deterministisch split-bereinigt.
-- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 8 Institute eingeordnet.
+- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 19 Institute eingeordnet.
 
 ## 4. Fazit, Führungsleistung & Ausblick
 - Stabile Ertragskraft sichert langfristig Dividendenkontinuität bzw. verlässliche Ablieferungen an Kanton, Post oder Genossenschafter.

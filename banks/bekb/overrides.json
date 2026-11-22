@@ -21,6 +21,12 @@
       "share_price_eoy": 228.0,
       "dividend_per_share": 8.8,
       "contribution_public_mio": 65.2
+    },
+    "2006": {
+      "shareholders_equity": 1026.0,
+      "personnel_expenses": 140.766,
+      "general_expenses": 80.277,
+      "total_operating_expenses": 221.043
     }
   },
   "compensation": {

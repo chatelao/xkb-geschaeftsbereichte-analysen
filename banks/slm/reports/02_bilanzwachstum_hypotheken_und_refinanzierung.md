@@ -1,7 +1,7 @@
 # 02 · Bilanzwachstum, Hypotheken & Refinanzierung (2012–2025): Bank SLM AG (Spar- und Leihkasse Münsingen)
 
 ## 1. Management Summary
-- Die Bilanzsumme wuchs von **– Mio. CHF** (2012) auf **1'913,9 Mio. CHF** (2025, CAGR **– %**).
+- Die Bilanzsumme wuchs von **1'204,8 Mio. CHF** (2012) auf **1'913,9 Mio. CHF** (2025, CAGR **3,62 %**).
 - Die Hypothekarforderungen machen im Jahr 2025 **80,1 %** der Bilanzsumme aus.
 - Die Kundeneinlagen belaufen sich 2025 auf **1'196,4 Mio. CHF**, das Eigenkapital auf **191,3 Mio. CHF** (Eigenkapitalquote **10,00 %**).
 
@@ -10,7 +10,7 @@
 ## 2. Quantitative Entwicklung
 | Jahr | Bilanzsumme | Hypotheken | Finanzanlagen | Kundeneinlagen | Eigenkapital | Deckungsgrad |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2012 | – | 979,9 | – | – | – | – % |
+| 2012 | 1'204,8 | 979,9 | – | 876,4 | 121,9 | 89,4 % |
 | 2013 | 1'236,8 | 1'013,8 | – | – | – | – % |
 | 2014 | 1'293,1 | 1'066,5 | 86,1 | 848,3 | – | 79,5 % |
 | 2015 | 1'379,2 | 1'115,4 | 86,4 | 933,5 | – | 83,7 % |

@@ -87,11 +87,11 @@
       "chunk_name": "bilanz"
     },
     "net_interest_income": {
-      "value_current": 235511.0,
-      "value_prior_year": 183540.0,
+      "value_current": 241679.0,
+      "value_prior_year": 182721.0,
       "unit": null,
       "currency": "CHF",
-      "source_quote": "|**Subtotal Netto-Erfolg Zinsengeschäft**||**235'511**|**183'540**|",
+      "source_quote": "|Brutto-Erfolg aus dem Zinsengeschäft||241'679|182'721|",
       "chunk_name": "bilanz"
     },
     "commission_income": {

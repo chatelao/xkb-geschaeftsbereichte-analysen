@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Strukturierte Führungs- und Leistungsdaten (CEO & Chairman of the Board / VR-Präsident) für alle 14 Institute."""
+"""Strukturierte Führungs- und Leistungsdaten (CEO & Chairman of the Board / VR-Präsident) für alle 19 Institute."""
 
 from __future__ import annotations
 
@@ -319,5 +319,68 @@ LEADERSHIP_DATA: dict[str, dict] = {
             "Starke Kapitalisierung (Gesamtkapitalquote 17,2 %) und Start der Strategieperiode «Valiant 2029» mit Fokus auf Einfachheit und Rentabilität.",
         ],
         "source": "valiant/.md/valiant-geschaeftsbericht-2025.md & valiant-geschaeftsbericht-2024.md",
+    },
+    "sgkb": {
+        "chairman_name": "Roland Ledergerber",
+        "chairman_title": "Präsident des Verwaltungsrats",
+        "ceo_name": "Dr. Christian Schmid",
+        "ceo_title": "Präsident der Geschäftsleitung (CEO)",
+        "governance_model": "Kotierte Kantonalbank-AG (SIX: SGKN, Kanton St. Gallen 51,0 %, Staatsgarantie)",
+        "timeline": [
+            ["2013–05/2022", "VR-Präsident", "Prof. Dr. Thomas A. Gutzwiller", "Strategiefokussierung auf Heimmarkt & Deutschland, 150-Jahr-Jubiläum (2018) & Kapitalerhöhung 2019"],
+            ["05/2022–heute", "VR-Präsident", "Roland Ledergerber", "Wechsel vom CEO- zum VR-Präsidium; Weiterentwicklung Strategie & Deutschland-Expansion"],
+            ["02/2008–04/2021", "CEO", "Roland Ledergerber", "13 Jahre operative Führung; Avaloq-Einführung, Übernahme Vadian Bank (2014) & Hyposwiss-Bereinigung"],
+            ["05/2021–heute", "CEO", "Dr. Christian Schmid", "Wachstum im Private Banking & Firmenkundengeschäft; Konzerngewinn CHF 227,0 Mio. (2025)"],
+        ],
+        "achievements": [
+            "Rekord-Geschäftsjahr 2025 mit Konzerngewinn von CHF 227,0 Mio. (+6,6 % vs. 2024) und verwalteten Vermögen über CHF 65 Mrd.",
+            "Erfolgreiche Fokussierung auf den Heimmarkt Ostschweiz, die übrige Deutschschweiz sowie Deutschland (SGKB Deutschland AG).",
+            "Kontinuierliches Wachstum bei hoher Kostendisziplin (CIR 53,15 %, ROE 7,28 % im Jahr 2025).",
+        ],
+        "source": "sgkb/.md/sgkb-geschaeftsbericht-2025.md & sgkb-geschaeftsbericht-2018.md",
+    },
+    "blkb": {
+        "chairman_name": "Thomas Aegerter (ab 2026; 2025–2026 a.i. Dr. Thomas Bauer)",
+        "chairman_title": "Präsident des Bankrats",
+        "ceo_name": "Alexandra Scriba (ab 2026; 2025–2026 a.i. Christoph Schär)",
+        "ceo_title": "CEO / Vorsitzende der Geschäftsleitung",
+        "governance_model": "Öffentlich-rechtliche Anstalt mit Kantonalbank-Zertifikaten (SIX: BLKB, Kanton BL 100 % Stimmrecht, Staatsgarantie)",
+        "timeline": [
+            ["2009–2017", "Bankratspräsidentin", "Dr. Elisabeth Schirmer-Mosset", "Fokus auf Regionalgeschäft nach AAM-Verkauf (2009) & Einführung Avaloq (2010)"],
+            ["2018–07/2025", "Bankratspräsident", "Thomas Schneider", "Strategie 2022–2027, Nachhaltigkeitsfokus & Aufbau/Beendigung radicant"],
+            ["07/2025–2026", "Bankratspräsident a.i.", "Dr. Thomas Bauer", "Interimsführung, Aufarbeitung radicant-Abschreibung & Neuaufstellung"],
+            ["2026–heute", "Bankratspräsident", "Thomas Aegerter", "Strategische Neufokussierung auf das Kerngebiet Nordwestschweiz"],
+            ["2009–2016", "CEO", "Dr. Beat Oberlin", "Kernbankensystem-Wechsel auf Avaloq (2010), 150-Jahr-Jubiläum (2014)"],
+            ["2017–07/2025", "CEO", "John Häfelfinger", "Digitalisierungs- & Nachhaltigkeitsoffensive, Wachstum im Stammgeschäft, Rücktritt nach radicant-Wertberichtigung"],
+            ["07/2025–2026", "CEO a.i.", "Christoph Schär", "Geordneter Ausstieg aus radicant & Stabilisierung Stammhaus (Geschäftsertrag CHF 499,1 Mio. 2025)"],
+            ["2026–heute", "CEO", "Alexandra Scriba", "Neue Doppelspitze mit Fokus auf Kernbankgeschäft in der Nordwestschweiz"],
+        ],
+        "achievements": [
+            "Rekord-Geschäftsertrag von CHF 499,1 Mio. (+4,6 % vs. 2024) und Konzerngewinn von CHF 154,5 Mio. im Jahr 2025 trotz radicant-Wertberichtigung (CHF 105,5 Mio.).",
+            "Geordneter Ausstieg aus dem Digitalbank-Projekt radicant und klare Rückbesinnung auf das profitable Kerngeschäft in der Nordwestschweiz.",
+            "Starke Kapitalbasis (Eigenkapital CHF 3,01 Mrd.) und hohe Kosteneffizienz im Stammhaus (CIR 53,21 %).",
+        ],
+        "source": "blkb/.md/blkb-geschaeftsbericht-2025.md; blkb-geschaeftsbericht-2017.md; blkb.ch Medienmitteilungen (2025–2026)",
+    },
+    "lukb": {
+        "chairman_name": "Markus Hongler",
+        "chairman_title": "Präsident des Verwaltungsrats",
+        "ceo_name": "Daniel Salzmann (Nachfolge per 2027: Stefan Studer)",
+        "ceo_title": "Chief Executive Officer (CEO)",
+        "governance_model": "Kotierte Kantonalbank-AG (SIX: LUKN, Kanton Luzern 61,5 %, Staatsgarantie mit Abgeltung)",
+        "timeline": [
+            ["2005–04/2017", "VR-Präsident", "Mark Bachmann", "12 Jahre Präsidium; Konsolidierung nach Börsengang & Avaloq-Grundsatzentscheid (2013)"],
+            ["04/2017–04/2021", "VR-Präsidentin", "Doris Russi Schurter", "Erste VR-Präsidentin der LUKB; Strategie LUKB20 & Übergang zu LUKB25"],
+            ["04/2021–heute", "VR-Präsident", "Markus Hongler", "Strategie LUKB25/LUKB30, S&P-Rating-Upgrade auf AA+ (2024) & 175-Jahr-Jubiläum (2025)"],
+            ["–2003", "CEO", "Karl Bruder", "Rechtsformwechsel zur privatrechtlichen AG & Börsengang an der SIX (2001)"],
+            ["2004–2014", "CEO", "Bernard Schmid", "Expansion & Integration Adler & Co. Privatbank (2010), Fokus auf Zentralschweizer Markt"],
+            ["2014–heute", "CEO", "Daniel Salzmann", "Avaloq-Transformation, Bilanzsumme auf CHF 62,2 Mrd. & Konzerngewinn CHF 295,5 Mio. (2025)"],
+        ],
+        "achievements": [
+            "Rekord-Konzerngewinn von CHF 295,5 Mio. (2025) bei einer Cost-Income-Ratio von 47,23 % und einer Bilanzsumme von CHF 62,2 Mrd.",
+            "Hochstufung des langfristigen S&P-Ratings auf AA+ (2024) und Total Return der LUKB-Aktie von >385 % seit Börsengang 2001.",
+            "Erfolgreiche Umsetzung der Digital- & Wachstumsstrategie inklusive Krypto-Angebot (2024) und nahtloser CEO-Nachfolgeplanung (Stefan Studer).",
+        ],
+        "source": "lukb/.md/lukb-geschaeftsbericht-2025.md; lukb-geschaeftsbericht-2004.md; lukb.ch Medienmitteilungen",
     },
 }

@@ -1,7 +1,7 @@
 # 04 · Ausschüttung, Eigentümer & reale Vergütung (real 2025 CHF)
 
 ## 1. Management Summary
-- Die 8 Institute decken vier unterschiedliche Eigentümermodelle ab (`listed_share`, `cantonal_endowment`, `cooperative_payout`, `post_dividend`).
+- Die 19 Institute decken vier unterschiedliche Eigentümermodelle ab (`listed_share`, `cantonal_endowment`, `cooperative_payout`, `post_dividend`).
 - Alle Lohnkosten und Vergütungsreihen sind über `shared/cpi_bfs.py` (BFS LIK) auf **reale CHF 2025** normiert.
 
 ![Reale Vergütung 2025](./charts/08_verguetung_real_2025_vergleich.png)
@@ -25,5 +25,8 @@
 | Pictet | post_dividend | 667,2 | 293,2 | – | – |
 | Entris / RBA-Holding | post_dividend | 13,8 | 187,6 | – | – |
 | Valiant | listed_share | 154,7 | 155,1 | – | – |
+| SGKB | listed_share | 227,0 | 168,8 | 435,00 | 20,00 |
+| LUKB | listed_share | 295,5 | 181,1 | 92,70 | 2,70 |
+| BLKB | cantonal_endowment | 154,0 | 171,6 | 984,00 | 42,00 |
 
 ![Reingewinn Vergleich](./charts/09_ausschuettung_und_total_return.png)

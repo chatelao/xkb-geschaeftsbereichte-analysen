@@ -11,7 +11,7 @@
 
 ## Vorjahres-Selbstheilung (`t → t+1`) & Abweichungen (> 0.5 %)
 - 2018 `shareholders_equity_mio`: Lücke durch Vorjahreswert aus 2019 geschlossen (2266.681).
-- 2021 `net_interest_income_mio`: Lücke durch Vorjahreswert aus 2022 geschlossen (327.437).
+- 2021 `net_interest_income_mio`: Lücke durch Vorjahreswert aus 2022 geschlossen (341.644).
 - 2021 `commission_income_mio`: Lücke durch Vorjahreswert aus 2022 geschlossen (68.743).
 - 2021 `total_operating_income_mio`: Lücke durch Vorjahreswert aus 2022 geschlossen (430.609).
 - 2021 `total_operating_expenses_mio`: Lücke durch Vorjahreswert aus 2022 geschlossen (-254.353).

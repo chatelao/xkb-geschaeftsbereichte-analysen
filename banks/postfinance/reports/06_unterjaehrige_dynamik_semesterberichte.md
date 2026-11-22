@@ -6,7 +6,7 @@
 ## 2. Quantitative Entwicklung
 | Periode | Bilanzsumme | Zinserfolg H1 | Geschäftsertrag H1 | Geschäftserfolg H1 | Reingewinn H1 |
 | --- | --- | --- | --- | --- | --- |
-| H1-2022 | 123,4 | 0,3 | 0,6 | 0,0 | 0,2 |
+| H1-2022 | 123,4 | 0,2 | 0,6 | 0,0 | 0,2 |
 | H1-2026 | 106,5 | 0,3 | 0,6 | 0,1 | 0,1 |
 
 ![Semester Saisonalität](./charts/06_semester_saisonalitaet_reserven.png)

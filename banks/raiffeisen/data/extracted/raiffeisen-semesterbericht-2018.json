@@ -78,6 +78,14 @@
       "source_quote": "|Gesamtkapitalquote (Eigenmittel)<br>*|16,9%|17,4%||",
       "chunk_name": "bilanz"
     },
+    "fte_count": {
+      "value_current": 9387.0,
+      "value_prior_year": 9411.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Anzahl Vollzeitstellen|9'387|9'411|-0,3|",
+      "chunk_name": "bilanz"
+    },
     "mortgage_loans": {
       "value_current": 176262028.0,
       "value_prior_year": 172621503.0,
@@ -125,6 +133,30 @@
       "currency": "CHF",
       "source_quote": "|Reserven für allgemeine Bankrisiken|80'000|80'000|-|0,0|",
       "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 1148494.0,
+      "value_prior_year": 1118273.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Brutto-ErfolgZinsengeschäft|1'148'494|1'118'273|30'221|2,7|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 255922.0,
+      "value_prior_year": 246215.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolgaus dem Kommissions- und Dienstleistungsgeschäft|255'922|246'215|9'707|3,9|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "trading_income": {
+      "value_current": 118392.0,
+      "value_prior_year": 116091.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Erfolgaus dem Handelsgeschäft und der Fair-Value-Option|118'392|116'091|2'301|2,0|",
+      "chunk_name": "erfolgsrechnung"
     },
     "other_ordinary_income": {
       "value_current": 123584.0,

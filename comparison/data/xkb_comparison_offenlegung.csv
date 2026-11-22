@@ -154,13 +154,13 @@ raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,H1-2019,2019-06-30,Basel III,102032.0,16548.0,16.2,17.4,,,,41.08,6.2
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,Q3-2019,2019-09-30,Basel III,97333.0,16063.0,16.5,17.7,,,,39.19,6.5
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2019,FY2019,2019-12-31,Basel III,98295.0,16868.0,17.2,18.3,,,,39.58,7.2
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,Q1-2020,2020-03-31,Basel III,,,17.2,18.3,,,,,7.2
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,H1-2020,2020-06-30,Basel III,,,17.0,18.1,,,,,7.0
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,Q3-2020,2020-09-30,Basel III,,,18.0,18.4,,,,,8.0
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,FY2020,2020-12-31,Basel III,,,19.1,20.5,,,,,9.1
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,Q1-2021,2021-03-31,Basel III,,,18.8,20.7,,,,,8.8
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,H1-2021,2021-06-30,Basel III,,,18.7,20.6,,,,,8.7
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,Q3-2021,2021-09-30,Basel III,,,19.8,22.0,,,146.5,,9.8
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,Q1-2020,2020-03-31,Basel III,98651.0,16920.0,17.2,18.3,,,,37.99,7.2
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,H1-2020,2020-06-30,Basel III,99928.0,16959.0,17.0,18.1,,,,38.49,7.0
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,Q3-2020,2020-09-30,Basel III,95033.0,17085.0,18.0,18.4,,,,36.6,8.0
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2020,FY2020,2020-12-31,Basel III,93.545,17.883,19.1,20.5,,,,0.04,9.1
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,Q1-2021,2021-03-31,Basel III,95.33,17.961,18.8,20.7,,,,0.03,8.8
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,H1-2021,2021-06-30,Basel III,96.387,18.018,18.7,20.6,,,,0.03,8.7
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,Q3-2021,2021-09-30,Basel III,91.034,18.053,19.8,22.0,,,146.5,0.03,9.8
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2021,FY2021,2021-12-31,Basel III,91.187,19.109,21.0,23.2,,,144.9,0.03,11.0
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2022,Q1-2022,2022-03-31,Basel III,92.493,19.183,20.7,22.8,7.0,,143.8,0.03,10.7
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2022,H1-2022,2022-06-30,Basel III,93.215,19.375,20.8,22.8,,,142.3,0.03,10.8
@@ -175,7 +175,7 @@ raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,Q3-2024,2024-09-30,Basel III,102.203,22.947,22.5,25.3,8.0,,,0.03,12.5
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2024,FY2024,2024-12-31,Basel III,103.463,23.541,22.8,25.3,,,,0.03,12.8
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,Q1-2025,2025-03-31,Basel III final,97.949,23.87,24.4,,9.0,,,0.03,14.4
-raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,H1-2025,2025-06-30,Basel III final,,,24.2,26.9,7.8,,,,14.2
+raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,H1-2025,2025-06-30,Basel III final,99.339,24.075,24.2,26.9,7.8,,,0.03,14.2
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,Q3-2025,2025-09-30,Basel III final,100.756,24.307,24.1,26.7,7.8,,,0.03,14.1
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2025,FY2025,2025-12-31,Basel III final,101.966,24.811,24.3,26.7,7.9,,,0.03,14.3
 raiffeisen,Raiffeisen,domestic_dsib,consolidated,ARB_RVB,False,False,2,CHF,2026,Q1-2026,2026-03-31,Basel III final,101.338,25.039,24.7,27.0,7.8,,,,14.7
@@ -248,3 +248,28 @@ valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2023,FY2023
 valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2024,FY2024,2024-12-31,Basel III,15653.408,2580.958,16.49,16.5,,,115.0,42.17,5.29
 valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,15480.452,2664.217,17.21,17.23,6.66,,119.0,40.87,6.01
 valiant,Valiant,regional_bank,consolidated,ARB_RVB,False,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,15765.075,2682.481,17.02,17.02,6.54,,120.0,,5.82
+sgkb,SGKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2023,H1-2023,2023-06-30,Basel III,17671.679,2679.598,15.2,16.4,,132.0,130.6,42.75,4.0
+sgkb,SGKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2024,FY2024,2024-12-31,Basel III,18963.524,2886.654,15.2,17.5,7.0,138.5,130.2,41.6,4.0
+sgkb,SGKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,18953.722,2992.287,15.8,18.8,7.0,142.1,125.7,39.37,4.6
+sgkb,SGKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,19661.973,3026.457,15.4,18.3,,141.2,126.0,,4.2
+lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2017,FY2017,2017-12-31,Basel III,,,14.61,16.59,,,,,3.41
+lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2018,FY2018,2018-12-31,Basel III,,2662.1,14.28,16.05,,,,,3.08
+lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2019,FY2019,2019-12-31,Basel III,19.796,2.758,13.93,16.69,,,,0.05,2.73
+lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2020,FY2020,2020-12-31,Basel III,22.622,2.837,12.54,15.81,,,,0.05,1.34
+lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2021,FY2021,2021-12-31,Basel III,23947.0,2941.1,12.28,17.59,,,132.91,45.32,1.08
+lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2022,FY2022,2022-12-31,Basel III,25553.4,3107.7,12.16,17.17,,,130.3,44.85,0.96
+lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2023,FY2023,2023-12-31,Basel III,27833.6,3717.2,13.36,17.99,,,131.75,48.49,2.16
+lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2024,FY2024,2024-12-31,Basel III,28208.5,3917.0,13.89,18.47,,,126.51,47.44,2.69
+lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,27904.3,4090.9,14.66,20.57,,,,44.83,3.46
+lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2026,H1-2026,2026-06-30,Basel III final,27836.2,4159.3,14.94,20.58,,135.61,,,3.74
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2014,FY2014,2014-12-31,Basel III,,,,,,,,,
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2015,FY2015,2015-12-31,Basel III,,,,,,,,,
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2016,FY2016,2016-12-31,Basel III,,,,,,,,,
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2017,FY2017,2017-12-31,Basel III,,,,,,,,,
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2018,FY2018,2018-12-31,Basel III,,2336.314,20.35,20.35,,,,,9.15
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2020,FY2020,2020-12-31,Basel III,12522.002,2430.57,19.41,19.41,,,,42.06,8.21
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2021,FY2021,2021-12-31,Basel III,13770.816,2575.943,18.71,18.95,,,145.66,41.9,7.51
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2022,H1-2022,2022-06-30,Basel III,14352.605,2576.702,17.95,18.2,,128.16,147.82,41.24,6.75
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2023,FY2023,2023-12-31,Basel III,14572.514,2746.3,18.85,19.06,,,145.52,42.68,7.65
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2024,FY2024,2024-12-31,Basel III,14626.63,2829.192,19.34,19.56,,,145.64,40.54,8.14
+blkb,BLKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2025,FY2025,2025-12-31,Basel III final,13688.298,2872.776,20.99,21.21,7.42,153.94,144.84,36.39,9.79

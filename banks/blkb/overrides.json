@@ -1,0 +1,35 @@
+{
+  "annual": {
+    "2007": {"contribution_public_mio": 34.0},
+    "2008": {"contribution_public_mio": 34.0},
+    "2009": {"contribution_public_mio": 40.0},
+    "2010": {"contribution_public_mio": 40.0},
+    "2011": {"contribution_public_mio": 40.0},
+    "2013": {"contribution_public_mio": 40.0},
+    "2014": {"contribution_public_mio": 42.0},
+    "2016": {"contribution_public_mio": 53.587, "share_price_eoy": 900.00, "dividend_per_share": 35.00},
+    "2017": {"contribution_public_mio": 53.587, "share_price_eoy": 904.50, "dividend_per_share": 35.00},
+    "2018": {"contribution_public_mio": 56.0, "share_price_eoy": 908.00, "dividend_per_share": 35.00},
+    "2019": {"contribution_public_mio": 60.0, "share_price_eoy": 920.00, "dividend_per_share": 35.00},
+    "2020": {"contribution_public_mio": 60.1, "share_price_eoy": 940.00, "dividend_per_share": 35.00},
+    "2021": {"contribution_public_mio": 60.2, "share_price_eoy": 910.00, "dividend_per_share": 35.00},
+    "2022": {"contribution_public_mio": 60.3, "share_price_eoy": 910.00, "dividend_per_share": 35.00},
+    "2023": {"contribution_public_mio": 68.7, "share_price_eoy": 856.00, "dividend_per_share": 40.00},
+    "2024": {
+      "shareholders_equity": 3003.148,
+      "net_interest_income": 341.823,
+      "commission_income": 92.181,
+      "contribution_public_mio": 72.8,
+      "share_price_eoy": 860.00,
+      "dividend_per_share": 42.00
+    },
+    "2025": {
+      "shareholders_equity": 3013.654,
+      "net_interest_income": 362.390,
+      "commission_income": 97.357,
+      "contribution_public_mio": 71.7,
+      "share_price_eoy": 984.00,
+      "dividend_per_share": 42.00
+    }
+  }
+}

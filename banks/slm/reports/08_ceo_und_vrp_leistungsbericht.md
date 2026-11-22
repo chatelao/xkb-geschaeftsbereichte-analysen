@@ -20,13 +20,13 @@
 ## 3. Quantitative Performance Scorecard (2012–2025)
 | Kennzahl | Start (2012) | Aktuell (2025) | Veränderung / Einordnung |
 | --- | --- | --- | --- |
-| Bilanzsumme (Mio. CHF) | – | 1'913,9 | CAGR – % p.a. |
-| Geschäftsertrag (Mio. CHF) | – | 29,0 | CAGR – % p.a. |
-| Reingewinn (Mio. CHF) | – | 3,5 | CAGR – % p.a. |
-| Cost-Income-Ratio (CIR) | – % | 45,72 % | – Pp. |
-| Eigenkapitalrendite (ROE) | – % | 1,83 % | – Pp. |
-| Ertrag pro FTE (TCHF) | – | 438,8 | Operative Produktivität |
-| Lohnkosten / Produktivität | – % | 28,1 % | Personalaufwand / Ertrag |
+| Bilanzsumme (Mio. CHF) | 1'204,8 | 1'913,9 | CAGR 3,62 % p.a. |
+| Geschäftsertrag (Mio. CHF) | 20,5 | 29,0 | CAGR 2,71 % p.a. |
+| Reingewinn (Mio. CHF) | 3,2 | 3,5 | CAGR 0,73 % p.a. |
+| Cost-Income-Ratio (CIR) | 53,66 % | 45,72 % | -7,94 Pp. |
+| Eigenkapitalrendite (ROE) | 2,62 % | 1,83 % | -0,79 Pp. |
+| Ertrag pro FTE (TCHF) | 401,2 | 438,8 | Operative Produktivität |
+| Lohnkosten / Produktivität | 28,3 % | 28,1 % | Personalaufwand / Ertrag |
 | CET1-Quote (vs. Zielgrösse) | – | – % | Puffer – Pp. (Ziel 10,5 %) |
 
 ## 4. Strategische Leistungsbilanz & Meilensteine (CEO & VR-Präsidium)

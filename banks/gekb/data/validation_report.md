@@ -22,7 +22,7 @@
 - 2014 `customer_deposits_mio`: Abweichung 136.80% (Bericht 2014: 4920.346 vs. Vorjahr in 2015: 11651.512).
 - 2014 `total_operating_expenses_mio`: Abweichung 0.83% (Bericht 2014: 206.769 vs. Vorjahr in 2015: 208.481).
 - 2014 `operating_profit_mio`: Abweichung 24.69% (Bericht 2014: 153.273 vs. Vorjahr in 2015: 115.428).
-- 2015 `net_interest_income_mio`: Lücke durch Vorjahreswert aus 2016 geschlossen (0.198).
+- 2015 `net_interest_income_mio`: Abweichung 5.71% (Bericht 2015: 0.21 vs. Vorjahr in 2016: 0.198).
 - 2015 `total_operating_income_mio`: Abweichung 3.34% (Bericht 2015: 0.359 vs. Vorjahr in 2016: 0.347).
 - 2016 `net_interest_income_mio`: Abweichung 100096116.50% (Bericht 2016: 0.206 vs. Vorjahr in 2017: 206198.206).
 - 2016 `total_operating_income_mio`: Abweichung 100099430.09% (Bericht 2016: 0.349 vs. Vorjahr in 2017: 349347.36).
@@ -40,12 +40,13 @@
 - 2020 `mortgage_loans_mio`: Abweichung 99.90% (Bericht 2020: 12005607.0 vs. Vorjahr in 2021: 12005.607).
 - 2020 `customer_deposits_mio`: Abweichung 364568.08% (Bericht 2020: 5.0 vs. Vorjahr in 2021: 18233.404).
 - 2020 `shareholders_equity_mio`: Abweichung 99.90% (Bericht 2020: 1716341.0 vs. Vorjahr in 2021: 1716.341).
+- 2020 `net_interest_income_mio`: Abweichung 13.41% (Bericht 2020: 216.0 vs. Vorjahr in 2021: 244.97).
 - 2020 `total_operating_expenses_mio`: Abweichung 99.90% (Bericht 2020: 237296.0 vs. Vorjahr in 2021: 237.296).
 - 2020 `operating_profit_mio`: Abweichung 99.90% (Bericht 2020: 112995.0 vs. Vorjahr in 2021: 112.995).
 - 2020 `net_profit_mio`: Abweichung 99.90% (Bericht 2020: 104962.0 vs. Vorjahr in 2021: 104.962).
 - 2021 `customer_deposits_mio`: Abweichung 388936260.00% (Bericht 2021: 0.005 vs. Vorjahr in 2022: 19446.818).
 - 2022 `customer_deposits_mio`: Abweichung 511231575.00% (Bericht 2022: 0.004 vs. Vorjahr in 2023: 20449.267).
-- 2022 `net_interest_income_mio`: Abweichung 99.90% (Bericht 2022: 286.011 vs. Vorjahr in 2023: 0.286).
+- 2022 `net_interest_income_mio`: Abweichung 99.90% (Bericht 2022: 291.359 vs. Vorjahr in 2023: 0.286).
 - 2022 `commission_income_mio`: Abweichung 99.90% (Bericht 2022: 132.749 vs. Vorjahr in 2023: 0.133).
 - 2022 `total_operating_income_mio`: Abweichung 99.90% (Bericht 2022: 475.667 vs. Vorjahr in 2023: 0.476).
 - 2023 `mortgage_loans_mio`: Abweichung 96493.12% (Bericht 2023: 13582.289 vs. Vorjahr in 2024: 13119557.0).

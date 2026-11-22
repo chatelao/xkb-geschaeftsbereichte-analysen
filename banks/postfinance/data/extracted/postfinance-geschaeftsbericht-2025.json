@@ -22,6 +22,14 @@
       "source_quote": "|Gewinn|Mio. CHF|120|282|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 497.0,
+      "value_prior_year": 591.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Brutto-Erfolg Zinsengeschäft|Mio. CHF|497|591|",
+      "chunk_name": "bilanz"
+    },
     "commission_income": {
       "value_current": 404.0,
       "value_prior_year": 343.0,
@@ -94,6 +102,14 @@
       "source_quote": "|Liquidity Coverage Ratio|%|218|242|",
       "chunk_name": "bilanz"
     },
+    "fte_count": {
+      "value_current": 3527.0,
+      "value_prior_year": 3464.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalbestand|Vollzeitstellen|3 527|3 464|",
+      "chunk_name": "bilanz"
+    },
     "kassenobligationen": {
       "value_current": 54.0,
       "value_prior_year": 140.0,
@@ -116,6 +132,14 @@
       "unit": "Mrd. CHF",
       "currency": "CHF",
       "source_quote": "|Hypothekarforderungen|0|–|–|–|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 2000.0,
+      "value_prior_year": 4140.0,
+      "unit": "Mrd. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Eigenkapital per 31.12.2025**|**2 000**|**4 140**|**–**|**140**|**46**|**282**|**6 608**|",
       "chunk_name": "bilanz"
     }
   }

@@ -33,9 +33,9 @@
 ## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
 - **Vorsorgeeinrichtung:** Pensions- und Vorsorgekasse für das Personal der Walliser Kantonalbank (*Beitragsprimat (umhüllend)*, Basis: `Swiss GAAP FER 16 / ARB`)
 - **Versichertenstruktur:** Aktive **–**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
-- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **– Mio. CHF**, Sondereinlagen **29,0 Mio. CHF**
+- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **– %**, Arbeitgeberbeitragsreserve **0,0 Mio. CHF**, Sondereinlagen **29,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **4,6×** (CEO real 2025: 790,0 TCHF vs. Ø Personalaufwand/FTE: 170,6 TCHF)
-- **Quelle:** `vskb/.md/vskb-geschaeftsbericht-2021.md; vskb/.md/vskb-geschaeftsbericht-2024.md` — 2020 Sondereinlage 29,0 Mio. CHF in Pensions- und Vorsorgekasse für das Personal der WKB (GB 2021 Ziff. 8.13/10.3).
+- **Quelle:** `vskb/.md/vskb-geschaeftsbericht-2025.md (Anhang 8.13, S. 78)` — Überdeckung per 31.12.2025: 119,273 Mio. CHF; bezahlte Arbeitgeberbeiträge 2025: 11,810 Mio. CHF (Vorsorgeaufwand 11,764 Mio. CHF); 2020 Sondereinlage 29,0 Mio. CHF.
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2015:** Umstellung auf FINMA-RVB

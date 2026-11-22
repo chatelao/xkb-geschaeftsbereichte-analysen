@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "lukb-offenlegungsbericht-2018",
+    "report_type": "offenlegung_fy",
+    "year": 2018,
+    "period": "FY2018",
+    "part": null,
+    "bank_id": "lukb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/lukb-offenlegungsbericht-2018.md",
+    "total_chars": 80979,
+    "total_lines": 1165
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2662.1,
+      "value_prior_year": 2568.7,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Hartes Kernkapital(CET1)|2 662.1|2 578.2|2 568.7|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2922.1,
+      "value_prior_year": 2828.7,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Kernkapital(T1)|2 922.1|2 838.2|2 828.7|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2992.4,
+      "value_prior_year": 2916.4,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Gesamtkapital total|2 992.4|2 909.1|2 916.4|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 14.28,
+      "value_prior_year": 14.61,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|CET1-Quote|14.28 %|14.41 %|14.61 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 16.05,
+      "value_prior_year": 16.59,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Gesamtkapitalquote|16.05 %|16.26 %|16.59 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "reserves_banking_risks": {
+      "value_current": 653.2,
+      "value_prior_year": 653.2,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|653.2|653.2|653.2|653.2|C|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

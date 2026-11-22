@@ -18,12 +18,12 @@
 | Kennzahl | Start (2016) | Aktuell (2025) | Veränderung / Einordnung |
 | --- | --- | --- | --- |
 | Bilanzsumme (Mio. CHF) | 3'562,2 | 5'744,1 | CAGR 5,45 % p.a. |
-| Geschäftsertrag (Mio. CHF) | 50,3 | 73,0 | CAGR 4,23 % p.a. |
+| Geschäftsertrag (Mio. CHF) | 54,5 | 71,0 | CAGR 2,98 % p.a. |
 | Reingewinn (Mio. CHF) | 9,5 | 10,3 | CAGR 0,89 % p.a. |
-| Cost-Income-Ratio (CIR) | 44,03 % | 37,34 % | -6,69 Pp. |
-| Eigenkapitalrendite (ROE) | – % | 1,70 % | – Pp. |
-| Ertrag pro FTE (TCHF) | – | 439,7 | Operative Produktivität |
-| Lohnkosten / Produktivität | – % | 22,9 % | Personalaufwand / Ertrag |
+| Cost-Income-Ratio (CIR) | 40,59 % | 38,37 % | -2,22 Pp. |
+| Eigenkapitalrendite (ROE) | 8,16 % | 1,70 % | -6,46 Pp. |
+| Ertrag pro FTE (TCHF) | – | 427,9 | Operative Produktivität |
+| Lohnkosten / Produktivität | – % | 23,5 % | Personalaufwand / Ertrag |
 | CET1-Quote (vs. Zielgrösse) | – | – % | Puffer – Pp. (Ziel 11,2 %) |
 
 ## 4. Strategische Leistungsbilanz & Meilensteine (CEO & VR-Präsidium)
@@ -32,6 +32,6 @@
 - Förderung von über 600 regionalen Vereinen und Anlässen im Berner Oberland sowie Vorbereitung des 200-Jahr-Jubiläums 2026.
 
 ## 5. Vergütungs- & Eigentümer-Alignment
-- **Vergütungs-Alignment (2025):** Ø Personalaufwand pro FTE (real 2025) beträgt **100,8 TCHF** bei einer Lohnkosten-/Produktivitätsquote von **22,9 %**. (Einzelvergütungen VR/CEO werden je nach Rechtsform im Vergütungs- bzw. Geschäftsbericht offengelegt.)
+- **Vergütungs-Alignment (2025):** Ø Personalaufwand pro FTE (real 2025) beträgt **100,8 TCHF** bei einer Lohnkosten-/Produktivitätsquote von **23,5 %**. (Einzelvergütungen VR/CEO werden je nach Rechtsform im Vergütungs- bzw. Geschäftsbericht offengelegt.)
 - **Investoren-Einordnung:** Siehe auch [Genossenschaftskapital, Mitglieder & Ausschüttung](./05_genossenschaft_und_wertschoepfung.md) sowie den institutsübergreifenden Vergleich in `comparison/reports/06_investoren_branchenvergleich.md`.
 - **Quellenbasis:** `aek/.md/aek-geschaeftsbericht-2025.md (Vorworte VR-Präsident & CEO)` & historische Geschäftsberichte (2016–2025)

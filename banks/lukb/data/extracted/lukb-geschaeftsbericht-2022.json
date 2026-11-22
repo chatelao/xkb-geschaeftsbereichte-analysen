@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "stem": "lukb-geschaeftsbericht-2022",
+    "report_type": "annual",
+    "year": 2022,
+    "period": "FY2022",
+    "part": null,
+    "bank_id": "lukb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/lukb-geschaeftsbericht-2022.md",
+    "total_chars": 485147,
+    "total_lines": 6709
+  },
+  "backend": "local",
+  "metrics": {
+    "taxes": {
+      "value_current": -37294.0,
+      "value_prior_year": -36297.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Steuern|– 37 294|– 36 297|– 997|2.7|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 226604.0,
+      "value_prior_year": 221384.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Konzerngewinn|226 604|221 384|5 220|2.4|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 34615280.0,
+      "value_prior_year": 32704023.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|34 615 280|32 704 023|1 911 256|5.8|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 5035231.0,
+      "value_prior_year": 4267557.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|5 035 231|4 267 557|767 674|18.0|",
+      "chunk_name": "bilanz"
+    },
+    "total_assets": {
+      "value_current": 56980019.0,
+      "value_prior_year": 52837354.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Total Aktiven|56 980 019|52 837 354|4 142 665|7.8|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 27045358.0,
+      "value_prior_year": 28551009.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Verpflichtungen aus Kundeneinlagen|27 045 358|28 551 009|– 1 505 651|– 5.3|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 41535.0,
+      "value_prior_year": 6491.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Kassenobligationen|41 535|6 491|35 044|539.9|",
+      "chunk_name": "bilanz"
+    },
+    "pfandbriefe_bonds": {
+      "value_current": 15260360.0,
+      "value_prior_year": 14302569.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Anleihen und Pfandbriefdarlehen|15 260 360|14 302 569|957 791|6.7|",
+      "chunk_name": "bilanz"
+    },
+    "reserves_banking_risks": {
+      "value_current": 669354.0,
+      "value_prior_year": 644354.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Reserven für allgemeine Bankrisiken|669 354|644 354|25 000|3.9|",
+      "chunk_name": "bilanz"
+    },
+    "shareholders_equity": {
+      "value_current": 3081877.0,
+      "value_prior_year": null,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Eigenkapital per<br>31.12.2021|157 250|97 759|1 968 640|591 302|53 052|– 7 510|221 384|3 081 877|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 404468.0,
+      "value_prior_year": 393081.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Bruttoerfolgaus dem Zinsengeschäft|404 468|393 081|11 387|2.9|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 119145.0,
+      "value_prior_year": 120435.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Erfolgaus dem Kommissions- und Dienstleistungsgeschäft|119 145|120 435|– 1 290|– 1.1|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "trading_income": {
+      "value_current": 61518.0,
+      "value_prior_year": 51635.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Erfolgaus dem Handelsgeschäft und der Fair-Value-Option|61 518|51 635|9 883|19.1|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 14810.0,
+      "value_prior_year": 37131.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Übriger ordentlicher Erfolg|14 810|37 131|– 22 321|– 60.1|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 585722.0,
+      "value_prior_year": 581303.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsertrag|585 722|581 303|4 419|0.8|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "personnel_expenses": {
+      "value_current": -183010.0,
+      "value_prior_year": -177944.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Personalaufwand|– 183 010|– 177 944|– 5 066|2.8|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -75456.0,
+      "value_prior_year": -70897.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Sachaufwand|– 75 456|– 70 897|– 4 559|6.4|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -267968.0,
+      "value_prior_year": -258122.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftsaufwand|– 267 968|– 258 122|– 9 845|3.8|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 284618.0,
+      "value_prior_year": 282682.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Geschäftserfolg|284 618|282 682|1 936|0.7|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "net_new_money": {
+      "value_current": 1420.2,
+      "value_prior_year": 2730.2,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Nettoneugeld|612.4|603.2|1 314.0|2 730.2|1 420.2|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 12.2,
+      "value_prior_year": 12.3,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Kernkapital-Ratio(CET1-Quote)|14.3 %|13.9 %|12.5 %|12.3 %|12.2 %|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "total_capital": {
+      "value_current": 17.2,
+      "value_prior_year": 17.6,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Gesamtkapital-Ratio|16.0 %|16.7 %|15.8 %|17.6 %|17.2 %|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "leverage_ratio_pct": {
+      "value_current": 6.7,
+      "value_prior_year": 6.8,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio|7.3 %|7.5 %|7.7 %|6.8 %|6.7 %|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "fte_count": {
+      "value_current": 1091.9,
+      "value_prior_year": 1075.7,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|Total Vollzeitstellen(per Periodenende)|1 027.8|1 040.1|1 049.2|1 075.7|1 091.9|",
+      "chunk_name": "mehrjahresvergleich"
+    },
+    "dividend_per_share": {
+      "value_current": 8.13,
+      "value_prior_year": 8.13,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Dividendeje Aktie|12.50|4.38|8.13|12.50|4.38|8.13|",
+      "chunk_name": "aktie_basisdaten"
+    }
+  }
+}

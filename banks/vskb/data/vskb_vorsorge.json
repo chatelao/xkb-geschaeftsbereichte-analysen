@@ -4,7 +4,7 @@
   "pk_name": "Pensions- und Vorsorgekasse für das Personal der Walliser Kantonalbank",
   "pk_plan_type": "Beitragsprimat (umhüllend)",
   "accounting_basis": "Swiss GAAP FER 16 / ARB",
-  "reference_year": 2024,
+  "reference_year": 2025,
   "active_insured_count": null,
   "pensioners_count": null,
   "active_to_pensioner_ratio": null,
@@ -13,10 +13,10 @@
   "technical_interest_rate_pct": null,
   "interest_crediting_pct": null,
   "conversion_rate_65_pct": null,
-  "employer_contribution_mio": null,
+  "employer_contribution_mio": 11.81,
   "employer_share_pct": null,
-  "employer_contribution_reserve_mio": null,
+  "employer_contribution_reserve_mio": 0.0,
   "extraordinary_contributions_mio": 29.0,
-  "notes": "2020 Sondereinlage 29,0 Mio. CHF in Pensions- und Vorsorgekasse für das Personal der WKB (GB 2021 Ziff. 8.13/10.3).",
-  "source_url_or_file": "vskb/.md/vskb-geschaeftsbericht-2021.md; vskb/.md/vskb-geschaeftsbericht-2024.md"
+  "notes": "Überdeckung per 31.12.2025: 119,273 Mio. CHF; bezahlte Arbeitgeberbeiträge 2025: 11,810 Mio. CHF (Vorsorgeaufwand 11,764 Mio. CHF); 2020 Sondereinlage 29,0 Mio. CHF.",
+  "source_url_or_file": "vskb/.md/vskb-geschaeftsbericht-2025.md (Anhang 8.13, S. 78)"
 }

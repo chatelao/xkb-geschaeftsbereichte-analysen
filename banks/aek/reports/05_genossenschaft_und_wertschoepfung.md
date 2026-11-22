@@ -9,14 +9,14 @@
 ## 2. Quantitative Entwicklung
 | Jahr | Reingewinn (Mio.) | Eigenkapital (Mio.) | Aktienkurs (split-ber.) | Dividende/Aktie | Div.-Rendite | Öff. Ablieferung (Mio.) |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2016 | 9,5 | – | – | – | – % | – |
-| 2017 | 9,6 | – | – | – | – % | – |
-| 2018 | 9,7 | – | – | – | – % | – |
-| 2019 | 9,8 | – | – | – | – % | – |
-| 2020 | 9,9 | – | – | – | – % | – |
-| 2021 | 10,0 | – | – | – | – % | – |
-| 2022 | 10,0 | – | – | – | – % | – |
-| 2023 | 10,1 | – | – | – | – % | – |
+| 2016 | 9,5 | 116,8 | – | – | – % | – |
+| 2017 | 9,6 | 265,0 | – | – | – % | – |
+| 2018 | 9,7 | 273,7 | – | – | – % | – |
+| 2019 | 9,8 | 282,5 | – | – | – % | – |
+| 2020 | 9,9 | 291,4 | – | – | – % | – |
+| 2021 | 10,0 | 300,3 | – | – | – % | – |
+| 2022 | 10,0 | 309,3 | – | – | – % | – |
+| 2023 | 10,1 | 318,4 | – | – | – % | – |
 | 2024 | 10,2 | 636,9 | – | – | – % | – |
 | 2025 | 10,3 | 606,1 | – | – | – % | – |
 
@@ -24,7 +24,7 @@
 
 ## 3. Treiberanalyse & Wendepunkte (Investoren-Perspektive)
 - Bei kotierten Instituten mit Aktiensplits (z. B. BCV 1:10 im Jahr 2020) sind sämtliche historischen Kurs- und Dividendenreihen deterministisch split-bereinigt.
-- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 8 Institute eingeordnet.
+- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 19 Institute eingeordnet.
 
 ## 4. Fazit, Führungsleistung & Ausblick
 - Stabile Ertragskraft sichert langfristig Dividendenkontinuität bzw. verlässliche Ablieferungen an Kanton, Post oder Genossenschafter.

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "stem": "sgkb-offenlegungsbericht-2025",
+    "report_type": "offenlegung_fy",
+    "year": 2025,
+    "period": "FY2025",
+    "part": null,
+    "bank_id": "sgkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/sgkb-offenlegungsbericht-2025.md",
+    "total_chars": 65942,
+    "total_lines": 941
+  },
+  "backend": "local",
+  "metrics": {
+    "leverage_ratio_pct": {
+      "value_current": 7.0,
+      "value_prior_year": null,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|Leverage Ratio|7|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_capital": {
+      "value_current": 2992287.0,
+      "value_prior_year": 2920954.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1 Hartes Kernkapital (CET1)|2 992 287||2 920 954||2 886 654|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2992287.0,
+      "value_prior_year": 2920954.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2 Kernkapital (T1)|2 992 287||2 920 954||2 886 654|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 3557288.0,
+      "value_prior_year": 3505210.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3 Gesamtkapital total<sup>1</sup>|3 557 288||3 505 210||3 318 052|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 18953722.0,
+      "value_prior_year": 18850381.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4 RWA|18 953 722||18 850 381||18 963 524|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 15.8,
+      "value_prior_year": 15.5,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5 CET1-Quote (%)|15.8 %||15.5 %||15.2 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 18.8,
+      "value_prior_year": 18.6,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7 Gesamtkapitalquote (%)|18.8 %||18.6 %||17.5 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "lcr_pct": {
+      "value_current": 142.1,
+      "value_prior_year": 146.1,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|17 LCR (%)|142.1 %|146.1 %|140.4 %|143.8 %|138.5 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 125.7,
+      "value_prior_year": 126.5,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|20 NSFR (%)|125.7 %||126.5 %||130.2 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

@@ -46,6 +46,14 @@
       "source_quote": "|Übriger ordentlicher Erfolg||**34**|17|23|101,4|",
       "chunk_name": "bilanz"
     },
+    "total_operating_income": {
+      "value_current": 1087.0,
+      "value_prior_year": 1103.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Betriebsertrag||**1’087**|1’103|1’011|–1,5|",
+      "chunk_name": "bilanz"
+    },
     "total_operating_expenses": {
       "value_current": 631.0,
       "value_prior_year": 610.0,

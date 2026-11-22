@@ -78,6 +78,38 @@
       "source_quote": "|•Gewinn(Periodenerfolg)||56’818’982.60|56’328’556.81|",
       "chunk_name": "bilanz"
     },
+    "shareholders_equity": {
+      "value_current": 1140812.0,
+      "value_prior_year": null,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|**Eigenkapital am Ende der Berichtsperiode**|150’000|141’523|374’291|428’400|25|-10’246|56’819|1’140’812|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 158591.0,
+      "value_prior_year": 168897.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|•Erfolgaus dem Zinsengeschäft|158’591|168’897|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 35839.0,
+      "value_prior_year": 37887.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|•Erfolgaus dem Kommissions- und Dienstleistungsgeschäft|35’839|37’887|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "trading_income": {
+      "value_current": 19649.0,
+      "value_prior_year": 14302.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|•Erfolgaus dem Handelsgeschäft und der Fair-Value-Option|19’649|14’302|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "other_ordinary_income": {
       "value_current": 8519.0,
       "value_prior_year": 6544.0,

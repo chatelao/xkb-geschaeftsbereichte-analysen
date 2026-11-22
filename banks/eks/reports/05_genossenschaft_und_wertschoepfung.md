@@ -16,11 +16,11 @@
 | 2011 | 0,2 | 8,4 | – | – | – % | – |
 | 2012 | 0,2 | 8,7 | – | – | – % | – |
 | 2013 | 0,1 | 8,8 | – | – | – % | – |
-| 2014 | 0,1 | – | – | – | – % | – |
-| 2015 | 0,1 | – | – | – | – % | – |
-| 2016 | 0,1 | – | – | – | – % | – |
-| 2017 | 0,2 | – | – | – | – % | – |
-| 2018 | 0,1 | – | – | – | – % | – |
+| 2014 | 0,1 | 6,1 | – | – | – % | – |
+| 2015 | 0,1 | 2,9 | – | – | – % | – |
+| 2016 | 0,1 | 2,9 | – | – | – % | – |
+| 2017 | 0,2 | 2,9 | – | – | – % | – |
+| 2018 | 0,1 | 2,9 | – | – | – % | – |
 | 2019 | 0,1 | 9,6 | – | – | – % | – |
 | 2020 | 0,1 | 9,7 | – | – | – % | – |
 | 2021 | 0,1 | 9,8 | – | – | – % | – |
@@ -33,7 +33,7 @@
 
 ## 3. Treiberanalyse & Wendepunkte (Investoren-Perspektive)
 - Bei kotierten Instituten mit Aktiensplits (z. B. BCV 1:10 im Jahr 2020) sind sämtliche historischen Kurs- und Dividendenreihen deterministisch split-bereinigt.
-- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 8 Institute eingeordnet.
+- Im Branchenvergleich (siehe `comparison/reports/06_investoren_branchenvergleich.md`) werden P/B, P/E, Dividendenrendite und Eigentümer-Ablieferungen über alle 19 Institute eingeordnet.
 
 ## 4. Fazit, Führungsleistung & Ausblick
 - Stabile Ertragskraft sichert langfristig Dividendenkontinuität bzw. verlässliche Ablieferungen an Kanton, Post oder Genossenschafter.

@@ -1,8 +1,8 @@
-bank_id,year,period,report_type,report_file,currency_orig,total_capital_mio,leverage_ratio_pct,cet1_capital_mio,tier1_capital_mio,sort_date,regime,matched_total_assets_mio,rwa_density_pct,self_healed_fields
-slm,2020,FY2020,offenlegung_fy,.md/slm-offenlegungsbericht-2020.md,CHF,151.317,9.3,143.477,143.477,2020-12-31,Basel III,1636.833,,
-slm,2021,FY2021,offenlegung_fy,.md/slm-offenlegungsbericht-2021.md,CHF,157.628,8.7,149.788,149.788,2021-12-31,Basel III,1695.15,,
+bank_id,year,period,report_type,report_file,currency_orig,tier1_capital_mio,cet1_capital_mio,total_capital_mio,leverage_ratio_pct,sort_date,regime,matched_total_assets_mio,rwa_density_pct,self_healed_fields
+slm,2020,FY2020,offenlegung_fy,.md/slm-offenlegungsbericht-2020.md,CHF,143.477,143.477,151.317,9.3,2020-12-31,Basel III,1636.833,,
+slm,2021,FY2021,offenlegung_fy,.md/slm-offenlegungsbericht-2021.md,CHF,149.788,149.788,157.628,8.7,2021-12-31,Basel III,1695.15,,
 slm,2022,FY2022,offenlegung_fy,.md/slm-offenlegungsbericht-2022.md,CHF,,,,,2022-12-31,Basel III,1763.594,,
 slm,2023,FY2023,offenlegung_fy,.md/slm-offenlegungsbericht-2023.md,CHF,,,,,2023-12-31,Basel III,1778.66,,
 slm,2024,FY2024,offenlegung_fy,.md/slm-offenlegungsbericht-2024.md,CHF,,,,,2024-12-31,Basel III,1835.348,,
 slm,2025,FY2025,offenlegung_fy,.md/slm-offenlegungsbericht-2025.md,CHF,,,,,2025-12-31,Basel III final,1913.9,,
-slm,2026,H1-2026,offenlegung_h1,.md/slm-offenlegungsbericht-06-2026.md,CHF,190.957,9.28,182.457,182.457,2026-06-30,Basel III final,,,
+slm,2026,H1-2026,offenlegung_h1,.md/slm-offenlegungsbericht-06-2026.md,CHF,182.457,182.457,190.957,9.28,2026-06-30,Basel III final,,,

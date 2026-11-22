@@ -14,6 +14,30 @@
   },
   "backend": "local",
   "metrics": {
+    "net_interest_income": {
+      "value_current": 606.0,
+      "value_prior_year": 625.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Netto-ErfolgZinsengeschäft|606|625|– 2,9|",
+      "chunk_name": "bilanz"
+    },
+    "commission_income": {
+      "value_current": 387.0,
+      "value_prior_year": 396.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|ErfolgKommissions- und Dienstleistungsgeschäft|387|396|– 2,5|",
+      "chunk_name": "bilanz"
+    },
+    "trading_income": {
+      "value_current": 138.0,
+      "value_prior_year": 151.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Erfolgaus dem Handelsgeschäft und der Fair-Value-Option|138|151|– 8,5|",
+      "chunk_name": "bilanz"
+    },
     "other_ordinary_income": {
       "value_current": 34.0,
       "value_prior_year": 39.0,

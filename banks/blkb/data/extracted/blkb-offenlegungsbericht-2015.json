@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "stem": "blkb-offenlegungsbericht-2015",
+    "report_type": "offenlegung_fy",
+    "year": 2015,
+    "period": "FY2015",
+    "part": null,
+    "bank_id": "blkb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/blkb-offenlegungsbericht-2015.md",
+    "total_chars": 30641,
+    "total_lines": 407
+  },
+  "backend": "local",
+  "metrics": {}
+}

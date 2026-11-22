@@ -1,22 +1,25 @@
-# XKB Geschäftsberichte Analysen (16 Schweizer Banken)
+# XKB Geschäftsberichte Analysen (19 Schweizer Banken)
 
-> **Status:** Vollständig umgesetzt und verifiziert — **16 Schweizer Finanzinstitute** unter [`banks/`](./banks/) (**160 Einzelbank-Berichte & 208 Grafiken**, **7 Cross-Bank-Vergleichsberichte & 13 Benchmark-Grafiken**, **16 Vorsorgeeinrichtungen**, **210 harmonisierte Geschäftsjahre**).
+> **Status:** Vollständig umgesetzt und verifiziert — **19 Schweizer Finanzinstitute** unter [`banks/`](./banks/) (**190 Einzelbank-Berichte & 247 Grafiken**, **7 Cross-Bank-Vergleichsberichte & 13 Benchmark-Grafiken**, **19 Vorsorgeeinrichtungen**, **260 harmonisierte Geschäftsjahre**).
 > **Live-Portal:** [GitHub Pages](https://chatelao.github.io/xkb-geschaeftsbereichte-analysen/) · **Repository:** [`chatelao/xkb-geschaeftsbereichte-analysen`](https://github.com/chatelao/xkb-geschaeftsbereichte-analysen)
 
 Strukturierte, vollständig reproduzierbare Längsschnitt-, Bilanz-, Risiko-, Effizienz-, Leadership-, IT-Strategie-, Fusionsbaum- (seit 1900) und Mitarbeiter-/Vorsorge-Analysen über eine gemeinsame, unit-getestete **«Hydrogen-First» Map-Validate-Reduce-Pipeline ([`shared/`](./shared/))**.
 
-![Bilanzsumme und CAGR über 16 Schweizer Banken](./comparison/reports/charts/01_bilanzsumme_und_cagr_8_banken.png)
+![Bilanzsumme und CAGR über 19 Schweizer Banken](./comparison/reports/charts/01_bilanzsumme_und_cagr_8_banken.png)
 
 ---
 
-## Executive Scorecard 2025 (16 Institute)
+## Executive Scorecard 2025 (19 Institute)
 
 ### Kantonalbanken
 | Institut | Peer Group | Bilanzsumme 2025 (Mio. CHF) | Reingewinn 2025 (Mio. CHF) | CIR % | ROE % | FTE 2025 | Berichte |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | **Zürcher Kantonalbank (ZKB)** | KB / D-SIB | 206'177,0 | 1'241,0 | 55,71 % | 7,89 % | 5'809 | [`banks/zkb/reports/`](./banks/zkb/reports/README.md) |
+| **Luzerner Kantonalbank (LUKB)** | Kantonalbank | 62'249,1 | 295,5 | 47,23 % | 6,99 % | 1'206 | [`banks/lukb/reports/`](./banks/lukb/reports/README.md) |
 | **BCV (Waadt)** | Kantonalbank | 61'620,0 | 430,0 | 48,66 % | 11,00 % | 2'083 | [`banks/bcv/reports/`](./banks/bcv/reports/README.md) |
+| **St.Galler Kantonalbank (SGKB)** | Kantonalbank | 48'136,6 | 227,0 | 53,15 % | 7,28 % | 1'219 | [`banks/sgkb/reports/`](./banks/sgkb/reports/README.md) |
 | **BEKB \| BCBE** | Kantonalbank | 42'977,0 | 175,4 | 51,26 % | 5,88 % | 1'058 | [`banks/bekb/reports/`](./banks/bekb/reports/README.md) |
+| **Basellandschaftliche KB (BLKB)** | Kantonalbank | 37'614,0 | 154,0 | 53,21 % | 5,11 % | 926 | [`banks/blkb/reports/`](./banks/blkb/reports/README.md) |
 | **BCGE (GEKB)** | Kantonalbank | 34'905,0 | 221,0 | 53,79 % | 8,84 % | 958 | [`banks/gekb/reports/`](./banks/gekb/reports/README.md) |
 | **Walliser Kantonalbank (VSKB)** | Kantonalbank | 22'042,2 | 85,9 | 45,69 % | 5,07 % | 494 | [`banks/vskb/reports/`](./banks/vskb/reports/README.md) |
 
@@ -60,7 +63,7 @@ Strukturierte, vollständig reproduzierbare Längsschnitt-, Bilanz-, Risiko-, Ef
 ---
 
 ## Berichte pro Institut (`banks/<bank>/reports/`)
-Jedes der 16 Institute verfügt über 10 standardisierte Berichte inklusive 13 hochauflösenden Grafiken:
+Jedes der 19 Institute verfügt über 10 standardisierte Berichte inklusive 13 hochauflösenden Grafiken:
 1. **01 · Zinszyklen & Ertragsarchitektur**
 2. **02 · Bilanzwachstum, Hypotheken & Refinanzierung**
 3. **03 · Aufsichtsrechtliche Resilienz & Basel III**

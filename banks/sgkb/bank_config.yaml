@@ -1,0 +1,46 @@
+bank_id: "sgkb"
+short_name: "SGKB"
+full_name: "St.Galler Kantonalbank AG"
+peer_group: "cantonal_bank"
+canton_or_hq: "St. Gallen"
+legal_form: "listed_ag"
+listed: true
+ticker: "SGKN"
+state_guarantee: true
+has_credit_ban: false
+finma_category: 3
+reporting_scope: "consolidated"
+accounting_standard: "ARB_RVB"
+reporting_currency: "CHF"
+primary_languages: ["de"]
+file_prefix: "sgkb"
+
+capital_targets_pct:
+  cet1_target: 11.2
+  total_capital_target: 12.0
+  leverage_min: 3.0
+  lcr_min: 100.0
+  nsfr_min: 100.0
+
+share_splits: []
+
+report_05_mode: "listed_share"
+report_05_slug: "05_aktie_dividenden_und_wertschoepfung"
+
+palette:
+  primary: "#007A3E"
+  secondary: "#1E293B"
+  accent: "#D97706"
+  muted: "#64748B"
+
+plausibility_bounds_chf_mio:
+  total_assets_min: 25000
+  total_assets_max: 65000
+
+epochs:
+  - {label: "Epoche 1", start: 2018, end: 2021, title: "SNB-Negativzinsen & Ostschweizer Wachstum"}
+  - {label: "Epoche 2", start: 2022, end: 2026, title: "Zinswende, Wealth Management & Basel III final"}
+
+structural_breaks:
+  - {year: 2022, label: "SNB-Zinswende & Rückkehr positiver Leitzinsen"}
+  - {year: 2025, label: "Inkrafttreten Basel III final per 01.01.2025"}

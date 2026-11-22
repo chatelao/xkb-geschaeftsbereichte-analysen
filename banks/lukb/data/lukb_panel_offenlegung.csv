@@ -1,0 +1,11 @@
+bank_id,year,period,report_type,report_file,currency_orig,cet1_ratio_pct,financial_investments_mio,total_assets_mio,total_capital_ratio_pct,mortgage_loans_mio,customer_deposits_mio,reserves_banking_risks_mio,sort_date,regime,matched_total_assets_mio,rwa_density_pct,cet1_excess_over_target_pp,total_cap_excess_over_target_pp,self_healed_fields,tier1_capital_mio,cet1_capital_mio,total_capital_mio,rwa_total_mio,nsfr_pct,customer_loans_other_mio,lcr_pct
+lukb,2017,FY2017,offenlegung_fy,.md/lukb-offenlegungsbericht-2017.md,CHF,14.61,2609.9,35881.6,16.59,24557.1,21987.0,653.2,2017-12-31,Basel III,35881.583,,3.41,4.59,,,,,,,,
+lukb,2018,FY2018,offenlegung_fy,.md/lukb-offenlegungsbericht-2018.md,CHF,14.28,,,16.05,,,653.2,2018-12-31,Basel III,38761.038,,3.08,4.05,,2922.1,2662.1,2992.4,,,,
+lukb,2019,FY2019,offenlegung_fy,.md/lukb-offenlegungsbericht-2019.md,CHF,13.93,,,16.69,,,,2019-12-31,Basel III,42493.119,0.05,2.73,4.69,,3.268,2.758,3.304,19.796,,,
+lukb,2020,FY2020,offenlegung_fy,.md/lukb-offenlegungsbericht-2020.md,CHF,12.54,,,15.81,,,,2020-12-31,Basel III,48738.893,0.05,1.34,3.81,,3.576,2.837,3.576,22.622,,,
+lukb,2021,FY2021,offenlegung_fy,.md/lukb-offenlegungsbericht-2021.md,CHF,12.28,,,17.59,,,,2021-12-31,Basel III,52837.354,45.32,1.08,5.59,,3751.1,2941.1,4212.8,23947.0,132.91,,
+lukb,2022,FY2022,offenlegung_fy,.md/lukb-offenlegungsbericht-2022.md,CHF,12.16,,,17.17,,,,2022-12-31,Basel III,56980.019,44.85,0.96,5.17,,3917.7,3107.7,4388.7,25553.4,130.3,,
+lukb,2023,FY2023,offenlegung_fy,.md/lukb-offenlegungsbericht-2023.md,CHF,13.36,,,17.99,,,,2023-12-31,Basel III,57397.079,48.49,2.16,5.99,,4527.2,3717.2,5007.3,27833.6,131.75,,
+lukb,2024,FY2024,offenlegung_fy,.md/lukb-offenlegungsbericht-2024.md,CHF,13.89,,,18.47,,,,2024-12-31,Basel III,59462.485,47.44,2.69,6.47,,4727.0,3917.0,5210.3,28208.5,126.51,,
+lukb,2025,FY2025,offenlegung_fy,.md/lukb-offenlegungsbericht-2025.md,CHF,14.66,,,20.57,,,,2025-12-31,Basel III final,62249.13,44.83,3.46,8.57,,5050.6,4090.9,5740.2,27904.3,,,
+lukb,2026,H1-2026,offenlegung_h1,.md/lukb-offenlegungsbericht-06-2026.md,CHF,14.94,,,20.58,9945.2,,,2026-06-30,Basel III final,,,3.74,8.58,,5119.0,4159.3,5729.2,27836.2,,0.1,135.61

@@ -70,6 +70,30 @@
       "source_quote": "|•Jahresgewinn||48'514'326.66|45'268'598.01|",
       "chunk_name": "bilanz"
     },
+    "net_interest_income": {
+      "value_current": 158464.0,
+      "value_prior_year": 145398.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|•Erfolgaus dem Zinsengeschäft|**158'464**|145'398|137'414|132'301|125'540|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 28186.0,
+      "value_prior_year": 30344.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|•Erfolgaus dem Kommissions- und Dienstleistungsgeschäft|**28'186**|30'344|32'256|28'212|25'183|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "trading_income": {
+      "value_current": 10150.0,
+      "value_prior_year": 7340.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|•Erfolgaus dem Handelsgeschäft|**10'150**|7'340|10'240|9'503|9'212|",
+      "chunk_name": "erfolgsrechnung"
+    },
     "total_operating_expenses": {
       "value_current": -89914.0,
       "value_prior_year": -84827.0,

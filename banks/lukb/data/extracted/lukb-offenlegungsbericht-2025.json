@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "stem": "lukb-offenlegungsbericht-2025",
+    "report_type": "offenlegung_fy",
+    "year": 2025,
+    "period": "FY2025",
+    "part": null,
+    "bank_id": "lukb",
+    "reporting_scope": "consolidated",
+    "reporting_currency": "CHF",
+    "source_file": ".md/lukb-offenlegungsbericht-2025.md",
+    "total_chars": 85830,
+    "total_lines": 1393
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 4090.9,
+      "value_prior_year": 3917.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|4 090.9|3 989.6|3 917.0|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 5050.6,
+      "value_prior_year": 4727.0,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|5 050.6|4 949.3|4 727.0|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 5740.2,
+      "value_prior_year": 5210.3,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|5 740.2|5 433.9|5 210.3|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 27904.3,
+      "value_prior_year": 28208.5,
+      "unit": "Mio. CHF",
+      "currency": "CHF",
+      "source_quote": "|4|RWA|27 904.3|27 566.9|28 208.5|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 14.66,
+      "value_prior_year": 13.89,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote|14.66 %|14.47 %|13.89 %|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 20.57,
+      "value_prior_year": 18.47,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote|20.57 %|19.71 %|18.47 %|",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}
