@@ -1,4 +1,4 @@
-# Institutsübergreifende Auswertung (8 Schweizer Banken)
+# Institutsübergreifende Auswertung (19 Schweizer Banken)
 
 - [Grösse, Wachstum & Geschäftsmodell](./01_groesse_wachstum_und_geschaeftsmodell.md)
 - [Profitabilität, Effizienz & Produktivität](./02_profitabilitaet_effizienz_und_produktivitaet.md)

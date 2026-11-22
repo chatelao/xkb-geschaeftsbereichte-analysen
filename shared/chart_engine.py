@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import statistics
 from pathlib import Path
 from typing import Any
 
@@ -157,7 +158,7 @@ def generate_charts(bank_id: str) -> list[Path]:
         used = sum(v for _, v, _ in parts)
         if ta > used:
             parts.append(("Flüssige Mittel & Übr.", ta - used, c_mut))
-        parts = [(l, v, col) for l, v, col in parts if v > 0]
+        parts = sorted([(l, v, col) for l, v, col in parts if v > 0], key=lambda x: x[1], reverse=True)
         x_cur = 0.0
         for lbl, val, col in parts:
             w = val / ta * 100.0
@@ -214,16 +215,17 @@ def generate_charts(bank_id: str) -> list[Path]:
     last_off = off[-1] if off else {}
     if last_off:
         fig, ax = plt.subplots(figsize=(8.5, 4.5))
-        items = [
+        items = sorted([
             ("CET1-Quote (%)", last_off.get("cet1_ratio_pct") or 0.0, cfg.capital_targets_pct.get("cet1_target", 9.2)),
             ("Gesamtkapital (%)", last_off.get("total_capital_ratio_pct") or 0.0, cfg.capital_targets_pct.get("total_capital_target", 13.4)),
             ("Leverage Ratio (%)", last_off.get("leverage_ratio_pct") or 0.0, cfg.capital_targets_pct.get("leverage_min", 3.0)),
-        ]
+        ], key=lambda x: x[1], reverse=True)
         y_pos = range(len(items))
         ax.barh(y_pos, [x[1] for x in items], color=c_sec, height=0.5, label="Ist-Wert")
         ax.scatter([x[2] for x in items], y_pos, color=c_prim, zorder=5, s=70, label="FINMA-Ziel / Min.")
         ax.set_yticks(list(y_pos))
         ax.set_yticklabels([x[0] for x in items])
+        ax.invert_yaxis()
         ax.set_xlabel("%")
         ax.set_title(f"{cfg.short_name}: Aufsichtsrechtlicher Soll-Ist-Vergleich ({last_off.get('period')})")
         ax.legend()
@@ -291,6 +293,8 @@ def generate_charts(bank_id: str) -> list[Path]:
     if xs_s:
         fig, ax = plt.subplots(figsize=(9, 4.5))
         ax.bar(xs_s, ys_s, color=c_acc, width=0.6, label="Halbjahresgewinn H1 (Mio. CHF)")
+        m_s = statistics.mean(ys_s)
+        ax.axhline(m_s, color=c_prim, linestyle="--", linewidth=1.4, label=f"Mittelwert (Ø): {m_s:,.1f} Mio.".replace(",", "'"))
         ax.set_ylabel("Mio. CHF")
         ax.set_title(f"{cfg.short_name}: Semester-Entwicklung (H1)")
         ax.legend()

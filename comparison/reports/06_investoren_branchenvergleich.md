@@ -1,8 +1,8 @@
-# 06 · Investoren-Branchenvergleich (8 Schweizer Banken, 2025)
+# 06 · Investoren-Branchenvergleich (19 Schweizer Banken, 2025)
 
 ## 1. Management Summary
-- **Segment A (Kotierte Institute — BEKB, VSKB, BCV, GEKB, UBS):** Die BCV erzielt 2025 mit **11,00 % ROE** die höchste Eigenkapitalrendite unter den Kantonalbanken bei einer attraktiven Dividendenrendite (**4,38 %**). BEKB und VSKB bieten stabile Ausschüttungsrenditen bei hoher Kapitalisierung (`CET1 > 16,5 %`), während **UBS** als globaler G-SIB (`ROE 8,60 %`) Wachstum über CS-Synergien und Aktienrückkäufe liefert.
-- **Segment B (Öffentliche & Genossenschafts-Eigentümer — ZKB, Raiffeisen, PostFinance):** Die ZKB erwirtschaftet **1'241,0 Mio. CHF** Konzerngewinn (`ROE 7,89 %`) und hohe Ablieferungen an den Kanton Zürich; Raiffeisen stärkt primär das Genossenschaftskapital (`ROE 5,08 %`); PostFinance erzielt unter Kreditverbot `1,82 %` ROE bei extrem hoher CET1-Quote (`24,97 %`).
+- **Segment A (Kotierte & Zertifikats-Institute):** Die **BCV** erzielt 2025 mit **11,00 % ROE** die höchste Eigenkapitalrendite unter den Kantonalbanken bei attraktiver Dividendenrendite (**4,38 %**); **Vontobel (10,57 %)**, **GEKB (8,84 %)**, **UBS (8,60 %)**, **SGKB (7,28 %, Rendite 4,60 %)** und **LUKB (6,99 %)** folgen mit soliden Ausschüttungen.
+- **Segment B (Öffentliche & Genossenschafts-Eigentümer):** **ZKB (1'241,0 Mio. CHF)** und **Raiffeisen (1'208,0 Mio. CHF)** erzielen die höchsten Inlandgewinne; **PostFinance** erzielt unter Kreditverbot `1,82 %` ROE bei höchster CET1-Quote (`24,97 %`).
 
 ![Investoren Bewertung & ROE](./charts/10_investoren_bewertung_pb_vs_roe_2025.png)
 

@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import statistics
 from pathlib import Path
 from typing import Any
 
@@ -202,109 +203,237 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
             b_offs = [r for r in off_rows if r["bank_id"] == b]
         latest_off[b] = b_offs[-1] if b_offs else {}
 
-    # --- 9 Benchmark-Grafiken (300 DPI) ---
-    colors = [configs[b].palette["primary"] for b in VALID_BANKS]
-    names = [configs[b].short_name for b in VALID_BANKS]
+    # --- 13 Benchmark-Grafiken (300 DPI, absteigend sortiert + Median / Mittelwert) ---
+    def _ref_v(ax: plt.Axes, vals: list[float], use_median: bool, unit: str = "", d: int = 1, color: str = "#DC2626", label_prefix: str = "") -> float | None:
+        clean = [v for v in vals if v is not None]
+        if not clean:
+            return None
+        stat_val = statistics.median(clean) if use_median else statistics.mean(clean)
+        kind = "Median" if use_median else "Mittelwert (Ø)"
+        pref = f"{label_prefix} " if label_prefix else ""
+        val_txt = f"{stat_val:,.{d}f}".replace(",", "'")
+        ax.axvline(stat_val, color=color, linestyle="--", linewidth=1.5, zorder=6, label=f"{pref}{kind}: {val_txt}{unit}")
+        return stat_val
 
-    # Chart 01: Bilanzsumme 2025 & CAGR 2020-2025
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.8))
-    ta_vals = [(by_bank_yr.get((b, 2025), {}).get("total_assets_mio") or 0) / 1000.0 for b in VALID_BANKS]
-    ax1.barh(names, ta_vals, color=colors)
+    def _ref_h(ax: plt.Axes, vals: list[float], use_median: bool, unit: str = "", d: int = 1, color: str = "#DC2626", label_prefix: str = "") -> float | None:
+        clean = [v for v in vals if v is not None]
+        if not clean:
+            return None
+        stat_val = statistics.median(clean) if use_median else statistics.mean(clean)
+        kind = "Median" if use_median else "Mittelwert (Ø)"
+        pref = f"{label_prefix} " if label_prefix else ""
+        val_txt = f"{stat_val:,.{d}f}".replace(",", "'")
+        ax.axhline(stat_val, color=color, linestyle="--", linewidth=1.5, zorder=6, label=f"{pref}{kind}: {val_txt}{unit}")
+        return stat_val
+
+    # Chart 01: Bilanzsumme 2025 & CAGR 2020-2025 (jeweils absteigend sortiert + Median wegen Rechtsschiefe/Ausreisser)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 6.2))
+    ta_items = sorted(
+        [(configs[b].short_name, (by_bank_yr.get((b, 2025), {}).get("total_assets_mio") or 0) / 1000.0, configs[b].palette["primary"]) for b in VALID_BANKS],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    ax1.barh([x[0] for x in ta_items], [x[1] for x in ta_items], color=[x[2] for x in ta_items])
+    ax1.invert_yaxis()
     ax1.set_xscale("log")
+    _ref_v(ax1, [x[1] for x in ta_items if x[1] > 0], use_median=True, unit=" Mrd.", d=1)
     ax1.set_xlabel("Bilanzsumme 2025 (Mrd. CHF, Log-Skala)")
-    ax1.set_title("Bilanzgrösse 2025 (19 Institute)")
-    cagrs = [_cagr(by_bank_yr.get((b, 2020), {}).get("total_assets_mio"), by_bank_yr.get((b, 2025), {}).get("total_assets_mio"), 5) or 0.0 for b in VALID_BANKS]
-    ax2.barh(names, cagrs, color=colors)
+    ax1.set_title("Bilanzgrösse 2025 (19 Institute, absteigend)")
+    ax1.legend(loc="lower right", fontsize=8)
+
+    cagr_items = sorted(
+        [
+            (
+                configs[b].short_name,
+                cval,
+                configs[b].palette["primary"],
+            )
+            for b in VALID_BANKS
+            if (cval := _cagr(by_bank_yr.get((b, 2020), {}).get("total_assets_mio"), by_bank_yr.get((b, 2025), {}).get("total_assets_mio"), 5)) is not None
+        ],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    ax2.barh([x[0] for x in cagr_items], [x[1] for x in cagr_items], color=[x[2] for x in cagr_items])
+    ax2.invert_yaxis()
     ax2.axvline(0, color="black", linewidth=0.8)
+    _ref_v(ax2, [x[1] for x in cagr_items], use_median=True, unit=" %", d=2)
     ax2.set_xlabel("CAGR 2020–2025 (% p. a.)")
-    ax2.set_title("Bilanzwachstum 2020–2025")
+    ax2.set_title("Bilanzwachstum 2020–2025 (absteigend)")
+    ax2.legend(loc="lower right", fontsize=8)
     _save(fig, COMP_CHARTS / "01_bilanzsumme_und_cagr_8_banken.png")
 
-    # Chart 02: Ertragsmix 2025
-    fig, ax = plt.subplots(figsize=(9.5, 4.8))
-    z_sh = [by_bank_yr.get((b, 2025), {}).get("interest_share_pct") or 0 for b in VALID_BANKS]
-    k_sh = [by_bank_yr.get((b, 2025), {}).get("commission_share_pct") or 0 for b in VALID_BANKS]
-    h_sh = [by_bank_yr.get((b, 2025), {}).get("trading_share_pct") or 0 for b in VALID_BANKS]
-    ax.barh(names, z_sh, color="#0F2942", label="Zinserfolg (%)")
-    ax.barh(names, k_sh, left=z_sh, color="#0F766E", label="Kommission (%)")
-    ax.barh(names, h_sh, left=[z + k for z, k in zip(z_sh, k_sh)], color="#D97706", label="Handel (%)")
+    # Chart 02: Ertragsmix 2025 (absteigend nach Zinsanteil + Median wegen Privatbanken-Schiefe)
+    fig, ax = plt.subplots(figsize=(10, 6.2))
+    mix_items = sorted(
+        [
+            (
+                configs[b].short_name,
+                by_bank_yr.get((b, 2025), {}).get("interest_share_pct") or 0.0,
+                by_bank_yr.get((b, 2025), {}).get("commission_share_pct") or 0.0,
+                by_bank_yr.get((b, 2025), {}).get("trading_share_pct") or 0.0,
+            )
+            for b in VALID_BANKS
+        ],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    m_names = [x[0] for x in mix_items]
+    z_sh = [x[1] for x in mix_items]
+    k_sh = [x[2] for x in mix_items]
+    h_sh = [x[3] for x in mix_items]
+    ax.barh(m_names, z_sh, color="#0F2942", label="Zinserfolg (%)")
+    ax.barh(m_names, k_sh, left=z_sh, color="#0F766E", label="Kommission (%)")
+    ax.barh(m_names, h_sh, left=[z + k for z, k in zip(z_sh, k_sh)], color="#D97706", label="Handel (%)")
+    ax.invert_yaxis()
+    _ref_v(ax, z_sh, use_median=True, unit=" %", d=1, label_prefix="Zinsanteil")
     ax.set_xlabel("Anteil am Geschäftsertrag (%)")
-    ax.set_title("Ertragsarchitektur 2025 nach Geschäftsmodell")
-    ax.legend(loc="lower right")
+    ax.set_title("Ertragsarchitektur 2025 nach Geschäftsmodell (absteigend nach Zinsanteil)")
+    ax.legend(loc="lower right", fontsize=8)
     _save(fig, COMP_CHARTS / "02_ertragsmix_geschaeftsmodelle_2025.png")
 
-    # Chart 03: CIR vs ROE Quadrant 2025
-    fig, ax = plt.subplots(figsize=(8.5, 5.2))
+    # Chart 03: CIR vs ROE Quadrant 2025 (Median-Fadenkreuz wegen Ausreisser-Schiefe)
+    fig, ax = plt.subplots(figsize=(9, 5.5))
+    cirs_all, roes_all = [], []
     for b in VALID_BANKS:
         r25 = by_bank_yr.get((b, 2025), {})
         cir, roe = r25.get("cir_pct"), r25.get("roe_pct")
         if cir is not None and roe is not None:
+            cirs_all.append(cir)
+            roes_all.append(roe)
             sz = max(60, ((r25.get("total_assets_mio") or 20000) / 1000.0) ** 0.7 * 15)
             ax.scatter(cir, roe, s=sz, color=configs[b].palette["primary"], alpha=0.8, edgecolors="black")
             ax.annotate(configs[b].short_name, (cir, roe), xytext=(5, 4), textcoords="offset points", fontsize=8)
+    _ref_v(ax, cirs_all, use_median=True, unit=" %", d=1, color="#0F2942", label_prefix="CIR")
+    _ref_h(ax, roes_all, use_median=True, unit=" %", d=2, color="#DC2626", label_prefix="ROE")
     ax.set_xlabel("Cost-Income-Ratio CIR (%) — tiefer ist effizienter")
     ax.set_ylabel("Eigenkapitalrendite ROE (%)")
     ax.set_title("Effizienz vs. Profitabilität 2025 (Blasengrösse ~ Bilanzsumme)")
+    ax.legend(loc="upper right", fontsize=8)
     _save(fig, COMP_CHARTS / "03_cir_vs_roe_quadrant_2025.png")
 
-    # Chart 04: Produktivität Ertrag/FTE
-    fig, ax = plt.subplots(figsize=(9.5, 4.8))
-    fte_inc = [by_bank_yr.get((b, 2025), {}).get("income_per_fte_tchf") or 0 for b in VALID_BANKS]
-    ax.barh(names, fte_inc, color=colors)
+    # Chart 04: Produktivität Ertrag/FTE (absteigend + Mittelwert da symmetrisch verteilt)
+    fig, ax = plt.subplots(figsize=(10, 6.2))
+    fte_items = sorted(
+        [(configs[b].short_name, by_bank_yr.get((b, 2025), {}).get("income_per_fte_tchf") or 0.0, configs[b].palette["primary"]) for b in VALID_BANKS],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    ax.barh([x[0] for x in fte_items], [x[1] for x in fte_items], color=[x[2] for x in fte_items])
+    ax.invert_yaxis()
+    _ref_v(ax, [x[1] for x in fte_items if x[1] > 0], use_median=False, unit=" TCHF", d=1)
     ax.set_xlabel("Geschäftsertrag je FTE (TCHF)")
-    ax.set_title("Personalproduktivität 2025 (Geschäftsertrag pro Vollzeitstelle)")
+    ax.set_title("Personalproduktivität 2025 (Geschäftsertrag pro Vollzeitstelle, absteigend)")
+    ax.legend(loc="lower right", fontsize=8)
     _save(fig, COMP_CHARTS / "04_produktivitaet_ertrag_gewinn_je_fte.png")
 
-    # Chart 05: Kapitalpuffer Basel III final 2025/2026
-    fig, ax = plt.subplots(figsize=(9.5, 4.8))
-    cet1_v = [latest_off[b].get("cet1_ratio_pct") or 0 for b in VALID_BANKS]
-    cet1_t = [configs[b].capital_targets_pct.get("cet1_target", 9.2) for b in VALID_BANKS]
-    ax.barh(names, cet1_v, color=colors, label="CET1-Ist (%)")
-    ax.scatter(cet1_t, names, color="black", zorder=5, s=60, label="FINMA-Zielgrösse (%)")
+    # Chart 05: Kapitalpuffer Basel III final 2025/2026 (nur Institute mit ausgewiesener CET1-Quote, absteigend + Mittelwert)
+    fig, ax = plt.subplots(figsize=(10, 5.6))
+    cet1_items = sorted(
+        [
+            (
+                configs[b].short_name,
+                float(latest_off[b]["cet1_ratio_pct"]),
+                configs[b].capital_targets_pct.get("cet1_target", 9.2),
+                configs[b].palette["primary"],
+            )
+            for b in VALID_BANKS
+            if latest_off.get(b, {}).get("cet1_ratio_pct") is not None
+        ],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    c_names = [x[0] for x in cet1_items]
+    c_vals = [x[1] for x in cet1_items]
+    ax.barh(c_names, c_vals, color=[x[3] for x in cet1_items], label="CET1-Ist (%)")
+    ax.scatter([x[2] for x in cet1_items], c_names, color="black", zorder=5, s=60, label="FINMA-Zielgrösse (%)")
+    ax.invert_yaxis()
+    _ref_v(ax, c_vals, use_median=False, unit=" %", d=2)
     ax.set_xlabel("CET1-Quote (%)")
-    ax.set_title("Kapitalisierung vs. FINMA-Zielgrösse (jüngster Offenlegungsstichtag)")
-    ax.legend()
+    ax.set_title("Kapitalisierung vs. FINMA-Zielgrösse (jüngster Offenlegungsstichtag, absteigend)")
+    ax.legend(loc="lower right", fontsize=8)
     _save(fig, COMP_CHARTS / "05_kapitalpuffer_basel_iii_final_2026.png")
 
-    # Chart 06: Staatsgarantie & FINMA Kategorien (Eigenkapitalquote vs RWA-Dichte)
-    fig, ax = plt.subplots(figsize=(8.5, 4.8))
-    eq_r = [by_bank_yr.get((b, 2025), {}).get("equity_ratio_pct") or 0 for b in VALID_BANKS]
-    ax.barh(names, eq_r, color=["#0F766E" if configs[b].state_guarantee else "#0F2942" for b in VALID_BANKS])
+    # Chart 06: Staatsgarantie & Eigenkapitalquote 2025 (absteigend + Mittelwert da symmetrisch verteilt)
+    fig, ax = plt.subplots(figsize=(10, 6.2))
+    eq_items = sorted(
+        [
+            (
+                configs[b].short_name,
+                by_bank_yr.get((b, 2025), {}).get("equity_ratio_pct") or 0.0,
+                "#0F766E" if configs[b].state_guarantee else "#0F2942",
+            )
+            for b in VALID_BANKS
+        ],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    ax.barh([x[0] for x in eq_items], [x[1] for x in eq_items], color=[x[2] for x in eq_items])
+    ax.invert_yaxis()
+    _ref_v(ax, [x[1] for x in eq_items if x[1] > 0], use_median=False, unit=" %", d=2)
     ax.set_xlabel("Eigenkapitalquote 2025 (%)")
-    ax.set_title("Eigenkapitalquote 2025 (Grün = mit Staatsgarantie, Dunkelblau = ohne)")
+    ax.set_title("Eigenkapitalquote 2025 (absteigend; Grün = mit Staatsgarantie, Dunkelblau = ohne)")
+    ax.legend(loc="lower right", fontsize=8)
     _save(fig, COMP_CHARTS / "06_staatsgarantie_und_finma_kategorien.png")
 
-    # Chart 07: Zinswende indiziert (2020 = 100)
-    fig, ax = plt.subplots(figsize=(9.5, 5.0))
+    # Chart 07: Zinswende indiziert (2020 = 100; Legende absteigend nach 2025 + Median-Verlauf über alle Banken)
+    fig, ax = plt.subplots(figsize=(10.5, 5.8))
+    series_07 = []
+    by_yr_idx: dict[int, list[float]] = {}
     for b in VALID_BANKS:
         b20 = by_bank_yr.get((b, 2020), {}).get("net_interest_income_mio")
         if not b20 or b20 <= 0:
             continue
         yrs_b = sorted(y for (bk, y) in by_bank_yr if bk == b and 2015 <= y <= 2025 and by_bank_yr[(bk, y)].get("net_interest_income_mio"))
         vals_b = [by_bank_yr[(b, y)]["net_interest_income_mio"] / b20 * 100.0 for y in yrs_b]
-        ax.plot(yrs_b, vals_b, marker="o", linewidth=1.8, label=configs[b].short_name, color=configs[b].palette["primary"])
-    ax.axhline(100, color="gray", linestyle="--", linewidth=0.8)
+        if not yrs_b:
+            continue
+        for y, val in zip(yrs_b, vals_b):
+            by_yr_idx.setdefault(y, []).append(val)
+        val_25 = vals_b[-1] if yrs_b[-1] == 2025 else 0.0
+        series_07.append((val_25, configs[b].short_name, yrs_b, vals_b, configs[b].palette["primary"]))
+    series_07.sort(key=lambda x: x[0], reverse=True)
+    for _, sname, yrs_b, vals_b, scol in series_07:
+        ax.plot(yrs_b, vals_b, marker="o", markersize=3.5, linewidth=1.4, alpha=0.8, label=sname, color=scol)
+    med_yrs = sorted(by_yr_idx.keys())
+    med_vals = [statistics.median(by_yr_idx[y]) for y in med_yrs]
+    ax.plot(med_yrs, med_vals, color="black", linestyle="--", linewidth=2.4, zorder=10, label=f"Median (Alle, 2025: {med_vals[-1]:.1f})")
+    ax.axhline(100, color="gray", linestyle=":", linewidth=0.8)
     ax.set_ylabel("Netto-Zinserfolg (Index 2020 = 100)")
-    ax.set_title("Zinswende-Dynamik 2015–2025 im Institutsvergleich")
-    ax.legend(ncol=2, fontsize=8)
+    ax.set_title("Zinswende-Dynamik 2015–2025 im Institutsvergleich (Legende absteigend nach 2025)")
+    ax.legend(ncol=3, fontsize=7.5, loc="upper left")
     _save(fig, COMP_CHARTS / "07_zinswende_indiziert_2015_2025.png")
 
-    # Chart 08: Reale Lohnkosten je FTE 2025 (real 2025 CHF)
-    fig, ax = plt.subplots(figsize=(9.5, 4.8))
+    # Chart 08: Reale Lohnkosten je FTE 2025 (absteigend + Mittelwert da symmetrisch verteilt)
+    fig, ax = plt.subplots(figsize=(10, 6.2))
     verg_25 = {r["bank_id"]: r for r in verg_rows if r["year"] == 2025}
-    lohn_v = [verg_25.get(b, {}).get("avg_per_fte_tchf_real2025") or 0 for b in VALID_BANKS]
-    ax.barh(names, lohn_v, color=colors)
+    lohn_items = sorted(
+        [(configs[b].short_name, verg_25.get(b, {}).get("avg_per_fte_tchf_real2025") or 0.0, configs[b].palette["primary"]) for b in VALID_BANKS],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    ax.barh([x[0] for x in lohn_items], [x[1] for x in lohn_items], color=[x[2] for x in lohn_items])
+    ax.invert_yaxis()
+    _ref_v(ax, [x[1] for x in lohn_items if x[1] > 0], use_median=False, unit=" TCHF", d=1)
     ax.set_xlabel("Personalaufwand je FTE 2025 (TCHF, real 2025)")
-    ax.set_title("Reale Lohnkosten je Vollzeitstelle 2025 (19 Institute)")
+    ax.set_title("Reale Lohnkosten je Vollzeitstelle 2025 (19 Institute, absteigend)")
+    ax.legend(loc="lower right", fontsize=8)
     _save(fig, COMP_CHARTS / "08_verguetung_real_2025_vergleich.png")
 
-    # Chart 09: Reingewinn real 2025 vs 2020 (Index)
-    fig, ax = plt.subplots(figsize=(9.5, 4.8))
-    np_25 = [by_bank_yr.get((b, 2025), {}).get("net_profit_mio") or 0 for b in VALID_BANKS]
-    ax.barh(names, np_25, color=colors)
+    # Chart 09: Reingewinn 2025 (absteigend + Median wegen extremer Rechtsschiefe)
+    fig, ax = plt.subplots(figsize=(10, 6.2))
+    np_items = sorted(
+        [(configs[b].short_name, by_bank_yr.get((b, 2025), {}).get("net_profit_mio") or 0.0, configs[b].palette["primary"]) for b in VALID_BANKS],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    ax.barh([x[0] for x in np_items], [x[1] for x in np_items], color=[x[2] for x in np_items])
+    ax.invert_yaxis()
     ax.set_xscale("log")
+    _ref_v(ax, [x[1] for x in np_items if x[1] > 0], use_median=True, unit=" Mio.", d=1)
     ax.set_xlabel("Reingewinn 2025 (Mio. CHF, Log-Skala)")
-    ax.set_title("Reingewinn 2025 im harmonisierten CHF-Vergleich")
+    ax.set_title("Reingewinn 2025 im harmonisierten CHF-Vergleich (absteigend)")
+    ax.legend(loc="lower right", fontsize=8)
     _save(fig, COMP_CHARTS / "09_ausschuettung_und_total_return.png")
 
     # --- 5 Cross-Bank-Berichte ---
@@ -321,13 +450,13 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
         ]
         for b in VALID_BANKS
     ]
-    c1 = f"""# 01 · Grösse, Wachstum & Geschäftsmodell (8 Schweizer Banken)
+    c1 = f"""# 01 · Grösse, Wachstum & Geschäftsmodell ({len(VALID_BANKS)} Schweizer Banken)
 
 > **Harmonisierung:** Alle Werte in **Mio. CHF** (UBS USD→CHF via `shared/fx_rates.py`). Vergleichbarkeitshinweise zu `consolidated`/`standalone` und `ARB_RVB`/`IFRS` sind pro Zeile ausgewiesen.
 
 ## 1. Management Summary
-- Die Bilanzsummen 2025 spannen über drei Grössenordnungen: von regionalen Kantonalbanken (VSKB, GEKB, BEKB, BCV) über die inländischen D-SIBs (PostFinance, ZKB, Raiffeisen) bis zum globalen G-SIB **UBS**.
-- **Geschäftsmodelle im Kontrast:** Klassische Kantonalbanken & Raiffeisen erzielen **55–75 %** ihres Ertrags im Zinsgeschäft; **UBS** dominiert über Wealth-Management-Kommissionen; **PostFinance** investiert aufgrund des gesetzlichen Kreditverbots in Finanzanlagen statt Hypotheken.
+- Die Bilanzsummen 2025 spannen über vier Grössenordnungen: von regionalen Sparkassen und Kantonalbanken über die inländischen D-SIBs (**PostFinance, ZKB, Raiffeisen**) bis zum globalen G-SIB **UBS**.
+- **Geschäftsmodelle im Kontrast:** Klassische Kantonalbanken, Regionalbanken & Raiffeisen erzielen **55–93 %** ihres Ertrags im Zinsgeschäft; **UBS, Pictet & Vontobel** dominieren über Wealth-Management-Kommissionen; **PostFinance** investiert aufgrund des gesetzlichen Kreditverbots in Finanzanlagen statt Hypotheken.
 
 ![Bilanzsumme und CAGR](./charts/01_bilanzsumme_und_cagr_8_banken.png)
 
@@ -352,8 +481,8 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
     c2 = f"""# 02 · Profitabilität, Effizienz & Produktivität (2025)
 
 ## 1. Management Summary
-- Die Effizienzspanne (Cost-Income-Ratio) trennt schlanke Universal-/Kantonalbanken (**CIR ~45–55 %**) deutlich von integrations- oder gebührenintensiven Plattformmodellen (**PostFinance, UBS**).
-- Bei der Produktivität je Vollzeitstelle (**Ertrag/FTE**) zeigen sich klare Skalenvorteile grosser Verbund- und Globalinstitute.
+- Die Effizienzspanne (Cost-Income-Ratio) trennt schlanke Regional- und Kantonalbanken (**CIR ~38–55 %**) deutlich von integrations- oder gebührenintensiven Plattform- und Wealth-Modellen (**PostFinance, UBS, Vontobel, Pictet**).
+- Bei der Produktivität je Vollzeitstelle (**Ertrag/FTE**) liegen spezialisierte Verbund-, Gross- und Kantonalbanken über dem Branchenmittelwert.
 
 ![CIR vs ROE Quadrant](./charts/03_cir_vs_roe_quadrant_2025.png)
 
@@ -379,7 +508,7 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
     c3 = f"""# 03 · Kapitalisierung, Regulierung & Staatsgarantie (Basel III final)
 
 ## 1. Management Summary
-- Sämtliche 19 Institute übertreffen ihre jeweiligen **FINMA-Zielgrössen** (Kategorie 1 G-SIB, Kategorie 2 D-SIB bzw. Kategorie 3) komfortabel.
+- Sämtliche 19 Institute übertreffen ihre jeweiligen **FINMA-Zielgrössen** (Kategorie 1 G-SIB, Kategorie 2 D-SIB bzw. Kategorie 3/4/5) komfortabel.
 - Der Übergang zu **Basel III final (ab 01.01.2025)** reduziert bei risikoarmen Hypothekarbanken (Standardansatz) tendenziell die RWA-Dichte, während IRB-Banken (BCV) bzw. G-SIBs (UBS) schärfere Output-Floor-/TBTF-Vorgaben einhalten.
 
 ![Kapitalpuffer Basel III final](./charts/05_kapitalpuffer_basel_iii_final_2026.png)
@@ -437,54 +566,135 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
             vorsorge_rows = list(csv.DictReader(f))
     vorsorge_by_b = {r["bank_id"]: r for r in vorsorge_rows}
 
-    # Chart 10: Investoren ROE vs Dividendenrendite / Eigentümer-Rendite 2025
-    fig, ax = plt.subplots(figsize=(9, 4.8))
-    roes_25 = [by_bank_yr.get((b, 2025), {}).get("roe_pct") or 0 for b in VALID_BANKS]
-    divs_25 = [by_bank_yr.get((b, 2025), {}).get("dividend_yield_pct") or 0 for b in VALID_BANKS]
-    x_idx = range(len(VALID_BANKS))
+    # Chart 10: Investoren ROE vs Dividendenrendite 2025 (absteigend nach ROE + Median ROE & Mittelwert Div.-Rendite)
+    fig, ax = plt.subplots(figsize=(11, 5.2))
+    roe_div_items = sorted(
+        [
+            (
+                configs[b].short_name,
+                by_bank_yr.get((b, 2025), {}).get("roe_pct") or 0.0,
+                by_bank_yr.get((b, 2025), {}).get("dividend_yield_pct") or 0.0,
+            )
+            for b in VALID_BANKS
+        ],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    x_idx = range(len(roe_div_items))
+    roes_25 = [x[1] for x in roe_div_items]
+    divs_25 = [x[2] for x in roe_div_items]
     ax.bar([i - 0.18 for i in x_idx], roes_25, width=0.35, color="#0F2942", label="ROE 2025 (%)")
     ax.bar([i + 0.18 for i in x_idx], divs_25, width=0.35, color="#C8102E", label="Dividendenrendite 2025 (%)")
+    _ref_h(ax, [v for v in roes_25 if v > 0], use_median=True, unit=" %", d=2, color="#0F2942", label_prefix="ROE")
+    _ref_h(ax, [v for v in divs_25 if v > 0], use_median=False, unit=" %", d=2, color="#DC2626", label_prefix="Div.-Rendite")
     ax.set_xticks(list(x_idx))
-    ax.set_xticklabels(names, rotation=20)
+    ax.set_xticklabels([x[0] for x in roe_div_items], rotation=28, ha="right")
     ax.set_ylabel("%")
-    ax.set_title("Investoren-Benchmark 2025: Eigenkapitalrendite (ROE) vs. Dividendenrendite")
-    ax.legend()
+    ax.set_title("Investoren-Benchmark 2025: Eigenkapitalrendite (ROE) vs. Dividendenrendite (absteigend nach ROE)")
+    ax.legend(fontsize=8)
     _save(fig, COMP_CHARTS / "10_investoren_bewertung_pb_vs_roe_2025.png")
 
-    # Chart 11: Investoren 5J-Gewinnwachstum vs Kursentwicklung
-    fig, ax = plt.subplots(figsize=(9, 4.8))
-    cagr_np = [_cagr(by_bank_yr.get((b, 2020), {}).get("net_profit_mio"), by_bank_yr.get((b, 2025), {}).get("net_profit_mio"), 5) or 0.0 for b in VALID_BANKS]
-    ax.barh(names, cagr_np, color=colors)
+    # Chart 11: Investoren 5J-Gewinnwachstum 2020-2025 (absteigend + Median wegen Ausreisser-Schiefe)
+    fig, ax = plt.subplots(figsize=(10, 6.0))
+    np_cagr_items = sorted(
+        [
+            (
+                configs[b].short_name,
+                cval,
+                configs[b].palette["primary"],
+            )
+            for b in VALID_BANKS
+            if (cval := _cagr(by_bank_yr.get((b, 2020), {}).get("net_profit_mio"), by_bank_yr.get((b, 2025), {}).get("net_profit_mio"), 5)) is not None
+        ],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    ax.barh([x[0] for x in np_cagr_items], [x[1] for x in np_cagr_items], color=[x[2] for x in np_cagr_items])
+    ax.invert_yaxis()
     ax.axvline(0, color="black", linewidth=0.8)
+    _ref_v(ax, [x[1] for x in np_cagr_items], use_median=True, unit=" %", d=2)
     ax.set_xlabel("Reingewinn-CAGR 2020–2025 (% p. a.)")
-    ax.set_title("Investoren-Benchmark: Ertrags- & Gewinnwachstum (2020–2025)")
+    ax.set_title("Investoren-Benchmark: Ertrags- & Gewinnwachstum 2020–2025 (absteigend)")
+    ax.legend(loc="lower right", fontsize=8)
     _save(fig, COMP_CHARTS / "11_investoren_tsr_und_ausschuettung_2020_2025.png")
 
-    # Chart 12: Mitarbeiter Produktivität vs Lohnkosten/FTE & CEO Pay Ratio 2025
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11.5, 4.8))
-    inc_fte = [by_bank_yr.get((b, 2025), {}).get("income_per_fte_tchf") or 0 for b in VALID_BANKS]
-    ax1.barh(names, lohn_v, color="#0F766E", height=0.4, label="Personalaufwand/FTE real (TCHF)")
-    ax1.barh(names, inc_fte, left=lohn_v, color="#94A3B8", alpha=0.45, height=0.4, label="Ertrag/FTE (TCHF)")
+    # Chart 12: Mitarbeiter Produktivität vs Lohnkosten/FTE (absteigend nach Ertrag/FTE + Mittelwerte) & CEO Pay Ratio (absteigend + Median)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 6.2))
+    emp_items = sorted(
+        [
+            (
+                configs[b].short_name,
+                by_bank_yr.get((b, 2025), {}).get("income_per_fte_tchf") or 0.0,
+                verg_25.get(b, {}).get("avg_per_fte_tchf_real2025") or 0.0,
+            )
+            for b in VALID_BANKS
+        ],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    e_names = [x[0] for x in emp_items]
+    e_inc = [x[1] for x in emp_items]
+    e_lohn = [x[2] for x in emp_items]
+    ax1.barh(e_names, e_inc, color="#94A3B8", alpha=0.65, height=0.55, label="Ertrag/FTE (TCHF)")
+    ax1.barh(e_names, e_lohn, color="#0F766E", height=0.55, label="Personalaufwand/FTE real (TCHF)")
+    ax1.invert_yaxis()
+    _ref_v(ax1, [v for v in e_inc if v > 0], use_median=False, unit=" TCHF", d=1, color="#0F2942", label_prefix="Ertrag/FTE")
+    _ref_v(ax1, [v for v in e_lohn if v > 0], use_median=False, unit=" TCHF", d=1, color="#DC2626", label_prefix="Lohn/FTE")
     ax1.set_xlabel("TCHF pro Vollzeitstelle (2025)")
-    ax1.set_title("Lohnkosten vs. Produktivität je FTE")
-    ax1.legend(fontsize=8)
-    pay_ratios = []
+    ax1.set_title("Lohnkosten vs. Produktivität je FTE (absteigend)")
+    ax1.legend(loc="lower right", fontsize=7.5)
+
+    pr_items = []
     for b in VALID_BANKS:
         vr = verg_25.get(b, {})
         ceo_v = vr.get("ceo_total_tchf_real2025")
         avg_v = vr.get("avg_per_fte_tchf_real2025")
-        pay_ratios.append(round(ceo_v / avg_v, 1) if (ceo_v and avg_v) else 0.0)
-    ax2.barh(names, pay_ratios, color=colors)
+        if ceo_v and avg_v:
+            pr_items.append((configs[b].short_name, round(ceo_v / avg_v, 1), configs[b].palette["primary"]))
+    pr_items.sort(key=lambda x: x[1], reverse=True)
+    ax2.barh([x[0] for x in pr_items], [x[1] for x in pr_items], color=[x[2] for x in pr_items])
+    ax2.invert_yaxis()
+    _ref_v(ax2, [x[1] for x in pr_items], use_median=True, unit="×", d=1)
     ax2.set_xlabel("CEO-Vergütung / Ø Personalaufwand pro FTE (×)")
-    ax2.set_title("Vergütungsspreizung (CEO Pay Ratio 2025)")
+    ax2.set_title("Vergütungsspreizung (CEO Pay Ratio 2025, absteigend)")
+    ax2.legend(loc="lower right", fontsize=8)
     _save(fig, COMP_CHARTS / "12_mitarbeiter_lohn_produktivitaet_pay_ratio_2025.png")
 
-    # Chart 13: Vorsorgeeinrichtungen Aktive/Rentner-Verhältnis & Deckungsgrad / AGBR
-    fig, ax = plt.subplots(figsize=(9.5, 4.8))
-    ratios_pk = [float(vorsorge_by_b[b]["active_to_pensioner_ratio"]) if vorsorge_by_b.get(b, {}).get("active_to_pensioner_ratio") else 0.0 for b in VALID_BANKS]
-    ax.barh(names, ratios_pk, color="#0F2942")
-    ax.set_xlabel("Verhältnis Aktive Versicherte / Rentner (wo im GB ausgewiesen)")
-    ax.set_title("Vorsorgeeinrichtungen: Demografische Struktur (Aktive je Rentner)")
+    # Chart 13: Vorsorgeeinrichtungen BVG-Deckungsgrad (absteigend + Mittelwert) & Arbeitgeberbeiträge (absteigend + Median)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5.8))
+    cov_items = sorted(
+        [
+            (configs[b].short_name, float(vorsorge_by_b[b]["coverage_ratio_bvg_pct"]), configs[b].palette["primary"])
+            for b in VALID_BANKS
+            if vorsorge_by_b.get(b, {}).get("coverage_ratio_bvg_pct")
+        ],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    ax1.barh([x[0] for x in cov_items], [x[1] for x in cov_items], color=[x[2] for x in cov_items])
+    ax1.invert_yaxis()
+    ax1.axvline(100.0, color="black", linestyle=":", linewidth=1.2, label="BVG-Minimum: 100.0 %")
+    _ref_v(ax1, [x[1] for x in cov_items], use_median=False, unit=" %", d=1)
+    ax1.set_xlim(90, max([x[1] for x in cov_items] + [135]) + 4)
+    ax1.set_xlabel("BVG-Deckungsgrad (%)")
+    ax1.set_title("Pensionskassen: BVG-Deckungsgrad 2025 (absteigend)")
+    ax1.legend(loc="lower right", fontsize=8)
+
+    emp_c_items = sorted(
+        [
+            (configs[b].short_name, float(vorsorge_by_b[b]["employer_contribution_mio"]), configs[b].palette["primary"])
+            for b in VALID_BANKS
+            if vorsorge_by_b.get(b, {}).get("employer_contribution_mio")
+        ],
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    ax2.barh([x[0] for x in emp_c_items], [x[1] for x in emp_c_items], color=[x[2] for x in emp_c_items])
+    ax2.invert_yaxis()
+    _ref_v(ax2, [x[1] for x in emp_c_items], use_median=True, unit=" Mio.", d=1)
+    ax2.set_xlabel("Arbeitgeberbeiträge / Vorsorgeaufwand 2025 (Mio. CHF)")
+    ax2.set_title("Pensionskassen: Arbeitgeberbeiträge 2025 (absteigend)")
+    ax2.legend(loc="lower right", fontsize=8)
     _save(fig, COMP_CHARTS / "13_vorsorgeeinrichtungen_deckungsgrad_verzinsung.png")
 
     # Bericht 06: Investoren-Branchenvergleich
@@ -502,11 +712,11 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
             fmt(_cagr(by_bank_yr.get((b, 2020), {}).get("net_profit_mio"), r25.get("net_profit_mio"), 5), 2) + " %",
             fmt(latest_off[b].get("cet1_ratio_pct"), 2) + " %",
         ])
-    c6 = f"""# 06 · Investoren-Branchenvergleich (8 Schweizer Banken, 2025)
+    c6 = f"""# 06 · Investoren-Branchenvergleich ({len(VALID_BANKS)} Schweizer Banken, 2025)
 
 ## 1. Management Summary
-- **Segment A (Kotierte Institute — BEKB, VSKB, BCV, GEKB, UBS):** Die BCV erzielt 2025 mit **11,00 % ROE** die höchste Eigenkapitalrendite unter den Kantonalbanken bei einer attraktiven Dividendenrendite (**4,38 %**). BEKB und VSKB bieten stabile Ausschüttungsrenditen bei hoher Kapitalisierung (`CET1 > 16,5 %`), während **UBS** als globaler G-SIB (`ROE 8,60 %`) Wachstum über CS-Synergien und Aktienrückkäufe liefert.
-- **Segment B (Öffentliche & Genossenschafts-Eigentümer — ZKB, Raiffeisen, PostFinance):** Die ZKB erwirtschaftet **1'241,0 Mio. CHF** Konzerngewinn (`ROE 7,89 %`) und hohe Ablieferungen an den Kanton Zürich; Raiffeisen stärkt primär das Genossenschaftskapital (`ROE 5,08 %`); PostFinance erzielt unter Kreditverbot `1,82 %` ROE bei extrem hoher CET1-Quote (`24,97 %`).
+- **Segment A (Kotierte & Zertifikats-Institute):** Die **BCV** erzielt 2025 mit **11,00 % ROE** die höchste Eigenkapitalrendite unter den Kantonalbanken bei attraktiver Dividendenrendite (**4,38 %**); **Vontobel (10,57 %)**, **GEKB (8,84 %)**, **UBS (8,60 %)**, **SGKB (7,28 %, Rendite 4,60 %)** und **LUKB (6,99 %)** folgen mit soliden Ausschüttungen.
+- **Segment B (Öffentliche & Genossenschafts-Eigentümer):** **ZKB (1'241,0 Mio. CHF)** und **Raiffeisen (1'208,0 Mio. CHF)** erzielen die höchsten Inlandgewinne; **PostFinance** erzielt unter Kreditverbot `1,82 %` ROE bei höchster CET1-Quote (`24,97 %`).
 
 ![Investoren Bewertung & ROE](./charts/10_investoren_bewertung_pb_vs_roe_2025.png)
 
@@ -543,14 +753,13 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
             fmt(float(pk["active_insured_count"]), 0) if pk.get("active_insured_count") else "n. a.",
             fmt(float(pk["pensioners_count"]), 0) if pk.get("pensioners_count") else "n. a.",
             fmt(float(pk["coverage_ratio_bvg_pct"]), 1) + " %" if pk.get("coverage_ratio_bvg_pct") else "n. a.",
-            fmt(float(pk["employer_contribution_reserve_mio"]), 1) if pk.get("employer_contribution_reserve_mio") else "n. a.",
+            fmt(float(pk["employer_contribution_mio"]), 2) if pk.get("employer_contribution_mio") else "n. a.",
         ])
-    c7 = f"""# 07 · Mitarbeiter- & Vorsorge-Branchenvergleich (8 Schweizer Banken, 2025)
+    c7 = f"""# 07 · Mitarbeiter- & Vorsorge-Branchenvergleich ({len(VALID_BANKS)} Schweizer Banken, 2025)
 
 ## 1. Management Summary
-- **Lohnkosten- / Produktivitätsverhältnis (2025):** Das Verhältnis von Personalaufwand zu Geschäftsertrag je FTE reicht von effizienten **~28–39 %** bei den Kantonalbanken und Raiffeisen (entspricht **2,6× bis 3,6×** Ertrag pro CHF Lohnkosten) bis zu **43,9 %** (`2,28×`) bei PostFinance und **56,2 %** (`1,78×`) bei UBS.
-- **Vergütungsspreizung (CEO Pay Ratio):** Die Spreizung reicht von **4,6×–8,6×** bei VSKB, BEKB, GEKB und BCV über **11,8×–13,1×** bei Raiffeisen und ZKB bis zu **62,6×** bei UBS.
-- **Vorsorgeeinrichtungen:** Alle 7 Inlandbanken bilanzieren nach **Swiss GAAP FER 16**, während **UBS** die Schweizer Pensionspläne nach **IFRS / IAS 19** ausweist (direkter BVG-Deckungsgradvergleich erfordert Art. 44 BVV 2).
+- **Lohnkosten- / Produktivitätsverhältnis (2025):** Bei den **19 Instituten** liegt der durchschnittliche Geschäftsertrag je FTE bei **514,9 TCHF** (bei realen Lohnkosten je FTE von **Ø 177,6 TCHF**).
+- **Vorsorgeeinrichtungen:** Alle Schweizer Banken mit Swiss-GAAP-FER-Ausweis weisen solide **BVG-Deckungsgrade** auf (Ø **120,9 %** über 13 berichtende Kassen, von **110,0 %** bis **133,3 %** bei BEKB).
 
 ![Mitarbeiter Lohn, Produktivität & Pay Ratio](./charts/12_mitarbeiter_lohn_produktivitaet_pay_ratio_2025.png)
 
@@ -558,7 +767,7 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
 {_table(["Institut", "FTE 2025", "Ertrag/FTE (TCHF)", "Personalaufw./FTE (TCHF)", "Lohn / Produktivität", "Ertrag / Lohn", "CEO real (TCHF)", "CEO Pay Ratio"], t7_emp_rows)}
 
 ## 3. Zugehörige Vorsorgeeinrichtungen (Pensionskassen)
-{_table(["Institut", "Vorsorgeeinrichtung", "Standard", "Aktive", "Rentner", "Deckungsgrad BVG", "AGBR (Mio.)"], t7_pk_rows)}
+{_table(["Institut", "Vorsorgeeinrichtung", "Standard", "Aktive", "Rentner", "Deckungsgrad BVG", "AG-Beiträge (Mio.)"], t7_pk_rows)}
 
 ![Vorsorgeeinrichtungen Struktur](./charts/13_vorsorgeeinrichtungen_deckungsgrad_verzinsung.png)
 """
@@ -576,7 +785,7 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
         (COMP_REPORTS / fn).write_text(body, encoding="utf-8")
 
     (COMP_REPORTS / "README.md").write_text(
-        "# Institutsübergreifende Auswertung (8 Schweizer Banken)\n\n"
+        f"# Institutsübergreifende Auswertung ({len(VALID_BANKS)} Schweizer Banken)\n\n"
         + "\n".join(f"- [{title}](./{fn})" for fn, _, title in rep_files)
         + "\n",
         encoding="utf-8",

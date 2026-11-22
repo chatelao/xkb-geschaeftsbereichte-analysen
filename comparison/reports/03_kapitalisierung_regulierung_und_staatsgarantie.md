@@ -1,7 +1,7 @@
 # 03 · Kapitalisierung, Regulierung & Staatsgarantie (Basel III final)
 
 ## 1. Management Summary
-- Sämtliche 19 Institute übertreffen ihre jeweiligen **FINMA-Zielgrössen** (Kategorie 1 G-SIB, Kategorie 2 D-SIB bzw. Kategorie 3) komfortabel.
+- Sämtliche 19 Institute übertreffen ihre jeweiligen **FINMA-Zielgrössen** (Kategorie 1 G-SIB, Kategorie 2 D-SIB bzw. Kategorie 3/4/5) komfortabel.
 - Der Übergang zu **Basel III final (ab 01.01.2025)** reduziert bei risikoarmen Hypothekarbanken (Standardansatz) tendenziell die RWA-Dichte, während IRB-Banken (BCV) bzw. G-SIBs (UBS) schärfere Output-Floor-/TBTF-Vorgaben einhalten.
 
 ![Kapitalpuffer Basel III final](./charts/05_kapitalpuffer_basel_iii_final_2026.png)

@@ -1,10 +1,10 @@
-# 01 · Grösse, Wachstum & Geschäftsmodell (8 Schweizer Banken)
+# 01 · Grösse, Wachstum & Geschäftsmodell (19 Schweizer Banken)
 
 > **Harmonisierung:** Alle Werte in **Mio. CHF** (UBS USD→CHF via `shared/fx_rates.py`). Vergleichbarkeitshinweise zu `consolidated`/`standalone` und `ARB_RVB`/`IFRS` sind pro Zeile ausgewiesen.
 
 ## 1. Management Summary
-- Die Bilanzsummen 2025 spannen über drei Grössenordnungen: von regionalen Kantonalbanken (VSKB, GEKB, BEKB, BCV) über die inländischen D-SIBs (PostFinance, ZKB, Raiffeisen) bis zum globalen G-SIB **UBS**.
-- **Geschäftsmodelle im Kontrast:** Klassische Kantonalbanken & Raiffeisen erzielen **55–75 %** ihres Ertrags im Zinsgeschäft; **UBS** dominiert über Wealth-Management-Kommissionen; **PostFinance** investiert aufgrund des gesetzlichen Kreditverbots in Finanzanlagen statt Hypotheken.
+- Die Bilanzsummen 2025 spannen über vier Grössenordnungen: von regionalen Sparkassen und Kantonalbanken über die inländischen D-SIBs (**PostFinance, ZKB, Raiffeisen**) bis zum globalen G-SIB **UBS**.
+- **Geschäftsmodelle im Kontrast:** Klassische Kantonalbanken, Regionalbanken & Raiffeisen erzielen **55–93 %** ihres Ertrags im Zinsgeschäft; **UBS, Pictet & Vontobel** dominieren über Wealth-Management-Kommissionen; **PostFinance** investiert aufgrund des gesetzlichen Kreditverbots in Finanzanlagen statt Hypotheken.
 
 ![Bilanzsumme und CAGR](./charts/01_bilanzsumme_und_cagr_8_banken.png)
 

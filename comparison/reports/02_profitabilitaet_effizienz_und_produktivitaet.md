@@ -1,8 +1,8 @@
 # 02 · Profitabilität, Effizienz & Produktivität (2025)
 
 ## 1. Management Summary
-- Die Effizienzspanne (Cost-Income-Ratio) trennt schlanke Universal-/Kantonalbanken (**CIR ~45–55 %**) deutlich von integrations- oder gebührenintensiven Plattformmodellen (**PostFinance, UBS**).
-- Bei der Produktivität je Vollzeitstelle (**Ertrag/FTE**) zeigen sich klare Skalenvorteile grosser Verbund- und Globalinstitute.
+- Die Effizienzspanne (Cost-Income-Ratio) trennt schlanke Regional- und Kantonalbanken (**CIR ~38–55 %**) deutlich von integrations- oder gebührenintensiven Plattform- und Wealth-Modellen (**PostFinance, UBS, Vontobel, Pictet**).
+- Bei der Produktivität je Vollzeitstelle (**Ertrag/FTE**) liegen spezialisierte Verbund-, Gross- und Kantonalbanken über dem Branchenmittelwert.
 
 ![CIR vs ROE Quadrant](./charts/03_cir_vs_roe_quadrant_2025.png)
 
