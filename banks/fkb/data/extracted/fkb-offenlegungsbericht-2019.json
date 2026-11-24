@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "stem": "fkb-offenlegungsbericht-2019",
+    "report_type": "offenlegung_fy",
+    "year": 2019,
+    "period": "FY2019",
+    "part": null,
+    "bank_id": "fkb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/fkb-offenlegungsbericht-2019.md",
+    "total_chars": 60150,
+    "total_lines": 898
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2058071.0,
+      "value_prior_year": 1932879.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1|Hartes Kernkapital (CET1)|2’058'071|1’967’460|1’932’879|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2058071.0,
+      "value_prior_year": 1932879.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2|Kernkapital (T1)|2’058’071|1’967’460|1’932’879|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2058071.0,
+      "value_prior_year": 1932879.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3|Gesamtkapital total|2’058’071|2’058’475|1’932’879|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 11406666.0,
+      "value_prior_year": 11144967.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4|RWA|11’406’666|11’407’371|11’144’967|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 18.04,
+      "value_prior_year": 17.34,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5|CET1-Quote(%)|18,04%|17,25%|17,34%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 18.04,
+      "value_prior_year": 17.34,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7|Gesamtkapitalquote(%)|18,04%|18,05%|17,34%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "mortgage_loans": {
+      "value_current": 16242304.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|16’242’304||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "financial_investments": {
+      "value_current": 1164911.0,
+      "value_prior_year": null,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Finanzanlagen|1’164’911||",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

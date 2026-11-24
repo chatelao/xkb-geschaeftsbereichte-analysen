@@ -433,6 +433,28 @@ VORSORGE_RECORDS: list[dict] = [
         "notes": "Rechtlich selbstständige Pensionskasse (Swiss GAAP FER 26); Deckungsgrad per 31.12.2025 128,1 % (Vorjahr 127,4 %); Zielwert Wertschwankungsreserve (25,6 %) erreicht; bezahlte Beiträge 2025: CHF 20,616 Mio. (2024: CHF 19,883 Mio.).",
         "source_url_or_file": "lukb/.md/lukb-geschaeftsbericht-2025.md (Anhang 6.9 / 8.11 Wirtschaftliche Lage der eigenen Vorsorgeeinrichtungen)",
     },
+    {
+        "bank_id": "fkb",
+        "short_name": "FKB (BCF)",
+        "pk_name": "Pensionskasse für das Personal der Freiburger Kantonalbank",
+        "pk_plan_type": "Beitragsprimat",
+        "accounting_basis": "Swiss GAAP FER 26 / ARB",
+        "reference_year": 2025,
+        "active_insured_count": 572,
+        "pensioners_count": 218,
+        "active_to_pensioner_ratio": 2.62,
+        "pk_assets_mio": None,
+        "coverage_ratio_bvg_pct": 119.67,
+        "technical_interest_rate_pct": None,
+        "interest_crediting_pct": None,
+        "conversion_rate_65_pct": None,
+        "employer_contribution_mio": 10.321,
+        "employer_share_pct": 71.4,
+        "employer_contribution_reserve_mio": 0.0,
+        "extraordinary_contributions_mio": 0.0,
+        "notes": "Autonome öffentlich-rechtliche Vorsorgeeinrichtung; Stand 31.12.2025/01.01.2026: 572 Aktive / 218 Rentner (Verhältnis 2,62), Deckungsgrad 119,67 %, Arbeitgeberbeiträge durchschnittlich 2,5x Arbeitnehmerbeiträge (~71,4 %); bezahlte Beiträge 2025: CHF 10,321 Mio.",
+        "source_url_or_file": "fkb/.md/fkb-geschaeftsbericht-2025.md (Anhang Vorsorgeverpflichtungen, S. 57 & 75); bcf.ch (Arbeitgeberin)",
+    },
 ]
 
 

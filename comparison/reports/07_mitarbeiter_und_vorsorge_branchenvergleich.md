@@ -1,4 +1,4 @@
-# 07 · Mitarbeiter- & Vorsorge-Branchenvergleich (19 Schweizer Banken, 2025)
+# 07 · Mitarbeiter- & Vorsorge-Branchenvergleich (20 Schweizer Banken, 2025)
 
 ## 1. Management Summary
 - **Lohnkosten- / Produktivitätsverhältnis (2025):** Bei den **19 Instituten** liegt der durchschnittliche Geschäftsertrag je FTE bei **514,9 TCHF** (bei realen Lohnkosten je FTE von **Ø 177,6 TCHF**).
@@ -28,6 +28,7 @@
 | SGKB | 1'219 | 496,0 | 168,8 | 34,0 % | 2,94× | – | – |
 | LUKB | 1'206 | 572,9 | 181,1 | 31,6 % | 3,16× | – | – |
 | BLKB | 926 | 538,9 | 171,6 | 31,8 % | 3,14× | – | – |
+| FKB (BCF) | 495 | 751,7 | 174,3 | 23,2 % | 4,31× | – | – |
 
 ## 3. Zugehörige Vorsorgeeinrichtungen (Pensionskassen)
 | Institut | Vorsorgeeinrichtung | Standard | Aktive | Rentner | Deckungsgrad BVG | AG-Beiträge (Mio.) |
@@ -51,5 +52,6 @@
 | SGKB | Personalvorsorgeeinrichtung der St. Galler Kantonalbank | Swiss GAAP FER 26 / ARB | n. a. | n. a. | 120,8 % | 17,38 |
 | LUKB | Pensionskasse der Luzerner Kantonalbank | Swiss GAAP FER 26 / ARB | n. a. | n. a. | 128,1 % | 20,62 |
 | BLKB | Pensionskasse der BLKB (Basellandschaftliche Pensionskasse BLPK) | Swiss GAAP FER 26 / ARB | n. a. | n. a. | 115,4 % | 15,93 |
+| FKB (BCF) | Pensionskasse für das Personal der Freiburger Kantonalbank | Swiss GAAP FER 26 / ARB | 572 | 218 | 119,7 % | 10,32 |
 
 ![Vorsorgeeinrichtungen Struktur](./charts/13_vorsorgeeinrichtungen_deckungsgrad_verzinsung.png)

@@ -1,0 +1,60 @@
+{
+  "annual": {
+    "2015": {"fte_count": 380.0, "customer_loans_other": 3068.517, "contribution_public_mio": 64.0},
+    "2016": {"fte_count": 372.0, "customer_loans_other": 3000.335, "contribution_public_mio": 65.0},
+    "2017": {"fte_count": 383.0, "customer_loans_other": 2912.767, "contribution_public_mio": 66.8},
+    "2018": {"fte_count": 382.0, "customer_loans_other": 3081.746, "contribution_public_mio": 68.954},
+    "2019": {"fte_count": 381.0, "customer_loans_other": 3121.864, "contribution_public_mio": 70.067},
+    "2020": {"fte_count": 385.0, "customer_loans_other": 3187.449, "contribution_public_mio": 69.943},
+    "2021": {"fte_count": 388.0, "customer_loans_other": 3046.747, "contribution_public_mio": 62.263},
+    "2022": {"fte_count": 403.0, "contribution_public_mio": 64.604},
+    "2023": {"fte_count": 443.0, "contribution_public_mio": 85.762},
+    "2024": {"fte_count": 458.0, "contribution_public_mio": 107.867},
+    "2025": {"fte_count": 495.0, "contribution_public_mio": 84.238}
+  },
+  "semester": {
+    "2016": {"net_profit": 68.5},
+    "2017": {"net_profit": 66.5},
+    "2018": {"net_profit": 72.1},
+    "2019": {"net_profit": 72.9},
+    "2020": {"net_profit": 72.5},
+    "2021": {"net_profit": 75.9},
+    "2022": {"net_profit": 80.6},
+    "2023": {"net_profit": 90.6},
+    "2024": {
+      "total_assets": 28655.456,
+      "customer_loans_other": 3624.144,
+      "mortgage_loans": 19368.061,
+      "financial_investments": 1427.870,
+      "customer_deposits": 16827.382,
+      "kassenobligationen": 378.013,
+      "pfandbriefe_bonds": 7294.000,
+      "reserves_banking_risks": 739.000,
+      "net_profit": 97.141
+    },
+    "2025": {
+      "total_assets": 29246.998,
+      "customer_loans_other": 3636.806,
+      "mortgage_loans": 20185.959,
+      "financial_investments": 1470.842,
+      "customer_deposits": 16714.560,
+      "kassenobligationen": 503.365,
+      "pfandbriefe_bonds": 7872.000,
+      "reserves_banking_risks": 802.000,
+      "net_profit": 87.922
+    }
+  },
+  "compensation": {
+    "2015": {"vr_total_tchf": 774.8, "gl_total_tchf": 1525.5, "notes": "Geschäftsbericht 2015 (Corporate Governance)"},
+    "2016": {"vr_total_tchf": 870.9, "gl_total_tchf": 1593.45, "notes": "Geschäftsbericht 2016 (Corporate Governance)"},
+    "2017": {"vr_total_tchf": 910.5, "gl_total_tchf": 1818.6, "notes": "Geschäftsbericht 2017 (Corporate Governance)"},
+    "2018": {"vr_total_tchf": 911.5, "gl_total_tchf": 2003.8, "notes": "Geschäftsbericht 2018 (Corporate Governance)"},
+    "2019": {"vr_total_tchf": 1100.0, "gl_total_tchf": 2081.3, "notes": "Geschäftsbericht 2019 (Corporate Governance)"},
+    "2020": {"vr_total_tchf": 1288.0, "gl_total_tchf": 2193.0, "notes": "Geschäftsbericht 2020 (Corporate Governance)"},
+    "2021": {"vr_total_tchf": 1412.0, "gl_total_tchf": 3095.0, "notes": "Geschäftsbericht 2021 (Doppelbesetzung Präsidium)"},
+    "2022": {"vr_total_tchf": 1419.0, "gl_total_tchf": 2595.8, "notes": "Geschäftsbericht 2022 (Corporate Governance)"},
+    "2023": {"vr_total_tchf": 1086.0, "gl_total_tchf": 3431.0, "notes": "Geschäftsbericht 2023 (Erweiterung GD auf 6 Mitglieder)"},
+    "2024": {"vr_total_tchf": 1039.0, "gl_total_tchf": 3094.0, "notes": "Geschäftsbericht 2024 (Corporate Governance)"},
+    "2025": {"vr_total_tchf": 1060.58, "gl_total_tchf": 3414.5, "notes": "Geschäftsbericht 2025 (Corporate Governance)"}
+  }
+}

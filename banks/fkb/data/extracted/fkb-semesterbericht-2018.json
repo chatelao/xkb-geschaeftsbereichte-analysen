@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "stem": "fkb-semesterbericht-2018",
+    "report_type": "semester",
+    "year": 2018,
+    "period": "H1-2018",
+    "part": null,
+    "bank_id": "fkb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/fkb-semesterbericht-2018.md",
+    "total_chars": 18014,
+    "total_lines": 310
+  },
+  "backend": "local",
+  "metrics": {
+    "customer_loans_other": {
+      "value_current": 3030400.0,
+      "value_prior_year": 2912767.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Créances sur la clientèle|3'030'400|2'912'767|4,0%|Forderungengegenüber Kunden|",
+      "chunk_name": "bilanz"
+    },
+    "mortgage_loans": {
+      "value_current": 14958317.0,
+      "value_prior_year": 14666367.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Créances hypothécaires|14'958'317|14'666'367|2,0%|Hypothekarforderungen|",
+      "chunk_name": "bilanz"
+    },
+    "financial_investments": {
+      "value_current": 1089441.0,
+      "value_prior_year": 1054880.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Immobilisations financières|1'089'441|1'054'880|3,3%|Finanzanlagen|",
+      "chunk_name": "bilanz"
+    },
+    "customer_deposits": {
+      "value_current": 13146565.0,
+      "value_prior_year": 12976826.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Engagements résultant des dépôts de la clientèle|13'146'565|12'976'826|1,3%|Verpflichtungen aus Kundeneinlagen|",
+      "chunk_name": "bilanz"
+    },
+    "kassenobligationen": {
+      "value_current": 210865.0,
+      "value_prior_year": 213147.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Obligations de caisse|210'865|213'147|-1,1%|Kassenobligationen|",
+      "chunk_name": "bilanz"
+    },
+    "net_profit": {
+      "value_current": 0.0,
+      "value_prior_year": 126365.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Bénéfice de l'exercice|0|126'365||Jahresgewinn|",
+      "chunk_name": "bilanz"
+    },
+    "net_interest_income": {
+      "value_current": 116712.0,
+      "value_prior_year": 114161.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Résultat brut des opérations d'intérêts|116'712|114'161|2,2%|Brutto-Erfolgaus dem Zinsengeschäft|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "commission_income": {
+      "value_current": 14981.0,
+      "value_prior_year": 15868.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Résultat des opérations de commissions et<br>des prestations de service|14'981|15'868|-5,6%|Erfolg aus dem Kommissions- und<br>Dienstleistungsgeschäft|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "trading_income": {
+      "value_current": 4873.0,
+      "value_prior_year": 5167.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Résultat des opérations de négoce|4'873|5'167|-5,7%|Erfolgaus dem Handelsgeschäft|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "other_ordinary_income": {
+      "value_current": 3482.0,
+      "value_prior_year": 2572.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Autres résultats ordinaires|3'482|2'572|35,4%|Übriger ordentlicher Erfolg|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_income": {
+      "value_current": 144529.0,
+      "value_prior_year": 131973.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Total desproduits d'exploitation|144'529|131'973|9,5%|Total Geschäftsertrag|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "general_expenses": {
+      "value_current": -19682.0,
+      "value_prior_year": -18898.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Autres charges d'exploitation|-19'682|-18'898|4,1%|Sachaufwand|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "total_operating_expenses": {
+      "value_current": -46768.0,
+      "value_prior_year": -45304.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Total des charges d'exploitation|-46'768|-45'304|3,2%|Total Geschäfsaufwand|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "operating_profit": {
+      "value_current": 87213.0,
+      "value_prior_year": 81000.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Résultat opérationnel|87'213|81'000|7,7%|Geschäftserfolg|",
+      "chunk_name": "erfolgsrechnung"
+    },
+    "taxes": {
+      "value_current": -10100.0,
+      "value_prior_year": -9700.0,
+      "unit": "TCHF",
+      "currency": "CHF",
+      "source_quote": "|Impôts|-10'100|-9'700|4,1%|Steuern|",
+      "chunk_name": "erfolgsrechnung"
+    }
+  }
+}

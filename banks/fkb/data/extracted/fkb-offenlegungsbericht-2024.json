@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "stem": "fkb-offenlegungsbericht-2024",
+    "report_type": "offenlegung_fy",
+    "year": 2024,
+    "period": "FY2024",
+    "part": null,
+    "bank_id": "fkb",
+    "reporting_scope": "standalone",
+    "reporting_currency": "CHF",
+    "source_file": ".md/fkb-offenlegungsbericht-2024.md",
+    "total_chars": 90353,
+    "total_lines": 1188
+  },
+  "backend": "local",
+  "metrics": {
+    "cet1_capital": {
+      "value_current": 2627821.0,
+      "value_prior_year": 2499146.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|1<br>Hartes Kernkapital (CET1)|2’627’821|2’499’146|2’499’146|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "tier1_capital": {
+      "value_current": 2627821.0,
+      "value_prior_year": 2499146.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|2<br>Kernkapital (T1)|2’627’821|2’499’146|2’499’146|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital": {
+      "value_current": 2633153.0,
+      "value_prior_year": 2508462.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|3<br>Gesamtkapital total|2’633’153|2’510’091|2’508’462|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "rwa_total": {
+      "value_current": 13878975.0,
+      "value_prior_year": 13309961.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|4<br>RWA|13’878’975|13’700’366|13’309’961|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "cet1_ratio_pct": {
+      "value_current": 18.93,
+      "value_prior_year": 18.78,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|5<br>CET1-Quote (%)|18,93%|18,24%|18,78%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "total_capital_ratio_pct": {
+      "value_current": 18.97,
+      "value_prior_year": 18.85,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|7<br>Gesamtkapitalquote (%)|18,97%|18,32%|18,85%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "nsfr_pct": {
+      "value_current": 131.0,
+      "value_prior_year": 132.0,
+      "unit": "%",
+      "currency": "CHF",
+      "source_quote": "|20 Finanzierungsquote, NSFR (in %)|131%|132%|132%|",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "customer_loans_other": {
+      "value_current": 3677813.0,
+      "value_prior_year": 3675499.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Forderungen gegenüber Kunden|3'677'813|3'675'499||",
+      "chunk_name": "km1_eigenmittel"
+    },
+    "mortgage_loans": {
+      "value_current": 19832216.0,
+      "value_prior_year": 18999045.0,
+      "unit": null,
+      "currency": "CHF",
+      "source_quote": "|Hypothekarforderungen|19'832'216|18'999'045||",
+      "chunk_name": "km1_eigenmittel"
+    }
+  }
+}

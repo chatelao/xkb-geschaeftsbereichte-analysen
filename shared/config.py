@@ -32,6 +32,7 @@ VALID_BANKS = (
     "sgkb",
     "lukb",
     "blkb",
+    "fkb",
 )
 VALID_SCOPES = {"standalone", "consolidated"}
 VALID_REPORT_05_MODES = {"listed_share", "cantonal_endowment", "cooperative_payout", "post_dividend"}

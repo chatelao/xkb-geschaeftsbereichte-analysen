@@ -1,0 +1,22 @@
+{
+  "bank_id": "fkb",
+  "short_name": "FKB (BCF)",
+  "pk_name": "Pensionskasse für das Personal der Freiburger Kantonalbank",
+  "pk_plan_type": "Beitragsprimat",
+  "accounting_basis": "Swiss GAAP FER 26 / ARB",
+  "reference_year": 2025,
+  "active_insured_count": 572,
+  "pensioners_count": 218,
+  "active_to_pensioner_ratio": 2.62,
+  "pk_assets_mio": null,
+  "coverage_ratio_bvg_pct": 119.67,
+  "technical_interest_rate_pct": null,
+  "interest_crediting_pct": null,
+  "conversion_rate_65_pct": null,
+  "employer_contribution_mio": 10.321,
+  "employer_share_pct": 71.4,
+  "employer_contribution_reserve_mio": 0.0,
+  "extraordinary_contributions_mio": 0.0,
+  "notes": "Autonome öffentlich-rechtliche Vorsorgeeinrichtung; Stand 31.12.2025/01.01.2026: 572 Aktive / 218 Rentner (Verhältnis 2,62), Deckungsgrad 119,67 %, Arbeitgeberbeiträge durchschnittlich 2,5x Arbeitnehmerbeiträge (~71,4 %); bezahlte Beiträge 2025: CHF 10,321 Mio.",
+  "source_url_or_file": "fkb/.md/fkb-geschaeftsbericht-2025.md (Anhang Vorsorgeverpflichtungen, S. 57 & 75); bcf.ch (Arbeitgeberin)"
+}

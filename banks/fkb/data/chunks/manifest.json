@@ -1,0 +1,744 @@
+{
+  "bank_id": "fkb",
+  "total_reports": 38,
+  "reports": [
+    {
+      "stem": "fkb-geschaeftsbericht-2015",
+      "report_type": "annual",
+      "year": 2015,
+      "period": "FY2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8299,
+          "approx_tokens": 2074
+        },
+        "erfolgsrechnung": {
+          "chars": 3812,
+          "approx_tokens": 953
+        },
+        "mehrjahresvergleich": {
+          "chars": 4729,
+          "approx_tokens": 1182
+        },
+        "aktie_basisdaten": {
+          "chars": 1701,
+          "approx_tokens": 425
+        },
+        "lagebericht_strategie": {
+          "chars": 7683,
+          "approx_tokens": 1920
+        }
+      }
+    },
+    {
+      "stem": "fkb-geschaeftsbericht-2016",
+      "report_type": "annual",
+      "year": 2016,
+      "period": "FY2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8604,
+          "approx_tokens": 2151
+        },
+        "erfolgsrechnung": {
+          "chars": 3887,
+          "approx_tokens": 971
+        },
+        "mehrjahresvergleich": {
+          "chars": 3430,
+          "approx_tokens": 857
+        },
+        "aktie_basisdaten": {
+          "chars": 1739,
+          "approx_tokens": 434
+        },
+        "lagebericht_strategie": {
+          "chars": 7187,
+          "approx_tokens": 1796
+        }
+      }
+    },
+    {
+      "stem": "fkb-geschaeftsbericht-2017",
+      "report_type": "annual",
+      "year": 2017,
+      "period": "FY2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8773,
+          "approx_tokens": 2193
+        },
+        "erfolgsrechnung": {
+          "chars": 3893,
+          "approx_tokens": 973
+        },
+        "mehrjahresvergleich": {
+          "chars": 5214,
+          "approx_tokens": 1303
+        },
+        "aktie_basisdaten": {
+          "chars": 1667,
+          "approx_tokens": 416
+        },
+        "lagebericht_strategie": {
+          "chars": 7160,
+          "approx_tokens": 1790
+        }
+      }
+    },
+    {
+      "stem": "fkb-geschaeftsbericht-2018",
+      "report_type": "annual",
+      "year": 2018,
+      "period": "FY2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8533,
+          "approx_tokens": 2133
+        },
+        "erfolgsrechnung": {
+          "chars": 3936,
+          "approx_tokens": 984
+        },
+        "mehrjahresvergleich": {
+          "chars": 1919,
+          "approx_tokens": 479
+        },
+        "aktie_basisdaten": {
+          "chars": 1746,
+          "approx_tokens": 436
+        },
+        "lagebericht_strategie": {
+          "chars": 7070,
+          "approx_tokens": 1767
+        }
+      }
+    },
+    {
+      "stem": "fkb-geschaeftsbericht-2019",
+      "report_type": "annual",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8755,
+          "approx_tokens": 2188
+        },
+        "erfolgsrechnung": {
+          "chars": 3942,
+          "approx_tokens": 985
+        },
+        "aktie_basisdaten": {
+          "chars": 3830,
+          "approx_tokens": 957
+        },
+        "lagebericht_strategie": {
+          "chars": 7202,
+          "approx_tokens": 1800
+        }
+      }
+    },
+    {
+      "stem": "fkb-geschaeftsbericht-2020",
+      "report_type": "annual",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8881,
+          "approx_tokens": 2220
+        },
+        "erfolgsrechnung": {
+          "chars": 3919,
+          "approx_tokens": 979
+        },
+        "aktie_basisdaten": {
+          "chars": 2630,
+          "approx_tokens": 657
+        },
+        "lagebericht_strategie": {
+          "chars": 7175,
+          "approx_tokens": 1793
+        }
+      }
+    },
+    {
+      "stem": "fkb-geschaeftsbericht-2021",
+      "report_type": "annual",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8824,
+          "approx_tokens": 2206
+        },
+        "erfolgsrechnung": {
+          "chars": 3947,
+          "approx_tokens": 986
+        },
+        "aktie_basisdaten": {
+          "chars": 1885,
+          "approx_tokens": 471
+        },
+        "lagebericht_strategie": {
+          "chars": 7508,
+          "approx_tokens": 1877
+        }
+      }
+    },
+    {
+      "stem": "fkb-geschaeftsbericht-2022",
+      "report_type": "annual",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8775,
+          "approx_tokens": 2193
+        },
+        "erfolgsrechnung": {
+          "chars": 4545,
+          "approx_tokens": 1136
+        },
+        "aktie_basisdaten": {
+          "chars": 1422,
+          "approx_tokens": 355
+        },
+        "lagebericht_strategie": {
+          "chars": 7352,
+          "approx_tokens": 1838
+        }
+      }
+    },
+    {
+      "stem": "fkb-geschaeftsbericht-2023",
+      "report_type": "annual",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8016,
+          "approx_tokens": 2004
+        },
+        "erfolgsrechnung": {
+          "chars": 4691,
+          "approx_tokens": 1172
+        },
+        "aktie_basisdaten": {
+          "chars": 2830,
+          "approx_tokens": 707
+        },
+        "lagebericht_strategie": {
+          "chars": 7115,
+          "approx_tokens": 1778
+        }
+      }
+    },
+    {
+      "stem": "fkb-geschaeftsbericht-2024",
+      "report_type": "annual",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 8511,
+          "approx_tokens": 2127
+        },
+        "erfolgsrechnung": {
+          "chars": 4664,
+          "approx_tokens": 1166
+        },
+        "aktie_basisdaten": {
+          "chars": 2219,
+          "approx_tokens": 554
+        },
+        "lagebericht_strategie": {
+          "chars": 7282,
+          "approx_tokens": 1820
+        }
+      }
+    },
+    {
+      "stem": "fkb-geschaeftsbericht-2025",
+      "report_type": "annual",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 7820,
+          "approx_tokens": 1955
+        },
+        "erfolgsrechnung": {
+          "chars": 4726,
+          "approx_tokens": 1181
+        },
+        "aktie_basisdaten": {
+          "chars": 1561,
+          "approx_tokens": 390
+        },
+        "lagebericht_strategie": {
+          "chars": 7353,
+          "approx_tokens": 1838
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-06-2019",
+      "report_type": "offenlegung_h1",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 8847,
+          "approx_tokens": 2211
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-06-2020",
+      "report_type": "offenlegung_h1",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 8622,
+          "approx_tokens": 2155
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-06-2021",
+      "report_type": "offenlegung_h1",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 8780,
+          "approx_tokens": 2195
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-06-2022",
+      "report_type": "offenlegung_h1",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-06-2023",
+      "report_type": "offenlegung_h1",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-06-2024",
+      "report_type": "offenlegung_h1",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-06-2025",
+      "report_type": "offenlegung_h1",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-06-2026",
+      "report_type": "offenlegung_h1",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-2019",
+      "report_type": "offenlegung_fy",
+      "year": 2019,
+      "period": "FY2019",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-2020",
+      "report_type": "offenlegung_fy",
+      "year": 2020,
+      "period": "FY2020",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-2021",
+      "report_type": "offenlegung_fy",
+      "year": 2021,
+      "period": "FY2021",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-2022",
+      "report_type": "offenlegung_fy",
+      "year": 2022,
+      "period": "FY2022",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-2023",
+      "report_type": "offenlegung_fy",
+      "year": 2023,
+      "period": "FY2023",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-2024",
+      "report_type": "offenlegung_fy",
+      "year": 2024,
+      "period": "FY2024",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-offenlegungsbericht-2025",
+      "report_type": "offenlegung_fy",
+      "year": 2025,
+      "period": "FY2025",
+      "part": null,
+      "chunks": {
+        "km1_eigenmittel": {
+          "chars": 9500,
+          "approx_tokens": 2375
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2015",
+      "report_type": "semester",
+      "year": 2015,
+      "period": "H1-2015",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3175,
+          "approx_tokens": 793
+        },
+        "erfolgsrechnung": {
+          "chars": 5516,
+          "approx_tokens": 1379
+        },
+        "lagebericht_strategie": {
+          "chars": 5561,
+          "approx_tokens": 1390
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2016",
+      "report_type": "semester",
+      "year": 2016,
+      "period": "H1-2016",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3035,
+          "approx_tokens": 758
+        },
+        "erfolgsrechnung": {
+          "chars": 4738,
+          "approx_tokens": 1184
+        },
+        "lagebericht_strategie": {
+          "chars": 5672,
+          "approx_tokens": 1418
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2017",
+      "report_type": "semester",
+      "year": 2017,
+      "period": "H1-2017",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3084,
+          "approx_tokens": 771
+        },
+        "erfolgsrechnung": {
+          "chars": 4700,
+          "approx_tokens": 1175
+        },
+        "lagebericht_strategie": {
+          "chars": 5531,
+          "approx_tokens": 1382
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2018",
+      "report_type": "semester",
+      "year": 2018,
+      "period": "H1-2018",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3021,
+          "approx_tokens": 755
+        },
+        "erfolgsrechnung": {
+          "chars": 4600,
+          "approx_tokens": 1150
+        },
+        "lagebericht_strategie": {
+          "chars": 5511,
+          "approx_tokens": 1377
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2019",
+      "report_type": "semester",
+      "year": 2019,
+      "period": "H1-2019",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2926,
+          "approx_tokens": 731
+        },
+        "erfolgsrechnung": {
+          "chars": 4986,
+          "approx_tokens": 1246
+        },
+        "lagebericht_strategie": {
+          "chars": 5515,
+          "approx_tokens": 1378
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2020",
+      "report_type": "semester",
+      "year": 2020,
+      "period": "H1-2020",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2831,
+          "approx_tokens": 707
+        },
+        "erfolgsrechnung": {
+          "chars": 4959,
+          "approx_tokens": 1239
+        },
+        "lagebericht_strategie": {
+          "chars": 5500,
+          "approx_tokens": 1375
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2021",
+      "report_type": "semester",
+      "year": 2021,
+      "period": "H1-2021",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 3023,
+          "approx_tokens": 755
+        },
+        "erfolgsrechnung": {
+          "chars": 4724,
+          "approx_tokens": 1181
+        },
+        "lagebericht_strategie": {
+          "chars": 5573,
+          "approx_tokens": 1393
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2022",
+      "report_type": "semester",
+      "year": 2022,
+      "period": "H1-2022",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2969,
+          "approx_tokens": 742
+        },
+        "erfolgsrechnung": {
+          "chars": 4819,
+          "approx_tokens": 1204
+        },
+        "lagebericht_strategie": {
+          "chars": 5539,
+          "approx_tokens": 1384
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2023",
+      "report_type": "semester",
+      "year": 2023,
+      "period": "H1-2023",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2476,
+          "approx_tokens": 619
+        },
+        "erfolgsrechnung": {
+          "chars": 4922,
+          "approx_tokens": 1230
+        },
+        "lagebericht_strategie": {
+          "chars": 6170,
+          "approx_tokens": 1542
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2024",
+      "report_type": "semester",
+      "year": 2024,
+      "period": "H1-2024",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2560,
+          "approx_tokens": 640
+        },
+        "erfolgsrechnung": {
+          "chars": 4724,
+          "approx_tokens": 1181
+        },
+        "lagebericht_strategie": {
+          "chars": 5549,
+          "approx_tokens": 1387
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2025",
+      "report_type": "semester",
+      "year": 2025,
+      "period": "H1-2025",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2649,
+          "approx_tokens": 662
+        },
+        "erfolgsrechnung": {
+          "chars": 4774,
+          "approx_tokens": 1193
+        },
+        "lagebericht_strategie": {
+          "chars": 4979,
+          "approx_tokens": 1244
+        }
+      }
+    },
+    {
+      "stem": "fkb-semesterbericht-2026",
+      "report_type": "semester",
+      "year": 2026,
+      "period": "H1-2026",
+      "part": null,
+      "chunks": {
+        "bilanz": {
+          "chars": 2660,
+          "approx_tokens": 665
+        },
+        "erfolgsrechnung": {
+          "chars": 4756,
+          "approx_tokens": 1189
+        },
+        "lagebericht_strategie": {
+          "chars": 5327,
+          "approx_tokens": 1331
+        }
+      }
+    }
+  ]
+}

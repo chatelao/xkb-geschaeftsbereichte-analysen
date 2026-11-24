@@ -213,4 +213,15 @@ IT_STRATEGY_DATA: dict[str, dict] = {
         "cyber_resilience": "FINMA-konformes OpRisk- & IKT-Kontrollsystem; hohe Investitionen in IT-Sicherheit und Stabilität der Avaloq-Plattform.",
         "sources": "lukb/.md/lukb-geschaeftsbericht-2025.md (Departement Technology & Services, Lagebericht); Finews / Netzwoche",
     },
+    "fkb": {
+        "core_banking": "Finnova Banking Software & CreditMaster (IT-Outsourcing über Swisscom (Schweiz) AG)",
+        "operating_model": "Vollständiges IT-Betriebsoutsourcing an Swisscom (Schweiz) AG; Rating-/Pricing-Modelle via RSN, Immobilienbewertung via Wüest Partner, Digitalisierung via SPS",
+        "cloud_ai_data": [
+            "Einsatz von Generativer KI auf der Swisscom Swiss AI Platform (u. a. als interner Kreditvergabe-Assistent mit Quellenangabe sowie für die Support-Ticket-Triage).",
+            "Lancierung der neuen App «FKB Banking» und von «FKB Multibanking» für Firmenkunden im Jahr 2025; eigene Division «Technologien und Lösungen».",
+        ],
+        "digital_channels": "FKB e-banking, FKB Banking App (2025), FKB TWINT (57'046 Nutzende), FKB Multibanking",
+        "cyber_resilience": "FINMA-konformes OpRisk- & IKT-Kontrollsystem; dedizierte Cybersecurity-Kompetenz im Verwaltungsrat (Paul Such) sowie Prüfung der Systeme Finnova & CreditMaster.",
+        "sources": "fkb/.md/fkb-geschaeftsbericht-2025.md (Outsourcing, Revisionsbericht & Digitalisierung); Swisscom B2B Mag (2025)",
+    },
 }

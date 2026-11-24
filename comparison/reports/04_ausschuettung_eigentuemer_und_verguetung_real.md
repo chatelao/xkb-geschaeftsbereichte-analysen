@@ -28,5 +28,6 @@
 | SGKB | listed_share | 227,0 | 168,8 | 435,00 | 20,00 |
 | LUKB | listed_share | 295,5 | 181,1 | 92,70 | 2,70 |
 | BLKB | cantonal_endowment | 154,0 | 171,6 | 984,00 | 42,00 |
+| FKB (BCF) | cantonal_endowment | 154,0 | 174,3 | – | – |
 
 ![Reingewinn Vergleich](./charts/09_ausschuettung_und_total_return.png)

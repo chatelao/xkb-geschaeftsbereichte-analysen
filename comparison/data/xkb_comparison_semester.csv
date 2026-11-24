@@ -128,3 +128,15 @@ sgkb,SGKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2025,H1-2025,47170
 sgkb,SGKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2026,H1-2026,49776.531,190.165,313.94,
 lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2025,H1-2025,59720.025,236.191,347.42,150.722
 lukb,LUKB,cantonal_bank,consolidated,ARB_RVB,True,False,3,CHF,2026,H1-2026,63217.694,244879.0,369235.0,161.431
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2015,H1-2015,,112.527,134.827,72.308
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2016,H1-2016,,110.512,130.041,68.5
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2017,H1-2017,,114.161,131.973,66.5
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2018,H1-2018,,116.712,144.529,72.1
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2019,H1-2019,,123.966,139.566,72.9
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2020,H1-2020,,123.969,137.319,72.5
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2021,H1-2021,,122.612,139.003,75.9
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2022,H1-2022,,123.158,149.075,80.6
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2023,H1-2023,27589.008,168.102,,90.6
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2024,H1-2024,28655.456,179.071,,97.141
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2025,H1-2025,29246.998,157.1,,87.922
+fkb,FKB (BCF),cantonal_bank,standalone,ARB_RVB,True,False,3,CHF,2026,H1-2026,29720.356,150.416,,83.914

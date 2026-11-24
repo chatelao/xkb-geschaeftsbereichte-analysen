@@ -18,10 +18,11 @@
     "valiant",
     "sgkb",
     "lukb",
-    "blkb"
+    "blkb",
+    "fkb"
   ],
-  "annual_rows": 260,
-  "semester_rows": 129,
-  "offenlegung_rows": 274,
-  "verguetung_rows": 260
+  "annual_rows": 271,
+  "semester_rows": 141,
+  "offenlegung_rows": 289,
+  "verguetung_rows": 271
 }

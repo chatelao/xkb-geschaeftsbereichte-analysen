@@ -165,6 +165,19 @@ nav:
           - "09 · IT-Strategie & Digitalisierung": banks/blkb/reports/09_it_strategie_und_digitalisierung.md
           - "10 · Fusionsbaum & Historie (seit 1900)": banks/blkb/reports/10_fusionsbaum_und_historie.md
           - Validierungsbericht: banks/blkb/validation_report.md
+      - Freiburger Kantonalbank (FKB):
+          - Übersicht: banks/fkb/reports/README.md
+          - "01 · Zinszyklen & Ertrag": banks/fkb/reports/01_zinszyklen_und_ertragsarchitektur.md
+          - "02 · Bilanz & Hypotheken": banks/fkb/reports/02_bilanzwachstum_hypotheken_und_refinanzierung.md
+          - "03 · Basel III & Kapital": banks/fkb/reports/03_aufsichtsrechtliche_resilienz_basel_iii.md
+          - "04 · Effizienz": banks/fkb/reports/04_operative_effizienz_und_transformation.md
+          - "05 · Dotationskapital & Kanton": banks/fkb/reports/05_dotationskapital_ausschuettung_und_kanton_freiburg.md
+          - "06 · Semesterdynamik": banks/fkb/reports/06_unterjaehrige_dynamik_semesterberichte.md
+          - "07 · Epochen & Vergütung real": banks/fkb/reports/07_strategische_epochen_und_governance.md
+          - "08 · CEO & Chairman Report": banks/fkb/reports/08_ceo_und_vrp_leistungsbericht.md
+          - "09 · IT-Strategie & Digitalisierung": banks/fkb/reports/09_it_strategie_und_digitalisierung.md
+          - "10 · Fusionsbaum & Historie (seit 1900)": banks/fkb/reports/10_fusionsbaum_und_historie.md
+          - Validierungsbericht: banks/fkb/validation_report.md
   - Gross- & Privatbanken:
       - UBS Group:
           - Übersicht: banks/ubs/reports/README.md

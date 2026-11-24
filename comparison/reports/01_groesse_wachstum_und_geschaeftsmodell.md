@@ -1,4 +1,4 @@
-# 01 · Grösse, Wachstum & Geschäftsmodell (19 Schweizer Banken)
+# 01 · Grösse, Wachstum & Geschäftsmodell (20 Schweizer Banken)
 
 > **Harmonisierung:** Alle Werte in **Mio. CHF** (UBS USD→CHF via `shared/fx_rates.py`). Vergleichbarkeitshinweise zu `consolidated`/`standalone` und `ARB_RVB`/`IFRS` sind pro Zeile ausgewiesen.
 
@@ -30,5 +30,6 @@
 | SGKB | cantonal_bank | consolidated | ARB_RVB | 48'136,6 | 4,54 % | 59,3 % | 31,1 % |
 | LUKB | cantonal_bank | consolidated | ARB_RVB | 62'249,1 | 5,02 % | 68,8 % | 20,7 % |
 | BLKB | cantonal_bank | consolidated | ARB_RVB | 37'614,0 | 4,79 % | 72,6 % | 19,5 % |
+| FKB (BCF) | cantonal_bank | standalone | ARB_RVB | 29'482,3 | 1,99 % | 82,1 % | 12,3 % |
 
 ![Ertragsmix 2025](./charts/02_ertragsmix_geschaeftsmodelle_2025.png)

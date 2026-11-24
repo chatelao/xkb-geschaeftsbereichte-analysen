@@ -1,15 +1,15 @@
-# XKB Geschäftsberichte Analysen (19 Schweizer Banken)
+# XKB Geschäftsberichte Analysen (20 Schweizer Banken)
 
-> **Status:** Vollständig umgesetzt und verifiziert — **19 Schweizer Finanzinstitute** unter [`banks/`](./banks/) (**190 Einzelbank-Berichte & 247 Grafiken**, **7 Cross-Bank-Vergleichsberichte & 13 Benchmark-Grafiken**, **19 Vorsorgeeinrichtungen**, **260 harmonisierte Geschäftsjahre**).
+> **Status:** Vollständig umgesetzt und verifiziert — **20 Schweizer Finanzinstitute** unter [`banks/`](./banks/) (**200 Einzelbank-Berichte & 260 Grafiken**, **7 Cross-Bank-Vergleichsberichte & 13 Benchmark-Grafiken**, **20 Vorsorgeeinrichtungen**, **271 harmonisierte Geschäftsjahre**).
 > **Live-Portal:** [GitHub Pages](https://chatelao.github.io/xkb-geschaeftsbereichte-analysen/) · **Repository:** [`chatelao/xkb-geschaeftsbereichte-analysen`](https://github.com/chatelao/xkb-geschaeftsbereichte-analysen)
 
 Strukturierte, vollständig reproduzierbare Längsschnitt-, Bilanz-, Risiko-, Effizienz-, Leadership-, IT-Strategie-, Fusionsbaum- (seit 1900) und Mitarbeiter-/Vorsorge-Analysen über eine gemeinsame, unit-getestete **«Hydrogen-First» Map-Validate-Reduce-Pipeline ([`shared/`](./shared/))**.
 
-![Bilanzsumme und CAGR über 19 Schweizer Banken](./comparison/reports/charts/01_bilanzsumme_und_cagr_8_banken.png)
+![Bilanzsumme und CAGR über 20 Schweizer Banken](./comparison/reports/charts/01_bilanzsumme_und_cagr_8_banken.png)
 
 ---
 
-## Executive Scorecard 2025 (19 Institute)
+## Executive Scorecard 2025 (20 Institute)
 
 ### Kantonalbanken
 | Institut | Peer Group | Bilanzsumme 2025 (Mio. CHF) | Reingewinn 2025 (Mio. CHF) | CIR % | ROE % | FTE 2025 | Berichte |
@@ -21,6 +21,7 @@ Strukturierte, vollständig reproduzierbare Längsschnitt-, Bilanz-, Risiko-, Ef
 | **BEKB \| BCBE** | Kantonalbank | 42'977,0 | 175,4 | 51,26 % | 5,88 % | 1'058 | [`banks/bekb/reports/`](./banks/bekb/reports/README.md) |
 | **Basellandschaftliche KB (BLKB)** | Kantonalbank | 37'614,0 | 154,0 | 53,21 % | 5,11 % | 926 | [`banks/blkb/reports/`](./banks/blkb/reports/README.md) |
 | **BCGE (GEKB)** | Kantonalbank | 34'905,0 | 221,0 | 53,79 % | 8,84 % | 958 | [`banks/gekb/reports/`](./banks/gekb/reports/README.md) |
+| **Freiburger Kantonalbank (FKB)** | Kantonalbank | 29'482,3 | 154,0 | 37,68 % | 5,49 % | 495 | [`banks/fkb/reports/`](./banks/fkb/reports/README.md) |
 | **Walliser Kantonalbank (VSKB)** | Kantonalbank | 22'042,2 | 85,9 | 45,69 % | 5,07 % | 494 | [`banks/vskb/reports/`](./banks/vskb/reports/README.md) |
 
 ### Gross- & Privatbanken

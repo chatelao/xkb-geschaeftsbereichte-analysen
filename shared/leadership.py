@@ -383,4 +383,24 @@ LEADERSHIP_DATA: dict[str, dict] = {
         ],
         "source": "lukb/.md/lukb-geschaeftsbericht-2025.md; lukb-geschaeftsbericht-2004.md; lukb.ch Medienmitteilungen",
     },
+    "fkb": {
+        "chairman_name": "Alex Geissbühler",
+        "chairman_title": "Präsident des Verwaltungsrates",
+        "ceo_name": "Daniel Wenger",
+        "ceo_title": "Präsident der Generaldirektion (CEO)",
+        "governance_model": "Öffentlich-rechtliche Anstalt des Kantons Freiburg (100 % Dotationskapital, Staatsgarantie gegen Abgeltung)",
+        "timeline": [
+            ["01/2012–05/2022", "VR-Präsident", "Albert Michel", "10 Jahre VR-Präsidium nach 19 Jahren als CEO; kontinuierliches Bilanzwachstum & Kapitalstärkung"],
+            ["06/2022–heute", "VR-Präsident", "Alex Geissbühler", "Zuvor Vizepräsident (2017–2022); Fokus auf Governance, digitale Transformation & Zinswende"],
+            ["01/1993–12/2011", "CEO", "Albert Michel", "19 Jahre operative Führung; Ausbau zur klaren Marktführerin im Kanton Freiburg"],
+            ["01/2012–12/2020", "CEO", "Edgar Jeitziner", "Bilanzwachstum um >CHF 12 Mrd., Digitalisierung & branchenführende Kosteneffizienz (CIR ~34 %)"],
+            ["01/2021–heute", "CEO", "Daniel Wenger", "Wachstum auf CHF 29,5 Mrd. Bilanzsumme, Rekordgewinn 2024 (CHF 163,7 Mio.) & Lancierung FKB Banking (2025)"],
+        ],
+        "achievements": [
+            "Aussergewöhnliche Kosteneffizienz im Schweizer Bankenvergleich mit einer Cost-Income-Ratio von 37,68 % (2025) bzw. 31,74 % (2023).",
+            "Drittbestes Ergebnis der Bankgeschichte 2025 (Reingewinn CHF 154,0 Mio., Bilanzsumme CHF 29,5 Mrd.) bei Stärkung der Eigenmittel auf CHF 2,73 Mrd.",
+            "Verlässliche Ausschüttung von CHF 84,2 Mio. an Kanton, Gemeinden und Pfarreien (2025) sowie Übertritt von >10'000 Neukundinnen und Neukunden.",
+        ],
+        "source": "fkb/.md/fkb-geschaeftsbericht-2025.md, 2020.md & 2018.md (Corporate Governance & Botschaft der Präsidenten)",
+    },
 }

@@ -1,0 +1,268 @@
+[
+  {
+    "filename": "fkb-geschaeftsbericht-2015.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-geschaeftsbericht-2015.pdf",
+    "status": "downloaded",
+    "bytes": 6107896,
+    "sha256": "7f0df118ad36e9e87d9c0c587c377a87dbd679a2d455cbf00ba047e828213fa8"
+  },
+  {
+    "filename": "fkb-geschaeftsbericht-2016.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/fkb-geschaeftsbericht-2016.pdf",
+    "status": "downloaded",
+    "bytes": 8135345,
+    "sha256": "78e36fe76b01ed156fc2cd0ddc16a88385be514b3ea326487d997cfb9838c05b"
+  },
+  {
+    "filename": "fkb-geschaeftsbericht-2017.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/fkb-geschaeftsbericht-2017.pdf",
+    "status": "downloaded",
+    "bytes": 6996414,
+    "sha256": "880334abca04bb9104ebeba39dcb6ec1781a3c104f84a0c22f56a23c07c9a0c9"
+  },
+  {
+    "filename": "fkb-geschaeftsbericht-2018.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/fkb-geschaeftsbericht-2018.pdf",
+    "status": "downloaded",
+    "bytes": 5218912,
+    "sha256": "16999849afc62c0ce74c65e9a005f6cf9d2135d2d2eff118e1e7a3f8da5003d0"
+  },
+  {
+    "filename": "fkb-geschaeftsbericht-2019.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/fkb-geschaeftsbericht-2019.pdf",
+    "status": "downloaded",
+    "bytes": 5004408,
+    "sha256": "a1a840b0c0dd5f582cade7d7b865812eea683729462a123f03cf32fac7c81729"
+  },
+  {
+    "filename": "fkb-geschaeftsbericht-2020.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/fkb-geschaeftsbericht-2020.pdf",
+    "status": "downloaded",
+    "bytes": 5806796,
+    "sha256": "63e3725bca8055c3a1a544b9e8dfbf7b1ea236f5db36e784b41827562bfb24ef"
+  },
+  {
+    "filename": "fkb-geschaeftsbericht-2021.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/fkb-geschaeftsbericht-2021.pdf",
+    "status": "downloaded",
+    "bytes": 5735242,
+    "sha256": "f00c9c2c3015875b62d58c0e6741bb46f90b57943e387db9c693083c319f3916"
+  },
+  {
+    "filename": "fkb-geschaeftsbericht-2022.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-geschaeftsbericht-2022.pdf",
+    "status": "downloaded",
+    "bytes": 5626676,
+    "sha256": "fbe6def12e3df72cc965235816085bfe5a3f3a3fa5000bc9e715c8f715c91f4b"
+  },
+  {
+    "filename": "fkb-geschaeftsbericht-2023.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-geschaeftsbericht-2023.pdf",
+    "status": "downloaded",
+    "bytes": 4339461,
+    "sha256": "9210b38128d4c01e33e512ef3e8ae135733703dea7ee0ab2459c2dee988f49d4"
+  },
+  {
+    "filename": "fkb-geschaeftsbericht-2024.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-geschaeftsbericht-2024.pdf",
+    "status": "downloaded",
+    "bytes": 3823216,
+    "sha256": "71cd3cd2ee4b63a3f96983d974a7d79524c6236de79c65925a0c4b5a8937bf6a"
+  },
+  {
+    "filename": "fkb-geschaeftsbericht-2025.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-geschaeftsbericht-2025.pdf",
+    "status": "downloaded",
+    "bytes": 4302292,
+    "sha256": "117aefbbf77f963a94dfef8c1050ce7bd534009b804f4d7f0dbea62ca91f1b65"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-06-2019.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-eigenmittel-300619.pdf",
+    "status": "downloaded",
+    "bytes": 349100,
+    "sha256": "b4fbd9fb89b68a91fbd3175086abdcece487227f9b77247cefd1d14658cedb59"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-06-2020.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-eigenmittel-300620.pdf",
+    "status": "downloaded",
+    "bytes": 491008,
+    "sha256": "22ef0f1ed090f7211651b6aed9404078902ff7a66ab1da2e91cb5bb864fe5542"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-06-2021.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-eigenmittel-300621.pdf",
+    "status": "downloaded",
+    "bytes": 363187,
+    "sha256": "acdf746727c101ff5b8509f8b9f22ff3d3d929de8fc833daa0ff19b7377abcfc"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-06-2022.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-eigenmittel-300622.pdf",
+    "status": "downloaded",
+    "bytes": 314653,
+    "sha256": "ea900597606bf803b624fccec59ce4ac1cca1d39ecd171d669e0cfa0fab8e962"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-06-2023.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-eigenmittel-300623.pdf",
+    "status": "downloaded",
+    "bytes": 275835,
+    "sha256": "2f1076909c53bb5fc9949fbd77daadbb528b8d9c3e4c03ed508e08b7bb4e6fa2"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-06-2024.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-eigenmittel-300624.pdf",
+    "status": "downloaded",
+    "bytes": 257406,
+    "sha256": "770c201c45738e6d586e9e997936edc6ebe1b9c36e1a1742e76d2be275b557d6"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-06-2025.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-eigenmittel-300625.pdf",
+    "status": "downloaded",
+    "bytes": 272093,
+    "sha256": "99b47d5c9eee2ddc9c5a9a812afc0765026542f8b4f8edba3d34fd11d0ed3d3a"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-06-2026.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-eigenmittel-300626.pdf",
+    "status": "downloaded",
+    "bytes": 369751,
+    "sha256": "409f6bc1a13c999c67da19bfdcac9800bd3e2ccb57940d07d76c7c6599497cf2"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-2019.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-eigenmittel-311219.pdf",
+    "status": "downloaded",
+    "bytes": 407957,
+    "sha256": "3c5248966895f041fce3ed448867ef24633bc084a76bd07d92e58d8015b3b2c4"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-2020.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-eigenmittel-311220.pdf",
+    "status": "downloaded",
+    "bytes": 386037,
+    "sha256": "35ba515cd0e6488aeef50fcbe88e490e9dd21d72e2370a53a917c776a2ded1b0"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-2021.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-eigenmittel-311221.pdf",
+    "status": "downloaded",
+    "bytes": 400911,
+    "sha256": "ff2eea1917d2d61b327e9cf0e36c62ed3a46311c97f6d58338ac337936605232"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-2022.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-eigenmittel-311222.pdf",
+    "status": "downloaded",
+    "bytes": 380924,
+    "sha256": "2f9c79a858fbc51113e298d1e9df9b92e0aad9cdc78f1afb7e39783f861963d2"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-2023.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-eigenmittel-311223.pdf",
+    "status": "downloaded",
+    "bytes": 426328,
+    "sha256": "839802d6878e13ffac0383436f0bae275eacc2d2663762577add0fd77f157ec2"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-2024.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-eigenmittel-311224.pdf",
+    "status": "downloaded",
+    "bytes": 488035,
+    "sha256": "4d0f3051e91ef00da8422359a5fb3f98ecd6f654f141040e42b970210b4ca9ed"
+  },
+  {
+    "filename": "fkb-offenlegungsbericht-2025.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-eigenmittel-311225.pdf",
+    "status": "downloaded",
+    "bytes": 467587,
+    "sha256": "e7208ee9dd45174a1a13699e6c5900a01bd3dd3b21244d165c914e11d06a54ff"
+  },
+  {
+    "filename": "fkb-semesterbericht-2015.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-zwischenbericht-2015.pdf",
+    "status": "downloaded",
+    "bytes": 374144,
+    "sha256": "c82d6b1ba0c3dc3d243cbb457709db6b20c4a6ab07a6a0e84b62d8fda2acfc24"
+  },
+  {
+    "filename": "fkb-semesterbericht-2016.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-zwischenbericht-2016.pdf",
+    "status": "downloaded",
+    "bytes": 323368,
+    "sha256": "9f6e700317daaaadf366e90ba18b7cfc67d3fce029ba449087c5966e5d31f117"
+  },
+  {
+    "filename": "fkb-semesterbericht-2017.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/fkb-zwischenbericht-2017.pdf",
+    "status": "downloaded",
+    "bytes": 295836,
+    "sha256": "cec31252dbbbb0811e25547b1eaa2eda535813db2f112af59f515e9231733082"
+  },
+  {
+    "filename": "fkb-semesterbericht-2018.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/rapport-intermediaire-bcf-2018.pdf",
+    "status": "downloaded",
+    "bytes": 312866,
+    "sha256": "60dc9d85503eda5a8b15540c5f2e897a1ed706b7a982e2a014eb603c9ebe3756"
+  },
+  {
+    "filename": "fkb-semesterbericht-2019.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/rapport-intermediaire-bcf-2019.pdf",
+    "status": "downloaded",
+    "bytes": 320891,
+    "sha256": "7c45251f5639287a02d742d412d0bf5b104c535dc601bc1869f28ab6bf7dd77f"
+  },
+  {
+    "filename": "fkb-semesterbericht-2020.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/fkb-zwischenbericht-2020.pdf",
+    "status": "downloaded",
+    "bytes": 313685,
+    "sha256": "e983f2ef37e7ae45882b3af960eca39930a3eb830876fead872a5e49a93879e4"
+  },
+  {
+    "filename": "fkb-semesterbericht-2021.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/fkb-zwischenbericht-2021.pdf",
+    "status": "downloaded",
+    "bytes": 631895,
+    "sha256": "61159f1d92ee446cafbd53ee81015151a60cbc58c054eb3e3ff29f1dc3b415a4"
+  },
+  {
+    "filename": "fkb-semesterbericht-2022.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/documents/news/rapport-intermediaire-bcf-2022.pdf",
+    "status": "downloaded",
+    "bytes": 318648,
+    "sha256": "c90634443083e49e29242aa2d9c54fba8204de9192c596abbca9ce78a4ee07fd"
+  },
+  {
+    "filename": "fkb-semesterbericht-2023.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-zwischenbericht-2023.pdf",
+    "status": "downloaded",
+    "bytes": 226775,
+    "sha256": "9d54cbfd6cc8e51e17f47f8cc2340406bfbe56a4626c970c8b312fc59a990ebd"
+  },
+  {
+    "filename": "fkb-semesterbericht-2024.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-zwischenbericht-2024.pdf",
+    "status": "downloaded",
+    "bytes": 242266,
+    "sha256": "6580ddf3b2033e3ac2b035061454e9cf56ad7b44d61d4196a462931736107c2c"
+  },
+  {
+    "filename": "fkb-semesterbericht-2025.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-zwischenbericht-2025.pdf",
+    "status": "downloaded",
+    "bytes": 487974,
+    "sha256": "3dc9e21ff798c1edf1d3521cf7d690eb997b510267d905ea12d860def428050c"
+  },
+  {
+    "filename": "fkb-semesterbericht-2026.pdf",
+    "url": "https://www.bcf.ch/sites/default/files/medias/documents/fkb-zwischenbericht-2026.pdf",
+    "status": "downloaded",
+    "bytes": 312210,
+    "sha256": "d77f3d498e8cffda16dc77f9b0f5173805f0eaa881f8989fb715fa87ea70fecb"
+  }
+]

@@ -1,4 +1,4 @@
-# 06 · Investoren-Branchenvergleich (19 Schweizer Banken, 2025)
+# 06 · Investoren-Branchenvergleich (20 Schweizer Banken, 2025)
 
 ## 1. Management Summary
 - **Segment A (Kotierte & Zertifikats-Institute):** Die **BCV** erzielt 2025 mit **11,00 % ROE** die höchste Eigenkapitalrendite unter den Kantonalbanken bei attraktiver Dividendenrendite (**4,38 %**); **Vontobel (10,57 %)**, **GEKB (8,84 %)**, **UBS (8,60 %)**, **SGKB (7,28 %, Rendite 4,60 %)** und **LUKB (6,99 %)** folgen mit soliden Ausschüttungen.
@@ -28,5 +28,6 @@
 | SGKB | Kotiert (SGKN) | Ja | 7,28 % | 435,00 | 20,00 | 4,60 % | 6,30 % | 15,40 % |
 | LUKB | Kotiert (LUKN) | Ja | 6,99 % | 92,70 | 2,70 | 2,91 % | 6,98 % | 14,94 % |
 | BLKB | Kotiert (BLKB) | Ja | 5,11 % | 984,00 | 42,00 | 4,27 % | 2,22 % | 20,99 % |
+| FKB (BCF) | Nicht kotiert | Ja | 5,49 % | – | – | – % | 2,92 % | 18,17 % |
 
 ![Investoren Wachstum & Ausschüttung](./charts/11_investoren_tsr_und_ausschuettung_2020_2025.png)
