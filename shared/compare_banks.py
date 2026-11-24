@@ -16,6 +16,7 @@ import matplotlib.pyplot as plt
 
 from shared.config import BankConfig, REPO_ROOT, VALID_BANKS, load_bank_config
 from shared.cpi_bfs import deflate_to_real_2025
+from shared.turnover import TURNOVER_DATA, export_turnover_data, get_bank_turnover_meta, get_latest_turnover
 
 COMP_DIR = REPO_ROOT / "comparison"
 COMP_DATA = COMP_DIR / "data"
@@ -148,6 +149,9 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
                 "deposit_coverage_pct": r.get("deposit_coverage_pct"),
                 "equity_ratio_pct": r.get("equity_ratio_pct"),
                 "fte_count": r.get("fte_count"),
+                "turnover_rate_pct": r.get("turnover_rate_pct"),
+                "turnover_net_pct": r.get("turnover_net_pct"),
+                "turnover_gross_pct": r.get("turnover_gross_pct"),
                 "income_per_fte_tchf": r.get("income_per_fte_tchf"),
                 "personnel_cost_per_fte_tchf": r.get("personnel_cost_per_fte_tchf"),
                 "wage_to_productivity_pct": r.get("wage_to_productivity_pct"),
@@ -727,17 +731,26 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
 """
 
     # Bericht 07: Mitarbeiter- & Vorsorge-Branchenvergleich
+    export_turnover_data()
     t7_emp_rows = []
     t7_pk_rows = []
+    t7_turn_rows = []
+    turn_years = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+
     for b in VALID_BANKS:
         r25 = by_bank_yr.get((b, 2025), {})
         vr25 = verg_25.get(b, {})
         avg_fte = vr25.get("avg_per_fte_tchf_real2025")
         ceo_v = vr25.get("ceo_total_tchf_real2025")
         pr = round(ceo_v / avg_fte, 1) if (ceo_v and avg_fte) else None
+        lat_y, lat_e = get_latest_turnover(b, 2025)
+        turn_25_str = (
+            f"{fmt(lat_e['rate'], 1)} %" if (lat_y == 2025 and lat_e) else (f"{fmt(lat_e['rate'], 1)} % ({lat_y})" if (lat_y and lat_e) else "n. a.")
+        )
         t7_emp_rows.append([
             configs[b].short_name,
             fmt(r25.get("fte_count"), 0),
+            turn_25_str,
             fmt(r25.get("income_per_fte_tchf"), 1),
             fmt(avg_fte, 1),
             fmt(r25.get("wage_to_productivity_pct"), 1) + " %",
@@ -755,18 +768,43 @@ def run_comparison(backend: str = "local") -> dict[str, Any]:
             fmt(float(pk["coverage_ratio_bvg_pct"]), 1) + " %" if pk.get("coverage_ratio_bvg_pct") else "n. a.",
             fmt(float(pk["employer_contribution_mio"]), 2) if pk.get("employer_contribution_mio") else "n. a.",
         ])
+        t_meta = get_bank_turnover_meta(b)
+        yrs_map = t_meta.get("years", {})
+        if yrs_map:
+            earlier_yrs = [y for y in sorted(yrs_map.keys()) if y < 2016]
+            earlier_str = (
+                ", ".join(f"{y}: {fmt(yrs_map[y]['rate'], 1)} %" for y in earlier_yrs)
+                if earlier_yrs
+                else "–"
+            )
+            t7_turn_rows.append(
+                [configs[b].short_name]
+                + [
+                    (fmt(yrs_map[y]["rate"], 1) + " %") if y in yrs_map and yrs_map[y].get("rate") is not None else "–"
+                    for y in turn_years
+                ]
+                + [earlier_str, t_meta.get("basis", "–")]
+            )
+
+    total_t_vals = sum(len(get_bank_turnover_meta(b).get("years", {})) for b in VALID_BANKS)
     c7 = f"""# 07 · Mitarbeiter- & Vorsorge-Branchenvergleich ({len(VALID_BANKS)} Schweizer Banken, 2025)
 
 ## 1. Management Summary
-- **Lohnkosten- / Produktivitätsverhältnis (2025):** Bei den **19 Instituten** liegt der durchschnittliche Geschäftsertrag je FTE bei **514,9 TCHF** (bei realen Lohnkosten je FTE von **Ø 177,6 TCHF**).
-- **Vorsorgeeinrichtungen:** Alle Schweizer Banken mit Swiss-GAAP-FER-Ausweis weisen solide **BVG-Deckungsgrade** auf (Ø **120,9 %** über 13 berichtende Kassen, von **110,0 %** bis **133,3 %** bei BEKB).
+- **Lohnkosten- / Produktivitätsverhältnis (2025):** Bei den **{len(VALID_BANKS)} Instituten** liegt der durchschnittliche Geschäftsertrag je FTE bei **525,3 TCHF** (bei realen Lohnkosten je FTE von **Ø 177,8 TCHF**).
+- **Personalfluktuation (Employee Turnover):** **{len(TURNOVER_DATA)} von {len(VALID_BANKS)} Instituten** legen in ihren Geschäfts- bzw. separaten Nachhaltigkeitsberichten (GRI 401-1) quantitative Fluktuationsquoten offen (**{total_t_vals} Instituts-Jahreswerte** von 2003 bis 2025). Alle 15 berichtenden Institute verfügen über einen aktuellen Wert für **2025**: Die Bandbreite reicht von **4,3 % Netto / 7,8 % Brutto (LUKB)**, **4,6 % Netto (FKB)** und **5,0 % (ZKB)** über **6,9 % (BCV)**, **7,0 % (BEKB; aity AG: 2,0 %)**, **7,1 % Voluntary / 12,6 % Overall (UBS)**, **7,4 % Netto / 9,7 % Gesamt (Raiffeisen)**, **7,7 % (SGKB)**, **7,8 % Netto / 11,9 % Brutto (BLKB)**, **7,99 % (WKB/BCVS)**, **8,2 % (Pictet)**, **9,4 % (Valiant)** und **9,73 % (GEKB/BCGE)** bis **10,8 % (Vontobel)** und **11,1 % (Migros Bank)**.
+- **Vorsorgeeinrichtungen:** Alle Schweizer Banken mit Swiss-GAAP-FER-Ausweis weisen solide **BVG-Deckungsgrade** auf (Ø **120,3 %** über 14 berichtende Kassen, von **110,0 %** bis **133,3 %** bei BEKB).
 
 ![Mitarbeiter Lohn, Produktivität & Pay Ratio](./charts/12_mitarbeiter_lohn_produktivitaet_pay_ratio_2025.png)
 
 ## 2. Mitarbeiter-Benchmark (2025, real 2025 CHF)
-{_table(["Institut", "FTE 2025", "Ertrag/FTE (TCHF)", "Personalaufw./FTE (TCHF)", "Lohn / Produktivität", "Ertrag / Lohn", "CEO real (TCHF)", "CEO Pay Ratio"], t7_emp_rows)}
+{_table(["Institut", "FTE 2025", "Fluktuation (jüngst)", "Ertrag/FTE (TCHF)", "Personalaufw./FTE (TCHF)", "Lohn / Produktivität", "Ertrag / Lohn", "CEO real (TCHF)", "CEO Pay Ratio"], t7_emp_rows)}
 
-## 3. Zugehörige Vorsorgeeinrichtungen (Pensionskassen)
+## 3. Bekannte Personalfluktuationen pro Jahr (offengelegte Zeitreihen, in %)
+> **Methodik-Hinweis:** Vollständiger Datensatz in `comparison/data/xkb_personalfluktuation.csv` sowie in den jeweiligen Instituts-Panels (`turnover_rate_pct`, `turnover_net_pct`, `turnover_gross_pct`). Mehrere Institute haben den Ausweis der Personalfluktuation (GRI 401-1) in separate **Nachhaltigkeits- bzw. CSR/RSE-Berichte** ausgelagert: **BEKB** (NHB 2015–2025 für 2011–2025), **BLKB** (GNB/NHB 2010–2025; ab 2023 sowohl Netto- als auch Bruttofluktuation für den Gesamtkonzern), **FKB** (NHB 2023–2025 für 2019–2025; Fluktuationsrate netto, Zielwert `< 5 %`), **GEKB/BCGE** (*Rapport RSE* 2023–2025 für *BCGE Maison-mère* und *BCGE France*), **LUKB** (NHB 2024–2025 mit Netto- und Bruttofluktuation), **Migros Bank** (NHB 2024–2025; natürliche Austritte exkl. Pensionierungen/Tod), **Pictet** (*Group Sustainability Report* 2023–2025), **UBS** (*Sustainability Report Supplement* 2024–2025: *Voluntary turnover* in `rate`/`net`, *Overall turnover* inkl. Restrukturierung/CS-Integration in `gross`), **Valiant** (NHB 2023–2025) und **WKB/BCVS** (*Rapport RSE / CSR Report* 2023–2025; für 2021–2024 sind sowohl die Netto-Fluktuationsrate aus dem GB als auch die GRI-401-1-Gesamtrotationsrate inkl. Lernenden dokumentiert). Lediglich **5 von 20 Instituten** (PostFinance sowie die vier nicht GRI-berichtspflichtigen Regional-/Infrastrukturbanken AEK Thun, Bank SLM, EK Speicher, Entris) weisen keine institutsspezifische Fluktuationsquote aus (`n. a.`).
+
+{_table(["Institut"] + [str(y) for y in turn_years] + ["Frühere Jahrgänge (2003–2015)", "Definition / Methodik"], t7_turn_rows)}
+
+## 4. Zugehörige Vorsorgeeinrichtungen (Pensionskassen)
 {_table(["Institut", "Vorsorgeeinrichtung", "Standard", "Aktive", "Rentner", "Deckungsgrad BVG", "AG-Beiträge (Mio.)"], t7_pk_rows)}
 
 ![Vorsorgeeinrichtungen Struktur](./charts/13_vorsorgeeinrichtungen_deckungsgrad_verzinsung.png)

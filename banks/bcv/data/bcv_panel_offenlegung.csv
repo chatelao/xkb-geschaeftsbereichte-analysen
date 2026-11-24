@@ -1,4 +1,4 @@
-bank_id,year,period,report_type,report_file,currency_orig,sort_date,regime,matched_total_assets_mio,rwa_density_pct,self_healed_fields,cet1_capital_mio,total_capital_mio,cet1_ratio_pct,cet1_excess_over_target_pp,tier1_capital_mio,leverage_ratio_pct,rwa_total_mio
+bank_id,year,period,report_type,report_file,currency_orig,sort_date,regime,matched_total_assets_mio,rwa_density_pct,self_healed_fields,total_capital_mio,cet1_ratio_pct,cet1_capital_mio,cet1_excess_over_target_pp,leverage_ratio_pct,tier1_capital_mio,rwa_total_mio
 bcv,2009,H1-2009,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2009.md,CHF,2009-06-30,Basel III,35733.0,,,,,,,,,
 bcv,2009,FY2009,offenlegung_fy,.md/bcv-offenlegungsbericht-2009.md,CHF,2009-12-31,Basel III,35733.0,,,,,,,,,
 bcv,2010,H1-2010,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2010.md,CHF,2010-06-30,Basel III,35584.7,,,,,,,,,
@@ -7,30 +7,30 @@ bcv,2011,H1-2011,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2011.md,CHF,2011-
 bcv,2011,FY2011,offenlegung_fy,.md/bcv-offenlegungsbericht-2011.md,CHF,2011-12-31,Basel III,37903.0,,,,,,,,,
 bcv,2012,H1-2012,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2012.md,CHF,2012-06-30,Basel III,39800.0,,,,,,,,,
 bcv,2012,FY2012,offenlegung_fy,.md/bcv-offenlegungsbericht-2012.md,CHF,2012-12-31,Basel III,39800.0,,,,,,,,,
-bcv,2013,H1-2013,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2013.md,CHF,2013-06-30,Basel III,40454.0,,,2.943,2.966,17.8,7.2,,,
-bcv,2013,FY2013,offenlegung_fy,.md/bcv-offenlegungsbericht-2013.md,CHF,2013-12-31,Basel III,40454.0,,,2.914,2.935,,,,,
-bcv,2014,H1-2014,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2014.md,CHF,2014-06-30,Basel III,42068.0,,,2.854,2.876,,,,,
-bcv,2014,FY2014,offenlegung_fy,.md/bcv-offenlegungsbericht-2014.md,CHF,2014-12-31,Basel III,42068.0,,,2.874,2.893,,,,,
-bcv,2015,H1-2015,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2015.md,CHF,2015-06-30,Basel III,43418.0,,,2.872,2.894,,,,,
-bcv,2015,FY2015,offenlegung_fy,.md/bcv-offenlegungsbericht-2015.md,CHF,2015-12-31,Basel III,43418.0,,,3.113,,,,,,
-bcv,2016,H1-2016,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2016.md,CHF,2016-06-30,Basel III,44085.0,,,3.114,,,,,,
-bcv,2016,FY2016,offenlegung_fy,.md/bcv-offenlegungsbericht-2016.md,CHF,2016-12-31,Basel III,44085.0,,,3.136,,17.5,6.9,,,
-bcv,2017,H1-2017,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2017.md,CHF,2017-06-30,Basel III,45415.0,,,3.155,,17.1,6.5,,,
-bcv,2017,FY2017,offenlegung_fy,.md/bcv-offenlegungsbericht-2017.md,CHF,2017-12-31,Basel III,45415.0,0.04,,3.118,,17.1,6.5,3.118,6.5,18.199
-bcv,2018,H1-2018,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2018.md,CHF,2018-06-30,Basel III,47863.0,0.04,,3.109,,16.4,5.8,3.109,6.4,18.949
-bcv,2018,FY2018,offenlegung_fy,.md/bcv-offenlegungsbericht-2018.md,CHF,2018-12-31,Basel III,47863.0,0.04,,3.24,,17.1,6.5,,6.2,18.423
-bcv,2019,H1-2019,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2019.md,CHF,2019-06-30,Basel III,48352.0,0.04,,3.241,,16.7,6.1,,6.3,18.942
-bcv,2019,FY2019,offenlegung_fy,.md/bcv-offenlegungsbericht-2019.md,CHF,2019-12-31,Basel III,48352.0,0.04,,3.294,,17.1,6.5,,6.3,18.786
-bcv,2020,H1-2020,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2020.md,CHF,2020-06-30,Basel III,53186.0,0.03,,3.294,,17.7,7.1,,6.1,18.124
-bcv,2020,FY2020,offenlegung_fy,.md/bcv-offenlegungsbericht-2020.md,CHF,2020-12-31,Basel III,53186.0,,,3.28,,17.7,7.1,,5.8,
-bcv,2021,H1-2021,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2021.md,CHF,2021-06-30,Basel III,55952.0,0.03,,3.28,,17.0,6.4,,5.6,19.167
-bcv,2021,FY2021,offenlegung_fy,.md/bcv-offenlegungsbericht-2021.md,CHF,2021-12-31,Basel III,55952.0,,,3.34,,17.2,6.6,,5.6,
-bcv,2022,H1-2022,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2022.md,CHF,2022-06-30,Basel III,59397.0,,,3.34,,17.0,6.4,,5.4,
-bcv,2022,FY2022,offenlegung_fy,.md/bcv-offenlegungsbericht-2022.md,CHF,2022-12-31,Basel III,59397.0,,,3.4,,17.6,7.0,,5.5,
-bcv,2023,H1-2023,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2023.md,CHF,2023-06-30,Basel III,58870.0,,,3.4,,17.5,6.9,,5.5,
-bcv,2023,FY2023,offenlegung_fy,.md/bcv-offenlegungsbericht-2023.md,CHF,2023-12-31,Basel III,58870.0,0.03,,3.499,,17.9,7.3,,5.6,19.352
-bcv,2024,H1-2024,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2024.md,CHF,2024-06-30,Basel III,60629.0,,,3.499,,17.0,6.4,,5.4,
-bcv,2024,FY2024,offenlegung_fy,.md/bcv-offenlegungsbericht-2024.md,CHF,2024-12-31,Basel III,60629.0,,,3.561,,16.8,6.2,,5.5,
-bcv,2025,H1-2025,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2025.md,CHF,2025-06-30,Basel III final,61620.0,,,,,18.4,7.8,,,
-bcv,2025,FY2025,offenlegung_fy,.md/bcv-offenlegungsbericht-2025.md,CHF,2025-12-31,Basel III final,61620.0,,,,,18.0,7.4,,,
-bcv,2026,H1-2026,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2026.md,CHF,2026-06-30,Basel III final,,,,,,17.6,7.0,,,
+bcv,2013,H1-2013,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2013.md,CHF,2013-06-30,Basel III,40454.0,,,2.966,17.8,2.943,7.2,,,
+bcv,2013,FY2013,offenlegung_fy,.md/bcv-offenlegungsbericht-2013.md,CHF,2013-12-31,Basel III,40454.0,,,2.935,,2.914,,,,
+bcv,2014,H1-2014,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2014.md,CHF,2014-06-30,Basel III,42068.0,,,2.876,,2.854,,,,
+bcv,2014,FY2014,offenlegung_fy,.md/bcv-offenlegungsbericht-2014.md,CHF,2014-12-31,Basel III,42068.0,,,2.893,,2.874,,,,
+bcv,2015,H1-2015,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2015.md,CHF,2015-06-30,Basel III,43418.0,,,2.894,,2.872,,,,
+bcv,2015,FY2015,offenlegung_fy,.md/bcv-offenlegungsbericht-2015.md,CHF,2015-12-31,Basel III,43418.0,,,,,3.113,,,,
+bcv,2016,H1-2016,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2016.md,CHF,2016-06-30,Basel III,44085.0,,,,,3.114,,,,
+bcv,2016,FY2016,offenlegung_fy,.md/bcv-offenlegungsbericht-2016.md,CHF,2016-12-31,Basel III,44085.0,,,,17.5,3.136,6.9,,,
+bcv,2017,H1-2017,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2017.md,CHF,2017-06-30,Basel III,45415.0,,,,17.1,3.155,6.5,,,
+bcv,2017,FY2017,offenlegung_fy,.md/bcv-offenlegungsbericht-2017.md,CHF,2017-12-31,Basel III,45415.0,0.04,,,17.1,3.118,6.5,6.5,3.118,18.199
+bcv,2018,H1-2018,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2018.md,CHF,2018-06-30,Basel III,47863.0,0.04,,,16.4,3.109,5.8,6.4,3.109,18.949
+bcv,2018,FY2018,offenlegung_fy,.md/bcv-offenlegungsbericht-2018.md,CHF,2018-12-31,Basel III,47863.0,0.04,,,17.1,3.24,6.5,6.2,,18.423
+bcv,2019,H1-2019,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2019.md,CHF,2019-06-30,Basel III,48352.0,0.04,,,16.7,3.241,6.1,6.3,,18.942
+bcv,2019,FY2019,offenlegung_fy,.md/bcv-offenlegungsbericht-2019.md,CHF,2019-12-31,Basel III,48352.0,0.04,,,17.1,3.294,6.5,6.3,,18.786
+bcv,2020,H1-2020,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2020.md,CHF,2020-06-30,Basel III,53186.0,0.03,,,17.7,3.294,7.1,6.1,,18.124
+bcv,2020,FY2020,offenlegung_fy,.md/bcv-offenlegungsbericht-2020.md,CHF,2020-12-31,Basel III,53186.0,,,,17.7,3.28,7.1,5.8,,
+bcv,2021,H1-2021,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2021.md,CHF,2021-06-30,Basel III,55952.0,0.03,,,17.0,3.28,6.4,5.6,,19.167
+bcv,2021,FY2021,offenlegung_fy,.md/bcv-offenlegungsbericht-2021.md,CHF,2021-12-31,Basel III,55952.0,,,,17.2,3.34,6.6,5.6,,
+bcv,2022,H1-2022,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2022.md,CHF,2022-06-30,Basel III,59397.0,,,,17.0,3.34,6.4,5.4,,
+bcv,2022,FY2022,offenlegung_fy,.md/bcv-offenlegungsbericht-2022.md,CHF,2022-12-31,Basel III,59397.0,,,,17.6,3.4,7.0,5.5,,
+bcv,2023,H1-2023,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2023.md,CHF,2023-06-30,Basel III,58870.0,,,,17.5,3.4,6.9,5.5,,
+bcv,2023,FY2023,offenlegung_fy,.md/bcv-offenlegungsbericht-2023.md,CHF,2023-12-31,Basel III,58870.0,0.03,,,17.9,3.499,7.3,5.6,,19.352
+bcv,2024,H1-2024,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2024.md,CHF,2024-06-30,Basel III,60629.0,,,,17.0,3.499,6.4,5.4,,
+bcv,2024,FY2024,offenlegung_fy,.md/bcv-offenlegungsbericht-2024.md,CHF,2024-12-31,Basel III,60629.0,,,,16.8,3.561,6.2,5.5,,
+bcv,2025,H1-2025,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2025.md,CHF,2025-06-30,Basel III final,61620.0,,,,18.4,,7.8,,,
+bcv,2025,FY2025,offenlegung_fy,.md/bcv-offenlegungsbericht-2025.md,CHF,2025-12-31,Basel III final,61620.0,,,,18.0,,7.4,,,
+bcv,2026,H1-2026,offenlegung_h1,.md/bcv-offenlegungsbericht-06-2026.md,CHF,2026-06-30,Basel III final,,,,,17.6,,7.0,,,

@@ -1,0 +1,26 @@
+{
+  "bank_id": "pictet",
+  "short_name": "Pictet",
+  "basis": "Global employee turnover rate in % (GRI 401-1: total leavers / average active headcount over 12 months)",
+  "source": "Pictet Group Sustainability Reports 2023 (p. 45/70), 2024 (p. 32/119) & 2025 (p. 41/149) – GRI 401-1",
+  "years": {
+    "2023": {
+      "rate": 7.1,
+      "net": null,
+      "gross": 7.1,
+      "note": "Global employee turnover 7,1 % (Frauen 7,7 %, Männer 6,7 %; <30 J.: 10,0 %, 30–50 J.: 6,1 %, 50+ J.: 8,4 %; GSR 2023 p. 45/70)"
+    },
+    "2024": {
+      "rate": 6.9,
+      "net": null,
+      "gross": 6.9,
+      "note": "Global employee turnover 6,9 % (361 leavers permanent: 144 women, 217 men; GSR 2024 p. 32/119 & GSR 2025 p. 149)"
+    },
+    "2025": {
+      "rate": 8.2,
+      "net": null,
+      "gross": 8.2,
+      "note": "Global employee turnover 8,2 % (total leavers / average headcount over 12 months; GSR 2025 p. 41/149)"
+    }
+  }
+}

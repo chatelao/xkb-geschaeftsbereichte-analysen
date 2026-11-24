@@ -1,0 +1,104 @@
+{
+  "bank_id": "zkb",
+  "short_name": "ZKB",
+  "basis": "Fluktuationsrate Stammhaus in % (Personalbericht / Kennzahlen Beschäftigung)",
+  "source": "zkb/.md/zkb-geschaeftsbericht-2014..2025.md (Kapitel «Mitarbeitende / Unternehmensprofil»)",
+  "years": {
+    "2010": {
+      "rate": 6.4,
+      "net": null,
+      "gross": 6.4,
+      "note": "Fluktuationsrate Stammhaus (Mehrjahrestabelle GB 2014)"
+    },
+    "2011": {
+      "rate": 6.5,
+      "net": null,
+      "gross": 6.5,
+      "note": "Fluktuationsrate Stammhaus (Mehrjahrestabelle GB 2014/2015)"
+    },
+    "2012": {
+      "rate": 6.5,
+      "net": null,
+      "gross": 6.5,
+      "note": "Fluktuationsrate Stammhaus (Mehrjahrestabelle GB 2014–2016)"
+    },
+    "2013": {
+      "rate": 7.7,
+      "net": null,
+      "gross": 7.7,
+      "note": "Fluktuationsrate Stammhaus (Mehrjahrestabelle GB 2014–2017)"
+    },
+    "2014": {
+      "rate": 7.7,
+      "net": null,
+      "gross": 7.7,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2015": {
+      "rate": 6.8,
+      "net": null,
+      "gross": 6.8,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2016": {
+      "rate": 5.9,
+      "net": null,
+      "gross": 5.9,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2017": {
+      "rate": 5.7,
+      "net": null,
+      "gross": 5.7,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2018": {
+      "rate": 6.3,
+      "net": null,
+      "gross": 6.3,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2019": {
+      "rate": 5.8,
+      "net": null,
+      "gross": 5.8,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2020": {
+      "rate": 4.5,
+      "net": null,
+      "gross": 4.5,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2021": {
+      "rate": 5.9,
+      "net": null,
+      "gross": 5.9,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2022": {
+      "rate": 6.4,
+      "net": null,
+      "gross": 6.4,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2023": {
+      "rate": 6.1,
+      "net": null,
+      "gross": 6.1,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2024": {
+      "rate": 5.5,
+      "net": null,
+      "gross": 5.5,
+      "note": "Fluktuationsrate Stammhaus"
+    },
+    "2025": {
+      "rate": 5.0,
+      "net": null,
+      "gross": 5.0,
+      "note": "Fluktuationsrate Stammhaus"
+    }
+  }
+}

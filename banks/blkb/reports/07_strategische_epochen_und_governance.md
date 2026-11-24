@@ -10,36 +10,38 @@
 ![Langfrist Dashboard Epochen](./charts/07_langfrist_dashboard_epochen.png)
 
 ## 2. Reale Gewinn-, Lohn- & Vergütungsentwicklung (real 2025 CHF)
-| Jahr | Gewinn nom. | Gewinn real 2025 | Lohn/FTE real (TCHF) | VR real (TCHF) | CEO real (TCHF) | GL real (TCHF) |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2007 | 100,6 | 109,1 | – | – | – | – |
-| 2008 | 95,5 | 101,1 | – | – | – | – |
-| 2009 | 106,3 | 113,1 | – | – | – | – |
-| 2010 | 108,9 | 115,0 | – | – | – | – |
-| 2011 | 109,0 | 114,9 | – | – | – | – |
-| 2013 | 112,3 | 119,5 | – | – | – | – |
-| 2014 | 115,8 | 123,2 | – | – | – | – |
-| 2016 | 133,6 | 144,4 | – | – | – | – |
-| 2017 | 133,3 | 143,4 | – | – | – | – |
-| 2018 | 134,5 | 143,2 | – | – | – | – |
-| 2019 | 137,0 | 145,4 | – | – | – | – |
-| 2020 | 138,0 | 147,6 | – | – | – | – |
-| 2021 | 141,0 | 149,8 | – | – | – | – |
-| 2022 | 144,1 | 149,0 | 159,5 | – | – | – |
-| 2023 | 152,0 | 153,8 | 167,1 | – | – | – |
-| 2024 | 166,0 | 166,2 | 160,5 | – | – | – |
-| 2025 | 154,0 | 154,0 | 171,6 | – | – | – |
+| Jahr | Gewinn nom. | Gewinn real 2025 | Lohn/FTE real (TCHF) | Fluktuation % | VR real (TCHF) | CEO real (TCHF) | GL real (TCHF) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2007 | 100,6 | 109,1 | – | 7,8 % | – | – | – |
+| 2008 | 95,5 | 101,1 | – | 7,4 % | – | – | – |
+| 2009 | 106,3 | 113,1 | – | 4,8 % | – | – | – |
+| 2010 | 108,9 | 115,0 | – | 4,8 % | – | – | – |
+| 2011 | 109,0 | 114,9 | – | – | – | – | – |
+| 2013 | 112,3 | 119,5 | – | 3,3 % | – | – | – |
+| 2014 | 115,8 | 123,2 | – | 4,1 % | – | – | – |
+| 2016 | 133,6 | 144,4 | – | 4,6 % | – | – | – |
+| 2017 | 133,3 | 143,4 | – | 5,0 % | – | – | – |
+| 2018 | 134,5 | 143,2 | – | 5,3 % | – | – | – |
+| 2019 | 137,0 | 145,4 | – | 6,3 % | – | – | – |
+| 2020 | 138,0 | 147,6 | – | 5,3 % | – | – | – |
+| 2021 | 141,0 | 149,8 | – | 5,6 % | – | – | – |
+| 2022 | 144,1 | 149,0 | 159,5 | 6,3 % | – | – | – |
+| 2023 | 152,0 | 153,8 | 167,1 | 7,4 % | – | – | – |
+| 2024 | 166,0 | 166,2 | 160,5 | 5,8 % | – | – | – |
+| 2025 | 154,0 | 154,0 | 171,6 | 7,8 % | – | – | – |
 
 ![Gewinn, Löhne & Vergütung real](./charts/07_gewinn_loehne_verguetung_real.png)
 
-## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
+## 3. Arbeitgeber-Attraktivität, Personalfluktuation & Vorsorgeeinrichtung (Pensionskasse)
 - **Vorsorgeeinrichtung:** Pensionskasse der BLKB (Basellandschaftliche Pensionskasse BLPK) (*Beitragsprimat*, Basis: `Swiss GAAP FER 26 / ARB`)
 - **Versichertenstruktur:** Aktive **–**, Rentner **–** (Verhältnis Aktive/Rentner: **–**)
 - **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **115,4 %**, Arbeitgeberbeitragsreserve **0,0 Mio. CHF**, Sondereinlagen **0,0 Mio. CHF**
 - **CEO-zu-Mitarbeitenden-Pay-Ratio (2025):** **–×** (CEO real 2025: – TCHF vs. Ø Personalaufwand/FTE: 171,6 TCHF)
-- **Quelle:** `blkb/.md/blkb-geschaeftsbericht-2025.md (Anhang Konzernrechnung Vorsorgeverpflichtungen)` — Vorsorgelösung bei der BLPK mit Deckungsgrad 115,4 % per 31.12.2025 (Wertschwankungsreserve vollständig geäufnet); Beiträge/Vorsorgeaufwand 2025: CHF 15,925 Mio.; radicant bank ag bei Nest Sammelstiftung (112,5 %).
+- **Quelle Vorsorge:** `blkb/.md/blkb-geschaeftsbericht-2025.md (Anhang Konzernrechnung Vorsorgeverpflichtungen)` — Vorsorgelösung bei der BLPK mit Deckungsgrad 115,4 % per 31.12.2025 (Wertschwankungsreserve vollständig geäufnet); Beiträge/Vorsorgeaufwand 2025: CHF 15,925 Mio.; radicant bank ag bei Nest Sammelstiftung (112,5 %).
+- **Personalfluktuation (19 Berichtsjahre, 2006–2025):** **2006:** 6,1 %, **2007:** 7,8 %, **2008:** 7,4 %, **2009:** 4,8 %, **2010:** 4,8 %, **2012:** 3,6 %, **2013:** 3,3 %, **2014:** 4,1 %, **2015:** 4,5 %, **2016:** 4,6 %, **2017:** 5,0 %, **2018:** 5,3 %, **2019:** 6,3 %, **2020:** 5,3 %, **2021:** 5,6 %, **2022:** 6,3 %, **2023:** 7,4 % (Netto 7,4 % / Brutto 10,7 %), **2024:** 5,8 % (Netto 5,8 % / Brutto 10,4 %), **2025:** 7,8 % (Netto 7,8 % / Brutto 11,9 %)
+- **Methodik & Quelle Fluktuation:** Natürliche / Netto-Fluktuationsrate (GRI G4-LA1 / GRI 401-1: exkl. Arbeitgeberkündigung, Pensionierungen, Schwangerschaften & Todesfälle; 2013–2025) bzw. einfache Fluktuationsrate (GRI G3 LA2, 2006–2012) (`blkb/.md/blkb-geschaeftsbericht-2007..2021.md & BLKB Nachhaltigkeitsberichte 2010, 2013, 2014, 2017, 2021, 2022, 2023, 2024 & 2025 (GRI 401-1)`)
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 - **2015:** Einführung SNB-Negativzins & Rechnungslegungswechsel (ARB)
 - **2025:** Inkrafttreten Basel III final & geordnete Liquidation radicant
-- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen, Pay Ratio und Pensionskassen-Resilienz im Branchenvergleich (`comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md`).
+- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen, Personalfluktuation, Pay Ratio und Pensionskassen-Resilienz im Branchenvergleich (`comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md`).

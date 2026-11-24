@@ -14,6 +14,7 @@ from shared.config import BankConfig, load_bank_config
 from shared.it_strategy import IT_STRATEGY_DATA
 from shared.leadership import LEADERSHIP_DATA
 from shared.mergers import MERGER_HISTORY
+from shared.turnover import get_bank_turnover_meta, get_latest_turnover
 
 DEFAULT_HYDROGEN_MODEL = "gemini-2.5-flash-lite"
 
@@ -208,12 +209,16 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
 """
 
     # Bericht 04: Operative Effizienz & Transformation
+    t_meta = get_bank_turnover_meta(cfg.bank_id)
+    t_yrs_map = t_meta.get("years", {})
+    latest_t_yr, latest_t_entry = get_latest_turnover(cfg.bank_id, y1)
     r04_rows = [
         [
             str(r["year"]),
             fmt_num(r.get("cir_pct"), 2) + " %",
             fmt_num(r.get("roe_pct"), 2) + " %",
             fmt_num(r.get("fte_count"), 1),
+            (fmt_num(r.get("turnover_rate_pct"), 1) + " %") if r.get("turnover_rate_pct") is not None else "–",
             fmt_num(r.get("income_per_fte_tchf"), 1),
             fmt_num(r.get("personnel_cost_per_fte_tchf"), 1),
             fmt_num(r.get("wage_to_productivity_pct"), 1) + " %",
@@ -222,14 +227,19 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
         ]
         for r in annual
     ]
+    r04_turnover_bullet = (
+        f"\n- **Personalfluktuation:** Jüngster offengelegter Wert liegt im Jahr **{latest_t_yr}** bei **{fmt_num(latest_t_entry.get('rate'), 1)} %** (*{t_meta.get('basis', '–')}*)."
+        if latest_t_yr and latest_t_entry
+        else "\n- **Personalfluktuation:** Im Geschäftsbericht wird keine quantitative Personalfluktuationsquote ausgewiesen."
+    )
     r04 = f"""# 04 · Operative Effizienz & Transformation ({y0}–{y1}): {cfg.full_name}
 
 ## 1. Management Summary
 - Die Cost-Income-Ratio (CIR) liegt im Jahr {y1} bei **{fmt_num(last.get('cir_pct'), 2)} %** (vs. {fmt_num(first.get('cir_pct'), 2)} % im Jahr {y0}), die Eigenkapitalrendite (ROE) bei **{fmt_num(last.get('roe_pct'), 2)} %**.
-- Der Personalbestand umfasst {y1} **{fmt_num(last.get('fte_count'), 1)} FTE** bei einem Ertrag pro Vollzeitstelle von **{fmt_num(last.get('income_per_fte_tchf'), 1)} TCHF** und einem **Lohnkosten-/Produktivitätsverhältnis von {fmt_num(last.get('wage_to_productivity_pct'), 1)} %** (bzw. **{fmt_num(last.get('productivity_to_wage_ratio'), 2)}×** Ertrag je CHF Personalaufwand).
+- Der Personalbestand umfasst {y1} **{fmt_num(last.get('fte_count'), 1)} FTE** bei einem Ertrag pro Vollzeitstelle von **{fmt_num(last.get('income_per_fte_tchf'), 1)} TCHF** und einem **Lohnkosten-/Produktivitätsverhältnis von {fmt_num(last.get('wage_to_productivity_pct'), 1)} %** (bzw. **{fmt_num(last.get('productivity_to_wage_ratio'), 2)}×** Ertrag je CHF Personalaufwand).{r04_turnover_bullet}
 
 ## 2. Quantitative Entwicklung
-{_table(["Jahr", "CIR %", "ROE %", "FTE", "Ertrag/FTE (TCHF)", "Lohn/FTE (TCHF)", "Lohn/Ertrag %", "Ertrag/Lohn", "Bilanz/FTE (Mio.)"], r04_rows)}
+{_table(["Jahr", "CIR %", "ROE %", "FTE", "Fluktuation %", "Ertrag/FTE (TCHF)", "Lohn/FTE (TCHF)", "Lohn/Ertrag %", "Ertrag/Lohn", "Bilanz/FTE (Mio.)"], r04_rows)}
 
 ![Effizienz & Produktivität](./charts/04_effizienz_produktivitaet.png)
 
@@ -329,6 +339,7 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
             fmt_num(r.get("net_profit_mio_nom")),
             fmt_num(r.get("net_profit_mio_real2025")),
             fmt_num(r.get("avg_per_fte_tchf_real2025"), 1),
+            (fmt_num(r.get("turnover_rate_pct"), 1) + " %") if r.get("turnover_rate_pct") is not None else "–",
             fmt_num(r.get("vr_total_tchf_real2025"), 1),
             fmt_num(r.get("ceo_total_tchf_real2025"), 1),
             fmt_num(r.get("gl_total_tchf_real2025"), 1),
@@ -341,14 +352,31 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
         if last_verg.get("ceo_total_tchf_real2025") and last_verg.get("avg_per_fte_tchf_real2025")
         else None
     )
+    if t_yrs_map:
+        t_series_str = ", ".join(
+            f"**{yr}:** {fmt_num(t_yrs_map[yr].get('rate'), 1)} %"
+            + (
+                f" (Netto {fmt_num(t_yrs_map[yr].get('net'), 1)} % / Brutto {fmt_num(t_yrs_map[yr].get('gross'), 1)} %)"
+                if (t_yrs_map[yr].get("net") is not None and t_yrs_map[yr].get("gross") is not None)
+                else ""
+            )
+            for yr in sorted(t_yrs_map.keys())
+        )
+        turnover_block = (
+            f"- **Personalfluktuation ({len(t_yrs_map)} Berichtsjahre, {min(t_yrs_map)}–{max(t_yrs_map)}):** {t_series_str}\n"
+            f"- **Methodik & Quelle Fluktuation:** {t_meta.get('basis', '–')} (`{t_meta.get('source', '–')}`)"
+        )
+    else:
+        turnover_block = "- **Personalfluktuation:** Keine quantitative Fluktuationsquote in den Geschäftsberichten offengelegt."
     pk_block = (
         f"- **Vorsorgeeinrichtung:** {vorsorge.get('pk_name', '–')} (*{vorsorge.get('pk_plan_type', '–')}*, Basis: `{vorsorge.get('accounting_basis', '–')}`)\n"
         f"- **Versichertenstruktur:** Aktive **{fmt_num(vorsorge.get('active_insured_count'), 0)}**, Rentner **{fmt_num(vorsorge.get('pensioners_count'), 0)}** (Verhältnis Aktive/Rentner: **{fmt_num(vorsorge.get('active_to_pensioner_ratio'), 2)}**)\n"
         f"- **Deckungsgrad (BVG) / Reserven:** Deckungsgrad **{fmt_num(vorsorge.get('coverage_ratio_bvg_pct'), 1)} %**, Arbeitgeberbeitragsreserve **{fmt_num(vorsorge.get('employer_contribution_reserve_mio'), 1)} Mio. CHF**, Sondereinlagen **{fmt_num(vorsorge.get('extraordinary_contributions_mio'), 1)} Mio. CHF**\n"
         f"- **CEO-zu-Mitarbeitenden-Pay-Ratio ({y1}):** **{fmt_num(pay_ratio, 1)}×** (CEO real 2025: {fmt_num(last_verg.get('ceo_total_tchf_real2025'), 1)} TCHF vs. Ø Personalaufwand/FTE: {fmt_num(last_verg.get('avg_per_fte_tchf_real2025'), 1)} TCHF)\n"
-        f"- **Quelle:** `{vorsorge.get('source_url_or_file', '–')}` — {vorsorge.get('notes', '')}"
+        f"- **Quelle Vorsorge:** `{vorsorge.get('source_url_or_file', '–')}` — {vorsorge.get('notes', '')}\n"
+        f"{turnover_block}"
         if vorsorge
-        else "- Keine Vorsorgedaten hinterlegt."
+        else f"- Keine Vorsorgedaten hinterlegt.\n{turnover_block}"
     )
     r07 = f"""# 07 · Strategische Epochen, Governance, reale Vergütung & Vorsorge ({y0}–{y1}): {cfg.full_name}
 
@@ -360,16 +388,16 @@ def build_reports(bank_id: str, backend: str = "local") -> list[Path]:
 ![Langfrist Dashboard Epochen](./charts/07_langfrist_dashboard_epochen.png)
 
 ## 2. Reale Gewinn-, Lohn- & Vergütungsentwicklung (real 2025 CHF)
-{_table(["Jahr", "Gewinn nom.", "Gewinn real 2025", "Lohn/FTE real (TCHF)", "VR real (TCHF)", "CEO real (TCHF)", "GL real (TCHF)"], r07_rows)}
+{_table(["Jahr", "Gewinn nom.", "Gewinn real 2025", "Lohn/FTE real (TCHF)", "Fluktuation %", "VR real (TCHF)", "CEO real (TCHF)", "GL real (TCHF)"], r07_rows)}
 
 ![Gewinn, Löhne & Vergütung real](./charts/07_gewinn_loehne_verguetung_real.png)
 
-## 3. Arbeitgeber-Attraktivität & Vorsorgeeinrichtung (Pensionskasse)
+## 3. Arbeitgeber-Attraktivität, Personalfluktuation & Vorsorgeeinrichtung (Pensionskasse)
 {pk_block}
 
 ## 4. Treiberanalyse, Strukturbrüche & Ausblick
 {_breaks_text(cfg)}
-- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen, Pay Ratio und Pensionskassen-Resilienz im Branchenvergleich (`comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md`).
+- Die gemeinsame Inflationsbereinigung auf `real 2025 CHF` ermöglicht den unverzerrten Vergleich von Produktivität, Reallöhnen, Personalfluktuation, Pay Ratio und Pensionskassen-Resilienz im Branchenvergleich (`comparison/reports/07_mitarbeiter_und_vorsorge_branchenvergleich.md`).
 """
 
     # Bericht 08: CEO & Chairman of the Board Achievement Report (Investoren-Sektion)

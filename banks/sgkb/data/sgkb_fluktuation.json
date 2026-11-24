@@ -1,0 +1,68 @@
+{
+  "bank_id": "sgkb",
+  "short_name": "SGKB",
+  "basis": "Personalfluktuationsrate in % (freiwillige Fluktuation exkl. Pensionierungen und befristete Verträge, GRI 401-1)",
+  "source": "sgkb/.md/sgkb-geschaeftsbericht-2018..2025.md (Personalkennzahlen & Nachhaltigkeitsbericht GRI 401-1)",
+  "years": {
+    "2016": {
+      "rate": 6.8,
+      "net": 6.8,
+      "gross": null,
+      "note": "Fluktuation in % (Mehrjahrestabelle GB 2018)"
+    },
+    "2017": {
+      "rate": 6.9,
+      "net": 6.9,
+      "gross": null,
+      "note": "Fluktuation in % (Mehrjahrestabelle GB 2018/2019)"
+    },
+    "2018": {
+      "rate": 5.6,
+      "net": 5.6,
+      "gross": null,
+      "note": "Fluktuation in %"
+    },
+    "2019": {
+      "rate": 5.1,
+      "net": 5.1,
+      "gross": null,
+      "note": "Fluktuation in %"
+    },
+    "2020": {
+      "rate": 6.6,
+      "net": 6.6,
+      "gross": null,
+      "note": "Fluktuation in %"
+    },
+    "2021": {
+      "rate": 4.6,
+      "net": 4.6,
+      "gross": null,
+      "note": "Fluktuation in %"
+    },
+    "2022": {
+      "rate": 8.9,
+      "net": 8.9,
+      "gross": null,
+      "note": "Freiwillige Personalfluktuationsrate (143 Austritte gesamt)"
+    },
+    "2023": {
+      "rate": 7.3,
+      "net": 7.3,
+      "gross": null,
+      "note": "Freiwillige Personalfluktuationsrate (144 Austritte gesamt)"
+    },
+    "2024": {
+      "rate": 6.8,
+      "net": 6.8,
+      "gross": null,
+      "note": "Freiwillige Personalfluktuationsrate (135 Austritte gesamt)"
+    },
+    "2025": {
+      "rate": 7.74,
+      "net": 7.74,
+      "gross": null,
+      "note": "Freiwillige Personalfluktuationsrate 7,74 % (gerundet 7,7 %; 148 Austritte gesamt)"
+    }
+  }
+}

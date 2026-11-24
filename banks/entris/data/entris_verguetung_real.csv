@@ -1,6 +1,6 @@
-year,bfs_lik_dez1982,cpi_factor_2025,net_profit_mio_nom,net_profit_mio_real2025,personnel_tchf_nom,personnel_mio_real2025,fte_count,avg_per_fte_tchf_nom,avg_per_fte_tchf_real2025,income_per_fte_tchf_nom,income_per_fte_tchf_real2025,wage_to_productivity_pct,productivity_to_wage_ratio,vr_total_tchf_nom,vr_total_tchf_real2025,ceo_total_tchf_nom,ceo_total_tchf_real2025,gl_total_tchf_nom,gl_total_tchf_real2025,notes
-2021,159.7,1.062617,19.911,21.158,9809.0,10.423,54.5,179.98,191.25,1041.6,1106.82,17.3,5.79,,,,,,,
-2022,164.2,1.033496,13.496,13.948,10401.0,10.749,55.7,186.73,192.99,982.4,1015.31,19.0,5.26,,,,,,,
-2023,167.7,1.011926,15.492,15.677,10748.0,10.876,57.9,185.63,187.84,1047.8,1060.3,17.7,5.64,,,,,,,
-2024,169.5,1.00118,12.376,12.391,11755.0,11.769,62.8,187.18,187.4,1004.8,1005.99,18.6,5.37,,,,,,,
-2025,169.7,1.0,13.757,13.757,12513.0,12.513,66.7,187.6,187.6,996.9,996.9,18.8,5.31,,,,,,,
+year,bfs_lik_dez1982,cpi_factor_2025,net_profit_mio_nom,net_profit_mio_real2025,personnel_tchf_nom,personnel_mio_real2025,fte_count,turnover_rate_pct,turnover_net_pct,turnover_gross_pct,avg_per_fte_tchf_nom,avg_per_fte_tchf_real2025,income_per_fte_tchf_nom,income_per_fte_tchf_real2025,wage_to_productivity_pct,productivity_to_wage_ratio,vr_total_tchf_nom,vr_total_tchf_real2025,ceo_total_tchf_nom,ceo_total_tchf_real2025,gl_total_tchf_nom,gl_total_tchf_real2025,notes
+2021,159.7,1.062617,19.911,21.158,9809.0,10.423,54.5,,,,179.98,191.25,1041.6,1106.82,17.3,5.79,,,,,,,
+2022,164.2,1.033496,13.496,13.948,10401.0,10.749,55.7,,,,186.73,192.99,982.4,1015.31,19.0,5.26,,,,,,,
+2023,167.7,1.011926,15.492,15.677,10748.0,10.876,57.9,,,,185.63,187.84,1047.8,1060.3,17.7,5.64,,,,,,,
+2024,169.5,1.00118,12.376,12.391,11755.0,11.769,62.8,,,,187.18,187.4,1004.8,1005.99,18.6,5.37,,,,,,,
+2025,169.7,1.0,13.757,13.757,12513.0,12.513,66.7,,,,187.6,187.6,996.9,996.9,18.8,5.31,,,,,,,

@@ -1,0 +1,92 @@
+{
+  "bank_id": "raiffeisen",
+  "short_name": "Raiffeisen",
+  "basis": "Nettofluktuationsrate (freiwillige Austritte exkl. Gruppenübertritte, ab 2022) bzw. Brutto-/Gesamtfluktuationsrate (2012–2025)",
+  "source": "raiffeisen/.md/raiffeisen-geschaeftsbericht-2013..2025.md (Sozialbilanz / Kennzahlen Mitarbeitende / GRI 401-1)",
+  "years": {
+    "2012": {
+      "rate": 10.0,
+      "net": null,
+      "gross": 10.0,
+      "note": "Bruttofluktuationsrate inkl. Mutationen innerhalb der Gruppe (aus GB 2013)"
+    },
+    "2013": {
+      "rate": 11.8,
+      "net": null,
+      "gross": 11.8,
+      "note": "Bruttofluktuationsrate inkl. Mutationen (Schlüsselpersonen: 2,9 %)"
+    },
+    "2014": {
+      "rate": 12.3,
+      "net": null,
+      "gross": 12.3,
+      "note": "Bruttofluktuationsrate inkl. Mutationen (Schlüsselpersonen: 3,4 %)"
+    },
+    "2015": {
+      "rate": 10.7,
+      "net": null,
+      "gross": 10.7,
+      "note": "Bruttofluktuationsrate inkl. Mutationen (Schlüsselpersonen: 5,4 %)"
+    },
+    "2016": {
+      "rate": 11.2,
+      "net": null,
+      "gross": 11.2,
+      "note": "Bruttofluktuationsrate inkl. Mutationen (Top-Management: 2,0 %)"
+    },
+    "2017": {
+      "rate": 12.5,
+      "net": null,
+      "gross": 12.5,
+      "note": "Bruttofluktuationsrate inkl. Mutationen (Top-Management: 1,0 %)"
+    },
+    "2018": {
+      "rate": 12.1,
+      "net": null,
+      "gross": 12.1,
+      "note": "Bruttofluktuationsrate inkl. Übertritte (Top-Management: 1,0 %)"
+    },
+    "2019": {
+      "rate": 14.3,
+      "net": 2.1,
+      "gross": 14.3,
+      "note": "Bruttofluktuationsrate 14,3 % (inkl. Gruppengesellschaften); BSC-Zielgrösse Netto: 2,1 %"
+    },
+    "2020": {
+      "rate": 11.1,
+      "net": null,
+      "gross": 11.1,
+      "note": "Bruttofluktuationsrate inkl. Übertritte innerhalb der Gruppe"
+    },
+    "2021": {
+      "rate": 10.4,
+      "net": null,
+      "gross": 10.4,
+      "note": "Bruttofluktuationsrate inkl. Übertritte innerhalb der Gruppe"
+    },
+    "2022": {
+      "rate": 10.0,
+      "net": 10.0,
+      "gross": 12.3,
+      "note": "Nettofluktuationsrate 10,0 % (Gesamtfluktuation exkl. Übertritte: 12,3 %; inkl. Übertritte: 12,2 %)"
+    },
+    "2023": {
+      "rate": 8.5,
+      "net": 8.5,
+      "gross": 12.1,
+      "note": "Nettofluktuationsrate 8,5 % (freiwillige Austritte); Gesamtfluktuationsrate: 12,1 %"
+    },
+    "2024": {
+      "rate": 8.4,
+      "net": 8.4,
+      "gross": 10.2,
+      "note": "Nettofluktuationsrate 8,4 % (freiwillige Austritte); Gesamtfluktuationsrate: 10,2 %"
+    },
+    "2025": {
+      "rate": 7.4,
+      "net": 7.4,
+      "gross": 9.7,
+      "note": "Nettofluktuationsrate 7,4 % (freiwillige Austritte); Gesamtfluktuationsrate: 9,7 %"
+    }
+  }
+}

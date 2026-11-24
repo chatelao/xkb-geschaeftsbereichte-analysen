@@ -1,0 +1,122 @@
+{
+  "bank_id": "blkb",
+  "short_name": "BLKB",
+  "basis": "Natürliche / Netto-Fluktuationsrate (GRI G4-LA1 / GRI 401-1: exkl. Arbeitgeberkündigung, Pensionierungen, Schwangerschaften & Todesfälle; 2013–2025) bzw. einfache Fluktuationsrate (GRI G3 LA2, 2006–2012)",
+  "source": "blkb/.md/blkb-geschaeftsbericht-2007..2021.md & BLKB Nachhaltigkeitsberichte 2010, 2013, 2014, 2017, 2021, 2022, 2023, 2024 & 2025 (GRI 401-1)",
+  "years": {
+    "2006": {
+      "rate": 6.1,
+      "net": null,
+      "gross": 6.1,
+      "note": "Einfache Fluktuationsrate (Vorjahreswert aus GB 2007)"
+    },
+    "2007": {
+      "rate": 7.8,
+      "net": null,
+      "gross": 7.8,
+      "note": "Einfache Fluktuationsrate (GRI G3 LA2)"
+    },
+    "2008": {
+      "rate": 7.4,
+      "net": null,
+      "gross": 7.4,
+      "note": "Einfache Fluktuationsrate (GRI G3 LA2)"
+    },
+    "2009": {
+      "rate": 4.8,
+      "net": null,
+      "gross": 4.8,
+      "note": "Einfache Fluktuationsrate (GRI G3 LA2)"
+    },
+    "2010": {
+      "rate": 4.8,
+      "net": null,
+      "gross": 4.8,
+      "note": "Fluktuationsrate (GRI-Berichterstattung 2010 S. 16, LA2)"
+    },
+    "2012": {
+      "rate": 3.6,
+      "net": null,
+      "gross": 3.6,
+      "note": "Einfache Fluktuationsrate (GNB 2013 S. 73, GRI G3.1 LA2)"
+    },
+    "2013": {
+      "rate": 3.3,
+      "net": 3.3,
+      "gross": null,
+      "note": "Netto-Fluktuationsrate ohne Pensionierungen, Schwangerschaften & Todesfälle (GNB 2013 S. 20/73 & GNB 2017 S. 24)"
+    },
+    "2014": {
+      "rate": 4.1,
+      "net": 4.1,
+      "gross": null,
+      "note": "Fluktuationsrate ohne Pensionierungen, Schwangerschaften & Todesfälle (GNB 2014 S. 14 & GNB 2017 S. 24)"
+    },
+    "2015": {
+      "rate": 4.5,
+      "net": 4.5,
+      "gross": null,
+      "note": "Fluktuation ohne Pensionierungen, Schwangerschaften & Todesfälle (GNB 2017 S. 24, GRI G4-LA1)"
+    },
+    "2016": {
+      "rate": 4.6,
+      "net": 4.6,
+      "gross": null,
+      "note": "Fluktuation ohne Pensionierungen, Schwangerschaften & Todesfälle (GNB 2017 S. 24, GRI G4-LA1)"
+    },
+    "2017": {
+      "rate": 5.0,
+      "net": 5.0,
+      "gross": null,
+      "note": "Natürliche Fluktuation Stammhaus (GNB 2017 S. 24 & NHB 2021 S. 71, GRI 401-1)"
+    },
+    "2018": {
+      "rate": 5.3,
+      "net": 5.3,
+      "gross": null,
+      "note": "Natürliche Fluktuation Stammhaus (NHB 2021 S. 71 & NHB 2022 S. 56, GRI 401-1)"
+    },
+    "2019": {
+      "rate": 6.3,
+      "net": 6.3,
+      "gross": null,
+      "note": "Natürliche Fluktuation Stammhaus (GB 2020/2021 & NHB 2022 S. 56, GRI 401-1)"
+    },
+    "2020": {
+      "rate": 5.3,
+      "net": 5.3,
+      "gross": null,
+      "note": "Natürliche Fluktuation Stammhaus (GB 2020/2021 & NHB 2022 S. 56, GRI 401-1)"
+    },
+    "2021": {
+      "rate": 5.6,
+      "net": 5.6,
+      "gross": null,
+      "note": "Natürliche Fluktuation Stammhaus (GB 2021 & NHB 2022 S. 56, GRI 401-1)"
+    },
+    "2022": {
+      "rate": 6.3,
+      "net": 6.3,
+      "gross": null,
+      "note": "Natürliche Fluktuation Stammhaus (NHB 2022 S. 56 & NHB 2024 S. 12, GRI 401-1)"
+    },
+    "2023": {
+      "rate": 7.4,
+      "net": 7.4,
+      "gross": 10.7,
+      "note": "Fluktuationsrate Konzern netto 7,4 % (im NHB 2023/2024: 7,5 %), brutto 10,7 % (NHB 2025 S. 35, GRI 401-1)"
+    },
+    "2024": {
+      "rate": 5.8,
+      "net": 5.8,
+      "gross": 10.4,
+      "note": "Fluktuationsrate Konzern netto 5,8 % (im NHB 2024: 6,1 %), brutto 10,4 % (NHB 2025 S. 35, GRI 401-1)"
+    },
+    "2025": {
+      "rate": 7.8,
+      "net": 7.8,
+      "gross": 11.9,
+      "note": "Fluktuationsrate Konzern netto 7,8 % (exkl. AG-Kündigung, Pensionierungen, Schwangerschaften, Todesfälle), brutto 11,9 % (NHB 2025 S. 35, GRI 401-1)"
+    }
+  }
+}

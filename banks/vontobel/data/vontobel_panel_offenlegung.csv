@@ -1,6 +1,6 @@
-bank_id,year,period,report_type,report_file,currency_orig,tier1_capital_mio,leverage_ratio_pct,total_capital_mio,cet1_capital_mio,rwa_total_mio,total_capital_ratio_pct,sort_date,regime,matched_total_assets_mio,rwa_density_pct,total_cap_excess_over_target_pp,self_healed_fields,nsfr_pct
-vontobel,2023,FY2023,offenlegung_fy,.md/vontobel-offenlegungsbericht-2023.md,CHF,1552.333,5.4,1552.333,1220.136,6523.903,23.8,2023-12-31,Basel III,,,7.8,,
-vontobel,2024,FY2024,offenlegung_fy,.md/vontobel-offenlegungsbericht-2024.md,CHF,1574.947,4.8,,1210.323,7518.561,21.0,2024-12-31,Basel III,32861.0,22.88,5.0,,
-vontobel,2025,H1-2025,offenlegung_h1,.md/vontobel-offenlegungsbericht-06-2025.md,CHF,1572.197,4.4,1572.197,1253.797,7491.492,21.0,2025-06-30,Basel III final,34737.0,21.57,5.0,,122.8
-vontobel,2025,FY2025,offenlegung_fy,.md/vontobel-offenlegungsbericht-2025.md,CHF,1651.239,,,,6764.453,24.4,2025-12-31,Basel III final,34737.0,19.47,8.4,,
-vontobel,2026,H1-2026,offenlegung_h1,.md/vontobel-offenlegungsbericht-06-2026.md,CHF,1821.007,,1821.007,1498.347,6514.193,28.0,2026-06-30,Basel III final,,,12.0,,121.7
+bank_id,year,period,report_type,report_file,currency_orig,leverage_ratio_pct,total_capital_mio,tier1_capital_mio,cet1_capital_mio,total_capital_ratio_pct,rwa_total_mio,sort_date,regime,matched_total_assets_mio,rwa_density_pct,total_cap_excess_over_target_pp,self_healed_fields,nsfr_pct
+vontobel,2023,FY2023,offenlegung_fy,.md/vontobel-offenlegungsbericht-2023.md,CHF,5.4,1552.333,1552.333,1220.136,23.8,6523.903,2023-12-31,Basel III,,,7.8,,
+vontobel,2024,FY2024,offenlegung_fy,.md/vontobel-offenlegungsbericht-2024.md,CHF,4.8,,1574.947,1210.323,21.0,7518.561,2024-12-31,Basel III,32861.0,22.88,5.0,,
+vontobel,2025,H1-2025,offenlegung_h1,.md/vontobel-offenlegungsbericht-06-2025.md,CHF,4.4,1572.197,1572.197,1253.797,21.0,7491.492,2025-06-30,Basel III final,34737.0,21.57,5.0,,122.8
+vontobel,2025,FY2025,offenlegung_fy,.md/vontobel-offenlegungsbericht-2025.md,CHF,,,1651.239,,24.4,6764.453,2025-12-31,Basel III final,34737.0,19.47,8.4,,
+vontobel,2026,H1-2026,offenlegung_h1,.md/vontobel-offenlegungsbericht-06-2026.md,CHF,,1821.007,1821.007,1498.347,28.0,6514.193,2026-06-30,Basel III final,,,12.0,,121.7

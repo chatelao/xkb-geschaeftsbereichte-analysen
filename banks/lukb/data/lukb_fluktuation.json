@@ -1,0 +1,68 @@
+{
+  "bank_id": "lukb",
+  "short_name": "LUKB",
+  "basis": "Netto-Fluktuationsrate Konzern (freiwillige Fluktuation exkl. Pensionierungen, befristete Verträge, Lernende & familiäre Gründe, GRI 401-1)",
+  "source": "lukb/.md/lukb-geschaeftsbericht-2017..2023.md & LUKB-Nachhaltigkeitsberichte 2024 (S. 57/69) & 2025 (S. 77/94) – GRI 401-1",
+  "years": {
+    "2016": {
+      "rate": 3.6,
+      "net": 3.6,
+      "gross": null,
+      "note": "Netto-Fluktuationsrate (Vorjahreswert aus GB 2017)"
+    },
+    "2017": {
+      "rate": 3.3,
+      "net": 3.3,
+      "gross": null,
+      "note": "Netto-Fluktuationsrate exkl. Pensionierungen & familiäre Gründe"
+    },
+    "2018": {
+      "rate": 4.1,
+      "net": 4.1,
+      "gross": null,
+      "note": "Netto-Fluktuationsrate exkl. Pensionierungen & familiäre Gründe"
+    },
+    "2019": {
+      "rate": 4.8,
+      "net": 4.8,
+      "gross": null,
+      "note": "Netto-Fluktuationsrate exkl. Pensionierungen & familiäre Gründe"
+    },
+    "2020": {
+      "rate": 4.1,
+      "net": 4.1,
+      "gross": null,
+      "note": "Netto-Fluktuationsrate exkl. Pensionierungen & familiäre Gründe"
+    },
+    "2021": {
+      "rate": 3.7,
+      "net": 3.7,
+      "gross": null,
+      "note": "Netto-Fluktuationsrate exkl. Pensionierungen & familiäre Gründe"
+    },
+    "2022": {
+      "rate": 5.5,
+      "net": 5.5,
+      "gross": 8.2,
+      "note": "Netto-Fluktuationsrate 5,5 % (Frauen 6,3 %, Männer 4,3 %); Brutto-Fluktuationsrate 8,2 % (NHB 2024 S. 69)"
+    },
+    "2023": {
+      "rate": 4.5,
+      "net": 4.5,
+      "gross": 7.9,
+      "note": "Netto-Fluktuationsrate 4,5 % (Frauen 4,8 %, Männer 4,3 %); Brutto-Fluktuationsrate 7,9 % (NHB 2025 S. 94)"
+    },
+    "2024": {
+      "rate": 3.2,
+      "net": 3.2,
+      "gross": 6.5,
+      "note": "Netto-Fluktuationsrate 3,2 % (Frauen 5,5 %, Männer 4,4 %); Brutto-Fluktuationsrate 6,5 % (NHB 2024 S. 69 / NHB 2025 S. 94)"
+    },
+    "2025": {
+      "rate": 4.3,
+      "net": 4.3,
+      "gross": 7.8,
+      "note": "Netto-Fluktuationsrate 4,3 % (Frauen 4,2 %, Männer 3,8 %); Brutto-Fluktuationsrate 7,8 % (NHB 2025 S. 77/94)"
+    }
+  }
+}

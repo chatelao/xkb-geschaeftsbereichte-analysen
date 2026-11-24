@@ -1,0 +1,20 @@
+{
+  "bank_id": "migrosbank",
+  "short_name": "Migros Bank",
+  "basis": "Bruttofluktuationsrate in % (natürliche Austritte ohne ordentliche Pensionierungen, befristete Verträge, Tod & interne Wechsel / Ø Monatslohn-Bestand Schweiz)",
+  "source": "Migros Bank Nachhaltigkeitsberichte 2024 (S. 24) & 2025 (S. 23, Kapitel «Mitarbeitende – Fluktuationsrate»)",
+  "years": {
+    "2024": {
+      "rate": 13.5,
+      "net": 13.5,
+      "gross": 13.5,
+      "note": "Fluktuationsrate 13,5 % (natürliche Austritte exkl. ordentliche Pensionierungen, befristete Verträge & Tod; Zielband 8–15 %; NHB 2024 S. 24 / NHB 2025 S. 23)"
+    },
+    "2025": {
+      "rate": 11.1,
+      "net": 11.1,
+      "gross": 11.1,
+      "note": "Fluktuationsrate 11,1 % (natürliche Austritte exkl. ordentliche Pensionierungen, befristete Verträge & Tod; Zielband 8–15 %; NHB 2025 S. 23)"
+    }
+  }
+}

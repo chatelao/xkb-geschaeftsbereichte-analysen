@@ -335,6 +335,13 @@ METRIC_ROW_PATTERNS: dict[str, list[str]] = {
         r"^staff\s*\(in\s*fte\)",
         r"^total\s+number\s+of\s+employees$",
     ],
+    "turnover_rate_pct": [
+        r"^(?:personal|angestellten|mitarbeiter|netto-?|brutto-?|gesamt)?fluktuationsrate",
+        r"^fluktuation\s+in\s+prozent",
+        r"^personalwechsel(?:quote|rate)",
+        r"^turnover\s+rate\s*(?:\(in\s*%\))?$",
+        r"^taux\s+(?:moyen\s+)?de\s+rotation",
+    ],
     "branch_count": [r"^gesch[äa]ftsstellen", r"^filialen", r"^succursales", r"^branches"],
     # Aktie & Ausschüttung
     "share_price_eoy": [r"^aktienkurs", r"^schlusskurs", r"^cours\s+de\s+l'action", r"^share\s+price"],

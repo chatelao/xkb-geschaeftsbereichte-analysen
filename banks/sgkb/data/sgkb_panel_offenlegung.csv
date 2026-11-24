@@ -1,5 +1,5 @@
-bank_id,year,period,report_type,report_file,currency_orig,total_capital_mio,rwa_total_mio,lcr_pct,tier1_capital_mio,nsfr_pct,cet1_capital_mio,cet1_ratio_pct,total_capital_ratio_pct,sort_date,regime,matched_total_assets_mio,rwa_density_pct,cet1_excess_over_target_pp,total_cap_excess_over_target_pp,self_healed_fields,leverage_ratio_pct
-sgkb,2023,H1-2023,offenlegung_h1,.md/sgkb-offenlegungsbericht-06-2023.md,CHF,2900.444,17671.679,132.0,2779.598,130.6,2679.598,15.2,16.4,2023-06-30,Basel III,41336.59,42.75,4.0,4.4,,
-sgkb,2024,FY2024,offenlegung_fy,.md/sgkb-offenlegungsbericht-2024.md,CHF,3318.052,18963.524,138.5,2886.654,130.2,2886.654,15.2,17.5,2024-12-31,Basel III,45581.774,41.6,4.0,5.5,,7.0
-sgkb,2025,FY2025,offenlegung_fy,.md/sgkb-offenlegungsbericht-2025.md,CHF,3557.288,18953.722,142.1,2992.287,125.7,2992.287,15.8,18.8,2025-12-31,Basel III final,48136.648,39.37,4.6,6.8,,7.0
-sgkb,2026,H1-2026,offenlegung_h1,.md/sgkb-offenlegungsbericht-06-2026.md,CHF,3592.131,19661.973,141.2,3026.457,126.0,3026.457,15.4,18.3,2026-06-30,Basel III final,,,4.2,6.3,,
+bank_id,year,period,report_type,report_file,currency_orig,rwa_total_mio,total_capital_mio,tier1_capital_mio,cet1_ratio_pct,cet1_capital_mio,lcr_pct,total_capital_ratio_pct,nsfr_pct,sort_date,regime,matched_total_assets_mio,rwa_density_pct,cet1_excess_over_target_pp,total_cap_excess_over_target_pp,self_healed_fields,leverage_ratio_pct
+sgkb,2023,H1-2023,offenlegung_h1,.md/sgkb-offenlegungsbericht-06-2023.md,CHF,17671.679,2900.444,2779.598,15.2,2679.598,132.0,16.4,130.6,2023-06-30,Basel III,41336.59,42.75,4.0,4.4,,
+sgkb,2024,FY2024,offenlegung_fy,.md/sgkb-offenlegungsbericht-2024.md,CHF,18963.524,3318.052,2886.654,15.2,2886.654,138.5,17.5,130.2,2024-12-31,Basel III,45581.774,41.6,4.0,5.5,,7.0
+sgkb,2025,FY2025,offenlegung_fy,.md/sgkb-offenlegungsbericht-2025.md,CHF,18953.722,3557.288,2992.287,15.8,2992.287,142.1,18.8,125.7,2025-12-31,Basel III final,48136.648,39.37,4.6,6.8,,7.0
+sgkb,2026,H1-2026,offenlegung_h1,.md/sgkb-offenlegungsbericht-06-2026.md,CHF,19661.973,3592.131,3026.457,15.4,3026.457,141.2,18.3,126.0,2026-06-30,Basel III final,,,4.2,6.3,,

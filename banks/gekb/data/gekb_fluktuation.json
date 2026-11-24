@@ -1,0 +1,32 @@
+{
+  "bank_id": "gekb",
+  "short_name": "BCGE (GEKB)",
+  "basis": "Taux de rotation du personnel BCGE Maison-mère (GRI 401-1: nombre de départs / effectif moyen)",
+  "source": "gekb/.md/gekb-geschaeftsbericht-2023.md & BCGE Rapports RSE 2024 (p. 52/61) & 2025 (p. 67/72) – GRI 401-1",
+  "years": {
+    "2022": {
+      "rate": 9.27,
+      "net": null,
+      "gross": 9.27,
+      "note": "BCGE Maison-mère GRI 401-1: 9,27 % (Frauen 11,32 %, Männer 7,89 %; im Rapport RSE 2023 exkl. Lernende: 9,08 %; BCGE France: 14 %)"
+    },
+    "2023": {
+      "rate": 10.1,
+      "net": null,
+      "gross": 10.1,
+      "note": "BCGE Maison-mère GRI 401-1: 10,10 % (Frauen 10,16 %, Männer 10,06 %; im Rapport RSE 2023 exkl. Lernende: 9,83 %; BCGE France: 23 %)"
+    },
+    "2024": {
+      "rate": 8.3,
+      "net": null,
+      "gross": 8.3,
+      "note": "BCGE Maison-mère GRI 401-1: 8,3 % (Frauen 10,16 %, Männer 7,04 %; BCGE France: 13 %; Rapport RSE 2024 p. 52 / 2025 p. 67)"
+    },
+    "2025": {
+      "rate": 9.73,
+      "net": null,
+      "gross": 9.73,
+      "note": "BCGE Maison-mère GRI 401-1: 9,73 % vs. Ziel ≤ 10 % (Frauen 9,78 %, Männer 9,70 %; BCGE France: 15 %; Rapport RSE 2025 p. 58/67)"
+    }
+  }
+}

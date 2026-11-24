@@ -1,4 +1,4 @@
-bank_id,year,period,report_type,report_file,currency_orig,sort_date,regime,matched_total_assets_mio,rwa_density_pct,self_healed_fields,total_capital_ratio_pct,cet1_ratio_pct,cet1_excess_over_target_pp,total_cap_excess_over_target_pp,rwa_total_mio,cet1_capital_mio,leverage_ratio_pct,tier1_capital_mio,total_capital_mio
+bank_id,year,period,report_type,report_file,currency_orig,sort_date,regime,matched_total_assets_mio,rwa_density_pct,self_healed_fields,cet1_ratio_pct,total_capital_ratio_pct,cet1_excess_over_target_pp,total_cap_excess_over_target_pp,leverage_ratio_pct,total_capital_mio,tier1_capital_mio,cet1_capital_mio,rwa_total_mio
 zkb,2014,Q1-2014,offenlegung_q1,.md/zkb-offenlegungsbericht-03-2014.md,CHF,2014-03-31,Basel III,158392.0,,,,,,,,,,,
 zkb,2014,FY2014,offenlegung_fy,.md/zkb-offenlegungsbericht-2014.md,CHF,2014-12-31,Basel III,158392.0,,,,,,,,,,,
 zkb,2015,Q1-2015,offenlegung_q1,.md/zkb-offenlegungsbericht-03-2015.md,CHF,2015-03-31,Basel III,154410.0,,,,,,,,,,,
@@ -9,9 +9,9 @@ zkb,2016,H1-2016,offenlegung_h1,.md/zkb-offenlegungsbericht-06-2016.md,CHF,2016-
 zkb,2016,Q3-2016,offenlegung_q3,.md/zkb-offenlegungsbericht-09-2016.md,CHF,2016-09-30,Basel III,157985.0,,,,,,,,,,,
 zkb,2016,FY2016,offenlegung_fy,.md/zkb-offenlegungsbericht-2016.md,CHF,2016-12-31,Basel III,157985.0,,,,,,,,,,,
 zkb,2017,Q1-2017,offenlegung_q1,.md/zkb-offenlegungsbericht-03-2017.md,CHF,2017-03-31,Basel III,163881.0,,,,,,,,,,,
-zkb,2017,FY2017,offenlegung_fy,.md/zkb-offenlegungsbericht-2017.md,CHF,2017-12-31,Basel III,163881.0,,,18.8,16.5,6.5,4.5,,,,,
-zkb,2018,H1-2018,offenlegung_h1,.md/zkb-offenlegungsbericht-06-2018.md,CHF,2018-06-30,Basel III,169408.0,,,18.6,16.3,6.3,4.3,,,,,
-zkb,2018,Q3-2018,offenlegung_q3,.md/zkb-offenlegungsbericht-09-2018.md,CHF,2018-09-30,Basel III,169408.0,,,18.7,16.4,6.4,4.4,,,,,
+zkb,2017,FY2017,offenlegung_fy,.md/zkb-offenlegungsbericht-2017.md,CHF,2017-12-31,Basel III,163881.0,,,16.5,18.8,6.5,4.5,,,,,
+zkb,2018,H1-2018,offenlegung_h1,.md/zkb-offenlegungsbericht-06-2018.md,CHF,2018-06-30,Basel III,169408.0,,,16.3,18.6,6.3,4.3,,,,,
+zkb,2018,Q3-2018,offenlegung_q3,.md/zkb-offenlegungsbericht-09-2018.md,CHF,2018-09-30,Basel III,169408.0,,,16.4,18.7,6.4,4.4,,,,,
 zkb,2018,FY2018,offenlegung_fy,.md/zkb-offenlegungsbericht-2018.md,CHF,2018-12-31,Basel III,169408.0,,,,,,,,,,,
 zkb,2019,Q1-2019,offenlegung_q1,.md/zkb-offenlegungsbericht-03-2019.md,CHF,2019-03-31,Basel III,167054.0,,,,,,,,,,,
 zkb,2019,H1-2019,offenlegung_h1,.md/zkb-offenlegungsbericht-06-2019.md,CHF,2019-06-30,Basel III,167054.0,,,,,,,,,,,
@@ -37,9 +37,9 @@ zkb,2024,Q1-2024,offenlegung_q1,.md/zkb-offenlegungsbericht-03-2024.md,CHF,2024-
 zkb,2024,H1-2024,offenlegung_h1,.md/zkb-offenlegungsbericht-06-2024.md,CHF,2024-06-30,Basel III,202594.0,,,,,,,,,,,
 zkb,2024,Q3-2024,offenlegung_q3,.md/zkb-offenlegungsbericht-09-2024.md,CHF,2024-09-30,Basel III,202594.0,,,,,,,,,,,
 zkb,2024,FY2024,offenlegung_fy,.md/zkb-offenlegungsbericht-2024.md,CHF,2024-12-31,Basel III,202594.0,,,,,,,,,,,
-zkb,2025,Q1-2025,offenlegung_q1,.md/zkb-offenlegungsbericht-03-2025.md,CHF,2025-03-31,Basel III final,206177.0,0.04,,22.5,20.2,10.2,8.2,72.39,14.64,6.9,15.701,16.276
-zkb,2025,H1-2025,offenlegung_h1,.md/zkb-offenlegungsbericht-06-2025.md,CHF,2025-06-30,Basel III final,206177.0,0.03,,23.2,21.1,11.1,8.9,70.855,14.937,7.2,15.998,16.474
-zkb,2025,Q3-2025,offenlegung_q3,.md/zkb-offenlegungsbericht-09-2025.md,CHF,2025-09-30,Basel III final,206177.0,0.04,,22.6,20.5,10.5,8.3,72.751,14.929,7.0,15.977,16.46
-zkb,2025,FY2025,offenlegung_fy,.md/zkb-offenlegungsbericht-2025.md,CHF,2025-12-31,Basel III final,206177.0,0.04,,23.4,21.3,11.3,9.1,72.736,15.47,7.2,16.523,17.005
-zkb,2026,Q1-2026,offenlegung_q1,.md/zkb-offenlegungsbericht-03-2026.md,CHF,2026-03-31,Basel III final,,,,21.8,19.9,9.9,7.5,78.025,15.498,7.0,16.557,17.042
-zkb,2026,H1-2026,offenlegung_h1,.md/zkb-offenlegungsbericht-06-2026.md,CHF,2026-06-30,Basel III final,,,,21.9,20.1,10.1,7.6,77.987,15.668,7.1,16.728,17.115
+zkb,2025,Q1-2025,offenlegung_q1,.md/zkb-offenlegungsbericht-03-2025.md,CHF,2025-03-31,Basel III final,206177.0,0.04,,20.2,22.5,10.2,8.2,6.9,16.276,15.701,14.64,72.39
+zkb,2025,H1-2025,offenlegung_h1,.md/zkb-offenlegungsbericht-06-2025.md,CHF,2025-06-30,Basel III final,206177.0,0.03,,21.1,23.2,11.1,8.9,7.2,16.474,15.998,14.937,70.855
+zkb,2025,Q3-2025,offenlegung_q3,.md/zkb-offenlegungsbericht-09-2025.md,CHF,2025-09-30,Basel III final,206177.0,0.04,,20.5,22.6,10.5,8.3,7.0,16.46,15.977,14.929,72.751
+zkb,2025,FY2025,offenlegung_fy,.md/zkb-offenlegungsbericht-2025.md,CHF,2025-12-31,Basel III final,206177.0,0.04,,21.3,23.4,11.3,9.1,7.2,17.005,16.523,15.47,72.736
+zkb,2026,Q1-2026,offenlegung_q1,.md/zkb-offenlegungsbericht-03-2026.md,CHF,2026-03-31,Basel III final,,,,19.9,21.8,9.9,7.5,7.0,17.042,16.557,15.498,78.025
+zkb,2026,H1-2026,offenlegung_h1,.md/zkb-offenlegungsbericht-06-2026.md,CHF,2026-06-30,Basel III final,,,,20.1,21.9,10.1,7.6,7.1,17.115,16.728,15.668,77.987

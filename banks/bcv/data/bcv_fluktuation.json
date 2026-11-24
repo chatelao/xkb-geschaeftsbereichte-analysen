@@ -1,0 +1,128 @@
+{
+  "bank_id": "bcv",
+  "short_name": "BCV",
+  "basis": "Taux moyen de rotation (Stammhaus; ab 2021 explizit exkl. Pensionierungen / hors départs en retraite)",
+  "source": "bcv/.md/bcv-geschaeftsbericht-2007..2025.md (Kapitel «La BCV et ses missions / Ressources humaines»)",
+  "years": {
+    "2006": {
+      "rate": 11.8,
+      "net": null,
+      "gross": 11.8,
+      "note": "Taux moyen de rotation (Vorjahreswert aus GB 2007)"
+    },
+    "2007": {
+      "rate": 12.8,
+      "net": null,
+      "gross": 12.8,
+      "note": "Taux moyen de rotation (inkl. Pensionierungen)"
+    },
+    "2008": {
+      "rate": 11.3,
+      "net": null,
+      "gross": 11.3,
+      "note": "Taux moyen de rotation"
+    },
+    "2009": {
+      "rate": 9.3,
+      "net": null,
+      "gross": 9.3,
+      "note": "Taux moyen de rotation"
+    },
+    "2010": {
+      "rate": 9.8,
+      "net": null,
+      "gross": 9.8,
+      "note": "Taux moyen de rotation"
+    },
+    "2011": {
+      "rate": 10.4,
+      "net": null,
+      "gross": 10.4,
+      "note": "Taux moyen de rotation"
+    },
+    "2012": {
+      "rate": 9.4,
+      "net": null,
+      "gross": 9.4,
+      "note": "Taux moyen de rotation"
+    },
+    "2013": {
+      "rate": 8.7,
+      "net": null,
+      "gross": 8.7,
+      "note": "Taux moyen de rotation"
+    },
+    "2014": {
+      "rate": 9.2,
+      "net": null,
+      "gross": 9.2,
+      "note": "Taux moyen de rotation"
+    },
+    "2015": {
+      "rate": 8.4,
+      "net": null,
+      "gross": 8.4,
+      "note": "Taux moyen de rotation"
+    },
+    "2016": {
+      "rate": 8.4,
+      "net": null,
+      "gross": 8.4,
+      "note": "Taux moyen de rotation"
+    },
+    "2017": {
+      "rate": 10.5,
+      "net": null,
+      "gross": 10.5,
+      "note": "Taux moyen de rotation"
+    },
+    "2018": {
+      "rate": 9.8,
+      "net": null,
+      "gross": 9.8,
+      "note": "Taux moyen de rotation"
+    },
+    "2019": {
+      "rate": 8.5,
+      "net": null,
+      "gross": 8.5,
+      "note": "Taux moyen de rotation"
+    },
+    "2020": {
+      "rate": 8.8,
+      "net": null,
+      "gross": 8.8,
+      "note": "Taux moyen de rotation"
+    },
+    "2021": {
+      "rate": 8.0,
+      "net": 8.0,
+      "gross": null,
+      "note": "Taux moyen de rotation hors départs en retraite"
+    },
+    "2022": {
+      "rate": 9.5,
+      "net": 9.5,
+      "gross": null,
+      "note": "Taux moyen de rotation hors départs en retraite"
+    },
+    "2023": {
+      "rate": 8.6,
+      "net": 8.6,
+      "gross": null,
+      "note": "Taux moyen de rotation hors départs en retraite"
+    },
+    "2024": {
+      "rate": 7.7,
+      "net": 7.7,
+      "gross": null,
+      "note": "Taux moyen de rotation hors départs en retraite"
+    },
+    "2025": {
+      "rate": 6.9,
+      "net": 6.9,
+      "gross": null,
+      "note": "Taux moyen de rotation hors départs en retraite"
+    }
+  }
+}

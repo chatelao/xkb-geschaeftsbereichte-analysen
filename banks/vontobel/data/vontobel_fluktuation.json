@@ -1,0 +1,50 @@
+{
+  "bank_id": "vontobel",
+  "short_name": "Vontobel",
+  "basis": "Employee turnover rate in % (GRI 401-1: permanent employees leaving / average permanent headcount)",
+  "source": "vontobel/.md/vontobel-geschaeftsbericht-2020..2025.md (Sustainability Report – Great workplace in figures, GRI 401-1)",
+  "years": {
+    "2018": {
+      "rate": 11.4,
+      "net": null,
+      "gross": 11.4,
+      "note": "Employee turnover rate exkl. Notenstein La Roche (aus GB 2020)"
+    },
+    "2019": {
+      "rate": 14.2,
+      "net": null,
+      "gross": 14.2,
+      "note": "Employee turnover rate (aus GB 2020)"
+    },
+    "2020": {
+      "rate": 11.1,
+      "net": null,
+      "gross": 11.1,
+      "note": "Employee turnover rate (234 leavers: 89 women, 145 men)"
+    },
+    "2022": {
+      "rate": 9.8,
+      "net": null,
+      "gross": 9.8,
+      "note": "Employee turnover rate (Women 10,5 %, Men 9,5 %; Schweiz 9,9 %)"
+    },
+    "2023": {
+      "rate": 11.6,
+      "net": null,
+      "gross": 11.6,
+      "note": "Employee turnover rate (269 leavers: 100 women / 13,4 %, 169 men / 10,7 %)"
+    },
+    "2024": {
+      "rate": 11.4,
+      "net": null,
+      "gross": 11.4,
+      "note": "Employee turnover rate (268 leavers: 110 women / 14,2 %, 158 men / 10,0 %)"
+    },
+    "2025": {
+      "rate": 10.8,
+      "net": null,
+      "gross": 10.8,
+      "note": "Employee turnover rate (255 leavers: 96 women / 12,2 %, 159 men / 10,1 %)"
+    }
+  }
+}

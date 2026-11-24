@@ -1,0 +1,32 @@
+{
+  "bank_id": "ubs",
+  "short_name": "UBS",
+  "basis": "Voluntary employee turnover rate in % (UBS Group; Gesamtfluktuation inkl. unfreiwilliger & neutraler Austritte in `gross`)",
+  "source": "UBS Group Sustainability Report Supplement 2024 (p. 32) & 2025 (GRI 401-1: Voluntary and involuntary employee turnover)",
+  "years": {
+    "2022": {
+      "rate": 12.6,
+      "net": 12.6,
+      "gross": 15.9,
+      "note": "Voluntary turnover 12,6 %; Involuntary turnover 2,5 %; Overall turnover 15,9 % (Frauen 15,4 %, Männer 16,2 %; Director+ 10,9 %)"
+    },
+    "2023": {
+      "rate": 12.4,
+      "net": 12.4,
+      "gross": 18.6,
+      "note": "Voluntary turnover 12,4 %; Involuntary turnover 5,3 %; Overall turnover 18,6 % im Zuge der CS-Übernahme (Frauen 18,7 %, Männer 18,6 %)"
+    },
+    "2024": {
+      "rate": 7.9,
+      "net": 7.9,
+      "gross": 12.8,
+      "note": "Voluntary turnover 7,9 %; Involuntary turnover 4,1 %; Overall turnover 12,8 % (Frauen 13,3 %, Männer 12,5 %; Director+ 12,3 %)"
+    },
+    "2025": {
+      "rate": 7.1,
+      "net": 7.1,
+      "gross": 12.6,
+      "note": "Voluntary turnover 7,1 %; Involuntary turnover 4,9 %; Overall turnover 12,6 % (UBS Sustainability Report Supplement 2025)"
+    }
+  }
+}

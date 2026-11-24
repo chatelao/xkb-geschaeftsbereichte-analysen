@@ -1,0 +1,116 @@
+{
+  "bank_id": "vskb",
+  "short_name": "WKB (VSKB)",
+  "basis": "Netto-Fluktuationsrate (exkl. Pensionierungen & Mutterschaft, 2016–2024) bzw. GRI 401-1 Taux de rotation du personnel (inkl. Brutto-Ausweis 2021–2025)",
+  "source": "vskb/.md/vskb-geschaeftsbericht-2007..2024.md & BCVS Rapports RSE / CSR Reports 2023 (p. 63), 2024 (p. 38) & 2025 (p. 24) – GRI 401-1",
+  "years": {
+    "2003": {
+      "rate": 5.43,
+      "net": null,
+      "gross": 5.43,
+      "note": "Personalwechselquote (Mehrjahresgrafik GB 2009)"
+    },
+    "2004": {
+      "rate": 4.44,
+      "net": null,
+      "gross": 4.44,
+      "note": "Personalwechselquote (Mehrjahresgrafik GB 2009/2010)"
+    },
+    "2005": {
+      "rate": 4.89,
+      "net": null,
+      "gross": 4.89,
+      "note": "Personalwechselquote (Mehrjahresgrafik GB 2009/2010)"
+    },
+    "2006": {
+      "rate": 3.79,
+      "net": null,
+      "gross": 3.79,
+      "note": "Personalwechselquote (Mehrjahresgrafik GB 2009/2010)"
+    },
+    "2007": {
+      "rate": 4.04,
+      "net": null,
+      "gross": 4.04,
+      "note": "Personalwechselquote 4,04 % in Mehrjahresgrafik (im Text GB 2007: 5,11 %)"
+    },
+    "2008": {
+      "rate": 3.29,
+      "net": null,
+      "gross": 3.29,
+      "note": "Personalwechselquote (Mehrjahresgrafik GB 2009/2010)"
+    },
+    "2009": {
+      "rate": 5.59,
+      "net": null,
+      "gross": 5.59,
+      "note": "Personalwechselquote 5,59 % (gerundet 5,6 %)"
+    },
+    "2010": {
+      "rate": 2.87,
+      "net": null,
+      "gross": 2.87,
+      "note": "Personalwechselquote 2,87 % (gerundet 2,9 %)"
+    },
+    "2014": {
+      "rate": 6.8,
+      "net": null,
+      "gross": 6.8,
+      "note": "Personalwechselrate (inkl. zahlreicher Pensionierungen)"
+    },
+    "2015": {
+      "rate": 5.5,
+      "net": null,
+      "gross": 5.5,
+      "note": "Personalwechselquote (inkl. Pensionierungen)"
+    },
+    "2016": {
+      "rate": 3.1,
+      "net": 3.1,
+      "gross": 6.8,
+      "note": "Netto 3,1 % (exkl. Pensionierungen & Mutterschaft); Brutto 6,8 %"
+    },
+    "2017": {
+      "rate": 2.3,
+      "net": 2.3,
+      "gross": 5.2,
+      "note": "Netto 2,3 % (exkl. Pensionierungen & Mutterschaft); Brutto 5,2 %"
+    },
+    "2018": {
+      "rate": 3.9,
+      "net": 3.9,
+      "gross": 5.9,
+      "note": "Netto 3,9 % (exkl. Pensionierungen & Mutterschaft); Brutto 5,9 %"
+    },
+    "2021": {
+      "rate": 6.46,
+      "net": 6.46,
+      "gross": 10.79,
+      "note": "Netto-Fluktuationsrate 6,46 % (33 Austritte, GB 2021); GRI 401-1 Taux de rotation (inkl. Lernende): 10,79 % (Rapport RSE 2023/2024)"
+    },
+    "2022": {
+      "rate": 7.01,
+      "net": 7.01,
+      "gross": 11.31,
+      "note": "Netto-Fluktuationsrate 7,01 % (GB 2022); GRI 401-1 Taux de rotation (inkl. Lernende): 11,31 % (Rapport RSE 2023–2025)"
+    },
+    "2023": {
+      "rate": 6.64,
+      "net": 6.64,
+      "gross": 11.53,
+      "note": "Netto-Fluktuationsrate 6,64 % (GB 2023); GRI 401-1 Taux de rotation (inkl. Lernende): 11,53 % (Rapport RSE 2023–2025)"
+    },
+    "2024": {
+      "rate": 3.64,
+      "net": 3.64,
+      "gross": 8.05,
+      "note": "Netto-Fluktuationsrate 3,64 % (GB 2024); GRI 401-1 Taux de rotation (inkl. Lernende): 8,05 % (Rapport RSE 2024/2025)"
+    },
+    "2025": {
+      "rate": 7.99,
+      "net": null,
+      "gross": 7.99,
+      "note": "GRI 401-1 Staff turnover rate (inkl. Lernende): 7,99 % (65 Neueintritte; BCVS CSR Report 2025 p. 24)"
+    }
+  }
+}

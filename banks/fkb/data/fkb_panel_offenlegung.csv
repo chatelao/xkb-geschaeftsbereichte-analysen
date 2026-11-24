@@ -1,16 +1,16 @@
-bank_id,year,period,report_type,report_file,currency_orig,cet1_ratio_pct,total_capital_mio,lcr_pct,rwa_total_mio,cet1_capital_mio,total_capital_ratio_pct,tier1_capital_mio,sort_date,regime,matched_total_assets_mio,rwa_density_pct,cet1_excess_over_target_pp,total_cap_excess_over_target_pp,self_healed_fields,mortgage_loans_mio,financial_investments_mio,nsfr_pct,customer_loans_other_mio
-fkb,2019,H1-2019,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2019.md,CHF,17.25,2058.475,138.0,11407.371,1967.46,18.05,1967.46,2019-06-30,Basel III,24639.422,46.3,8.05,4.65,,,,,
-fkb,2019,FY2019,offenlegung_fy,.md/fkb-offenlegungsbericht-2019.md,CHF,18.04,2058.071,,11406.666,2058.071,18.04,2058.071,2019-12-31,Basel III,24639.422,46.29,8.84,4.64,,16242.304,1164.911,,
-fkb,2020,H1-2020,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2020.md,CHF,17.34,2058.071,154.0,11867.871,2058.071,17.34,2058.071,2020-06-30,Basel III,26714.326,44.43,8.14,3.94,,,,,
-fkb,2020,FY2020,offenlegung_fy,.md/fkb-offenlegungsbericht-2020.md,CHF,17.82,2150.415,,12065.818,2150.415,17.82,2150.415,2020-12-31,Basel III,26714.326,45.17,8.62,4.42,,17045.531,,,
-fkb,2021,H1-2021,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2021.md,CHF,17.68,2153.117,186.0,12164.993,2150.415,17.7,2150.415,2021-06-30,Basel III,28034.82,43.39,8.48,4.3,,,,,
-fkb,2021,FY2021,offenlegung_fy,.md/fkb-offenlegungsbericht-2021.md,CHF,18.42,2254.272,,12225.4,2251.504,18.44,2251.504,2021-12-31,Basel III,28034.82,43.61,9.22,5.04,,17704.392,1370.114,137.0,
-fkb,2022,H1-2022,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2022.md,CHF,18.04,2254.573,204.0,12483.041,2251.504,18.06,2251.504,2022-06-30,Basel III,27324.676,45.68,8.84,4.66,,,,145.0,
-fkb,2022,FY2022,offenlegung_fy,.md/fkb-offenlegungsbericht-2022.md,CHF,18.49,2362.642,,12765.911,2360.65,18.51,2360.65,2022-12-31,Basel III,27324.676,46.72,9.29,5.11,,18321.239,,139.0,3248.436
-fkb,2023,H1-2023,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2023.md,CHF,18.25,2362.925,182.0,12932.922,2360.65,18.27,2360.65,2023-06-30,Basel III,27960.449,46.25,9.05,4.87,,,,135.0,
-fkb,2023,FY2023,offenlegung_fy,.md/fkb-offenlegungsbericht-2023.md,CHF,18.78,2508.462,,13309.961,2499.146,18.85,2499.146,2023-12-31,Basel III,27960.449,47.6,9.58,5.45,,18999.045,,132.0,3675.499
-fkb,2024,H1-2024,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2024.md,CHF,18.24,2510.091,224.0,13700.366,2499.146,18.32,2499.146,2024-06-30,Basel III,28700.19,47.74,9.04,4.92,,,,132.0,
-fkb,2024,FY2024,offenlegung_fy,.md/fkb-offenlegungsbericht-2024.md,CHF,18.93,2633.153,,13878.975,2627.821,18.97,2627.821,2024-12-31,Basel III,28700.19,48.36,9.73,5.57,,19832.216,,131.0,3677.813
-fkb,2025,H1-2025,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2025.md,CHF,17.35,2632.751,188.0,15149.813,2627.821,17.38,2627.821,2025-06-30,Basel III final,29482.297,51.39,8.15,3.98,,,,127.0,
-fkb,2025,FY2025,offenlegung_fy,.md/fkb-offenlegungsbericht-2025.md,CHF,18.02,2735.378,,15160.249,2731.333,18.04,2731.333,2025-12-31,Basel III final,29482.297,51.42,8.82,4.64,,,,125.0,
-fkb,2026,H1-2026,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2026.md,CHF,18.17,2737.868,164.0,15032.609,2731.333,18.21,2731.333,2026-06-30,Basel III final,,,8.97,4.81,,,,126.0,
+bank_id,year,period,report_type,report_file,currency_orig,rwa_total_mio,lcr_pct,tier1_capital_mio,cet1_capital_mio,total_capital_mio,cet1_ratio_pct,total_capital_ratio_pct,sort_date,regime,matched_total_assets_mio,rwa_density_pct,cet1_excess_over_target_pp,total_cap_excess_over_target_pp,self_healed_fields,financial_investments_mio,mortgage_loans_mio,nsfr_pct,customer_loans_other_mio
+fkb,2019,H1-2019,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2019.md,CHF,11407.371,138.0,1967.46,1967.46,2058.475,17.25,18.05,2019-06-30,Basel III,24639.422,46.3,8.05,4.65,,,,,
+fkb,2019,FY2019,offenlegung_fy,.md/fkb-offenlegungsbericht-2019.md,CHF,11406.666,,2058.071,2058.071,2058.071,18.04,18.04,2019-12-31,Basel III,24639.422,46.29,8.84,4.64,,1164.911,16242.304,,
+fkb,2020,H1-2020,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2020.md,CHF,11867.871,154.0,2058.071,2058.071,2058.071,17.34,17.34,2020-06-30,Basel III,26714.326,44.43,8.14,3.94,,,,,
+fkb,2020,FY2020,offenlegung_fy,.md/fkb-offenlegungsbericht-2020.md,CHF,12065.818,,2150.415,2150.415,2150.415,17.82,17.82,2020-12-31,Basel III,26714.326,45.17,8.62,4.42,,,17045.531,,
+fkb,2021,H1-2021,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2021.md,CHF,12164.993,186.0,2150.415,2150.415,2153.117,17.68,17.7,2021-06-30,Basel III,28034.82,43.39,8.48,4.3,,,,,
+fkb,2021,FY2021,offenlegung_fy,.md/fkb-offenlegungsbericht-2021.md,CHF,12225.4,,2251.504,2251.504,2254.272,18.42,18.44,2021-12-31,Basel III,28034.82,43.61,9.22,5.04,,1370.114,17704.392,137.0,
+fkb,2022,H1-2022,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2022.md,CHF,12483.041,204.0,2251.504,2251.504,2254.573,18.04,18.06,2022-06-30,Basel III,27324.676,45.68,8.84,4.66,,,,145.0,
+fkb,2022,FY2022,offenlegung_fy,.md/fkb-offenlegungsbericht-2022.md,CHF,12765.911,,2360.65,2360.65,2362.642,18.49,18.51,2022-12-31,Basel III,27324.676,46.72,9.29,5.11,,,18321.239,139.0,3248.436
+fkb,2023,H1-2023,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2023.md,CHF,12932.922,182.0,2360.65,2360.65,2362.925,18.25,18.27,2023-06-30,Basel III,27960.449,46.25,9.05,4.87,,,,135.0,
+fkb,2023,FY2023,offenlegung_fy,.md/fkb-offenlegungsbericht-2023.md,CHF,13309.961,,2499.146,2499.146,2508.462,18.78,18.85,2023-12-31,Basel III,27960.449,47.6,9.58,5.45,,,18999.045,132.0,3675.499
+fkb,2024,H1-2024,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2024.md,CHF,13700.366,224.0,2499.146,2499.146,2510.091,18.24,18.32,2024-06-30,Basel III,28700.19,47.74,9.04,4.92,,,,132.0,
+fkb,2024,FY2024,offenlegung_fy,.md/fkb-offenlegungsbericht-2024.md,CHF,13878.975,,2627.821,2627.821,2633.153,18.93,18.97,2024-12-31,Basel III,28700.19,48.36,9.73,5.57,,,19832.216,131.0,3677.813
+fkb,2025,H1-2025,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2025.md,CHF,15149.813,188.0,2627.821,2627.821,2632.751,17.35,17.38,2025-06-30,Basel III final,29482.297,51.39,8.15,3.98,,,,127.0,
+fkb,2025,FY2025,offenlegung_fy,.md/fkb-offenlegungsbericht-2025.md,CHF,15160.249,,2731.333,2731.333,2735.378,18.02,18.04,2025-12-31,Basel III final,29482.297,51.42,8.82,4.64,,,,125.0,
+fkb,2026,H1-2026,offenlegung_h1,.md/fkb-offenlegungsbericht-06-2026.md,CHF,15032.609,164.0,2731.333,2731.333,2737.868,18.17,18.21,2026-06-30,Basel III final,,,8.97,4.81,,,,126.0,

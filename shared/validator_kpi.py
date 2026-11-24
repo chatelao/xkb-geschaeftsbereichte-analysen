@@ -13,6 +13,7 @@ from typing import Any
 from shared.config import BankConfig, load_bank_config
 from shared.cpi_bfs import cpi_factor_2025, deflate_to_real_2025, get_cpi_index
 from shared.fx_rates import convert_to_chf, get_fx_rate
+from shared.turnover import get_turnover_for_year
 
 STOCK_METRICS = {
     "total_assets",
@@ -76,6 +77,9 @@ PCT_OR_UNITLESS_METRICS = {
     "dividend_per_share",
     "payout_ratio_pct",
     "coop_members_count",
+    "turnover_rate_pct",
+    "turnover_net_pct",
+    "turnover_gross_pct",
 }
 
 
@@ -337,6 +341,19 @@ def _enrich_annual_kpis(rows: list[dict], cfg: BankConfig) -> list[str]:
         r["op_profit_per_fte_tchf"] = r_round(safe_div(r.get("operating_profit_mio"), fte, 1000.0), 1)
         r["assets_per_fte_mio"] = r_round(safe_div(ta, fte, 1.0), 2)
 
+        t_info = get_turnover_for_year(cfg.bank_id, yr)
+        if t_info:
+            if r.get("turnover_rate_pct") is None:
+                r["turnover_rate_pct"] = t_info.get("rate")
+            if r.get("turnover_net_pct") is None:
+                r["turnover_net_pct"] = t_info.get("net")
+            if r.get("turnover_gross_pct") is None:
+                r["turnover_gross_pct"] = t_info.get("gross")
+        else:
+            r.setdefault("turnover_rate_pct", None)
+            r.setdefault("turnover_net_pct", None)
+            r.setdefault("turnover_gross_pct", None)
+
         sp_raw = r.get("share_price_eoy")
         div_raw = r.get("dividend_per_share")
         if cfg.share_splits and (sp_raw is not None or div_raw is not None):
@@ -425,6 +442,9 @@ def _build_verguetung_real(annual_rows: list[dict], overrides: dict) -> list[dic
                 "personnel_tchf_nom": r_round(pers_nom_tchf, 1),
                 "personnel_mio_real2025": r_round(deflate_to_real_2025(safe_div(pers_nom_tchf, 1000.0), yr), 3),
                 "fte_count": fte,
+                "turnover_rate_pct": r.get("turnover_rate_pct"),
+                "turnover_net_pct": r.get("turnover_net_pct"),
+                "turnover_gross_pct": r.get("turnover_gross_pct"),
                 "avg_per_fte_tchf_nom": r_round(avg_fte_nom, 2),
                 "avg_per_fte_tchf_real2025": r_round(deflate_to_real_2025(avg_fte_nom, yr), 2),
                 "income_per_fte_tchf_nom": inc_fte_nom,

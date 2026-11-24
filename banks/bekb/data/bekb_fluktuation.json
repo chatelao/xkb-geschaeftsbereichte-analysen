@@ -1,0 +1,98 @@
+{
+  "bank_id": "bekb",
+  "short_name": "BEKB",
+  "basis": "Fluktuationsrate netto (GRI G4-LA1 / GRI 401-1: fest angestellte Mitarbeitende ohne Lernende im Jahresdurchschnitt; ab NHB 2022 ganzzahlig gerundet)",
+  "source": "BEKB Nachhaltigkeitsberichte 2015 (S. 36), 2020 (S. 26), 2022 (S. 60), 2024 (S. 78/80) & 2025 (S. 77/79) – GRI G4-LA1 / GRI 401-1",
+  "years": {
+    "2011": {
+      "rate": 6.7,
+      "net": 6.7,
+      "gross": null,
+      "note": "Fluktuationsrate netto Festangestellte exkl. Lernende & Aushilfen (NHB 2015 S. 36)"
+    },
+    "2012": {
+      "rate": 5.4,
+      "net": 5.4,
+      "gross": null,
+      "note": "Fluktuationsrate netto Festangestellte exkl. Lernende & Aushilfen (NHB 2015 S. 36)"
+    },
+    "2013": {
+      "rate": 7.3,
+      "net": 7.3,
+      "gross": null,
+      "note": "Fluktuationsrate netto Festangestellte exkl. Lernende & Aushilfen (NHB 2015 S. 36)"
+    },
+    "2014": {
+      "rate": 8.8,
+      "net": 8.8,
+      "gross": null,
+      "note": "Fluktuationsrate netto Festangestellte exkl. Lernende & Aushilfen (NHB 2015 S. 36)"
+    },
+    "2015": {
+      "rate": 7.9,
+      "net": 7.9,
+      "gross": null,
+      "note": "Fluktuationsrate netto (Frauen: 7,8 %, Männer: 8,0 %; NHB 2015 S. 36)"
+    },
+    "2016": {
+      "rate": 8.6,
+      "net": 8.6,
+      "gross": null,
+      "note": "Fluktuationsrate netto (100 Austritte netto; Frauen: 10,4 %, Männer: 7,2 %; NHB 2020 S. 26)"
+    },
+    "2017": {
+      "rate": 6.3,
+      "net": 6.3,
+      "gross": null,
+      "note": "Fluktuationsrate netto (71 Austritte netto; Frauen: 8,5 %, Männer: 4,6 %; NHB 2020 S. 26)"
+    },
+    "2018": {
+      "rate": 10.1,
+      "net": 10.1,
+      "gross": null,
+      "note": "Fluktuationsrate netto (113 Austritte netto; Frauen: 11,2 %, Männer: 9,2 %; NHB 2020 S. 26; im NHB 2022 gerundet 10 %)"
+    },
+    "2019": {
+      "rate": 8.0,
+      "net": 8.0,
+      "gross": null,
+      "note": "Fluktuationsrate netto (90 Austritte netto; Frauen: 9,2 %, Männer: 7,1 %; NHB 2020 S. 26 / NHB 2022 S. 60)"
+    },
+    "2020": {
+      "rate": 5.9,
+      "net": 5.9,
+      "gross": null,
+      "note": "Fluktuationsrate netto (65 Austritte netto; Frauen: 5,8 %, Männer: 6,0 %; NHB 2020 S. 26; im NHB 2022/2024 gerundet 6 %)"
+    },
+    "2021": {
+      "rate": 7.0,
+      "net": 7.0,
+      "gross": null,
+      "note": "Fluktuationsrate netto (79 Austritte netto; Frauen: 7 %, Männer: 7 %; NHB 2025 S. 77)"
+    },
+    "2022": {
+      "rate": 9.0,
+      "net": 9.0,
+      "gross": null,
+      "note": "Fluktuationsrate netto (94 Austritte netto; Frauen: 10 %, Männer: 8 %; NHB 2025 S. 77)"
+    },
+    "2023": {
+      "rate": 9.0,
+      "net": 9.0,
+      "gross": null,
+      "note": "Fluktuationsrate netto BEKB (84 Austritte netto; Frauen: 10 %, Männer: 7 %); IT-Tochter aity AG: 7 % (17 Austritte; NHB 2025 S. 77/79)"
+    },
+    "2024": {
+      "rate": 6.0,
+      "net": 6.0,
+      "gross": null,
+      "note": "Fluktuationsrate netto BEKB (67 Austritte netto; Frauen: 8 %, Männer: 5 %); IT-Tochter aity AG: 2 % (6 Austritte; NHB 2025 S. 77/79)"
+    },
+    "2025": {
+      "rate": 7.0,
+      "net": 7.0,
+      "gross": null,
+      "note": "Fluktuationsrate netto BEKB (83 Austritte netto; Frauen: 8 %, Männer: 7 %); IT-Tochter aity AG: 2 % (6 Austritte; NHB 2025 S. 77/79)"
+    }
+  }
+}
